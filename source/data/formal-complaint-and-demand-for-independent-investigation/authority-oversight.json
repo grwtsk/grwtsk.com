@@ -1,0 +1,2920 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-24",
+  "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+  "extends": "outreach-registry.json",
+  "status": "verified_public_routing_snapshot_not_a_dispatch_log",
+  "statutory_basis": [
+    {
+      "citation": "California Constitution art. V §13",
+      "url": "https://law.justia.com/constitution/california/article-v/section-13/",
+      "verification": "secondary reproduction reviewed"
+    },
+    {
+      "citation": "California Government Code §12550",
+      "url": "https://law.justia.com/codes/california/code-gov/title-2/division-3/part-2/chapter-6/article-4/section-12550/",
+      "verification": "2025 statutory text reproduction reviewed"
+    }
+  ],
+  "record_semantics": {
+    "node": "One official role or designated routing pathway, not necessarily distinct recipient; same IDs as base registry refine existing contacts.",
+    "edge": "Typed oversight/administrative/referral relationship; registry: prefix refers to prior registry ID. No inference of universal hierarchical control.",
+    "verification": "Reviewed public source listing on research date, not delivery test or legal determination. Some links may change."
+  },
+  "safety_and_process": [
+    "Emergency or immediate risk: call 911. For current dependent-adult risk in Fresno call APS; ask for written communication accommodation.",
+    "Separate firsthand facts, allegations, records and requests for investigation. Do not presume guilt or infer public danger from affiliation alone.",
+    "File through authorized intake; do not copy every office, publish private evidence, or contact judges about a pending or prospective case. Courts adjudicate filings through proper procedures.",
+    "Committee or executive correspondence is for oversight and referral and does not toll legal deadlines. A formal agency complaint is independent of legislative outreach.",
+    "No communications sent; no status.md change. Personal authorization/consent, contact details and evidentiary materials must be submitted by the complainant through private channels.",
+    "Officeholder names are dated as shown; recheck after election transitions. Coverage of additional CDPH district offices, municipal law enforcement and exact Stanford affiliate locations remains incomplete."
+  ],
+  "priority_routes": {
+    "ongoing_local_safety": [
+      "aps-fresno",
+      "ucsf-safety"
+    ],
+    "incident_venue": [
+      "stanford-police",
+      "palo-alto-police",
+      "ucsf-police",
+      "sf-police",
+      "registry:da-santa-clara",
+      "registry:da-san-francisco",
+      "registry:da-san-mateo"
+    ],
+    "independent_regulatory": [
+      "dca-mbc",
+      "cdph",
+      "cdph-district-sf",
+      "registry:crd",
+      "hhs-ocr",
+      "ca-ag-dmfea",
+      "doj-crd",
+      "usao-ndca"
+    ],
+    "systemic_review": [
+      "ca-attorney-general",
+      "ca-ag-disability",
+      "ca-governor",
+      "calhhs",
+      "federal-ag",
+      "hhs-secretary"
+    ],
+    "constituent_casework": [
+      "us-senate-padilla",
+      "us-senate-schiff",
+      "house-find-rep",
+      "ca-state-rep"
+    ],
+    "legislative_oversight": [
+      "house-energy-commerce",
+      "house-judiciary",
+      "senate-help",
+      "senate-judiciary-constitution",
+      "ca-sen-bp",
+      "ca-sen-health",
+      "ca-asm-bp",
+      "ca-asm-health",
+      "ca-jlac"
+    ]
+  },
+  "counts": {
+    "authority_records": 74,
+    "typed_relationships": 155,
+    "county_da_supervision_links": 58,
+    "county_sheriff_supervision_links": 58,
+    "dispatches": 0
+  },
+  "authority_records": [
+    {
+      "id": "federal-president",
+      "level": "federal_executive",
+      "office": "White House Office of Presidential Correspondence",
+      "scope": "United States",
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.whitehouse.gov/contact/terms/"
+      },
+      "purpose": "Federal policy concerns or appropriate agency referral.",
+      "source_urls": [
+        "https://www.whitehouse.gov/contact/terms/",
+        "https://www.whitehouse.gov/contact/help/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a criminal complaint or court appeal; agency assistance requires individual authorization and review."
+    },
+    {
+      "id": "federal-ag",
+      "level": "federal_executive",
+      "office": "United States Attorney General / Department of Justice",
+      "scope": "United States",
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.justice.gov/contact-us",
+        "phone": "202-353-1555",
+        "mail": "U.S. Department of Justice, 950 Pennsylvania Avenue NW, Washington, DC 20530-0001"
+      },
+      "purpose": "Request routing to responsible DOJ component.",
+      "source_urls": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use civil rights intake for a formal civil rights report; general correspondence is not formal service."
+    },
+    {
+      "id": "doj-crd",
+      "level": "federal_enforcement",
+      "office": "Department of Justice Civil Rights Division",
+      "scope": "United States",
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.civilrights.justice.gov/report/",
+        "phone": "1-855-856-1247"
+      },
+      "purpose": "Report possible federally actionable civil rights violations.",
+      "source_urls": [
+        "https://www.civilrights.justice.gov/report/",
+        "https://www.civilrights.justice.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not personal counsel. A filed report does not establish a violation."
+    },
+    {
+      "id": "doj-action-center",
+      "level": "federal_enforcement",
+      "office": "DOJ crime and complaint routing",
+      "scope": "United States",
+      "channel": {
+        "kind": "official_directory",
+        "url": "https://www.justice.gov/actioncenter/report-crime"
+      },
+      "purpose": "Select competent federal investigative channel if facts implicate federal law.",
+      "source_urls": [
+        "https://www.justice.gov/actioncenter/report-crime"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Emergency: 911; state/local crimes ordinarily go to local law enforcement."
+    },
+    {
+      "id": "usao-ndca",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney Northern District of California – Civil Rights Coordinator",
+      "scope": "Northern District of California",
+      "channel": {
+        "kind": "complaint_instructions",
+        "url": "https://www.justice.gov/usao-ndca/civil-rights"
+      },
+      "purpose": "Evaluate or refer allegations of federal civil rights violations in the district.",
+      "source_urls": [
+        "https://www.justice.gov/usao-ndca/civil-rights",
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use DOJ civil rights reporting instructions; no personal representation."
+    },
+    {
+      "id": "ndca-sf",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney NDCA – San Francisco office",
+      "scope": "Northern District of California",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.justice.gov/usao-ndca/contact-us",
+        "phone": "415-436-7200",
+        "mail": "450 Golden Gate Ave., P.O. Box 36055, San Francisco, CA 94102"
+      },
+      "purpose": "Local federal office for jurisdictional guidance; same district as Civil Rights Coordinator.",
+      "source_urls": [
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a separate civil rights filing; follow coordinator instructions. Do not use media inbox."
+    },
+    {
+      "id": "ndca-oakland",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney NDCA – Oakland office",
+      "scope": "Northern District of California",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.justice.gov/usao-ndca/contact-us",
+        "phone": "510-637-3680",
+        "mail": "1301 Clay St., Oakland, CA 94612"
+      },
+      "purpose": "Local federal office for jurisdictional guidance; same district as Civil Rights Coordinator.",
+      "source_urls": [
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a separate civil rights filing; follow coordinator instructions. Do not use media inbox."
+    },
+    {
+      "id": "ndca-sj",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney NDCA – San Jose office",
+      "scope": "Northern District of California",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.justice.gov/usao-ndca/contact-us",
+        "phone": "408-535-5061",
+        "mail": "60 South Market St., Suite 1200, San Jose, CA 95113"
+      },
+      "purpose": "Local federal office for jurisdictional guidance; same district as Civil Rights Coordinator.",
+      "source_urls": [
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a separate civil rights filing; follow coordinator instructions. Do not use media inbox."
+    },
+    {
+      "id": "usao-edca",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney Eastern District of California – Civil Division",
+      "scope": "Eastern District of California",
+      "channel": {
+        "kind": "office_contact",
+        "url": "https://www.justice.gov/usao-edca/divisions/civil-division"
+      },
+      "purpose": "Federal affirmative civil enforcement within EDCA.",
+      "source_urls": [
+        "https://www.justice.gov/usao-edca/divisions/civil-division",
+        "https://www.justice.gov/usao-edca/divisions",
+        "https://www.justice.gov/usao-edca/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use postal correspondence or appropriate DOJ intake; webmaster cannot accept case material."
+    },
+    {
+      "id": "edca-fresno",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney EDCA – Fresno office",
+      "scope": "Fresno, Inyo, Kern, Kings, Madera, Mariposa, Merced, Tulare, Tuolumne",
+      "channel": {
+        "kind": "office_phone_mail",
+        "url": "https://www.justice.gov/usao-edca/fresno-office",
+        "phone": "559-497-4000",
+        "mail": "2500 Tulare Street, Suite 4401, Fresno, CA 93721"
+      },
+      "purpose": "Federal matters with local venue; contact for routing.",
+      "source_urls": [
+        "https://www.justice.gov/usao-edca/fresno-office"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "usao-cdca",
+      "level": "federal_enforcement",
+      "office": "U.S. Attorney Central District of California – Civil Rights Section",
+      "scope": "Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara, San Luis Obispo counties",
+      "channel": {
+        "kind": "complaint_form_or_email",
+        "url": "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section",
+        "phone": "213-894-2879",
+        "email": "USACAC.CV-CivilRights@usdoj.gov"
+      },
+      "purpose": "Civil rights issues only when facts establish venue in the district.",
+      "source_urls": [
+        "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Civil section does not handle criminal matters or other districts."
+    },
+    {
+      "id": "hhs-secretary",
+      "level": "federal_executive",
+      "office": "HHS Secretary / Executive Secretariat",
+      "scope": "United States",
+      "channel": {
+        "kind": "postal_correspondence",
+        "url": "https://www.hhs.gov/about/agencies/staff-divisions/immediate-office-secretary/executive-secretariat/index.html",
+        "mail": "U.S. Department of Health and Human Services, 200 Independence Avenue SW, Washington, DC 20201"
+      },
+      "purpose": "Systemic healthcare policy and agency coordination concerns.",
+      "source_urls": [
+        "https://www.hhs.gov/about/agencies/staff-divisions/immediate-office-secretary/executive-secretariat/index.html",
+        "https://www.hhs.gov/about/contact-us/index.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Robert F. Kennedy, Jr.",
+      "limits": "For a specific discrimination allegation use OCR; personal medical records through secure intake."
+    },
+    {
+      "id": "hhs-ocr",
+      "level": "federal_enforcement",
+      "office": "HHS Office for Civil Rights",
+      "scope": "United States / California",
+      "channel": {
+        "kind": "complaint_inquiry",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019",
+        "email": "OCRComplaint@hhs.gov"
+      },
+      "purpose": "Health-care discrimination and civil rights enforcement.",
+      "source_urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use prescribed complaint procedure; check time limits and good-cause extensions."
+    },
+    {
+      "id": "hhs-privacy",
+      "level": "federal_enforcement",
+      "office": "HHS OCR – health information privacy",
+      "scope": "United States",
+      "channel": {
+        "kind": "inquiry",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019",
+        "email": "OCRPrivacy@hhs.gov"
+      },
+      "purpose": "HIPAA or other OCR-covered health information concerns.",
+      "source_urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Distinguish record accuracy disputes from a HIPAA violation."
+    },
+    {
+      "id": "hhs-ocr-sf",
+      "level": "federal_enforcement",
+      "office": "HHS OCR San Francisco field office",
+      "scope": "Regional field office",
+      "channel": {
+        "kind": "postal_correspondence",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019",
+        "mail": "90 7th Street, Suite 8-100, San Francisco, CA 94103"
+      },
+      "purpose": "Regional contact; use national OCR intake for routing.",
+      "source_urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "us-senate-padilla",
+      "level": "federal_legislative",
+      "office": "U.S. Senator Alex Padilla – constituent assistance",
+      "scope": "California",
+      "channel": {
+        "kind": "casework",
+        "url": "https://www.padilla.senate.gov/services/agency-assistance/faqs/",
+        "phone": "559-497-5109"
+      },
+      "purpose": "Request federal agency liaison assistance or raise systemic federal oversight concerns.",
+      "source_urls": [
+        "https://www.padilla.senate.gov/services/agency-assistance/faqs/",
+        "https://www.padilla.senate.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Alex Padilla",
+      "limits": "Cannot act on state/county agencies or direct litigation; complete required privacy release privately."
+    },
+    {
+      "id": "us-senate-schiff",
+      "level": "federal_legislative",
+      "office": "U.S. Senator Adam Schiff – constituent assistance",
+      "scope": "California",
+      "channel": {
+        "kind": "casework",
+        "url": "https://www.schiff.senate.gov/services/help-with-a-federal-agency/",
+        "email": "Constituent_Services@schiff.senate.gov"
+      },
+      "purpose": "Request federal agency assistance using signed authorization.",
+      "source_urls": [
+        "https://www.schiff.senate.gov/services/help-with-a-federal-agency/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Adam Schiff",
+      "limits": "Published email is for completed casework release forms; follow secure instructions; not a generic mass-mail address."
+    },
+    {
+      "id": "house-find-rep",
+      "level": "federal_legislative",
+      "office": "U.S. House constituent representative locator",
+      "scope": "United States",
+      "channel": {
+        "kind": "district_locator",
+        "url": "https://www.house.gov/representatives/find-your-representative",
+        "phone": "202-224-3121"
+      },
+      "purpose": "Identify current representative by residence and use their designated constituent services.",
+      "source_urls": [
+        "https://www.house.gov/representatives/find-your-representative"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "No central representative email directory; current Congress ends Jan 2, 2027. Verify boundaries for next Congress."
+    },
+    {
+      "id": "house-ca21",
+      "level": "federal_legislative",
+      "office": "U.S. House CA-21 – Rep. Jim Costa, Fresno district office",
+      "scope": "CA-21 only",
+      "channel": {
+        "kind": "constituent_casework",
+        "url": "https://costa.house.gov/services",
+        "phone": "559-495-1620",
+        "mail": "2440 Tulare Street, Suite 420, Fresno, CA 93721"
+      },
+      "purpose": "Constituent assistance with federal agencies; verify residence district first.",
+      "source_urls": [
+        "https://costa.house.gov/services",
+        "https://costa.house.gov/contact"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Jim Costa",
+      "limits": "Does not override agency decisions. Do not assume CA-21 from city alone."
+    },
+    {
+      "id": "house-energy-commerce",
+      "level": "federal_legislative",
+      "office": "House Energy and Commerce Committee",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://clerk.house.gov/Committees/IF00",
+        "phone": "202-225-3641",
+        "mail": "2125 Rayburn House Office Building, Washington, DC 20515"
+      },
+      "purpose": "Legislative oversight of health care and federal health regulation.",
+      "source_urls": [
+        "https://clerk.house.gov/Committees/IF00",
+        "https://energycommerce.house.gov/energy-and-commerce-jursidiction"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Systemic policy oversight, not individual adjudication."
+    },
+    {
+      "id": "house-energy-health",
+      "level": "federal_legislative",
+      "office": "House Energy and Commerce – Health Subcommittee",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://energycommerce.house.gov/committees/subcommittee/health",
+        "phone": "202-225-3641"
+      },
+      "purpose": "Health policy, HHS, Medicare/Medicaid, malpractice and health information policy.",
+      "source_urls": [
+        "https://energycommerce.house.gov/committees/subcommittee/health"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use committee route; do not individually contact every member."
+    },
+    {
+      "id": "house-energy-oversight",
+      "level": "federal_legislative",
+      "office": "House Energy and Commerce – Oversight and Investigations",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://energycommerce.house.gov/committees/subcommittee/oversight-investigations",
+        "phone": "202-225-3641"
+      },
+      "purpose": "Review potential systemic shortcomings within committee jurisdiction.",
+      "source_urls": [
+        "https://energycommerce.house.gov/committees/subcommittee/oversight-investigations"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "house-judiciary",
+      "level": "federal_legislative",
+      "office": "House Judiciary Committee",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://clerk.house.gov/Committees/JU00",
+        "phone": "202-225-6906",
+        "mail": "2138 Rayburn House Office Building, Washington, DC 20515"
+      },
+      "purpose": "Federal justice and civil rights policy oversight.",
+      "source_urls": [
+        "https://clerk.house.gov/Committees/JU00"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a complaint intake for individual prosecution or a judicial appeal."
+    },
+    {
+      "id": "senate-help",
+      "level": "federal_legislative",
+      "office": "Senate Health, Education, Labor and Pensions Committee",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_directory",
+        "url": "https://www.help.senate.gov/about/"
+      },
+      "purpose": "Health, public welfare, disability and HHS oversight; chair and ranking member listed on source.",
+      "source_urls": [
+        "https://www.help.senate.gov/about/",
+        "https://www.help.senate.gov/about/issues",
+        "https://www.help.senate.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Committee policy inquiry, not a casework or medical complaint office."
+    },
+    {
+      "id": "senate-judiciary-constitution",
+      "level": "federal_legislative",
+      "office": "Senate Judiciary – Constitution Subcommittee",
+      "scope": "United States",
+      "channel": {
+        "kind": "committee_directory",
+        "url": "https://www.judiciary.senate.gov/about/subcommittees"
+      },
+      "purpose": "DOJ Civil Rights Division oversight and constitutional/statutory rights.",
+      "source_urls": [
+        "https://www.judiciary.senate.gov/about/subcommittees"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Policy oversight only, not court or prosecutor."
+    },
+    {
+      "id": "ca-governor",
+      "level": "state_executive",
+      "office": "California Governor's Office",
+      "scope": "California",
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.gov.ca.gov/contact/",
+        "phone": "916-445-2841",
+        "mail": "1021 O Street, Suite 9000, Sacramento, CA 95814"
+      },
+      "purpose": "Ask for referral of systemic health and justice concerns to competent state officials.",
+      "source_urls": [
+        "https://www.gov.ca.gov/contact/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Gavin Newsom",
+      "limits": "No email attachments; use mail if needed. Not a substitute for filing with an enforcement agency."
+    },
+    {
+      "id": "ca-governor-cabinet",
+      "level": "state_executive",
+      "office": "Governor's cabinet – health and human services / justice and public safety",
+      "scope": "California",
+      "channel": {
+        "kind": "office_routing",
+        "url": "https://www.gov.ca.gov/about/cabinet/"
+      },
+      "purpose": "Executive coordination through the Governor's constituent contact channel.",
+      "source_urls": [
+        "https://www.gov.ca.gov/about/cabinet/",
+        "https://www.gov.ca.gov/contact/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Cabinet coordination not direct supervision of the independently elected Attorney General in all matters."
+    },
+    {
+      "id": "ca-attorney-general",
+      "level": "state_enforcement",
+      "office": "California Attorney General / DOJ Public Inquiry",
+      "scope": "California",
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://oag.ca.gov/contact/general-contact-form"
+      },
+      "purpose": "Submit concern and request evaluation of applicable state enforcement authority.",
+      "source_urls": [
+        "https://oag.ca.gov/contact/general-contact-form",
+        "https://www.oag.ca.gov/contact/faqs"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Rob Bonta",
+      "limits": "Does not provide personal legal representation; local criminal reports ordinarily start with police/sheriff."
+    },
+    {
+      "id": "ca-ag-disability",
+      "level": "state_enforcement",
+      "office": "California DOJ Disability Rights Bureau",
+      "scope": "California",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.oag.ca.gov/civil/disability-rights",
+        "email": "DisabilityRights@doj.ca.gov"
+      },
+      "purpose": "Review evidence of systemic disability discrimination or pattern/practice.",
+      "source_urls": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Individual complaints go to CRD; bureau does not handle isolated violations or matters against state-level public entities."
+    },
+    {
+      "id": "ca-ag-dmfea",
+      "level": "state_enforcement",
+      "office": "California DOJ Division of Medi-Cal Fraud and Elder Abuse",
+      "scope": "California",
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://oag.ca.gov/dmfea/reporting"
+      },
+      "purpose": "Report suspected dependent-adult/elder abuse or Medi-Cal provider fraud within applicable jurisdiction.",
+      "source_urls": [
+        "https://oag.ca.gov/dmfea/reporting",
+        "https://oag.ca.gov/node/614884"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Agency explicitly discourages AI-composed complaints; user should submit firsthand facts in their own words. Do not allege billing fraud without evidence."
+    },
+    {
+      "id": "ca-ag-police-review",
+      "level": "state_enforcement",
+      "office": "California Attorney General – local law enforcement complaints",
+      "scope": "California",
+      "channel": {
+        "kind": "complaint_instructions",
+        "url": "https://oag.ca.gov/police-complaints"
+      },
+      "purpose": "Escalation if allegations specifically concern police or sheriff misconduct and appropriate local remedies exhausted.",
+      "source_urls": [
+        "https://oag.ca.gov/police-complaints"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a substitute for an original crime report about a physician."
+    },
+    {
+      "id": "calhhs",
+      "level": "state_executive",
+      "office": "California Health and Human Services Agency",
+      "scope": "California",
+      "channel": {
+        "kind": "office_phone_mail",
+        "url": "https://www.chhs.ca.gov/about/contact-us/",
+        "phone": "916-654-3454",
+        "mail": "1215 O Street, Sacramento, CA 95814"
+      },
+      "purpose": "Request executive coordination of health facility oversight, social services and access.",
+      "source_urls": [
+        "https://www.chhs.ca.gov/about/contact-us/",
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Kim Johnson",
+      "limits": "Use formal agency-specific intake for complaints; email shown for records requests is not a complaint intake."
+    },
+    {
+      "id": "dca-mbc",
+      "level": "state_regulatory",
+      "office": "Department of Consumer Affairs – Medical Board complaint route",
+      "scope": "California",
+      "channel": {
+        "kind": "complaint_instructions",
+        "url": "https://dca.ca.gov/consumers/complaints/medbd",
+        "phone": "800-633-2322"
+      },
+      "purpose": "Professional licensing and discipline; route to Medical Board.",
+      "source_urls": [
+        "https://dca.ca.gov/consumers/complaints/medbd",
+        "https://www.mbc.ca.gov/Enforcement/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a separate prosecution; submit facts and evidence to Board."
+    },
+    {
+      "id": "cdph",
+      "level": "state_regulatory",
+      "office": "CDPH Center for Health Care Quality – Licensing and Certification",
+      "scope": "California",
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/FileAComplaint.aspx"
+      },
+      "purpose": "Facility complaint routed to responsible district; state and relevant federal survey requirements.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/FileAComplaint.aspx",
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Select exact facility and incident; not all physician offices are licensed facilities."
+    },
+    {
+      "id": "cdph-district-sf",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – San Francisco district",
+      "scope": "San Francisco, San Mateo, parts of Santa Clara including Palo Alto, Mountain View, Santa Clara, Cupertino, Los Altos, Saratoga, Sunnyvale",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "415-330-6353",
+        "email": "CDPH-LNC-DALYCITY@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-sj",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – San Jose district",
+      "scope": "Monterey, San Benito, Santa Cruz, parts of Santa Clara including San Jose and surrounding listed cities",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "408-277-1784",
+        "email": "CDPH-LNC-SANJOSE@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-santarosa",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – Santa Rosa district",
+      "scope": "Napa, Marin, Sonoma, Mendocino, Humboldt, Lake, Del Norte",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "707-576-6775",
+        "email": "CDPH-LNC-SANTAROSA@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-stockton",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – Stockton district",
+      "scope": "Amador, Calaveras, San Joaquin, Stanislaus, Tuolumne; specific facility-type limits apply in San Joaquin",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "209-957-6948",
+        "email": "CDPH-LNC-STOCKTON@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-ventura",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – Ventura district",
+      "scope": "San Luis Obispo, Santa Barbara, Ventura",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "805-604-2926",
+        "email": "CDPH-LNC-VENTURA@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-bakersfield",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – Bakersfield district",
+      "scope": "Kern, Tulare",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "661-336-0543",
+        "email": "CDPH-LNC-BAKERSFIELD@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdph-district-chico",
+      "level": "regional_regulatory",
+      "office": "CDPH Licensing and Certification – Chico district",
+      "scope": "Butte, Colusa, Glenn, Lassen, Modoc, Plumas, Shasta, Siskiyou, Sutter, Tehama, Trinity, Yuba",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "530-895-6711",
+        "email": "CDPH-LNC-CHICO@cdph.ca.gov"
+      },
+      "purpose": "Investigate complaints against facilities under district oversight.",
+      "source_urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+    },
+    {
+      "id": "cdss-aps",
+      "level": "state_social_services",
+      "office": "California Department of Social Services – APS statewide routing",
+      "scope": "California",
+      "channel": {
+        "kind": "zip_routed_phone",
+        "url": "https://cdss.ca.gov/adult-protective-services",
+        "phone": "833-401-0832"
+      },
+      "purpose": "Route report of suspected current dependent-adult abuse or neglect to competent county.",
+      "source_urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a separate complaint for all counties; use relevant ZIP."
+    },
+    {
+      "id": "ca-state-rep",
+      "level": "state_legislative",
+      "office": "California Assembly and Senate district lookup",
+      "scope": "California",
+      "channel": {
+        "kind": "district_locator",
+        "url": "https://findyourrep.legislature.ca.gov/"
+      },
+      "purpose": "Identify constituent state legislators and request state agency oversight assistance.",
+      "source_urls": [
+        "https://findyourrep.legislature.ca.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Confirm current district privately using address; do not publish residential information."
+    },
+    {
+      "id": "ca-sen-health",
+      "level": "state_legislative",
+      "office": "Senate Health Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://shea.senate.ca.gov/committeehome",
+        "phone": "916-651-4111"
+      },
+      "purpose": "Health facilities, insurance, public health and healthcare workforce policy.",
+      "source_urls": [
+        "https://shea.senate.ca.gov/committeehome"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-sen-bp",
+      "level": "state_legislative",
+      "office": "Senate Business, Professions and Economic Development Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+        "phone": "916-651-4104"
+      },
+      "purpose": "Professional licensing board oversight, including DCA regulatory boards.",
+      "source_urls": [
+        "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-sen-jud",
+      "level": "state_legislative",
+      "office": "Senate Judiciary Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://sjud.senate.ca.gov/members",
+        "phone": "916-651-4113"
+      },
+      "purpose": "Civil justice policy and legislation; not a judicial body.",
+      "source_urls": [
+        "https://sjud.senate.ca.gov/members"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-asm-health",
+      "level": "state_legislative",
+      "office": "Assembly Health Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://ahea.assembly.ca.gov/",
+        "phone": "916-319-2097"
+      },
+      "purpose": "Health care regulation and facility policy.",
+      "source_urls": [
+        "https://ahea.assembly.ca.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-asm-bp",
+      "level": "state_legislative",
+      "office": "Assembly Business and Professions Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://abp.assembly.ca.gov/",
+        "phone": "916-319-3301"
+      },
+      "purpose": "Physician licensing and oversight policy.",
+      "source_urls": [
+        "https://abp.assembly.ca.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-asm-jud",
+      "level": "state_legislative",
+      "office": "Assembly Judiciary Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://ajud.assembly.ca.gov/",
+        "phone": "916-319-2334"
+      },
+      "purpose": "Civil code, tort and evidence policy.",
+      "source_urls": [
+        "https://ajud.assembly.ca.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-asm-budget-health",
+      "level": "state_legislative",
+      "office": "Assembly Budget Subcommittee No. 1 on Health",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      },
+      "purpose": "Fiscal oversight of CDPH, DHCS, DMHC and other health agencies.",
+      "source_urls": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-asm-budget-safety",
+      "level": "state_legislative",
+      "office": "Assembly Budget Subcommittee No. 6 on Public Safety",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-6-public-safety"
+      },
+      "purpose": "Fiscal oversight of state DOJ and public safety agencies.",
+      "source_urls": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-6-public-safety"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+    },
+    {
+      "id": "ca-jlac",
+      "level": "state_legislative",
+      "office": "Joint Legislative Audit Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://legaudit.legislature.ca.gov/overview",
+        "phone": "916-319-3300"
+      },
+      "purpose": "Oversees public entities; legislators submit audit requests.",
+      "source_urls": [
+        "https://legaudit.legislature.ca.gov/overview",
+        "https://legaudit.legislature.ca.gov/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Ask a legislator to consider an audit of applicable public agencies; public testimony may become public record."
+    },
+    {
+      "id": "ca-auditor",
+      "level": "state_independent_oversight",
+      "office": "California State Auditor",
+      "scope": "California",
+      "channel": {
+        "kind": "hotline_or_office",
+        "url": "https://www.auditor.ca.gov/contact-us/",
+        "phone": "800-952-5665"
+      },
+      "purpose": "Possible improper governmental activity or legislatively authorized audit.",
+      "source_urls": [
+        "https://www.auditor.ca.gov/contact-us/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Verify whistleblower jurisdiction; not a general private hospital grievance."
+    },
+    {
+      "id": "stanford-police",
+      "level": "local_enforcement",
+      "office": "Stanford Department of Public Safety – main campus",
+      "scope": "Stanford main campus",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.police.stanford.edu/file-policereport.html",
+        "phone": "650-329-2413"
+      },
+      "purpose": "Report alleged crime at actual Stanford campus incident location and request jurisdiction determination.",
+      "source_urls": [
+        "https://www.police.stanford.edu/file-policereport.html",
+        "https://www.police.stanford.edu/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Shares dispatch with Palo Alto; do not duplicate the same incident report."
+    },
+    {
+      "id": "palo-alto-police",
+      "level": "local_enforcement",
+      "office": "Palo Alto Police Department",
+      "scope": "Palo Alto city limits",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.paloalto.gov/Departments/Police/Online-Reporting/File-a-Police-Report",
+        "phone": "650-329-2413"
+      },
+      "purpose": "Report alleged crime in city; call for incidents not eligible for minor-crime online reporting.",
+      "source_urls": [
+        "https://www.paloalto.gov/Departments/Police/Online-Reporting/File-a-Police-Report",
+        "https://www.paloalto.gov/Departments/Police/Contact-Directory"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "General department email not for crime reports or emergencies."
+    },
+    {
+      "id": "redwood-city-police",
+      "level": "local_enforcement",
+      "office": "Redwood City Police – Stanford Redwood City campus routing",
+      "scope": "Redwood City",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.police.stanford.edu/file-policereport.html",
+        "phone": "650-780-7118"
+      },
+      "purpose": "Report incident at Redwood City site if applicable.",
+      "source_urls": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Stanford's published dispatch instructions; do not refer unrelated incidents."
+    },
+    {
+      "id": "menlo-park-police",
+      "level": "local_enforcement",
+      "office": "Menlo Park police dispatch",
+      "scope": "Menlo Park",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.police.stanford.edu/file-policereport.html",
+        "phone": "650-330-6300"
+      },
+      "purpose": "Report local incident if venue established.",
+      "source_urls": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "ucsf-police",
+      "level": "local_enforcement",
+      "office": "UCSF Police Department",
+      "scope": "UCSF campus jurisdiction",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://police.ucsf.edu/report-crime",
+        "phone": "415-476-1414"
+      },
+      "purpose": "Report alleged crime at UCSF site; request accessibility accommodation.",
+      "source_urls": [
+        "https://police.ucsf.edu/report-crime"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "For medical negligence or professional misconduct without facts suggesting crime, use licensing and grievance routes."
+    },
+    {
+      "id": "sf-police",
+      "level": "local_enforcement",
+      "office": "San Francisco Police Department",
+      "scope": "San Francisco city/county",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.sanfranciscopolice.org/get-service/police-reports",
+        "phone": "415-553-0123"
+      },
+      "purpose": "Report alleged crime in jurisdiction; contact nonemergency dispatch if not online eligible.",
+      "source_urls": [
+        "https://www.sanfranciscopolice.org/get-service/police-reports"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "fresno-police",
+      "level": "local_enforcement",
+      "office": "Fresno Police Department",
+      "scope": "City of Fresno",
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.fresno.gov/police/police-online-reporting-system/",
+        "phone": "559-621-7000"
+      },
+      "purpose": "Report local criminal conduct only; seek jurisdictional guidance if uncertain.",
+      "source_urls": [
+        "https://www.fresno.gov/police/police-online-reporting-system/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Fresno residency alone does not establish venue for Bay Area conduct."
+    },
+    {
+      "id": "aps-fresno",
+      "level": "local_protective_services",
+      "office": "Fresno County Adult Protective Services",
+      "scope": "Fresno County",
+      "channel": {
+        "kind": "24h_hotline",
+        "url": "https://www.fresnocountyca.gov/Departments/Social-Services/Adult-Services/Adult-Protective-Services",
+        "phone": "559-600-3383"
+      },
+      "purpose": "Assess suspected ongoing dependent-adult neglect or abuse and local support/referrals.",
+      "source_urls": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/Adult-Services/Adult-Protective-Services"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "If immediate physical danger or medical emergency call 911."
+    },
+    {
+      "id": "aps-san-francisco",
+      "level": "local_protective_services",
+      "office": "San Francisco Adult Protective Services",
+      "scope": "San Francisco County",
+      "channel": {
+        "kind": "24h_hotline",
+        "url": "https://www.sfhsa.org/services/protection-safety/adult-protective-services",
+        "phone": "415-355-6700"
+      },
+      "purpose": "Assess suspected abuse/neglect within county jurisdiction.",
+      "source_urls": [
+        "https://www.sfhsa.org/services/protection-safety/adult-protective-services"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Online reports only for nonurgent cases without physical abuse."
+    },
+    {
+      "id": "fresno-board",
+      "level": "local_legislative",
+      "office": "Fresno County Board of Supervisors / Clerk",
+      "scope": "Fresno County",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
+        "phone": "559-600-3529",
+        "email": "ClerkBOS@FresnoCountyCA.gov"
+      },
+      "purpose": "Local social service and public health budget/policy oversight; constituent referral.",
+      "source_urls": [
+        "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
+        "https://www.fresnocountyca.gov/Departments/Board-of-Supervisors"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not prosecution authority; avoid protected health information in public comments."
+    },
+    {
+      "id": "fresno-dss",
+      "level": "local_protective_services",
+      "office": "Fresno County Department of Social Services administration",
+      "scope": "Fresno County",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team",
+        "phone": "559-600-2302"
+      },
+      "purpose": "Administrative escalation for county social services; APS intake remains primary.",
+      "source_urls": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Sanja Bugay"
+    },
+    {
+      "id": "shc-compliance",
+      "level": "institutional_compliance",
+      "office": "Stanford Health Care / Stanford Medicine Children's Health Office of Compliance and Privacy",
+      "scope": "Stanford Health Care / SMCH",
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://stanfordhealthcare.org/about-us/contact.html"
+      },
+      "purpose": "Code of conduct and compliance concerns through designated web report; distinguish from patient grievance.",
+      "source_urls": [
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Internal channel, not independent regulator."
+    },
+    {
+      "id": "shc-medical-staff",
+      "level": "institutional_compliance",
+      "office": "Stanford Health Care Medical Staff Office",
+      "scope": "Stanford Health Care",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://stanfordhealthcare.org/about-us/contact.html",
+        "phone": "650-725-6021"
+      },
+      "purpose": "Ask Patient Relations for appropriate medical-staff leadership review and escalation.",
+      "source_urls": [
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Administrative office; not a substitute for Medical Board complaint."
+    },
+    {
+      "id": "shc-board",
+      "level": "institutional_governance",
+      "office": "Stanford Health Care Board of Directors",
+      "scope": "Stanford Health Care",
+      "channel": {
+        "kind": "governance_directory",
+        "url": "https://stanfordhealthcare.org/about-us/leadership.html"
+      },
+      "purpose": "Request board-level patient safety and governance review through Patient Relations/compliance.",
+      "source_urls": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Amit Sinha (board chair, roster as of 2026-09-01)",
+      "limits": "No individual director contact list; use institutional route."
+    },
+    {
+      "id": "stanford-president",
+      "level": "institutional_governance",
+      "office": "Stanford University Office of President",
+      "scope": "Stanford University",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://president.stanford.edu/contact",
+        "phone": "650-723-2481",
+        "email": "president@stanford.edu"
+      },
+      "purpose": "University academic governance concerns; request appropriate institutional referral.",
+      "source_urls": [
+        "https://president.stanford.edu/contact",
+        "https://www.stanford.edu/about/leadership-and-governance"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Jonathan Levin",
+      "limits": "University and hospital legal entities differ; not independent clinical regulator."
+    },
+    {
+      "id": "stanford-trustees",
+      "level": "institutional_governance",
+      "office": "Stanford University Board of Trustees office",
+      "scope": "Stanford University",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://boardoftrustees.stanford.edu/contact",
+        "phone": "650-721-2926",
+        "email": "boardoffice@stanford.edu"
+      },
+      "purpose": "University governance concerns via board office.",
+      "source_urls": [
+        "https://boardoftrustees.stanford.edu/contact"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use one board-office route; not direct supervision of each clinician."
+    },
+    {
+      "id": "ucsf-safety",
+      "level": "institutional_compliance",
+      "office": "UCSF Health Patient Safety Hotline",
+      "scope": "UCSF Health",
+      "channel": {
+        "kind": "hotline",
+        "url": "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "phone": "415-353-8787"
+      },
+      "purpose": "Current patient safety issue; parallel formal grievance as appropriate.",
+      "source_urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "ucsf-relations",
+      "level": "institutional_compliance",
+      "office": "UCSF Health Patient Relations",
+      "scope": "UCSF Health",
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "phone": "415-353-1936"
+      },
+      "purpose": "Request independent grievance review, accessible communication and continuity of care.",
+      "source_urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "https://www.ucsfhealth.org/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed"
+    },
+    {
+      "id": "ucsf-compliance",
+      "level": "institutional_compliance",
+      "office": "UCSF Office of Ethics and Compliance – Whistleblower Program",
+      "scope": "UCSF",
+      "channel": {
+        "kind": "hotline_or_webform",
+        "url": "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation",
+        "phone": "800-403-4744",
+        "email": "whistleblower@ucsf.edu"
+      },
+      "purpose": "Improper activities within whistleblower program jurisdiction; triage for appropriate review.",
+      "source_urls": [
+        "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Email for questions; use designated hotline/form for complaint. Not ordinary clinical feedback."
+    },
+    {
+      "id": "ucsf-executive",
+      "level": "institutional_governance",
+      "office": "UCSF Health President/CEO and clinical leadership",
+      "scope": "UCSF Health",
+      "channel": {
+        "kind": "governance_directory",
+        "url": "https://www.ucsfhealth.org/about/leadership"
+      },
+      "purpose": "Request clinical governance escalation via designated Patient Relations office.",
+      "source_urls": [
+        "https://www.ucsfhealth.org/about/leadership",
+        "https://www.ucsfhealth.org/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Suresh Gunasekaran",
+      "limits": "Do not distribute individual allegations to unrelated executives; use the official institutional route."
+    },
+    {
+      "id": "uc-regents",
+      "level": "institutional_governance",
+      "office": "University of California Board of Regents office",
+      "scope": "University of California",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://regents.universityofcalifornia.edu/contact/",
+        "email": "regentsoffice@ucop.edu",
+        "mail": "Office of the Secretary and Chief of Staff to the Regents, 1111 Franklin St., 12th floor, Oakland, CA 94607"
+      },
+      "purpose": "Board governance concerns regarding UC public institution and systemwide policy.",
+      "source_urls": [
+        "https://regents.universityofcalifornia.edu/contact/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Correspondence may be public record; no confidential records. Not an adjudicator."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-alameda",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-alameda-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-alpine",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-alpine-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-amador",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-amador-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-butte",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-butte-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-calaveras",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-calaveras-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-colusa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-colusa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-contra-costa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-contra-costa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-del-norte",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-del-norte-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-el-dorado",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-el-dorado-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-fresno",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-fresno-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-glenn",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-glenn-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-humboldt",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-humboldt-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-imperial",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-imperial-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-inyo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-inyo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-kern",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-kern-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-kings",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-kings-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-lake",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-lake-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-lassen",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-lassen-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-los-angeles",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-los-angeles-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-madera",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-madera-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-marin",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-marin-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-mariposa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-mariposa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-mendocino",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-mendocino-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-merced",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-merced-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-modoc",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-modoc-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-mono",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-mono-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-monterey",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-monterey-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-napa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-napa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-nevada",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-nevada-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-orange",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-orange-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-placer",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-placer-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-plumas",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-plumas-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-riverside",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-riverside-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-sacramento",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-sacramento-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-benito",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-benito-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-bernardino",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-bernardino-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-diego",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-diego-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-francisco",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-francisco-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-joaquin",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-joaquin-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-luis-obispo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-luis-obispo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-san-mateo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-san-mateo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-santa-barbara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-santa-barbara-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-santa-clara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-santa-clara-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-santa-cruz",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-santa-cruz-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-shasta",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-shasta-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-sierra",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-sierra-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-siskiyou",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-siskiyou-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-solano",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-solano-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-sonoma",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-sonoma-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-stanislaus",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-stanislaus-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-sutter",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-sutter-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-tehama",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-tehama-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-trinity",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-trinity-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-tulare",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-tulare-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-tuolumne",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-tuolumne-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-ventura",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-ventura-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-yolo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-yolo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:da-yuba",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case."
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "registry:county-yuba-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office."
+    },
+    {
+      "from": "ca-governor",
+      "to": "ca-attorney-general",
+      "relation": "statutory_direction_to_assist_district_attorney",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Attorney General is independently elected; direction is specific statutory authority, not plenary control."
+    },
+    {
+      "from": "federal-ag",
+      "to": "doj-crd",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us",
+        "https://www.civilrights.justice.gov/"
+      ],
+      "limits": "Use designated division intake."
+    },
+    {
+      "from": "federal-ag",
+      "to": "usao-ndca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority."
+    },
+    {
+      "from": "federal-ag",
+      "to": "usao-edca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority."
+    },
+    {
+      "from": "federal-ag",
+      "to": "usao-cdca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority."
+    },
+    {
+      "from": "usao-ndca",
+      "to": "doj-crd",
+      "relation": "civil_rights_coordination",
+      "basis": [
+        "https://www.justice.gov/usao-ndca/civil-rights"
+      ],
+      "limits": "Central intake can route matter; avoid duplicate reports."
+    },
+    {
+      "from": "hhs-secretary",
+      "to": "hhs-ocr",
+      "relation": "departmental_oversight",
+      "basis": [
+        "https://www.hhs.gov/about/agencies/staff-divisions/immediate-office-secretary/executive-secretariat/index.html"
+      ],
+      "limits": "Formal OCR complaint separately."
+    },
+    {
+      "from": "hhs-ocr",
+      "to": "hhs-privacy",
+      "relation": "specialized_intake",
+      "basis": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "limits": "Separate privacy and civil rights claims as appropriate."
+    },
+    {
+      "from": "senate-judiciary-constitution",
+      "to": "doj-crd",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://www.judiciary.senate.gov/about/subcommittees"
+      ],
+      "limits": "Not individual case direction."
+    },
+    {
+      "from": "senate-help",
+      "to": "hhs-secretary",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://www.help.senate.gov/about/issues"
+      ],
+      "limits": "Policy and oversight, not individual case direction."
+    },
+    {
+      "from": "house-energy-commerce",
+      "to": "hhs-secretary",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://energycommerce.house.gov/energy-and-commerce-jursidiction"
+      ],
+      "limits": "Policy oversight."
+    },
+    {
+      "from": "house-energy-commerce",
+      "to": "house-energy-health",
+      "relation": "committee_subcommittee",
+      "basis": [
+        "https://clerk.house.gov/Committees/IF00"
+      ],
+      "limits": "Shared office channel."
+    },
+    {
+      "from": "house-energy-commerce",
+      "to": "house-energy-oversight",
+      "relation": "committee_subcommittee",
+      "basis": [
+        "https://clerk.house.gov/Committees/IF00"
+      ],
+      "limits": "Shared office channel."
+    },
+    {
+      "from": "ca-governor",
+      "to": "calhhs",
+      "relation": "executive_agency_coordination",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Use statutory intake for formal complaints."
+    },
+    {
+      "from": "calhhs",
+      "to": "cdph",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction."
+    },
+    {
+      "from": "calhhs",
+      "to": "cdss-aps",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-sf",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-sj",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-santarosa",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-stockton",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-ventura",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-bakersfield",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "cdph",
+      "to": "cdph-district-chico",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits."
+    },
+    {
+      "from": "ca-sen-bp",
+      "to": "dca-mbc",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee"
+      ],
+      "limits": "Not authority to decide licensing cases."
+    },
+    {
+      "from": "ca-asm-bp",
+      "to": "dca-mbc",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://abp.assembly.ca.gov/"
+      ],
+      "limits": "Licensing policy, not individual case disposition."
+    },
+    {
+      "from": "ca-asm-budget-health",
+      "to": "cdph",
+      "relation": "budget_oversight",
+      "basis": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      ],
+      "limits": "Fiscal oversight."
+    },
+    {
+      "from": "ca-asm-budget-safety",
+      "to": "ca-attorney-general",
+      "relation": "budget_oversight",
+      "basis": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-6-public-safety"
+      ],
+      "limits": "Fiscal oversight."
+    },
+    {
+      "from": "ca-jlac",
+      "to": "ca-auditor",
+      "relation": "legislative_audit_process",
+      "basis": [
+        "https://legaudit.legislature.ca.gov/overview"
+      ],
+      "limits": "Audit requests come from legislators; not direct citizen order."
+    },
+    {
+      "from": "cdss-aps",
+      "to": "aps-fresno",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts."
+    },
+    {
+      "from": "cdss-aps",
+      "to": "aps-san-francisco",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts."
+    },
+    {
+      "from": "fresno-board",
+      "to": "fresno-dss",
+      "relation": "county_policy_budget_oversight",
+      "basis": [
+        "https://www.fresnocountyca.gov/Departments/Board-of-Supervisors",
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "limits": "Not prosecutorial direction."
+    },
+    {
+      "from": "fresno-dss",
+      "to": "aps-fresno",
+      "relation": "departmental_administration",
+      "basis": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "limits": "Direct reports to APS hotline."
+    },
+    {
+      "from": "stanford-police",
+      "to": "registry:da-santa-clara",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "limits": "Confirm county and exact site; main campus includes land in more than one county."
+    },
+    {
+      "from": "stanford-police",
+      "to": "registry:da-san-mateo",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "limits": "Only for site in San Mateo County; do not duplicate."
+    },
+    {
+      "from": "ucsf-police",
+      "to": "registry:da-san-francisco",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://police.ucsf.edu/report-crime"
+      ],
+      "limits": "Confirm exact UCSF location and venue."
+    },
+    {
+      "from": "ucsf-executive",
+      "to": "ucsf-relations",
+      "relation": "institutional_grievance_routing",
+      "basis": [
+        "https://www.ucsfhealth.org/contact-us"
+      ],
+      "limits": "Internal route; independent regulator separate."
+    },
+    {
+      "from": "uc-regents",
+      "to": "ucsf-executive",
+      "relation": "system_governance",
+      "basis": [
+        "https://regents.universityofcalifornia.edu/contact/",
+        "https://www.ucsfhealth.org/about/leadership"
+      ],
+      "limits": "Governance relationship, not direct clinical case decision."
+    },
+    {
+      "from": "stanford-trustees",
+      "to": "stanford-president",
+      "relation": "university_governance",
+      "basis": [
+        "https://www.stanford.edu/about/leadership-and-governance"
+      ],
+      "limits": "Distinct from hospital governing board."
+    },
+    {
+      "from": "shc-board",
+      "to": "shc-compliance",
+      "relation": "institutional_governance_routing",
+      "basis": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "limits": "Request routing through designated office; not a claim of exact internal reporting line."
+    }
+  ]
+}
