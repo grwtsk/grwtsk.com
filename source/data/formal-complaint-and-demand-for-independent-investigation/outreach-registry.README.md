@@ -48,6 +48,16 @@ The professional evidence records link official Stanford and UCSF profiles, dist
 
 No invitations, membership commitments or dispatches have been recorded. The resources are verified as published institutional pathways, not tested deliveries or guaranteed service eligibility.
 
+## Neurological disease, disability rights and civic organizations (2026-11-24)
+
+[disease-disability-and-civic-resources.json](disease-disability-and-civic-resources.json) adds 56 public organizational resource records: 21 neurological and rare-disease organizations, 12 disability-rights organizations, seven patient-rights and patient-safety organizations, ten civic and policy organizations, and all six qualified California political parties. The records include 22 published organizational email routes and 26 office or helpline telephone routes. Some organizations are already represented in earlier files; the total is a record count, not a count of unique organizations or people.
+
+For local disability support, Resources for Independence, Central Valley serves Fresno and surrounding counties. For disease-specific resource guidance, use the National Ataxia Foundation or National Organization for Rare Disorders. For accessible communication and disability rights, CommunicationFIRST, DREDF and Disability Rights California provide relevant resources. For assistance with access to healthcare, use the Health Consumer Alliance's screening channel or Patient Advocate Foundation's eligibility-based service.
+
+The American Brain Coalition, California Disability Leadership Alliance and California Rare Disease Caucus are established policy and advocacy networks. The new file includes their public sources, plus the Secretary of State's current list of all six qualified California parties, without ranking or endorsement. Civic organizations and policy institutes have distinct missions. Use their published general policy channels for voluntary, de-identified discussion of systemic healthcare safety, disability rights and oversight. They are not investigative authorities or recipients of individualized allegations. Do not distribute sensitive evidence or mobilize pressure on private individuals or their associates.
+
+Check each record's channel kind and purpose: a policy information page is not a complaint form. Emails and telephone numbers are published organizational routes, not tested deliveries. Recheck elected-office and party information after legislative transitions. No invitations, dispatches, endorsements or confirmed coalition participation are recorded.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
