@@ -80,6 +80,16 @@ The historical index distinguishes state hospital penalties, federal hospital su
 
 This is a sourced initial historical index, not a claim to have located every investigation or verified every current case disposition. Contact listings are not delivery-tested. No notifications or coalition commitments are recorded.
 
+## Peninsula community and neurology department resources (2026-11-24)
+
+[peninsula-community-and-neurology-resources.json](peninsula-community-and-neurology-resources.json) adds 50 community-resource records, 79 Stanford/UCSF neurology program and institutional routing records, and two official faculty directory references (131 records). It includes all 22 programs on the reviewed Stanford divisions/programs index, all 17 entries on the UCSF divisions index, all 16 entries on the UCSF clinic index, and 14 Stanford pediatric neurology service entries. Programs and clinic entries overlap; they are not separate recipients.
+
+Community coverage includes Palo Alto, East Palo Alto, Menlo Park/Belle Haven, North Fair Oaks/Redwood City, Mountain View, Los Altos/Los Altos Hills and the surrounding counties. The city resource directories, Palo Alto Community Fund grantee directory, Thrive Alliance membership directory, Silicon Valley Council of Nonprofits and 211 Bay Area can identify additional appropriate services. Organization listings are not a complete census of community groups or verified individual leaders. Private residential neighborhood contacts, members and family contacts are not collected.
+
+The Stanford faculty directory and UCSF A–Z faculty directory cover academic faculty, including non-physician researchers; the departments report 140+ and 302 faculty, respectively. Use these resources to identify appropriate specialists and verify credentials, not as distribution lists. The shared institutional leadership, quality, patient-relations and clinical referral routes remain distinct. Formal allegations belong with competent investigators and designated grievance offices. For a clinical review, request a suitably qualified, conflict-screened reviewer, preferably independent of the care teams involved. Patient advisory programs are voluntary and not complaint distribution channels.
+
+Public sources were reviewed on the research date; delivery, eligibility, full practicing-neurologist coverage, and individual community-group coverage are not established. No notifications have been dispatched.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
