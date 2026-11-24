@@ -26,6 +26,18 @@ Open [authority-oversight.json](authority-oversight.json) for the independently 
 
 Use the graph's `priority_routes` and `relationships` fields to select the competent office, not as a broadcast list. Keep privacy releases, case numbers and evidence in secure channels. Verification means a published public source was reviewed, not that the contact was tested or that a report was received. No notifications have been made. The statutory text was reviewed in a secondary reproduction because the official legislative site returned HTTP 403. The CDPH facility directory determines the correct district, and not all its regional entries have been separately checked.
 
+## Medical Board investigation and oversight (2026-11-24)
+
+[medical-board-oversight.json](medical-board-oversight.json) separately maps the alleged inadequacy of the Medical Board's own investigation. It adds 75 role/unit records, including 44 named role records, all 13 serving Board members, two vacant seats, and 19 shared official contact routes. Some roles overlap the earlier authority map; counts are not additive as unique individuals.
+
+Start with the Complainant Liaison Unit (916-263-2383 or 800-633-2322) for a closure-review request under Business and Professions Code §2024.5(a)(5). Request a written, accessible means of supplying the existing case number, closure date, supporting evidence and any new evidence. The interview requirement in §2220.1 was implemented in 2025; determine which requirements actually applied at the time of the historical investigation. Reopening is subject to statutory conditions, not guaranteed.
+
+File a separate complaint regarding the Board's services with the DCA Correspondence Unit: https://www.dca.ca.gov/consumers/complaints/ccru.html. If the case reached the Health Quality Investigation Unit or Attorney General Health Quality Enforcement Section, identify the relevant case stage and request proper review. For evidence of improper state agency activity, use the State Auditor's confidential intake: https://www.auditor.ca.gov/whistleblower/.
+
+Executive oversight is routed through the Governor's Office, Business and Consumer Services Agency (established July 1, 2026), Department of Consumer Affairs and Board Executive Office. The statutory appointment and legislative oversight paths include the Senate Rules Committee, Assembly Speaker, and joint sunset review committees (Senate Business, Professions and Economic Development and Assembly Business and Professions). Include the appropriate budget and audit committees and existing related health, judiciary and public safety committee records when relevant.
+
+The 2023 independent enforcement monitor report is a relevant source of general systemic findings, not a finding about this complainant's case. Request evaluation of how the identified shortcomings were addressed and whether any affected this investigation. Do not attribute responsibility to current members simply because they are current appointees. Use shared official office contacts and formal processes rather than contacting individual adjudicators or sending duplicative copies. No dispatch has been made.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
