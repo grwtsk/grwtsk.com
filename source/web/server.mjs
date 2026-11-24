@@ -13,7 +13,10 @@ export function createStaticServer(directory = join(here, 'dist')) {
     res.setHeader('Referrer-Policy', 'no-referrer');
     res.setHeader('X-Frame-Options', 'DENY');
     res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
-    res.setHeader('Content-Security-Policy', "default-src 'none'; style-src 'self'; img-src 'self' https:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'");
+    // Authorize only the exact authored dataLayer bootstrap and Google's tag
+    // loader. Keep eval, arbitrary inline scripts and ad-specific hosts blocked.
+    // The HTML integration test checks this hash against the emitted script.
+    res.setHeader('Content-Security-Policy', "default-src 'none'; script-src 'sha256-ncN3GiMXXUNS5+4lYiHaTmEmdKZkqNRyoFhUZpR8Bco=' https://www.googletagmanager.com; connect-src https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com; style-src 'self'; img-src 'self' https:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'");
     if (req.method !== 'GET' && req.method !== 'HEAD') {
       res.writeHead(405, { Allow: 'GET, HEAD', 'Content-Type': 'text/plain; charset=utf-8' });
       return res.end('Method not allowed\n');

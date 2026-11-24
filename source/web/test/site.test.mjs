@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { once } from 'node:events';
+import { createHash } from 'node:crypto';
 import { parse } from 'parse5';
 import { createStaticServer } from '../server.mjs';
 
@@ -22,11 +23,23 @@ const attr = (node, name) => node.attrs?.find(a => a.name === name)?.value;
 const text = node => node.nodeName === '#text' ? node.value : (node.childNodes ?? []).map(text).join('');
 const elements = (node, tag) => select(node, x => x.tagName === tag);
 const hrefs = node => elements(node, 'a').map(a => attr(a, 'href'));
-function articleSchema(node) {
+function analyticsScripts(node) {
   const scripts = elements(node, 'script');
-  assert.equal(scripts.length, 1, 'only inert JSON-LD script is permitted');
-  assert.equal(attr(scripts[0], 'type'), 'application/ld+json');
-  const data = JSON.parse(text(scripts[0]));
+  assert.equal(scripts.length, 3, 'only the approved analytics pair and inert JSON-LD are permitted');
+  const [bootstrap, loader, structured] = scripts;
+  assert.equal(attr(bootstrap, 'src'), undefined);
+  assert.equal(text(bootstrap).trim(), "window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());");
+  assert.equal(attr(loader, 'src'), 'https://www.googletagmanager.com/gtm.js?id=GTM-TMB9CVJW');
+  assert.notEqual(attr(loader, 'async'), undefined);
+  assert.equal(attr(loader, 'referrerpolicy'), 'no-referrer');
+  assert.equal(text(loader).trim(), '');
+  assert.equal(attr(structured, 'type'), 'application/ld+json');
+  assert.equal(attr(structured, 'src'), undefined);
+  return { bootstrap, structured };
+}
+function articleSchema(node) {
+  const { structured } = analyticsScripts(node);
+  const data = JSON.parse(text(structured));
   assert.equal(data['@context'], 'https://schema.org');
   return data['@graph'].find(entry => entry['@type'] === 'Article');
 }
@@ -94,7 +107,7 @@ test('latest full article, deterministic archive, responses and stable canonical
   assert.equal(attr(full, 'data-slug'), 'newer');
   assert.equal(attr(elements(full, 'data')[0], 'value'), 'sent');
   assert.equal(text(elements(full, 'data')[0]), 'Sent');
-  const graph = JSON.parse(text(elements(homeDoc, 'script')[0]))['@graph'];
+  const graph = JSON.parse(text(analyticsScripts(homeDoc).structured))['@graph'];
   const homePage = graph.find(x => x['@id'] === 'https://grwtsk.com/');
   assert.equal(homePage.mainEntity['@id'], schema['@id']);
   assert.equal(homePage.hasPart.mainEntity.numberOfItems, 1);
@@ -156,8 +169,15 @@ test('real Vite distribution preserves generated articles and serves only static
   async function checkPage(path, generatedPath) {
     const response = await fetch(origin + path);
     assert.equal(response.status, 200, path);
-    assert.match(response.headers.get('content-security-policy'), /default-src 'none'/);
+    const policy = response.headers.get('content-security-policy');
+    assert.match(policy, /default-src 'none'/);
     const actual = parse(await response.text());
+    const { bootstrap } = analyticsScripts(actual);
+    const digest = createHash('sha256').update(text(bootstrap)).digest('base64');
+    assert.ok(policy.includes("'sha256-" + digest + "'"), 'CSP hash must authorize the exact emitted bootstrap');
+    assert.match(policy, /script-src [^;]*https:\/\/www\.googletagmanager\.com/);
+    assert.match(policy, /connect-src [^;]*google-analytics\.com/);
+    assert.doesNotMatch(policy, /'unsafe-inline'|'unsafe-eval'/);
     const expected = parse(readFileSync(join(generated, generatedPath), 'utf8'));
     assert.equal(elements(actual, 'h1').length, 1);
     assert.equal(text(elements(actual, 'h1')[0]), text(elements(expected, 'h1')[0]));

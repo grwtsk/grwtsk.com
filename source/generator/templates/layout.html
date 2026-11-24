@@ -20,6 +20,12 @@
   {% if article.modified_at %}<meta property="article:modified_time" content="{{ article.modified_at }}">{% endif %}
   {% endif %}
   <link rel="stylesheet" href="/style.css">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TMB9CVJW" referrerpolicy="no-referrer"></script>
   <script type="application/ld+json">{{ structured | safe }}</script>
 </head>
 <body>

@@ -20,6 +20,17 @@ const close = () => new Promise(resolve => server.close(resolve));
 function near(actual, expected, label, tolerance = 0.15) {
   assert.ok(Math.abs(actual - expected) <= tolerance, label + ': expected ' + expected + ', got ' + actual);
 }
+async function verifyAnalytics(page) {
+  await page.waitForFunction(() => window.__gtmTestLoaded === true, { timeout: 5000 });
+  const analytics = await page.evaluate(() => ({
+    initialized: window.__gtmTestInitialized,
+    violations: window.__gtmTestViolations,
+    loaders: document.querySelectorAll('script[src="https://www.googletagmanager.com/gtm.js?id=GTM-TMB9CVJW"]').length
+  }));
+  assert.equal(analytics.initialized, true, 'dataLayer must exist before the tag loader executes');
+  assert.equal(analytics.loaders, 1);
+  assert.deepEqual(analytics.violations, [], 'CSP must allow the approved bootstrap and loader');
+}
 async function inspect(page) {
   return page.evaluate(() => {
     const capture = selector => {
@@ -116,9 +127,27 @@ try {
     });
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
+    // Never send real analytics events from CI. Only the exact GTM request
+    // receives a local test double; all other external requests are blocked.
+    await page.route('**/*', async route => {
+      const url = route.request().url();
+      if (url === 'https://www.googletagmanager.com/gtm.js?id=GTM-TMB9CVJW') {
+        return route.fulfill({
+          contentType: 'application/javascript',
+          body: "window.__gtmTestInitialized = Array.isArray(window.dataLayer) && typeof window.gtag === 'function' && Array.from(window.dataLayer[0] || [])[0] === 'js'; window.__gtmTestLoaded = true;"
+        });
+      }
+      if (url.startsWith(origin + '/')) return route.continue();
+      return route.abort();
+    });
+    await page.addInitScript(() => {
+      window.__gtmTestViolations = [];
+      document.addEventListener('securitypolicyviolation', e => window.__gtmTestViolations.push(e.violatedDirective + ': ' + e.blockedURI));
+    });
     const response = await page.goto(origin + '/', { waitUntil: 'load' });
     assert.equal(response.status(), 200);
     await page.evaluate(() => document.fonts.ready);
+    await verifyAnalytics(page);
     const home = await inspect(page);
     validate(home, config.width <= 560, config.dark);
     assert.equal(home.canonical, 'https://grwtsk.com/');
@@ -127,6 +156,7 @@ try {
       const path = '/articles/' + home.article + '/';
       assert.equal((await page.goto(origin + path, { waitUntil: 'load' })).status(), 200);
       await page.evaluate(() => document.fonts.ready);
+      await verifyAnalytics(page);
       const permalink = await inspect(page);
       validate(permalink, config.width <= 560, config.dark);
       assert.equal(permalink.canonical, 'https://grwtsk.com' + path);
