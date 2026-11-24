@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-24",
+  "extends": [
+    "outreach-registry.json",
+    "authority-oversight.json",
+    "medical-board-oversight.json"
+  ],
+  "purpose": "Directory of relevant community support, confidential advocacy, clinical ethics and pastoral resources; separate narrowly relevant professional evidence for independent investigation. Not a distribution list or established coalition.",
+  "scope_and_privacy": [
+    "Resources are for appropriate service requests, confidential legal intake, or voluntary de-identified policy dialogue. No allegations or private medical records should be broadcast to community or spiritual organizations.",
+    "No relatives, private associates, donors, unrelated alumni networks, award sponsors or former affiliations are compiled as outreach targets. Public profile links are evidence references, not lists of recipients.",
+    "Past affiliations, honors and titles do not establish current regulatory authority or complicity. Only documented relationships material to the case should be verified by authorized investigators.",
+    "Invite a willing organization to designate a representative; do not equate a response, membership, faith or affiliation with agreement or endorsement.",
+    "Witnesses including family members of the complainant may provide firsthand testimony privately to appropriate investigators, with consent; do not publish contact information or private testimony.",
+    "Professional facts are dated public institutional descriptions, not proof of the allegations. Individual license status and public disciplinary records have not been separately verified."
+  ],
+  "resources": [
+    {
+      "id": "palo-alto-hrc",
+      "category": "local_policy",
+      "organization": "Palo Alto Human Relations Commission",
+      "service_area": "Palo Alto",
+      "channel": {
+        "type": "public_policy_and_referral",
+        "url": "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Relations-Commission"
+      },
+      "purpose": "Race and equity policy and community inclusion.",
+      "limitations": "Public communications can become public records; discuss de-identified policy issues, not personal medical records or named allegations.",
+      "source_urls": [
+        "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Relations-Commission"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "epa-community",
+      "category": "community_services",
+      "organization": "City of East Palo Alto – Community Programs",
+      "service_area": "East Palo Alto",
+      "channel": {
+        "type": "community_resource_referral",
+        "url": "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      },
+      "purpose": "Local community services and referrals.",
+      "limitations": "Directory does not imply city endorsement of listed organizations; not an investigative body.",
+      "source_urls": [
+        "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "smc-equity",
+      "category": "local_policy",
+      "organization": "San Mateo County Office of Racial and Social Justice",
+      "service_area": "San Mateo County",
+      "channel": {
+        "type": "public_policy_and_referral",
+        "url": "https://www.smcgov.org/ceo/office-racial-and-social-justice"
+      },
+      "purpose": "County-level equity policy, structural barriers and community engagement.",
+      "limitations": "Not an individual private-hospital complaint intake; request policy guidance.",
+      "source_urls": [
+        "https://www.smcgov.org/ceo/office-racial-and-social-justice"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "smc-disability-commission",
+      "category": "local_policy",
+      "organization": "San Mateo County Commission on Disabilities",
+      "service_area": "San Mateo County",
+      "channel": {
+        "type": "public_policy_and_referral",
+        "url": "https://smchealth.org/boards-and-commissions/boards-and-commissions/commission-on-disabilities/"
+      },
+      "purpose": "County disability policy, ADA compliance, advocacy and accessibility.",
+      "limitations": "Use the published staff route for general policy questions and accommodation; meetings are public.",
+      "source_urls": [
+        "https://smchealth.org/boards-and-commissions/boards-and-commissions/commission-on-disabilities/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "naacp-silicon-valley",
+      "category": "civil_rights",
+      "organization": "NAACP San José/Silicon Valley",
+      "service_area": "Santa Clara County",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.sjsvnaacp.org/"
+      },
+      "purpose": "Seek guidance on racial discrimination advocacy and suitable legal or organizational referrals.",
+      "limitations": "No authority to adjudicate the complaint; ask about intake and suitability first.",
+      "source_urls": [
+        "https://www.sjsvnaacp.org/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "aclu-norcal",
+      "category": "civil_rights",
+      "organization": "ACLU of Northern California – legal intake",
+      "service_area": "Northern California",
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.aclunorcal.org/contact-us/"
+      },
+      "purpose": "Seek confidential screening of civil liberties concerns and referrals.",
+      "limitations": "Limited case acceptance; no guarantee of representation.",
+      "source_urls": [
+        "https://www.aclunorcal.org/contact-us/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "aclu-local-chapters",
+      "category": "civil_rights",
+      "organization": "ACLU of Northern California – chapter program",
+      "service_area": "San Mateo and Santa Clara counties",
+      "channel": {
+        "type": "opt_in_policy_dialogue",
+        "url": "https://www.aclunorcal.org/about/chapters/"
+      },
+      "purpose": "Find local chapters for general civil liberties education and accessible public policy dialogue.",
+      "limitations": "Local volunteer chapters are not a forum to discuss individual legal cases; use ACLU legal intake.",
+      "source_urls": [
+        "https://www.aclunorcal.org/about/chapters/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "drc",
+      "category": "disability_rights",
+      "organization": "Disability Rights California – legal intake",
+      "service_area": "California",
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.disabilityrightsca.org/get-help"
+      },
+      "purpose": "Seek legal screening for disability access and discrimination or referrals.",
+      "limitations": "Does not represent medical malpractice claims; online form listed temporarily unavailable as of review.",
+      "source_urls": [
+        "https://www.disabilityrightsca.org/get-help"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "svilc",
+      "category": "disability_advocacy",
+      "organization": "Silicon Valley Independent Living Center",
+      "service_area": "Santa Clara County",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://svilc.org/contact-us/"
+      },
+      "purpose": "Disability advocacy, independent living and systems change resources.",
+      "limitations": "Seek eligibility and assistance; not an investigator or automatic coalition member.",
+      "source_urls": [
+        "https://svilc.org/contact-us/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "cid",
+      "category": "disability_advocacy",
+      "organization": "Center for Independence of Individuals with Disabilities",
+      "service_area": "San Mateo County",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.cidsanmateo.org/"
+      },
+      "purpose": "Independent living, equal community participation and systemic disability advocacy.",
+      "limitations": "Request resource guidance; not individual misconduct adjudication.",
+      "source_urls": [
+        "https://www.cidsanmateo.org/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "silc",
+      "category": "disability_advocacy",
+      "organization": "California State Independent Living Council – independent living center locator",
+      "service_area": "California",
+      "channel": {
+        "type": "resource_directory",
+        "url": "https://calsilc.ca.gov/independent-locator/"
+      },
+      "purpose": "Locate relevant independent living support according to county.",
+      "limitations": "Directory only; do not treat all listed organizations as recipients.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "legal-aid-smc",
+      "category": "legal_support",
+      "organization": "Legal Aid Society of San Mateo County – Health Consumer Center",
+      "service_area": "San Mateo County",
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.legalaidsmc.org/health-consumer-center"
+      },
+      "purpose": "Eligible residents' healthcare access, insurance, service delays and denials.",
+      "limitations": "Eligibility and scope apply; no promise of malpractice representation.",
+      "source_urls": [
+        "https://www.legalaidsmc.org/health-consumer-center"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "law-foundation-sv",
+      "category": "legal_support",
+      "organization": "Law Foundation of Silicon Valley – Health Program",
+      "service_area": "Santa Clara County",
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.lawfoundation.org/healthresources"
+      },
+      "purpose": "Eligibility screening, health and disability-related legal referrals.",
+      "limitations": "Program eligibility includes specified populations; verify before submitting.",
+      "source_urls": [
+        "https://www.lawfoundation.org/healthresources"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "pcrc",
+      "category": "community_support",
+      "organization": "Peninsula Conflict Resolution Center",
+      "service_area": "San Mateo County",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.pcrcweb.org/contact"
+      },
+      "purpose": "Community dialogue and facilitation resources.",
+      "limitations": "Not a criminal investigator or disciplinary board; no mediation without appropriate voluntary participation.",
+      "source_urls": [
+        "https://www.pcrcweb.org/contact"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "ppjc",
+      "category": "community_education",
+      "organization": "Peninsula Peace and Justice Center",
+      "service_area": "Peninsula",
+      "channel": {
+        "type": "opt_in_policy_dialogue",
+        "url": "https://peaceandjustice.org/contact/"
+      },
+      "purpose": "Public education on human rights and community resources.",
+      "limitations": "General policy and resources only, not a channel for circulating allegations about named individuals.",
+      "source_urls": [
+        "https://peaceandjustice.org/contact/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "peninsula-multifaith",
+      "category": "spiritual_community",
+      "organization": "Peninsula Multifaith Coalition",
+      "service_area": "San Mateo County / Peninsula",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://peninsulamultifaith.org/contact"
+      },
+      "purpose": "Interfaith community dialogue and referral to willing faith communities.",
+      "limitations": "Approach for pastoral support or general inclusion and dignity; do not disseminate individual allegations to congregations.",
+      "source_urls": [
+        "https://peninsulamultifaith.org/contact"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "multifaith-voices",
+      "category": "spiritual_community",
+      "organization": "Multifaith Voices for Peace and Justice",
+      "service_area": "Palo Alto / Peninsula",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://multifaithpeace.org/about-us/"
+      },
+      "purpose": "Interfaith networks focused on compassion, justice and peace.",
+      "limitations": "No membership or endorsement inferred; seek general support or dialogue through the organization.",
+      "source_urls": [
+        "https://multifaithpeace.org/about-us/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "stanford-orsl",
+      "category": "spiritual_care",
+      "organization": "Stanford Office for Religious and Spiritual Life",
+      "service_area": "Stanford University",
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://orsl.stanford.edu/orsl-spiritual-care"
+      },
+      "purpose": "Spiritual care, ethical reflection and referrals; office led by Dean for Religious and Spiritual Life.",
+      "limitations": "Eligibility generally Stanford students, faculty, staff and affiliates. Use hospital Spiritual Care for patients. Not investigator.",
+      "source_urls": [
+        "https://orsl.stanford.edu/orsl-spiritual-care"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "stanford-shc-chaplaincy",
+      "category": "spiritual_care",
+      "organization": "Stanford Health Care Spiritual Care Services",
+      "service_area": "Stanford Health Care",
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+      },
+      "purpose": "Inclusive chaplaincy for patients, families and friends.",
+      "limitations": "Confidential spiritual support; not complaint investigation. Triage chaplain available 24 hours.",
+      "source_urls": [
+        "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "ucsf-chaplaincy",
+      "category": "spiritual_care",
+      "organization": "UCSF Spiritual Care Services",
+      "service_area": "UCSF Health",
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://spiritualcare.ucsf.edu/care-for-patients"
+      },
+      "purpose": "Spiritual and emotional support for patients and loved ones.",
+      "limitations": "For immediate inpatient requests use care team; not a formal grievance route.",
+      "source_urls": [
+        "https://spiritualcare.ucsf.edu/care-for-patients"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "stanford-clinical-ethics",
+      "category": "clinical_ethics",
+      "organization": "Stanford Health Care Clinical Ethics Consultation Service",
+      "service_area": "Stanford Health Care",
+      "channel": {
+        "type": "clinical_ethics_consult",
+        "url": "https://med.stanford.edu/bioethics/service/bedside.html"
+      },
+      "purpose": "Patient or family may request ethical consultation concerning current patient care decisions.",
+      "limitations": "Internal consult, not disciplinary investigation or a substitute for Patient Relations or independent regulators.",
+      "source_urls": [
+        "https://med.stanford.edu/bioethics/service/bedside.html"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "ucsf-clinical-ethics",
+      "category": "clinical_ethics",
+      "organization": "UCSF Health Clinical Ethics Consultation Service",
+      "service_area": "UCSF Parnassus and Mission Bay",
+      "channel": {
+        "type": "clinical_ethics_consult",
+        "url": "https://bioethics.ucsf.edu/faqs"
+      },
+      "purpose": "Patient or surrogate may request consultation for clinical ethical dilemmas.",
+      "limitations": "Not an independent tribunal; ask medical center operator to page Ethics Consultation Service as directed.",
+      "source_urls": [
+        "https://bioethics.ucsf.edu/faqs"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "family-caregiver-alliance",
+      "category": "family_support",
+      "organization": "Family Caregiver Alliance – Bay Area Caregiver Resource Center",
+      "service_area": "Bay Area",
+      "channel": {
+        "type": "caregiver_support",
+        "url": "https://www.caregiver.org/connecting-caregivers/bay-area-caregiver-center/"
+      },
+      "purpose": "Caregiver information, assessment, planning and resources for eligible families.",
+      "limitations": "Eligibility includes service-area residence and qualifying care needs; not complaint distribution.",
+      "source_urls": [
+        "https://www.caregiver.org/connecting-caregivers/bay-area-caregiver-center/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "valley-crc",
+      "category": "family_support",
+      "organization": "Valley Caregiver Resource Center",
+      "service_area": "Fresno / Central Valley",
+      "channel": {
+        "type": "caregiver_support",
+        "url": "https://www.valleycrc.org/contact-us"
+      },
+      "purpose": "Local family caregiver assessment, assistance, and referral.",
+      "limitations": "Do not submit personal medical information via general webform; ask for confidential communication.",
+      "source_urls": [
+        "https://www.valleycrc.org/contact-us"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    },
+    {
+      "id": "dhcs-crc",
+      "category": "family_support",
+      "organization": "California DHCS – Caregiver Resource Center locator",
+      "service_area": "California",
+      "channel": {
+        "type": "resource_directory",
+        "url": "https://www.dhcs.ca.gov/services/mental-health-services-division-default/adult-caregivers-resource-centers/"
+      },
+      "purpose": "Statewide caregiver service navigation; identify the relevant region.",
+      "limitations": "Directory only, not an outreach list.",
+      "source_urls": [
+        "https://www.dhcs.ca.gov/services/mental-health-services-division-default/adult-caregivers-resource-centers/"
+      ],
+      "verification": "official_organization_page_reviewed",
+      "verified_on": "2026-11-24",
+      "participation_status": "not_invited_or_confirmed"
+    }
+  ],
+  "professional_evidence": [
+    {
+      "article_reference": "Dr. Steven Lee McIntire",
+      "identity_status": "public institutional profile matches full name in article",
+      "institution": "Stanford Medicine / Stanford Health Care",
+      "professional_facts": [
+        {
+          "fact": "Stanford publicly lists a clinical associate professor in adult neurology, with general neurology practice.",
+          "source": "https://profiles.stanford.edu/steven-mcintire"
+        },
+        {
+          "fact": "The Stanford profile reports neurology residency completed at UCSF in 1996; that training does not establish involvement by UCSF in any alleged 2019 incident.",
+          "source": "https://stanfordhealthcare.org/doctors/m/steven-mcintire.html"
+        }
+      ],
+      "formal_review_routes": [
+        "authority-oversight.json#shc-compliance",
+        "medical-board-oversight.json#mbc-clu"
+      ],
+      "limits": "Current institutional profile alone does not establish employment or medical privileges on a particular historical date. Verify incident records, legal entity, supervision and disciplinary history with competent investigators."
+    },
+    {
+      "article_reference": "Dr. So",
+      "identity_status": "likely match based on specialty and historical clinic leadership; confirm against records",
+      "profile_name": "Yuen So, MD, PhD",
+      "institution": "Stanford Medicine / Stanford Health Care",
+      "professional_facts": [
+        {
+          "fact": "Official profile lists Chief of Neurology Clinics, 1999–2024.",
+          "source": "https://med.stanford.edu/profiles/yuen-so"
+        },
+        {
+          "fact": "Official profile lists Vice Chair for Clinical Services, 2015–2024, and neurology residency program director, 1999–2010.",
+          "source": "https://stanfordhealthcare.org/doctors/s/yuen-so.html"
+        }
+      ],
+      "formal_review_routes": [
+        "authority-oversight.json#shc-compliance",
+        "medical-board-oversight.json#mbc-clu"
+      ],
+      "limits": "Professional leadership dates do not establish knowledge of the specific case, personal supervision of another physician, or misconduct. Investigators should verify identity, authority and contemporaneous communications."
+    },
+    {
+      "article_reference": "Dr. Bledsoe",
+      "identity_status": "likely match based on institution and movement-disorders specialty; confirm against medical records",
+      "profile_name": "Ian O. Bledsoe, MD",
+      "institution": "UCSF Health",
+      "professional_facts": [
+        {
+          "fact": "UCSF public profile describes a neurologist specializing in movement disorders, including ataxia.",
+          "source": "https://profiles.ucsf.edu/ian.bledsoe"
+        },
+        {
+          "fact": "The UCSF profile lists a Stanford neurology residency completed in 2013 and a Stanford fellowship completed in 2014.",
+          "source": "https://profiles.ucsf.edu/ian.bledsoe"
+        },
+        {
+          "fact": "The UCSF Health clinical profile confirms Stanford residency and fellowship; title differs from the academic profile, so exact faculty rank should be checked directly if material.",
+          "source": "https://www.ucsfhealth.org/providers/ian-bledsoe"
+        }
+      ],
+      "formal_review_routes": [
+        "authority-oversight.json#ucsf-relations",
+        "authority-oversight.json#ucsf-compliance",
+        "medical-board-oversight.json#mbc-clu"
+      ],
+      "limits": "The listed training completion dates and Dr. So's residency directorship do not establish direct supervision, communication, conflict of interest or complicity. Verify actual records through independent review."
+    }
+  ],
+  "professional_verification_sources": [
+    {
+      "purpose": "Verify California licensure and disclosable records; use the Board's search and disclosure instructions rather than third-party profiles.",
+      "url": "https://www.mbc.ca.gov/License-Verification/"
+    },
+    {
+      "purpose": "Review what physician records can lawfully be disclosed.",
+      "url": "https://www.mbc.ca.gov/License-Verification/lookup-disclosure.aspx"
+    }
+  ],
+  "counts": {
+    "resource_records": 25,
+    "professional_evidence_records": 3,
+    "confirmed_coalition_members": 0,
+    "dispatches": 0
+  }
+}
