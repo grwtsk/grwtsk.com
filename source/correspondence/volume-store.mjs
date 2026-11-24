@@ -1,5 +1,5 @@
 import { DatabaseSync } from 'node:sqlite';
-import { lstat, readFile } from 'node:fs/promises';
+import { lstat, readFile, mkdir, mkdtemp, rm, rename, open } from 'node:fs/promises';
 import { join, isAbsolute, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { requireThat, emptyState, assertState, encryptState, decryptState, uuid } from './core.mjs';
@@ -69,6 +69,30 @@ export class VolumeStore {
     const blob=createHash('sha1').update('blob '+raw.length+'\0').update(raw).digest('hex');
     const commit=/^[0-9a-f]{40}$/i.test(this.signalCommit||'')?this.signalCommit:'local-content:'+blob;
     return {commit,blob,path:SIGNAL_FILE,entries:parseSignals(raw.toString('utf8'))};
+  }
+  // Verify a consistent SQLite snapshot before replacing the previous local
+  // checkpoint. Never restore into an active database. No off-volume claim.
+  async checkpoint(){
+    const folder=join(this.dir,'verified-checkpoints');
+    try{await mkdir(folder,{mode:0o700});}catch(e){if(e.code!=='EEXIST')throw e;}
+    const st=await lstat(folder);requireThat(st.isDirectory()&&!st.isSymbolicLink(),503,'Unsafe checkpoint directory');
+    const tmp=await mkdtemp(join(folder,'snapshot-')),path=join(tmp,'state.sqlite');
+    try{
+      this.connection().prepare('VACUUM INTO ?').run(path);
+      const copy=new DatabaseSync(path,{readOnly:true});
+      try{
+        requireThat(copy.prepare('PRAGMA quick_check').get()?.quick_check==='ok',503,'Checkpoint integrity failed');
+        const row=copy.prepare('SELECT revision,ciphertext FROM ledger WHERE id=1').get();
+        requireThat(row&&Number.isSafeInteger(row.revision),503,'Checkpoint ledger missing');
+        decryptState(row.ciphertext,this.key,LEDGER_AAD);
+        const archive=new VolumeArchive(this);
+        for(const r of copy.prepare('SELECT * FROM inbound_archive').iterate())archive.decode(r);
+      }finally{copy.close();}
+      const handle=await open(path,'r');try{await handle.sync();}finally{await handle.close();}
+      await rename(path,join(folder,'latest.sqlite'));
+      const dir=await open(folder,'r');try{await dir.sync();}finally{await dir.close();}
+      return {verified:true};
+    }finally{await rm(tmp,{recursive:true,force:true});}
   }
   close(){if(this.db){this.db.close();this.db=null;}}
 }

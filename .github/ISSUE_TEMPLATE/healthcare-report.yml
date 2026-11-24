@@ -16,6 +16,19 @@ body:
       description: What observable change would resolve or improve the process?
     validations:
       required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Process category
+      description: Select the process this report concerns. This guides unsent draft preparation, not recipient selection.
+      options:
+        - Accessible written communication
+        - Independent review
+        - Record integrity
+        - Continuity of care
+        - Corrective action accountability
+    validations:
+      required: true
   - type: textarea
     id: evidence
     attributes:

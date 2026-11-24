@@ -1,0 +1,38 @@
+name: Healthcare report writing review
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'source/correspondence/report-*.mjs'
+      - 'source/correspondence/sync-report-review.mjs'
+      - '.github/workflows/report-review.yml'
+  schedule:
+    - cron: '4,19,34,49 * * * *'
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, reopened]
+  issue_comment:
+    types: [created]
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: healthcare-report-writing
+  cancel-in-progress: false
+jobs:
+  review:
+    if: github.repository == 'grwtsk/grwtsk.com' && github.ref == 'refs/heads/main' && (github.event_name != 'issue_comment' || github.event.comment.user.id == 176085483) && (github.event_name != 'issues' || github.event.sender.id == 176085483)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Synchronize public draft review and scope questions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node source/correspondence/sync-report-review.mjs

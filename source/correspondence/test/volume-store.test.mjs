@@ -56,3 +56,21 @@ test('bundled Markdown source includes content provenance without GitHub token',
   const r=await s.readSignals();assert.equal(r.commit,'a'.repeat(40));assert.equal(r.entries.length,0);assert.match(r.blob,/^[0-9a-f]{40}$/);
   assert.equal(r.path,'source/correspondence/signals/approved.md');
 }));
+
+test('verified local checkpoint restores exact ledger and archive in a disposable directory',()=>temp(async dir=>{
+ const key=randomBytes(32),s=new VolumeStore({stateDir:dir,key});await s.initialize();
+ try{
+  await s.mutate(x=>createCase(x,offices,{officeId:'office',title:'SYNTHETIC CHECKPOINT'},'reply.example.org'));
+  const id=randomUUID(),mail={id,created_at:'2026-11-24T10:00:00Z',to:['owner@example.net'],from:offices[0].email,subject:'test',text:'SYNTHETIC PROTECTED BODY',authentication:{dmarc:'pass'}};
+  const record=archiveMessage(mail,id,admission(mail,{cases:[]},{primary:'owner@example.net',offices}).route);
+  await new VolumeArchive(s).put(record);const before=await s.read();
+  assert.deepEqual(await s.checkpoint(),{verified:true});
+  const bytes=await readFile(join(dir,'verified-checkpoints','latest.sqlite'));
+  assert.ok(!bytes.includes(Buffer.from('SYNTHETIC PROTECTED BODY')));
+  await temp(async restored=>{
+   await writeFile(join(restored,'correspondence.sqlite'),bytes);
+   const copy=new VolumeStore({stateDir:restored,key});await copy.initialize();
+   try{assert.deepEqual(await copy.read(),before);assert.equal((await new VolumeArchive(copy).get(record.day,record.name)).text,record.text);}finally{copy.close();}
+  });
+ }finally{s.close();}
+}));
