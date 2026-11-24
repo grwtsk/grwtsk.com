@@ -39,15 +39,15 @@
       "palo-alto-police",
       "ucsf-police",
       "sf-police",
-      "registry:da-santa-clara",
-      "registry:da-san-francisco",
-      "registry:da-san-mateo"
+      "da-santa-clara",
+      "da-san-francisco",
+      "da-san-mateo"
     ],
     "independent_regulatory": [
       "dca-mbc",
       "cdph",
       "cdph-district-sf",
-      "registry:crd",
+      "crd",
       "hhs-ocr",
       "ca-ag-dmfea",
       "doj-crd",
@@ -76,12 +76,13 @@
       "ca-sen-health",
       "ca-asm-bp",
       "ca-asm-health",
-      "ca-jlac"
+      "ca-jlac",
+      "ca-sen-public-safety"
     ]
   },
   "counts": {
-    "authority_records": 74,
-    "typed_relationships": 155,
+    "authority_records": 84,
+    "typed_relationships": 163,
     "county_da_supervision_links": 58,
     "county_sheriff_supervision_links": 58,
     "dispatches": 0
@@ -1455,6 +1456,193 @@
       "verified_on": "2026-11-24",
       "verification": "official_published_page_reviewed",
       "limits": "Correspondence may be public record; no confidential records. Not an adjudicator."
+    },
+    {
+      "id": "da-santa-clara",
+      "level": "local_enforcement",
+      "office": "Santa Clara County District Attorney",
+      "scope": "Santa Clara County",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://da.santaclaracounty.gov/faq/attorney-directory",
+        "phone": "408-299-3099"
+      },
+      "purpose": "Prosecutorial review or guidance after report to law enforcement; confirm venue.",
+      "source_urls": [
+        "https://da.santaclaracounty.gov/faq/attorney-directory"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Jeffrey F. Rosen",
+      "limits": "Official directory distinguishes DA and victim services; 408-295-2656 is victim services, not DA main number."
+    },
+    {
+      "id": "victim-santa-clara",
+      "level": "local_protective_services",
+      "office": "Santa Clara County DA Victim Services Unit",
+      "scope": "Santa Clara County",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://da.santaclaracounty.gov/victim-services",
+        "phone": "408-295-2656"
+      },
+      "purpose": "Victim advocacy and local criminal justice referral.",
+      "source_urls": [
+        "https://da.santaclaracounty.gov/victim-services"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not a substitute for police report."
+    },
+    {
+      "id": "da-san-mateo",
+      "level": "local_enforcement",
+      "office": "San Mateo County District Attorney",
+      "scope": "San Mateo County",
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://www.smcgov.org/da/contact-us",
+        "phone": "650-363-4636",
+        "email": "da_info@smcgov.org"
+      },
+      "purpose": "Prosecutorial review or guidance where facts establish venue.",
+      "source_urls": [
+        "https://www.smcgov.org/da/contact-us"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "listed_officeholder": "Stephen M. Wagstaffe",
+      "limits": "Confirm local police report and appropriate unit."
+    },
+    {
+      "id": "da-san-francisco",
+      "level": "local_enforcement",
+      "office": "San Francisco District Attorney",
+      "scope": "San Francisco County",
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://sfdistrictattorney.org/contact/",
+        "phone": "628-652-4000",
+        "email": "districtattorney@sfgov.org"
+      },
+      "purpose": "Prosecutorial review or guidance where facts establish venue.",
+      "source_urls": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "General office contact; use local police for initial crime report."
+    },
+    {
+      "id": "victim-san-francisco",
+      "level": "local_protective_services",
+      "office": "San Francisco DA Victim Services Division",
+      "scope": "San Francisco County",
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://sfdistrictattorney.org/victim-services/",
+        "phone": "628-652-4100",
+        "email": "victimservices@sfgov.org"
+      },
+      "purpose": "Victim support and advocacy.",
+      "source_urls": [
+        "https://sfdistrictattorney.org/victim-services/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Separate from prosecution and not a substitute for reporting."
+    },
+    {
+      "id": "da-sf-hate-crime",
+      "level": "local_enforcement",
+      "office": "San Francisco DA Hate Crime Hotline",
+      "scope": "San Francisco County",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://sfdistrictattorney.org/contact/",
+        "phone": "628-652-4311"
+      },
+      "purpose": "Referral for possible bias-motivated crimes with local venue.",
+      "source_urls": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Discrimination alone does not establish criminal hate crime."
+    },
+    {
+      "id": "crd",
+      "level": "state_enforcement",
+      "office": "California Civil Rights Department",
+      "scope": "California",
+      "channel": {
+        "kind": "complaint_instructions",
+        "url": "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/",
+        "phone": "800-884-1684",
+        "email": "contact.center@calcivilrights.ca.gov"
+      },
+      "purpose": "Individual civil rights complaint intake and investigation if within statutory jurisdiction.",
+      "source_urls": [
+        "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use official procedure; check applicable deadlines and accommodation requests."
+    },
+    {
+      "id": "crd-accommodations",
+      "level": "state_enforcement",
+      "office": "California Civil Rights Department accessibility assistance",
+      "scope": "California",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://calcivilrights.ca.gov/contactus/",
+        "phone": "844-541-2877",
+        "email": "accommodations@calcivilrights.ca.gov"
+      },
+      "purpose": "Request accessible communication and assistance with complaint process.",
+      "source_urls": [
+        "https://calcivilrights.ca.gov/contactus/"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Not an independent complaint or duplicate case."
+    },
+    {
+      "id": "ca-sen-public-safety",
+      "level": "state_legislative",
+      "office": "California Senate Public Safety Committee",
+      "scope": "California",
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://spsf.senate.ca.gov/committeehome",
+        "phone": "916-651-4118"
+      },
+      "purpose": "Legislative policy concerning Penal Code and criminal procedure.",
+      "source_urls": [
+        "https://spsf.senate.ca.gov/committeehome"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Use designated committee channel, not staff inboxes; policy oversight only."
+    },
+    {
+      "id": "da-san-joaquin-elder",
+      "level": "local_enforcement",
+      "office": "San Joaquin County DA Elder and Dependent Adult Abuse Unit",
+      "scope": "San Joaquin County",
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.sjcda.org/office/divisions/specialized/elder-unit",
+        "phone": "209-468-2488"
+      },
+      "purpose": "Dependent adult abuse referral if facts establish venue.",
+      "source_urls": [
+        "https://www.sjcda.org/office/divisions/specialized/elder-unit"
+      ],
+      "verified_on": "2026-11-24",
+      "verification": "official_published_page_reviewed",
+      "limits": "Stanford affiliate status for this county requires recheck; do not send unrelated matters."
     }
   ],
   "relationships": [
@@ -2915,6 +3103,78 @@
         "https://stanfordhealthcare.org/about-us/contact.html"
       ],
       "limits": "Request routing through designated office; not a claim of exact internal reporting line."
+    },
+    {
+      "from": "da-santa-clara",
+      "to": "victim-santa-clara",
+      "relation": "victim_services_unit",
+      "basis": [
+        "https://da.santaclaracounty.gov/victim-services"
+      ],
+      "limits": "Local support"
+    },
+    {
+      "from": "da-san-francisco",
+      "to": "victim-san-francisco",
+      "relation": "victim_services_unit",
+      "basis": [
+        "https://sfdistrictattorney.org/victim-services/"
+      ],
+      "limits": "Local support"
+    },
+    {
+      "from": "da-san-francisco",
+      "to": "da-sf-hate-crime",
+      "relation": "specialized_intake",
+      "basis": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "limits": "Local venue"
+    },
+    {
+      "from": "crd",
+      "to": "crd-accommodations",
+      "relation": "accessibility_support",
+      "basis": [
+        "https://calcivilrights.ca.gov/contactus/"
+      ],
+      "limits": "Not duplicate case"
+    },
+    {
+      "from": "ca-ag-disability",
+      "to": "crd",
+      "relation": "individual_complaint_referral",
+      "basis": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "limits": "Not supervisory relationship"
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "da-santa-clara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county"
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "da-san-francisco",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county"
+    },
+    {
+      "from": "ca-attorney-general",
+      "to": "da-san-mateo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county"
     }
   ]
 }
