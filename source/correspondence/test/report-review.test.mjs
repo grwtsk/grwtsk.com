@@ -61,3 +61,17 @@ test('report synchronization comments only on owner-authored report using render
  };
  await syncReportReview({token:'synthetic',fetcher});assert.equal(writes,1);
 });
+
+test('bot activity does not revise unchanged report and approval is scoped to exact draft',async()=>{
+ const {reviewFeedback}=await import('../report-review.mjs');
+ const old={fingerprint:'a'.repeat(64)};
+ const bot={id:10,user:{id:41898282},body:'<!-- healthcare-review-v1:20 -->\nRevision: aaaaaaaaaaaa.',updated_at:'2026-11-24T01:00:00Z'};
+ const owner={id:11,user:{id:OWNER_ID},issue_url:'https://api.github.com/repos/grwtsk/grwtsk.com/issues/20',body:'Writing approved',created_at:'2026-11-24T02:00:00Z',updated_at:'2026-11-24T02:00:00Z'};
+ assert.equal(reviewFeedback([bot,owner],20,old).approval.comment,11);
+ assert.equal(reviewFeedback([bot,owner],20,{fingerprint:'b'.repeat(64)}).approval,null);
+ assert.equal(reviewFeedback([bot,{...owner,user:{id:99}}],20,old).approval,null);
+ const state={},store={read:async()=>({state}),mutate:async f=>f(state)};let calls=0,changed=false;
+ const fetcher=async()=>Response.json([{...report(),updated_at:changed?'2026-11-24T03:00:00Z':stamp}]);
+ const generate=async(c,p)=>{calls++;return {plan:{...p,style:'balanced',order:'topic-first'},method:'baseline'};};
+ await reportReviewTick(store,{},fetcher,generate,'2026-11-24');changed=true;await reportReviewTick(store,{},fetcher,generate,'2026-11-24');assert.equal(calls,1);
+});

@@ -35,7 +35,30 @@ function scope(i){
   const fields=sections(i.body);
   if(!fields?.get('Public scope')?.split('\n').some(x=>x.trim()==='- [x] '+SCOPE))return null;
   const topic=Object.keys(TOPICS).find(k=>TOPICS[k].label===fields.get('Process category'))||null;
-  return {number:i.number,topic,revision:String(i.updated_at||i.created_at)};
+  return {number:i.number,topic,revision:digest(i.body),updatedAt:String(i.updated_at||i.created_at),commentCount:Number.isSafeInteger(i.comments)?i.comments:0};
+}
+// Writing feedback is scoped to one report. Approval never confers send authority.
+const STYLE_FEEDBACK=Object.freeze({'shorter':'concise','more concise':'concise','more formal':'formal','plain language':'plain','more direct':'direct','balanced':'balanced'});
+export function reviewFeedback(comments,report,old){
+ requireThat(Array.isArray(comments)&&comments.length<=100,503,'Report comments unavailable');
+ const owner=comments.filter(c=>c.user?.id===OWNER_ID&&c.issue_url===URL+'/issues/'+report&&c.created_at===c.updated_at&&Number.isSafeInteger(c.id)&&c.id>0&&typeof c.body==='string').sort((a,b)=>a.id-b.id);
+ let style=null,source=null;
+ for(const c of owner){
+   const phrase=c.body.trim().toLowerCase().replace(/[.!]$/,'');
+   if(Object.hasOwn(STYLE_FEEDBACK,phrase)){style=STYLE_FEEDBACK[phrase];source=c.id;}
+ }
+ let approval=null;
+ if(old?.fingerprint){
+   const candidates=owner.filter(c=>c.body.trim().toLowerCase().replace(/[.!]$/,'')==='writing approved');
+   // An approval must be for the exact currently published revision.
+   const draft=comments.find(c=>c.user?.id===41898282&&typeof c.body==='string'&&c.body.startsWith('<!-- healthcare-review-v1:'+report+' -->')&&c.body.includes('Revision: '+old.fingerprint.slice(0,12)+'.'));
+   if(draft){
+     const approved=candidates.filter(c=>Date.parse(c.created_at)>Date.parse(draft.updated_at)).at(-1);
+     if(approved)approval={comment:approved.id,fingerprint:old.fingerprint};
+     else if(old.feedback?.approval?.fingerprint===old.fingerprint&&candidates.some(c=>c.id===old.feedback.approval.comment))approval=old.feedback.approval;
+   }
+ }
+ return {style,source,approval};
 }
 export function nextStage(report){
   if(report.tracking==='Closed tracking')return null;
@@ -104,21 +127,26 @@ export async function reportReviewTick(store,config,fetcher=fetch,generate=compo
     if(!topic){planned.push({report:report.number,status:'needs-scope'});continue;}
     if(!stage)continue;
     const {state}=await store.read(),old=state.reportReview?.records?.find(x=>x.report===report.number);
-    const preference=state.writingReview?.revisions?.filter(r=>r.choice).at(-1)?.choice?.style||'balanced';
+    let feedback=old?.feedback||{style:null,source:null,approval:null};
+    if(sc.commentCount>0&&old?.checkedAt!==sc.updatedAt){
+      const {data,more}=await get('/issues/'+report.number+'/comments?per_page=100',fetcher);
+      requireThat(!more,503,'Report comment listing incomplete');feedback=reviewFeedback(data,report.number,old);
+    }else if(sc.commentCount===0)feedback={style:null,source:null,approval:null};
+    const preference=feedback.style||state.writingReview?.revisions?.filter(r=>r.choice).at(-1)?.choice?.style||'balanced';
     const plan={report:report.number,topic,stage,preference,sources:report.timeline.slice(-98)};
     if(plan.sources[0]!==report.number)plan.sources.unshift(report.number);
     if(answer&&!plan.sources.includes(answer.issue))plan.sources.push(answer.issue);
-    const fingerprint=digest(JSON.stringify({policy:1,plan,scopeRevision:sc.revision,answer}));
+    const fingerprint=digest(JSON.stringify({policy:1,plan,scopeRevision:sc.revision,answer,feedbackSource:feedback.source}));
     if(old?.fingerprint===fingerprint&&old.plan){
-      planned.push(old);continue;
+      planned.push({...old,checkedAt:sc.updatedAt,feedback});continue;
     }
-    planned.push({report:report.number,status:'draft-pending',fingerprint,planInput:plan,...(answer?{answer}: {})});
+    planned.push({report:report.number,status:'draft-pending',fingerprint,planInput:plan,checkedAt:sc.updatedAt,feedback:{...feedback,approval:null},...(answer?{answer}: {})});
   }
   await store.mutate(s=>{
     const previous=s.reportReview?.records||[];
     s.reportReview={version:1,records:planned.map(p=>{
       const same=previous.find(r=>r.report===p.report&&r.fingerprint&&r.fingerprint===p.fingerprint);
-      return same?.plan?same:p;
+      return same?.plan?{...same,checkedAt:p.checkedAt,feedback:p.feedback}:p;
     }),metrics:{...projection.metrics,heldRecords:projection.held.length,reportCoverage:active.length<=12,scopeQuestions:planned.filter(p=>p.status==='needs-scope').length},at:today,history:s.reportReview?.history||[]};
   });
   // One model call per cycle. A repeated pending plan may be retried after an
@@ -143,6 +171,6 @@ export async function reportReviewTick(store,config,fetcher=fetch,generate=compo
 export function reportReviewProjection(state){
   const r=state.reportReview;
   return {version:1,mode:'review-only',day:r?.at||null,metrics:r?.metrics||null,history:(r?.history||[]).map(h=>({report:h.report,fingerprint:h.fingerprint,plan:h.plan,method:h.method})),records:(r?.records||[]).map(x=>({
-    report:x.report,status:x.status,...(x.plan?{plan:x.plan,method:x.method,fingerprint:x.fingerprint}:{}),...(x.answer?{answer:x.answer}: {})
+    report:x.report,status:x.status,...(x.plan?{plan:x.plan,method:x.method,fingerprint:x.fingerprint}:{}),...(x.answer?{answer:x.answer}: {}),...(x.feedback?.source?{styleSource:x.feedback.source}:{}),...(x.feedback?.approval?{approval:x.feedback.approval}: {})
   }))};
 }

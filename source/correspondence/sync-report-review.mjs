@@ -39,7 +39,7 @@ function draftComment(r,history){
     'Public source issues: '+d.sourceIssues.map(n=>'#'+n).join(', ')+'.',
     'Method: '+r.method+'. Revision: '+r.fingerprint.slice(0,12)+'.',
     ...(r.answer?['Scope decision: [owner answer](https://github.com/grwtsk/grwtsk.com/issues/'+r.answer.issue+'#issuecomment-'+r.answer.comment+').']:[]),
-    '','Review the wording here. General preferences are recorded in #11. This draft is a process inquiry, not an actual submission or a determination of misconduct.','',
+    '','Review the wording here using ordinary feedback such as Shorter, More formal, More direct, or Plain language. Comment Writing approved when the wording is acceptable. Approval records review only and cannot authorize email delivery. General preferences are recorded in #11. This draft is a process inquiry, not an actual submission or a determination of misconduct.','',
     'Recent revision IDs: '+history.filter(h=>h.report===r.report).slice(-8).map(h=>h.fingerprint.slice(0,12)).join(', ')+'.'].join('\n');
 }
 const questionBody=r=>marker(r)+'\n\nA writing draft for report #'+r+' needs its process category. No private correspondence is needed.\n\nPlease reply with the applicable category:\n'+Object.values(TOPICS).map(t=>'- '+t.label).join('\n')+'\n\nYour answer is reused for this report. This issue does not authorize a recipient, disclosure, or email.';
@@ -71,7 +71,7 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
    const found=own.filter(q=>q.body.startsWith(marker(r.report)));
    if(found.length>1)throw Error('Duplicate scope marker');
    const q=found[0];
-   if(r.status==='needs-scope'&&!q&&created<2){
+   if(r.status==='needs-scope'&&!q&&created<2&&!Object.values(TOPICS).some(t=>t.label===sections(issue.body)?.get('Process category'))){
      await call('/issues','POST',{title:'Healthcare review: process category for #'+r.report,body:questionBody(r.report)});
      created++;continue;
    }
@@ -99,7 +99,7 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
    const comments=await completeList('/issues/10/comments',2),tag='<!-- measured-review-improvement-v1 -->';
    const prior=comments.filter(c=>c.user?.id===BOT&&id(c.id)&&typeof c.body==='string'&&c.body.startsWith(tag));
    if(prior.length>1)throw Error('Duplicate improvement marker');
-   const lines=[tag,'## Measured workflow review','Public report index: #8. These are workflow measurements, not clinical findings.','','- Tracked reports: '+p.metrics.reports,'- Open tracking: '+p.metrics.active,'- Missing process categories: '+p.metrics.scopeQuestions,'- Held lifecycle records: '+p.metrics.heldRecords,'- Outstanding owner questions: '+p.metrics.outstandingOwnerQuestions,'- Overdue planned follow-ups: '+p.metrics.overduePlannedFollowUps,'- Report coverage complete: '+(p.metrics.reportCoverage?'yes':'no'),''];
+   const lines=[tag,'## Measured workflow review','Public report index: #8. These are workflow measurements, not clinical findings.','','- Tracked reports: '+p.metrics.reports,'- Open tracking: '+p.metrics.active,'- Missing process categories: '+p.metrics.scopeQuestions,'- Held lifecycle records: '+p.metrics.heldRecords,'- Outstanding owner questions: '+p.metrics.outstandingOwnerQuestions,'- Overdue planned follow-ups: '+p.metrics.overduePlannedFollowUps,'- Report coverage complete: '+(p.metrics.reportCoverage?'yes':'no'),'- Current review-ready drafts: '+p.records.filter(r=>r.status==='review-ready').length,'- Exact writing approvals: '+p.records.filter(r=>r.approval?.fingerprint===r.fingerprint&&id(r.approval.comment)).length,''];
    if(improvement.status==='proposal'){
      const item=IMPROVEMENTS[improvement.choice];
      if(!item||!Object.hasOwn(IMPROVEMENTS,improvement.choice)||!Number.isSafeInteger(improvement.count)||improvement.count<=0||p.metrics[item.metric]!==improvement.count||!hash(improvement.fingerprint)||!['ai-selected','baseline'].includes(improvement.method))throw Error('Invalid improvement projection');
