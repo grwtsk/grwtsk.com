@@ -29,6 +29,7 @@ jobs:
           node --check adapters.mjs
           node --check core.mjs
           node --check knowledge.mjs
+          node --check coordination.mjs
           node --check web/app.js
       - name: Run synthetic tests without credentials or live email
         run: npm test

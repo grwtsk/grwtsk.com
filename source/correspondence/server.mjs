@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
 import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile } from './adapters.mjs';
 import { planForCase, describePlan, currentProvenance, prepareProposal, prepareNext } from './knowledge.mjs';
+import { createIssue, updateIssue, attachCase, linkIssues, recordFeedback, withdrawFeedbackSharing, nominateRoute, reviewNomination, issueView, groupPreview } from './coordination.mjs';
 
 function envConfig(e) {
   const repo=e.STATE_REPO||'', branch=e.STATE_BRANCH||'main';
@@ -63,10 +64,22 @@ export function handler(config,store,provider) {
         return respond(res,200,snapshot?describePlan(planForCase(state,config.offices,caseId,snapshot),state):
           {ready:false,reason:'Create signals/approved.md in the private state repository using the example.'});
       }
+      if(req.method==='GET'&&['/api/coordination/issue','/api/coordination/preview'].includes(path)){
+        const {state}=await store.read(),id=url.searchParams.get('issueId');
+        return respond(res,200,path.endsWith('/preview')?groupPreview(state,id):issueView(state,id));
+      }
       requireThat(req.method==='POST' && (req.headers['content-type']||'').split(';')[0]==='application/json',405,'POST JSON required');
       const input=parse(await rawBody(req));
       let result;
-      if(path==='/api/cases')result=await store.mutate(s=>createCase(s,config.offices,input,config.domain));
+      if(path==='/api/coordination/create')result=await store.mutate(s=>createIssue(s,input));
+      else if(path==='/api/coordination/update')result=await store.mutate(s=>updateIssue(s,input));
+      else if(path==='/api/coordination/attach')result=await store.mutate(s=>attachCase(s,input));
+      else if(path==='/api/coordination/link')result=await store.mutate(s=>linkIssues(s,input));
+      else if(path==='/api/coordination/feedback')result=await store.mutate(s=>recordFeedback(s,input));
+      else if(path==='/api/coordination/withdraw-feedback')result=await store.mutate(s=>withdrawFeedbackSharing(s,input));
+      else if(path==='/api/coordination/nominate')result=await store.mutate(s=>nominateRoute(s,input));
+      else if(path==='/api/coordination/review-nomination')result=await store.mutate(s=>reviewNomination(s,input));
+      else if(path==='/api/cases')result=await store.mutate(s=>createCase(s,config.offices,input,config.domain));
       else if(path==='/api/draft'){
         requireThat(input.redacted===true,400,'Confirm brief is redacted and approved for AI processing');
         const {state}=await store.read(),c=findCase(state,input.caseId);

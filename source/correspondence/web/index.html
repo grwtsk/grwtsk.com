@@ -8,6 +8,35 @@
 <div id="workspace" hidden>
 <section><h2>Open a case</h2><label for="office">Verified office or consenting correspondent</label><select id="office"></select><label for="title">Case title</label><input id="title" maxlength="150"><button id="create">Create case</button></section>
 <section><h2>Case history</h2><label for="cases">Select case</label><select id="cases"></select><p id="case-info"></p><div id="history"></div><button id="refresh">Refresh</button><button id="close">Close selected case</button></section>
+<section><h2>Issues and coordination</h2>
+<p>Private issue records connect correspondence, responsibilities, decisions and reviewed feedback. Links do not grant access to other cases or authorize recipients.</p>
+<label for="issue-select">Select issue</label><select id="issue-select"></select><p id="issue-unassigned" role="status"></p>
+<label for="issue-title">New issue title</label><input id="issue-title" maxlength="140">
+<label for="issue-owner">Responsible office or role</label><input id="issue-owner" maxlength="140">
+<label for="issue-action">Requested next action</label><textarea id="issue-action" rows="3" maxlength="1000"></textarea>
+<label for="issue-status">Status (for selected issue)</label><select id="issue-status"><option value="open">Open</option><option value="waiting">Waiting</option><option value="resolved">Resolved</option><option value="closed">Closed</option></select>
+<label for="issue-share">Optional separate de-identified summary for a group preview</label><textarea id="issue-share" rows="4" maxlength="1600"></textarea>
+<label class="check"><input type="checkbox" id="issue-share-reviewed"> I reviewed this summary for appropriate sharing; it contains no private information or individual accusations.</label>
+<button id="issue-create">Create issue</button><button id="issue-update">Update selected issue</button><button id="issue-attach">Link selected correspondence case</button>
+<label for="issue-other">Other issue</label><select id="issue-other"></select><button id="issue-link">Mark related</button><button id="issue-merge">Consolidate selected issue into other</button>
+<h3>Reviewed reply feedback</h3>
+<label for="issue-reply">Reviewed reply in selected correspondence case</label><select id="issue-reply"></select>
+<label for="feedback-summary">Private redacted summary</label><textarea id="feedback-summary" rows="4" maxlength="2000"></textarea>
+<label for="feedback-share">Optional distinct de-identified feedback for group preview</label><textarea id="feedback-share" rows="3" maxlength="1600"></textarea>
+<label class="check"><input type="checkbox" id="feedback-reviewed"> I reviewed the reply summary and any sharing text, and confirmed sharing is appropriate.</label>
+<button id="feedback-save">Record feedback</button><label for="feedback-withdraw-select">Sharing approval to withdraw</label><select id="feedback-withdraw-select"></select><button id="feedback-withdraw">Withdraw feedback sharing</button>
+<h3>Propose an institutional route</h3>
+<label for="nom-role">Official role or office</label><input id="nom-role" maxlength="140">
+<label for="nom-url">Published official intake URL</label><input id="nom-url" type="url" maxlength="500">
+<label for="nom-reason">Relevant jurisdiction or responsibility</label><textarea id="nom-reason" rows="3" maxlength="800"></textarea>
+<button id="nom-create">Record proposed route</button>
+<label for="nom-select">Pending nomination</label><select id="nom-select"></select>
+<label for="nom-note">Review note (no addresses or sensitive information)</label><input id="nom-note" maxlength="600">
+<button id="nom-verified">Mark route verified</button><button id="nom-declined">Decline route</button>
+<p>Verification does not authorize a new recipient. No addresses are added to the mail configuration.</p>
+<h3>Issue activity</h3><pre id="issue-detail"></pre>
+<button id="group-preview">Prepare de-identified group update preview</button><pre id="group-output" aria-live="polite"></pre>
+<p>Review any preview before manually sharing with authorized collaborators. The service never publishes or sends this preview.</p></section>
 <section><h2>Saved knowledge and coordinated replies</h2><p>Maintain approved, scoped Markdown in the private GitHub state repository. The assistant reuses existing facts and prepares internal drafts; it never sends them.</p><p id="knowledge-status" role="status" aria-live="polite"></p><pre id="knowledge-detail"></pre><button id="knowledge-refresh">Check saved knowledge</button><button id="knowledge-prepare">Prepare from Markdown</button><button id="knowledge-load">Load current proposal into editor</button></section>
 <section><h2>Draft</h2><label for="brief">Redacted, factual brief and specific request</label><textarea id="brief" rows="6" maxlength="4000"></textarea><label class="check"><input id="redacted" type="checkbox"> I reviewed this brief and approve sharing its non-sensitive content with the AI provider.</label><button id="generate">Generate editable draft</button><label for="subject">Subject</label><input id="subject" maxlength="160"><label for="body">Message (plain text)</label><textarea id="body" rows="10" maxlength="6000"></textarea><button id="save">Save exact draft for review</button></section>
 <section><h2>Explicit approval</h2><p id="draft-status"></p><label for="reply">Reviewed reply to respond to (leave empty for initial message)</label><select id="reply"></select><label class="check"><input type="checkbox" id="approved"> I verified the recipient, evidence, content and need for this specific message.</label><button id="send">Send this reviewed message</button></section>

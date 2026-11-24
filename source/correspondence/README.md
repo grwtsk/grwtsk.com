@@ -67,3 +67,7 @@ References:
 ## Structured knowledge and internal reply preparation
 
 See [KNOWLEDGE.md](KNOWLEDGE.md) and [signals.example.md](signals.example.md). The optional automatic worker reads approved scoped Markdown from the private state repo and prepares internal proposals with source provenance and unresolved information. It never sends. Existing per-message approval, recipient authorization, reply checks and live-delivery limits remain in effect.
+
+## Issue-centered coordination
+
+See [COORDINATION.md](COORDINATION.md). The encrypted issue ledger links cases, tracks responsibilities and actions, preserves related/consolidated issues, and records reviewed feedback and proposed institutional routes. It prepares de-identified group update previews without sending or publishing them. Templates support a separately provisioned private GitHub collaboration repository; public or arbitrary contact submissions and CC amplification are not supported.
