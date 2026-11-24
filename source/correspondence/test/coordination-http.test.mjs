@@ -35,6 +35,8 @@ test('issue routes require operator authentication, preserve private state, and 
     assert.equal(preview.status,200);assert.equal((await preview.json()).publication,'not_published');
     const send=await req('/api/send',{cc:['example@example.org'],confirm:true});
     assert.equal(send.status,400);
+    const locked=await req('/api/send',{caseId:'synthetic-case',confirm:true});
+    assert.equal(locked.status,409);assert.match((await locked.json()).error,/locked during writing review/);
     assert.equal(config.offices.length,0);assert.equal(state.cases.length,0);
     assert.equal(calls,0);
   } finally {server.close();await once(server,'close');}

@@ -60,8 +60,8 @@ export class GitHubStore {
   }
 }
 export class MailProvider {
-  constructor(key,fetcher=fetch){this.key=key;this.fetcher=fetcher;}
-  call(path,opts={}){return request('https://api.resend.com'+path,{token:this.key,fetcher:this.fetcher,...opts});}
+  constructor(key,fetcher=fetch,{allowSend=true}={}){this.key=key;this.fetcher=fetcher;this.allowSend=allowSend;}
+  call(path,opts={}){requireThat(this.allowSend||(opts.method||'GET')==='GET',409,'Outbound provider writes locked');return request('https://api.resend.com'+path,{token:this.key,fetcher:this.fetcher,...opts});}
   async send(m,reference){
     const header=typeof reference==='string' && /^<[^<>\r\n]{1,490}>$/.test(reference)?reference:null;
     const result=await this.call('/emails',{method:'POST',headers:{'Idempotency-Key':'casework/'+m.id},body:{

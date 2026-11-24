@@ -1,0 +1,35 @@
+name: Public writing review
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'source/correspondence/**'
+      - '.github/workflows/writing-review.yml'
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  issue_comment:
+    types: [created]
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: public-writing-review
+  cancel-in-progress: false
+jobs:
+  review:
+    if: github.repository == 'grwtsk/grwtsk.com' && (github.event_name != 'issue_comment' || (github.event.issue.number == 11 && github.event.comment.user.id == 176085483))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Update the unsent writing review
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node source/correspondence/sync-writing-review.mjs
