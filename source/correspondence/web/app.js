@@ -35,14 +35,14 @@ async function refresh(){
   options($('office'),snapshot.offices,o=>o.role+' — '+o.email,o=>o.id);
   options($('cases'),snapshot.state.cases,c=>c.title+' — '+c.office.role,c=>c.id);
   if(!snapshot.state.cases.some(c=>c.id===selected))selected='';
-  $('cases').value=selected;renderCase();renderCoordination();$('send').disabled=!snapshot.live;$('generate').disabled=!snapshot.ai;$('knowledge-prepare').disabled=!snapshot.ai;
+  $('cases').value=selected;renderCase();renderCoordination();resetPublicRecord();$('send').disabled=!snapshot.live;$('generate').disabled=!snapshot.ai;$('knowledge-prepare').disabled=!snapshot.ai;
   status('Ledger opened. '+(snapshot.live?'Manual live delivery enabled.':'Live delivery disabled.'));
 }
 async function run(fn){if(busy)return;busy=true;try{await fn();}catch(e){status(e.message);}finally{busy=false;}}
 $('connect').onclick=()=>run(async()=>{token=$('token').value;$('token').value='';await refresh();});
 $('logout').onclick=()=>{token='';snapshot=null;selected='';saved=null;location.reload();};
 $('refresh').onclick=()=>run(refresh);
-$('cases').onchange=()=>{if(busy){$('cases').value=selected;return;}selected=$('cases').value;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();renderCoordination();};
+$('cases').onchange=()=>{if(busy){$('cases').value=selected;return;}selected=$('cases').value;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();renderCoordination();resetPublicRecord();};
 $('create').onclick=()=>run(async()=>{const c=await api('cases',{officeId:$('office').value,title:$('title').value});selected=c.id;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';await refresh();});
 $('generate').onclick=()=>run(async()=>{proposalId=null;const d=await api('draft',{caseId:selected,brief:$('brief').value,redacted:$('redacted').checked});$('subject').value=d.subject;$('body').value=d.text;resetDraft();status('Draft generated. Review and edit before saving.');});
 for(const id of ['subject','body'])$(id).oninput=resetDraft;
@@ -196,4 +196,37 @@ $('quality-save').onclick=()=>run(async()=>{
 });
 $('quality-prepare').onclick=()=>run(async()=>{
   await api('quality/prepare',{});await refreshQuality();
+});
+
+let publicCoverage=null;
+function resetPublicRecord(){
+  publicCoverage=null;$('public-output').textContent='';$('public-coverage-detail').textContent='';
+  $('public-reviewed').checked=false;$('public-summary').value='';
+  options($('public-source'),[],()=>'',()=> '');
+}
+$('public-coverage').onclick=()=>run(async()=>{
+  if(!selected)throw Error('Select a case first.');
+  publicCoverage=await api('public-record/coverage?caseId='+encodeURIComponent(selected));
+  options($('public-source'),publicCoverage.entries.filter(e=>e.eligible),e=>e.direction+' · '+e.date+(e.prepared?' · prepared':''),e=>e.direction+':'+e.id);
+  $('public-coverage-detail').textContent=publicCoverage.prepared+' of '+publicCoverage.total+' case records have a reviewed export prepared. Pending, unreviewed and unconfirmed records are not eligible. No publication status is inferred.';
+});
+function publicInput(){
+  if(!$('public-reviewed').checked)throw Error('Review and authorize this exact public disclosure first.');
+  return {mode:$('public-mode').value,summary:$('public-summary').value,confirm:true,privacyReviewed:true,disclosureAuthorized:true};
+}
+async function preparePublic(path,input){
+  const approved=publicInput();
+  if(!confirm('Prepare this reviewed public record? This does not publish it.'))return;
+  const result=await api(path,{...input,...approved});
+  $('public-reviewed').checked=false;
+  $('public-output').textContent='Path: '+result.path+'\nSHA-256: '+result.sha256+'\nStatus: '+result.status+'\n\n'+result.markdown;
+}
+$('public-case').onclick=()=>run(async()=>{
+  const [direction,messageId]=$('public-source').value.split(':');
+  if(!selected||!messageId)throw Error('Select an eligible correspondence record.');
+  await preparePublic('public-record/case',{caseId:selected,direction,messageId});
+});
+$('public-archive').onclick=()=>run(async()=>{
+  if(!mailboxRecord)throw Error('Open an admitted inbox record first.');
+  await preparePublic('public-record/archive',{day:mailboxRecord.day,name:mailboxRecord.name});
 });

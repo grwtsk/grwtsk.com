@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
 import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile, suggestWritingImprovements } from './adapters.mjs';
 import { PersonalArchive, ingestPersonal, attachPersonalReply } from './personal-mailbox.mjs';
+import { sourceForCase, sourceForArchive, preparePublicRecord, casePublicCoverage } from './public-record.mjs';
 import { recordQuality, qualitySummary, prepareQualityReview } from './quality.mjs';
 import { planForCase, describePlan, currentProvenance, prepareProposal, prepareNext } from './knowledge.mjs';
 import { createIssue, updateIssue, attachCase, linkIssues, recordFeedback, withdrawFeedbackSharing, nominateRoute, reviewNomination, issueView, groupPreview } from './coordination.mjs';
@@ -69,6 +70,9 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
         // Never render or deliver the archived HTML in the browser.
         const {html,...safe}=r;return respond(res,200,{...safe,hasHtml:!!html});
       }
+      if(req.method==='GET'&&path==='/api/public-record/coverage'){
+        return respond(res,200,casePublicCoverage((await store.read()).state,url.searchParams.get('caseId')));
+      }
       if(req.method==='GET'&&path==='/api/quality'){
         return respond(res,200,qualitySummary((await store.read()).state));
       }
@@ -86,7 +90,12 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
       requireThat(req.method==='POST' && (req.headers['content-type']||'').split(';')[0]==='application/json',405,'POST JSON required');
       const input=parse(await rawBody(req));
       let result;
-      if(path==='/api/mailbox/recover'){
+      if(path==='/api/public-record/case'){
+        result=await store.mutate(s=>preparePublicRecord(s,sourceForCase(s,config.offices,input),input));
+      } else if(path==='/api/public-record/archive'){
+        const record=await archive.get(input.day,input.name);
+        result=await store.mutate(s=>preparePublicRecord(s,sourceForArchive(record,config.offices),input));
+      } else if(path==='/api/mailbox/recover'){
         requireThat(input.confirm===true,400,'Confirm recovery of one provider message');
         const mail=await provider.receive(input.providerId);
         result=await ingestPersonal(store,archive,config,mail,input.providerId,'manual-recovery',inbound);

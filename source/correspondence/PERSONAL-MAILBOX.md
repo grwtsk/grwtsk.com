@@ -39,3 +39,7 @@ The issue ledger and approved Markdown remain the source of instructions. Each p
 5. Maintain issues and approved redacted signals in the private collaboration/state repositories. The automatic worker prepares internal drafts; the operator approves exact outgoing messages. Never give the AI arbitrary shell, code-write, mail-send, DNS or deploy permissions.
 
 The code does not provision a provider account, domain, DNS record, state repository, or operational mailbox by itself.
+
+## Admission and public disclosure update
+
+[PUBLIC-RECORD.md](PUBLIC-RECORD.md) supersedes the broader intake description above: only individually authorized senders with provider-computed DMARC pass are archived; authenticated automated or ambiguous messages are held. Unknown or unverified messages are excluded from the application. Public record exports require explicit review, and the provider dashboard is the exception review/recovery path. No automatic replies or publication.

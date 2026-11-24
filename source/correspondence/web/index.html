@@ -17,6 +17,14 @@
 </section>
 <section><h2>Open a case</h2><label for="office">Verified office or consenting correspondent</label><select id="office"></select><label for="title">Case title</label><input id="title" maxlength="150"><button id="create">Create case</button></section>
 <section><h2>Case history</h2><label for="cases">Select case</label><select id="cases"></select><p id="case-info"></p><div id="history"></div><button id="refresh">Refresh</button><button id="close">Close selected case</button></section>
+<section><h2>Public correspondence record</h2><p>Prepare a reviewed public receipt or redacted summary of an actual send or received message. The private original remains in the encrypted archive. No public publication occurs automatically.</p>
+<label for="public-source">Source in selected case</label><select id="public-source"></select>
+<button id="public-coverage">Refresh coverage</button><pre id="public-coverage-detail"></pre>
+<label for="public-mode">Public record type</label><select id="public-mode"><option value="receipt">Receipt only — content withheld</option><option value="summary">Reviewed public summary</option></select>
+<label for="public-summary">Public plain-text summary (optional; no third-party private information)</label><textarea id="public-summary" rows="5" maxlength="2400"></textarea>
+<label class="check"><input type="checkbox" id="public-reviewed"> I reviewed the exact content for accuracy and confidentiality, have authority to disclose it, and understand that public Git history may be permanent. My own consent does not waive others' rights.</label>
+<button id="public-case">Prepare selected case record</button><button id="public-archive">Prepare opened inbox record</button>
+<pre id="public-output" aria-live="polite"></pre><p>Review the exact output and commit it manually to the indicated public repository path. A prepared record is not proof of publication.</p></section>
 <section><h2>Issues and coordination</h2>
 <p>Private issue records connect correspondence, responsibilities, decisions and reviewed feedback. Links do not grant access to other cases or authorize recipients.</p>
 <label for="issue-select">Select issue</label><select id="issue-select"></select><p id="issue-unassigned" role="status"></p>

@@ -75,3 +75,7 @@ See [COORDINATION.md](COORDINATION.md). The encrypted issue ledger links cases, 
 ## Personal mailbox and continuous improvement
 
 See [PERSONAL-MAILBOX.md](PERSONAL-MAILBOX.md). The configured primary address is jacob@grwtsk.com; recognized incoming messages are encrypted in individual archive files in the private GitHub state repo. The optional aggregate writing-quality review proposes internal improvements only. Use npm run start:local for the ignored root key file. Domain provisioning and live integration qualification are separate deployment gates.
+
+## Focused intake and public correspondence
+
+See [PUBLIC-RECORD.md](PUBLIC-RECORD.md). Only authenticated authorized senders enter the application; unlisted or unverified senders are ignored without an automatic reply. Listed automated or mismatched messages are held privately. The operator can prepare reviewed public receipts and summaries while preserving original correspondence in the private archive; publication remains a separate reviewed Git commit.
