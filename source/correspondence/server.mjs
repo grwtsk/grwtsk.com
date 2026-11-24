@@ -1,7 +1,9 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
-import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile } from './adapters.mjs';
+import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile, suggestWritingImprovements } from './adapters.mjs';
+import { PersonalArchive, ingestPersonal, attachPersonalReply } from './personal-mailbox.mjs';
+import { recordQuality, qualitySummary, prepareQualityReview } from './quality.mjs';
 import { planForCase, describePlan, currentProvenance, prepareProposal, prepareNext } from './knowledge.mjs';
 import { createIssue, updateIssue, attachCase, linkIssues, recordFeedback, withdrawFeedbackSharing, nominateRoute, reviewNomination, issueView, groupPreview } from './coordination.mjs';
 
@@ -16,10 +18,12 @@ function envConfig(e) {
   const domain=(e.MAIL_RECEIVE_DOMAIN||'').toLowerCase();
   requireThat(/^[a-z0-9][a-z0-9.-]*\.[a-z]{2,63}$/.test(domain) && !domain.includes('..'),500,'Configure dedicated inbound mail domain');
   const from=email(e.MAIL_FROM||'');
+  const primary=email(e.MAIL_PRIMARY_ADDRESS||from),primaryAlias=e.MAIL_PRIMARY_ALIAS?email(e.MAIL_PRIMARY_ALIAS):null;
+  requireThat(primary===from,500,'Primary mailbox must match the verified From address');
   requireThat(e.RESEND_API_KEY && /^whsec_[A-Za-z0-9+/=]+$/.test(e.RESEND_WEBHOOK_SECRET||'') &&
     Buffer.from(e.RESEND_WEBHOOK_SECRET.slice(6),'base64').length>=16,500,'Configure Resend API and webhook signing secret');
   return {repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
-    domain,from,offices:parseOffices(e.AUTHORIZED_OFFICES_JSON),openaiKey:e.OPENAI_API_KEY||'',model:e.OPENAI_MODEL||'',
+    domain,from,primary,primaryAlias,autoQuality:e.ENABLE_AUTO_QUALITY==='true',offices:parseOffices(e.AUTHORIZED_OFFICES_JSON),openaiKey:e.OPENAI_API_KEY||'',model:e.OPENAI_MODEL||'',
     live:e.ENABLE_LIVE_SEND==='true',autoDrafts:e.ENABLE_AUTO_DRAFTS==='true',port:Number(e.PORT||8080)};
 }
 const security={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY','Referrer-Policy':'no-referrer',
@@ -33,7 +37,7 @@ async function rawBody(req,limit=64_000) {
   return Buffer.concat(chunks);
 }
 function parse(raw){try{const x=JSON.parse(raw.toString('utf8'));requireThat(x && typeof x==='object' && !Array.isArray(x),400,'Expected JSON object');return x;}catch(e){if(e instanceof Fault)throw e;throw new Fault(400,'Invalid JSON');}}
-export function handler(config,store,provider) {
+export function handler(config,store,provider,archive=new PersonalArchive(store)) {
   return async(req,res)=>{
     try {
       const url=new URL(req.url,'http://localhost'),path=url.pathname;
@@ -47,7 +51,7 @@ export function handler(config,store,provider) {
         const raw=await rawBody(req),hook=verifyWebhook(raw,req.headers,config.webhookSecret),event=parse(raw);
         if(event.type==='email.received'){
           const id=event.data?.email_id,mail=await provider.receive(id);
-          await store.mutate(s=>inbound(s,mail,id,hook));
+          await ingestPersonal(store,archive,config,mail,id,hook,inbound);
         } else if(deliveryTypes.has(event.type))await store.mutate(s=>delivery(s,event,hook,config.from));
         return respond(res,200,{ok:true});
       }
@@ -55,7 +59,18 @@ export function handler(config,store,provider) {
       requireThat(same(req.headers.authorization||'','Bearer '+config.token),401,'Operator authentication required');
       if(req.method==='GET'&&path==='/api/state'){
         const {state}=await store.read();
-        return respond(res,200,{state,offices:config.offices,live:config.live,ai:!!(config.openaiKey&&config.model)});
+        return respond(res,200,{state,offices:config.offices,primary:config.primary||null,live:config.live,ai:!!(config.openaiKey&&config.model)});
+      }
+      if(req.method==='GET'&&path==='/api/mailbox/day'){
+        return respond(res,200,await archive.list(url.searchParams.get('day'),url.searchParams.get('cursor')));
+      }
+      if(req.method==='GET'&&path==='/api/mailbox/message'){
+        const r=await archive.get(url.searchParams.get('day'),url.searchParams.get('name'));
+        // Never render or deliver the archived HTML in the browser.
+        const {html,...safe}=r;return respond(res,200,{...safe,hasHtml:!!html});
+      }
+      if(req.method==='GET'&&path==='/api/quality'){
+        return respond(res,200,qualitySummary((await store.read()).state));
       }
       if(req.method==='GET'&&path==='/api/knowledge'){
         const {state}=await store.read();
@@ -71,7 +86,19 @@ export function handler(config,store,provider) {
       requireThat(req.method==='POST' && (req.headers['content-type']||'').split(';')[0]==='application/json',405,'POST JSON required');
       const input=parse(await rawBody(req));
       let result;
-      if(path==='/api/coordination/create')result=await store.mutate(s=>createIssue(s,input));
+      if(path==='/api/mailbox/recover'){
+        requireThat(input.confirm===true,400,'Confirm recovery of one provider message');
+        const mail=await provider.receive(input.providerId);
+        result=await ingestPersonal(store,archive,config,mail,input.providerId,'manual-recovery',inbound);
+      } else if(path==='/api/mailbox/attach'){
+        const r=await archive.get(input.day,input.name);
+        result=await store.mutate(s=>attachPersonalReply(s,config.offices,input,r));
+      } else if(path==='/api/quality/feedback')result=await store.mutate(s=>recordQuality(s,input));
+      else if(path==='/api/quality/prepare'){
+        requireThat(config.openaiKey&&config.model,503,'AI drafting is not configured');
+        result=await prepareQualityReview(store,config,suggestWritingImprovements);
+      }
+      else if(path==='/api/coordination/create')result=await store.mutate(s=>createIssue(s,input));
       else if(path==='/api/coordination/update')result=await store.mutate(s=>updateIssue(s,input));
       else if(path==='/api/coordination/attach')result=await store.mutate(s=>attachCase(s,input));
       else if(path==='/api/coordination/link')result=await store.mutate(s=>linkIssues(s,input));
@@ -140,18 +167,21 @@ export function handler(config,store,provider) {
     }
   };
 }
-async function start(){
+export async function start(){
   const config=envConfig(process.env);
   const store=new GitHubStore({...config,token:config.githubToken});
   await store.initialize();
   const provider=new MailProvider(config.resendKey);
   const server=createServer({requestTimeout:90000,headersTimeout:15000,maxHeaderSize:16000},handler(config,store,provider));
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
-  if(config.autoDrafts&&config.openaiKey&&config.model){
+  if((config.autoDrafts||config.autoQuality)&&config.openaiKey&&config.model){
     let busy=false;
     const tick=async()=>{
       if(busy)return;busy=true;
-      try{await prepareNext(store,config,draftFromSignals);}
+      try{
+        if(config.autoDrafts)await prepareNext(store,config,draftFromSignals);
+        if(config.autoQuality)await prepareQualityReview(store,config,suggestWritingImprovements);
+      }
       catch(e){console.error('Internal draft preparation unavailable',e instanceof Fault?e.status:503);}
       finally{busy=false;}
     };

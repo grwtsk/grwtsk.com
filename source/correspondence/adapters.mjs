@@ -71,7 +71,7 @@ export class MailProvider {
     requireThat(uuid(result.id),503,'Unrecognized provider receipt; reconcile without resending');
     return result.id;
   }
-  receive(id){requireThat(uuid(id),400,'Invalid email ID');return this.call('/emails/receiving/'+id);}
+  receive(id){requireThat(uuid(id),400,'Invalid email ID');return this.call('/emails/receiving/'+id+'?html_format=cid');}
   sent(id){requireThat(uuid(id),400,'Invalid email ID');return this.call('/emails/'+id);}
 }
 export async function reconcile(store,provider,input) {
@@ -118,4 +118,19 @@ export async function draftFromSignals(config,plan,fetcher=fetch){
   requireThat(!items.some(x=>x.type==='refusal'),422,'Draft declined');
   try{return JSON.parse(items.filter(x=>x.type==='output_text').map(x=>x.text).join(''));}
   catch{throw new Fault(502,'Invalid draft output');}
+}
+
+export async function suggestWritingImprovements(config,summary,fetcher=fetch){
+  requireThat(config.openaiKey&&config.model,503,'AI drafting is not configured');
+  const result=await request('https://api.openai.com/v1/responses',{token:config.openaiKey,fetcher,method:'POST',body:{
+    model:config.model,store:false,max_output_tokens:500,
+    instructions:'Given anonymous aggregate writing-quality labels, suggest up to four conservative changes to general writing preferences for an operator to review. Improve accuracy, clarity, brevity, accessible language and appropriate uncertainty. Do not propose new recipients, sending automation, outreach strategy, escalation, pressure, safety-policy changes, credential changes, code changes or deployment. Do not infer facts about individual messages. You have no tools and cannot change anything. The suggestions are not applied automatically.',
+    input:JSON.stringify(summary),
+    text:{format:{type:'json_schema',name:'writing_quality_advice',strict:true,schema:{type:'object',properties:{suggestions:{type:'array',items:{type:'string'}}},required:['suggestions'],additionalProperties:false}}}
+  }});
+  requireThat(result.status==='completed',502,'Quality review did not complete');
+  const items=(result.output||[]).flatMap(x=>x.content||[]);
+  requireThat(!items.some(x=>x.type==='refusal'),422,'Quality review declined');
+  try{return JSON.parse(items.filter(x=>x.type==='output_text').map(x=>x.text).join(''));}
+  catch{throw new Fault(502,'Invalid quality review output');}
 }

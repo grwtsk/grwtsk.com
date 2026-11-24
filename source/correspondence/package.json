@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "start:local": "node start-local.mjs"
   }
 }

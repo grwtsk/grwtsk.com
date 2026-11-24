@@ -31,7 +31,7 @@ function renderCase(){
   if(c.drafts.length){const d=c.drafts.at(-1);historyItem('Latest saved draft · '+d.createdAt,d.subject+'\n\n'+d.text);}
 }
 async function refresh(){
-  snapshot=await api('state');$('workspace').hidden=false;
+  snapshot=await api('state');$('workspace').hidden=false;$('mailbox-primary').textContent=snapshot.primary||'Primary mailbox not configured';
   options($('office'),snapshot.offices,o=>o.role+' — '+o.email,o=>o.id);
   options($('cases'),snapshot.state.cases,c=>c.title+' — '+c.office.role,c=>c.id);
   if(!snapshot.state.cases.some(c=>c.id===selected))selected='';
@@ -152,3 +152,48 @@ async function reviewRoute(status){
 $('nom-verified').onclick=()=>run(()=>reviewRoute('route-verified'));
 $('nom-declined').onclick=()=>run(()=>reviewRoute('declined'));
 $('group-preview').onclick=()=>run(async()=>{const r=await api('coordination/preview?issueId='+encodeURIComponent(issueSelected));$('group-output').textContent=r.markdown;});
+
+let mailboxPage=null,mailboxRecord=null;
+$('mailbox-day').value=new Date().toISOString().slice(0,10);
+function resetMailboxSelection(){mailboxRecord=null;$('mailbox-detail').textContent='';}
+async function loadMailbox(more=false){
+  const day=$('mailbox-day').value;
+  const cursor=more&&mailboxPage?.day===day?mailboxPage.next:null;
+  if(more&&!cursor)throw Error('No further messages on this date.');
+  mailboxPage=await api('mailbox/day?day='+encodeURIComponent(day)+(cursor?'&cursor='+encodeURIComponent(cursor):''));
+  resetMailboxSelection();options($('mailbox-item'),mailboxPage.items,r=>r.createdAt.slice(11,19)+' · '+(r.from||'Unknown')+' · '+(r.subject||'(no subject)'),r=>r.name);
+  $('mailbox-more').disabled=!mailboxPage.next;
+  status(mailboxPage.items.length+' archived messages on this page.'+(mailboxPage.directoryLimit?' Directory listing may be incomplete; use provider recovery.':''));
+}
+$('mailbox-day').onchange=()=>{mailboxPage=null;resetMailboxSelection();options($('mailbox-item'),[],()=>'',()=>'');};
+$('mailbox-item').onchange=resetMailboxSelection;
+$('mailbox-load').onclick=()=>run(()=>loadMailbox());
+$('mailbox-more').onclick=()=>run(()=>loadMailbox(true));
+$('mailbox-open').onclick=()=>run(async()=>{
+  const day=mailboxPage?.day,name=$('mailbox-item').value;if(!day||!name)throw Error('Select an archived message.');
+  const r=await api('mailbox/message?day='+encodeURIComponent(day)+'&name='+encodeURIComponent(name));mailboxRecord=r;
+  $('mailbox-detail').textContent='Provider ID: '+r.id+'\nReceived: '+r.createdAt+'\nFrom: '+(r.from||'Unknown')+'\nAuthentication: '+r.authentication.dmarc+'\nSubject: '+r.subject+'\n\n'+(r.text||'[No plain-text part; use provider dashboard]')+(r.bodyTruncated?'\n[Archive body bounded; consult original]':'')+'\n\nAttachments: '+(r.attachmentCount??'unknown')+' (originals in provider dashboard)';
+});
+$('mailbox-attach').onclick=()=>run(async()=>{
+  const r=mailboxRecord;if(!r||!selected)throw Error('Open a message and select the authorized case.');
+  if(!confirm('Associate this message with the selected case? It must be from the authorized sender.'))return;
+  await api('mailbox/attach',{caseId:selected,day:r.day,name:r.name,confirm:true});await refresh();
+  status('Message associated. Review it in case history before use.');
+});
+$('mailbox-recover').onclick=()=>run(async()=>{
+  if(!confirm('Retrieve and archive this single received email? No email will be sent.'))return;
+  const r=await api('mailbox/recover',{providerId:$('mailbox-recovery-id').value.trim(),confirm:true});
+  status(r.ignored?'Not addressed to a configured mailbox.':'Provider message archive checked. Load its received date.');
+});
+async function refreshQuality(){
+  const r=await api('quality');$('quality-detail').textContent='Reviewed proposals: '+r.sampleCount+'\n'+Object.entries(r.counts).map(([k,v])=>k+': '+v).join('\n')+
+    (r.latestReview?'\n\nLatest review: '+r.latestReview.status+'\n'+(r.latestReview.suggestions||[]).join('\n'):'');
+}
+$('quality-refresh').onclick=()=>run(refreshQuality);
+$('quality-save').onclick=()=>run(async()=>{
+  if(!proposalId)throw Error('Load an AI knowledge proposal first.');
+  await api('quality/feedback',{proposalId,categories:[$('quality-label').value],confirm:true});await refreshQuality();
+});
+$('quality-prepare').onclick=()=>run(async()=>{
+  await api('quality/prepare',{});await refreshQuality();
+});

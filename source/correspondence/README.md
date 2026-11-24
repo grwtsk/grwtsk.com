@@ -71,3 +71,7 @@ See [KNOWLEDGE.md](KNOWLEDGE.md) and [signals.example.md](signals.example.md). T
 ## Issue-centered coordination
 
 See [COORDINATION.md](COORDINATION.md). The encrypted issue ledger links cases, tracks responsibilities and actions, preserves related/consolidated issues, and records reviewed feedback and proposed institutional routes. It prepares de-identified group update previews without sending or publishing them. Templates support a separately provisioned private GitHub collaboration repository; public or arbitrary contact submissions and CC amplification are not supported.
+
+## Personal mailbox and continuous improvement
+
+See [PERSONAL-MAILBOX.md](PERSONAL-MAILBOX.md). The configured primary address is jacob@grwtsk.com; recognized incoming messages are encrypted in individual archive files in the private GitHub state repo. The optional aggregate writing-quality review proposes internal improvements only. Use npm run start:local for the ignored root key file. Domain provisioning and live integration qualification are separate deployment gates.

@@ -174,7 +174,8 @@ export function inbound(state,mail,providerId,hookId) {
   const matches=state.cases.filter(c=>recipients.some(r=>mailbox(r)===c.replyTo));
   if(matches.length!==1) return {ignored:true};
   const c=matches[0], text=typeof mail.text==='string'?mail.text:'';
-  const r={id:randomUUID(),providerId,hookId,receivedAt:now(),providerCreatedAt:typeof mail.created_at==='string'?mail.created_at.slice(0,80):null,
+  const receivedAt=typeof mail.created_at==='string'&&Number.isFinite(Date.parse(mail.created_at))?new Date(mail.created_at).toISOString():now();
+  const r={id:randomUUID(),providerId,hookId,receivedAt,providerCreatedAt:typeof mail.created_at==='string'?mail.created_at.slice(0,80):null,
     from:mailbox(mail.from),subject:typeof mail.subject==='string'?mail.subject.slice(0,300):'',
     text:text.slice(0,MAX_REPLY_CHARS),textTruncated:text.length>MAX_REPLY_CHARS,htmlOnly:!text&&!!mail.html,
     messageId:typeof mail.message_id==='string'?mail.message_id.slice(0,500):null,
