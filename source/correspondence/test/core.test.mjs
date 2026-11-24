@@ -100,3 +100,21 @@ test('reconciliation requires provider identity and exact reserved content',asyn
   await assert.rejects(reconcile(store,{sent:async()=>({...evidence,text:'wrong'})},input),/does not match/);
   assert.equal((await reconcile(store,{sent:async()=>evidence},input)).providerId,pid);
 });
+
+test('repeated exact draft saves reuse latest revision, while edits preserve history',()=>{
+  const {s,c,d}=fixture(),events=s.events.length;
+  const duplicate=saveDraft(s,offices,{caseId:c.id,subject:d.subject,text:d.text});
+  assert.equal(duplicate.id,d.id);assert.equal(c.drafts.length,1);assert.equal(s.events.length,events);
+  const edited=saveDraft(s,offices,{caseId:c.id,subject:d.subject,text:'Edited text.'});
+  assert.notEqual(edited.id,d.id);assert.equal(c.drafts.length,2);
+  assert.equal(saveDraft(s,offices,{caseId:c.id,subject:edited.subject,text:edited.text}).id,edited.id);
+  assert.equal(c.drafts.length,2);
+});
+test('duplicate saving cannot bypass exact approval or send deduplication',()=>{
+  const {s,c,d,approval}=fixture();
+  const duplicate=saveDraft(s,offices,{caseId:c.id,subject:d.subject,text:d.text});
+  const reserved=reserveSend(s,offices,{...approval,draftId:duplicate.id},sender);
+  acceptSend(s,c.id,reserved.message.id,randomUUID());
+  assert.equal(saveDraft(s,offices,{caseId:c.id,subject:d.subject,text:d.text}).id,d.id);
+  assert.throws(()=>reserveSend(s,offices,approval,sender),/attempted/);
+});

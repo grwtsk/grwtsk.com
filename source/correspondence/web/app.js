@@ -9,7 +9,17 @@ async function api(path,data){
   const j=await r.json();if(!r.ok)throw Error(j.error||'Request failed');return j;
 }
 function active(){return snapshot?.state.cases.find(c=>c.id===selected);}
-function resetDraft(){saved=null;$('approved').checked=false;$('draft-status').textContent='Save the exact draft before approving.';}
+function resetDraft(){saved=null;$('approved').checked=false;$('save').disabled=false;$('save').textContent='Save exact draft for review';$('save-feedback').textContent='Draft not saved in this editor. Save before approving.';$('draft-status').textContent='Save the exact draft before approving.';}
+function showSaved(d,caseId){
+  saved={caseId,id:d.id,hash:d.hash,subject:d.subject,text:d.text,replyId:d.knowledge?.replyId||null};
+  proposalId=d.knowledge?.proposalId||null;
+  $('subject').value=d.subject;$('body').value=d.text;$('approved').checked=false;
+  $('save').disabled=true;$('save').textContent='Draft saved';
+  $('restore-draft').disabled=false;
+  $('save-feedback').textContent='Saved successfully. Your draft is in case history. No email was sent. To change it, edit the subject or message.';
+  $('draft-status').textContent='Saved draft '+d.id+'. Review before approval.';
+  if(d.knowledge?.replyId)$('reply').value=d.knowledge.replyId;
+}
 function historyItem(summary,text,review){
   const d=document.createElement('details'),s=document.createElement('summary'),p=document.createElement('pre');
   s.textContent=summary;p.textContent=text;d.append(s,p);
@@ -20,6 +30,7 @@ function renderCase(){
   const c=active();$('history').replaceChildren();$('case-info').textContent=c?c.office.role+' — '+c.office.email+' | '+(c.closed?'Closed':'Open')+' | Case ID: '+c.id+' | '+c.replyTo:'Choose a case.';
   options($('reply'),c?.incoming.filter(r=>r.reviewed)||[],r=>r.receivedAt+' '+r.subject,r=>r.id);
   options($('pending'),c?.outgoing.filter(r=>r.status==='pending')||[],r=>r.id,r=>r.id);
+  $('restore-draft').disabled=!c||!c.drafts.length;
   if(!c)return;
   for(const m of c.outgoing){
     const events=snapshot.state.delivery.filter(e=>e.providerId===m.providerId);
@@ -46,7 +57,28 @@ $('cases').onchange=()=>{if(busy){$('cases').value=selected;return;}selected=$('
 $('create').onclick=()=>run(async()=>{const c=await api('cases',{officeId:$('office').value,title:$('title').value});selected=c.id;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';await refresh();});
 $('generate').onclick=()=>run(async()=>{proposalId=null;const d=await api('draft',{caseId:selected,brief:$('brief').value,redacted:$('redacted').checked});$('subject').value=d.subject;$('body').value=d.text;resetDraft();status('Draft generated. Review and edit before saving.');});
 for(const id of ['subject','body'])$(id).oninput=resetDraft;
-$('save').onclick=()=>run(async()=>{const d=await api('save',{caseId:selected,subject:$('subject').value,text:$('body').value,...(proposalId?{proposalId}:{})});saved={caseId:selected,id:d.id,hash:d.hash,subject:d.subject,text:d.text,replyId:d.knowledge?.replyId||null};$('subject').value=d.subject;$('body').value=d.text;$('approved').checked=false;$('draft-status').textContent='Saved exact draft '+d.id+'. Review before approval.';await refresh();if(d.knowledge?.replyId)$('reply').value=d.knowledge.replyId;});
+$('save').onclick=()=>run(async()=>{
+  if(!active()){$('save-feedback').textContent='Select a correspondence case first.';return;}
+  const caseId=selected, subject=$('subject').value,text=$('body').value;
+  $('save').disabled=true;$('save').textContent='Saving…';$('save-feedback').textContent='Saving your exact draft to the encrypted ledger…';
+  $('subject').readOnly=true;$('body').readOnly=true;
+  let d;
+  try{
+    d=await api('save',{caseId,subject,text,...(proposalId?{proposalId}:{})});
+  }catch(e){
+    resetDraft();$('save-feedback').textContent='Save could not be confirmed: '+e.message+'. Retry safely; identical saved revisions are reused.';
+    status(e.message);return;
+  }finally{$('subject').readOnly=false;$('body').readOnly=false;}
+  showSaved(d,caseId);
+  try{await refresh();if(d.knowledge?.replyId)$('reply').value=d.knowledge.replyId;}
+  catch(e){$('save-feedback').textContent='Saved successfully. History refresh failed; use Refresh to view it. No email was sent.';}
+  status('Draft saved successfully. No email sent.');
+});
+$('restore-draft').onclick=()=>run(async()=>{
+  const c=active(),d=c?.drafts.at(-1);
+  if(!d){$('save-feedback').textContent='No saved draft for the selected case.';return;}
+  showSaved(d,c.id);$('save-feedback').textContent='Loaded your latest saved draft. No need to save it again. No email was sent.';
+});
 $('send').onclick=()=>run(async()=>{
   if(!saved||saved.caseId!==selected||saved.subject!==$('subject').value||saved.text!==$('body').value||!$('approved').checked)throw Error('Save and approve the exact message first.');
   const replyId=$('reply').value||null;const request={caseId:selected,draftId:saved.id,hash:saved.hash,confirm:true,replyId};

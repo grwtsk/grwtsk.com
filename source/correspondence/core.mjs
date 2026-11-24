@@ -101,10 +101,14 @@ export function validateDraft(input) {
 export function saveDraft(state, offices, input, provenance=null) {
   const c=findCase(state,input.caseId); currentOffice(c,offices);
   requireThat(!c.closed,409,'Case is closed');
-  const content=validateDraft(input), id=randomUUID();
+  const content=validateDraft(input);
   const material=[c.id,c.office.email,c.replyTo,content.subject,content.text];
   if(provenance)material.push(provenance);
   const hash=digest(JSON.stringify(material));
+  // Repeated clicks and retries of the latest exact revision are idempotent.
+  const previous=c.drafts.at(-1);
+  if(previous?.hash===hash && previous.subject===content.subject && previous.text===content.text)return previous;
+  const id=randomUUID();
   const draft={id,hash,...content,createdAt:now(),...(provenance?{knowledge:provenance}:{})};
   c.drafts.push(draft); audit(state,'draft.saved',c.id,{draftId:id,hash}); return draft;
 }
