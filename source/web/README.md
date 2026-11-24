@@ -199,3 +199,34 @@ build must not be deployed. Review the diagnostic before rebuilding.
   both manifest and lock changes, and run tests.
 
 [Root operating guide](../../README.md) · [Architecture](../README.md).
+
+## Analytics
+
+The site's Google Tag Manager container is **GTM-TMB9CVJW**. It is installed
+in the shared [HTML layout](../generator/templates/layout.html), so both
+page templates load it once. Manage the container's tags and triggers at
+https://tagmanager.google.com/. Publish the desired analytics tag inside
+that container; the container ID alone does not establish that Google
+Analytics is receiving events.
+
+The static server's Content Security Policy authorizes only the exact
+hashed dataLayer bootstrap, Google Tag Manager's script origin and
+the Google Analytics connection endpoints. It does not permit arbitrary
+inline scripts, eval or additional advertising script/connection origins.
+The original no-referrer policy remains in place. If you edit the bootstrap,
+compute a new SHA-256 CSP hash over the exact script text (including
+whitespace) and update the server policy and tests together.
+
+This website contains sensitive correspondence. Do not configure the GTM
+container to capture article contents, health information, personal
+identifiers, form data or response records. Review URL/title collection,
+consent settings, advertising features and retention in the analytics
+account before enabling tags. The script installation does not configure
+those account settings. The site's built-in bootstrap sends no custom
+correspondence data, but tags configured in GTM may collect browser and
+page information. Keep analytics optional to reading the public site.
+
+Use Google's Tag Assistant or the actual analytics property's realtime
+report to confirm reception after deployment. The automated tests verify
+the generated markup, CSP and initialization order using a local stub;
+they intentionally do not send production analytics events.

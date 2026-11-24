@@ -60,3 +60,16 @@ records. Responses are separate works about the article (subjectOf),
 not components of its immutable body. Head metadata and sharing metadata
 derive from the same validated model; no image, publication date or
 sender type is invented. No new search-indexing policy is introduced.
+
+## Analytics
+
+The shared document head installs the owner-supplied Google Tag Manager
+container GTM-TMB9CVJW once per page. The dataLayer bootstrap is initialized
+before the asynchronous loader; the letter remains readable without JavaScript.
+No article body, correspondence metadata, visitor identifier or custom
+tracking event is supplied by this implementation. The published GTM
+container determines which tags and destinations actually run.
+
+See the [web analytics guide](../../web/README.md#analytics) before changing
+the container or bootstrap. The inline bootstrap is authorized by its exact
+CSP hash; changing it requires updating the policy and verification together.

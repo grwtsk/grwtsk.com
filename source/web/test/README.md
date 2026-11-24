@@ -69,3 +69,14 @@ Open the screenshot directory printed by your terminal variable
 `$browser_tools/previews` for visual inspection. In GitHub Actions,
 download the layout-previews artifact. A passing layout test is not
 evidence that the public host has deployed the build.
+
+## Analytics regression checks
+
+The HTML5/HTTP suite requires exactly one analytics bootstrap, the approved
+asynchronous GTM container loader and the inert JSON-LD block in each
+generated page. It hashes the emitted bootstrap and checks that the server
+CSP authorizes that exact text without permitting arbitrary inline code.
+Chromium tests intercept the Google loader with a deterministic local stub,
+check that dataLayer was initialized first and check CSP violations. No
+actual analytics events are sent by CI. Live collection must be checked
+separately with the configured analytics account.
