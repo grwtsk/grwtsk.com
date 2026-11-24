@@ -1,0 +1,35 @@
+name: Verify private correspondence service
+on:
+  pull_request:
+    paths:
+      - 'source/correspondence/**'
+      - '.github/workflows/correspondence.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'source/correspondence/**'
+      - '.github/workflows/correspondence.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: source/correspondence
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax check
+        run: |
+          node --check server.mjs
+          node --check adapters.mjs
+          node --check core.mjs
+          node --check web/app.js
+      - name: Run synthetic tests without credentials or live email
+        run: npm test
+      - name: Build container
+        run: docker build -t grwtsk-correspondence-test .
