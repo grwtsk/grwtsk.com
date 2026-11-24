@@ -71,6 +71,8 @@ export class MailProvider {
     requireThat(uuid(result.id),503,'Unrecognized provider receipt; reconcile without resending');
     return result.id;
   }
+  listReceived(limit=20){requireThat(Number.isInteger(limit)&&limit>0&&limit<=20,400,'Invalid recovery bound');return this.call('/emails/receiving?limit='+limit);}
+  listSent(limit=20){requireThat(Number.isInteger(limit)&&limit>0&&limit<=20,400,'Invalid recovery bound');return this.call('/emails?limit='+limit);}
   receive(id){requireThat(uuid(id),400,'Invalid email ID');return this.call('/emails/receiving/'+id+'?html_format=cid');}
   sent(id){requireThat(uuid(id),400,'Invalid email ID');return this.call('/emails/'+id);}
 }

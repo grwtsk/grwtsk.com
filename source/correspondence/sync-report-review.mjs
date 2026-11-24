@@ -92,6 +92,8 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
    }
  }
  // Keep one bounded, fixed improvement comment on the existing program issue.
+ const recovery=p.recovery;
+ if(recovery&&(!/^\d{4}-\d{2}-\d{2}$/.test(recovery.day)||!['verified','bounded','unavailable'].includes(recovery.intake)||!['verified','unresolved','unavailable'].includes(recovery.reconciliation)))throw Error('Invalid recovery projection');
  const improvement=p.improvement;
  if(improvement){
    const parent=(await call('/issues/10')).data;
@@ -106,6 +108,8 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
      lines.push('### '+item.title,'Observed count: '+improvement.count+'. Method: '+improvement.method+'.','',item.proposal,'','Acceptance test: '+item.test,'','Proposed only; no code change or email is authorized.');
    }else if(['pending','no-actionable-signal'].includes(improvement.status))lines.push('No evidence-backed improvement proposal is currently available.');
    else throw Error('Invalid improvement status');
+   if(recovery)lines.push('','Read-only provider recovery ('+recovery.day+' UTC): intake '+recovery.intake+'; pending receipt reconciliation '+recovery.reconciliation+'. No send is attempted.');
+   if(p.checkpoint&&typeof p.checkpoint==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(p.checkpoint))lines.push('Local encrypted checkpoint verified: '+p.checkpoint+'. This is not an off-volume backup.');
    const body=lines.join('\n');
    if(!prior.length)await call('/issues/10/comments','POST',{body});
    else if(prior[0].body!==body)await call('/issues/comments/'+prior[0].id,'PATCH',{body});
