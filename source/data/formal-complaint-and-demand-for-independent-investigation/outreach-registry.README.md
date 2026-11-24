@@ -58,6 +58,16 @@ The American Brain Coalition, California Disability Leadership Alliance and Cali
 
 Check each record's channel kind and purpose: a policy information page is not a complaint form. Emails and telephone numbers are published organizational routes, not tested deliveries. Recheck elected-office and party information after legislative transitions. No invitations, dispatches, endorsements or confirmed coalition participation are recorded.
 
+## News and investigative journalism (2026-11-24)
+
+[news-media-resources.json](news-media-resources.json) adds 49 public newsroom and editorial-routing records: seven Peninsula outlets, 12 Bay Area outlets, eight Central Valley outlets, four California statewide outlets, six specialist healthcare/disability publications and 12 national/international news organizations. The file includes 20 published email routes, 15 telephone routes, six published Signal routes, four previous reporting references on California Medical Board oversight, and five additional outlets whose official contact routes could not be independently verified in this research session.
+
+Use these resources to request independent, evidence-based public-interest reporting. The Los Angeles Times and CalMatters have previously published reporting on the Medical Board and physician discipline. Local newsrooms around Stanford, San Francisco and Fresno offer regionally relevant coverage. KFF Health News, STAT and California Health Report provide healthcare-specialist coverage; New Mobility and Undark have complementary disability and science coverage.
+
+Select a suitable newsroom and use its designated tip or editorial channel. Several outlets share news networks or inboxes. Do not send duplicate tips to the same shared inbox. Distinguish firsthand facts and records from allegations and inferences, and identify the specific systemic question to be independently verified. Do not publish sensitive medical records or private contact information in Git. Check the newsroom's current confidential-tip instructions before sharing private records; ordinary email and most general forms are not encrypted. Some submissions grant publication rights. A news tip neither files a regulatory complaint nor extends a legal deadline.
+
+The directory records public institutional contact routes, not individual reporters' private information, delivery verification, publication commitments or completed notifications. Five unverified candidates are kept separately and excluded from the 49-record total.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
