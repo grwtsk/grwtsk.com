@@ -63,3 +63,7 @@ References:
 - https://resend.com/docs/dashboard/receiving/introduction
 - https://docs.github.com/en/rest/repos/contents
 - https://docs.railway.com/builds/dockerfiles
+
+## Structured knowledge and internal reply preparation
+
+See [KNOWLEDGE.md](KNOWLEDGE.md) and [signals.example.md](signals.example.md). The optional automatic worker reads approved scoped Markdown from the private state repo and prepares internal proposals with source provenance and unresolved information. It never sends. Existing per-message approval, recipient authorization, reply checks and live-delivery limits remain in effect.

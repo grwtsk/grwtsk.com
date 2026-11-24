@@ -98,24 +98,27 @@ export function createCase(state, offices, input, domain) {
 export function validateDraft(input) {
   return {subject:field(input.subject,'subject',160,{multiline:false}),text:field(input.text,'plain text message',6000)};
 }
-export function saveDraft(state, offices, input) {
+export function saveDraft(state, offices, input, provenance=null) {
   const c=findCase(state,input.caseId); currentOffice(c,offices);
   requireThat(!c.closed,409,'Case is closed');
   const content=validateDraft(input), id=randomUUID();
-  const hash=digest(JSON.stringify([c.id,c.office.email,c.replyTo,content.subject,content.text]));
-  const draft={id,hash,...content,createdAt:now()};
+  const material=[c.id,c.office.email,c.replyTo,content.subject,content.text];
+  if(provenance)material.push(provenance);
+  const hash=digest(JSON.stringify(material));
+  const draft={id,hash,...content,createdAt:now(),...(provenance?{knowledge:provenance}:{})};
   c.drafts.push(draft); audit(state,'draft.saved',c.id,{draftId:id,hash}); return draft;
 }
 export function suppressed(state,c) {
   return state.delivery.some(e=>e.to===c.office.email && ['email.bounced','email.complained','email.suppressed'].includes(e.type));
 }
-export function reserveSend(state, offices, input, from, at=now()) {
+export function reserveSend(state, offices, input, from, at=now(), knowledgeFingerprint=null) {
   const c=findCase(state,input.caseId); currentOffice(c,offices);
   requireThat(!c.closed && !suppressed(state,c),409,'Case closed or recipient suppressed');
   requireThat(!c.outgoing.some(x=>x.status==='pending'),409,'Uncertain send must be reconciled before continuing');
   const d=c.drafts.at(-1);
   requireThat(d && d.id===input.draftId && same(d.hash,input.hash) && input.confirm===true,409,'Review and explicitly confirm the latest exact draft');
-  requireThat(!c.outgoing.some(x=>x.draftId===d.id || x.hash===d.hash),409,'This message was already attempted');
+  if(d.knowledge)requireThat(knowledgeFingerprint===d.knowledge.fingerprint && (input.replyId||null)===d.knowledge.replyId,409,'The knowledge source or reply changed; prepare and review a new draft');
+  requireThat(!c.outgoing.some(x=>x.draftId===d.id || x.hash===d.hash || (x.subject===d.subject&&x.text===d.text)),409,'This message was already attempted');
   const last=c.outgoing.at(-1);
   if(last) {
     requireThat(last.status==='accepted',409,'Previous send not reconciled');
@@ -128,7 +131,7 @@ export function reserveSend(state, offices, input, from, at=now()) {
   requireThat(all.filter(x=>Date.parse(at)-Date.parse(x.at)<86_400_000).length<3,429,'Manual correspondence limit: three attempts in 24 hours');
   requireThat(Buffer.byteLength(JSON.stringify(state))<MAX_STATE_BYTES-20_000,507,'Insufficient ledger space for durable send receipts');
   const message={id:randomUUID(),draftId:d.id,hash:d.hash,at,status:'pending',from,to:c.office.email,replyTo:c.replyTo,
-    subject:d.subject,text:d.text,replyId:input.replyId||null};
+    subject:d.subject,text:d.text,replyId:input.replyId||null,...(d.knowledge?{knowledge:d.knowledge}:{})};
   c.outgoing.push(message);
   audit(state,'send.reserved',c.id,{messageId:message.id,draftId:d.id,hash:d.hash});
   return {caseId:c.id,message};

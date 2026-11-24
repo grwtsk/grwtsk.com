@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-let token='', snapshot=null, selected='', saved=null, busy=false;
+let token='', snapshot=null, selected='', saved=null, busy=false, knowledge=null, proposalId=null;
 const status=s=>{$('status').textContent=s;};
 function options(el,items,label,value){
   el.replaceChildren(new Option('Select…',''),...items.map(x=>new Option(label(x),value(x))));
@@ -35,18 +35,18 @@ async function refresh(){
   options($('office'),snapshot.offices,o=>o.role+' — '+o.email,o=>o.id);
   options($('cases'),snapshot.state.cases,c=>c.title+' — '+c.office.role,c=>c.id);
   if(!snapshot.state.cases.some(c=>c.id===selected))selected='';
-  $('cases').value=selected;renderCase();$('send').disabled=!snapshot.live;$('generate').disabled=!snapshot.ai;
+  $('cases').value=selected;renderCase();$('send').disabled=!snapshot.live;$('generate').disabled=!snapshot.ai;$('knowledge-prepare').disabled=!snapshot.ai;
   status('Ledger opened. '+(snapshot.live?'Manual live delivery enabled.':'Live delivery disabled.'));
 }
 async function run(fn){if(busy)return;busy=true;try{await fn();}catch(e){status(e.message);}finally{busy=false;}}
 $('connect').onclick=()=>run(async()=>{token=$('token').value;$('token').value='';await refresh();});
 $('logout').onclick=()=>{token='';snapshot=null;selected='';saved=null;location.reload();};
 $('refresh').onclick=()=>run(refresh);
-$('cases').onchange=()=>{selected=$('cases').value;resetDraft();$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();};
-$('create').onclick=()=>run(async()=>{const c=await api('cases',{officeId:$('office').value,title:$('title').value});selected=c.id;resetDraft();$('subject').value='';$('body').value='';await refresh();});
-$('generate').onclick=()=>run(async()=>{const d=await api('draft',{caseId:selected,brief:$('brief').value,redacted:$('redacted').checked});$('subject').value=d.subject;$('body').value=d.text;resetDraft();status('Draft generated. Review and edit before saving.');});
+$('cases').onchange=()=>{selected=$('cases').value;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();};
+$('create').onclick=()=>run(async()=>{const c=await api('cases',{officeId:$('office').value,title:$('title').value});selected=c.id;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';await refresh();});
+$('generate').onclick=()=>run(async()=>{proposalId=null;const d=await api('draft',{caseId:selected,brief:$('brief').value,redacted:$('redacted').checked});$('subject').value=d.subject;$('body').value=d.text;resetDraft();status('Draft generated. Review and edit before saving.');});
 for(const id of ['subject','body'])$(id).oninput=resetDraft;
-$('save').onclick=()=>run(async()=>{const d=await api('save',{caseId:selected,subject:$('subject').value,text:$('body').value});saved={caseId:selected,id:d.id,hash:d.hash,subject:d.subject,text:d.text};$('subject').value=d.subject;$('body').value=d.text;$('approved').checked=false;$('draft-status').textContent='Saved exact draft '+d.id+'. Review before approval.';await refresh();});
+$('save').onclick=()=>run(async()=>{const d=await api('save',{caseId:selected,subject:$('subject').value,text:$('body').value,...(proposalId?{proposalId}:{})});saved={caseId:selected,id:d.id,hash:d.hash,subject:d.subject,text:d.text,replyId:d.knowledge?.replyId||null};$('subject').value=d.subject;$('body').value=d.text;$('approved').checked=false;$('draft-status').textContent='Saved exact draft '+d.id+'. Review before approval.';await refresh();if(d.knowledge?.replyId)$('reply').value=d.knowledge.replyId;});
 $('send').onclick=()=>run(async()=>{
   if(!saved||saved.caseId!==selected||saved.subject!==$('subject').value||saved.text!==$('body').value||!$('approved').checked)throw Error('Save and approve the exact message first.');
   const replyId=$('reply').value||null;const request={caseId:selected,draftId:saved.id,hash:saved.hash,confirm:true,replyId};
@@ -55,3 +55,28 @@ $('send').onclick=()=>run(async()=>{
 });
 $('close').onclick=()=>run(async()=>{if(confirm('Close this case and prevent future sends?')){await api('close',{caseId:selected,confirm:true});await refresh();}});
 $('reconcile').onclick=()=>run(async()=>{await api('reconcile',{caseId:selected,messageId:$('pending').value,providerId:$('provider').value.trim()});await refresh();status('Provider receipt verified and recorded.');});
+
+async function refreshKnowledge(){
+  if(!selected)throw Error('Select a case first.');
+  knowledge=await api('knowledge?caseId='+encodeURIComponent(selected));
+  $('knowledge-status').textContent=knowledge.ready?'Current approved signals: '+knowledge.signals.length+' · '+(knowledge.proposal?.status||'not prepared'):knowledge.reason;
+  const p=knowledge.proposal;
+  $('knowledge-detail').textContent=knowledge.ready?
+    'Source revision: '+knowledge.source.commit+'\n'+knowledge.signals.map(s=>s.id+' · '+s.kind+' · '+s.evidence).join('\n')+
+    (p?.output?'\n\nMissing information:\n'+(p.output.missingInformation.join('\n')||'None reported')+
+      '\n\nCoordination note:\n'+(p.output.coordination||'None'):''):'';
+  $('knowledge-load').disabled=!p||p.status!=='ready';
+}
+$('knowledge-refresh').onclick=()=>run(refreshKnowledge);
+$('knowledge-prepare').onclick=()=>run(async()=>{
+  if(!selected)throw Error('Select a case first.');
+  await api('knowledge/prepare',{caseId:selected});await refreshKnowledge();
+});
+$('knowledge-load').onclick=()=>run(async()=>{
+  await refreshKnowledge();
+  const p=knowledge?.proposal;
+  if(!p||p.status!=='ready')throw Error('No current ready proposal.');
+  proposalId=p.id;$('subject').value=p.output.subject;$('body').value=p.output.text;
+  resetDraft();if(p.replyId)$('reply').value=p.replyId;
+  status('Loaded the proposal and source references. Review or edit, save, and approve before sending.');
+});

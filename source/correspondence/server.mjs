@@ -1,7 +1,8 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
-import { GitHubStore, MailProvider, draftWithAI, reconcile } from './adapters.mjs';
+import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile } from './adapters.mjs';
+import { planForCase, describePlan, currentProvenance, prepareProposal, prepareNext } from './knowledge.mjs';
 
 function envConfig(e) {
   const repo=e.STATE_REPO||'', branch=e.STATE_BRANCH||'main';
@@ -18,7 +19,7 @@ function envConfig(e) {
     Buffer.from(e.RESEND_WEBHOOK_SECRET.slice(6),'base64').length>=16,500,'Configure Resend API and webhook signing secret');
   return {repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
     domain,from,offices:parseOffices(e.AUTHORIZED_OFFICES_JSON),openaiKey:e.OPENAI_API_KEY||'',model:e.OPENAI_MODEL||'',
-    live:e.ENABLE_LIVE_SEND==='true',port:Number(e.PORT||8080)};
+    live:e.ENABLE_LIVE_SEND==='true',autoDrafts:e.ENABLE_AUTO_DRAFTS==='true',port:Number(e.PORT||8080)};
 }
 const security={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY','Referrer-Policy':'no-referrer',
   'Content-Security-Policy':"default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"};
@@ -34,7 +35,7 @@ function parse(raw){try{const x=JSON.parse(raw.toString('utf8'));requireThat(x &
 export function handler(config,store,provider) {
   return async(req,res)=>{
     try {
-      const path=new URL(req.url,'http://localhost').pathname;
+      const url=new URL(req.url,'http://localhost'),path=url.pathname;
       if(req.method==='GET'&&path==='/healthz')return respond(res,200,{ok:true});
       if(req.method==='GET'&&['/','/app.js','/style.css'].includes(path)){
         const file=path==='/'?'index.html':path.slice(1);
@@ -55,6 +56,13 @@ export function handler(config,store,provider) {
         const {state}=await store.read();
         return respond(res,200,{state,offices:config.offices,live:config.live,ai:!!(config.openaiKey&&config.model)});
       }
+      if(req.method==='GET'&&path==='/api/knowledge'){
+        const {state}=await store.read();
+        const caseId=url.searchParams.get('caseId');findCase(state,caseId);
+        const snapshot=await store.readSignals();
+        return respond(res,200,snapshot?describePlan(planForCase(state,config.offices,caseId,snapshot),state):
+          {ready:false,reason:'Create signals/approved.md in the private state repository using the example.'});
+      }
       requireThat(req.method==='POST' && (req.headers['content-type']||'').split(';')[0]==='application/json',405,'POST JSON required');
       const input=parse(await rawBody(req));
       let result;
@@ -64,7 +72,19 @@ export function handler(config,store,provider) {
         const {state}=await store.read(),c=findCase(state,input.caseId);
         requireThat(!c.closed && config.offices.some(o=>o.id===c.office.id&&o.email===c.office.email),409,'Case is closed or office not authorized');
         result=await draftWithAI(config,c.office,field(input.brief,'redacted brief',4000));
-      } else if(path==='/api/save')result=await store.mutate(s=>saveDraft(s,config.offices,input));
+      } else if(path==='/api/knowledge/prepare'){
+        requireThat(config.openaiKey&&config.model,503,'AI drafting is not configured');
+        const snapshot=await store.readSignals();requireThat(snapshot,409,'Create approved Markdown signals first');
+        result=await prepareProposal(store,config,input.caseId,snapshot,draftFromSignals);
+      } else if(path==='/api/save'){
+        const snapshot=input.proposalId?await store.readSignals():null;
+        result=await store.mutate(s=>{
+          if(!input.proposalId)return saveDraft(s,config.offices,input);
+          requireThat(snapshot,409,'Knowledge source unavailable');
+          const provenance=currentProvenance(s,config.offices,input.caseId,input.proposalId,snapshot);
+          return saveDraft(s,config.offices,input,provenance);
+        });
+      }
       else if(path==='/api/review-reply')result=await store.mutate(s=>reviewReply(s,input));
       else if(path==='/api/close')result=await store.mutate(s=>closeCase(s,input));
       else if(path==='/api/reconcile'){
@@ -72,7 +92,17 @@ export function handler(config,store,provider) {
         result=await store.mutate(s=>acceptSend(s,x.caseId,x.messageId,x.providerId));
       } else if(path==='/api/send'){
         requireThat(config.live,409,'Live delivery disabled');
-        const reserved=await store.mutate(s=>reserveSend(s,config.offices,input,config.from));
+        const {state:before}=await store.read(),candidate=findCase(before,input.caseId).drafts.at(-1);
+        const snapshot=candidate?.knowledge?await store.readSignals():null;
+        const reserved=await store.mutate(s=>{
+          const d=findCase(s,input.caseId).drafts.at(-1);
+          let fingerprint=null;
+          if(d?.knowledge){
+            requireThat(snapshot,409,'Knowledge source unavailable');
+            fingerprint=currentProvenance(s,config.offices,input.caseId,d.knowledge.proposalId,snapshot).fingerprint;
+          }
+          return reserveSend(s,config.offices,input,config.from,new Date().toISOString(),fingerprint);
+        });
         // Reservation must commit before making the one provider request.
         // Never automatically retry this external side effect, even after a timeout.
         let providerId;
@@ -103,5 +133,17 @@ async function start(){
   const provider=new MailProvider(config.resendKey);
   const server=createServer({requestTimeout:90000,headersTimeout:15000,maxHeaderSize:16000},handler(config,store,provider));
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
+  if(config.autoDrafts&&config.openaiKey&&config.model){
+    let busy=false;
+    const tick=async()=>{
+      if(busy)return;busy=true;
+      try{await prepareNext(store,config,draftFromSignals);}
+      catch(e){console.error('Internal draft preparation unavailable',e instanceof Fault?e.status:503);}
+      finally{busy=false;}
+    };
+    const timer=setInterval(tick,300_000);
+    server.on('close',()=>clearInterval(timer));
+    void tick();
+  }
 }
 if(process.argv[1] && new URL('file://'+process.argv[1]).href===import.meta.url)start().catch(()=>{console.error('Correspondence initialization failed; check private state, credentials and configuration');process.exitCode=1;});
