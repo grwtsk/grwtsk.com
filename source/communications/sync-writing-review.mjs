@@ -2,7 +2,7 @@ import {renderWriting,ISSUE} from './writing-review.mjs';
 const api='https://api.github.com/repos/grwtsk/grwtsk.com/issues/'+ISSUE;
 export function renderReview(p){
  if(!p||p.version!==1||p.mode!=='review-only'||!Array.isArray(p.revisions)||p.revisions.length>24)throw Error('Invalid writing projection');
- const lines=['## Writing review — no email delivery','Parent: #5. Healthcare lifecycle: #7 and #8. Improvement loop: #10.','','**All drafts are unsent examples.** No recipient is selected and no approval comment can authorize a send. The initial qualification uses a source-controlled corpus and a bounded AI selection, not free-form accusation generation.','','## Latest review'];
+ const lines=['## Writing review — no email delivery','Communication system: #5. Operations: #6. Healthcare tracking is a deferred specification in #7.','','**All drafts are unsent examples.** No recipient is selected and no approval comment can authorize a send. The initial qualification uses a source-controlled corpus and a bounded AI selection, not free-form accusation generation.','','## Latest review'];
  for(const r of p.revisions){
   if(!r||typeof r.fingerprint!=='string'||!/^[0-9a-f]{64}$/.test(r.fingerprint)||!['ai-selected','baseline'].includes(r.method)||!Number.isSafeInteger(r.feedback)||r.feedback<0)throw Error('Invalid revision');
   renderWriting(r.choice);

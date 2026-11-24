@@ -1,13 +1,13 @@
-name: Verify private correspondence service
+name: Verify communications service
 on:
   pull_request:
     paths:
-      - 'source/correspondence/**'
+      - 'source/communications/**'
       - '.github/workflows/correspondence.yml'
   push:
     branches: [main]
     paths:
-      - 'source/correspondence/**'
+      - 'source/communications/**'
       - '.github/workflows/correspondence.yml'
 permissions:
   contents: read
@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 5
     defaults:
       run:
-        working-directory: source/correspondence
+        working-directory: source/communications
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -35,8 +35,7 @@ jobs:
           node --check public-record.mjs
           node --check volume-store.mjs
           node --check writing-review.mjs
-          node --check report-review.mjs
-          node --check report-lifecycle.mjs
+          node --check read-only-recovery.mjs
           node --check sync-writing-review.mjs
           sh -n container-start.sh
           node --check start-local.mjs

@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'source/correspondence/**'
+      - 'source/communications/**'
       - '.github/workflows/writing-review.yml'
   schedule:
     - cron: '7,22,37,52 * * * *'
@@ -32,4 +32,4 @@ jobs:
       - name: Update the unsent writing review
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node source/correspondence/sync-writing-review.mjs
+        run: node source/communications/sync-writing-review.mjs
