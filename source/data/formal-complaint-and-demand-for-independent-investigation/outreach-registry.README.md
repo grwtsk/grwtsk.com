@@ -68,6 +68,18 @@ Select a suitable newsroom and use its designated tip or editorial channel. Seve
 
 The directory records public institutional contact routes, not individual reporters' private information, delivery verification, publication commitments or completed notifications. Five unverified candidates are kept separately and excluded from the 49-record total.
 
+## Victim support and documented Stanford investigations (2026-11-24)
+
+[victim-support-and-stanford-investigations.json](victim-support-and-stanford-investigations.json) adds 27 victim-support and patient-harm advocacy resource records, 28 organization/agency role records, and 21 historical proceeding or evidence records. These categories are deliberately separate: an archive, litigation party, reporter or former investigator is not necessarily a current complaint recipient.
+
+For support with medical harm, Consumer Watchdog's Healthcare Advocates program participates in Medical Board oversight hearings and legislative reform. Patients For Patient Safety US provides a patient-led advocacy network. For local assistance, the James Rowland Crime Victim Assistance Center in Fresno, Beloved Survivors Trauma Recovery Center, and VictimConnect offer published assistance routes. CalVCB compensation has separate crime-related eligibility requirements. California APS remains the appropriate county-routed reporting pathway for suspected current dependent-adult abuse or neglect; call 911 for immediate danger.
+
+For prior hospital compliance findings, the CDPH Cal Health Find database and AHCJ's CMS-origin inspection archive are especially relevant. Report JFWL11 includes September 2018 findings on hospital quality assurance and emergency policies. Report 3D9X11 includes July 2025 findings concerning failure to disclose a procedural error and failure to report an allegation of staff abuse promptly. Request primary survey reports and plans of correction through the competent agency; an archived deficiency is not proof of continuing noncompliance or a connection to this complaint.
+
+The historical index distinguishes state hospital penalties, federal hospital surveys, workplace investigations, educational civil-rights proceedings, civil litigation, investigative reporting, and research-related reviews. It identifies the relevant Stanford entity and the reported status, including unresolved allegations and exculpatory findings. Organizations whose involvement was limited to unrelated historical matters are evidence references, not outreach targets. No private survivor identities or contacts have been collected. Use confidential support and legal intake, and only appropriate investigative channels for the individual complaint.
+
+This is a sourced initial historical index, not a claim to have located every investigation or verified every current case disposition. Contact listings are not delivery-tested. No notifications or coalition commitments are recorded.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
