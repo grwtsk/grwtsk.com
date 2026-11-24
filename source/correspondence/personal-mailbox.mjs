@@ -10,14 +10,35 @@ function time(s){
 }
 const bytes=(x,n)=>typeof x==='string'?Buffer.from(x).subarray(0,n).toString('utf8'):'';
 export function mailboxRoute(mail,state,config){
-  // Provider envelope recipients are authoritative when present. Header To is a
-  // fallback for older provider responses, not proof of sender identity.
+  // Resend's received_for is derived from forwarding Received clauses, not
+  // independently authenticated envelope data. Neither route field proves sender identity.
   const raw=Array.isArray(mail.received_for)&&mail.received_for.length?mail.received_for:mail.to;
   if(!Array.isArray(raw))return {owned:false};
   const addresses=new Set(raw.map(mailbox).filter(Boolean));
   const primary=[config.primary,config.primaryAlias].filter(Boolean).some(a=>addresses.has(a));
   const matches=state.cases.filter(c=>addresses.has(c.replyTo));
   return {owned:primary||matches.length>0,primary,caseIds:matches.map(c=>c.id),ambiguous:matches.length>1};
+}
+export function admission(mail,state,config){
+  const route=mailboxRoute(mail,state,config);
+  if(!route.owned)return {disposition:'ignored',reason:'not-addressed-to-mailbox'};
+  const sender=mailbox(mail.from);
+  const office=(config.offices||[]).find(o=>o.email===sender);
+  if(!office)return {disposition:'ignored',reason:'not-on-authorized-list'};
+  // Trust the provider's computed result, never a header supplied by the sender.
+  // DMARC authenticates a sending domain, not a particular person.
+  if(mail.authentication?.dmarc!=='pass')return {disposition:'ignored',reason:'authentication-not-verified'};
+  const headers=mail.headers&&typeof mail.headers==='object'?Object.fromEntries(Object.entries(mail.headers).map(([k,v])=>[k.toLowerCase(),String(v)])):{};
+  const automated=(headers['auto-submitted']&&headers['auto-submitted'].trim().toLowerCase()!=='no')||
+    ['bulk','list','junk'].includes((headers.precedence||'').trim().toLowerCase())||
+    !!headers['list-id']||!!headers['list-unsubscribe'];
+  const exactCase=route.caseIds.length===1&&state.cases.some(c=>c.id===route.caseIds[0]&&!c.closed&&
+    c.office.id===office.id&&c.office.email===office.email&&c.office.basis===office.basis);
+  const held=!!automated||route.ambiguous||(route.caseIds.length===1&&!exactCase);
+  const reason=automated?'automation-or-list-header':route.ambiguous?'ambiguous-case-route':route.caseIds.length===1&&!exactCase?'case-authorization-mismatch':'authorized-authenticated-sender';
+  return {disposition:held?'held':'admitted',reason,
+    route:{...route,disposition:held?'held':'admitted',officeId:office.id,reason},
+    linkCase:!held&&exactCase};
 }
 export function archiveMessage(mail,id,route){
   requireThat(uuid(id)&&mail.id===id,400,'Mismatched provider email ID');
@@ -33,7 +54,7 @@ export function archiveMessage(mail,id,route){
     text,html,bodyTruncated:Buffer.byteLength(mail.text||'')>48_000||Buffer.byteLength(mail.html||'')>72_000,
     attachmentCount:Array.isArray(mail.attachments)?mail.attachments.length:null,attachments,
     messageId:bytes(mail.message_id,500)||null,authentication:{dmarc:mail.authentication?.dmarc==='pass'?'pass':'unverified'},
-    route:{primary:route.primary,caseIds:route.caseIds,ambiguous:route.ambiguous},archivedAt:now()};
+    route:{primary:route.primary,caseIds:route.caseIds,ambiguous:route.ambiguous,disposition:route.disposition||'legacy-unreviewed',officeId:route.officeId||null,reason:route.reason||null},archivedAt:now()};
 }
 function validLocation(day,name){return dayOk(day)&&typeof name==='string'&&FILE.test(name);}
 function path(day,name){requireThat(validLocation(day,name),400,'Invalid mailbox archive reference');return 'mailbox/inbound/'+day+'/'+name;}
@@ -81,20 +102,29 @@ export class PersonalArchive {
   }
 }
 export async function ingestPersonal(store,archive,config,mail,id,hook,normalInbound){
-  const {state}=await store.read(),route=mailboxRoute(mail,state,config);
-  if(!route.owned)return {ignored:true};
-  const archived=await archive.put(archiveMessage(mail,id,route));
+  requireThat(uuid(id)&&mail.id===id,400,'Mismatched provider email ID');
+  const {state}=await store.read(),decision=admission(mail,state,config);
+  // Unknown/unauthenticated senders are not persisted, sent to AI, or answered.
+  // The provider may retain its own copy for manual screening/recovery.
+  if(decision.disposition==='ignored')return {ignored:true,reason:decision.reason};
+  const archived=await archive.put(archiveMessage(mail,id,decision.route));
   // The durable archive is written first. A subsequent failure must return a
   // non-2xx webhook response; replay is safe because the archive is create-once.
-  if(route.caseIds.length===1){
-    await store.mutate(s=>normalInbound(s,mail,id,hook));
+  let caseLinked=false;
+  if(decision.linkCase&&archived.record.route.disposition==='admitted'){
+    caseLinked=await store.mutate(s=>{
+      const latest=admission(mail,s,config);
+      if(!latest.linkCase)return false;
+      const result=normalInbound(s,mail,id,hook);
+      return !!(result.recorded||result.duplicate);
+    });
   }
-  return {archived:true,duplicateArchive:!archived.created,caseLinked:route.caseIds.length===1};
+  return {archived:true,duplicateArchive:!archived.created,disposition:archived.record.route.disposition,reason:decision.reason,caseLinked};
 }
 export function attachPersonalReply(state,offices,input,record){
   requireThat(input.confirm===true,400,'Confirm the selected correspondence association');
   const c=findCase(state,input.caseId),o=currentOffice(c,offices);
-  requireThat(!c.closed&&record.route.primary&&record.from===o.email&&record.authentication?.dmarc==='pass',409,'Only a matching authenticated primary-mailbox message may be associated with an active authorized case');
+  requireThat(!c.closed&&record.route.primary&&record.route.disposition==='admitted'&&record.route.officeId===o.id&&record.from===o.email&&record.authentication?.dmarc==='pass',409,'Only a matching authenticated, admitted primary-mailbox message may be associated with an active authorized case');
   requireThat(!state.cases.some(k=>k.incoming.some(r=>r.providerId===record.id)),409,'Message is already associated with a correspondence case');
   const latest=c.outgoing.at(-1);
   if(latest)requireThat(record.createdAt>latest.at,409,'Message predates the latest correspondence attempt');

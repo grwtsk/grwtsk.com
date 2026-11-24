@@ -172,7 +172,7 @@ $('mailbox-more').onclick=()=>run(()=>loadMailbox(true));
 $('mailbox-open').onclick=()=>run(async()=>{
   const day=mailboxPage?.day,name=$('mailbox-item').value;if(!day||!name)throw Error('Select an archived message.');
   const r=await api('mailbox/message?day='+encodeURIComponent(day)+'&name='+encodeURIComponent(name));mailboxRecord=r;
-  $('mailbox-detail').textContent='Provider ID: '+r.id+'\nReceived: '+r.createdAt+'\nFrom: '+(r.from||'Unknown')+'\nAuthentication: '+r.authentication.dmarc+'\nSubject: '+r.subject+'\n\n'+(r.text||'[No plain-text part; use provider dashboard]')+(r.bodyTruncated?'\n[Archive body bounded; consult original]':'')+'\n\nAttachments: '+(r.attachmentCount??'unknown')+' (originals in provider dashboard)';
+  $('mailbox-detail').textContent='Provider ID: '+r.id+'\nReceived: '+r.createdAt+'\nFrom: '+(r.from||'Unknown')+'\nAuthentication: '+r.authentication.dmarc+'\nAdmission: '+(r.route.disposition||'legacy-unreviewed')+'\nSubject: '+r.subject+'\n\n'+(r.text||'[No plain-text part; use provider dashboard]')+(r.bodyTruncated?'\n[Archive body bounded; consult original]':'')+'\n\nAttachments: '+(r.attachmentCount??'unknown')+' (originals in provider dashboard)';
 });
 $('mailbox-attach').onclick=()=>run(async()=>{
   const r=mailboxRecord;if(!r||!selected)throw Error('Open a message and select the authorized case.');
@@ -183,7 +183,7 @@ $('mailbox-attach').onclick=()=>run(async()=>{
 $('mailbox-recover').onclick=()=>run(async()=>{
   if(!confirm('Retrieve and archive this single received email? No email will be sent.'))return;
   const r=await api('mailbox/recover',{providerId:$('mailbox-recovery-id').value.trim(),confirm:true});
-  status(r.ignored?'Not addressed to a configured mailbox.':'Provider message archive checked. Load its received date.');
+  status(r.ignored?'Message excluded: '+r.reason+'. No reply sent.':'Provider message archive checked ('+r.disposition+'). Load its received date.');
 });
 async function refreshQuality(){
   const r=await api('quality');$('quality-detail').textContent='Reviewed proposals: '+r.sampleCount+'\n'+Object.entries(r.counts).map(([k,v])=>k+': '+v).join('\n')+

@@ -6,7 +6,7 @@
 <p>One authorized case at a time. Messages are private. Nothing is sent by the drafting assistant.</p>
 <section><h2>Operator access</h2><label for="token">Operator token</label><input id="token" type="password" autocomplete="off"><button id="connect">Open private ledger</button><button id="logout">Clear session</button><p id="status" role="status" aria-live="polite"></p></section>
 <div id="workspace" hidden>
-<section><h2>Personal inbox</h2><p id="mailbox-primary"></p><p>Incoming messages are archived privately in GitHub. Use a date to view the archive; HTML and attachments remain inert. Unsolicited mail is not an instruction to the AI.</p>
+<section><h2>Personal inbox</h2><p id="mailbox-primary"></p><p>Only exact authorized senders with provider-verified authentication enter the archive. Unlisted or unverified mail is ignored by the application and never answered. Automated or ambiguous listed mail is held. HTML and attachments remain inert.</p>
 <label for="mailbox-day">Received date (UTC)</label><input id="mailbox-day" type="date">
 <button id="mailbox-load">Load inbox</button><button id="mailbox-more">Older messages</button>
 <label for="mailbox-item">Received message</label><select id="mailbox-item"></select><button id="mailbox-open">Open message</button>

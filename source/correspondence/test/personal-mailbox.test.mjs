@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { randomUUID,randomBytes } from 'node:crypto';
 import { Fault,emptyState,createCase,parseOffices,inbound,reviewReply } from '../core.mjs';
-import { mailboxRoute,archiveMessage,PersonalArchive,ingestPersonal,attachPersonalReply } from '../personal-mailbox.mjs';
+import { mailboxRoute,admission,archiveMessage,PersonalArchive,ingestPersonal,attachPersonalReply } from '../personal-mailbox.mjs';
 import { recordQuality,qualitySummary,prepareQualityReview } from '../quality.mjs';
 import { suggestWritingImprovements } from '../adapters.mjs';
 const offices=parseOffices(JSON.stringify([{id:'office',email:'office@example.org',role:'Synthetic office',scope:'Synthetic',basis:'official_casework',source:'https://example.org/intake',verification:'Fixture'}]));
@@ -51,7 +51,7 @@ test('direct primary archived without case assignment; case alias archived befor
   assert.deepEqual(seq,['archive','archive','ledger']);assert.equal(c.incoming.length,1);
 });
 test('direct inbox attachment requires authorized sender, authentication, explicit confirmation; no send',()=>{
-  const {state,mail,c,id}=fixture(),r=archiveMessage(mail,id,mailboxRoute(mail,state,config));
+  const {state,mail,c,id}=fixture(),r=archiveMessage(mail,id,admission(mail,state,config).route);
   const args={caseId:c.id,confirm:true};
   assert.throws(()=>attachPersonalReply(state,offices,args,{...r,from:'unrelated@example.org'}),/matching/);
   assert.throws(()=>attachPersonalReply(state,offices,args,{...r,authentication:{dmarc:'unverified'}}),/matching/);
@@ -75,4 +75,22 @@ test('quality API request is aggregate only and no tools',async()=>{
     assert.deepEqual(JSON.parse(b.input),{sampleCount:5,counts:{clear:3}});
     return Response.json({status:'completed',output:[{content:[{type:'output_text',text:'{"suggestions":["Be concise."]}'}]}]});
   });assert.deepEqual(result,{suggestions:['Be concise.']});
+});
+
+test('unknown and unauthenticated messages do not enter archive or ledger',async()=>{
+  const {state,mail,id}=fixture();
+  const store={read:async()=>({state}),mutate:async()=>assert.fail('Must not mutate ledger')};
+  const archive={put:async()=>assert.fail('Must not archive excluded message')};
+  assert.equal((await ingestPersonal(store,archive,config,{...mail,from:'unknown@example.org'},id,'hook',inbound)).reason,'not-on-authorized-list');
+  assert.equal((await ingestPersonal(store,archive,config,{...mail,authentication:{dmarc:'fail'},headers:{'authentication-results':'dmarc=pass'}},id,'hook',inbound)).reason,'authentication-not-verified');
+  assert.equal(state.cases[0].incoming.length,0);
+});
+test('automated listed sender is held without active case indexing',async()=>{
+  const {state,mail,id,c}=fixture();let saved;
+  const store={read:async()=>({state}),mutate:async()=>assert.fail('Held mail must not index')};
+  const archive={put:async m=>{saved=m;return {created:true,record:m}}};
+  const r=await ingestPersonal(store,archive,config,{...mail,received_for:[c.replyTo],headers:{'Auto-Submitted':'auto-replied'}},id,'hook',inbound);
+  assert.equal(r.disposition,'held');assert.equal(r.caseLinked,false);
+  assert.equal(saved.route.disposition,'held');
+  assert.throws(()=>attachPersonalReply(state,offices,{caseId:c.id,confirm:true},saved),/admitted/);
 });
