@@ -14,6 +14,18 @@ Each record has a stable ID, jurisdiction, purpose and verification status. Cont
 
 The initial snapshot covers all 58 California county district attorney offices, 57 named district attorney directory entries and two named U.S. senators. Mariposa's directory entry identifies an assistant DA rather than an established elected incumbent. It contains 203 contact-routing records and 990 additional directory lookup records; the 1,193 records do not establish 1,193 individuals or contactable recipients. Verify officeholders after the November 2026 election and at the time of contact.
 
+## Authority and escalation map (2026-11-24)
+
+Open [authority-oversight.json](authority-oversight.json) for the independently sourced extension: 84 public office or institutional routing records and 163 typed oversight, administrative and referral relationships, including supervision links to all 58 county district attorney and all 58 county sheriff roles. This file refines some records already in the base registry; do not add the counts to claim unique people.
+
+**For local safety:** use emergency services (911) if there is immediate danger or a medical emergency. Fresno APS has a 24-hour intake at 559-600-3383. For an alleged crime at Stanford, identify the site and ask the shared Palo Alto/Stanford dispatcher (650-329-2413) to determine the appropriate agency. For incidents at UCSF, call UCSF Police (415-476-1414) or the appropriate municipal agency. Santa Clara, San Mateo and San Francisco prosecutor and victim-assistance routes have been rechecked in local official directories.
+
+**For independent oversight:** file the Medical Board and CDPH complaints separately, and the relevant civil-rights report through CRD, HHS OCR or DOJ. The California Attorney General has statutory supervisory authority over district attorneys and sheriffs; the Governor has specific authority to direct the Attorney General to assist a district attorney. The graph does not imply that every county has jurisdiction or that escalation guarantees action.
+
+**For congressional and state legislative oversight:** contact the serving constituent representative and the two California U.S. senators using their official casework procedures; request consideration of systemic patient-safety and civil-rights oversight from the relevant committees through their designated offices. The Governor's Office and the federal DOJ have webforms for routing concerns. Executive/legislative correspondence is not itself a formal grievance or court filing. Do not lobby judges concerning individual cases.
+
+Use the graph's `priority_routes` and `relationships` fields to select the competent office, not as a broadcast list. Keep privacy releases, case numbers and evidence in secure channels. Verification means a published public source was reviewed, not that the contact was tested or that a report was received. No notifications have been made. The statutory text was reviewed in a secondary reproduction because the official legislative site returned HTTP 403. The CDPH facility directory determines the correct district, and not all its regional entries have been separately checked.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
