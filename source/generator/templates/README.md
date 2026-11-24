@@ -29,7 +29,7 @@ Do not insert correspondence directly into HTML templates.
 ## Semantic and security rules
 
 Use one h1 for the full article. Markdown section headings begin at h2.
-Maintain the article, header, main, nav, footer and time semantics, meaningful
+Maintain the article, header, main, nav, footer, definition list, time and data semantics, meaningful
 link text, the correspondence definition list, and canonical URLs. Include
 machine-readable timestamps in datetime attributes. Keep a single source for
 shared markup so the homepage and permalink cannot drift apart.
@@ -45,3 +45,18 @@ Do not add a script dependency to read the article. Use the
 After template changes, run the full test suite and preview both routes.
 
 [Generator guide](../README.md).
+
+## Identity and data signals
+
+The rolling homepage keeps the browser title Correspondence log and a
+self-canonical URL. A permalink is independently self-canonical. The
+featured article keeps the same stable permalink + #article identity on
+both pages. The HTML article exposes its slug and normalized status as
+data attributes, and the visible status is a data element. Times have
+RFC 3339 datetime attributes; written, published, modified, send and
+receipt events are not conflated. The JSON-LD graph connects WebSite,
+WebPage, Article, conditional archive ItemList and response Message
+records. Responses are separate works about the article (subjectOf),
+not components of its immutable body. Head metadata and sharing metadata
+derive from the same validated model; no image, publication date or
+sender type is invented. No new search-indexing policy is introduced.

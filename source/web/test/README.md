@@ -21,8 +21,9 @@ rather than raw escape spellings.
 | Single article | No archive, accurate initial status and empty histories in the fixture |
 | Responses | Both full-article views link to the repository response, plus optional public record |
 | Invalid input | Raw HTML, dangerous destinations, duplicate metadata, invalid dates and inconsistent status fail before output |
-| JSON-LD | Valid JSON, stable document identifiers and safe escaping |
+| JSON-LD | Valid JSON, linked WebSite/WebPage/Article identities, conditional ItemList, separate response Messages and safe escaping |
 | Real site | Every authored article's permalink is present; Vite preserves generated document semantics; the static server delivers current content and stylesheet |
+| Visual layout | Original column, font sizes, stacked metadata, mobile and dark-mode rules checked in a real browser |
 | HTTP policy | GET/HEAD success, health endpoint, unknown path 404, unsupported method 405, security headers and no source-directory exposure |
 
 The actual-data smoke test must remain independent of which letter is

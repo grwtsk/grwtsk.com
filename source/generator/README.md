@@ -50,8 +50,10 @@ authored data as the output.
   values. The C++ safe-rendered body is the only authored HTML trusted
   by the template. JSON-LD is separately escaped for script context.
 
-Structured data describes the **document** using schema.org Article,
-WebPage and ItemList; response references appear as CreativeWork links.
+Structured data describes the **document** using schema.org WebSite, WebPage,
+Article and conditional ItemList; response references appear as separate
+Message works linked through subjectOf. The shared stable article ID
+resolves to the permalink's #article.
 Dates, author, category, tags, citations and word count come from the
 validated model or parsed document. It does not assert the article's
 allegations are verified findings.

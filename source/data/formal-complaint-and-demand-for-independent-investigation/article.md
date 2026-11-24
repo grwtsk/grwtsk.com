@@ -5,6 +5,7 @@ description: "Assault, racial discrimination, medical abandonment, failure to re
 author: "R.A. Jacob Martone"
 language: en
 written_at: "2026-11-24T01:21:26-08:00"
+written_zone: PST
 category: Correspondence
 tags:
   - Patient rights

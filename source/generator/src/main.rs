@@ -37,6 +37,7 @@ struct ArticleMeta {
     author: String,
     language: String,
     written_at: String,
+    written_zone: Option<String>,
     published_at: Option<String>,
     modified_at: Option<String>,
     category: String,
@@ -97,6 +98,7 @@ struct Article {
     permalink: String,
     canonical: String,
     status: &'static str,
+    status_code: &'static str,
     sends: Vec<Send>,
     responses: Vec<Response>,
     html: String,
@@ -136,6 +138,20 @@ fn timestamp(value: &str) -> Result<DateTime<FixedOffset>> {
 
 fn display_date(date: &DateTime<FixedOffset>) -> String {
     date.format("%B %-d, %Y · %H:%M:%S %:z").to_string()
+}
+
+// A fixed offset alone does not establish a named timezone. Use only an
+// explicitly recorded label with a matching offset; otherwise show the offset.
+fn written_display(date: &DateTime<FixedOffset>, zone: Option<&str>) -> Result<String> {
+    let Some(zone) = zone else { return Ok(display_date(date)); };
+    let seconds = match zone {
+        "PST" => -8 * 3600,
+        "PDT" => -7 * 3600,
+        "UTC" => 0,
+        _ => bail!("unsupported written_zone: {zone}; omit it to display the offset"),
+    };
+    ensure!(date.offset().local_minus_utc() == seconds, "written_zone does not match written_at offset");
+    Ok(format!("{} {zone}", date.format("%B %-d, %Y · %H:%M:%S")))
 }
 
 fn public_url(value: &str) -> Result<()> {
@@ -222,8 +238,9 @@ fn load_article(parser: &Path, dir: &Path) -> Result<Article> {
     let permalink = format!("/articles/{id}/");
     let canonical = format!("{ORIGIN}{permalink}");
     Ok(Article {
-        display_date: display_date(&created),
+        display_date: written_display(&created, meta.written_zone.as_deref())?,
         status: match state.status { Status::Written => "Written", Status::Sent => "Sent" },
+        status_code: match state.status { Status::Written => "written", Status::Sent => "sent" },
         sends: std::mem::take(&mut state.sends),
         responses, meta, created, permalink, canonical,
         html: doc.html, headings: doc.headings, links: doc.links,
@@ -252,7 +269,9 @@ fn article_schema(article: &Article) -> Value {
         "@type": "Article",
         "@id": format!("{}#article", article.canonical),
         "url": article.canonical,
-        "mainEntityOfPage": article.canonical,
+        "mainEntityOfPage": {"@id": article.canonical},
+        "isPartOf": {"@id": format!("{ORIGIN}/#website")},
+        "name": meta.title,
         "headline": meta.title,
         "description": meta.description,
         "author": {"@type": "Person", "name": meta.author},
@@ -266,11 +285,22 @@ fn article_schema(article: &Article) -> Value {
     if let Some(value) = &meta.modified_at { data["dateModified"] = json!(value); }
     if !meta.citations.is_empty() { data["citation"] = json!(meta.citations); }
     if !article.responses.is_empty() {
-        data["hasPart"] = json!(article.responses.iter().map(|response| json!({
-            "@type": "CreativeWork",
-            "name": response.meta.title,
-            "url": response.repository_url
-        })).collect::<Vec<_>>());
+        // Responses are distinct works about the article, not parts of its
+        // original text. Receipt time is not publication or authorship time.
+        data["subjectOf"] = json!(article.responses.iter().map(|response| {
+            let mut message = json!({
+                "@type": "Message",
+                "@id": response.repository_url,
+                "url": response.repository_url,
+                "name": response.meta.title,
+                "about": {"@id": format!("{}#article", article.canonical)},
+                "dateReceived": response.meta.received_at
+            });
+            if let Some(record) = &response.meta.public_record {
+                message["citation"] = json!(record);
+            }
+            message
+        }).collect::<Vec<_>>());
     }
     data
 }
@@ -292,36 +322,63 @@ fn templates() -> Result<Environment<'static>> {
     Ok(env)
 }
 
+fn website_schema() -> Value {
+    json!({"@type":"WebSite","@id":format!("{ORIGIN}/#website"),"url":format!("{ORIGIN}/"),
+        "name":"Correspondence log"})
+}
+
+fn page_schema(canonical: &str, title: &str, description: &str, language: &str,
+    article: Option<&Article>) -> Value {
+    let mut page = json!({"@type":"WebPage","@id":canonical,"url":canonical,
+        "name":title,"description":description,"inLanguage":language,
+        "isPartOf":{"@id":format!("{ORIGIN}/#website")}});
+    if let Some(article) = article {
+        page["mainEntity"] = json!({"@id":format!("{}#article", article.canonical)});
+    }
+    page
+}
+
 fn render_site(articles: &[Article]) -> Result<Vec<(PathBuf, String)>> {
     let env = templates()?;
     let mut pages = Vec::new();
     let latest = articles.first();
     let past = articles.get(1..).unwrap_or_default();
-    let mut graph = vec![json!({"@type":"WebPage","@id":format!("{ORIGIN}/"),"url":format!("{ORIGIN}/"),
-        "name":"Correspondence log","inLanguage":"en"})];
+    let home_url = format!("{ORIGIN}/");
+    let language = latest.map(|a| a.meta.language.as_str()).unwrap_or("en");
+    let description = latest.map(|a| a.meta.description.as_str()).unwrap_or("Correspondence log");
+    let mut home_page = page_schema(&home_url, "Correspondence log", description, language, latest);
+    if !past.is_empty() {
+        home_page["hasPart"] = json!({"@type":"WebPageElement","@id":format!("{home_url}#archive"),
+            "name":"Past articles","mainEntity":{
+                "@type":"ItemList","itemListOrder":"https://schema.org/ItemListOrderDescending",
+                "numberOfItems":past.len(),
+                "itemListElement":past.iter().enumerate().map(|(i, a)| json!({
+                    "@type":"ListItem","position":i+1,"item":{"@type":"Article",
+                        "@id":format!("{}#article",a.canonical),"name":a.meta.title,"url":a.canonical}
+                })).collect::<Vec<_>>() }});
+    }
+    let mut graph = vec![website_schema(), home_page];
     if let Some(article) = latest {
-        graph[0]["mainEntity"] = json!({"@id":format!("{}#article", article.canonical)});
+        // Include the stable permalink page node so mainEntityOfPage resolves
+        // even while the same article is featured at the rolling homepage.
+        graph.push(page_schema(&article.canonical, &article.meta.title, &article.meta.description,
+            &article.meta.language, Some(article)));
         graph.push(article_schema(article));
     }
-    if !past.is_empty() {
-        graph[0]["hasPart"] = json!({"@type":"ItemList","name":"Past articles","itemListElement":
-            past.iter().enumerate().map(|(i, a)| json!({"@type":"ListItem","position":i+1,
-                "name":a.meta.title,"url":a.canonical})).collect::<Vec<_>>()});
-    }
     let homepage = json!({
-        "article": latest, "past": past, "canonical": format!("{ORIGIN}/"),
-        "page_title": latest.map(|a| a.meta.title.as_str()).unwrap_or("Correspondence log"),
-        "description": latest.map(|a| a.meta.description.as_str()).unwrap_or("Correspondence log"),
-        "language": latest.map(|a| a.meta.language.as_str()).unwrap_or("en"),
+        "article": latest, "past": past, "canonical": home_url, "page_type": "website",
+        "page_title": "Correspondence log", "description": description, "language": language,
         "structured": script_json(&json!({"@context":"https://schema.org","@graph":graph}))?
     });
     pages.push((PathBuf::from("index.html"),
         env.get_template("homepage.html")?.render(TemplateValue::from_serialize(homepage))?));
     for article in articles {
         let context = json!({
-            "article": article, "canonical": article.canonical, "page_title": article.meta.title,
-            "description": article.meta.description, "language": article.meta.language,
-            "structured": script_json(&json!({"@context":"https://schema.org","@graph":[article_schema(article)]}))?
+            "article": article, "canonical": article.canonical, "page_type": "article",
+            "page_title": article.meta.title, "description": article.meta.description, "language": article.meta.language,
+            "structured": script_json(&json!({"@context":"https://schema.org","@graph":[
+                website_schema(), page_schema(&article.canonical, &article.meta.title,
+                    &article.meta.description, &article.meta.language, Some(article)), article_schema(article)]}))?
         });
         pages.push((PathBuf::from(format!("articles/{}/index.html", article.meta.slug)),
             env.get_template("article.html")?.render(TemplateValue::from_serialize(context))?));
@@ -361,6 +418,13 @@ mod tests {
         for s in ["../a", "A", "a--b", "-a", "a/", "a.b", ""] { assert!(!slug(s)); }
         assert!(timestamp("2026-11-24T01:21:26-08:00").is_ok());
         assert!(timestamp("2026-11-24T01:21:26").is_err());
+    }
+    #[test]
+    fn written_zone_is_explicit_and_matches_offset() {
+        let date = timestamp("2026-11-24T01:21:26-08:00").unwrap();
+        assert_eq!(written_display(&date, Some("PST")).unwrap(), "November 24, 2026 · 01:21:26 PST");
+        assert!(written_display(&date, Some("PDT")).is_err());
+        assert!(written_display(&date, None).unwrap().ends_with("-08:00"));
     }
     #[test]
     fn json_ld_is_script_safe() {

@@ -3,7 +3,7 @@
 {% if article %}
   {% include "full-article.html" %}
   {% if past %}
-  <nav class="archive" aria-labelledby="archive-title">
+  <nav id="archive" class="archive" aria-labelledby="archive-title">
     <h2 id="archive-title">Past articles</h2>
     <ol>
     {% for item in past %}

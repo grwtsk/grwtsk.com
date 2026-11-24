@@ -77,6 +77,7 @@ section headings with `##`; use `###` for subsections.
 | author | Authorship as it should appear in metadata |
 | language | Language tag, e.g. en |
 | written_at | Actual time the document was written |
+| written_zone | Optional explicitly recorded display label: PST, PDT or UTC; must match the offset |
 | category | Broad article category |
 | tags | Optional list of relevant topics |
 | citations | Optional list of actual HTTP(S) source URLs |
@@ -86,7 +87,10 @@ section headings with `##`; use `###` for subsections.
 Use RFC 3339 timestamps: YYYY-MM-DD, T, hours:minutes:seconds, and the
 actual UTC offset or Z. For California local time, -08:00 applies during
 Pacific Standard Time and -07:00 during Pacific Daylight Time. Use the offset
-that applied **at the event**, not necessarily today's offset. Unknown
+that applied **at the event**, not necessarily today's offset. The optional
+written_zone field preserves a known display label; use PST for -08:00,
+PDT for -07:00, or UTC for zero. Omit it if uncertain. The numeric offset
+is always retained in machine-readable time attributes. Unknown
 publication or modification times should be omitted. Do not fabricate them.
 The required written time is used for ordering; changing the send or
 response history does not change that ordering.
