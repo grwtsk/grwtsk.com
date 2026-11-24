@@ -1,8 +1,121 @@
-# Source layout
+# Source architecture
 
-- [data](data/README.md): Markdown correspondence and publication metadata.
-- parser: native C++ parser, versioned JSON process boundary.
-- generator: Rust orchestration, embedded templates and semantic metadata.
-- web: Vite build, local development, and production static server.
+## Intent
 
-Generated artifacts and compiler outputs are excluded from version control.
+Keep content independent from the implementation. C++ understands Markdown;
+Rust understands the correspondence model and generates documents; Vite
+builds the static distribution. Code in one language stays with that language.
+The website's public interface is generated HTML and CSS, not a live database,
+a browser application, or a collection of manually maintained pages.
+
+## Exact maintained layout
+
+```text
+source/
+├── README.md
+├── data/
+│   ├── README.md
+│   └── <article-slug>/
+│       ├── article.md
+│       ├── status.md
+│       └── responses/
+│           ├── .gitkeep
+│           └── <response-slug>.md  (only when a real response exists)
+├── parser/
+│   ├── README.md
+│   ├── CMakeLists.txt
+│   └── src/
+│       ├── README.md
+│       └── main.cpp
+├── generator/
+│   ├── README.md
+│   ├── Cargo.toml
+│   ├── Cargo.lock
+│   ├── src/
+│   │   ├── README.md
+│   │   └── main.rs
+│   ├── assets/
+│   │   ├── README.md
+│   │   └── style.css
+│   └── templates/
+│       ├── README.md
+│       ├── homepage.html
+│       ├── article.html
+│       ├── full-article.html
+│       └── layout.html
+└── web/
+    ├── README.md
+    ├── package.json
+    ├── package-lock.json
+    ├── vite.config.mjs
+    ├── server.mjs
+    ├── scripts/
+    │   ├── README.md
+    │   └── generate.mjs
+    └── test/
+        ├── README.md
+        └── site.test.mjs
+```
+
+The root retains the README, LICENSE, Dockerfile, ignore rules and GitHub
+Actions workflow. New article directories follow the same three-entry
+contract; do not add per-response README files, example responses or loose
+Markdown to the data root. Put data instructions in
+[data/README.md](data/README.md). The two dependency lockfiles are intentional
+source-controlled inputs, not compiled output.
+
+## Data flow and responsibility
+
+```mermaid
+flowchart TD
+    D["data: Markdown and YAML metadata"] --> P["C++: cmark-gfm and yaml-cpp"]
+    P --> J["Versioned JSON over stdout"]
+    J --> R["Rust: typed validation and chronology"]
+    R --> H["Embedded homepage and article templates"]
+    H --> G[".generated: HTML and CSS"]
+    G --> V["Vite: multi-page production build"]
+    V --> S["dist: static files"]
+    S --> W["Static HTTP server"]
+```
+
+| Component | Owns | Does not own |
+| --- | --- | --- |
+| [data](data/README.md) | Authored text, actual dates, status, sends, responses | Layout or application logic |
+| [parser](parser/README.md) | YAML conversion, Markdown AST, extraction and safe renderer output | Article ordering, publication state, templates |
+| [generator](generator/README.md) | Typed model, timestamp ordering, path validation, templates, JSON-LD | Reimplementing Markdown or serving HTTP |
+| [web](web/README.md) | Build orchestration, Vite, static delivery, HTTP checks | Editing correspondence or interpreting its meaning |
+
+The parser emits protocol version 1. Rust fails closed if the version or
+typed schema is invalid. There is no shared-memory C++/Rust coupling or
+foreign-function interface. Process exit status, JSON stdout and diagnostic
+stderr are the cross-language contract. Explicit process boundaries also
+keep the C++ library details out of the Rust generator.
+
+The two page templates compose the same full-article partial and shared
+layout. Templates and CSS are embedded in the Rust binary at compilation.
+The article's Markdown is supplied at generation time. Vite builds all
+HTML entry points, including every permanent article route.
+
+## Find the right source file
+
+| Change | File or guide |
+| --- | --- |
+| Write, send or receive correspondence | [data/README.md](data/README.md) |
+| Add a metadata field | [generator/src/README.md](generator/src/README.md) (typed model first, then template and tests) |
+| Change Markdown handling | [parser/src/README.md](parser/src/README.md) |
+| Change archive or chronology | [generator/src/main.rs](generator/src/main.rs) |
+| Change HTML semantics | [generator/templates/README.md](generator/templates/README.md) |
+| Change type, spacing or contrast | [generator/assets/README.md](generator/assets/README.md) |
+| Change generation or delivery | [web/scripts/README.md](web/scripts/README.md) and [web/README.md](web/README.md) |
+| Verify behavior | [web/test/README.md](web/test/README.md) |
+
+## Generated files are disposable
+
+The following directories are created by tools and ignored by Git:
+`parser/build/`, `generator/target/`, `web/node_modules/`,
+`web/.generated/`, `web/.generation-*/` and `web/dist/`.
+All are relative to this source directory. Do not put authored data there.
+A fresh checkout and the locked build should recreate them. If a build fails,
+repair the source or toolchain, not the generated output.
+
+See the [root guide](../README.md) for the daily operating instructions.

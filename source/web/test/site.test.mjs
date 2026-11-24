@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -113,30 +113,60 @@ test('reject raw HTML, dangerous links, invalid dates and inconsistent status be
     assert.throws(() => readFileSync(join(out, 'index.html')));
   }
 });
-test('real Vite distribution serves only generated pages and static assets', async t => {
+test('real Vite distribution preserves generated articles and serves only static files', async t => {
   const server = createStaticServer(dist).listen(0, '127.0.0.1');
   await once(server, 'listening');
   t.after(() => new Promise(resolve => server.close(resolve)));
   const origin = 'http://127.0.0.1:' + server.address().port;
-  const response = await fetch(origin + '/');
-  assert.equal(response.status, 200);
-  assert.match(response.headers.get('content-security-policy'), /default-src 'none'/);
-  const html = await response.text();
-  assert.match(html, /FORMAL COMPLAINT AND DEMAND FOR INDEPENDENT INVESTIGATION/);
-  assert.match(html, /No responses recorded/);
-  assert.doesNotMatch(html, /Past articles/);
-  const document = parse(html);
-  assert.equal(elements(document, 'h1').length, 1);
-  assert.equal(elements(document, 'h2').length, 11);
-  assert.equal(elements(document, 'nav').length, 0);
-  assert.equal(articleSchema(document).dateCreated, '2026-11-24T01:21:26-08:00');
-  const css = attr(elements(document, 'link').find(link => attr(link, 'rel') === 'stylesheet'), 'href');
+  const generated = fileURLToPath(new URL('../.generated/', import.meta.url));
+  const authoredSlugs = readdirSync(join(source, 'data'), { withFileTypes: true })
+    .filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
+
+  async function checkPage(path, generatedPath) {
+    const response = await fetch(origin + path);
+    assert.equal(response.status, 200, path);
+    assert.match(response.headers.get('content-security-policy'), /default-src 'none'/);
+    const actual = parse(await response.text());
+    const expected = parse(readFileSync(join(generated, generatedPath), 'utf8'));
+    assert.equal(elements(actual, 'h1').length, 1);
+    assert.equal(text(elements(actual, 'h1')[0]), text(elements(expected, 'h1')[0]));
+    const actualArticle = elements(actual, 'article'), expectedArticle = elements(expected, 'article');
+    assert.equal(actualArticle.length, expectedArticle.length);
+    if (expectedArticle.length) {
+      assert.equal(text(actualArticle[0]), text(expectedArticle[0]), 'article text and metadata preserved');
+      assert.deepEqual(hrefs(actualArticle[0]), hrefs(expectedArticle[0]), 'response and body links preserved');
+      assert.deepEqual(articleSchema(actual), articleSchema(expected), 'structured data preserved');
+    }
+    const expectedArchive = elements(expected, 'nav');
+    const actualArchive = elements(actual, 'nav');
+    assert.equal(actualArchive.length, expectedArchive.length);
+    assert.deepEqual(actualArchive.flatMap(hrefs), expectedArchive.flatMap(hrefs));
+    return actual;
+  }
+
+  const home = await checkPage('/', 'index.html');
+  assert.equal(elements(home, 'article').length, authoredSlugs.length ? 1 : 0);
+  assert.equal(elements(home, 'nav').length, authoredSlugs.length > 1 ? 1 : 0);
+  if (authoredSlugs.length) {
+    const latest = articleSchema(home).url;
+    const latestPath = new URL(latest).pathname;
+    assert.ok(authoredSlugs.some(slug => latestPath === '/articles/' + slug + '/'));
+    const archivePaths = elements(home, 'nav').flatMap(hrefs).sort();
+    assert.deepEqual(archivePaths, authoredSlugs.map(slug => '/articles/' + slug + '/').filter(path => path !== latestPath).sort());
+  }
+
+  for (const slug of authoredSlugs) {
+    const path = '/articles/' + slug + '/';
+    const page = await checkPage(path, 'articles/' + slug + '/index.html');
+    assert.equal(elements(page, 'nav').length, 0);
+    assert.equal(articleSchema(page).url, 'https://grwtsk.com' + path);
+  }
+
+  const css = attr(elements(home, 'link').find(link => attr(link, 'rel') === 'stylesheet'), 'href');
   assert.ok(css);
   const stylesheet = await fetch(new URL(css, origin));
   assert.equal(stylesheet.status, 200);
   assert.match(stylesheet.headers.get('content-type'), /text\/css/);
-  const path = '/articles/formal-complaint-and-demand-for-independent-investigation/';
-  assert.equal((await fetch(origin + path)).status, 200);
   assert.equal((await fetch(origin + '/healthz')).status, 200);
   assert.equal((await fetch(origin + '/not-a-route/')).status, 404);
   assert.equal((await fetch(origin + '/source/data/README.md')).status, 404);

@@ -4,14 +4,14 @@ WORKDIR /app
 COPY source/parser source/parser
 RUN cmake -S source/parser -B /tmp/parser -DCMAKE_BUILD_TYPE=Release && cmake --build /tmp/parser --parallel
 COPY source/generator source/generator
-RUN cargo build --release --manifest-path source/generator/Cargo.toml
+RUN cargo build --locked --release --manifest-path source/generator/Cargo.toml
 COPY source/data source/data
 RUN mkdir -p source/web && source/generator/target/release/site-generator /tmp/parser/markdown-parser source/data source/web/.generated
 
 FROM node:22-bookworm-slim AS vite
 WORKDIR /app/source/web
-COPY source/web/package*.json ./
-RUN npm install --no-audit --no-fund
+COPY source/web/package.json source/web/package-lock.json ./
+RUN npm ci --no-audit --no-fund
 COPY source/web/vite.config.mjs ./
 COPY --from=generator /app/source/web/.generated .generated
 RUN npm run build:static && npm prune --omit=dev

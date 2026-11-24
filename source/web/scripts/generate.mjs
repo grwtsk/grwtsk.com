@@ -15,7 +15,7 @@ const run = (program, args) => {
 };
 run('cmake', ['-S', join(source, 'parser'), '-B', parserBuild, '-DCMAKE_BUILD_TYPE=Release']);
 run('cmake', ['--build', parserBuild, '--config', 'Release', '--parallel']);
-run('cargo', ['build', '--release', '--manifest-path', cargoManifest, '--target-dir', join(source, 'generator', 'target')]);
+run('cargo', ['build', '--locked', '--release', '--manifest-path', cargoManifest, '--target-dir', join(source, 'generator', 'target')]);
 const parser = join(parserBuild, 'markdown-parser' + suffix);
 const generator = join(source, 'generator', 'target', 'release', 'site-generator' + suffix);
 const stage = mkdtempSync(join(web, '.generation-'));
