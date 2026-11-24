@@ -86,3 +86,13 @@ test('GitHub source read is private and pinned to a commit',async()=>{
   });
   const r=await store.readSignals();assert.equal(r.commit,commit);assert.equal(r.blob,sha);assert.equal(r.entries.length,3);
 });
+
+test('worker skips revoked office without blocking an eligible case',async()=>{
+  const {s,c,snapshot}=fixture();
+  const other={...offices[0],id:'other-office',email:'other@example.org'};
+  const next=createCase(s,[...offices,other],{officeId:'other-office',title:'Next'},'reply.example.org');
+  snapshot.entries.push(note('other-request','case:'+next.id));
+  const store={readSignals:async()=>snapshot,read:async()=>({state:s}),mutate:async fn=>fn(s)};
+  const p=await prepareNext(store,{offices:[other]},async(_,plan)=>output(plan));
+  assert.equal(p.caseId,next.id);assert.equal(s.cases.find(x=>x.id===c.id).outgoing.length,0);
+});

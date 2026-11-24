@@ -129,6 +129,9 @@ export async function prepareNext(store,config,generate) {
   const snapshot=await store.readSignals(),{state}=await store.read();
   if(!snapshot)return null;
   for(const c of state.cases){
+    // Revoked or changed authorization must not prevent other eligible cases
+    // from being prepared, and must never authorize a new draft for this case.
+    if(!config.offices.some(o=>o.id===c.office.id&&o.email===c.office.email&&o.basis===c.office.basis))continue;
     const plan=planForCase(state,config.offices,c.id,snapshot);
     if(plan&&!(state.knowledge?.proposals||[]).some(p=>p.fingerprint===plan.fingerprint))
       return prepareProposal(store,config,c.id,snapshot,generate);

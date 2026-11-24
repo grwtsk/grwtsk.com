@@ -17,7 +17,7 @@ function historyItem(summary,text,review){
   $('history').append(d);
 }
 function renderCase(){
-  const c=active();$('history').replaceChildren();$('case-info').textContent=c?c.office.role+' — '+c.office.email+' | '+(c.closed?'Closed':'Open')+' | '+c.replyTo:'Choose a case.';
+  const c=active();$('history').replaceChildren();$('case-info').textContent=c?c.office.role+' — '+c.office.email+' | '+(c.closed?'Closed':'Open')+' | Case ID: '+c.id+' | '+c.replyTo:'Choose a case.';
   options($('reply'),c?.incoming.filter(r=>r.reviewed)||[],r=>r.receivedAt+' '+r.subject,r=>r.id);
   options($('pending'),c?.outgoing.filter(r=>r.status==='pending')||[],r=>r.id,r=>r.id);
   if(!c)return;
@@ -26,7 +26,7 @@ function renderCase(){
     historyItem(m.status+' · '+m.at+' · '+m.subject,m.text+'\n\nReceipt: '+(m.providerId||'Uncertain; reconcile in dashboard')+'\n'+events.map(e=>e.type+' '+e.recordedAt).join('\n'));
   }
   for(const r of c.incoming)historyItem('Reply · '+r.receivedAt+' · '+r.subject,
-    'From: '+(r.from||'Unknown')+'\nAuthentication: '+r.authentication.dmarc+'\n'+r.text+(r.textTruncated?'\n[Preview truncated; consult original privately]':'')+(r.htmlOnly?'\n[HTML only; consult original privately]':''),
+    'Reply ID: '+r.id+'\nFrom: '+(r.from||'Unknown')+'\nAuthentication: '+r.authentication.dmarc+'\n'+r.text+(r.textTruncated?'\n[Preview truncated; consult original privately]':'')+(r.htmlOnly?'\n[HTML only; consult original privately]':''),
     !r.reviewed&&r.from===c.office.email&&r.authentication.dmarc==='pass'?async()=>{await api('review-reply',{caseId:c.id,replyId:r.id,confirm:true});await refresh();}:null);
   if(c.drafts.length){const d=c.drafts.at(-1);historyItem('Latest saved draft · '+d.createdAt,d.subject+'\n\n'+d.text);}
 }
@@ -42,7 +42,7 @@ async function run(fn){if(busy)return;busy=true;try{await fn();}catch(e){status(
 $('connect').onclick=()=>run(async()=>{token=$('token').value;$('token').value='';await refresh();});
 $('logout').onclick=()=>{token='';snapshot=null;selected='';saved=null;location.reload();};
 $('refresh').onclick=()=>run(refresh);
-$('cases').onchange=()=>{selected=$('cases').value;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();};
+$('cases').onchange=()=>{if(busy){$('cases').value=selected;return;}selected=$('cases').value;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';$('brief').value='';$('redacted').checked=false;renderCase();};
 $('create').onclick=()=>run(async()=>{const c=await api('cases',{officeId:$('office').value,title:$('title').value});selected=c.id;resetDraft();proposalId=null;knowledge=null;$('knowledge-status').textContent='';$('knowledge-detail').textContent='';$('subject').value='';$('body').value='';await refresh();});
 $('generate').onclick=()=>run(async()=>{proposalId=null;const d=await api('draft',{caseId:selected,brief:$('brief').value,redacted:$('redacted').checked});$('subject').value=d.subject;$('body').value=d.text;resetDraft();status('Draft generated. Review and edit before saving.');});
 for(const id of ['subject','body'])$(id).oninput=resetDraft;
