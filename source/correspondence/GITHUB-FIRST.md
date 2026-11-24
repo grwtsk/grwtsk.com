@@ -1,4 +1,6 @@
-# GitHub-first correspondence — increment 1
+# GitHub-first correspondence
+
+The service is headless. Its root redirects to the public lifecycle index (#8); the former browser console and its assets have been removed. Protected maintenance operations use the authenticated API. The writing-review send lock remains in force.
 
 Public operations: https://github.com/grwtsk/grwtsk.com/issues/6
 Design and next obligations: https://github.com/grwtsk/grwtsk.com/issues/5

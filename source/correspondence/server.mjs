@@ -5,7 +5,6 @@ import { reportReviewTick, reportReviewProjection } from './report-review.mjs';
 import { improvementTick, improvementProjection } from './review-improvement.mjs';
 import { recoveryTick, recoveryProjection } from './read-only-recovery.mjs';
 import { receiptLinkTick, receiptLinkProjection } from './receipt-links.mjs';
-import { readFile } from 'node:fs/promises';
 import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
 import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile, suggestWritingImprovements } from './adapters.mjs';
@@ -66,10 +65,10 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
       if(req.method==='GET'&&path==='/report-review/status'){const {state}=await store.read();return respond(res,200,{...reportReviewProjection(state),improvement:improvementProjection(state),checkpoint:state.checkpoint?.day||null,recovery:recoveryProjection(state),receiptLinks:receiptLinkProjection(state,config)});}
       if(req.method==='GET'&&path==='/writing-review/status')return respond(res,200,writingProjection((await store.read()).state));
       if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst)return respond(res,200,publicProjection((await store.read()).state,config));
-      if(req.method==='GET'&&['/','/app.js','/style.css'].includes(path)){
-        const file=path==='/'?'index.html':path.slice(1);
-        const type=file==='index.html'?'text/html; charset=utf-8':file==='app.js'?'text/javascript; charset=utf-8':'text/css; charset=utf-8';
-        return respond(res,200,await readFile(new URL('./web/'+file,import.meta.url)),type);
+      // GitHub is the only user-facing interface. Retain the machine API.
+      if(['GET','HEAD'].includes(req.method)&&path==='/'){
+        res.writeHead(303,{...security,Location:'https://github.com/grwtsk/grwtsk.com/issues/8'});
+        return res.end();
       }
       if(req.method==='POST'&&path==='/webhooks/resend'){
         const raw=await rawBody(req),hook=verifyWebhook(raw,req.headers,config.webhookSecret),event=parse(raw);
@@ -90,7 +89,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
       }
       if(req.method==='GET'&&path==='/api/mailbox/message'){
         const r=await archive.get(url.searchParams.get('day'),url.searchParams.get('name'));
-        // Never render or deliver the archived HTML in the browser.
+        // Never return archived HTML through the maintenance API.
         const {html,...safe}=r;return respond(res,200,{...safe,hasHtml:!!html});
       }
       if(req.method==='GET'&&path==='/api/public-record/coverage'){

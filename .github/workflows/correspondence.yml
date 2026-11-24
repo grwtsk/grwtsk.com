@@ -40,7 +40,6 @@ jobs:
           node --check sync-writing-review.mjs
           sh -n container-start.sh
           node --check start-local.mjs
-          node --check web/app.js
       - name: Run synthetic tests without credentials or live email
         run: npm test
       - name: Build container
