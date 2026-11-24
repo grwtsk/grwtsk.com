@@ -5,3 +5,4 @@ source/parser/build
 source/web/.generated
 source/web/.generation-*
 source/web/dist
+.secrets/
