@@ -1,4 +1,5 @@
 import {marker,TOPICS,renderReportDraft} from './report-review.mjs';
+import {IMPROVEMENTS} from './review-improvement.mjs';
 import {OWNER_ID,REPORT_PREFIX,SCOPE,eligible,sections} from './report-lifecycle.mjs';
 const API='https://api.github.com/repos/grwtsk/grwtsk.com';
 const BOT=41898282;
@@ -89,6 +90,25 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
      const resolved=Object.values(TOPICS).some(t=>t.label===field)||r.answer?.issue===q.number;
      if(resolved)await call('/issues/'+q.number,'PATCH',{state:'closed'});
    }
+ }
+ // Keep one bounded, fixed improvement comment on the existing program issue.
+ const improvement=p.improvement;
+ if(improvement){
+   const parent=(await call('/issues/10')).data;
+   if(parent.number!==10||parent.user?.id!==OWNER_ID||parent.pull_request)throw Error('Unexpected improvement issue');
+   const comments=await completeList('/issues/10/comments',2),tag='<!-- measured-review-improvement-v1 -->';
+   const prior=comments.filter(c=>c.user?.id===BOT&&id(c.id)&&typeof c.body==='string'&&c.body.startsWith(tag));
+   if(prior.length>1)throw Error('Duplicate improvement marker');
+   const lines=[tag,'## Measured workflow review','Public report index: #8. These are workflow measurements, not clinical findings.','','- Tracked reports: '+p.metrics.reports,'- Open tracking: '+p.metrics.active,'- Missing process categories: '+p.metrics.scopeQuestions,'- Held lifecycle records: '+p.metrics.heldRecords,'- Outstanding owner questions: '+p.metrics.outstandingOwnerQuestions,'- Overdue planned follow-ups: '+p.metrics.overduePlannedFollowUps,'- Report coverage complete: '+(p.metrics.reportCoverage?'yes':'no'),''];
+   if(improvement.status==='proposal'){
+     const item=IMPROVEMENTS[improvement.choice];
+     if(!item||!Object.hasOwn(IMPROVEMENTS,improvement.choice)||!Number.isSafeInteger(improvement.count)||improvement.count<=0||p.metrics[item.metric]!==improvement.count||!hash(improvement.fingerprint)||!['ai-selected','baseline'].includes(improvement.method))throw Error('Invalid improvement projection');
+     lines.push('### '+item.title,'Observed count: '+improvement.count+'. Method: '+improvement.method+'.','',item.proposal,'','Acceptance test: '+item.test,'','Proposed only; no code change or email is authorized.');
+   }else if(['pending','no-actionable-signal'].includes(improvement.status))lines.push('No evidence-backed improvement proposal is currently available.');
+   else throw Error('Invalid improvement status');
+   const body=lines.join('\n');
+   if(!prior.length)await call('/issues/10/comments','POST',{body});
+   else if(prior[0].body!==body)await call('/issues/comments/'+prior[0].id,'PATCH',{body});
  }
  return {reportCount:p.records.length,created};
 }
