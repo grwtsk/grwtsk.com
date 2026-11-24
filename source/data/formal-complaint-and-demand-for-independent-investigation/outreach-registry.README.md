@@ -38,6 +38,16 @@ Executive oversight is routed through the Governor's Office, Business and Consum
 
 The 2023 independent enforcement monitor report is a relevant source of general systemic findings, not a finding about this complainant's case. Request evaluation of how the identified shortcomings were addressed and whether any affected this investigation. Do not attribute responsibility to current members simply because they are current appointees. Use shared official office contacts and formal processes rather than contacting individual adjudicators or sending duplicative copies. No dispatch has been made.
 
+## Community, civil rights, spiritual and family support (2026-11-24)
+
+[community-support-and-professional-evidence.json](community-support-and-professional-evidence.json) adds 25 sourced organizational resources and three narrowly scoped professional evidence records. It includes Palo Alto and Peninsula public-policy bodies, civil-rights legal intake, disability advocates, spiritual care, clinical ethics consultation and family caregiver resources.
+
+Use the resource records to seek relevant services, confidential advocacy, or voluntary discussion of general patient safety and accessibility policy. They are not complaint recipients by default. Do not send allegations about identified individuals to congregations, unrelated professional associations, private associates or relatives. Use competent regulators, independent legal counsel and authorized investigative channels for the individual complaint. Do not publish a witness's personal information or testimony without informed consent.
+
+The professional evidence records link official Stanford and UCSF profiles, distinguish confirmed names from likely identity matches, and document clinic leadership and training dates relevant to reviewing the case. They do not establish culpability, direct supervision or communications among physicians. Historical roles, award sponsors, unrelated institutions and family associations are not outreach targets. Verify exact identity, case involvement and license records independently. If a complainant's family member witnessed an event, investigators can obtain their firsthand account privately with consent.
+
+No invitations, membership commitments or dispatches have been recorded. The resources are verified as published institutional pathways, not tested deliveries or guaranteed service eligibility.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
