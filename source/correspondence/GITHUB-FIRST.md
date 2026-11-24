@@ -28,3 +28,7 @@ Owner-authored public Healthcare process report issues supply a process category
 ## Read-only operational recovery
 
 During writing review, provider list and retrieval operations are GET-only. A bounded recovery cycle rechecks authorized intake through the original authentication/admission path and reconciles pending send reservations only with exact provider evidence. No uncertain outcome is resent. Incomplete coverage and unresolved reservations are surfaced in the public workflow review. The same-volume checkpoint does not replace off-volume disaster recovery.
+
+## Receipt-to-report linkage
+
+Only already disclosure-authorized public records associated with a currently authorized non-test case can enter the report receipt projection. Historical owner qualification mail is not healthcare evidence. Each missing approved case scope has a stable public-safe question; an exact owner answer links future eligible receipts to the chosen report or archives them separately. Public comments show transport state only, never raw mail, private identifiers, or claims of institutional action. No linkage changes the dispatch lock or recipient permissions.

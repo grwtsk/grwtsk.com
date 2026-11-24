@@ -4,6 +4,7 @@ import { WRITING_REVIEW_ONLY, writingReviewTick, writingProjection } from './wri
 import { reportReviewTick, reportReviewProjection } from './report-review.mjs';
 import { improvementTick, improvementProjection } from './review-improvement.mjs';
 import { recoveryTick, recoveryProjection } from './read-only-recovery.mjs';
+import { receiptLinkTick, receiptLinkProjection } from './receipt-links.mjs';
 import { readFile } from 'node:fs/promises';
 import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
@@ -62,7 +63,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
     try {
       const url=new URL(req.url,'http://localhost'),path=url.pathname;
       if(req.method==='GET'&&path==='/healthz')return respond(res,200,{ok:true});
-      if(req.method==='GET'&&path==='/report-review/status'){const {state}=await store.read();return respond(res,200,{...reportReviewProjection(state),improvement:improvementProjection(state),checkpoint:state.checkpoint?.day||null,recovery:recoveryProjection(state)});}
+      if(req.method==='GET'&&path==='/report-review/status'){const {state}=await store.read();return respond(res,200,{...reportReviewProjection(state),improvement:improvementProjection(state),checkpoint:state.checkpoint?.day||null,recovery:recoveryProjection(state),receiptLinks:receiptLinkProjection(state,config)});}
       if(req.method==='GET'&&path==='/writing-review/status')return respond(res,200,writingProjection((await store.read()).state));
       if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst)return respond(res,200,publicProjection((await store.read()).state,config));
       if(req.method==='GET'&&['/','/app.js','/style.css'].includes(path)){
@@ -215,7 +216,7 @@ export async function start(){
       const checkpoint=async()=>{if(checkpointBusy)return;checkpointBusy=true;try{const day=new Date().toISOString().slice(0,10);if((await store.read()).state.checkpoint?.day!==day){await store.checkpoint();await store.mutate(s=>{s.checkpoint={day};});}}catch{console.error('Local encrypted checkpoint unavailable');}finally{checkpointBusy=false;}};
       const checkpointTimer=setInterval(checkpoint,3_600_000);server.on('close',()=>clearInterval(checkpointTimer));void checkpoint();
       let recovering=false;
-      const recover=async()=>{if(recovering)return;recovering=true;try{await recoveryTick(store,archive,config,provider);}catch{console.error('Read-only recovery unavailable');}finally{recovering=false;}};
+      const recover=async()=>{if(recovering)return;recovering=true;try{await recoveryTick(store,archive,config,provider);await receiptLinkTick(store,config);}catch{console.error('Read-only recovery unavailable');}finally{recovering=false;}};
       const recoveryTimer=setInterval(recover,600_000);server.on('close',()=>clearInterval(recoveryTimer));void recover();
     }
     const reviewTimer=setInterval(review,300_000);server.on('close',()=>clearInterval(reviewTimer));void review();
