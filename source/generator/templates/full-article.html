@@ -1,0 +1,22 @@
+<article id="article" aria-labelledby="article-title" lang="{{ article.language }}" data-slug="{{ article.slug }}" data-status="{{ article.status_code }}">
+  <header class="entry-meta">
+    <p><time datetime="{{ article.written_at }}">{{ article.display_date }}</time></p>
+    <dl class="correspondence">
+      <div class="status-line"><dt>Status:</dt> <dd><data value="{{ article.status_code }}">{{ article.status }}</data></dd></div>
+      <div class="send-history{% if article.sends %} has-records{% endif %}"><dt>Send history:</dt> <dd>{% if article.sends %}<ol>
+        {% for send in article.sends %}
+          <li data-record-type="send"><time datetime="{{ send.at }}">{{ send.at }}</time> — {{ send.recipient }} ({{ send.method }}){% if send.reference %} · {{ send.reference }}{% endif %}{% if send.public_record %} · <a href="{{ send.public_record }}">Public record</a>{% endif %}</li>
+        {% endfor %}
+      </ol>{% else %}No sends recorded.{% endif %}</dd></div>
+      <div class="responses{% if article.responses %} has-records{% endif %}"><dt>Responses:</dt> <dd>{% if article.responses %}<ol>
+        {% for response in article.responses %}
+          <li data-record-type="response"><time datetime="{{ response.received_at }}">{{ response.display_date }}</time> — {{ response.from }}: <a href="{{ response.repository_url }}">{{ response.title }}</a>{% if response.public_record %} · <a href="{{ response.public_record }}">Public record</a>{% endif %}</li>
+        {% endfor %}
+      </ol>{% else %}No responses recorded.{% endif %}</dd></div>
+    </dl>
+  </header>
+  <div class="letter-body">
+<h1 id="article-title">{{ article.title }}</h1>
+{{ article.html | safe }}
+  </div>
+</article>

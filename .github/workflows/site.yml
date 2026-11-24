@@ -1,0 +1,45 @@
+name: Build and verify static site
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  site:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install compiler dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++ libcmark-gfm-dev libcmark-gfm-extensions-dev libyaml-cpp-dev nlohmann-json3-dev
+          rustup toolchain install stable --profile minimal
+          rustup default stable
+      - name: Install web dependencies
+        working-directory: source/web
+        run: npm ci --no-audit --no-fund
+      - name: Test generator, Vite build, and static HTTP serving
+        working-directory: source/web
+        run: npm test
+      - name: Verify original visual contract in Chromium
+        working-directory: source/web
+        run: |
+          browser_tools="$RUNNER_TEMP/grwtsk-browser-tools"
+          npm install --prefix "$browser_tools" --no-save --package-lock=false --ignore-scripts --no-audit --no-fund playwright-core@1.57.0
+          node "$browser_tools/node_modules/playwright-core/cli.js" install --with-deps chromium
+          PLAYWRIGHT_MODULE="$browser_tools/node_modules/playwright-core/index.mjs" LAYOUT_ARTIFACT_DIR="$RUNNER_TEMP/grwtsk-layout" node test/layout.browser.mjs
+      - name: Upload layout previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: layout-previews
+          path: ${{ runner.temp }}/grwtsk-layout
+      - name: Upload generated site
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-site
+          path: source/web/dist

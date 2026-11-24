@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+{% if article %}
+  {% include "full-article.html" %}
+  {% if past %}
+  <nav id="archive" class="archive" aria-labelledby="archive-title">
+    <h2 id="archive-title">Past articles</h2>
+    <ol>
+    {% for item in past %}
+      <li><time datetime="{{ item.written_at }}">{{ item.display_date }}</time><br><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+{% else %}
+  <h1>Correspondence log</h1>
+  <p>No articles recorded.</p>
+{% endif %}
+{% endblock %}
