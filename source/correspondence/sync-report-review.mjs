@@ -1,5 +1,6 @@
 import {marker,TOPICS,renderReportDraft} from './report-review.mjs';
 import {IMPROVEMENTS} from './review-improvement.mjs';
+import {receiptMarker} from './receipt-links.mjs';
 import {OWNER_ID,REPORT_PREFIX,SCOPE,eligible,sections} from './report-lifecycle.mjs';
 const API='https://api.github.com/repos/grwtsk/grwtsk.com';
 const BOT=41898282;
@@ -92,6 +93,39 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
    }
  }
  // Keep one bounded, fixed improvement comment on the existing program issue.
+ const receiptProjection=p.receiptLinks;
+ if(receiptProjection){
+   if(typeof receiptProjection.complete!=='boolean'||!Array.isArray(receiptProjection.groups)||receiptProjection.groups.length>12)throw Error('Invalid receipt-link projection');
+   const hex=s=>typeof s==='string'&&/^[0-9a-f]{24}$/.test(s);
+   for(const g of receiptProjection.groups){
+     if(!hex(g.scope)||!['needs-link','linked','archived'].includes(g.status)||!Array.isArray(g.receipts)||g.receipts.length>40||
+       !g.receipts.every(r=>hex(r.id)&&typeof r.day==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(r.day)&&['inbound','outbound'].includes(r.direction)&&['received','accepted','delivered'].includes(r.status)))throw Error('Invalid public receipt group');
+     if(g.status!=='needs-link'&&(!number(g.question)||!id(g.comment)||(g.status==='linked'?!number(g.report):g.report!==null)))throw Error('Invalid receipt link source');
+     const matches=own.filter(q=>q.body.startsWith(receiptMarker(g.scope)));
+     if(matches.length>1)throw Error('Duplicate receipt scope marker');
+     const q=matches[0];
+     if(g.status==='needs-link'&&!q&&created<2){
+       const body=receiptMarker(g.scope)+'\n\nA previously approved public receipt group needs a healthcare report association. Original correspondence, sender identity and private routing information are not published.\n\nComment **Link to #NUMBER** to associate this scope with an existing healthcare report, or **Archive only** to keep it separate. This decision applies only to public-approved receipts and cannot authorize email. See #8 for the report index.';
+       await call('/issues','POST',{title:'Healthcare review: link approved correspondence receipts',body});created++;
+     }else if(g.status!=='needs-link'&&q?.number===g.question&&q.state==='open')await call('/issues/'+q.number,'PATCH',{state:'closed'});
+   }
+   const grouped=new Map();
+   for(const g of receiptProjection.groups.filter(g=>g.status==='linked')){
+     const rows=grouped.get(g.report)||[];rows.push(...g.receipts);grouped.set(g.report,rows);
+   }
+   for(const [report,receipts] of grouped){
+     const issue=(await call('/issues/'+report)).data;
+     if(!validReport(issue)||issue.number!==report)continue;
+     const comments=await completeList('/issues/'+report+'/comments',2),tag='<!-- healthcare-receipts-v1:'+report+' -->';
+     const prior=comments.filter(c=>c.user?.id===BOT&&id(c.id)&&typeof c.body==='string'&&c.body.startsWith(tag));
+     if(prior.length>1)throw Error('Duplicate receipt comment marker');
+     const body=[tag,'## Associated public-approved correspondence receipts','These receipt records do not establish a formal submission, institutional acknowledgment, clinical finding or corrective action.','','| Receipt | UTC date | Direction | Transport state |','|---|---|---|---|',...receipts.slice(-80).map(r=>'| '+r.id+' | '+r.day+' | '+r.direction+' | '+r.status+' |')].join('\n');
+     if(!prior.length)await call('/issues/'+report+'/comments','POST',{body});
+     else if(prior[0].body!==body)await call('/issues/comments/'+prior[0].id,'PATCH',{body});
+   }
+ }
+ const recovery=p.recovery;
+ if(recovery&&(!/^\d{4}-\d{2}-\d{2}$/.test(recovery.day)||!['verified','bounded','unavailable'].includes(recovery.intake)||!['verified','unresolved','unavailable'].includes(recovery.reconciliation)))throw Error('Invalid recovery projection');
  const improvement=p.improvement;
  if(improvement){
    const parent=(await call('/issues/10')).data;
@@ -106,6 +140,8 @@ export async function syncReportReview({token=process.env.GITHUB_TOKEN,fetcher=f
      lines.push('### '+item.title,'Observed count: '+improvement.count+'. Method: '+improvement.method+'.','',item.proposal,'','Acceptance test: '+item.test,'','Proposed only; no code change or email is authorized.');
    }else if(['pending','no-actionable-signal'].includes(improvement.status))lines.push('No evidence-backed improvement proposal is currently available.');
    else throw Error('Invalid improvement status');
+   if(recovery)lines.push('','Read-only provider recovery ('+recovery.day+' UTC): intake '+recovery.intake+'; pending receipt reconciliation '+recovery.reconciliation+'. No send is attempted.');
+   if(p.checkpoint&&typeof p.checkpoint==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(p.checkpoint))lines.push('Local encrypted checkpoint verified: '+p.checkpoint+'. This is not an off-volume backup.');
    const body=lines.join('\n');
    if(!prior.length)await call('/issues/10/comments','POST',{body});
    else if(prior[0].body!==body)await call('/issues/comments/'+prior[0].id,'PATCH',{body});

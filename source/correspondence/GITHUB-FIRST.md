@@ -24,3 +24,11 @@ Writing-review phase: `WRITING_REVIEW_ONLY=true` in `writing-review.mjs`. Both d
 ## Report-linked writing review and refinement
 
 Owner-authored public Healthcare process report issues supply a process category. The current recorded lifecycle milestone selects a neutral, unsent request; the model selects safe wording order and style from versioned source clauses. The GitHub review action maintains one draft comment per report and creates at most two stable process-category questions per run. An exact owner answer is reused from its source comment. The revision projection contains references, closed vocabulary, and bounded history only. No registry lookup or recipient selection is involved. Aggregate report indicators feed a bounded improvement selection on #10; no proposal is invented with incomplete coverage or absent signals. The worker also creates a verified same-volume encrypted checkpoint daily. The isolated restore test does not establish off-volume disaster recovery. The outbound lock remains mandatory.
+
+## Read-only operational recovery
+
+During writing review, provider list and retrieval operations are GET-only. A bounded recovery cycle rechecks authorized intake through the original authentication/admission path and reconciles pending send reservations only with exact provider evidence. No uncertain outcome is resent. Incomplete coverage and unresolved reservations are surfaced in the public workflow review. The same-volume checkpoint does not replace off-volume disaster recovery.
+
+## Receipt-to-report linkage
+
+Only already disclosure-authorized public records associated with a currently authorized non-test case can enter the report receipt projection. Historical owner qualification mail is not healthcare evidence. Each missing approved case scope has a stable public-safe question; an exact owner answer links future eligible receipts to the chosen report or archives them separately. Public comments show transport state only, never raw mail, private identifiers, or claims of institutional action. No linkage changes the dispatch lock or recipient permissions.

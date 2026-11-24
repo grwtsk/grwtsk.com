@@ -105,6 +105,7 @@ export class VolumeArchive {
     requireThat(m&&m.version===1&&m.day===row.day&&m.name===row.name&&m.id===row.provider_id&&m.name.endsWith(m.id+'.enc.json'),503,'Invalid encrypted archive record');
     return m;
   }
+  async byProviderId(id){requireThat(uuid(id),400,'Invalid provider ID');const row=this.store.connection().prepare('SELECT * FROM inbound_archive WHERE provider_id=?').get(id);return row?this.decode(row):null;}
   async get(day,name){
     requireThat(validRef(day,name),400,'Invalid mailbox archive reference');
     const row=this.store.connection().prepare('SELECT * FROM inbound_archive WHERE day=? AND name=?').get(day,name);
