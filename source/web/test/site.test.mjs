@@ -107,7 +107,7 @@ test('latest full article, deterministic archive, responses and stable canonical
   assert.equal(attr(full, 'data-slug'), 'newer');
   assert.equal(attr(elements(full, 'data')[0], 'value'), 'sent');
   assert.equal(text(elements(full, 'data')[0]), 'Sent');
-  const graph = JSON.parse(text(elements(homeDoc, 'script')[0]))['@graph'];
+  const graph = JSON.parse(text(analyticsScripts(homeDoc).structured))['@graph'];
   const homePage = graph.find(x => x['@id'] === 'https://grwtsk.com/');
   assert.equal(homePage.mainEntity['@id'], schema['@id']);
   assert.equal(homePage.hasPart.mainEntity.numberOfItems, 1);
