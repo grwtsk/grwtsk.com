@@ -35,6 +35,6 @@ test('durable revision deduplication; no raw comments in projection',async()=>{
 });
 test('provider write lock blocks all outbound POSTs before network access',async()=>{
  let calls=0;const p=new MailProvider('synthetic',async()=>{calls++;return Response.json({});},{allowSend:false});
- await assert.rejects(p.send({}),/locked/);await assert.rejects(p.call('/emails',{method:'POST'}),/locked/);assert.equal(calls,0);
+ await assert.rejects(p.send({}),/locked/);assert.throws(()=>p.call('/emails',{method:'POST'}),/locked/);assert.equal(calls,0);
  await p.sent('00000000-0000-0000-0000-000000000001');assert.equal(calls,1);
 });
