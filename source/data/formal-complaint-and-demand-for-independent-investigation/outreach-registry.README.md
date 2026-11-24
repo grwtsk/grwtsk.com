@@ -90,6 +90,16 @@ The Stanford faculty directory and UCSF A–Z faculty directory cover academic f
 
 Public sources were reviewed on the research date; delivery, eligibility, full practicing-neurologist coverage, and individual community-group coverage are not established. No notifications have been dispatched.
 
+## Worker rights and related incident reports (2026-11-24)
+
+[worker-rights-and-related-incident-reports.json](worker-rights-and-related-incident-reports.json) adds 33 organizational resources, 32 reported incidents and proceedings (including 13 NLRB charge dockets), and four union representation records, for 69 additional records. It covers hospital nurses, resident and fellow physicians, technical and service employees, historical security organizing, university and laboratory service workers, contracted custodians, graduate workers, disability-access organizations, and regional labor and worker legal services.
+
+Relevant documented themes include safe staffing and workplace violence protections, disability accommodations, continuity of healthcare, harassment and discrimination, retaliation, and access to fair grievance procedures. The source index records participant reports, news investigations, union statements and formal dockets separately. For example, the 2021 custodial worker petition and 2024 reporting describe harassment and disability discrimination allegations; the reports also include management or union responses. The 2026 NLRB cases include open charges, withdrawn charges, a dismissed charge, and a charge against a union. A charge is not a finding of a violation.
+
+The regional labor councils and SEIU Local 2007 establish genuine geographic or employment representation scope. Local 2007 represents workers at Stanford, Santa Clara University and SLAC. The Stanford Medicine Alliance for Disability Inclusion and Equity spans Stanford Medicine's clinical and educational entities. These are documented institutional relationships, not evidence of a common wrong or a reason to distribute allegations to affiliates. No survivor or worker names, private contact information, member lists, signatories or unrelated influence networks are collected.
+
+Use worker resources for appropriate employment support or general systemic policy inquiries. Individual patient complaints belong with the competent medical and civil-rights investigators. Historical evidence references do not automatically establish current intake routes. The CRONA website returned HTTP 406; other sources establish its representation, but its current contact details remain unverified. No dispatch or coalition participation recorded.
+
 ## First steps
 
 1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
