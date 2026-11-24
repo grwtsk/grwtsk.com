@@ -104,6 +104,7 @@ export function handler(config,store,provider) {
         const x=await reconcile(store,provider,input);
         result=await store.mutate(s=>acceptSend(s,x.caseId,x.messageId,x.providerId));
       } else if(path==='/api/send'){
+        requireThat(!['to','cc','bcc','recipients','replyTo','from'].some(key=>Object.hasOwn(input,key)),400,'Recipient fields cannot be overridden');
         requireThat(config.live,409,'Live delivery disabled');
         const {state:before}=await store.read(),candidate=findCase(before,input.caseId).drafts.at(-1);
         const snapshot=candidate?.knowledge?await store.readSignals():null;
