@@ -28,4 +28,4 @@ The existing Markdown signal engine remains case-scoped. If reviewed feedback es
 
 ## Verification and deployment
 
-Run npm test in source/correspondence. All tests use synthetic cases and addresses; no real email or external collaboration is performed. Production uses the Railway volume and protected credentials described in README.md. The authenticated maintenance API is not a multi-user private collaboration interface. Public GitHub issues supply contributor identity and moderation separately.
+Run npm test in source/communications. All tests use synthetic cases and addresses; no real email or external collaboration is performed. Production uses the Railway volume and protected credentials described in README.md. The authenticated maintenance API is not a multi-user private collaboration interface. Public GitHub issues supply contributor identity and moderation separately.

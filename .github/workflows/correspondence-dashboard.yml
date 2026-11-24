@@ -35,12 +35,15 @@ jobs:
             if(!d.receipts.every(x=>typeof x.id==='string'&&/^[a-f0-9]{24}$/.test(x.id)&&typeof x.day==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x.day)&&['in','out'].includes(x.direction)&&allowed.includes(x.status)))throw Error('receipt schema');
             data=d;
           }catch{}
-          const lines=['Public operations dashboard for #5. Automatically maintained from a fixed-schema, owner-only projection. No raw mail, addresses, case aliases or private third-party data are published.','','## Status'];
+          const lines=['Communications operations for #5. Writing review: #11. Healthcare tracking is deferred in #7 until explicitly authorized. No outbound email is authorized. Automatically maintained from a fixed-schema, owner-only projection. No raw mail, addresses, case aliases or private third-party data are published.','','## Status'];
           if(!data)lines.push('Service status unavailable. The deployment or status endpoint needs investigation. No email is sent by this workflow.');
           else {
             lines.push('- Service reachable','- Owner qualification case: '+(data.ownerCase?'present':'not yet present'),'- Routine acknowledgment policy: '+data.mode);
             lines.push(data.pending?'- **Action required:** unresolved delivery reservation; do not resend. A maintainer must reconcile provider evidence.':'- No unresolved owner-test delivery reservation.');
-            lines.push('','## Owner controls','Comment **Pause routine replies** or **Resume routine replies** here. Only the repository owner can control the policy. The worker checks before sending and polls every five minutes. No terminal command is needed.','','To request a controlled acknowledgment, email exactly **Please confirm receipt.** as a new plain-text message with no attachments. Limited to the consenting test account.','','## Public owner-test receipts','','| Public receipt | UTC day | Direction | State |','|---|---|---|---|');
+            if(typeof data.checkpoint==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(data.checkpoint))lines.push('- Local encrypted checkpoint: '+data.checkpoint+' (not off-volume backup).');
+            const recovery=data.recovery;
+            if(recovery&&typeof recovery.day==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(recovery.day)&&['verified','bounded','unavailable'].includes(recovery.intake)&&['verified','unresolved','unavailable'].includes(recovery.reconciliation))lines.push('- Read-only recovery: intake '+recovery.intake+'; pending receipt reconciliation '+recovery.reconciliation+'.');
+            lines.push('','## Writing review','Use #11. Sending remains locked; no comment authorizes delivery.','','## Public owner-test receipts','','| Public receipt | UTC day | Direction | State |','|---|---|---|---|');
             for(const r of data.receipts)lines.push('| '+r.id+' | '+r.day+' | '+(r.direction==='in'?'Received':'Sent')+' | '+r.status+' |');
           }
           const body=lines.join('\n');

@@ -9,7 +9,7 @@ const OWNER=176085483;
 const STYLE=['balanced','concise','formal','plain','direct'];
 const PURPOSE=['initial','acknowledgment','follow-up','corrective-action','outcome'];
 const brief=Object.freeze({
-  source:'Healthcare improvement lifecycle, issue #7; writing review, issue #11',
+  source:'Writing review, issue #11',
   intent:'Test accessible, evidence-conscious healthcare process correspondence; not a complaint or an actual submission.',
   limits:'No personal allegations, recipient selection, clinical or legal claims, threats, requests for sensitive records, or dispatch.'
 });

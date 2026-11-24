@@ -24,7 +24,7 @@ The archive stores text up to 48 KB and HTML up to 72 KB, with explicit truncati
 
 ## Local OpenAI API key
 
-At the checkout root, keep .secrets/openai-api-key.txt out of Git and Docker build context. Set mode 600; do not paste it into issues, logs, or this documentation. From source/correspondence run npm run start:local. The local launcher reads .env if present and uses the root key file only when OPENAI_API_KEY is not already set. It rejects non-regular files, oversized keys, unsafe permissions and whitespace. On Railway, set OPENAI_API_KEY directly using the secret variable interface; the local file is not deployed. Set OPENAI_MODEL to an available Responses model supporting structured outputs.
+At the checkout root, keep .secrets/openai-api-key.txt out of Git and Docker build context. Set mode 600; do not paste it into issues, logs, or this documentation. From source/communications run npm run start:local. The local launcher reads .env if present and uses the root key file only when OPENAI_API_KEY is not already set. It rejects non-regular files, oversized keys, unsafe permissions and whitespace. On Railway, set OPENAI_API_KEY directly using the secret variable interface; the local file is not deployed. Set OPENAI_MODEL to an available Responses model supporting structured outputs.
 
 ## Continuous improvement
 
@@ -33,7 +33,7 @@ The issue ledger and approved Markdown remain the source of instructions. Each p
 ## Deployment gates
 
 1. Preserve the existing Railway volume, state encryption key, maintenance token, mail-provider key and webhook signing secret.
-2. Create an isolated Railway service with root /source/correspondence, Dockerfile, healthcheck /healthz, no sleep, one replica; do not modify the public website or apply its pending changes.
+2. Create an isolated Railway service with root /source/communications, Dockerfile, healthcheck /healthz, no sleep, one replica; do not modify the public website or apply its pending changes.
 3. Configure verified domain routing and DNS only after determining the existing provider. Keep ENABLE_LIVE_SEND=false and use controlled addresses to qualify the whole path.
 4. Run npm test and perform owned-address receipt, send, delivery webhook, reply, outage recovery, duplicate replay and restore tests. Check attachment behavior and provider retention. Monitor archive and ledger capacity.
 5. Maintain public-safe issues and reviewed signals in the public repository. GitHub is the writing review surface; outbound delivery remains locked. Never give the AI arbitrary shell, code-write, mail-send, DNS or deploy permissions.
@@ -46,4 +46,4 @@ The code does not provision a provider account, domain, DNS record, state reposi
 
 ## Volume storage option
 
-See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). In volume mode, the authoritative private state and admitted originals are stored in encrypted SQLite on a persistent volume, not a private GitHub repository. Approved public-safe Markdown is bundled from source/correspondence/signals/approved.md. Public records remain reviewed exports; no raw email is published.
+See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). In volume mode, the authoritative private state and admitted originals are stored in encrypted SQLite on a persistent volume, not a private GitHub repository. Approved public-safe Markdown is bundled from source/communications/signals/approved.md. Public records remain reviewed exports; no raw email is published.

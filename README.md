@@ -8,6 +8,7 @@ not have to remember how to program the site in order to maintain it.
 
 | Task | Where to go |
 | --- | --- |
+| Review communication drafts or check operations | [Writing review #11](https://github.com/grwtsk/grwtsk.com/issues/11) and [operations #6](https://github.com/grwtsk/grwtsk.com/issues/6) |
 | Write another letter | [Add an article](source/data/README.md#1-add-a-letter) |
 | Record that I sent a letter | [Record a send](source/data/README.md#2-record-a-send) |
 | Record a response | [Record a response](source/data/README.md#3-record-a-response) |
@@ -84,6 +85,7 @@ Stop it with Ctrl+C. The build output is `source/web/dist/`.
 
 ```
 source/
+  communications/  Headless communication service, separate deployment
   data/       Markdown documents and correspondence history
   parser/     C++20: YAML and CommonMark/GFM parsing
   generator/  Rust: validation, chronology, embedded HTML and CSS

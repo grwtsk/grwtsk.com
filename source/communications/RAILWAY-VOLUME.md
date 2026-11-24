@@ -10,11 +10,11 @@ Set STATE_BACKEND=volume, STATE_DIR=/data/correspondence, RAILWAY_RUN_UID=0. Rai
 
 Set STATE_KEY_BASE64 (32 random bytes encoded as base64), OPERATOR_TOKEN (high-entropy token), RESEND_API_KEY, RESEND_WEBHOOK_SECRET, OPENAI_API_KEY and OPENAI_MODEL. See .env.example. Keep ENABLE_LIVE_SEND=false and AUTHORIZED_OFFICES_JSON=[] until qualification and individual authorization. ENABLE_AUTO_DRAFTS and ENABLE_AUTO_QUALITY only prepare internal proposals. Set MAIL_FROM and MAIL_PRIMARY_ADDRESS to jacob@grwtsk.com, MAIL_RECEIVE_DOMAIN to correspondence.grwtsk.com, and optionally MAIL_PRIMARY_ALIAS for a verified forwarding route.
 
-Connect grwtsk/grwtsk.com at a qualified commit on main. Root /source/correspondence, Dockerfile, healthcheck /healthz, port 8080. Leave the start command at the Dockerfile default. Generate the HTTPS service domain. Configure the verified Resend sending and receiving domains and signed webhook at /webhooks/resend. Inspect current MX before changing DNS; use the provider's exact values. See PERSONAL-MAILBOX.md.
+Connect grwtsk/grwtsk.com at a qualified commit on main. Root /source/communications, Dockerfile, healthcheck /healthz, port 8080. Leave the start command at the Dockerfile default. Generate the HTTPS service domain. Configure the verified Resend sending and receiving domains and signed webhook at /webhooks/resend. Inspect current MX before changing DNS; use the provider's exact values. See PERSONAL-MAILBOX.md.
 
 ## Signals
 
-Edit source/correspondence/signals/approved.md through a reviewed repository change using signals.example.md. Only deliberately public, redacted and appropriate content belongs there. General preferences work across cases; case requests use opaque case IDs. Redeploy after changes. The deployment reads the bundled file with content hash and Railway deployment commit provenance when available. It does not treat public issue comments as instructions or recipient authorization. Public summaries must be reviewed before manually committing them as described in PUBLIC-RECORD.md.
+Edit source/communications/signals/approved.md through a reviewed repository change using signals.example.md. Only deliberately public, redacted and appropriate content belongs there. General preferences work across cases; case requests use opaque case IDs. Redeploy after changes. The deployment reads the bundled file with content hash and Railway deployment commit provenance when available. It does not treat public issue comments as instructions or recipient authorization. Public summaries must be reviewed before manually committing them as described in PUBLIC-RECORD.md.
 
 ## Recovery
 
