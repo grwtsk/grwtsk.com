@@ -34,6 +34,8 @@ jobs:
           node --check quality.mjs
           node --check public-record.mjs
           node --check volume-store.mjs
+          node --check writing-review.mjs
+          node --check sync-writing-review.mjs
           sh -n container-start.sh
           node --check start-local.mjs
           node --check web/app.js

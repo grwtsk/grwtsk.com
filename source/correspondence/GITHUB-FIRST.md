@@ -16,3 +16,7 @@ Railway: ENABLE_GITHUB_FIRST=true, GITHUB_FIRST_ACTIVATED_AT=<fixed ISO UTC time
 ## Remaining work
 
 Issue-specific question/answer capture, validated public knowledge retrieval, AI-assisted routing and redacted summaries, richer issue dependencies, delivery reconciliation, per-participant opt-in and verified backup restoration remain outstanding. New substantive external sends require specific authorization. No raw third-party mail is published.
+
+## Current production disposition
+
+Writing-review phase: `WRITING_REVIEW_ONLY=true` in `writing-review.mjs`. Both dispatch flags are forced off and provider writes are disabled in the runtime. Public issue #11 is the writing-review surface. The first bounded model qualification selects source-controlled text variants for initial, acknowledgment, follow-up, corrective-action and outcome review. This is not unrestricted AI drafting or a real complaint submission. A separate reviewed source change and explicit authorization are required to re-enable sends.
