@@ -10,7 +10,7 @@ Set STATE_BACKEND=volume, STATE_DIR=/data/correspondence, RAILWAY_RUN_UID=0. Rai
 
 Set STATE_KEY_BASE64 (32 random bytes encoded as base64), OPERATOR_TOKEN (high-entropy token), RESEND_API_KEY, RESEND_WEBHOOK_SECRET, OPENAI_API_KEY and OPENAI_MODEL. See .env.example. Keep ENABLE_LIVE_SEND=false and AUTHORIZED_OFFICES_JSON=[] until qualification and individual authorization. ENABLE_AUTO_DRAFTS and ENABLE_AUTO_QUALITY only prepare internal proposals. Set MAIL_FROM and MAIL_PRIMARY_ADDRESS to jacob@grwtsk.com, MAIL_RECEIVE_DOMAIN to correspondence.grwtsk.com, and optionally MAIL_PRIMARY_ALIAS for a verified forwarding route.
 
-Connect grwtsk/grwtsk.com on feature/private-correspondence-service for qualification, or main after reviewed merge. Root /source/correspondence, Dockerfile, healthcheck /healthz, port 8080. Leave the start command at the Dockerfile default. Generate the HTTPS service domain. Configure the verified Resend sending and receiving domains and signed webhook at /webhooks/resend. Inspect current MX before changing DNS; use the provider's exact values. See PERSONAL-MAILBOX.md.
+Connect grwtsk/grwtsk.com at a qualified commit on main. Root /source/correspondence, Dockerfile, healthcheck /healthz, port 8080. Leave the start command at the Dockerfile default. Generate the HTTPS service domain. Configure the verified Resend sending and receiving domains and signed webhook at /webhooks/resend. Inspect current MX before changing DNS; use the provider's exact values. See PERSONAL-MAILBOX.md.
 
 ## Signals
 

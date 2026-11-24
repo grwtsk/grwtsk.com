@@ -1,6 +1,6 @@
 # Personal mailbox: jacob@grwtsk.com
 
-The service is the operator's private mailbox interface and casework application. It uses Resend as the SMTP transport/receiving provider rather than deploying an unaudited SMTP relay. The website is a separate application. The AI prepares editable drafts; it does not send autonomously, alter recipient authorization, or deploy self-modifications.
+The service is a headless mail intake, protected archive, and casework backend. GitHub is the user-facing workflow. It uses Resend as the SMTP transport/receiving provider rather than deploying an unaudited SMTP relay. The website is a separate application. The AI prepares editable drafts; it does not send autonomously, alter recipient authorization, or deploy self-modifications.
 
 ## Mail routing and configuration
 
@@ -10,17 +10,17 @@ Before changing DNS, inspect the current MX at grwtsk.com. If an existing provid
 
 Use the verified root domain for the From address, dedicated subdomain for case reply aliases, and a signed email.received webhook plus the supported delivery event webhooks. Use a dedicated provider account/project and the minimum token permissions needed. The provider's dashboard remains a fallback for original messages, attachment access and outage recovery. Turn off tracking pixels/click tracking. Confirm email identity, receiving, replies, delivery events and recovery with an address you own before going live.
 
-## GitHub data and recovery
+## Protected archive and recovery
 
-Every recognized inbound message (primary address, configured forwarding alias, or existing case reply address) is encrypted and written to an individual create-once file in the **private state repo**:
+Admitted and held messages are encrypted in SQLite archive records on the production Railway volume. The legacy private-state adapter uses the following create-once path:
 
     mailbox/inbound/YYYY-MM-DD/HHmmssSSS-provider-uuid.enc.json
 
 The filename uses the provider creation timestamp and ID so webhook retries recover the same object. Message bodies, subject, sender, authentication and attachment metadata are encrypted with a path-bound AES-256-GCM envelope. The date and opaque provider ID are visible to repository collaborators, as are Git commit metadata. Case-associated replies continue to have their private ledger entry. The archive is committed first; on later ledger failure the webhook returns a failure for retry. Direct mail to the primary address is not silently discarded or linked to an unrelated case. Ambiguous case routing is archived for review, not attached to multiple cases. Outbound attempts and receipts continue in the encrypted ledger.
 
-The operator inbox lists a received date in UTC, ten messages per page, and opens plain-text message contents. It never renders remote HTML. For one missed webhook, supply the provider's received email ID from the private dashboard; recovery uses authenticated provider retrieval and the same archive path. No message is resent. For a direct message to the primary address, the operator may link it to an existing authorized case only if the sender matches, provider-reported DMARC passed, and chronology is valid. This does not mark it reviewed, add a recipient, or send a reply.
+The authenticated maintenance API lists a received date in UTC, ten messages per page, and returns bounded plain-text content, never archived HTML. The read-only recovery worker checks eligible missed webhook events; individual provider-ID recovery remains a protected maintenance operation. No message is resent. For a direct message to the primary address, the operator may link it to an existing authorized case only if the sender matches, provider-reported DMARC passed, and chronology is valid. This does not mark it reviewed, add a recipient, or send a reply.
 
-The archive stores text up to 48 KB and HTML up to 72 KB, with explicit truncation metadata, attachment metadata (first 50), but not attachment bytes or raw MIME. Original files remain with the provider while retained. This is not yet a complete archival mailbox or an IMAP/JMAP service: the GitHub Contents directory limit of 1,000 entries per date is surfaced, and provider retention, storage and API limits apply. The original bounded case ledger still requires capacity monitoring and migration before exhaustion. Back up the private repository and encryption key separately, and rehearse restoring an exact historical commit. Do not rely on Git history for deletion or a certified evidence vault.
+The archive stores text up to 48 KB and HTML up to 72 KB, with explicit truncation metadata, attachment metadata (first 50), but not attachment bytes or raw MIME. Original files remain with the provider while retained. This is not yet a complete archival mailbox or an IMAP/JMAP service: the GitHub Contents directory limit of 1,000 entries per date is surfaced, and provider retention, storage and API limits apply. The original bounded case ledger still requires capacity monitoring and migration before exhaustion. Maintain protected independent volume backups and preserve the encryption key separately. Rehearse restoring to an isolated database. Do not rely on Git history for deletion or a certified evidence vault.
 
 ## Local OpenAI API key
 
@@ -32,11 +32,11 @@ The issue ledger and approved Markdown remain the source of instructions. Each p
 
 ## Deployment gates
 
-1. Provision the private GitHub state repository and scoped token, state encryption key, operator token, mail-provider key and webhook signing secret.
+1. Preserve the existing Railway volume, state encryption key, maintenance token, mail-provider key and webhook signing secret.
 2. Create an isolated Railway service with root /source/correspondence, Dockerfile, healthcheck /healthz, no sleep, one replica; do not modify the public website or apply its pending changes.
 3. Configure verified domain routing and DNS only after determining the existing provider. Keep ENABLE_LIVE_SEND=false and use controlled addresses to qualify the whole path.
 4. Run npm test and perform owned-address receipt, send, delivery webhook, reply, outage recovery, duplicate replay and restore tests. Check attachment behavior and provider retention. Monitor archive and ledger capacity.
-5. Maintain issues and approved redacted signals in the private collaboration/state repositories. The automatic worker prepares internal drafts; the operator approves exact outgoing messages. Never give the AI arbitrary shell, code-write, mail-send, DNS or deploy permissions.
+5. Maintain public-safe issues and reviewed signals in the public repository. GitHub is the writing review surface; outbound delivery remains locked. Never give the AI arbitrary shell, code-write, mail-send, DNS or deploy permissions.
 
 The code does not provision a provider account, domain, DNS record, state repository, or operational mailbox by itself.
 
