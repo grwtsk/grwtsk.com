@@ -28,3 +28,36 @@ test('missing scope becomes a bounded question, exact owner reply resolves it',a
  answer=true;await reportReviewTick(store,{},fetcher,generate,'2026-11-24');assert.equal(reportReviewProjection(state).records[0].plan.topic,'records');
  assert.equal(questionTopic([{...comment,user:{id:9}}],21,20),null);
 });
+
+test('synchronizer writes a safe scope question once and never sends mail',async()=>{
+ const {syncReportReview}=await import('../sync-report-review.mjs');
+ let created=0;
+ const p={version:1,mode:'review-only',day:'2026-11-24',records:[{report:20,status:'needs-scope'}],history:[],metrics:{reports:1,active:1,outcomeEvidenceReported:0,outstandingOwnerQuestions:0,overduePlannedFollowUps:0,improvementProposals:0,heldRecords:0,scopeQuestions:1,reportCoverage:true}};
+ const fetcher=async(url,opts={})=>{
+   if(url.endsWith('/report-review/status'))return Response.json(p);
+   if(url.includes('creator=github-actions'))return Response.json(created?[{number:21,user:{id:41898282},state:'open',body:marker(20)}]:[]);
+   if(url.endsWith('/issues/20'))return Response.json({...report(20,''),state:'open'});
+   if(url.endsWith('/issues')&&opts.method==='POST'){
+     created++;const b=JSON.parse(opts.body);assert.ok(b.body.startsWith(marker(20)));assert.ok(!b.body.includes('PRIVATE'));return Response.json({number:21});
+   }
+   throw Error('Unexpected path');
+ };
+ await syncReportReview({token:'synthetic',fetcher});await syncReportReview({token:'synthetic',fetcher});assert.equal(created,1);
+});
+test('report synchronization comments only on owner-authored report using rendered catalog',async()=>{
+ const {syncReportReview}=await import('../sync-report-review.mjs');
+ const plan={report:20,topic:'records',stage:'initial',style:'plain',order:'topic-first',sources:[20]};
+ const rec={report:20,status:'review-ready',method:'ai-composed',fingerprint:'a'.repeat(64),plan};
+ const p={version:1,mode:'review-only',day:'2026-11-24',records:[rec],history:[rec],metrics:{reports:1,active:1,outcomeEvidenceReported:0,outstandingOwnerQuestions:0,overduePlannedFollowUps:0,improvementProposals:0,heldRecords:0,scopeQuestions:0,reportCoverage:true}};
+ let writes=0;
+ const fetcher=async(url,opts={})=>{
+  if(url.endsWith('/report-review/status'))return Response.json(p);
+  if(url.includes('creator=github-actions'))return Response.json([]);
+  if(url.endsWith('/issues/20'))return Response.json({...report(20),state:'open'});
+  if(url.includes('/comments?'))return Response.json([]);
+  if(url.endsWith('/issues/20/comments')&&opts.method==='POST'){
+   writes++;const body=JSON.parse(opts.body).body;assert.match(body,/Unsent draft/);assert.ok(!body.includes('PRIVATE'));return Response.json({id:99});
+  }throw Error('Unexpected path');
+ };
+ await syncReportReview({token:'synthetic',fetcher});assert.equal(writes,1);
+});

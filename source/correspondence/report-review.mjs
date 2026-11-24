@@ -24,9 +24,9 @@ export const marker=n=>'<!-- healthcare-scope-v1:'+n+' -->';
 export function questionTopic(comments,questionNumber,reportNumber){
   if(!num(questionNumber)||!num(reportNumber)||!Array.isArray(comments)||comments.length>100)return null;
   for(const c of comments.slice().sort((a,b)=>b.id-a.id)){
-    if(c.user?.id!==OWNER_ID||c.issue_url!==URL+'/issues/'+questionNumber||c.created_at!==c.updated_at||!num(c.id)&&!Number.isSafeInteger(c.id)||typeof c.body!=='string')continue;
+    if(c.user?.id!==OWNER_ID||c.issue_url!==URL+'/issues/'+questionNumber||c.created_at!==c.updated_at||(!Number.isSafeInteger(c.id)||c.id<1)||typeof c.body!=='string')continue;
     const topic=Object.keys(TOPICS).find(k=>TOPICS[k].label.toLowerCase()===c.body.trim().toLowerCase()||k===c.body.trim().toLowerCase());
-    if(topic)return {topic,comment:c.id};
+    if(topic)return {topic,comment:c.id,issue:questionNumber};
   }
   return null;
 }
@@ -105,8 +105,9 @@ export async function reportReviewTick(store,config,fetcher=fetch,generate=compo
     if(!stage)continue;
     const {state}=await store.read(),old=state.reportReview?.records?.find(x=>x.report===report.number);
     const preference=state.writingReview?.revisions?.filter(r=>r.choice).at(-1)?.choice?.style||'balanced';
-    const plan={report:report.number,topic,stage,preference,sources:report.timeline.slice(-99)};
+    const plan={report:report.number,topic,stage,preference,sources:report.timeline.slice(-98)};
     if(plan.sources[0]!==report.number)plan.sources.unshift(report.number);
+    if(answer&&!plan.sources.includes(answer.issue))plan.sources.push(answer.issue);
     const fingerprint=digest(JSON.stringify({policy:1,plan,scopeRevision:sc.revision,answer}));
     if(old?.fingerprint===fingerprint&&old.plan){
       planned.push(old);continue;
@@ -118,7 +119,7 @@ export async function reportReviewTick(store,config,fetcher=fetch,generate=compo
     s.reportReview={version:1,records:planned.map(p=>{
       const same=previous.find(r=>r.report===p.report&&r.fingerprint&&r.fingerprint===p.fingerprint);
       return same?.plan?same:p;
-    }),metrics:{...projection.metrics,heldRecords:projection.held.length,reportCoverage:active.length<=12},at:today};
+    }),metrics:{...projection.metrics,heldRecords:projection.held.length,reportCoverage:active.length<=12,scopeQuestions:planned.filter(p=>p.status==='needs-scope').length},at:today,history:s.reportReview?.history||[]};
   });
   // One model call per cycle. A repeated pending plan may be retried after an
   // interruption: it cannot trigger a delivery or new external recipient.
@@ -129,16 +130,19 @@ export async function reportReviewTick(store,config,fetcher=fetch,generate=compo
     result={plan:{...pending.planInput,style:pending.planInput.preference,order:'topic-first'},method:'baseline'};
   }
   renderReportDraft(result.plan);
-  requireThat(['ai-composed','baseline'].includes(result.method)&&result.plan.report===pending.report&&result.plan.topic===pending.planInput.topic&&result.plan.stage===pending.planInput.stage,502,'Invalid review result');
+  requireThat(['ai-composed','baseline'].includes(result.method)&&result.plan.report===pending.report&&result.plan.topic===pending.planInput.topic&&result.plan.stage===pending.planInput.stage&&JSON.stringify(result.plan.sources)===JSON.stringify(pending.planInput.sources),502,'Invalid review result');
   await store.mutate(s=>{
     const r=s.reportReview.records.find(x=>x.report===pending.report&&x.fingerprint===pending.fingerprint);
     if(!r||r.status!=='draft-pending')return;
     r.status='review-ready';r.plan=result.plan;r.method=result.method;delete r.planInput;
+    const history=s.reportReview.history;
+    if(!history.some(h=>h.fingerprint===r.fingerprint))history.push({report:r.report,fingerprint:r.fingerprint,plan:r.plan,method:r.method});
+    if(history.length>48)history.shift();
   });
 }
 export function reportReviewProjection(state){
   const r=state.reportReview;
-  return {version:1,mode:'review-only',day:r?.at||null,metrics:r?.metrics||null,records:(r?.records||[]).map(x=>({
+  return {version:1,mode:'review-only',day:r?.at||null,metrics:r?.metrics||null,history:(r?.history||[]).map(h=>({report:h.report,fingerprint:h.fingerprint,plan:h.plan,method:h.method})),records:(r?.records||[]).map(x=>({
     report:x.report,status:x.status,...(x.plan?{plan:x.plan,method:x.method,fingerprint:x.fingerprint}:{}),...(x.answer?{answer:x.answer}: {})
   }))};
 }
