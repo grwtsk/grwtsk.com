@@ -6,7 +6,7 @@ import { requireThat, emptyState, assertState, encryptState, decryptState, uuid 
 import { parseSignals } from './knowledge.mjs';
 
 const LEDGER_AAD='grwtsk-correspondence:volume:v1:ledger';
-const SIGNAL_FILE='source/correspondence/signals/approved.md';
+const SIGNAL_FILE='source/communications/signals/approved.md';
 const DAY=/^\d{4}-\d{2}-\d{2}$/;
 const NAME=/^\d{9}-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\.enc\.json$/;
 function validDay(day){return typeof day==='string'&&DAY.test(day)&&Number.isFinite(Date.parse(day+'T00:00:00Z'))&&new Date(day+'T00:00:00Z').toISOString().slice(0,10)===day;}

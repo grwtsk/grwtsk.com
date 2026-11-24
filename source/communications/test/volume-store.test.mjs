@@ -54,7 +54,7 @@ test('bundled Markdown source includes content provenance without GitHub token',
   const signalFile=join(dir,'approved.md');await writeFile(signalFile,'## Communication signals v1\n');
   const s=new VolumeStore({stateDir:dir,key:randomBytes(32),signalFile,signalCommit:'a'.repeat(40)});
   const r=await s.readSignals();assert.equal(r.commit,'a'.repeat(40));assert.equal(r.entries.length,0);assert.match(r.blob,/^[0-9a-f]{40}$/);
-  assert.equal(r.path,'source/correspondence/signals/approved.md');
+  assert.equal(r.path,'source/communications/signals/approved.md');
 }));
 
 test('verified local checkpoint restores exact ledger and archive in a disposable directory',()=>temp(async dir=>{

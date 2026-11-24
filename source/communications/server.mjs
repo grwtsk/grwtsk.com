@@ -1,10 +1,7 @@
 import { createServer } from 'node:http';
 import { publicProjection, coordinationTick } from './github-first.mjs';
 import { WRITING_REVIEW_ONLY, writingReviewTick, writingProjection } from './writing-review.mjs';
-import { reportReviewTick, reportReviewProjection } from './report-review.mjs';
-import { improvementTick, improvementProjection } from './review-improvement.mjs';
 import { recoveryTick, recoveryProjection } from './read-only-recovery.mjs';
-import { receiptLinkTick, receiptLinkProjection } from './receipt-links.mjs';
 import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
 import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile, suggestWritingImprovements } from './adapters.mjs';
@@ -62,12 +59,11 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
     try {
       const url=new URL(req.url,'http://localhost'),path=url.pathname;
       if(req.method==='GET'&&path==='/healthz')return respond(res,200,{ok:true});
-      if(req.method==='GET'&&path==='/report-review/status'){const {state}=await store.read();return respond(res,200,{...reportReviewProjection(state),improvement:improvementProjection(state),checkpoint:state.checkpoint?.day||null,recovery:recoveryProjection(state),receiptLinks:receiptLinkProjection(state,config)});}
       if(req.method==='GET'&&path==='/writing-review/status')return respond(res,200,writingProjection((await store.read()).state));
-      if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst)return respond(res,200,publicProjection((await store.read()).state,config));
+      if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst){const {state}=await store.read();return respond(res,200,{...publicProjection(state,config),checkpoint:state.checkpoint?.day||null,recovery:recoveryProjection(state)});}
       // GitHub is the only user-facing interface. Retain the machine API.
       if(['GET','HEAD'].includes(req.method)&&path==='/'){
-        res.writeHead(303,{...security,Location:'https://github.com/grwtsk/grwtsk.com/issues/8'});
+        res.writeHead(303,{...security,Location:'https://github.com/grwtsk/grwtsk.com/issues/6'});
         return res.end();
       }
       if(req.method==='POST'&&path==='/webhooks/resend'){
@@ -103,7 +99,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
         const caseId=url.searchParams.get('caseId');findCase(state,caseId);
         const snapshot=await store.readSignals();
         return respond(res,200,snapshot?describePlan(planForCase(state,config.offices,caseId,snapshot),state):
-          {ready:false,reason:config.backend==='volume'?'Add reviewed redacted signals in source/correspondence/signals/approved.md and redeploy.':'Create signals/approved.md in the private state repository using the example.'});
+          {ready:false,reason:config.backend==='volume'?'Add reviewed redacted signals in source/communications/signals/approved.md and redeploy.':'Create signals/approved.md in the private state repository using the example.'});
       }
       if(req.method==='GET'&&['/api/coordination/issue','/api/coordination/preview'].includes(path)){
         const {state}=await store.read(),id=url.searchParams.get('issueId');
@@ -209,13 +205,13 @@ export async function start(){
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
   if(config.githubFirst){
     let writingBusy=false;
-    const review=async()=>{if(writingBusy)return;writingBusy=true;try{await writingReviewTick(store,config);await reportReviewTick(store,config);await improvementTick(store,config);}catch{console.error('Public writing review unavailable');}finally{writingBusy=false;}};
+    const review=async()=>{if(writingBusy)return;writingBusy=true;try{await writingReviewTick(store,config);}catch{console.error('Public writing review unavailable');}finally{writingBusy=false;}};
     if(config.backend==='volume'){
       let checkpointBusy=false;
       const checkpoint=async()=>{if(checkpointBusy)return;checkpointBusy=true;try{const day=new Date().toISOString().slice(0,10);if((await store.read()).state.checkpoint?.day!==day){await store.checkpoint();await store.mutate(s=>{s.checkpoint={day};});}}catch{console.error('Local encrypted checkpoint unavailable');}finally{checkpointBusy=false;}};
       const checkpointTimer=setInterval(checkpoint,3_600_000);server.on('close',()=>clearInterval(checkpointTimer));void checkpoint();
       let recovering=false;
-      const recover=async()=>{if(recovering)return;recovering=true;try{await recoveryTick(store,archive,config,provider);await receiptLinkTick(store,config);}catch{console.error('Read-only recovery unavailable');}finally{recovering=false;}};
+      const recover=async()=>{if(recovering)return;recovering=true;try{await recoveryTick(store,archive,config,provider);}catch{console.error('Read-only recovery unavailable');}finally{recovering=false;}};
       const recoveryTimer=setInterval(recover,600_000);server.on('close',()=>clearInterval(recoveryTimer));void recover();
     }
     const reviewTimer=setInterval(review,300_000);server.on('close',()=>clearInterval(reviewTimer));void review();

@@ -25,11 +25,12 @@ test('issue routes require operator authentication, preserve private state, and 
     for(const method of ['GET','HEAD']){
       const home=await fetch(base+'/',{method,redirect:'manual'});
       assert.equal(home.status,303);
-      assert.equal(home.headers.get('location'),'https://github.com/grwtsk/grwtsk.com/issues/8');
+      assert.equal(home.headers.get('location'),'https://github.com/grwtsk/grwtsk.com/issues/6');
       assert.equal(await home.text(),'');
     }
     for(const path of ['/app.js','/style.css','/web/index.html'])assert.equal((await fetch(base+path)).status,404);
     assert.deepEqual(await (await fetch(base+'/healthz')).json(),{ok:true});
+    assert.equal((await fetch(base+'/report-review/status')).status,404);
     const issue={title:'Synthetic issue',owner:'Synthetic office',nextAction:'Clarify process',shareSummary:'A process question.',shareReviewed:true};
     assert.equal((await req('/api/coordination/create',issue,false)).status,401);
     assert.equal(state.coordination,undefined);
