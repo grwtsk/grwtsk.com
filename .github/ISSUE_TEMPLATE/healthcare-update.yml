@@ -1,0 +1,65 @@
+name: Healthcare lifecycle update
+description: Record a submission, response, follow-up, decision, or outcome on an existing report.
+title: "[Healthcare update] "
+body:
+  - type: input
+    id: report
+    attributes:
+      label: Report issue
+      placeholder: "#10"
+    validations:
+      required: true
+  - type: dropdown
+    id: event
+    attributes:
+      label: Event
+      options:
+        - Submission planned
+        - Submission documented
+        - Transport receipt recorded
+        - Institutional acknowledgment reported
+        - Institutional response reported
+        - Follow-up planned
+        - Owner input requested
+        - Owner input recorded
+        - Corrective action reported
+        - Outcome evidence recorded
+        - Close tracking
+        - Reopen tracking
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence reference
+      description: A public issue reference or public HTTPS document/receipt URL. Required for evidence-bearing events. This records provenance, not independent verification.
+  - type: input
+    id: date
+    attributes:
+      label: Follow-up date (UTC)
+      placeholder: YYYY-MM-DD
+  - type: dropdown
+    id: date-basis
+    attributes:
+      label: Date basis
+      options:
+        - Internal planning date
+        - Date communicated by institution
+  - type: input
+    id: question
+    attributes:
+      label: Owner question issue
+      placeholder: "#11"
+      description: Link the existing question for owner-input events, not a new duplicate.
+  - type: textarea
+    id: update
+    attributes:
+      label: Public-safe update
+      description: Briefly record the evidence, remaining question or decision. Do not publish protected correspondence.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Public scope
+      options:
+        - label: I have excluded confidential information and identifying third-party details.
+          required: true
