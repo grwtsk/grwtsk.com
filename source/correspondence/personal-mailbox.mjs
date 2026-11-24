@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { Fault, requireThat, uuid, email, mailbox, now, emptyState, encryptState, decryptState, findCase, currentOffice, MAX_REPLY_CHARS } from './core.mjs';
+import { Fault, requireThat, uuid, email, mailbox, now, emptyState, encryptState, decryptState, findCase, currentOffice, createCase, MAX_REPLY_CHARS } from './core.mjs';
 
 const DAY=/^\d{4}-\d{2}-\d{2}$/;
 const FILE=/^(\d{9})-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\.enc\.json$/;
@@ -117,6 +117,21 @@ export async function ingestPersonal(store,archive,config,mail,id,hook,normalInb
       if(!latest.linkCase)return false;
       const result=normalInbound(s,mail,id,hook);
       return !!(result.recorded||result.duplicate);
+    });
+  }
+  if(config.githubFirst&&decision.disposition==='admitted'&&archived.record.route.disposition==='admitted'&&
+    archived.record.route.primary&&archived.record.route.caseIds.length===0&&archived.record.route.officeId==='owner-test'){
+    caseLinked=await store.mutate(s=>{
+      const o=config.offices.find(x=>x.id==='owner-test'&&x.basis==='consented_correspondence'&&x.email===archived.record.from);
+      const current=admission(mail,s,config);
+      if(!o||current.disposition!=='admitted'||!current.route.primary||current.route.caseIds.length!==0)return false;
+      if(s.cases.some(c=>c.incoming.some(r=>r.providerId===id)))return s.cases.some(c=>c.office.id===o.id&&c.incoming.some(r=>r.providerId===id));
+      const matches=s.cases.filter(c=>c.office.email===o.email);
+      if(matches.length>1||matches.some(c=>c.closed||c.office.id!==o.id||c.office.basis!==o.basis))return false;
+      const c=matches[0]||createCase(s,config.offices,{officeId:o.id,title:'Owner correspondence'},config.domain);
+      if(c.outgoing.at(-1)&&archived.record.createdAt<=c.outgoing.at(-1).at)return false;
+      attachPersonalReply(s,config.offices,{caseId:c.id,confirm:true},archived.record);
+      return true;
     });
   }
   return {archived:true,duplicateArchive:!archived.created,disposition:archived.record.route.disposition,reason:decision.reason,caseLinked};

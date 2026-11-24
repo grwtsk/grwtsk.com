@@ -1,4 +1,5 @@
 import { createServer } from 'node:http';
+import { publicProjection, coordinationTick } from './github-first.mjs';
 import { readFile } from 'node:fs/promises';
 import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
@@ -34,7 +35,10 @@ function envConfig(e) {
   requireThat(primary===from,500,'Primary mailbox must match the verified From address');
   requireThat(e.RESEND_API_KEY && /^whsec_[A-Za-z0-9+/=]+$/.test(e.RESEND_WEBHOOK_SECRET||'') &&
     Buffer.from(e.RESEND_WEBHOOK_SECRET.slice(6),'base64').length>=16,500,'Configure Resend API and webhook signing secret');
-  return {backend,stateDir,signalCommit:e.RAILWAY_GIT_COMMIT_SHA||null,repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
+  const githubFirst=e.ENABLE_GITHUB_FIRST==='true',routineAcks=e.ENABLE_OWNER_ROUTINE_ACKS==='true',githubFirstActivation=e.GITHUB_FIRST_ACTIVATED_AT||'';
+  requireThat(!githubFirst||(backend==='volume'&&Number.isFinite(Date.parse(githubFirstActivation))&&new Date(githubFirstActivation).toISOString()===githubFirstActivation),500,'Configure volume-backed GitHub coordination with a fixed UTC activation instant');
+  requireThat(!routineAcks||githubFirst,500,'Routine acknowledgment requires GitHub coordination');
+  return {githubFirst,routineAcks,githubFirstActivation,backend,stateDir,signalCommit:e.RAILWAY_GIT_COMMIT_SHA||null,repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
     domain,from,primary,primaryAlias,autoQuality:e.ENABLE_AUTO_QUALITY==='true',offices:parseOffices(e.AUTHORIZED_OFFICES_JSON),openaiKey:e.OPENAI_API_KEY||'',model:e.OPENAI_MODEL||'',
     live:e.ENABLE_LIVE_SEND==='true',autoDrafts:e.ENABLE_AUTO_DRAFTS==='true',port:Number(e.PORT||8080)};
 }
@@ -54,6 +58,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
     try {
       const url=new URL(req.url,'http://localhost'),path=url.pathname;
       if(req.method==='GET'&&path==='/healthz')return respond(res,200,{ok:true});
+      if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst)return respond(res,200,publicProjection((await store.read()).state,config));
       if(req.method==='GET'&&['/','/app.js','/style.css'].includes(path)){
         const file=path==='/'?'index.html':path.slice(1);
         const type=file==='index.html'?'text/html; charset=utf-8':file==='app.js'?'text/javascript; charset=utf-8':'text/css; charset=utf-8';
@@ -195,6 +200,11 @@ export async function start(){
   const provider=new MailProvider(config.resendKey);
   const server=createServer({requestTimeout:90000,headersTimeout:15000,maxHeaderSize:16000},handler(config,store,provider,archive));
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
+  if(config.githubFirst){
+    let busy=false;
+    const tick=async()=>{if(busy)return;busy=true;try{await coordinationTick(store,config,provider);}catch{console.error('GitHub coordination tick unavailable; pending reservations are not retried');}finally{busy=false;}};
+    const timer=setInterval(tick,300_000);server.on('close',()=>clearInterval(timer));void tick();
+  }
   if((config.autoDrafts||config.autoQuality)&&config.openaiKey&&config.model){
     let busy=false;
     const tick=async()=>{

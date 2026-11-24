@@ -66,7 +66,7 @@ export class MailProvider {
     const header=typeof reference==='string' && /^<[^<>\r\n]{1,490}>$/.test(reference)?reference:null;
     const result=await this.call('/emails',{method:'POST',headers:{'Idempotency-Key':'casework/'+m.id},body:{
       from:m.from,to:[m.to],reply_to:m.replyTo,subject:m.subject,text:m.text,
-      tags:[{name:'correspondence_id',value:m.id}],...(header?{headers:{'In-Reply-To':header,References:header}}:{})
+      tags:[{name:'correspondence_id',value:m.id}],...((header||m.automatic)?{headers:{...(header?{'In-Reply-To':header,References:header}:{}),...(m.automatic?{'Auto-Submitted':'auto-replied'}:{})}}:{})
     }});
     requireThat(uuid(result.id),503,'Unrecognized provider receipt; reconcile without resending');
     return result.id;

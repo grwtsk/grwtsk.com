@@ -115,7 +115,8 @@ export function saveDraft(state, offices, input, provenance=null) {
 export function suppressed(state,c) {
   return state.delivery.some(e=>e.to===c.office.email && ['email.bounced','email.complained','email.suppressed'].includes(e.type));
 }
-export function reserveSend(state, offices, input, from, at=now(), knowledgeFingerprint=null) {
+const ROUTINE_AUTHORIZATION=Symbol('owner-requested routine acknowledgment');
+export function reserveSend(state, offices, input, from, at=now(), knowledgeFingerprint=null, routineAuthorization=null) {
   const c=findCase(state,input.caseId); currentOffice(c,offices);
   requireThat(!c.closed && !suppressed(state,c),409,'Case closed or recipient suppressed');
   requireThat(!c.outgoing.some(x=>x.status==='pending'),409,'Uncertain send must be reconciled before continuing');
@@ -126,7 +127,7 @@ export function reserveSend(state, offices, input, from, at=now(), knowledgeFing
   const last=c.outgoing.at(-1);
   if(last) {
     requireThat(last.status==='accepted',409,'Previous send not reconciled');
-    const response=c.incoming.find(x=>x.id===input.replyId && x.reviewed===true && x.from===c.office.email &&
+    const response=c.incoming.find(x=>x.id===input.replyId && (x.reviewed===true||routineAuthorization===ROUTINE_AUTHORIZATION) && x.from===c.office.email &&
       x.authentication?.dmarc==='pass' && x.receivedAt>last.at);
     requireThat(response && !c.outgoing.some(x=>x.replyId===response.id),409,'A new reviewed reply from the authorized office is required for another send');
   } else requireThat(!input.replyId,400,'Initial correspondence must not specify a reply');
@@ -139,6 +140,26 @@ export function reserveSend(state, offices, input, from, at=now(), knowledgeFing
   c.outgoing.push(message);
   audit(state,'send.reserved',c.id,{messageId:message.id,draftId:d.id,hash:d.hash});
   return {caseId:c.id,message};
+}
+// Only the internal, deterministic owner-test policy may use this path.
+export function reserveOwnerAcknowledgment(state,offices,caseId,activation,from,at=now()){
+  const c=findCase(state,caseId),o=currentOffice(c,offices);
+  if(o.id!=='owner-test'||o.basis!=='consented_correspondence'||c.closed||suppressed(state,c)||c.routineOptOut)return null;
+  const previous=c.outgoing.at(-1);
+  if(!previous||previous.status!=='accepted')return null;
+  const r=c.incoming.at(-1);
+  if(!r||r.from!==o.email||r.authentication?.dmarc!=='pass'||r.textTruncated||r.htmlOnly||r.attachmentCount!==0||
+    r.text.trim().toLowerCase()!=='please confirm receipt.'||!Number.isFinite(Date.parse(activation))||
+    r.receivedAt<=activation||r.receivedAt<=previous.at||c.outgoing.some(m=>m.replyId===r.id))return null;
+  const latest=c.drafts.at(-1);
+  if(latest&&!c.outgoing.some(m=>m.draftId===latest.id))return null;
+  const all=state.cases.flatMap(x=>x.outgoing);
+  if(all.some(x=>Date.parse(at)-Date.parse(x.at)<60_000)||all.filter(x=>Date.parse(at)-Date.parse(x.at)<86_400_000).length>=3)return null;
+  const d=saveDraft(state,offices,{caseId,subject:'Automated receipt acknowledgment',
+    text:'Automated acknowledgment: your message received at '+r.receivedAt+' was recorded in the correspondence ledger. No further reply is required.'});
+  const reserved=reserveSend(state,offices,{caseId,draftId:d.id,hash:d.hash,confirm:true,replyId:r.id},from,at,null,ROUTINE_AUTHORIZATION);
+  reserved.message.automatic=true;reserved.message.policy='owner-requested-receipt-v1';
+  return reserved;
 }
 export function acceptSend(state,caseId,id,providerId) {
   requireThat(uuid(providerId),503,'Provider returned an unexpected ID; reconcile manually');

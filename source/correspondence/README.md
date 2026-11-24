@@ -1,4 +1,6 @@
-# Private correspondence service
+# Correspondence service
+
+**Current deployment:** encrypted Railway volume; the private GitHub backend below is optional legacy infrastructure. See [GITHUB-FIRST.md](GITHUB-FIRST.md) and issue #5 for the GitHub-first workflow. The public dashboard exposes only fixed-schema owner-test receipts, never private originals. The console is an optional maintenance fallback.
 
 A separately hosted Node.js 22+ application, with no runtime npm dependencies. The website remains the static article publisher. This service is for authorized, individually reviewed casework and consented correspondence, **not a campaign sender**. The article registry is not imported. The AI never has mail tools or GitHub access and never sends mail.
 
