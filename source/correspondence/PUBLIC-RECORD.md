@@ -28,3 +28,7 @@ Public Git history, forks and caches may retain information even after deletion.
 The admission policy is fail-closed: an empty authorization list accepts no incoming email into the application. Test with an owned address and verified DMARC, plus unknown sender, forged header, automation header, wrong case, replay, and unverified-authentication fixtures. Resend can return gray or unknown for otherwise legitimate correspondence; those cases require review and an authenticated route. Keep live sending disabled until qualification. Review source documentation:
 - https://resend.com/docs/api-reference/emails/retrieve-received-email
 - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
+## Volume storage option
+
+See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). In volume mode, the authoritative private state and admitted originals are stored in encrypted SQLite on a persistent volume, not a private GitHub repository. Approved public-safe Markdown is bundled from source/correspondence/signals/approved.md. Public records remain reviewed exports; no raw email is published.

@@ -43,3 +43,7 @@ The code does not provision a provider account, domain, DNS record, state reposi
 ## Admission and public disclosure update
 
 [PUBLIC-RECORD.md](PUBLIC-RECORD.md) supersedes the broader intake description above: only individually authorized senders with provider-computed DMARC pass are archived; authenticated automated or ambiguous messages are held. Unknown or unverified messages are excluded from the application. Public record exports require explicit review, and the provider dashboard is the exception review/recovery path. No automatic replies or publication.
+
+## Volume storage option
+
+See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). In volume mode, the authoritative private state and admitted originals are stored in encrypted SQLite on a persistent volume, not a private GitHub repository. Approved public-safe Markdown is bundled from source/correspondence/signals/approved.md. Public records remain reviewed exports; no raw email is published.

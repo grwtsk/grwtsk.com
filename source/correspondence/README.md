@@ -79,3 +79,7 @@ See [PERSONAL-MAILBOX.md](PERSONAL-MAILBOX.md). The configured primary address i
 ## Focused intake and public correspondence
 
 See [PUBLIC-RECORD.md](PUBLIC-RECORD.md). Only authenticated authorized senders enter the application; unlisted or unverified senders are ignored without an automatic reply. Listed automated or mismatched messages are held privately. The operator can prepare reviewed public receipts and summaries while preserving original correspondence in the private archive; publication remains a separate reviewed Git commit.
+
+## Railway volume alternative (no private GitHub repository)
+
+See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). Set STATE_BACKEND=volume and mount a persistent volume at /data. Private state uses encrypted SQLite; reviewed non-sensitive Markdown comes from the public source checkout. The earlier private GitHub backend remains optional. Existing mail authorization and disclosure rules are unchanged.

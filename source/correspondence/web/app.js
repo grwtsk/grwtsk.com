@@ -36,7 +36,7 @@ async function refresh(){
   options($('cases'),snapshot.state.cases,c=>c.title+' — '+c.office.role,c=>c.id);
   if(!snapshot.state.cases.some(c=>c.id===selected))selected='';
   $('cases').value=selected;renderCase();renderCoordination();resetPublicRecord();$('send').disabled=!snapshot.live;$('generate').disabled=!snapshot.ai;$('knowledge-prepare').disabled=!snapshot.ai;
-  status('Ledger opened. '+(snapshot.live?'Manual live delivery enabled.':'Live delivery disabled.'));
+  status('Ledger opened ('+snapshot.backend+'). '+(snapshot.live?'Manual live delivery enabled.':'Live delivery disabled.'));
 }
 async function run(fn){if(busy)return;busy=true;try{await fn();}catch(e){status(e.message);}finally{busy=false;}}
 $('connect').onclick=()=>run(async()=>{token=$('token').value;$('token').value='';await refresh();});

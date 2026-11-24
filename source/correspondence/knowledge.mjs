@@ -70,7 +70,7 @@ export function planForCase(state,offices,caseId,snapshot) {
   requireThat(Buffer.byteLength(JSON.stringify(selected))<=MAX_SELECTED_BYTES,413,'Too much approved context; retire or narrow notes for this case');
   const fingerprint=digest(JSON.stringify([1,c.id,o.id,o.email,o.role,o.scope,latest?.id||null,reply?.id||null,selected]));
   return {caseId:c.id,office:{role:o.role,scope:o.scope},mode:reply?'reply':'initial',replyId:reply?.id||null,
-    fingerprint,source:{path:SIGNAL_PATH,blob:snapshot.blob,commit:snapshot.commit},signals:selected};
+    fingerprint,source:{path:snapshot.path||SIGNAL_PATH,blob:snapshot.blob,commit:snapshot.commit},signals:selected};
 }
 export function describePlan(plan,state) {
   if(!plan)return {ready:false,reason:'No active approved case request, or no new reviewed reply with an approved redacted summary.'};

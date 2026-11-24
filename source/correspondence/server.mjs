@@ -1,17 +1,28 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
+import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
 import { GitHubStore, MailProvider, draftWithAI, draftFromSignals, reconcile, suggestWritingImprovements } from './adapters.mjs';
 import { PersonalArchive, ingestPersonal, attachPersonalReply } from './personal-mailbox.mjs';
+import { VolumeStore, VolumeArchive } from './volume-store.mjs';
 import { sourceForCase, sourceForArchive, preparePublicRecord, casePublicCoverage } from './public-record.mjs';
 import { recordQuality, qualitySummary, prepareQualityReview } from './quality.mjs';
 import { planForCase, describePlan, currentProvenance, prepareProposal, prepareNext } from './knowledge.mjs';
 import { createIssue, updateIssue, attachCase, linkIssues, recordFeedback, withdrawFeedbackSharing, nominateRoute, reviewNomination, issueView, groupPreview } from './coordination.mjs';
 
 function envConfig(e) {
-  const repo=e.STATE_REPO||'', branch=e.STATE_BRANCH||'main';
-  requireThat(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo) && /^[A-Za-z0-9._/-]+$/.test(branch) &&
-    repo.toLowerCase()!=='grwtsk/grwtsk.com' && e.GITHUB_STATE_TOKEN,500,'Configure separate private GitHub state repository and token');
+  const backend=e.STATE_BACKEND||'github';
+  requireThat(['github','volume'].includes(backend),500,'STATE_BACKEND must be github or volume');
+  const repo=e.STATE_REPO||'', branch=e.STATE_BRANCH||'main',stateDir=e.STATE_DIR||'';
+  if(backend==='github'){
+    requireThat(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo) && /^[A-Za-z0-9._/-]+$/.test(branch) &&
+      repo.toLowerCase()!=='grwtsk/grwtsk.com' && e.GITHUB_STATE_TOKEN,500,'Configure separate private GitHub state repository and token');
+  }else{
+    requireThat(isAbsolute(stateDir)&&resolve(stateDir)===stateDir&&stateDir!=='/',500,'Configure an absolute persistent STATE_DIR');
+    if(e.RAILWAY_PROJECT_ID||e.RAILWAY_SERVICE_ID){
+      requireThat(e.RAILWAY_VOLUME_MOUNT_PATH==='/data'&&stateDir===join(e.RAILWAY_VOLUME_MOUNT_PATH,'correspondence'),500,'Mount Railway volume at /data and use /data/correspondence; no ephemeral fallback');
+    }
+  }
   const key=Buffer.from(e.STATE_KEY_BASE64||'','base64');
   requireThat(key.length===32 && /^[A-Za-z0-9+/]{43}=$/.test(e.STATE_KEY_BASE64||''),500,'Configure 32-byte base64 encryption key');
   const token=e.OPERATOR_TOKEN||'';
@@ -23,7 +34,7 @@ function envConfig(e) {
   requireThat(primary===from,500,'Primary mailbox must match the verified From address');
   requireThat(e.RESEND_API_KEY && /^whsec_[A-Za-z0-9+/=]+$/.test(e.RESEND_WEBHOOK_SECRET||'') &&
     Buffer.from(e.RESEND_WEBHOOK_SECRET.slice(6),'base64').length>=16,500,'Configure Resend API and webhook signing secret');
-  return {repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
+  return {backend,stateDir,signalCommit:e.RAILWAY_GIT_COMMIT_SHA||null,repo,branch,key,token,githubToken:e.GITHUB_STATE_TOKEN,resendKey:e.RESEND_API_KEY,webhookSecret:e.RESEND_WEBHOOK_SECRET,
     domain,from,primary,primaryAlias,autoQuality:e.ENABLE_AUTO_QUALITY==='true',offices:parseOffices(e.AUTHORIZED_OFFICES_JSON),openaiKey:e.OPENAI_API_KEY||'',model:e.OPENAI_MODEL||'',
     live:e.ENABLE_LIVE_SEND==='true',autoDrafts:e.ENABLE_AUTO_DRAFTS==='true',port:Number(e.PORT||8080)};
 }
@@ -60,7 +71,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
       requireThat(same(req.headers.authorization||'','Bearer '+config.token),401,'Operator authentication required');
       if(req.method==='GET'&&path==='/api/state'){
         const {state}=await store.read();
-        return respond(res,200,{state,offices:config.offices,primary:config.primary||null,live:config.live,ai:!!(config.openaiKey&&config.model)});
+        return respond(res,200,{state,offices:config.offices,primary:config.primary||null,backend:config.backend||'github',live:config.live,ai:!!(config.openaiKey&&config.model)});
       }
       if(req.method==='GET'&&path==='/api/mailbox/day'){
         return respond(res,200,await archive.list(url.searchParams.get('day'),url.searchParams.get('cursor')));
@@ -81,7 +92,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
         const caseId=url.searchParams.get('caseId');findCase(state,caseId);
         const snapshot=await store.readSignals();
         return respond(res,200,snapshot?describePlan(planForCase(state,config.offices,caseId,snapshot),state):
-          {ready:false,reason:'Create signals/approved.md in the private state repository using the example.'});
+          {ready:false,reason:config.backend==='volume'?'Add reviewed redacted signals in source/correspondence/signals/approved.md and redeploy.':'Create signals/approved.md in the private state repository using the example.'});
       }
       if(req.method==='GET'&&['/api/coordination/issue','/api/coordination/preview'].includes(path)){
         const {state}=await store.read(),id=url.searchParams.get('issueId');
@@ -178,10 +189,11 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
 }
 export async function start(){
   const config=envConfig(process.env);
-  const store=new GitHubStore({...config,token:config.githubToken});
+  const store=config.backend==='volume'?new VolumeStore(config):new GitHubStore({...config,token:config.githubToken});
   await store.initialize();
+  const archive=config.backend==='volume'?new VolumeArchive(store):new PersonalArchive(store);
   const provider=new MailProvider(config.resendKey);
-  const server=createServer({requestTimeout:90000,headersTimeout:15000,maxHeaderSize:16000},handler(config,store,provider));
+  const server=createServer({requestTimeout:90000,headersTimeout:15000,maxHeaderSize:16000},handler(config,store,provider,archive));
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
   if((config.autoDrafts||config.autoQuality)&&config.openaiKey&&config.model){
     let busy=false;

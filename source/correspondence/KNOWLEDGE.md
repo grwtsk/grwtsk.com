@@ -36,3 +36,7 @@ In the interface, inspect current signal IDs and unresolved questions, load the 
 ## Limits
 
 The server searches this bounded curated Markdown file, not the entire web, external repositories or private email accounts. It does not infer facts not recorded, certify evidence, automatically ingest unredacted correspondence, execute prompt instructions embedded in records, or autonomously contact other offices. Existing ledger capacity limits apply to internal proposals. The interface refreshes on request; the optional scheduler prepares internal proposals, not external messages. Hosting, state repository, domain, and live API integration still require provisioning and qualification.
+
+## Volume storage option
+
+See [RAILWAY-VOLUME.md](RAILWAY-VOLUME.md). In volume mode, the authoritative private state and admitted originals are stored in encrypted SQLite on a persistent volume, not a private GitHub repository. Approved public-safe Markdown is bundled from source/correspondence/signals/approved.md. Public records remain reviewed exports; no raw email is published.

@@ -33,6 +33,8 @@ jobs:
           node --check personal-mailbox.mjs
           node --check quality.mjs
           node --check public-record.mjs
+          node --check volume-store.mjs
+          sh -n container-start.sh
           node --check start-local.mjs
           node --check web/app.js
       - name: Run synthetic tests without credentials or live email
