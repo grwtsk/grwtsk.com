@@ -26,6 +26,18 @@ jobs:
       - name: Test generator, Vite build, and static HTTP serving
         working-directory: source/web
         run: npm test
+      - name: Verify original visual contract in Chromium
+        working-directory: source/web
+        run: |
+          browser_tools="$RUNNER_TEMP/grwtsk-browser-tools"
+          npm install --prefix "$browser_tools" --no-save --package-lock=false --ignore-scripts --no-audit --no-fund playwright-core@1.57.0
+          node "$browser_tools/node_modules/playwright-core/cli.js" install --with-deps chromium
+          PLAYWRIGHT_MODULE="$browser_tools/node_modules/playwright-core/index.mjs" LAYOUT_ARTIFACT_DIR="$RUNNER_TEMP/grwtsk-layout" node test/layout.browser.mjs
+      - name: Upload layout previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: layout-previews
+          path: ${{ runner.temp }}/grwtsk-layout
       - name: Upload generated site
         uses: actions/upload-artifact@v4
         with:

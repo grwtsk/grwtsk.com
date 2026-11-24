@@ -5,3 +5,5 @@
 /source/web/.generation-*/
 /source/web/dist/
 .DS_Store
+
+.layout-check/

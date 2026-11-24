@@ -40,3 +40,32 @@ obligation: inspect actual public HTML after deployment using the
 [deployment procedure](../README.md#publish-and-verify).
 
 [Rust unit tests](../../generator/README.md) · [Data contract](../../data/README.md).
+
+## Browser layout regression
+
+[layout.browser.mjs](layout.browser.mjs) checks the built static distribution,
+not a copy of the initial HTML. Chromium evaluates computed styles and
+geometry at desktop, mobile and narrow widths, in light/dark modes, and
+checks print behavior. It verifies the exact shared article geometry on
+the homepage and permalink, the stacked metadata lines, column width,
+spacing, type scale and colors. It saves viewport screenshots as CI
+artifacts, not as checked-in historical layouts. Assertions are based on
+the approved design contract, not the length or number of current letters.
+
+CI installs the explicitly pinned playwright-core test tool in an isolated
+temporary directory and provisions its Chromium version. It is not a
+dependency of the static production service. To run the same check locally
+after a successful build, from the repository root:
+
+```sh
+browser_tools="$(mktemp -d)"
+npm install --prefix "$browser_tools" --no-save --package-lock=false --ignore-scripts playwright-core@1.57.0
+node "$browser_tools/node_modules/playwright-core/cli.js" install chromium
+PLAYWRIGHT_MODULE="$browser_tools/node_modules/playwright-core/index.mjs" \
+  LAYOUT_ARTIFACT_DIR="$browser_tools/previews" node source/web/test/layout.browser.mjs
+```
+
+Open the screenshot directory printed by your terminal variable
+`$browser_tools/previews` for visual inspection. In GitHub Actions,
+download the layout-previews artifact. A passing layout test is not
+evidence that the public host has deployed the build.
