@@ -1,4 +1,4 @@
-FROM rust:1.85-bookworm AS generator
+FROM rust:bookworm AS generator
 RUN apt-get update && apt-get install -y --no-install-recommends cmake g++ libcmark-gfm-dev libcmark-gfm-extensions-dev libyaml-cpp-dev nlohmann-json3-dev && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY source/parser source/parser
