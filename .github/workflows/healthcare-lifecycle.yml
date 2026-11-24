@@ -1,0 +1,55 @@
+name: Healthcare lifecycle tracking
+on:
+  pull_request:
+    paths:
+      - 'source/healthcare-tracking/**'
+      - '.github/ISSUE_TEMPLATE/healthcare-*.yml'
+      - '.github/workflows/healthcare-lifecycle.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'source/healthcare-tracking/**'
+      - '.github/ISSUE_TEMPLATE/healthcare-*.yml'
+      - '.github/workflows/healthcare-lifecycle.yml'
+  issues:
+    types: [opened, edited, closed, reopened]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test source/healthcare-tracking/lifecycle.test.mjs
+  sync:
+    needs: test
+    if: github.repository == 'grwtsk/grwtsk.com' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (github.event_name != 'issues' || github.event.sender.id == 176085483)
+    permissions:
+      contents: read
+      issues: write
+    concurrency:
+      group: healthcare-lifecycle-index
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Update public index only
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node source/healthcare-tracking/sync.mjs
