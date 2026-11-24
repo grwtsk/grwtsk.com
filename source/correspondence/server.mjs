@@ -1,6 +1,7 @@
 import { createServer } from 'node:http';
 import { publicProjection, coordinationTick } from './github-first.mjs';
 import { WRITING_REVIEW_ONLY, writingReviewTick, writingProjection } from './writing-review.mjs';
+import { reportReviewTick, reportReviewProjection } from './report-review.mjs';
 import { readFile } from 'node:fs/promises';
 import { join, resolve, isAbsolute } from 'node:path';
 import { Fault, requireThat, parseOffices, email, same, field, findCase, createCase, saveDraft, reserveSend, acceptSend, reviewReply, closeCase, verifyWebhook, inbound, delivery, deliveryTypes } from './core.mjs';
@@ -59,6 +60,7 @@ export function handler(config,store,provider,archive=new PersonalArchive(store)
     try {
       const url=new URL(req.url,'http://localhost'),path=url.pathname;
       if(req.method==='GET'&&path==='/healthz')return respond(res,200,{ok:true});
+      if(req.method==='GET'&&path==='/report-review/status')return respond(res,200,reportReviewProjection((await store.read()).state));
       if(req.method==='GET'&&path==='/writing-review/status')return respond(res,200,writingProjection((await store.read()).state));
       if(req.method==='GET'&&path==='/coordination/status'&&config.githubFirst)return respond(res,200,publicProjection((await store.read()).state,config));
       if(req.method==='GET'&&['/','/app.js','/style.css'].includes(path)){
@@ -205,7 +207,7 @@ export async function start(){
   server.listen(config.port,'0.0.0.0',()=>console.log('Correspondence service ready'));
   if(config.githubFirst){
     let writingBusy=false;
-    const review=async()=>{if(writingBusy)return;writingBusy=true;try{await writingReviewTick(store,config);}catch{console.error('Public writing review unavailable');}finally{writingBusy=false;}};
+    const review=async()=>{if(writingBusy)return;writingBusy=true;try{await writingReviewTick(store,config);await reportReviewTick(store,config);}catch{console.error('Public writing review unavailable');}finally{writingBusy=false;}};
     const reviewTimer=setInterval(review,300_000);server.on('close',()=>clearInterval(reviewTimer));void review();
     let busy=false;
     const tick=async()=>{if(busy)return;busy=true;try{await coordinationTick(store,config,provider);}catch{console.error('GitHub coordination tick unavailable; pending reservations are not retried');}finally{busy=false;}};

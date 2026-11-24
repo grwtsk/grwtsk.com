@@ -35,6 +35,8 @@ jobs:
           node --check public-record.mjs
           node --check volume-store.mjs
           node --check writing-review.mjs
+          node --check report-review.mjs
+          node --check report-lifecycle.mjs
           node --check sync-writing-review.mjs
           sh -n container-start.sh
           node --check start-local.mjs
