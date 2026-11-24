@@ -1,4 +1,17 @@
-**FORMAL COMPLAINT AND DEMAND FOR INDEPENDENT INVESTIGATION**
+---
+title: "FORMAL COMPLAINT AND DEMAND FOR INDEPENDENT INVESTIGATION"
+slug: formal-complaint-and-demand-for-independent-investigation
+description: "Assault, racial discrimination, medical abandonment, failure to report abuse, institutional concealment, retaliation, falsification of medical records, and deprivation of access to medical care"
+author: "R.A. Jacob Martone"
+language: en
+written_at: "2026-11-24T01:21:26-08:00"
+category: Correspondence
+tags:
+  - Patient rights
+  - Disability access
+  - Civil rights
+  - Medical accountability
+---
 
 **Re: Assault, racial discrimination, medical abandonment, failure to report abuse, institutional concealment, retaliation, falsification of medical records, and deprivation of access to medical care**
 
@@ -8,7 +21,7 @@ I apologize in advance for the rawness of my language. The disease that necessit
 
 I request that this correspondence be registered as a formal grievance, a patient-safety complaint, a civil rights complaint, and a report of ongoing harm to a disabled dependent adult.
 
-**I. January 2019 — Assault by Dr. Steven Lee McIntire**
+## I. January 2019 — Assault by Dr. Steven Lee McIntire
 
 In January 2019, I was assaulted by Dr. Steven Lee McIntire of Stanford Health Care during an appointment to evaluate a neurodegenerative disease of the cerebellum manifesting as a movement disorder.
 
@@ -30,7 +43,7 @@ I request investigation under California Penal Code §§ 240 and 242; Business a
 
 Obtain the original examination records, their revision histories, appointment documentation, witness testimony, and any contemporaneous reports concerning Dr. McIntire's conduct or fitness to practice. Interview my wife independently.
 
-**II. Failure to report and institutional knowledge**
+## II. Failure to report and institutional knowledge
 
 I reported the assault within days.
 
@@ -52,7 +65,7 @@ Where Penal Code § 11160 applied, reporting to law enforcement was required imm
 
 Determine whether institutional mechanisms were employed to protect patients or to protect the physician.
 
-**III. The integrity of Stanford's investigation**
+## III. The integrity of Stanford's investigation
 
 Eventually, a physician instructed me to contact Patient Relations.
 
@@ -78,7 +91,7 @@ Investigate the conduct under Title VI of the Civil Rights Act of 1964, 42 U.S.C
 
 An investigation that removes the voices of those most capable of establishing discrimination must itself become the subject of an investigation.
 
-**IV. Medical-record falsification and the resulting harm**
+## IV. Medical-record falsification and the resulting harm
 
 I subsequently discovered that Dr. McIntire had grossly misrepresented his examination and disseminated slander and potentially libel.
 
@@ -92,7 +105,7 @@ Compare those entries against my historical medical records, contemporaneous obs
 
 Determine which physicians independently evaluated the evidence and which merely inherited and perpetuated another physician's characterization.
 
-**V. August 2019 — The neurological findings at UCSF**
+## V. August 2019 — The neurological findings at UCSF
 
 In August 2019, I left Stanford and went to UCSF.
 
@@ -106,7 +119,7 @@ Commission an independent neurological review of the Stanford and UCSF examinati
 
 Determine whether Stanford's failure represented incompetence, gross negligence, discrimination, intentional misrepresentation, or some combination thereof under Business and Professions Code § 2234.
 
-**VI. December 2019 — Second assault at Stanford**
+## VI. December 2019 — Second assault at Stanford
 
 In December 2019, I was assaulted again at Stanford.
 
@@ -118,7 +131,7 @@ Identify the technician, obtain the radiology worklist and staffing assignments,
 
 Determine how many other wheelchair users were subjected to comparable treatment.
 
-**VII. Dr. So, Dr. Bledsoe, and the transmission of institutional prejudice**
+## VII. Dr. So, Dr. Bledsoe, and the transmission of institutional prejudice
 
 I eventually obtained a telephone meeting with Dr. So, the director of Stanford's Neurology Clinic at the time of the original assault.
 
@@ -142,7 +155,7 @@ Why is Dr. Bledsoe now covering for Dr. So and, through him, Dr. McIntire?
 
 These questions require independent investigation, not answers supplied exclusively by the individuals implicated in them.
 
-**VIII. Medical abandonment and abuse of a dependent adult**
+## VIII. Medical abandonment and abuse of a dependent adult
 
 Dr. Bledsoe has repeatedly failed to fulfill treatment plans that he himself proposed.
 
@@ -168,7 +181,7 @@ Determine whether any meaningful arrangements for continuity of care were made.
 
 A physician need not formally dismiss a patient to leave that patient without effective medical care. Maintaining the appearance of a therapeutic relationship while withholding its substance must not become a mechanism for evading accountability.
 
-**IX. Disability discrimination and deprivation of access to medicine**
+## IX. Disability discrimination and deprivation of access to medicine
 
 Dr. Bledsoe also failed to communicate my accessibility requirements arising from the combined effects of profound PTSD and cerebellar disease.
 
@@ -199,7 +212,7 @@ Identify who denied my accommodation requests, the reasoning employed, the alter
 
 Produce the requested meeting notes and other records subject to my access rights, together with written explanations for any withholding.
 
-**X. Institutional concealment and the wider public interest**
+## X. Institutional concealment and the wider public interest
 
 I have since learned that other incidents of racism have been reported at the same clinic where I was assaulted. I have also discovered public records corroborating my concerns about Dr. McIntire's conduct.
 
@@ -219,7 +232,7 @@ The medical system appears to rely upon the next person in a recursive loop of d
 
 The failure to investigate a physician cannot be justified by the expectation that another physician will investigate him.
 
-**XI. Immediate investigative and corrective actions**
+## XI. Immediate investigative and corrective actions
 
 I formally request:
 

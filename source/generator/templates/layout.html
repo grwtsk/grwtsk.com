@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="{{ description }}">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{ page_title }}</title>
+  <link rel="canonical" href="{{ canonical }}">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">{{ structured | safe }}</script>
+</head>
+<body>
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+<footer>
+  <span>© 2026 R.A. Jacob Martone</span>
+  <a href="https://github.com/grwtsk/math">grwtsk/math</a>
+</footer>
+</body>
+</html>

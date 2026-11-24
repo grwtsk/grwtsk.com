@@ -1,0 +1,22 @@
+<article aria-labelledby="article-title" lang="{{ article.language }}">
+  <header>
+    <p class="timestamp"><time datetime="{{ article.written_at }}">{{ article.display_date }}</time></p>
+    <dl class="correspondence">
+      <dt>Status</dt><dd>{{ article.status }}</dd>
+      <dt>Send history</dt>
+      <dd>{% if article.sends %}<ol>
+        {% for send in article.sends %}
+          <li><time datetime="{{ send.at }}">{{ send.at }}</time> — {{ send.recipient }} ({{ send.method }}){% if send.reference %} · {{ send.reference }}{% endif %}{% if send.public_record %} · <a href="{{ send.public_record }}">Public record</a>{% endif %}</li>
+        {% endfor %}
+      </ol>{% else %}No sends recorded.{% endif %}</dd>
+      <dt>Responses</dt>
+      <dd>{% if article.responses %}<ol>
+        {% for response in article.responses %}
+          <li><time datetime="{{ response.received_at }}">{{ response.display_date }}</time> — {{ response.from }}: <a href="{{ response.repository_url }}">{{ response.title }}</a>{% if response.public_record %} · <a href="{{ response.public_record }}">Public record</a>{% endif %}</li>
+        {% endfor %}
+      </ol>{% else %}No responses recorded.{% endif %}</dd>
+    </dl>
+    <h1 id="article-title">{{ article.title }}</h1>
+  </header>
+  <div class="article-body">{{ article.html | safe }}</div>
+</article>

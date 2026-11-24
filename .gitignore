@@ -1,0 +1,7 @@
+/source/parser/build/
+/source/generator/target/
+/source/web/node_modules/
+/source/web/.generated/
+/source/web/.generation-*/
+/source/web/dist/
+.DS_Store
