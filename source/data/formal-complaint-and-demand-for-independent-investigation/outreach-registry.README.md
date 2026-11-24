@@ -1,0 +1,115 @@
+# California medical accountability outreach registry
+
+This registry accompanies [the formal complaint](article.md). It is a directory for jurisdiction-specific reporting, constituent oversight and voluntary coalition formation, not a distribution list or a finding that any allegation is true. The Git repository is public.
+
+## How to use
+
+Open [outreach-registry.json](outreach-registry.json). It has three independent kinds of information:
+
+- `contact_records`: published institutional office routes (including named public officeholders when available). These are not all distinct contact endpoints: APS uses a statewide ZIP-code routing service, for example.
+- `directory_lookup_records`: public office and legal-referral coverage slots. Resolve the actual office, serving person and appropriate route using `sources` before use. These are not verified individuals, and office structures and incumbents may vary.
+- `stanford_county_scope`: documented clinical locations separated from historical affiliates and outreach locations requiring current verification.
+
+Each record has a stable ID, jurisdiction, purpose and verification status. Contact records include a source URL or source key; keys resolve to URLs in `sources`. A missing email means that no suitable public institutional email has been established. Do not guess an address from a person's name.
+
+The initial snapshot covers all 58 California county district attorney offices, 57 named district attorney directory entries and two named U.S. senators. Mariposa's directory entry identifies an assistant DA rather than an established elected incumbent. It contains 203 contact-routing records and 990 additional directory lookup records; the 1,193 records do not establish 1,193 individuals or contactable recipients. Verify officeholders after the November 2026 election and at the time of contact.
+
+## Authority and escalation map (2026-11-24)
+
+Open [authority-oversight.json](authority-oversight.json) for the independently sourced extension: 84 public office or institutional routing records and 163 typed oversight, administrative and referral relationships, including supervision links to all 58 county district attorney and all 58 county sheriff roles. This file refines some records already in the base registry; do not add the counts to claim unique people.
+
+**For local safety:** use emergency services (911) if there is immediate danger or a medical emergency. Fresno APS has a 24-hour intake at 559-600-3383. For an alleged crime at Stanford, identify the site and ask the shared Palo Alto/Stanford dispatcher (650-329-2413) to determine the appropriate agency. For incidents at UCSF, call UCSF Police (415-476-1414) or the appropriate municipal agency. Santa Clara, San Mateo and San Francisco prosecutor and victim-assistance routes have been rechecked in local official directories.
+
+**For independent oversight:** file the Medical Board and CDPH complaints separately, and the relevant civil-rights report through CRD, HHS OCR or DOJ. The California Attorney General has statutory supervisory authority over district attorneys and sheriffs; the Governor has specific authority to direct the Attorney General to assist a district attorney. The graph does not imply that every county has jurisdiction or that escalation guarantees action.
+
+**For congressional and state legislative oversight:** contact the serving constituent representative and the two California U.S. senators using their official casework procedures; request consideration of systemic patient-safety and civil-rights oversight from the relevant committees through their designated offices. The Governor's Office and the federal DOJ have webforms for routing concerns. Executive/legislative correspondence is not itself a formal grievance or court filing. Do not lobby judges concerning individual cases.
+
+Use the graph's `priority_routes` and `relationships` fields to select the competent office, not as a broadcast list. Keep privacy releases, case numbers and evidence in secure channels. Verification means a published public source was reviewed, not that the contact was tested or that a report was received. No notifications have been made. The statutory text was reviewed in a secondary reproduction because the official legislative site returned HTTP 403. The CDPH facility directory determines the correct district, and not all its regional entries have been separately checked.
+
+## Medical Board investigation and oversight (2026-11-24)
+
+[medical-board-oversight.json](medical-board-oversight.json) separately maps the alleged inadequacy of the Medical Board's own investigation. It adds 75 role/unit records, including 44 named role records, all 13 serving Board members, two vacant seats, and 19 shared official contact routes. Some roles overlap the earlier authority map; counts are not additive as unique individuals.
+
+Start with the Complainant Liaison Unit (916-263-2383 or 800-633-2322) for a closure-review request under Business and Professions Code §2024.5(a)(5). Request a written, accessible means of supplying the existing case number, closure date, supporting evidence and any new evidence. The interview requirement in §2220.1 was implemented in 2025; determine which requirements actually applied at the time of the historical investigation. Reopening is subject to statutory conditions, not guaranteed.
+
+File a separate complaint regarding the Board's services with the DCA Correspondence Unit: https://www.dca.ca.gov/consumers/complaints/ccru.html. If the case reached the Health Quality Investigation Unit or Attorney General Health Quality Enforcement Section, identify the relevant case stage and request proper review. For evidence of improper state agency activity, use the State Auditor's confidential intake: https://www.auditor.ca.gov/whistleblower/.
+
+Executive oversight is routed through the Governor's Office, Business and Consumer Services Agency (established July 1, 2026), Department of Consumer Affairs and Board Executive Office. The statutory appointment and legislative oversight paths include the Senate Rules Committee, Assembly Speaker, and joint sunset review committees (Senate Business, Professions and Economic Development and Assembly Business and Professions). Include the appropriate budget and audit committees and existing related health, judiciary and public safety committee records when relevant.
+
+The 2023 independent enforcement monitor report is a relevant source of general systemic findings, not a finding about this complainant's case. Request evaluation of how the identified shortcomings were addressed and whether any affected this investigation. Do not attribute responsibility to current members simply because they are current appointees. Use shared official office contacts and formal processes rather than contacting individual adjudicators or sending duplicative copies. No dispatch has been made.
+
+## Community, civil rights, spiritual and family support (2026-11-24)
+
+[community-support-and-professional-evidence.json](community-support-and-professional-evidence.json) adds 25 sourced organizational resources and three narrowly scoped professional evidence records. It includes Palo Alto and Peninsula public-policy bodies, civil-rights legal intake, disability advocates, spiritual care, clinical ethics consultation and family caregiver resources.
+
+Use the resource records to seek relevant services, confidential advocacy, or voluntary discussion of general patient safety and accessibility policy. They are not complaint recipients by default. Do not send allegations about identified individuals to congregations, unrelated professional associations, private associates or relatives. Use competent regulators, independent legal counsel and authorized investigative channels for the individual complaint. Do not publish a witness's personal information or testimony without informed consent.
+
+The professional evidence records link official Stanford and UCSF profiles, distinguish confirmed names from likely identity matches, and document clinic leadership and training dates relevant to reviewing the case. They do not establish culpability, direct supervision or communications among physicians. Historical roles, award sponsors, unrelated institutions and family associations are not outreach targets. Verify exact identity, case involvement and license records independently. If a complainant's family member witnessed an event, investigators can obtain their firsthand account privately with consent.
+
+No invitations, membership commitments or dispatches have been recorded. The resources are verified as published institutional pathways, not tested deliveries or guaranteed service eligibility.
+
+## Neurological disease, disability rights and civic organizations (2026-11-24)
+
+[disease-disability-and-civic-resources.json](disease-disability-and-civic-resources.json) adds 56 public organizational resource records: 21 neurological and rare-disease organizations, 12 disability-rights organizations, seven patient-rights and patient-safety organizations, ten civic and policy organizations, and all six qualified California political parties. The records include 22 published organizational email routes and 26 office or helpline telephone routes. Some organizations are already represented in earlier files; the total is a record count, not a count of unique organizations or people.
+
+For local disability support, Resources for Independence, Central Valley serves Fresno and surrounding counties. For disease-specific resource guidance, use the National Ataxia Foundation or National Organization for Rare Disorders. For accessible communication and disability rights, CommunicationFIRST, DREDF and Disability Rights California provide relevant resources. For assistance with access to healthcare, use the Health Consumer Alliance's screening channel or Patient Advocate Foundation's eligibility-based service.
+
+The American Brain Coalition, California Disability Leadership Alliance and California Rare Disease Caucus are established policy and advocacy networks. The new file includes their public sources, plus the Secretary of State's current list of all six qualified California parties, without ranking or endorsement. Civic organizations and policy institutes have distinct missions. Use their published general policy channels for voluntary, de-identified discussion of systemic healthcare safety, disability rights and oversight. They are not investigative authorities or recipients of individualized allegations. Do not distribute sensitive evidence or mobilize pressure on private individuals or their associates.
+
+Check each record's channel kind and purpose: a policy information page is not a complaint form. Emails and telephone numbers are published organizational routes, not tested deliveries. Recheck elected-office and party information after legislative transitions. No invitations, dispatches, endorsements or confirmed coalition participation are recorded.
+
+## News and investigative journalism (2026-11-24)
+
+[news-media-resources.json](news-media-resources.json) adds 49 public newsroom and editorial-routing records: seven Peninsula outlets, 12 Bay Area outlets, eight Central Valley outlets, four California statewide outlets, six specialist healthcare/disability publications and 12 national/international news organizations. The file includes 20 published email routes, 15 telephone routes, six published Signal routes, four previous reporting references on California Medical Board oversight, and five additional outlets whose official contact routes could not be independently verified in this research session.
+
+Use these resources to request independent, evidence-based public-interest reporting. The Los Angeles Times and CalMatters have previously published reporting on the Medical Board and physician discipline. Local newsrooms around Stanford, San Francisco and Fresno offer regionally relevant coverage. KFF Health News, STAT and California Health Report provide healthcare-specialist coverage; New Mobility and Undark have complementary disability and science coverage.
+
+Select a suitable newsroom and use its designated tip or editorial channel. Several outlets share news networks or inboxes. Do not send duplicate tips to the same shared inbox. Distinguish firsthand facts and records from allegations and inferences, and identify the specific systemic question to be independently verified. Do not publish sensitive medical records or private contact information in Git. Check the newsroom's current confidential-tip instructions before sharing private records; ordinary email and most general forms are not encrypted. Some submissions grant publication rights. A news tip neither files a regulatory complaint nor extends a legal deadline.
+
+The directory records public institutional contact routes, not individual reporters' private information, delivery verification, publication commitments or completed notifications. Five unverified candidates are kept separately and excluded from the 49-record total.
+
+## Victim support and documented Stanford investigations (2026-11-24)
+
+[victim-support-and-stanford-investigations.json](victim-support-and-stanford-investigations.json) adds 27 victim-support and patient-harm advocacy resource records, 28 organization/agency role records, and 21 historical proceeding or evidence records. These categories are deliberately separate: an archive, litigation party, reporter or former investigator is not necessarily a current complaint recipient.
+
+For support with medical harm, Consumer Watchdog's Healthcare Advocates program participates in Medical Board oversight hearings and legislative reform. Patients For Patient Safety US provides a patient-led advocacy network. For local assistance, the James Rowland Crime Victim Assistance Center in Fresno, Beloved Survivors Trauma Recovery Center, and VictimConnect offer published assistance routes. CalVCB compensation has separate crime-related eligibility requirements. California APS remains the appropriate county-routed reporting pathway for suspected current dependent-adult abuse or neglect; call 911 for immediate danger.
+
+For prior hospital compliance findings, the CDPH Cal Health Find database and AHCJ's CMS-origin inspection archive are especially relevant. Report JFWL11 includes September 2018 findings on hospital quality assurance and emergency policies. Report 3D9X11 includes July 2025 findings concerning failure to disclose a procedural error and failure to report an allegation of staff abuse promptly. Request primary survey reports and plans of correction through the competent agency; an archived deficiency is not proof of continuing noncompliance or a connection to this complaint.
+
+The historical index distinguishes state hospital penalties, federal hospital surveys, workplace investigations, educational civil-rights proceedings, civil litigation, investigative reporting, and research-related reviews. It identifies the relevant Stanford entity and the reported status, including unresolved allegations and exculpatory findings. Organizations whose involvement was limited to unrelated historical matters are evidence references, not outreach targets. No private survivor identities or contacts have been collected. Use confidential support and legal intake, and only appropriate investigative channels for the individual complaint.
+
+This is a sourced initial historical index, not a claim to have located every investigation or verified every current case disposition. Contact listings are not delivery-tested. No notifications or coalition commitments are recorded.
+
+## Peninsula community and neurology department resources (2026-11-24)
+
+[peninsula-community-and-neurology-resources.json](peninsula-community-and-neurology-resources.json) adds 50 community-resource records, 79 Stanford/UCSF neurology program and institutional routing records, and two official faculty directory references (131 records). It includes all 22 programs on the reviewed Stanford divisions/programs index, all 17 entries on the UCSF divisions index, all 16 entries on the UCSF clinic index, and 14 Stanford pediatric neurology service entries. Programs and clinic entries overlap; they are not separate recipients.
+
+Community coverage includes Palo Alto, East Palo Alto, Menlo Park/Belle Haven, North Fair Oaks/Redwood City, Mountain View, Los Altos/Los Altos Hills and the surrounding counties. The city resource directories, Palo Alto Community Fund grantee directory, Thrive Alliance membership directory, Silicon Valley Council of Nonprofits and 211 Bay Area can identify additional appropriate services. Organization listings are not a complete census of community groups or verified individual leaders. Private residential neighborhood contacts, members and family contacts are not collected.
+
+The Stanford faculty directory and UCSF A–Z faculty directory cover academic faculty, including non-physician researchers; the departments report 140+ and 302 faculty, respectively. Use these resources to identify appropriate specialists and verify credentials, not as distribution lists. The shared institutional leadership, quality, patient-relations and clinical referral routes remain distinct. Formal allegations belong with competent investigators and designated grievance offices. For a clinical review, request a suitably qualified, conflict-screened reviewer, preferably independent of the care teams involved. Patient advisory programs are voluntary and not complaint distribution channels.
+
+Public sources were reviewed on the research date; delivery, eligibility, full practicing-neurologist coverage, and individual community-group coverage are not established. No notifications have been dispatched.
+
+## Worker rights and related incident reports (2026-11-24)
+
+[worker-rights-and-related-incident-reports.json](worker-rights-and-related-incident-reports.json) adds 33 organizational resources, 32 reported incidents and proceedings (including 13 NLRB charge dockets), and four union representation records, for 69 additional records. It covers hospital nurses, resident and fellow physicians, technical and service employees, historical security organizing, university and laboratory service workers, contracted custodians, graduate workers, disability-access organizations, and regional labor and worker legal services.
+
+Relevant documented themes include safe staffing and workplace violence protections, disability accommodations, continuity of healthcare, harassment and discrimination, retaliation, and access to fair grievance procedures. The source index records participant reports, news investigations, union statements and formal dockets separately. For example, the 2021 custodial worker petition and 2024 reporting describe harassment and disability discrimination allegations; the reports also include management or union responses. The 2026 NLRB cases include open charges, withdrawn charges, a dismissed charge, and a charge against a union. A charge is not a finding of a violation.
+
+The regional labor councils and SEIU Local 2007 establish genuine geographic or employment representation scope. Local 2007 represents workers at Stanford, Santa Clara University and SLAC. The Stanford Medicine Alliance for Disability Inclusion and Equity spans Stanford Medicine's clinical and educational entities. These are documented institutional relationships, not evidence of a common wrong or a reason to distribute allegations to affiliates. No survivor or worker names, private contact information, member lists, signatories or unrelated influence networks are collected.
+
+Use worker resources for appropriate employment support or general systemic policy inquiries. Individual patient complaints belong with the competent medical and civil-rights investigators. Historical evidence references do not automatically establish current intake routes. The CRONA website returned HTTP 406; other sources establish its representation, but its current contact details remain unverified. No dispatch or coalition participation recorded.
+
+## First steps
+
+1. File specific complaints using the regulators' intake channels. The `workflow.priority_ids` field identifies initial routes. Determine the county of each alleged incident before making a criminal referral, and distinguish criminal prosecution from civil litigation. A Stanford facility in a county does not by itself give that county authority over an incident elsewhere.
+2. Ask a certified lawyer referral service to identify qualified counsel for individual civil-rights, disability-access and malpractice questions. The registry does not enumerate private attorneys.
+3. Ask the neurology departments and independent patient advocacy organizations to nominate willing, conflict-screened medical reviewers or coalition representatives. Use official departmental contact channels. For Dr. Bledsoe, the designated patient-care route is UCSF MyChart for individual nonurgent care matters; formal complaints belong with Patient Relations and competent regulators. Do not post individualized allegations in clinicians' professional forums or send them to unrelated clinicians.
+4. For ongoing matters, ask about filing deadlines, accommodations and continuity of care. Formal complaint submissions must follow each agency's requirements; posting the article or sending a link does not necessarily file a complaint or preserve a legal deadline.
+5. Record actual sends according to [the correspondence guide](../README.md). Do not mark `status.md` sent unless a dispatch actually occurred. Do not commit private medical records, contact details, private messages or confidential receipts. Obtain consent before publishing coalition membership.
+
+## Maintenance
+
+Refresh officeholder names and official contacts from their primary sources, checking the specific office's current website. Preserve stable IDs; update the research date and counts when making changes. Mark an unverified office or contact as such rather than inventing one. Track historic affiliation evidence separately from active clinical practice. The official California Roster city/town directory is included as a source for further municipal coverage; it has not been expanded into individually verified people in this snapshot.
+
+This is an initial research registry, not exhaustive verification of all Stanford clinical affiliations, every prosecutor, every private civil-rights lawyer or every neurologist. It does not implement automatic dispatch, individual clinician email collection or a mass mailing workflow.

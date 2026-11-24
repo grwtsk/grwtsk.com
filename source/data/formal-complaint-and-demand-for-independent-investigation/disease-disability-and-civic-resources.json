@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-24",
+  "extends": [
+    "outreach-registry.json",
+    "authority-oversight.json",
+    "medical-board-oversight.json",
+    "community-support-and-professional-evidence.json"
+  ],
+  "purpose": "Public organizational resource directory for patient assistance, independent disability advocacy and general policy research/dialogue; separate from complaint dispatch.",
+  "usage_constraints": [
+    "Use patient assistance or legal intake for the individual's care and access needs, only within the organization's scope and with confidentiality safeguards.",
+    "For general policy organizations and political parties, use de-identified systemic questions about patient safety, disability access, administrative review, and regulator accountability. Do not use this directory to distribute accusations against individual physicians or to mobilize pressure on their associates.",
+    "All six qualified California parties are included alphabetically without preference, ranking, endorsement or tailored political messaging. Civic/policy organizations reflect different public policy approaches; no political affiliation or opinion is inferred about individuals.",
+    "No private contact information, member lists, automated dispatch or claims of coalition participation. Advocacy programs have their own eligibility and priorities.",
+    "Where a source is an information or directory page, do not assume it accepts an individual complaint. The contact type distinguishes resource, general inquiry and policy channels. Emails and phone numbers are published organizational routes, not tested delivery; some have purpose limits.",
+    "Some organizations also appear in earlier files. Use stable organization identity to deduplicate; this file adds records rather than unique person counts."
+  ],
+  "records": [
+    {
+      "id": "naf",
+      "category": "neurological",
+      "organization": "National Ataxia Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry_and_advocacy",
+        "url": "https://www.ataxia.org/advocacy/",
+        "email": "naf@ataxia.org",
+        "phone": "763-553-0020"
+      },
+      "purpose": "Ataxia support, specialist navigation and disease-specific public policy.",
+      "source_urls": [
+        "https://www.ataxia.org/advocacy/",
+        "https://www.ataxia.org/contact/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "fara",
+      "category": "neurological",
+      "organization": "Friedreich's Ataxia Research Alliance",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.curefa.org/get-involved/advocate/"
+      },
+      "purpose": "Friedreich's ataxia research and access to treatments; broader ataxia policy partnerships.",
+      "source_urls": [
+        "https://www.curefa.org/get-involved/advocate/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "nord",
+      "category": "neurological",
+      "organization": "National Organization for Rare Disorders",
+      "service_area": "National",
+      "channel": {
+        "kind": "patient_support_and_policy",
+        "url": "https://rarediseases.org/contact/",
+        "phone": "800-999-6673"
+      },
+      "purpose": "Rare disease resources and federal/state policy; helpline for patients.",
+      "source_urls": [
+        "https://rarediseases.org/contact/",
+        "https://rarediseases.org/driving-policy/nord-policy-statements/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "global-genes",
+      "category": "neurological",
+      "organization": "Global Genes",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://globalgenes.org/contact-us/",
+        "phone": "949-248-7273"
+      },
+      "purpose": "Rare disease information and community connections.",
+      "source_urls": [
+        "https://globalgenes.org/contact-us/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "rdla",
+      "category": "neurological",
+      "organization": "RARE Advocates / Rare Disease Legislative Advocates",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://everylifefoundation.org/advocacy/how-to-get-started/rare-advocates-advisory-committee/",
+        "email": "advocacy@rareadvocates.org"
+      },
+      "purpose": "Rare disease advocacy education and policy participation.",
+      "source_urls": [
+        "https://everylifefoundation.org/advocacy/how-to-get-started/rare-advocates-advisory-committee/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "abc",
+      "category": "neurological",
+      "organization": "American Brain Coalition",
+      "service_area": "National",
+      "channel": {
+        "kind": "coalition_inquiry",
+        "url": "https://www.americanbraincoalition.org/advocacy",
+        "email": "communications@americanbraincoalition.org",
+        "phone": "763-516-3583"
+      },
+      "purpose": "Umbrella coalition for neurological research, care and federal policy.",
+      "source_urls": [
+        "https://www.americanbraincoalition.org/advocacy",
+        "https://www.americanbraincoalition.org/advocacy-committee"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "american-brain-foundation",
+      "category": "neurological",
+      "organization": "American Brain Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.americanbrainfoundation.org/contact/",
+        "phone": "866-770-7570"
+      },
+      "purpose": "Brain disease research foundation; general resource questions, not medical or legal advice.",
+      "source_urls": [
+        "https://www.americanbrainfoundation.org/contact/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "curepsp",
+      "category": "neurological",
+      "organization": "CurePSP",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.psp.org/advocacy",
+        "email": "info@curepsp.org"
+      },
+      "purpose": "Atypical parkinsonism advocacy, diagnostics, access to care and caregiver needs.",
+      "source_urls": [
+        "https://www.psp.org/advocacy"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "mission-msa",
+      "category": "neurological",
+      "organization": "Mission MSA",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://missionmsa.org/msa-advocacy-action-center/"
+      },
+      "purpose": "Multiple system atrophy education and advocacy.",
+      "source_urls": [
+        "https://missionmsa.org/msa-advocacy-action-center/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "parkinsons-foundation",
+      "category": "neurological",
+      "organization": "Parkinson's Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
+      },
+      "purpose": "Neurological care quality, diagnosis and treatment access policy.",
+      "source_urls": [
+        "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "mjff",
+      "category": "neurological",
+      "organization": "Michael J. Fox Foundation for Parkinson's Research",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.michaeljfox.org/advocacy"
+      },
+      "purpose": "Parkinson's policy network and patient-centered research.",
+      "source_urls": [
+        "https://www.michaeljfox.org/advocacy"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "apda",
+      "category": "neurological",
+      "organization": "American Parkinson Disease Association",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
+      },
+      "purpose": "Care, coverage, support, evidence and access policy.",
+      "source_urls": [
+        "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "dmrf",
+      "category": "neurological",
+      "organization": "Dystonia Medical Research Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://dystonia-foundation.org/become-a-legislative-advocate/"
+      },
+      "purpose": "Dystonia treatment and research access policy.",
+      "source_urls": [
+        "https://dystonia-foundation.org/become-a-legislative-advocate/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ietf",
+      "category": "neurological",
+      "organization": "International Essential Tremor Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "organization_information",
+        "url": "https://essentialtremor.org/about-us/"
+      },
+      "purpose": "Essential tremor research, awareness, support and education.",
+      "source_urls": [
+        "https://essentialtremor.org/about-us/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "hdsa",
+      "category": "neurological",
+      "organization": "Huntington's Disease Society of America",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://hdsa.org/hddayofaction/"
+      },
+      "purpose": "Huntington's disease advocacy; source includes a dated event, not a current submission form.",
+      "source_urls": [
+        "https://hdsa.org/hddayofaction/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "als-association",
+      "category": "neurological",
+      "organization": "ALS Association",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.als.org/advocacy"
+      },
+      "purpose": "ALS research, care access and nonpartisan legislative advocacy.",
+      "source_urls": [
+        "https://www.als.org/advocacy"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "alz-association",
+      "category": "neurological",
+      "organization": "Alzheimer's Association",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.alz.org/get-involved-now/advocate"
+      },
+      "purpose": "Dementia care, diagnostic access and research advocacy.",
+      "source_urls": [
+        "https://www.alz.org/get-involved-now/advocate"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ms-society",
+      "category": "neurological",
+      "organization": "National Multiple Sclerosis Society",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
+      },
+      "purpose": "Multiple sclerosis care access and regional advocacy support.",
+      "source_urls": [
+        "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "epilepsy-foundation",
+      "category": "neurological",
+      "organization": "Epilepsy Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "patient_support_and_policy",
+        "url": "https://www.epilepsy.com/advocacy",
+        "phone": "800-332-1000"
+      },
+      "purpose": "Healthcare access, discrimination and epilepsy education; helpline for relevant support.",
+      "source_urls": [
+        "https://www.epilepsy.com/advocacy"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "mda",
+      "category": "neurological",
+      "organization": "Muscular Dystrophy Association",
+      "service_area": "National",
+      "channel": {
+        "kind": "patient_support_and_policy",
+        "url": "https://www.mda.org/get-involved/advocacy",
+        "email": "ResourceCenter@mdausa.org",
+        "phone": "833-275-6321"
+      },
+      "purpose": "Neuromuscular disease access, independence and resource navigation.",
+      "source_urls": [
+        "https://www.mda.org/get-involved/advocacy",
+        "https://www.mda.org/about-mda/contact-us"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "biaa",
+      "category": "neurological",
+      "organization": "Brain Injury Association of America",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
+      },
+      "purpose": "Brain injury prevention, care coordination and policy.",
+      "source_urls": [
+        "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "cdla",
+      "category": "disability_rights",
+      "organization": "California Disability Leadership Alliance",
+      "service_area": "California",
+      "channel": {
+        "kind": "coalition_information",
+        "url": "https://cadisabilityalliance.org/"
+      },
+      "purpose": "Cross-disability and Deaf-led statewide policy coalition.",
+      "source_urls": [
+        "https://cadisabilityalliance.org/",
+        "https://dredf.org/cdla-state-of-the-state-press-release-2026/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "dredf",
+      "category": "disability_rights",
+      "organization": "Disability Rights Education and Defense Fund",
+      "service_area": "California / National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://dredf.org/contact-us/",
+        "email": "info@dredf.org",
+        "phone": "510-644-2555"
+      },
+      "purpose": "Disability nondiscrimination in healthcare, legal policy and resources.",
+      "source_urls": [
+        "https://dredf.org/contact-us/",
+        "https://dredf.org/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "dra",
+      "category": "disability_rights",
+      "organization": "Disability Rights Advocates",
+      "service_area": "California / National",
+      "channel": {
+        "kind": "systemic_legal_inquiry",
+        "url": "https://dralegal.org/contact-us/",
+        "phone": "510-665-8644"
+      },
+      "purpose": "Systemic disability civil rights litigation; organization does not take isolated individual discrimination cases.",
+      "source_urls": [
+        "https://dralegal.org/contact-us/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "dr-california",
+      "category": "disability_rights",
+      "organization": "Disability Rights California",
+      "service_area": "California",
+      "channel": {
+        "kind": "confidential_legal_intake",
+        "url": "https://www.disabilityrightsca.org/get-help"
+      },
+      "purpose": "State protection and advocacy organization; confidential legal screening, subject to scope.",
+      "source_urls": [
+        "https://www.disabilityrightsca.org/get-help",
+        "https://www.oag.ca.gov/civil/resources-ada-people"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "cfilc",
+      "category": "disability_rights",
+      "organization": "California Foundation for Independent Living Centers",
+      "service_area": "California",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://cfilc.org/contact-cfilc/",
+        "phone": "916-325-1690"
+      },
+      "purpose": "Access, independent living and statewide disability policy.",
+      "source_urls": [
+        "https://cfilc.org/contact-cfilc/",
+        "https://cfilc.org/member-ilcs/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ricv",
+      "category": "disability_rights",
+      "organization": "Resources for Independence, Central Valley",
+      "service_area": "Fresno, Kings, Madera, Merced, Tulare",
+      "channel": {
+        "kind": "local_support",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@ricv.org",
+        "phone": "559-221-2330"
+      },
+      "purpose": "Local independent-living support, self-advocacy and community resources.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/",
+        "https://cfilc.org/about-cfilc/board-members/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "aapd",
+      "category": "disability_rights",
+      "organization": "American Association of People with Disabilities",
+      "service_area": "National",
+      "channel": {
+        "kind": "organization_information",
+        "url": "https://www.aapd.com/"
+      },
+      "purpose": "Cross-disability civil rights, independent living and civic participation.",
+      "source_urls": [
+        "https://www.aapd.com/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ncil",
+      "category": "disability_rights",
+      "organization": "National Council on Independent Living",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://ncil.org/advocacy-action/about-ncils-advocacy/"
+      },
+      "purpose": "Disability-led healthcare, long-term services and ADA civil rights policy.",
+      "source_urls": [
+        "https://ncil.org/advocacy-action/about-ncils-advocacy/",
+        "https://ncil.org/about/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ndrn",
+      "category": "disability_rights",
+      "organization": "National Disability Rights Network",
+      "service_area": "National",
+      "channel": {
+        "kind": "network_information",
+        "url": "https://www.ndrn.org/about/"
+      },
+      "purpose": "National protection and advocacy network; use California's designated affiliate for individual help.",
+      "source_urls": [
+        "https://www.ndrn.org/about/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "communicationfirst",
+      "category": "disability_rights",
+      "organization": "CommunicationFIRST",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://communicationfirst.org/getinvolved/",
+        "email": "info@communicationfirst.org"
+      },
+      "purpose": "Communication access and rights for people who cannot rely on speech alone; inquire before sharing sensitive stories.",
+      "source_urls": [
+        "https://communicationfirst.org/getinvolved/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "arc",
+      "category": "disability_rights",
+      "organization": "The Arc of the United States",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.thearc.org/policy-advocacy/"
+      },
+      "purpose": "Intellectual and developmental disability rights and family supports; disease-specific service eligibility applies.",
+      "source_urls": [
+        "https://www.thearc.org/policy-advocacy/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "cara",
+      "category": "disability_rights",
+      "organization": "California Alliance for Retired Americans",
+      "service_area": "California",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://californiaalliance.org/contact-us",
+        "email": "info@californiaalliance.org",
+        "phone": "510-663-4086"
+      },
+      "purpose": "Older adult and disability community policy, healthcare and social insurance.",
+      "source_urls": [
+        "https://californiaalliance.org/contact-us",
+        "https://californiaalliance.org/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "nhelp",
+      "category": "patient_rights",
+      "organization": "National Health Law Program",
+      "service_area": "California / National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://healthlaw.org/about/contact-us/",
+        "phone": "310-204-6010"
+      },
+      "purpose": "Health rights for underserved and low-income people, civil rights and Medicaid policy; referrals via official contact page.",
+      "source_urls": [
+        "https://healthlaw.org/about/contact-us/",
+        "https://healthlaw.org/disability-advocacy/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "hca",
+      "category": "patient_rights",
+      "organization": "Health Consumer Alliance",
+      "service_area": "California",
+      "channel": {
+        "kind": "confidential_legal_screening",
+        "url": "https://healthconsumer.org/contact/",
+        "email": "ContactHCA@lassd.org",
+        "phone": "888-804-3536"
+      },
+      "purpose": "Free healthcare-access legal assistance; do not include names, health or sensitive information in initial email.",
+      "source_urls": [
+        "https://healthconsumer.org/contact/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "paf",
+      "category": "patient_rights",
+      "organization": "Patient Advocate Foundation",
+      "service_area": "National",
+      "channel": {
+        "kind": "patient_support",
+        "url": "https://www.patientadvocate.org/contact/",
+        "phone": "800-532-5274"
+      },
+      "purpose": "Case management for qualifying chronic and debilitating illness and coverage/access barriers.",
+      "source_urls": [
+        "https://www.patientadvocate.org/contact/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "psmf",
+      "category": "patient_rights",
+      "organization": "Patient Safety Movement Foundation",
+      "service_area": "California / National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://psmf.org/contact-us"
+      },
+      "purpose": "Patient safety and system improvement; use public inquiry form.",
+      "source_urls": [
+        "https://psmf.org/contact-us"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "pulse",
+      "category": "patient_rights",
+      "organization": "Pulse Center for Patient Safety, Education & Advocacy",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.pulsecenterforpatientsafety.org/contact-8",
+        "email": "info@PulseCPSEA.org",
+        "phone": "516-579-4711"
+      },
+      "purpose": "Patient advocacy education and safer healthcare navigation.",
+      "source_urls": [
+        "https://www.pulsecenterforpatientsafety.org/contact-8",
+        "https://www.pulsecenterforpatientsafety.org/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "public-citizen",
+      "category": "patient_rights",
+      "organization": "Public Citizen — physician accountability",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://www.citizen.org/article/physician-accountability/"
+      },
+      "purpose": "Research on state medical board discipline and patient safety; source is a policy information page, not complaint intake.",
+      "source_urls": [
+        "https://www.citizen.org/article/physician-accountability/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "chcf",
+      "category": "patient_rights",
+      "organization": "California Health Care Foundation",
+      "service_area": "California",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.chcf.org/contact-us/",
+        "email": "info@chcf.org",
+        "phone": "510-238-1040"
+      },
+      "purpose": "Healthcare quality and access information and resources; not an individual adjudicator or guaranteed grant source.",
+      "source_urls": [
+        "https://www.chcf.org/contact-us/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-rare-caucus",
+      "category": "civic_policy",
+      "organization": "California Rare Disease Caucus",
+      "service_area": "California",
+      "channel": {
+        "kind": "caucus_information",
+        "url": "https://www.cararediseasecaucus.org/"
+      },
+      "purpose": "Bipartisan legislative caucus on rare disease access and support; confirm legislative contacts for the new session.",
+      "source_urls": [
+        "https://www.cararediseasecaucus.org/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "lwvc",
+      "category": "civic_policy",
+      "organization": "League of Women Voters of California",
+      "service_area": "California",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://lwvc.org/contact/",
+        "email": "lwvc@lwvc.org",
+        "phone": "916-442-7215"
+      },
+      "purpose": "Nonpartisan civic participation and public policy education; local league locator.",
+      "source_urls": [
+        "https://lwvc.org/contact/",
+        "https://lwvc.org/about-us/local-leagues/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "common-cause",
+      "category": "civic_policy",
+      "organization": "Common Cause California",
+      "service_area": "California",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.commoncause.org/california/priorities/",
+        "email": "CauseNet@commoncause.org",
+        "phone": "202-833-1200"
+      },
+      "purpose": "Nonpartisan government transparency, accountability and civil liberties policy; national general contact.",
+      "source_urls": [
+        "https://www.commoncause.org/california/priorities/",
+        "https://www.commoncause.org/about-us/contact/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "braver-network",
+      "category": "civic_policy",
+      "organization": "Braver Angels / Braver Network",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://braverangels.org/braver-network/",
+        "email": "braver-network@braverangels.org"
+      },
+      "purpose": "Cross-partisan civic dialogue and cooperation, not adjudication or advocacy for any specific allegation.",
+      "source_urls": [
+        "https://braverangels.org/braver-network/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "bpc",
+      "category": "civic_policy",
+      "organization": "Bipartisan Policy Center",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://bipartisanpolicy.org/contact/",
+        "phone": "202-204-2400"
+      },
+      "purpose": "Bipartisan health policy research and discussion.",
+      "source_urls": [
+        "https://bipartisanpolicy.org/contact/",
+        "https://bipartisanpolicy.org/policy-area/health/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "cap",
+      "category": "civic_policy",
+      "organization": "Center for American Progress — Disability Justice Initiative",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://www.americanprogress.org/team/disability-justice-initiative/"
+      },
+      "purpose": "Policy research on disability inclusion, access and social programs.",
+      "source_urls": [
+        "https://www.americanprogress.org/team/disability-justice-initiative/",
+        "https://www.americanprogress.org/topic/disability/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "cato",
+      "category": "civic_policy",
+      "organization": "Cato Institute — Public Affairs",
+      "service_area": "National",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.cato.org/about/public-affairs/",
+        "email": "ExternalAffairs@cato.org"
+      },
+      "purpose": "Liberty-oriented public policy and external affairs; general policy questions only.",
+      "source_urls": [
+        "https://www.cato.org/about/public-affairs/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "heritage",
+      "category": "civic_policy",
+      "organization": "The Heritage Foundation — health policy",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://solutions.heritage.org/entitlements/health-care/"
+      },
+      "purpose": "Conservative public policy perspectives on healthcare; information page, not individual complaint intake.",
+      "source_urls": [
+        "https://solutions.heritage.org/entitlements/health-care/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "rstreet",
+      "category": "civic_policy",
+      "organization": "R Street Institute — Governance",
+      "service_area": "National",
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://www.rstreet.org/home/our-issues/governance/"
+      },
+      "purpose": "Free-market perspectives on governance, effective administration and accountability; policy information.",
+      "source_urls": [
+        "https://www.rstreet.org/home/our-issues/governance/",
+        "https://www.rstreet.org/home/our-issues/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "healthy-ca-now",
+      "category": "civic_policy",
+      "organization": "Healthy California Now",
+      "service_area": "California",
+      "channel": {
+        "kind": "coalition_information",
+        "url": "https://healthyca.org/about/affiliates/"
+      },
+      "purpose": "Healthcare reform coalition of community, labor and consumer organizations; source contains organizational membership directory.",
+      "source_urls": [
+        "https://healthyca.org/about/affiliates/"
+      ],
+      "verification": "published_official_organization_or_government_directory_reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-american-independent",
+      "category": "qualified_political_party",
+      "organization": "American Independent Party",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.aipca.vote",
+        "email": "chairman@aipca.vote",
+        "phone": "831-684-6167"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-democratic",
+      "category": "qualified_political_party",
+      "organization": "California Democratic Party",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.cadem.org",
+        "email": "info@cadem.org",
+        "phone": "916-442-5707"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-green",
+      "category": "qualified_political_party",
+      "organization": "Green Party of California",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.cagreens.org",
+        "email": "liaison@cagreens.org",
+        "phone": "916-549-6788"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-libertarian",
+      "category": "qualified_political_party",
+      "organization": "Libertarian Party of California",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.ca.lp.org",
+        "email": "office@ca.lp.org",
+        "phone": "916-446-1776"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-peace-and-freedom",
+      "category": "qualified_political_party",
+      "organization": "Peace and Freedom Party",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://peaceandfreedom.us/",
+        "email": "peaceandfreedompartyca@gmail.com",
+        "phone": "415-312-1440"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    },
+    {
+      "id": "ca-party-republican",
+      "category": "qualified_political_party",
+      "organization": "California Republican Party",
+      "service_area": "California",
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.cagop.org",
+        "email": "info@cagop.org",
+        "phone": "916-448-9496"
+      },
+      "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+      "source_urls": [
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "verification": "California Secretary of State current qualified party directory reviewed",
+      "checked_on": "2026-11-24",
+      "participation_status": "not_contacted_or_confirmed"
+    }
+  ],
+  "related_directories": [
+    {
+      "name": "American Brain Coalition — advocacy committee",
+      "url": "https://www.americanbraincoalition.org/advocacy-committee",
+      "purpose": "Published organizational affiliations for general brain health policy navigation; not a list of individuals to contact."
+    },
+    {
+      "name": "California Disability Leadership Alliance",
+      "url": "https://cadisabilityalliance.org/",
+      "purpose": "Member organizations and cross-disability policy."
+    },
+    {
+      "name": "FARA advocacy partnerships",
+      "url": "https://www.curefa.org/get-involved/advocate/advocacy-partnerships/",
+      "purpose": "Rare disease and research advocacy networks."
+    },
+    {
+      "name": "California State Independent Living Council",
+      "url": "https://calsilc.ca.gov/independent-locator/",
+      "purpose": "Find the one appropriate regional independent living center."
+    },
+    {
+      "name": "California Secretary of State — party statements",
+      "url": "https://www.sos.ca.gov/elections/political-parties/party-statements",
+      "purpose": "Self-described party policy perspectives; not an endorsement."
+    }
+  ],
+  "counts": {
+    "records": 56,
+    "by_category": {
+      "neurological": 21,
+      "disability_rights": 12,
+      "patient_rights": 7,
+      "civic_policy": 10,
+      "qualified_political_party": 6
+    },
+    "published_organizational_emails": 22,
+    "published_office_phones": 26,
+    "confirmed_coalition_members": 0,
+    "dispatches": 0
+  }
+}

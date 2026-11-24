@@ -1,0 +1,1481 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-24",
+  "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+  "extends": [
+    "outreach-registry.json",
+    "authority-oversight.json"
+  ],
+  "scope": "Review of the user's allegation of deficient Medical Board investigation and executive and legislative oversight; not a determination of misconduct or individual responsibility.",
+  "sources": {
+    "roster": "https://www.mbc.ca.gov/About/Members/",
+    "agenda": "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf",
+    "mbc": "https://www.mbc.ca.gov/Contact/default.aspx",
+    "home": "https://www.mbc.ca.gov/",
+    "clu": "https://www.mbc.ca.gov/News/Newsletter/2025-Vol170.aspx",
+    "sb815": "https://www.mbc.ca.gov/About/Laws/SB815.aspx",
+    "sb806": "https://www.mbc.ca.gov/About/Laws/SB806.aspx",
+    "complaint": "https://www.mbc.ca.gov/Consumers/file-a-complaint/",
+    "investigation": "https://www.mbc.ca.gov/FAQs/default.aspx?cat=Complaint&topic=Complaint%3A+Investigations",
+    "meetings": "https://www.mbc.ca.gov/About/Meetings/",
+    "public": "https://www.mbc.ca.gov/About/Meetings/Public-Participation.aspx",
+    "gov": "https://www.gov.ca.gov/contact/",
+    "govchart": "https://www.gov.ca.gov/wp-content/uploads/2026/10/Gov.-Newsom-Org-Chart-10.27.26.pdf",
+    "appointments": "https://www.gov.ca.gov/join-the-administration/government-appointments/",
+    "bcsa": "https://www.bcsa.ca.gov/",
+    "transition": "https://www.bcsh.ca.gov/",
+    "dca": "https://www.dca.ca.gov/about_us/board_members/contact_us.shtml",
+    "dcalead": "https://www.dca.ca.gov/about_us/leadership.html",
+    "dcaexec": "https://www.dca.ca.gov/about_us/board_bureau_leadership.html",
+    "cu": "https://www.dca.ca.gov/consumers/complaints/ccru.html",
+    "dcaform": "https://www.dca.ca.gov/consumers/complaints/consumer.shtml",
+    "doi": "https://www.dca.ca.gov/enforcement/index",
+    "ag": "https://oag.ca.gov/contact/general-contact-form",
+    "senbp": "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+    "senbpmembers": "https://sbp.senate.ca.gov/members",
+    "asmbp": "https://abp.assembly.ca.gov/",
+    "asmbpmembers": "https://abp.assembly.ca.gov/members",
+    "sunset": "https://abp.assembly.ca.gov/hearings/joint-sunset-review-oversight-hearings",
+    "rules": "https://srul.senate.ca.gov/committeehome",
+    "rulesmembers": "https://srul.senate.ca.gov/members",
+    "assemblylead": "https://www.assembly.ca.gov/assemblymembers/leadership",
+    "rivas": "https://www.assembly.ca.gov/assemblymembers/29",
+    "senbudget": "https://sbud.senate.ca.gov/hearingagendas",
+    "senbudgetstaff": "https://sbud.senate.ca.gov/committeehome/staff-assignments",
+    "asmbudget": "https://abgt.assembly.ca.gov/",
+    "audit": "https://legaudit.legislature.ca.gov/overview",
+    "auditor": "https://www.auditor.ca.gov/whistleblower/",
+    "auditorreport": "https://www.auditor.ca.gov/reports/i2026-1/",
+    "monitor": "https://www.mbc.ca.gov/Resources/Publications/Enforcement-report.aspx",
+    "monitorpdf": "https://mbc.ca.gov/Download/Reports/enforcement-report-final-2023.pdf",
+    "annual": "https://www.mbc.ca.gov/Download/Reports/Annual-Report-2025-2026.pdf",
+    "enforcementreport": "https://www.mbc.ca.gov/About/Meetings/Material/31667/brd-AgendaItem6C-20261119.pdf",
+    "stat2001": "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-1/section-2001/",
+    "stat20245": "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-1/section-2024-5/",
+    "stat22201": "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-12/section-2220-1/"
+  },
+  "channels": {
+    "governor": {
+      "url": "https://www.gov.ca.gov/contact/",
+      "phone": "916-445-2841",
+      "mail": "Governor's Office, 1021 O Street, Suite 9000, Sacramento, CA 95814",
+      "kind": "official_contact_form",
+      "note": "One central intake. Request routing to relevant executive office; no attachments via form."
+    },
+    "bcsa": {
+      "url": "https://www.bcsa.ca.gov/",
+      "phone": "916-653-4090",
+      "mail": "500 Capitol Mall, Suite 1850, Sacramento, CA 95814",
+      "kind": "agency_office"
+    },
+    "dca": {
+      "url": "https://www.dca.ca.gov/about_us/board_members/contact_us.shtml",
+      "phone": "916-574-8200",
+      "mail": "1625 North Market Blvd., Suite S-308, Sacramento, CA 95834",
+      "kind": "executive_office"
+    },
+    "dca_services": {
+      "url": "https://www.dca.ca.gov/consumers/complaints/ccru.html",
+      "alternate_url": "https://www.dca.ca.gov/consumers/complaints/consumer.shtml",
+      "kind": "board_service_complaint",
+      "mail": "Follow instructions on complaint form",
+      "note": "Specifically for services received from a DCA board, bureau or division."
+    },
+    "mbc_exec": {
+      "url": "https://www.mbc.ca.gov/Contact/default.aspx",
+      "phone": "916-263-2389",
+      "mail": "2005 Evergreen Street, Suite 1200, Sacramento, CA 95815",
+      "kind": "executive_office",
+      "note": "Shared board contact; not direct individual board member addresses."
+    },
+    "mbc_clu": {
+      "url": "https://www.mbc.ca.gov/News/Newsletter/2025-Vol170.aspx",
+      "phone": "916-263-2383",
+      "alternate_phone": "800-633-2322",
+      "kind": "closure_review",
+      "note": "Ask for a written accommodation and private method to submit prior complaint reference and new evidence."
+    },
+    "mbc_ccu": {
+      "url": "https://www.mbc.ca.gov/Consumers/file-a-complaint/",
+      "phone": "800-633-2322",
+      "fax": "916-263-2435",
+      "kind": "formal_complaint",
+      "mail": "Central Complaint Unit, 2005 Evergreen Street, Suite 1200, Sacramento, CA 95815-5401"
+    },
+    "mbc_records": {
+      "url": "https://www.mbc.ca.gov/Contact/default.aspx",
+      "phone": "916-263-2525",
+      "kind": "records_inquiry",
+      "note": "Investigative records may be confidential. Request what can lawfully be disclosed; no assurance of access."
+    },
+    "mbc_public": {
+      "url": "https://www.mbc.ca.gov/About/Meetings/Public-Participation.aspx",
+      "phone": "916-263-2389",
+      "kind": "public_comment",
+      "meeting_schedule": "https://www.mbc.ca.gov/About/Meetings/",
+      "note": "Discuss general policy in public comment; do not disclose private evidence or seek private contact with adjudicators."
+    },
+    "doi": {
+      "url": "https://www.dca.ca.gov/enforcement/index",
+      "phone": "916-515-5100",
+      "mail": "1747 N. Market Blvd, Sacramento, CA 95834",
+      "kind": "investigative_division_office"
+    },
+    "ag": {
+      "url": "https://oag.ca.gov/contact/general-contact-form",
+      "kind": "official_contact_form",
+      "note": "Ask for appropriate routing; HQE acts for licensing agencies and is not personal counsel."
+    },
+    "senbp": {
+      "url": "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+      "phone": "916-651-4104",
+      "mail": "1021 O Street, Suite 3320, Sacramento, CA 95814",
+      "kind": "committee_office"
+    },
+    "asmbp": {
+      "url": "https://abp.assembly.ca.gov/",
+      "phone": "916-319-3301",
+      "kind": "committee_office"
+    },
+    "rules": {
+      "url": "https://srul.senate.ca.gov/committeehome",
+      "phone": "916-651-4120",
+      "kind": "committee_office",
+      "note": "Appointments testimony may be public; do not provide case records."
+    },
+    "speaker": {
+      "url": "https://www.assembly.ca.gov/assemblymembers/29",
+      "phone": "916-319-2029",
+      "kind": "speaker_office"
+    },
+    "senbudget": {
+      "url": "https://sbud.senate.ca.gov/hearingagendas",
+      "phone": "916-651-4103",
+      "kind": "budget_committee_office"
+    },
+    "asmbudget": {
+      "url": "https://abgt.assembly.ca.gov/",
+      "kind": "budget_committee_directory"
+    },
+    "audit": {
+      "url": "https://legaudit.legislature.ca.gov/overview",
+      "kind": "committee_office"
+    },
+    "auditor": {
+      "url": "https://www.auditor.ca.gov/whistleblower/",
+      "phone": "800-952-5665",
+      "kind": "improper_government_activity_tip"
+    }
+  },
+  "records": [
+    {
+      "id": "gov-newsom",
+      "group": "governor",
+      "role": "Governor",
+      "person": "Gavin Newsom",
+      "route": "governor",
+      "source_keys": [
+        "gov",
+        "stat2001",
+        "govchart"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Request executive review of oversight and appointment accountability; independent regulatory investigation.",
+      "limits": "Not a finding of personal involvement; no direction of individual disciplinary result."
+    },
+    {
+      "id": "gov-chief-of-staff",
+      "group": "governor",
+      "role": "Chief of Staff",
+      "person": "Nathan Barankin",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Executive escalation and referral",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "gov-appointments-secretary",
+      "group": "governor",
+      "role": "Appointments Secretary",
+      "person": "Morgan Carvajal",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Board appointment accountability and vacancies",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "gov-cabinet-secretary",
+      "group": "governor",
+      "role": "Cabinet Secretary",
+      "person": "Nani Coloretti",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Coordinate executive agencies responsible for DCA",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "gov-legal-affairs-secretary",
+      "group": "governor",
+      "role": "Legal Affairs Secretary",
+      "person": "David Sapp",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Refer legal/process accountability concerns to appropriate competent agency",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "gov-legislative-affairs-secretary",
+      "group": "governor",
+      "role": "Legislative Affairs Secretary",
+      "person": "Christine Aurre",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Coordinate legislative oversight and statutory implementation issues",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "gov-deputy-chief-of-staff",
+      "group": "governor",
+      "role": "Deputy Chief of Staff",
+      "person": "Jamie Callahan",
+      "route": "governor",
+      "source_keys": [
+        "govchart",
+        "gov"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Executive coordination",
+      "limits": "Current as listed on October 27 chart; route through one Governor contact, not separate duplicate submissions."
+    },
+    {
+      "id": "bcsa-secretary",
+      "group": "executive_agency",
+      "role": "Business and Consumer Services Agency Secretary",
+      "person": "Rohit Chopra",
+      "route": "bcsa",
+      "source_keys": [
+        "bcsa",
+        "transition",
+        "home"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Review administrative and consumer-protection oversight of DCA.",
+      "limits": "Agency began July 1, 2026; prior BCSH dissolved. Do not assume direct authority over individual disciplinary cases."
+    },
+    {
+      "id": "dca-acting-director",
+      "group": "dca",
+      "role": "Acting Director",
+      "person": "Christine Lally",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Executive oversight and response to complaint about Board services",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-deputy-director-board-and-bureau-relations",
+      "group": "dca",
+      "role": "Deputy Director, Board and Bureau Relations",
+      "person": "Lucia Saldivar",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Coordinate review of Board administration",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-chief-division-of-investigation",
+      "group": "dca",
+      "role": "Chief, Division of Investigation",
+      "person": "Ken Garcia",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Review concerns about investigative division procedures",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-deputy-director-legal-affairs",
+      "group": "dca",
+      "role": "Deputy Director, Legal Affairs",
+      "person": "Ryan Marcroft",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Route questions of administrative process, statutory compliance and conflicts",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-assistant-deputy-director-legal-affairs",
+      "group": "dca",
+      "role": "Assistant Deputy Director, Legal Affairs",
+      "person": "Grace Arupo Rodriguez",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Ethics and legal routing",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-deputy-director-legislative-affairs",
+      "group": "dca",
+      "role": "Deputy Director, Legislative Affairs",
+      "person": "Jennifer Simoes",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Legislative reforms and implementation",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-compliance-and-equity-officer",
+      "group": "dca",
+      "role": "Compliance and Equity Officer",
+      "person": "Levi Hull",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Accessibility/equitable service and process concerns",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-chief-policy-and-analytics-officer",
+      "group": "dca",
+      "role": "Chief Policy and Analytics Officer",
+      "person": "Nicole Kraemer",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Enforcement process performance and systemic review",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-deputy-director-administrative-services",
+      "group": "dca",
+      "role": "Deputy Director, Administrative Services",
+      "person": "Taylor Schick",
+      "route": "dca",
+      "source_keys": [
+        "dcalead",
+        "dca"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Resource and administrative controls",
+      "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+    },
+    {
+      "id": "dca-cu",
+      "group": "dca",
+      "role": "Correspondence Unit",
+      "person": null,
+      "route": "dca_services",
+      "source_keys": [
+        "cu",
+        "dcaform"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Complaint regarding handling of Board or DCA services; request independent administrative review and written response.",
+      "limits": "Does not guarantee reopening or override Board disciplinary jurisdiction."
+    },
+    {
+      "id": "dca-doi",
+      "group": "dca",
+      "role": "Division of Investigation headquarters",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi",
+        "investigation"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Review investigative handling if HQIU received original referral.",
+      "limits": "Confirm case stage, field office and supervising investigator from case record."
+    },
+    {
+      "id": "hqiu-update",
+      "group": "dca",
+      "role": "Health Quality Investigation Unit Board liaison (November agenda)",
+      "person": "Stephanie Whitley",
+      "route": "doi",
+      "source_keys": [
+        "agenda",
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Request appropriate HQIU management routing for process review.",
+      "limits": "Role as identified in agenda; no claim that this person investigated the case."
+    },
+    {
+      "id": "hqiu-concord",
+      "group": "dca_field_office",
+      "role": "HQIU Concord field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-fresno",
+      "group": "dca_field_office",
+      "role": "HQIU Fresno field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-sacramento",
+      "group": "dca_field_office",
+      "role": "HQIU Sacramento field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-san-jose",
+      "group": "dca_field_office",
+      "role": "HQIU San Jose field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-cerritos",
+      "group": "dca_field_office",
+      "role": "HQIU Cerritos field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-glendale",
+      "group": "dca_field_office",
+      "role": "HQIU Glendale field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-san-dimas",
+      "group": "dca_field_office",
+      "role": "HQIU San Dimas field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-valencia",
+      "group": "dca_field_office",
+      "role": "HQIU Valencia field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-rancho-cucamonga",
+      "group": "dca_field_office",
+      "role": "HQIU Rancho Cucamonga field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-san-bernardino",
+      "group": "dca_field_office",
+      "role": "HQIU San Bernardino field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-san-diego",
+      "group": "dca_field_office",
+      "role": "HQIU San Diego field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "hqiu-santa-ana",
+      "group": "dca_field_office",
+      "role": "HQIU Santa Ana field office",
+      "person": null,
+      "route": "doi",
+      "source_keys": [
+        "doi"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Identify assigned field office; use central DOI routing.",
+      "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+    },
+    {
+      "id": "mbc-member-felix-c-yip-m-d",
+      "group": "medical_board_governance",
+      "role": "President",
+      "person": "Felix C. Yip, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2023-12-08",
+      "reappointed": "2026-05-29",
+      "term_expiration": "2030-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-veling-w-tsai-m-d",
+      "group": "medical_board_governance",
+      "role": "Vice President",
+      "person": "Veling W. Tsai, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2022-04-26",
+      "reappointed": "2025-07-29",
+      "term_expiration": "2029-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-marina-a-torres-j-d",
+      "group": "medical_board_governance",
+      "role": "Secretary",
+      "person": "Marina A. Torres, J.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Governor",
+      "appointed": "2024-06-12",
+      "reappointed": null,
+      "term_expiration": "2028-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-jacob-arkatov-j-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Jacob Arkatov, J.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Governor",
+      "appointed": "2025-05-21",
+      "reappointed": null,
+      "term_expiration": "2028-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-irving-ayala-rodriguez-m-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Irving Ayala-Rodriguez, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2024-06-12",
+      "reappointed": null,
+      "term_expiration": "2028-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-anni-chung",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Anni Chung",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Governor",
+      "appointed": "2024-06-12",
+      "reappointed": null,
+      "term_expiration": "2028-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-claire-holmes",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Claire Holmes",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Speaker of the Assembly",
+      "appointed": "2026-01-29",
+      "reappointed": null,
+      "term_expiration": "2027-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-asif-mahmood-m-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Asif Mahmood, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2019-06-03",
+      "reappointed": "2023-06-12",
+      "term_expiration": "2027-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-luis-r-portillo",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Luis R. Portillo",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Governor",
+      "appointed": "2026-01-16",
+      "reappointed": "2026-05-29",
+      "term_expiration": "2030-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-trinidad-solis-m-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Trinidad Solis, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2025-07-29",
+      "reappointed": null,
+      "term_expiration": "2029-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-richard-e-thorp-m-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Richard E. Thorp, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2019-07-26",
+      "reappointed": "2023-06-12",
+      "term_expiration": "2027-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-gerald-tolbert-m-d",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Gerald Tolbert, M.D.",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Physician",
+      "appointing_authority": "Governor",
+      "appointed": "2025-07-29",
+      "reappointed": null,
+      "term_expiration": "2029-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-member-eserick-tj-watkins",
+      "group": "medical_board_governance",
+      "role": "Member",
+      "person": "Eserick \"TJ\" Watkins",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+      "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+      "classification": "Public",
+      "appointing_authority": "Senate Rules Committee",
+      "appointed": "2019-05-14",
+      "reappointed": "2023-06-01",
+      "term_expiration": "2027-06-01",
+      "roster_as_of": "2026-10-28",
+      "officer_confirmation": "2026-11-19"
+    },
+    {
+      "id": "mbc-staff-executive-director",
+      "group": "medical_board_executive",
+      "role": "Executive Director",
+      "person": "Reji Varghese",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Executive review and routing of enforcement handling",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-deputy-director",
+      "group": "medical_board_executive",
+      "role": "Deputy Director",
+      "person": "Marina O'Connor",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Administrative review and coordination",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-staff-counsel",
+      "group": "medical_board_executive",
+      "role": "Staff Counsel",
+      "person": "Kerrie Webb",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Route questions about lawful process and records",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-chief-of-licensing",
+      "group": "medical_board_executive",
+      "role": "Chief of Licensing",
+      "person": "Douglas Hock",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Licensing and public protection policy where relevant",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-chief-of-enforcement",
+      "group": "medical_board_executive",
+      "role": "Chief of Enforcement",
+      "person": "Jason Pritchard",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Review complaint processing, investigative referral, closure and escalation",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-chief-of-legislative-and-public-affairs",
+      "group": "medical_board_executive",
+      "role": "Chief of Legislative and Public Affairs",
+      "person": "Aaron Bone",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Legislative reforms and public accountability",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-staff-public-affairs-manager",
+      "group": "medical_board_executive",
+      "role": "Public Affairs Manager",
+      "person": "Alexandria Schembra",
+      "route": "mbc_exec",
+      "source_keys": [
+        "roster",
+        "agenda",
+        "dcaexec",
+        "mbc"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Public records and general information",
+      "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+    },
+    {
+      "id": "mbc-clu",
+      "group": "medical_board_units",
+      "role": "Complainant Liaison Unit",
+      "person": null,
+      "route": "mbc_clu",
+      "source_keys": [
+        "clu",
+        "sb815",
+        "stat20245"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Evaluate request to review complaint closure believed to be erroneous.",
+      "limits": "Internal review, not a guaranteed formal appeal or reopening."
+    },
+    {
+      "id": "mbc-ccu",
+      "group": "medical_board_units",
+      "role": "Central Complaint Unit",
+      "person": null,
+      "route": "mbc_ccu",
+      "source_keys": [
+        "complaint",
+        "investigation"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Intake, triage and complaint assessment; confirm original disposition.",
+      "limits": "Separate provider complaints; prior case reference privately."
+    },
+    {
+      "id": "mbc-cio",
+      "group": "medical_board_units",
+      "role": "Complaint Investigation Office",
+      "person": null,
+      "route": "mbc_exec",
+      "source_keys": [
+        "investigation",
+        "monitor",
+        "enforcementreport"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Investigative review where assigned to CIO rather than HQIU.",
+      "limits": "Confirm actual investigator and referral stage."
+    },
+    {
+      "id": "mbc-deputy-enforcement",
+      "group": "medical_board_units",
+      "role": "Deputy Chief of Enforcement",
+      "person": null,
+      "route": "mbc_exec",
+      "source_keys": [
+        "enforcementreport"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Oversight of CIO, CCU and CLU.",
+      "limits": "Position exists; name not confirmed in reviewed source."
+    },
+    {
+      "id": "mbc-records",
+      "group": "medical_board_units",
+      "role": "Enforcement Central File Room",
+      "person": null,
+      "route": "mbc_records",
+      "source_keys": [
+        "mbc",
+        "investigation"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Request lawful records access or applicable disclosure guidance.",
+      "limits": "Complaint and investigative materials generally confidential."
+    },
+    {
+      "id": "mbc-board-public-comment",
+      "group": "medical_board_units",
+      "role": "Board public participation and accessibility",
+      "person": null,
+      "route": "mbc_public",
+      "source_keys": [
+        "public",
+        "meetings",
+        "agenda"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Request agenda consideration of systemic process issues and accessibility accommodation.",
+      "limits": "Not forum to decide individual case. Latest meeting notice provides accommodation route; verify next meeting deadline."
+    },
+    {
+      "id": "ca-hqe",
+      "group": "attorney_general",
+      "role": "Health Quality Enforcement Section",
+      "person": null,
+      "route": "ag",
+      "source_keys": [
+        "investigation",
+        "monitor"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Administrative prosecution of Board referrals; ask if case was referred or rejected through appropriate channels.",
+      "limits": "HQE represents Board; not an independent complainant appeal or private counsel."
+    },
+    {
+      "id": "sen-bp",
+      "group": "legislative_oversight",
+      "role": "Senate Business, Professions and Economic Development Committee",
+      "person": null,
+      "route": "senbp",
+      "source_keys": [
+        "senbp",
+        "senbpmembers",
+        "sunset"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Direct legislative oversight and joint sunset review of the Medical Board; review implementation of SB 806 and SB 815.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "asm-bp",
+      "group": "legislative_oversight",
+      "role": "Assembly Business and Professions Committee",
+      "person": null,
+      "route": "asmbp",
+      "source_keys": [
+        "asmbp",
+        "asmbpmembers",
+        "sunset"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Joint sunset oversight and licensing/enforcement legislation.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "sen-rules",
+      "group": "legislative_oversight",
+      "role": "Senate Rules Committee",
+      "person": null,
+      "route": "rules",
+      "source_keys": [
+        "rules",
+        "rulesmembers",
+        "stat2001"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Governor appointment confirmation and direct appointment of one public member.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "asm-speaker",
+      "group": "legislative_oversight",
+      "role": "Speaker of the Assembly",
+      "person": null,
+      "route": "speaker",
+      "source_keys": [
+        "assemblylead",
+        "rivas",
+        "stat2001"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Direct appointment of one public Board member; legislative coordination.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "sen-budget-4",
+      "group": "legislative_oversight",
+      "role": "Senate Budget and Fiscal Review, Subcommittee 4: State Administration and General Government",
+      "person": null,
+      "route": "senbudget",
+      "source_keys": [
+        "senbudget",
+        "senbudgetstaff"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Budget oversight of DCA and enforcement staffing resources.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "sen-budget-3",
+      "group": "legislative_oversight",
+      "role": "Senate Budget and Fiscal Review, Subcommittee 3: Health and Human Services",
+      "person": null,
+      "route": "senbudget",
+      "source_keys": [
+        "senbudget",
+        "senbudgetstaff"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Health agency budget oversight where applicable.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "sen-budget-5",
+      "group": "legislative_oversight",
+      "role": "Senate Budget and Fiscal Review, Subcommittee 5: Corrections, Public Safety, Judiciary, Labor and Transportation",
+      "person": null,
+      "route": "senbudget",
+      "source_keys": [
+        "senbudget",
+        "senbudgetstaff"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Justice and public safety appropriations where applicable.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "asm-budget",
+      "group": "legislative_oversight",
+      "role": "Assembly Budget Committee",
+      "person": null,
+      "route": "asmbudget",
+      "source_keys": [
+        "asmbudget"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Request routing to the subcommittee covering DCA appropriations and enforcement staffing; verify current allocation.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "jlac",
+      "group": "legislative_oversight",
+      "role": "Joint Legislative Audit Committee",
+      "person": null,
+      "route": "audit",
+      "source_keys": [
+        "audit"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Ask a legislator to consider an independent audit of Board/DCA enforcement and closure procedures.",
+      "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+    },
+    {
+      "id": "sen-bp-vice",
+      "group": "legislative_leadership",
+      "role": "Senate Business and Professions Vice Chair",
+      "person": "Steven S. Choi",
+      "route": "senbp",
+      "source_keys": [
+        "senbpmembers"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Route oversight request through committee.",
+      "limits": "Committee roster lists a vacancy and no chair on research date; do not infer a chair."
+    },
+    {
+      "id": "asm-bp-chair",
+      "group": "legislative_leadership",
+      "role": "Assembly Business and Professions Chair",
+      "person": "Marc Berman",
+      "route": "asmbp",
+      "source_keys": [
+        "asmbpmembers"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Policy and appointment oversight through official office.",
+      "limits": "Current 2025–26 session snapshot; recheck after transition."
+    },
+    {
+      "id": "asm-bp-vice",
+      "group": "legislative_leadership",
+      "role": "Assembly Business and Professions Vice Chair",
+      "person": "Natasha Johnson",
+      "route": "asmbp",
+      "source_keys": [
+        "asmbpmembers"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Policy and appointment oversight through official office.",
+      "limits": "Current 2025–26 session snapshot; recheck after transition."
+    },
+    {
+      "id": "sen-rules-chair",
+      "group": "legislative_leadership",
+      "role": "Senate Rules Chair / Senate President pro Tempore",
+      "person": "Monique Limón",
+      "route": "rules",
+      "source_keys": [
+        "rulesmembers"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Policy and appointment oversight through official office.",
+      "limits": "Current 2025–26 session snapshot; recheck after transition."
+    },
+    {
+      "id": "sen-rules-vice",
+      "group": "legislative_leadership",
+      "role": "Senate Rules Vice Chair",
+      "person": "Shannon Grove",
+      "route": "rules",
+      "source_keys": [
+        "rulesmembers"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Policy and appointment oversight through official office.",
+      "limits": "Current 2025–26 session snapshot; recheck after transition."
+    },
+    {
+      "id": "asm-speaker-person",
+      "group": "legislative_leadership",
+      "role": "Assembly Speaker",
+      "person": "Robert Rivas",
+      "route": "speaker",
+      "source_keys": [
+        "assemblylead"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Policy and appointment oversight through official office.",
+      "limits": "Current 2025–26 session snapshot; recheck after transition."
+    },
+    {
+      "id": "state-auditor",
+      "group": "independent_oversight",
+      "role": "California State Auditor – improper governmental activity intake",
+      "person": null,
+      "route": "auditor",
+      "source_keys": [
+        "auditor",
+        "auditorreport"
+      ],
+      "checked_on": "2026-11-24",
+      "purpose": "Report evidence of improper state agency activity including gross incompetence, inefficiency or unlawful conduct.",
+      "limits": "Confidential review; no enforcement power, no guarantee of investigation or case reopening."
+    }
+  ],
+  "board_composition": {
+    "statutory_seats": 15,
+    "governor_appointments": 13,
+    "senate_rules_appointments": 1,
+    "speaker_appointments": 1,
+    "filled": 13,
+    "vacant": [
+      {
+        "classification": "Physician",
+        "appointing_authority": "Governor"
+      },
+      {
+        "classification": "Public",
+        "appointing_authority": "Governor"
+      }
+    ],
+    "sources": [
+      "roster",
+      "stat2001",
+      "agenda"
+    ]
+  },
+  "historical_context": [
+    {
+      "date": "2021",
+      "event": "SB 806 required independent enforcement monitor; reports published 2023.",
+      "sources": [
+        "sb806",
+        "monitor"
+      ]
+    },
+    {
+      "date": "2023-08-18",
+      "event": "Independent enforcement monitor final report documented staffing, collaboration, expert availability and resource problems. These general findings are not evidence that this particular case was mishandled.",
+      "sources": [
+        "monitor",
+        "monitorpdf"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "SB 815 reforms include CLU and quality-of-care interview requirement, contingent on funded positions; Board authorization sunset January 1, 2028.",
+      "sources": [
+        "sb815",
+        "stat2001",
+        "stat20245",
+        "stat22201"
+      ]
+    },
+    {
+      "date": "2025-01",
+      "event": "CLU established; current closure review route. Do not assume 2025 requirements applied to historical investigation.",
+      "sources": [
+        "clu",
+        "sb815"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "event": "BCSH split; DCA now sits under BCSA. Historical chain and present chain must not be conflated.",
+      "sources": [
+        "bcsa",
+        "transition",
+        "home"
+      ]
+    }
+  ],
+  "review_questions": [
+    "Obtain original case reference, date of submission, closure and disposition; determine whether closure occurred at CCU, CIO, HQIU, Board or HQE.",
+    "Determine what witness testimony and clinical evidence were requested, considered, omitted or unavailable; verify whether appropriate medical specialty expertise was used.",
+    "Ask whether conflicts were screened, the complaint was assessed against applicable contemporaneous standards and any subsequent evidence changes the disposition.",
+    "Ask for review under Business and Professions Code section 2024.5(a)(5), and determine applicability of section 2220.1 including section 2230.5 limitations. Request written determination and accessible communication.",
+    "Ask DCA Correspondence Unit to review service handling and refer evidence of state improper activity independently to State Auditor where applicable.",
+    "Ask legislators to review implementation and outcomes of enforcement monitor recommendations and SB 815, including documented interview and closure-review processes, without seeking predetermined case results.",
+    "Preserve records privately and request lawful disclosure; no confidential medical or investigative material in public comments or Git."
+  ],
+  "related_authority_records": [
+    {
+      "id": "ca-sen-health",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-asm-health",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-sen-jud",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-asm-jud",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-sen-public-safety",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-asm-budget-health",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-asm-budget-safety",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-state-rep",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "ca-attorney-general",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "house-energy-commerce",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "senate-help",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "doj-crd",
+      "source": "authority-oversight.json"
+    },
+    {
+      "id": "hhs-ocr",
+      "source": "authority-oversight.json"
+    }
+  ],
+  "workflow": {
+    "closure_review": "mbc-clu",
+    "external_administrative_review": "dca-cu",
+    "executive_escalation": [
+      "gov-newsom",
+      "bcsa-secretary",
+      "dca-acting-director"
+    ],
+    "legislative_oversight": [
+      "sen-bp",
+      "asm-bp",
+      "sen-rules",
+      "asm-speaker",
+      "sen-budget-4",
+      "asm-budget",
+      "jlac"
+    ],
+    "independent_state_activity": "state-auditor",
+    "public_policy_comment": "mbc-board-public-comment",
+    "dispatches": 0
+  },
+  "verification_notes": [
+    "Official Board membership page updated October 28 and November 19 agenda inspected visually. Current appointees do not establish historical case involvement.",
+    "Governor chart dated October 27 inspected visually; names not independently verified beyond chart on research date.",
+    "Statutory texts from secondary reproductions corroborated by official Board SB 815 summary; verify applicability with counsel, especially dates and reopening limitations.",
+    "Committee membership can change during December legislative transition. Committee records are official role routing rather than separate contact targets; linked rosters cover additional members.",
+    "No individual staff personal addresses; shared institutional channels intentionally deduplicated. No dispatch, no adjudicative communications; no guarantee of response."
+  ],
+  "counts": {
+    "records": 75,
+    "named_roles": 44,
+    "board_members": 13,
+    "board_vacancies": 2,
+    "distinct_shared_contact_routes": 19,
+    "dispatches": 0
+  }
+}
