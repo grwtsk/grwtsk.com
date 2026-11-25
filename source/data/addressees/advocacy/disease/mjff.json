@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disease/mjff",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Michael J. Fox Foundation for Parkinson's Research",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disease"
   ],
-  "email": null,
+  "email": "policy@michaeljfox.org",
   "scope": [
     "National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -40,6 +40,18 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "Michael J. Fox Foundation Resources to Accelerate Your Parkinson’s Research, policy and advocacy, printed page 12",
+      "urls": [
+        "https://www.michaeljfox.org/sites/default/files/media/document/Sponsorship_Deck_Resources_for_Researchers_Digital_10.17.23.pdf",
+        "https://www.michaeljfox.org/advocacy"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "policy@michaeljfox.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Parkinson’s public policy and advocacy engagement, including healthcare access.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Address published in 2023 materials; current advocacy page offers a form. Confirm mailbox currency."
     }
   ]
 }

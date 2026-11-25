@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disability/bay-area-friendship-circle",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Bay Area Friendship Circle",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disability"
   ],
-  "email": null,
+  "email": "judyt@bayareafc.org",
   "scope": [
     "Palo Alto / Peninsula"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,18 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "Friendship Circle official chapter locator — Bay Area Friendship Circle, Palo Alto",
+      "urls": [
+        "https://www.friendshipcircle.com/locations/",
+        "https://www.bayareafc.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "judyt@bayareafc.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published chapter contact for disability inclusion programming for children and teens.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Program scope is children and teens; not an adult healthcare complaint or investigation channel."
     }
   ]
 }

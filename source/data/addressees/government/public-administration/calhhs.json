@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:government/public-administration/calhhs",
-  "addressee_type": "named_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "California Health and Human Services Agency",
   "aliases": [],
   "taxonomy": [
     "government",
     "public-administration"
   ],
-  "email": null,
+  "email": "chhsmail@chhs.ca.gov",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "listed_officeholders": [
     "Kim Johnson"
   ],
@@ -49,6 +49,17 @@
         "listed_officeholder": "Kim Johnson",
         "limits": "Use formal agency-specific intake for complaints; email shown for records requests is not a complaint intake."
       }
+    },
+    {
+      "source_title": "California Health and Human Services — Contact Us",
+      "urls": [
+        "https://www.chhs.ca.gov/about/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "chhsmail@chhs.ca.gov",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Official mailbox designated for scheduling and speaker requests and Public Records Act requests.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Not designated as individual complaint or emergency intake; use for the stated purposes only."
     }
   ],
   "relationships": [

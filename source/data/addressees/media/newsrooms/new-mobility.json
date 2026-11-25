@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/new-mobility",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "New Mobility",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "iruder@unitedspinal.org",
   "scope": [
     "National / disability and wheelchair users"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -41,6 +41,21 @@
         "relevance": "Disability inclusion, healthcare equity and wheelchair accessibility.",
         "limitations": "Select content submission route; general support inbox is not editorial intake."
       }
+    },
+    {
+      "source_title": "New Mobility — Verification page (January 14, 2026), Email the Editor; About Our Team",
+      "urls": [
+        "https://newmobility.com/verification/",
+        "https://newmobility.com/meet-the-team/",
+        "https://newmobility.com/for-content-creators/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "iruder@unitedspinal.org",
+      "published_contact_person": "Ian Ruder",
+      "role": "Editor-in-Chief",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Published editorial contact for disability-related reporting and feedback.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Current story submissions are directed to the content creator form."
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disease/nord",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "National Organization for Rare Disorders",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disease"
   ],
-  "email": null,
+  "email": "policy@rarediseases.org",
   "scope": [
     "National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -43,6 +43,18 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "NORD National Policy & Advocacy Taskforce, February 7, 2023, slide 21",
+      "urls": [
+        "https://rarediseases.org/wp-content/uploads/2023/03/Slide-Deck-February-7-2023-National-Policy-Advocacy-Taskforce-Meeting.pdf",
+        "https://rarediseases.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "policy@rarediseases.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Policy team contact for legislative questions and rare-disease advocacy opportunities.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Email is published in 2023 material; current contact page provides a form. Confirm currency and scope before use."
     }
   ]
 }
