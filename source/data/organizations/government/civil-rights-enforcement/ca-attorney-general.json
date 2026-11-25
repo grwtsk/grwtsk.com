@@ -1,0 +1,1431 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ca-attorney-general",
+  "addressee_type": "named_public_office",
+  "name": "California Attorney General / DOJ Public Inquiry",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Rob Bonta"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-attorney-general",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oag.ca.gov/contact/general-contact-form",
+        "https://www.oag.ca.gov/contact/faqs"
+      ],
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://oag.ca.gov/contact/general-contact-form"
+      },
+      "record": {
+        "level": "state_enforcement",
+        "office": "California Attorney General / DOJ Public Inquiry",
+        "scope": "California",
+        "purpose": "Submit concern and request evaluation of applicable state enforcement authority.",
+        "source_urls": [
+          "https://oag.ca.gov/contact/general-contact-form",
+          "https://www.oag.ca.gov/contact/faqs"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Rob Bonta",
+        "limits": "Does not provide personal legal representation; local criminal reports ordinarily start with police/sheriff."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "ag",
+      "channel": {
+        "url": "https://oag.ca.gov/contact/general-contact-form",
+        "kind": "official_contact_form",
+        "note": "Ask for appropriate routing; HQE acts for licensing agencies and is not personal counsel."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/justice/da-alameda",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-alameda"
+    },
+    {
+      "to": "addressee:government/justice/county-alameda-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-alameda-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-alpine",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-alpine"
+    },
+    {
+      "to": "addressee:government/justice/county-alpine-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-alpine-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-amador",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-amador"
+    },
+    {
+      "to": "addressee:government/justice/county-amador-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-amador-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-butte",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-butte"
+    },
+    {
+      "to": "addressee:government/justice/county-butte-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-butte-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-calaveras",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-calaveras"
+    },
+    {
+      "to": "addressee:government/justice/county-calaveras-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-calaveras-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-colusa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-colusa"
+    },
+    {
+      "to": "addressee:government/justice/county-colusa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-colusa-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-contra-costa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-contra-costa"
+    },
+    {
+      "to": "addressee:government/justice/county-contra-costa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-contra-costa-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-del-norte",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-del-norte"
+    },
+    {
+      "to": "addressee:government/justice/county-del-norte-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-del-norte-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-el-dorado",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-el-dorado"
+    },
+    {
+      "to": "addressee:government/justice/county-el-dorado-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-el-dorado-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-fresno",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-fresno"
+    },
+    {
+      "to": "addressee:government/justice/county-fresno-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-fresno-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-glenn",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-glenn"
+    },
+    {
+      "to": "addressee:government/justice/county-glenn-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-glenn-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-humboldt",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-humboldt"
+    },
+    {
+      "to": "addressee:government/justice/county-humboldt-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-humboldt-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-imperial",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-imperial"
+    },
+    {
+      "to": "addressee:government/justice/county-imperial-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-imperial-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-inyo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-inyo"
+    },
+    {
+      "to": "addressee:government/justice/county-inyo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-inyo-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-kern",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-kern"
+    },
+    {
+      "to": "addressee:government/justice/county-kern-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-kern-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-kings",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-kings"
+    },
+    {
+      "to": "addressee:government/justice/county-kings-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-kings-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-lake",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-lake"
+    },
+    {
+      "to": "addressee:government/justice/county-lake-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-lake-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-lassen",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-lassen"
+    },
+    {
+      "to": "addressee:government/justice/county-lassen-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-lassen-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-los-angeles",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-los-angeles"
+    },
+    {
+      "to": "addressee:government/justice/county-los-angeles-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-los-angeles-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-madera",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-madera"
+    },
+    {
+      "to": "addressee:government/justice/county-madera-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-madera-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-marin",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-marin"
+    },
+    {
+      "to": "addressee:government/justice/county-marin-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-marin-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-mariposa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-mariposa"
+    },
+    {
+      "to": "addressee:government/justice/county-mariposa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-mariposa-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-mendocino",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-mendocino"
+    },
+    {
+      "to": "addressee:government/justice/county-mendocino-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-mendocino-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-merced",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-merced"
+    },
+    {
+      "to": "addressee:government/justice/county-merced-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-merced-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-modoc",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-modoc"
+    },
+    {
+      "to": "addressee:government/justice/county-modoc-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-modoc-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-mono",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-mono"
+    },
+    {
+      "to": "addressee:government/justice/county-mono-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-mono-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-monterey",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-monterey"
+    },
+    {
+      "to": "addressee:government/justice/county-monterey-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-monterey-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-napa",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-napa"
+    },
+    {
+      "to": "addressee:government/justice/county-napa-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-napa-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-nevada",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-nevada"
+    },
+    {
+      "to": "addressee:government/justice/county-nevada-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-nevada-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-orange",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-orange"
+    },
+    {
+      "to": "addressee:government/justice/county-orange-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-orange-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-placer",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-placer"
+    },
+    {
+      "to": "addressee:government/justice/county-placer-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-placer-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-plumas",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-plumas"
+    },
+    {
+      "to": "addressee:government/justice/county-plumas-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-plumas-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-riverside",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-riverside"
+    },
+    {
+      "to": "addressee:government/justice/county-riverside-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-riverside-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-sacramento",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-sacramento"
+    },
+    {
+      "to": "addressee:government/justice/county-sacramento-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-sacramento-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-benito",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-benito"
+    },
+    {
+      "to": "addressee:government/justice/county-san-benito-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-benito-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-bernardino",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-bernardino"
+    },
+    {
+      "to": "addressee:government/justice/county-san-bernardino-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-bernardino-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-diego",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-diego"
+    },
+    {
+      "to": "addressee:government/justice/county-san-diego-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-diego-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-francisco",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-francisco"
+    },
+    {
+      "to": "addressee:government/justice/county-san-francisco-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-francisco-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-joaquin",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-joaquin"
+    },
+    {
+      "to": "addressee:government/justice/county-san-joaquin-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-joaquin-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-luis-obispo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-luis-obispo"
+    },
+    {
+      "to": "addressee:government/justice/county-san-luis-obispo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-luis-obispo-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-san-mateo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-san-mateo"
+    },
+    {
+      "to": "addressee:government/justice/county-san-mateo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-san-mateo-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-santa-barbara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-santa-barbara"
+    },
+    {
+      "to": "addressee:government/justice/county-santa-barbara-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-santa-barbara-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-santa-clara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-santa-clara"
+    },
+    {
+      "to": "addressee:government/justice/county-santa-clara-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-santa-clara-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-santa-cruz",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-santa-cruz"
+    },
+    {
+      "to": "addressee:government/justice/county-santa-cruz-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-santa-cruz-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-shasta",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-shasta"
+    },
+    {
+      "to": "addressee:government/justice/county-shasta-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-shasta-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-sierra",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-sierra"
+    },
+    {
+      "to": "addressee:government/justice/county-sierra-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-sierra-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-siskiyou",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-siskiyou"
+    },
+    {
+      "to": "addressee:government/justice/county-siskiyou-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-siskiyou-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-solano",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-solano"
+    },
+    {
+      "to": "addressee:government/justice/county-solano-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-solano-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-sonoma",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-sonoma"
+    },
+    {
+      "to": "addressee:government/justice/county-sonoma-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-sonoma-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-stanislaus",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-stanislaus"
+    },
+    {
+      "to": "addressee:government/justice/county-stanislaus-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-stanislaus-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-sutter",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-sutter"
+    },
+    {
+      "to": "addressee:government/justice/county-sutter-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-sutter-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-tehama",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-tehama"
+    },
+    {
+      "to": "addressee:government/justice/county-tehama-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-tehama-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-trinity",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-trinity"
+    },
+    {
+      "to": "addressee:government/justice/county-trinity-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-trinity-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-tulare",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-tulare"
+    },
+    {
+      "to": "addressee:government/justice/county-tulare-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-tulare-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-tuolumne",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-tuolumne"
+    },
+    {
+      "to": "addressee:government/justice/county-tuolumne-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-tuolumne-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-ventura",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-ventura"
+    },
+    {
+      "to": "addressee:government/justice/county-ventura-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-ventura-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-yolo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-yolo"
+    },
+    {
+      "to": "addressee:government/justice/county-yolo-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-yolo-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-yuba",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Discretion and statutory conditions apply; no automatic obligation to take over an individual case.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:da-yuba"
+    },
+    {
+      "to": "addressee:government/justice/county-yuba-county-sheriff",
+      "relation": "constitutional_supervision",
+      "basis": [
+        "California Constitution art. V §13"
+      ],
+      "limits": "County sheriff office is an existing directory lookup; resolve actual office.",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "registry:county-yuba-county-sheriff"
+    },
+    {
+      "to": "addressee:government/justice/da-santa-clara",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "da-santa-clara"
+    },
+    {
+      "to": "addressee:government/justice/da-san-francisco",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "da-san-francisco"
+    },
+    {
+      "to": "addressee:government/justice/da-san-mateo",
+      "relation": "statutory_supervision",
+      "basis": [
+        "California Government Code §12550"
+      ],
+      "limits": "Refines registry link; not additional county",
+      "source": "authority-oversight",
+      "original_from": "ca-attorney-general",
+      "original_to": "da-san-mateo"
+    }
+  ]
+}

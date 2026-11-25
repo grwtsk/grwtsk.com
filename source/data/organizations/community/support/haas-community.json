@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/haas-community",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Haas Center for Public Service — community volunteering",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford and Peninsula"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "haas-community",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://haas.stanford.edu/resources/students/community-volunteering"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://haas.stanford.edu/resources/students/community-volunteering"
+      },
+      "record": {
+        "category": "nonprofit_network",
+        "name": "Stanford Haas Center for Public Service — community volunteering",
+        "area": "Stanford and Peninsula",
+        "source_urls": [
+          "https://haas.stanford.edu/resources/students/community-volunteering"
+        ],
+        "purpose": "Public service and nonprofit resource navigation.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Student volunteering resource, not an intake for clinical complaints."
+      }
+    }
+  ]
+}

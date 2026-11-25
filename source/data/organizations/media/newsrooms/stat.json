@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/stat",
+  "addressee_type": "organizational_or_official_route",
+  "name": "STAT",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National / medicine and health"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "stat",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.statnews.com/tips/"
+      ],
+      "channel": {
+        "kind": "editorial_tip_form_and_secure_options",
+        "url": "https://www.statnews.com/tips/"
+      },
+      "record": {
+        "category": "specialist",
+        "outlet": "STAT",
+        "coverage": "National / medicine and health",
+        "source_urls": [
+          "https://www.statnews.com/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Medical institutions, patient safety, healthcare policy and research.",
+        "limitations": "Ordinary form explicitly not encrypted; use official secure instructions for sensitive material."
+      }
+    }
+  ]
+}

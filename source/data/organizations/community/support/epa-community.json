@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/epa-community",
+  "addressee_type": "organizational_or_official_route",
+  "name": "City of East Palo Alto – Community Programs",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": null,
+  "scope": [
+    "East Palo Alto"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "epa-community",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      ],
+      "channel": {
+        "type": "community_resource_referral",
+        "url": "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      },
+      "record": {
+        "category": "community_services",
+        "organization": "City of East Palo Alto – Community Programs",
+        "service_area": "East Palo Alto",
+        "purpose": "Local community services and referrals.",
+        "limitations": "Directory does not imply city endorsement of listed organizations; not an investigative body.",
+        "source_urls": [
+          "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "community-support",
+          "disability-access"
+        ],
+        "contact_policy": {
+          "purpose": "service_navigation",
+          "disclosure": "minimal",
+          "action": "verify_service_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

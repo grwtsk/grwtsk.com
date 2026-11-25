@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-staff-executive-director",
+  "addressee_type": "named_public_office",
+  "name": "Executive Director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Reji Varghese"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-staff-executive-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/About/Members/",
+        "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf",
+        "https://www.dca.ca.gov/about_us/board_bureau_leadership.html",
+        "https://www.mbc.ca.gov/Contact/default.aspx"
+      ],
+      "shared_channel_id": "mbc_exec",
+      "record": {
+        "group": "medical_board_executive",
+        "role": "Executive Director",
+        "person": "Reji Varghese",
+        "source_keys": [
+          "roster",
+          "agenda",
+          "dcaexec",
+          "mbc"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Executive review and routing of enforcement handling",
+        "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "mbc_exec",
+      "channel": {
+        "url": "https://www.mbc.ca.gov/Contact/default.aspx",
+        "phone": "916-263-2389",
+        "mail": "2005 Evergreen Street, Suite 1200, Sacramento, CA 95815",
+        "kind": "executive_office",
+        "note": "Shared board contact; not direct individual board member addresses."
+      }
+    }
+  ]
+}

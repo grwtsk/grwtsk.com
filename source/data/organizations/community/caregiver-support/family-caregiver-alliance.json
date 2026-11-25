@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/caregiver-support/family-caregiver-alliance",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Family Caregiver Alliance – Bay Area Caregiver Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "caregiver-support"
+  ],
+  "email": null,
+  "scope": [
+    "Bay Area"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "family-caregiver-alliance",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.caregiver.org/connecting-caregivers/bay-area-caregiver-center/"
+      ],
+      "channel": {
+        "type": "caregiver_support",
+        "url": "https://www.caregiver.org/connecting-caregivers/bay-area-caregiver-center/"
+      },
+      "record": {
+        "category": "family_support",
+        "organization": "Family Caregiver Alliance – Bay Area Caregiver Resource Center",
+        "service_area": "Bay Area",
+        "purpose": "Caregiver information, assessment, planning and resources for eligible families.",
+        "limitations": "Eligibility includes service-area residence and qualifying care needs; not complaint distribution.",
+        "source_urls": [
+          "https://www.caregiver.org/connecting-caregivers/bay-area-caregiver-center/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "caregiver-support",
+          "community-support",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "caregiver_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_service_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

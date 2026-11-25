@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/curepsp",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CurePSP",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "info@curepsp.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "curepsp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.psp.org/advocacy"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.psp.org/advocacy"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "CurePSP",
+        "service_area": "National",
+        "purpose": "Atypical parkinsonism advocacy, diagnostics, access to care and caregiver needs.",
+        "source_urls": [
+          "https://www.psp.org/advocacy"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/ue",
+  "addressee_type": "organizational_or_official_route",
+  "name": "United Electrical, Radio and Machine Workers of America (UE)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "National; parent union of SGWU"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "ue",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+      ],
+      "channel": {
+        "kind": "public_policy_reference",
+        "url": "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "United Electrical, Radio and Machine Workers of America (UE)",
+        "scope": "National; parent union of SGWU",
+        "source_urls": [
+          "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Published account of Stanford graduate worker first contract and limitations on grievance arbitration.",
+        "limits": "Source is union reporting, not intake."
+      }
+    }
+  ]
+}

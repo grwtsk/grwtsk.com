@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-member-luis-r-portillo",
+  "addressee_type": "named_public_office",
+  "name": "Member",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Luis R. Portillo"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-member-luis-r-portillo",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/About/Members/",
+        "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf"
+      ],
+      "shared_channel_id": "mbc_exec",
+      "record": {
+        "group": "medical_board_governance",
+        "role": "Member",
+        "person": "Luis R. Portillo",
+        "source_keys": [
+          "roster",
+          "agenda"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+        "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+        "classification": "Public",
+        "appointing_authority": "Governor",
+        "appointed": "2026-01-16",
+        "reappointed": "2026-05-29",
+        "term_expiration": "2030-06-01",
+        "roster_as_of": "2026-10-28",
+        "officer_confirmation": "2026-11-19"
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/health-regulation/mbc-staff-executive-director"
+  ]
+}

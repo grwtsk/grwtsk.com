@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/la-times",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Los Angeles Times",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@latimes.com",
+  "scope": [
+    "California and national"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "la-times",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.latimes.com/tips/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.latimes.com/tips/"
+      },
+      "record": {
+        "category": "california",
+        "outlet": "Los Angeles Times",
+        "coverage": "California and national",
+        "source_urls": [
+          "https://www.latimes.com/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Investigative reporting on physician licensing, patient safety and state governance.",
+        "limitations": "Published email supports encrypted messages; follow current PGP instructions and do not assume ordinary email is secure."
+      }
+    }
+  ]
+}

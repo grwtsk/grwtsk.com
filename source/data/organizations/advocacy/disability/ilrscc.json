@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/ilrscc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Independent Living Resources of Solano and Contra Costa Counties",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@ilrscc.org",
+  "scope": [
+    "Contra Costa, Solano"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Susan Rotchy"
+  ],
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "ilrscc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "record": {
+        "category": "disability_advocacy",
+        "organization": "Independent Living Resources of Solano and Contra Costa Counties",
+        "service_area": "Contra Costa, Solano",
+        "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+        "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+        "source_urls": [
+          "https://calsilc.ca.gov/independent-locator/"
+        ],
+        "verification": "official_state_directory_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "disability-access",
+          "community-support",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "published_directory_route"
+        },
+        "listed_leadership": {
+          "name": "Susan Rotchy",
+          "role": "Executive Director",
+          "source_url": "https://calsilc.ca.gov/independent-locator/",
+          "checked_on": "2026-11-24",
+          "email_is_shared_organization_channel": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/stanford-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Department of Public Safety – main campus",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford main campus"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "stanford-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.police.stanford.edu/file-policereport.html",
+        "https://www.police.stanford.edu/"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.police.stanford.edu/file-policereport.html",
+        "phone": "650-329-2413"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "Stanford Department of Public Safety – main campus",
+        "scope": "Stanford main campus",
+        "purpose": "Report alleged crime at actual Stanford campus incident location and request jurisdiction determination.",
+        "source_urls": [
+          "https://www.police.stanford.edu/file-policereport.html",
+          "https://www.police.stanford.edu/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Shares dispatch with Palo Alto; do not duplicate the same incident report."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/justice/da-santa-clara",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "limits": "Confirm county and exact site; main campus includes land in more than one county.",
+      "source": "authority-oversight",
+      "original_from": "stanford-police",
+      "original_to": "registry:da-santa-clara"
+    },
+    {
+      "to": "addressee:government/justice/da-san-mateo",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "limits": "Only for site in San Mateo County; do not duplicate.",
+      "source": "authority-oversight",
+      "original_from": "stanford-police",
+      "original_to": "registry:da-san-mateo"
+    }
+  ]
+}

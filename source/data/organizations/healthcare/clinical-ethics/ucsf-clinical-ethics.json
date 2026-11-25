@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-ethics/ucsf-clinical-ethics",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF Health Clinical Ethics Consultation Service",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-ethics"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF Parnassus and Mission Bay"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "ucsf-clinical-ethics",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://bioethics.ucsf.edu/faqs"
+      ],
+      "channel": {
+        "type": "clinical_ethics_consult",
+        "url": "https://bioethics.ucsf.edu/faqs"
+      },
+      "record": {
+        "category": "clinical_ethics",
+        "organization": "UCSF Health Clinical Ethics Consultation Service",
+        "service_area": "UCSF Parnassus and Mission Bay",
+        "purpose": "Patient or surrogate may request consultation for clinical ethical dilemmas.",
+        "limitations": "Not an independent tribunal; ask medical center operator to page Ethics Consultation Service as directed.",
+        "source_urls": [
+          "https://bioethics.ucsf.edu/faqs"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "professional-ethics",
+          "patient-safety",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "clinical_ethics_consult_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_clinical_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/sf-standard",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The San Francisco Standard",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "San Francisco and Bay Area"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "sf-standard",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfstandard.com/tips/"
+      ],
+      "channel": {
+        "kind": "tip_form_or_phone",
+        "url": "https://sfstandard.com/tips/",
+        "phone": "415-408-6000"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "The San Francisco Standard",
+        "coverage": "San Francisco and Bay Area",
+        "source_urls": [
+          "https://sfstandard.com/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "San Francisco institutions and public policy.",
+        "limitations": "Also publishes tip SMS 415-408-6282; SMS is not encrypted by default."
+      }
+    }
+  ]
+}

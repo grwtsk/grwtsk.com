@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/crime-survivors-inc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Crime Survivors, Inc. — Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "crime-survivors-inc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-other/"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "phone": "844-853-4673"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "Crime Survivors, Inc. — Resource Center",
+        "scope": "California",
+        "purpose": "Victim assistance resources and referrals.",
+        "limits": "State directory-listed contact; verify program scope with office.",
+        "source_urls": [
+          "https://www.cdcr.ca.gov/victim-services/resources-other/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

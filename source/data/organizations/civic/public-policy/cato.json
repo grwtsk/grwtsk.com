@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/cato",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Cato Institute — Public Affairs",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": "externalaffairs@cato.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "cato",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cato.org/about/public-affairs/"
+      ],
+      "published_address": "ExternalAffairs@cato.org",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.cato.org/about/public-affairs/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Cato Institute — Public Affairs",
+        "service_area": "National",
+        "purpose": "Liberty-oriented public policy and external affairs; general policy questions only.",
+        "source_urls": [
+          "https://www.cato.org/about/public-affairs/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/naf-advocacy",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Ataxia Foundation – advocacy program",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "United States",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "naf-advocacy",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ataxia.org/advocacy/"
+      ],
+      "channel": {
+        "kind": "coalition_intake",
+        "url": "https://www.ataxia.org/advocacy/"
+      },
+      "record": {
+        "role": "National Ataxia Foundation – advocacy program",
+        "jurisdiction": "United States",
+        "source": [
+          "https://www.ataxia.org/advocacy/"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Opt-in disability and ataxia policy coalition participation."
+      }
+    }
+  ]
+}

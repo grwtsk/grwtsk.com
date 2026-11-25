@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/aapd",
+  "addressee_type": "organizational_or_official_route",
+  "name": "American Association of People with Disabilities",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "aapd",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aapd.com/"
+      ],
+      "channel": {
+        "kind": "organization_information",
+        "url": "https://www.aapd.com/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "American Association of People with Disabilities",
+        "service_area": "National",
+        "purpose": "Cross-disability civil rights, independent living and civic participation.",
+        "source_urls": [
+          "https://www.aapd.com/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

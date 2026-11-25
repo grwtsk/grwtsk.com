@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/ca-governor",
+  "addressee_type": "named_public_office",
+  "name": "California Governor's Office",
+  "aliases": [
+    "Governor"
+  ],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Gavin Newsom"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-governor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.gov.ca.gov/contact/"
+      ],
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.gov.ca.gov/contact/",
+        "phone": "916-445-2841",
+        "mail": "1021 O Street, Suite 9000, Sacramento, CA 95814"
+      },
+      "record": {
+        "level": "state_executive",
+        "office": "California Governor's Office",
+        "scope": "California",
+        "purpose": "Ask for referral of systemic health and justice concerns to competent state officials.",
+        "source_urls": [
+          "https://www.gov.ca.gov/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Gavin Newsom",
+        "limits": "No email attachments; use mail if needed. Not a substitute for filing with an enforcement agency."
+      }
+    },
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "gov-newsom",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.gov.ca.gov/contact/",
+        "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-1/section-2001/",
+        "https://www.gov.ca.gov/wp-content/uploads/2026/10/Gov.-Newsom-Org-Chart-10.27.26.pdf"
+      ],
+      "shared_channel_id": "governor",
+      "record": {
+        "group": "governor",
+        "role": "Governor",
+        "person": "Gavin Newsom",
+        "source_keys": [
+          "gov",
+          "stat2001",
+          "govchart"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Request executive review of oversight and appointment accountability; independent regulatory investigation.",
+        "limits": "Not a finding of personal involvement; no direction of individual disciplinary result."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "governor",
+      "channel": {
+        "url": "https://www.gov.ca.gov/contact/",
+        "phone": "916-445-2841",
+        "mail": "Governor's Office, 1021 O Street, Suite 9000, Sacramento, CA 95814",
+        "kind": "official_contact_form",
+        "note": "One central intake. Request routing to relevant executive office; no attachments via form."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/civil-rights-enforcement/ca-attorney-general",
+      "relation": "statutory_direction_to_assist_district_attorney",
+      "basis": [
+        "California Constitution art. V §13",
+        "California Government Code §12550"
+      ],
+      "limits": "Attorney General is independently elected; direction is specific statutory authority, not plenary control.",
+      "source": "authority-oversight",
+      "original_from": "ca-governor",
+      "original_to": "ca-attorney-general"
+    },
+    {
+      "to": "addressee:government/public-administration/calhhs",
+      "relation": "executive_agency_coordination",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Use statutory intake for formal complaints.",
+      "source": "authority-oversight",
+      "original_from": "ca-governor",
+      "original_to": "calhhs"
+    }
+  ]
+}

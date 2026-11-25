@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/seiu-2007",
+  "addressee_type": "organizational_or_official_route",
+  "name": "SEIU Higher Education Workers Local 2007 (United Stanford Workers)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford University, Santa Clara University and SLAC National Accelerator Laboratory"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "seiu-2007",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm",
+        "https://www.seiu2007.org/?zone=%2Funionactive%2Fofficers.cfm",
+        "https://www.nlrb.gov/case/32-CA-386112"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "SEIU Higher Education Workers Local 2007 (United Stanford Workers)",
+        "scope": "Stanford University, Santa Clara University and SLAC National Accelerator Laboratory",
+        "source_urls": [
+          "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm",
+          "https://www.seiu2007.org/?zone=%2Funionactive%2Fofficers.cfm",
+          "https://www.nlrb.gov/case/32-CA-386112"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Higher education and research service workers; workplace protections and bargaining.",
+        "limits": "Official website and office directory; use organizational office, not individual member contacts."
+      }
+    }
+  ]
+}

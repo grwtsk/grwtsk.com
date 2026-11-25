@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/s-immuno-oncology",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Neuro-Immuno-Oncology",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "s-immuno-oncology",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/neurology/divisions.html"
+      ],
+      "channel": {
+        "kind": "department_program_directory",
+        "url": "https://med.stanford.edu/neurology/divisions.html"
+      },
+      "record": {
+        "institution": "Stanford",
+        "name": "Neuro-Immuno-Oncology",
+        "type": "published_division_or_program",
+        "source_urls": [
+          "https://med.stanford.edu/neurology/divisions.html"
+        ],
+        "purpose": "Find the appropriate specialty program through the official department directory; confirm its clinical scope.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Directory navigation and appropriate care referral or designated leadership routing only; not a separate complaint recipient."
+      }
+    }
+  ]
+}

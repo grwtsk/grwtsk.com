@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/caregiver-support/valley-crc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Valley Caregiver Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "caregiver-support"
+  ],
+  "email": null,
+  "scope": [
+    "Fresno / Central Valley"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "valley-crc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.valleycrc.org/contact-us"
+      ],
+      "channel": {
+        "type": "caregiver_support",
+        "url": "https://www.valleycrc.org/contact-us"
+      },
+      "record": {
+        "category": "family_support",
+        "organization": "Valley Caregiver Resource Center",
+        "service_area": "Fresno / Central Valley",
+        "purpose": "Local family caregiver assessment, assistance, and referral.",
+        "limitations": "Do not submit personal medical information via general webform; ask for confidential communication.",
+        "source_urls": [
+          "https://www.valleycrc.org/contact-us"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "caregiver-support",
+          "community-support",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "caregiver_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_service_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

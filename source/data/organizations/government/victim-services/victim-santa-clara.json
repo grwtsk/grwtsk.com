@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-santa-clara",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Santa Clara County DA Victim Services Unit",
+  "aliases": [
+    "County victim/witness assistance"
+  ],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County",
+    "California / Santa Clara County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "victim-santa-clara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://da.santaclaracounty.gov/victim-services"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://da.santaclaracounty.gov/victim-services",
+        "phone": "408-295-2656"
+      },
+      "record": {
+        "level": "local_protective_services",
+        "office": "Santa Clara County DA Victim Services Unit",
+        "scope": "Santa Clara County",
+        "purpose": "Victim advocacy and local criminal justice referral.",
+        "source_urls": [
+          "https://da.santaclaracounty.gov/victim-services"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a substitute for police report."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-santa-clara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "408-295-2656",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Santa Clara County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "documented_stanford_location",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    }
+  ]
+}

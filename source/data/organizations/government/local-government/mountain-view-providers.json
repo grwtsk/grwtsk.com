@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/mountain-view-providers",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Mountain View Community Service Providers",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "Mountain View, Los Altos, Los Altos Hills"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "mountain-view-providers",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mountainview.gov/our-city/departments/housing/programs-and-resources/community-service-providers"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.mountainview.gov/our-city/departments/housing/programs-and-resources/community-service-providers"
+      },
+      "record": {
+        "category": "municipal_referral",
+        "name": "Mountain View Community Service Providers",
+        "area": "Mountain View, Los Altos, Los Altos Hills",
+        "source_urls": [
+          "https://www.mountainview.gov/our-city/departments/housing/programs-and-resources/community-service-providers"
+        ],
+        "purpose": "Publicly listed nonprofit service providers.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

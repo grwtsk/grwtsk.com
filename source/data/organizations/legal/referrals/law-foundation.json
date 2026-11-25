@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/referrals/law-foundation",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Law Foundation of Silicon Valley",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "referrals"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "law-foundation",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+      },
+      "record": {
+        "category": "legal",
+        "name": "Law Foundation of Silicon Valley",
+        "area": "Santa Clara County",
+        "source_urls": [
+          "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+        ],
+        "purpose": "Legal aid referral including health access; confirm case eligibility.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

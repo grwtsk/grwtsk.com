@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/health-access/hca",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Health Consumer Alliance",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "health-access"
+  ],
+  "email": "contacthca@lassd.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "hca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://healthconsumer.org/contact/"
+      ],
+      "published_address": "ContactHCA@lassd.org",
+      "channel": {
+        "kind": "confidential_legal_screening",
+        "url": "https://healthconsumer.org/contact/",
+        "phone": "888-804-3536"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "Health Consumer Alliance",
+        "service_area": "California",
+        "purpose": "Free healthcare-access legal assistance; do not include names, health or sensitive information in initial email.",
+        "source_urls": [
+          "https://healthconsumer.org/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

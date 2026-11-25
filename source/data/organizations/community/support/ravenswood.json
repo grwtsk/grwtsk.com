@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/ravenswood",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Ravenswood Family Health Network",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": null,
+  "scope": [
+    "East Palo Alto and mid-Peninsula"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "ravenswood",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://ravenswoodfhn.org/contact-us/",
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "official_organization_page",
+        "url": "https://ravenswoodfhn.org/contact-us/"
+      },
+      "record": {
+        "category": "health_equity",
+        "name": "Ravenswood Family Health Network",
+        "area": "East Palo Alto and mid-Peninsula",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/",
+          "https://ravenswoodfhn.org/contact-us/"
+        ],
+        "purpose": "Community health center; care navigation and appropriate referral.",
+        "verification": "official_organization_contact_page_and_directory_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

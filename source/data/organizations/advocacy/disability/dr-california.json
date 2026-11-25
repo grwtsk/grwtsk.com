@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/dr-california",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Disability Rights California",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "dr-california",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.disabilityrightsca.org/get-help",
+        "https://www.oag.ca.gov/civil/resources-ada-people"
+      ],
+      "channel": {
+        "kind": "confidential_legal_intake",
+        "url": "https://www.disabilityrightsca.org/get-help"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "Disability Rights California",
+        "service_area": "California",
+        "purpose": "State protection and advocacy organization; confidential legal screening, subject to scope.",
+        "source_urls": [
+          "https://www.disabilityrightsca.org/get-help",
+          "https://www.oag.ca.gov/civil/resources-ada-people"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

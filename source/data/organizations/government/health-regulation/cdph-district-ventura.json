@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cdph-district-ventura",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CDPH Licensing and Certification – Ventura district",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": "cdph-lnc-ventura@cdph.ca.gov",
+  "scope": [
+    "San Luis Obispo, Santa Barbara, Ventura"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "cdph-district-ventura",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "published_address": "CDPH-LNC-VENTURA@cdph.ca.gov",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
+        "phone": "805-604-2926"
+      },
+      "record": {
+        "level": "regional_regulatory",
+        "office": "CDPH Licensing and Certification – Ventura district",
+        "scope": "San Luis Obispo, Santa Barbara, Ventura",
+        "purpose": "Investigate complaints against facilities under district oversight.",
+        "source_urls": [
+          "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use Cal Health Find to confirm exact facility and district before filing; not seven separate recipients for one incident."
+      }
+    }
+  ]
+}

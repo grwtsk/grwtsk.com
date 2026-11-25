@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/cdss-aps",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Department of Social Services – APS statewide routing",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "cdss-aps",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "zip_routed_phone",
+        "url": "https://cdss.ca.gov/adult-protective-services",
+        "phone": "833-401-0832"
+      },
+      "record": {
+        "level": "state_social_services",
+        "office": "California Department of Social Services – APS statewide routing",
+        "scope": "California",
+        "purpose": "Route report of suspected current dependent-adult abuse or neglect to competent county.",
+        "source_urls": [
+          "https://cdss.ca.gov/adult-protective-services"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a separate complaint for all counties; use relevant ZIP."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/social-services/aps-fresno",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts.",
+      "source": "authority-oversight",
+      "original_from": "cdss-aps",
+      "original_to": "aps-fresno"
+    },
+    {
+      "to": "addressee:government/social-services/aps-san-francisco",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts.",
+      "source": "authority-oversight",
+      "original_from": "cdss-aps",
+      "original_to": "aps-san-francisco"
+    }
+  ]
+}

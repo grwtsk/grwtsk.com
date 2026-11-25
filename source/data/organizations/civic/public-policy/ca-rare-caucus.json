@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/ca-rare-caucus",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Rare Disease Caucus",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "ca-rare-caucus",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cararediseasecaucus.org/"
+      ],
+      "channel": {
+        "kind": "caucus_information",
+        "url": "https://www.cararediseasecaucus.org/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "California Rare Disease Caucus",
+        "service_area": "California",
+        "purpose": "Bipartisan legislative caucus on rare disease access and support; confirm legislative contacts for the new session.",
+        "source_urls": [
+          "https://www.cararediseasecaucus.org/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

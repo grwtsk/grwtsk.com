@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/hqiu-rancho-cucamonga",
+  "addressee_type": "organizational_or_official_route",
+  "name": "HQIU Rancho Cucamonga field office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "hqiu-rancho-cucamonga",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dca.ca.gov/enforcement/index"
+      ],
+      "shared_channel_id": "doi",
+      "record": {
+        "group": "dca_field_office",
+        "role": "HQIU Rancho Cucamonga field office",
+        "person": null,
+        "source_keys": [
+          "doi"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Identify assigned field office; use central DOI routing.",
+        "limits": "Directory-confirmed office, not a separate complaint recipient; do not assume venue."
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/health-regulation/dca-doi"
+  ]
+}

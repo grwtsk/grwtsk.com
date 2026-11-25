@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-compliance/ucsf-safety",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF Health Patient Safety Hotline",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-compliance"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF Health"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ucsf-safety",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+      ],
+      "channel": {
+        "kind": "hotline",
+        "url": "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "phone": "415-353-8787"
+      },
+      "record": {
+        "level": "institutional_compliance",
+        "office": "UCSF Health Patient Safety Hotline",
+        "scope": "UCSF Health",
+        "purpose": "Current patient safety issue; parallel formal grievance as appropriate.",
+        "source_urls": [
+          "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed"
+      }
+    }
+  ]
+}

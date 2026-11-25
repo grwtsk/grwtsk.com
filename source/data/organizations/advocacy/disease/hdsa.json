@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/hdsa",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Huntington's Disease Society of America",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "hdsa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://hdsa.org/hddayofaction/"
+      ],
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://hdsa.org/hddayofaction/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Huntington's Disease Society of America",
+        "service_area": "National",
+        "purpose": "Huntington's disease advocacy; source includes a dated event, not a current submission form.",
+        "source_urls": [
+          "https://hdsa.org/hddayofaction/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

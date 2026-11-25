@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/ncil",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Council on Independent Living",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "ncil",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://ncil.org/advocacy-action/about-ncils-advocacy/",
+        "https://ncil.org/about/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://ncil.org/advocacy-action/about-ncils-advocacy/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "National Council on Independent Living",
+        "service_area": "National",
+        "purpose": "Disability-led healthcare, long-term services and ADA civil rights policy.",
+        "source_urls": [
+          "https://ncil.org/advocacy-action/about-ncils-advocacy/",
+          "https://ncil.org/about/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

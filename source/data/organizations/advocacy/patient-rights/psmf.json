@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/psmf",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Patient Safety Movement Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": null,
+  "scope": [
+    "California / National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "psmf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://psmf.org/contact-us"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://psmf.org/contact-us"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "Patient Safety Movement Foundation",
+        "service_area": "California / National",
+        "purpose": "Patient safety and system improvement; use public inquiry form.",
+        "source_urls": [
+          "https://psmf.org/contact-us"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

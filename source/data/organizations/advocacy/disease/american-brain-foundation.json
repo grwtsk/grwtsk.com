@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/american-brain-foundation",
+  "addressee_type": "organizational_or_official_route",
+  "name": "American Brain Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "american-brain-foundation",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.americanbrainfoundation.org/contact/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.americanbrainfoundation.org/contact/",
+        "phone": "866-770-7570"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "American Brain Foundation",
+        "service_area": "National",
+        "purpose": "Brain disease research foundation; general resource questions, not medical or legal advice.",
+        "source_urls": [
+          "https://www.americanbrainfoundation.org/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

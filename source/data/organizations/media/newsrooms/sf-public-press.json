@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/sf-public-press",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Francisco Public Press",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "San Francisco"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "sf-public-press",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sfpublicpress.org/contact-2/"
+      ],
+      "channel": {
+        "kind": "general_contact_form",
+        "url": "https://www.sfpublicpress.org/contact-2/",
+        "phone": "415-495-7377"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "San Francisco Public Press",
+        "coverage": "San Francisco",
+        "source_urls": [
+          "https://www.sfpublicpress.org/contact-2/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Nonprofit local investigative reporting and systemic equity.",
+        "limitations": "General contact page; ask for the appropriate editorial route before sharing sensitive information."
+      }
+    }
+  ]
+}

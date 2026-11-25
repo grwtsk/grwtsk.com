@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/patient-relations/shc-relations",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Health Care Patient Relations",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "patient-relations"
+  ],
+  "email": "guestservices@stanfordhealthcare.org",
+  "scope": [
+    "Stanford Health Care",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "shc-relations",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
+      ],
+      "published_address": "GuestServices@stanfordhealthcare.org",
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
+      },
+      "record": {
+        "role": "Stanford Health Care Patient Relations",
+        "jurisdiction": "Stanford Health Care",
+        "source": [
+          "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Formal grievance and accessible communication; separate institutional review."
+      }
+    }
+  ]
+}

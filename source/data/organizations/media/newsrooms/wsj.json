@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/wsj",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Wall Street Journal",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "wsj",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.wsj.com/tips"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.wsj.com/tips",
+        "signal": "347-413-0496"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "The Wall Street Journal",
+        "coverage": "National",
+        "source_urls": [
+          "https://www.wsj.com/tips"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Healthcare institutions, business accountability, public regulation and investigations.",
+        "limitations": "Published Signal and SecureDrop instructions; verify current details on official page."
+      }
+    }
+  ]
+}

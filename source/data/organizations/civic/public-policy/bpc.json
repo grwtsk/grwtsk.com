@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/bpc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Bipartisan Policy Center",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "bpc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://bipartisanpolicy.org/contact/",
+        "https://bipartisanpolicy.org/policy-area/health/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://bipartisanpolicy.org/contact/",
+        "phone": "202-204-2400"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Bipartisan Policy Center",
+        "service_area": "National",
+        "purpose": "Bipartisan health policy research and discussion.",
+        "source_urls": [
+          "https://bipartisanpolicy.org/contact/",
+          "https://bipartisanpolicy.org/policy-area/health/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

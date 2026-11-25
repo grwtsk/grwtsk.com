@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-modoc",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "California / Modoc County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Nina Salarno"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-modoc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.co.modoc.ca.us/departments/district_attorney.php",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.co.modoc.ca.us/departments/district_attorney.php"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Modoc County",
+        "listed_officeholder": "Nina Salarno",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    }
+  ]
+}

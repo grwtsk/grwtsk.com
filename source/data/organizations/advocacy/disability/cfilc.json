@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/cfilc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Foundation for Independent Living Centers",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "cfilc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cfilc.org/contact-cfilc/",
+        "https://cfilc.org/member-ilcs/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://cfilc.org/contact-cfilc/",
+        "phone": "916-325-1690"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "California Foundation for Independent Living Centers",
+        "service_area": "California",
+        "purpose": "Access, independent living and statewide disability policy.",
+        "source_urls": [
+          "https://cfilc.org/contact-cfilc/",
+          "https://cfilc.org/member-ilcs/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

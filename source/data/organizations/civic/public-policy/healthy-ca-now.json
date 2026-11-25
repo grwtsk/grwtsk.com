@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/healthy-ca-now",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Healthy California Now",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "healthy-ca-now",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://healthyca.org/about/affiliates/"
+      ],
+      "channel": {
+        "kind": "coalition_information",
+        "url": "https://healthyca.org/about/affiliates/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Healthy California Now",
+        "service_area": "California",
+        "purpose": "Healthcare reform coalition of community, labor and consumer organizations; source contains organizational membership directory.",
+        "source_urls": [
+          "https://healthyca.org/about/affiliates/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

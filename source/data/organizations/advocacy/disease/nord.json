@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/nord",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Organization for Rare Disorders",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "nord",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://rarediseases.org/contact/",
+        "https://rarediseases.org/driving-policy/nord-policy-statements/"
+      ],
+      "channel": {
+        "kind": "patient_support_and_policy",
+        "url": "https://rarediseases.org/contact/",
+        "phone": "800-999-6673"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "National Organization for Rare Disorders",
+        "service_area": "National",
+        "purpose": "Rare disease resources and federal/state policy; helpline for patients.",
+        "source_urls": [
+          "https://rarediseases.org/contact/",
+          "https://rarediseases.org/driving-policy/nord-policy-statements/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

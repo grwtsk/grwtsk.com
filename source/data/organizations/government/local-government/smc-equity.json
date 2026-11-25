@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/smc-equity",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Mateo County Office of Racial and Social Justice",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "smc-equity",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.smcgov.org/ceo/office-racial-and-social-justice"
+      ],
+      "channel": {
+        "type": "public_policy_and_referral",
+        "url": "https://www.smcgov.org/ceo/office-racial-and-social-justice"
+      },
+      "record": {
+        "category": "local_policy",
+        "organization": "San Mateo County Office of Racial and Social Justice",
+        "service_area": "San Mateo County",
+        "purpose": "County-level equity policy, structural barriers and community engagement.",
+        "limitations": "Not an individual private-hospital complaint intake; request policy guidance.",
+        "source_urls": [
+          "https://www.smcgov.org/ceo/office-racial-and-social-justice"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "disability-access",
+          "systemic-accountability",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "deidentified_policy_inquiry",
+          "disclosure": "deidentified",
+          "action": "verify_official_policy_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

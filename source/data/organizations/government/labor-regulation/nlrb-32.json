@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/labor-regulation/nlrb-32",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Labor Relations Board Region 32 — Oakland",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "labor-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "Covered parts of California and Nevada"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "nlrb-32",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.nlrb.gov/about-nlrb/who-we-are/regional-offices/region-32-oakland"
+      ],
+      "channel": {
+        "kind": "official_labor_intake",
+        "url": "https://www.nlrb.gov/about-nlrb/who-we-are/regional-offices/region-32-oakland",
+        "phone": "510-637-3300"
+      },
+      "record": {
+        "type": "labor_regulator",
+        "name": "National Labor Relations Board Region 32 — Oakland",
+        "scope": "Covered parts of California and Nevada",
+        "source_urls": [
+          "https://www.nlrb.gov/about-nlrb/who-we-are/regional-offices/region-32-oakland"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Investigates unfair labor practice charges and conducts union elections.",
+        "limits": "Labor jurisdiction; does not investigate ordinary medical negligence or patient civil rights. Ask for Information Officer."
+      }
+    }
+  ]
+}

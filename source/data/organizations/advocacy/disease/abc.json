@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/abc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "American Brain Coalition",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "communications@americanbraincoalition.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "abc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.americanbraincoalition.org/advocacy",
+        "https://www.americanbraincoalition.org/advocacy-committee"
+      ],
+      "channel": {
+        "kind": "coalition_inquiry",
+        "url": "https://www.americanbraincoalition.org/advocacy",
+        "phone": "763-516-3583"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "American Brain Coalition",
+        "service_area": "National",
+        "purpose": "Umbrella coalition for neurological research, care and federal policy.",
+        "source_urls": [
+          "https://www.americanbraincoalition.org/advocacy",
+          "https://www.americanbraincoalition.org/advocacy-committee"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

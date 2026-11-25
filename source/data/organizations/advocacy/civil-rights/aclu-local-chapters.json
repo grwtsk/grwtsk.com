@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/civil-rights/aclu-local-chapters",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ACLU of Northern California – chapter program",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "civil-rights"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo and Santa Clara counties"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "aclu-local-chapters",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aclunorcal.org/about/chapters/"
+      ],
+      "channel": {
+        "type": "opt_in_policy_dialogue",
+        "url": "https://www.aclunorcal.org/about/chapters/"
+      },
+      "record": {
+        "category": "civil_rights",
+        "organization": "ACLU of Northern California – chapter program",
+        "service_area": "San Mateo and Santa Clara counties",
+        "purpose": "Find local chapters for general civil liberties education and accessible public policy dialogue.",
+        "limitations": "Local volunteer chapters are not a forum to discuss individual legal cases; use ACLU legal intake.",
+        "source_urls": [
+          "https://www.aclunorcal.org/about/chapters/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "systemic-accountability"
+        ],
+        "contact_policy": {
+          "purpose": "voluntary_policy_dialogue",
+          "disclosure": "deidentified",
+          "action": "verify_opt_in_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/housing-justice",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Housing Justice Working Group",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford and surrounding Peninsula communities"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "housing-justice",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://housingjustice.stanford.edu/about-hjwg"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://housingjustice.stanford.edu/about-hjwg"
+      },
+      "record": {
+        "type": "campus_policy",
+        "name": "Stanford Housing Justice Working Group",
+        "scope": "Stanford and surrounding Peninsula communities",
+        "source_urls": [
+          "https://housingjustice.stanford.edu/about-hjwg"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Community and campus housing equity; accessibility-related policy context.",
+        "limits": "Not a medical or employment grievance authority."
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/calhhs",
+  "addressee_type": "named_public_office",
+  "name": "California Health and Human Services Agency",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Kim Johnson"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "calhhs",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.chhs.ca.gov/about/contact-us/",
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "channel": {
+        "kind": "office_phone_mail",
+        "url": "https://www.chhs.ca.gov/about/contact-us/",
+        "phone": "916-654-3454",
+        "mail": "1215 O Street, Sacramento, CA 95814"
+      },
+      "record": {
+        "level": "state_executive",
+        "office": "California Health and Human Services Agency",
+        "scope": "California",
+        "purpose": "Request executive coordination of health facility oversight, social services and access.",
+        "source_urls": [
+          "https://www.chhs.ca.gov/about/contact-us/",
+          "https://www.chhs.ca.gov/about/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Kim Johnson",
+        "limits": "Use formal agency-specific intake for complaints; email shown for records requests is not a complaint intake."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/cdph",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction.",
+      "source": "authority-oversight",
+      "original_from": "calhhs",
+      "original_to": "cdph"
+    },
+    {
+      "to": "addressee:government/social-services/cdss-aps",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction.",
+      "source": "authority-oversight",
+      "original_from": "calhhs",
+      "original_to": "cdss-aps"
+    }
+  ]
+}

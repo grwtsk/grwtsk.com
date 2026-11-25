@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/ca-labor-fed",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Federation of Labor Unions",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "ca-labor-fed",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calaborfed.org/central-labor-councils/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://calaborfed.org/central-labor-councils/"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "California Federation of Labor Unions",
+        "scope": "California",
+        "source_urls": [
+          "https://calaborfed.org/central-labor-councils/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Directory of local labor councils; regional service navigation.",
+        "limits": "Directory, not proof of participation or invitation to contact all councils."
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/global-genes",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Global Genes",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "global-genes",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://globalgenes.org/contact-us/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://globalgenes.org/contact-us/",
+        "phone": "949-248-7273"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Global Genes",
+        "service_area": "National",
+        "purpose": "Rare disease information and community connections.",
+        "source_urls": [
+          "https://globalgenes.org/contact-us/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

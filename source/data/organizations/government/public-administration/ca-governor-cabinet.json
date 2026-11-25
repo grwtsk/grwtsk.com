@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/ca-governor-cabinet",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Governor's cabinet – health and human services / justice and public safety",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-governor-cabinet",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.gov.ca.gov/about/cabinet/",
+        "https://www.gov.ca.gov/contact/"
+      ],
+      "channel": {
+        "kind": "office_routing",
+        "url": "https://www.gov.ca.gov/about/cabinet/"
+      },
+      "record": {
+        "level": "state_executive",
+        "office": "Governor's cabinet – health and human services / justice and public safety",
+        "scope": "California",
+        "purpose": "Executive coordination through the Governor's constituent contact channel.",
+        "source_urls": [
+          "https://www.gov.ca.gov/about/cabinet/",
+          "https://www.gov.ca.gov/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Cabinet coordination not direct supervision of the independently elected Attorney General in all matters."
+      }
+    }
+  ]
+}

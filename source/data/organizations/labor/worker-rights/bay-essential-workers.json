@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/bay-essential-workers",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Bay Area Essential Workers Agenda",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Bay Area"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "bay-essential-workers",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.essentialworkersagenda.org/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.essentialworkersagenda.org/"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "Bay Area Essential Workers Agenda",
+        "scope": "Bay Area",
+        "source_urls": [
+          "https://www.essentialworkersagenda.org/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Worker-center coalition addressing retaliation, access to healthcare and protections for essential workers.",
+        "limits": "Coalition policy directory only. No inference that members reported incidents involving Stanford."
+      }
+    }
+  ]
+}

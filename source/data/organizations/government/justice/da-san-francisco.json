@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-san-francisco",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco District Attorney",
+  "aliases": [
+    "County district attorney"
+  ],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "districtattorney@sfgov.org",
+  "scope": [
+    "San Francisco County",
+    "California / San Francisco County",
+    "documented_stanford_location"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Brooke Jenkins"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "da-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://sfdistrictattorney.org/contact/",
+        "phone": "628-652-4000"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "San Francisco District Attorney",
+        "scope": "San Francisco County",
+        "purpose": "Prosecutorial review or guidance where facts establish venue.",
+        "source_urls": [
+          "https://sfdistrictattorney.org/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "General office contact; use local police for initial crime report."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfdistrictattorney.org/",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://sfdistrictattorney.org/"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / San Francisco County",
+        "listed_officeholder": "Brooke Jenkins",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "documented_stanford_location",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/victim-services/victim-san-francisco",
+      "relation": "victim_services_unit",
+      "basis": [
+        "https://sfdistrictattorney.org/victim-services/"
+      ],
+      "limits": "Local support",
+      "source": "authority-oversight",
+      "original_from": "da-san-francisco",
+      "original_to": "victim-san-francisco"
+    },
+    {
+      "to": "addressee:government/justice/da-sf-hate-crime",
+      "relation": "specialized_intake",
+      "basis": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "limits": "Local venue",
+      "source": "authority-oversight",
+      "original_from": "da-san-francisco",
+      "original_to": "da-sf-hate-crime"
+    }
+  ]
+}

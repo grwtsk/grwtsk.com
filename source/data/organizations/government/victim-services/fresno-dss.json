@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/fresno-dss",
+  "addressee_type": "named_public_office",
+  "name": "Fresno County Department of Social Services administration",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "Fresno County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Sanja Bugay"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "fresno-dss",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team",
+        "phone": "559-600-2302"
+      },
+      "record": {
+        "level": "local_protective_services",
+        "office": "Fresno County Department of Social Services administration",
+        "scope": "Fresno County",
+        "purpose": "Administrative escalation for county social services; APS intake remains primary.",
+        "source_urls": [
+          "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Sanja Bugay"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/social-services/aps-fresno",
+      "relation": "departmental_administration",
+      "basis": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "limits": "Direct reports to APS hotline.",
+      "source": "authority-oversight",
+      "original_from": "fresno-dss",
+      "original_to": "aps-fresno"
+    }
+  ]
+}

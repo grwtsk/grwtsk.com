@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/fresno-victim-center",
+  "addressee_type": "organizational_or_official_route",
+  "name": "James Rowland Crime Victim Assistance Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "Fresno County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "fresno-victim-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+        "phone": "559-600-2822"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "James Rowland Crime Victim Assistance Center",
+        "scope": "Fresno County",
+        "purpose": "Local victim advocate, assistance with compensation and justice-system navigation.",
+        "limits": "Not a substitute for filing an initial police report in the correct jurisdiction.",
+        "source_urls": [
+          "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+          "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

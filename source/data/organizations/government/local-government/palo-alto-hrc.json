@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/palo-alto-hrc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Palo Alto Human Relations Commission",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "Palo Alto"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "palo-alto-hrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Relations-Commission"
+      ],
+      "channel": {
+        "type": "public_policy_and_referral",
+        "url": "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Relations-Commission"
+      },
+      "record": {
+        "category": "local_policy",
+        "organization": "Palo Alto Human Relations Commission",
+        "service_area": "Palo Alto",
+        "purpose": "Race and equity policy and community inclusion.",
+        "limitations": "Public communications can become public records; discuss de-identified policy issues, not personal medical records or named allegations.",
+        "source_urls": [
+          "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Relations-Commission"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "disability-access",
+          "systemic-accountability",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "deidentified_policy_inquiry",
+          "disclosure": "deidentified",
+          "action": "verify_official_policy_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

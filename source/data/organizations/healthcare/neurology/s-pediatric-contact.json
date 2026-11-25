@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/s-pediatric-contact",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Pediatric Neurology locations",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford Medicine Children's Health"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "s-pediatric-contact",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.stanfordchildrens.org/en/services/neurology/locations.html"
+      ],
+      "channel": {
+        "kind": "pediatric_appointment_phone",
+        "url": "https://www.stanfordchildrens.org/en/services/neurology/locations.html",
+        "phone": "650-502-7202"
+      },
+      "record": {
+        "institution": "Stanford Medicine Children's Health",
+        "name": "Pediatric Neurology locations",
+        "type": "clinical_locator",
+        "source_urls": [
+          "https://www.stanfordchildrens.org/en/services/neurology/locations.html"
+        ],
+        "purpose": "Pediatric clinical locations, including Peninsula, East Bay, South Bay and additional communities.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Directory navigation and appropriate care referral or designated leadership routing only; not a separate complaint recipient."
+      }
+    }
+  ]
+}

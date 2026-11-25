@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/alz-association",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Alzheimer's Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "alz-association",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.alz.org/get-involved-now/advocate"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.alz.org/get-involved-now/advocate"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Alzheimer's Association",
+        "service_area": "National",
+        "purpose": "Dementia care, diagnostic access and research advocacy.",
+        "source_urls": [
+          "https://www.alz.org/get-involved-now/advocate"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

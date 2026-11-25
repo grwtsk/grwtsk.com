@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/redwood-city-pulse",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Redwood City Pulse",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "info@rwcpulse.com",
+  "scope": [
+    "Redwood City"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "redwood-city-pulse",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.rwcpulse.com/about-us/"
+      ],
+      "channel": {
+        "kind": "general_newsroom_inquiry",
+        "url": "https://www.rwcpulse.com/about-us/"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "Redwood City Pulse",
+        "coverage": "Redwood City",
+        "source_urls": [
+          "https://www.rwcpulse.com/about-us/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local clinical-site and community reporting if relevant to actual events.",
+        "limitations": "General inquiries, not a dedicated confidential tip inbox.",
+        "shared_network": "embarcadero"
+      }
+    }
+  ]
+}

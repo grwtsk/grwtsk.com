@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-staff-public-affairs-manager",
+  "addressee_type": "named_public_office",
+  "name": "Public Affairs Manager",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Alexandria Schembra"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-staff-public-affairs-manager",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/About/Members/",
+        "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf",
+        "https://www.dca.ca.gov/about_us/board_bureau_leadership.html",
+        "https://www.mbc.ca.gov/Contact/default.aspx"
+      ],
+      "shared_channel_id": "mbc_exec",
+      "record": {
+        "group": "medical_board_executive",
+        "role": "Public Affairs Manager",
+        "person": "Alexandria Schembra",
+        "source_keys": [
+          "roster",
+          "agenda",
+          "dcaexec",
+          "mbc"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Public records and general information",
+        "limits": "Use designated executive office, not individual contact list. Staff counsel represents Board, not complainant."
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/health-regulation/mbc-staff-executive-director"
+  ]
+}

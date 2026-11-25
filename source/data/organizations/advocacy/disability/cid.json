@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/cid",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Center for Independence of Individuals with Disabilities",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@cidsanmateo.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Ligia Andrade Zúñiga"
+  ],
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "cid",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/",
+        "https://www.cidsanmateo.org/"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.cidsanmateo.org/",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "record": {
+        "category": "disability_advocacy",
+        "organization": "Center for Independence of Individuals with Disabilities",
+        "service_area": "San Mateo County",
+        "purpose": "Independent living, equal community participation and systemic disability advocacy.",
+        "limitations": "Request resource guidance; not individual misconduct adjudication.",
+        "source_urls": [
+          "https://www.cidsanmateo.org/",
+          "https://calsilc.ca.gov/independent-locator/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "disability-access",
+          "community-support",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "published_directory_route"
+        },
+        "listed_leadership": {
+          "name": "Ligia Andrade Zúñiga",
+          "role": "Executive Director",
+          "source_url": "https://calsilc.ca.gov/independent-locator/",
+          "checked_on": "2026-11-24",
+          "email_is_shared_organization_channel": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ca-ag-dmfea",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California DOJ Division of Medi-Cal Fraud and Elder Abuse",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-ag-dmfea",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oag.ca.gov/dmfea/reporting",
+        "https://oag.ca.gov/node/614884"
+      ],
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://oag.ca.gov/dmfea/reporting"
+      },
+      "record": {
+        "level": "state_enforcement",
+        "office": "California DOJ Division of Medi-Cal Fraud and Elder Abuse",
+        "scope": "California",
+        "purpose": "Report suspected dependent-adult/elder abuse or Medi-Cal provider fraud within applicable jurisdiction.",
+        "source_urls": [
+          "https://oag.ca.gov/dmfea/reporting",
+          "https://oag.ca.gov/node/614884"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Agency explicitly discourages AI-composed complaints; user should submit firsthand facts in their own words. Do not allege billing fraud without evidence."
+      }
+    }
+  ]
+}

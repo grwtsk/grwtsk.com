@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/merced-focus",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Merced FOCUS",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "comms@cvlocaljournalism.org",
+  "scope": [
+    "Merced County and San Joaquin Valley"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "merced-focus",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://themercedfocus.org/submit-news-tip/"
+      ],
+      "channel": {
+        "kind": "submission_email",
+        "url": "https://themercedfocus.org/submit-news-tip/"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "The Merced FOCUS",
+        "coverage": "Merced County and San Joaquin Valley",
+        "source_urls": [
+          "https://themercedfocus.org/submit-news-tip/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Regional community accountability and policy news.",
+        "limitations": "Submission terms grant editing/publication rights; not a secure route for sensitive records.",
+        "shared_network": "cvjc"
+      }
+    }
+  ]
+}

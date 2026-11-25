@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/spiritcare",
+  "addressee_type": "organizational_or_official_route",
+  "name": "SpiritCare Ministry to Seniors",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": null,
+  "scope": [
+    "Peninsula / San Mateo County"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "spiritcare",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "spiritual_support",
+        "name": "SpiritCare Ministry to Seniors",
+        "area": "Peninsula / San Mateo County",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Spiritual support for seniors; contact program for eligibility.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

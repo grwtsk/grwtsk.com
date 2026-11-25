@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/ican",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Crime Victims Assistance Network (iCAN) Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "ican",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-other/"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "phone": "916-273-3603"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "Crime Victims Assistance Network (iCAN) Foundation",
+        "scope": "California",
+        "purpose": "Victim advocacy and referrals.",
+        "limits": "State directory listing; current intake eligibility not separately checked.",
+        "source_urls": [
+          "https://www.cdcr.ca.gov/victim-services/resources-other/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

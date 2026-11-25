@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/cbs-60-minutes",
+  "addressee_type": "organizational_or_official_route",
+  "name": "CBS News / 60 Minutes",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "cbs-60-minutes",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.cbsnews.com/news/60-minutes-secure-tip-system/",
+        "signal": "1-917-682-0143"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "CBS News / 60 Minutes",
+        "coverage": "National",
+        "source_urls": [
+          "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Document-based national investigations including health care.",
+        "limitations": "Dedicated Signal or mail routes; not for editorials, blogs or press releases.",
+        "shared_network": "cbs"
+      }
+    }
+  ]
+}

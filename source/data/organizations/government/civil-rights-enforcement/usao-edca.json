@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/usao-edca",
+  "addressee_type": "organizational_or_official_route",
+  "name": "U.S. Attorney Eastern District of California – Civil Division",
+  "aliases": [
+    "U.S. Attorney – Eastern District affirmative civil enforcement"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "Eastern District of California",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "usao-edca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-edca/divisions/civil-division",
+        "https://www.justice.gov/usao-edca/divisions",
+        "https://www.justice.gov/usao-edca/contact-us"
+      ],
+      "channel": {
+        "kind": "office_contact",
+        "url": "https://www.justice.gov/usao-edca/divisions/civil-division"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "U.S. Attorney Eastern District of California – Civil Division",
+        "scope": "Eastern District of California",
+        "purpose": "Federal affirmative civil enforcement within EDCA.",
+        "source_urls": [
+          "https://www.justice.gov/usao-edca/divisions/civil-division",
+          "https://www.justice.gov/usao-edca/divisions",
+          "https://www.justice.gov/usao-edca/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use postal correspondence or appropriate DOJ intake; webmaster cannot accept case material."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "usao-edca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-edca/divisions/civil-division"
+      ],
+      "channel": {
+        "kind": "official_website",
+        "url": "https://www.justice.gov/usao-edca/divisions/civil-division"
+      },
+      "record": {
+        "role": "U.S. Attorney – Eastern District affirmative civil enforcement",
+        "jurisdiction": "Eastern District of California",
+        "source": [
+          "https://www.justice.gov/usao-edca/divisions/civil-division"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Federal civil enforcement, including disability rights; confirm submission procedure."
+      }
+    }
+  ]
+}

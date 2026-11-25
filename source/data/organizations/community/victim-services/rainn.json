@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/rainn",
+  "addressee_type": "organizational_or_official_route",
+  "name": "RAINN National Sexual Assault Hotline",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "rainn",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://selfhelp.courts.ca.gov/victims-assistance",
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://selfhelp.courts.ca.gov/victims-assistance",
+        "phone": "800-656-4673"
+      },
+      "record": {
+        "category": "survivor_support",
+        "organization": "RAINN National Sexual Assault Hotline",
+        "scope": "United States",
+        "purpose": "Confidential support for people affected by sexual violence.",
+        "limits": "Support only; no inference that current allegations meet a particular criminal classification.",
+        "source_urls": [
+          "https://selfhelp.courts.ca.gov/victims-assistance",
+          "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/south-bay-labor",
+  "addressee_type": "organizational_or_official_route",
+  "name": "South Bay AFL-CIO Labor Council",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara and San Benito counties / Silicon Valley"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "south-bay-labor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.southbaylabor.org/board_and_staff",
+        "https://calaborfed.org/central-labor-councils/",
+        "https://www.southbaylabor.org/sgwu_first_contract"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.southbaylabor.org/board_and_staff",
+        "phone": "408-606-2060"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "South Bay AFL-CIO Labor Council",
+        "scope": "Santa Clara and San Benito counties / Silicon Valley",
+        "source_urls": [
+          "https://www.southbaylabor.org/board_and_staff",
+          "https://calaborfed.org/central-labor-councils/",
+          "https://www.southbaylabor.org/sgwu_first_contract"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Federation of over 100 affiliated unions; regional worker rights and policy.",
+        "limits": "Council's organizational scope, not evidence every affiliate has investigated Stanford."
+      }
+    }
+  ]
+}

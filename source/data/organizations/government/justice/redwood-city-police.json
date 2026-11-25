@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/redwood-city-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Redwood City Police – Stanford Redwood City campus routing",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "Redwood City"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "redwood-city-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.police.stanford.edu/file-policereport.html"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.police.stanford.edu/file-policereport.html",
+        "phone": "650-780-7118"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "Redwood City Police – Stanford Redwood City campus routing",
+        "scope": "Redwood City",
+        "purpose": "Report incident at Redwood City site if applicable.",
+        "source_urls": [
+          "https://www.police.stanford.edu/file-policereport.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Stanford's published dispatch instructions; do not refer unrelated incidents."
+      }
+    }
+  ]
+}

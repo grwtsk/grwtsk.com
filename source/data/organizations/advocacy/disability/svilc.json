@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/svilc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Silicon Valley Independent Living Center",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@svilc.org",
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Sheri Burns"
+  ],
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "svilc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/",
+        "https://svilc.org/contact-us/"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://svilc.org/contact-us/",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "record": {
+        "category": "disability_advocacy",
+        "organization": "Silicon Valley Independent Living Center",
+        "service_area": "Santa Clara County",
+        "purpose": "Disability advocacy, independent living and systems change resources.",
+        "limitations": "Seek eligibility and assistance; not an investigator or automatic coalition member.",
+        "source_urls": [
+          "https://svilc.org/contact-us/",
+          "https://calsilc.ca.gov/independent-locator/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "disability-access",
+          "community-support",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "published_directory_route"
+        },
+        "listed_leadership": {
+          "name": "Sheri Burns",
+          "role": "Executive Director",
+          "source_url": "https://calsilc.ca.gov/independent-locator/",
+          "checked_on": "2026-11-24",
+          "email_is_shared_organization_channel": true
+        }
+      }
+    }
+  ]
+}

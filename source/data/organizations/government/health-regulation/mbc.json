@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Central Complaint Unit",
+  "aliases": [
+    "Medical Board of California – complaint intake"
+  ],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-ccu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/Consumers/file-a-complaint/",
+        "https://www.mbc.ca.gov/FAQs/default.aspx?cat=Complaint&topic=Complaint%3A+Investigations"
+      ],
+      "shared_channel_id": "mbc_ccu",
+      "record": {
+        "group": "medical_board_units",
+        "role": "Central Complaint Unit",
+        "person": null,
+        "source_keys": [
+          "complaint",
+          "investigation"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Intake, triage and complaint assessment; confirm original disposition.",
+        "limits": "Separate provider complaints; prior case reference privately."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "mbc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/Consumers/file-a-complaint/default.aspx"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.mbc.ca.gov/Consumers/file-a-complaint/default.aspx"
+      },
+      "record": {
+        "role": "Medical Board of California – complaint intake",
+        "jurisdiction": "California",
+        "source": [
+          "https://www.mbc.ca.gov/Consumers/file-a-complaint/default.aspx"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Physician professional conduct and care; submit separate provider complaints."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "mbc_ccu",
+      "channel": {
+        "url": "https://www.mbc.ca.gov/Consumers/file-a-complaint/",
+        "phone": "800-633-2322",
+        "fax": "916-263-2435",
+        "kind": "formal_complaint",
+        "mail": "Central Complaint Unit, 2005 Evergreen Street, Suite 1200, Sacramento, CA 95815-5401"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-cio",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Complaint Investigation Office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-cio",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/FAQs/default.aspx?cat=Complaint&topic=Complaint%3A+Investigations",
+        "https://www.mbc.ca.gov/Resources/Publications/Enforcement-report.aspx",
+        "https://www.mbc.ca.gov/About/Meetings/Material/31667/brd-AgendaItem6C-20261119.pdf"
+      ],
+      "shared_channel_id": "mbc_exec",
+      "record": {
+        "group": "medical_board_units",
+        "role": "Complaint Investigation Office",
+        "person": null,
+        "source_keys": [
+          "investigation",
+          "monitor",
+          "enforcementreport"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Investigative review where assigned to CIO rather than HQIU.",
+        "limits": "Confirm actual investigator and referral stage."
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/health-regulation/mbc-staff-executive-director"
+  ]
+}

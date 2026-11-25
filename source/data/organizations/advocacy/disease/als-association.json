@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/als-association",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ALS Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "als-association",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.als.org/advocacy"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.als.org/advocacy"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "ALS Association",
+        "service_area": "National",
+        "purpose": "ALS research, care access and nonpartisan legislative advocacy.",
+        "source_urls": [
+          "https://www.als.org/advocacy"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

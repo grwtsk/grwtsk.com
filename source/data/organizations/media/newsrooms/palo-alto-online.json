@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/palo-alto-online",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Palo Alto Weekly / Palo Alto Online",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "Palo Alto and Stanford"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "palo-alto-online",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      ],
+      "channel": {
+        "kind": "tip_form",
+        "url": "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "Palo Alto Weekly / Palo Alto Online",
+        "coverage": "Palo Alto and Stanford",
+        "source_urls": [
+          "https://www.paloaltoonline.com/send-us-a-news-tip/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local institutional accountability and community reporting.",
+        "limitations": "Submission may grant permission to publish unless otherwise stated; not a confidential channel.",
+        "shared_network": "embarcadero"
+      }
+    }
+  ]
+}

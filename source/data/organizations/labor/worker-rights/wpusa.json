@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/wpusa",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Working Partnerships USA",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "San Jose / Silicon Valley"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "wpusa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://wpusa.org/",
+        "https://wpusa.org/workers-are-setting-the-rules-for-ai-in-silicon-valley/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://wpusa.org/",
+        "phone": "408-809-2120"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "Working Partnerships USA",
+        "scope": "San Jose / Silicon Valley",
+        "source_urls": [
+          "https://wpusa.org/",
+          "https://wpusa.org/workers-are-setting-the-rules-for-ai-in-silicon-valley/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Job quality, institutional accountability, equitable technology governance and community policy.",
+        "limits": "Regional policy work; no demonstrated specific investigation of the physician complaint."
+      }
+    }
+  ]
+}

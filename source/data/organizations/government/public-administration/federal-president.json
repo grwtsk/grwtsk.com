@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/federal-president",
+  "addressee_type": "organizational_or_official_route",
+  "name": "White House Office of Presidential Correspondence",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "federal-president",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.whitehouse.gov/contact/terms/",
+        "https://www.whitehouse.gov/contact/help/"
+      ],
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.whitehouse.gov/contact/terms/"
+      },
+      "record": {
+        "level": "federal_executive",
+        "office": "White House Office of Presidential Correspondence",
+        "scope": "United States",
+        "purpose": "Federal policy concerns or appropriate agency referral.",
+        "source_urls": [
+          "https://www.whitehouse.gov/contact/terms/",
+          "https://www.whitehouse.gov/contact/help/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a criminal complaint or court appeal; agency assistance requires individual authorization and review."
+      }
+    }
+  ]
+}

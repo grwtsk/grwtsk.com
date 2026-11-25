@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-services/ucsf-bledsoe-care",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF care-team communication",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-services"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF Health",
+    "existing_patient_care_only"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "ucsf-bledsoe-care",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ucsfhealth.org/health-articles/communicating-with-health-care-team",
+        "https://www.ucsfhealth.org/providers/ian-bledsoe"
+      ],
+      "channel": {
+        "kind": "secure_patient_portal_instructions",
+        "url": "https://www.ucsfhealth.org/health-articles/communicating-with-health-care-team"
+      },
+      "record": {
+        "role": "UCSF care-team communication",
+        "jurisdiction": "UCSF Health",
+        "listed_officeholder": null,
+        "source": [
+          "https://www.ucsfhealth.org/providers/ian-bledsoe",
+          "https://www.ucsfhealth.org/health-articles/communicating-with-health-care-team"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "existing_patient_care_only",
+        "purpose": "Dr. Ian O. Bledsoe, identified in the article, is a UCSF movement-disorders neurologist. Use MyChart only for appropriate individual nonurgent care questions; direct any complaint about a named physician to Patient Relations or regulators. Not an independent reviewer or coalition participant by default."
+      }
+    }
+  ]
+}

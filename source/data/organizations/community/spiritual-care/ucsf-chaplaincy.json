@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/ucsf-chaplaincy",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF Spiritual Care Services",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF Health"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "ucsf-chaplaincy",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://spiritualcare.ucsf.edu/care-for-patients"
+      ],
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://spiritualcare.ucsf.edu/care-for-patients"
+      },
+      "record": {
+        "category": "spiritual_care",
+        "organization": "UCSF Spiritual Care Services",
+        "service_area": "UCSF Health",
+        "purpose": "Spiritual and emotional support for patients and loved ones.",
+        "limitations": "For immediate inpatient requests use care team; not a formal grievance route.",
+        "source_urls": [
+          "https://spiritualcare.ucsf.edu/care-for-patients"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "spiritual-care",
+          "caregiver-support"
+        ],
+        "contact_policy": {
+          "purpose": "pastoral_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_pastoral_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

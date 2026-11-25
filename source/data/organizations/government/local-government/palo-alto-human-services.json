@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/palo-alto-human-services",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Palo Alto Office of Human Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "human.services@paloalto.gov",
+  "scope": [
+    "Palo Alto"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "palo-alto-human-services",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloalto.gov/Departments/Community-Services/Human-Services"
+      ],
+      "channel": {
+        "kind": "public_office",
+        "url": "https://www.paloalto.gov/Departments/Community-Services/Human-Services",
+        "phone": "650-463-4906"
+      },
+      "record": {
+        "category": "municipal_referral",
+        "name": "Palo Alto Office of Human Services",
+        "area": "Palo Alto",
+        "source_urls": [
+          "https://www.paloalto.gov/Departments/Community-Services/Human-Services"
+        ],
+        "purpose": "Public human services, resource referral and accessible community services.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/dca-acting-director",
+  "addressee_type": "named_public_office",
+  "name": "Acting Director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Christine Lally"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "dca-acting-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dca.ca.gov/about_us/leadership.html",
+        "https://www.dca.ca.gov/about_us/board_members/contact_us.shtml"
+      ],
+      "shared_channel_id": "dca",
+      "record": {
+        "group": "dca",
+        "role": "Acting Director",
+        "person": "Christine Lally",
+        "source_keys": [
+          "dcalead",
+          "dca"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Executive oversight and response to complaint about Board services",
+        "limits": "Executive office routes appropriate requests; no direct personal inbox collection."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "dca",
+      "channel": {
+        "url": "https://www.dca.ca.gov/about_us/board_members/contact_us.shtml",
+        "phone": "916-574-8200",
+        "mail": "1625 North Market Blvd., Suite S-308, Sacramento, CA 95834",
+        "kind": "executive_office"
+      }
+    }
+  ]
+}

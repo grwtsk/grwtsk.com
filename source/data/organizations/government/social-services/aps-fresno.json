@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-fresno",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Fresno County Adult Protective Services",
+  "aliases": [
+    "County Adult Protective Services"
+  ],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": null,
+  "scope": [
+    "Fresno County",
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "aps-fresno",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/Adult-Services/Adult-Protective-Services"
+      ],
+      "channel": {
+        "kind": "24h_hotline",
+        "url": "https://www.fresnocountyca.gov/Departments/Social-Services/Adult-Services/Adult-Protective-Services",
+        "phone": "559-600-3383"
+      },
+      "record": {
+        "level": "local_protective_services",
+        "office": "Fresno County Adult Protective Services",
+        "scope": "Fresno County",
+        "purpose": "Assess suspected ongoing dependent-adult neglect or abuse and local support/referrals.",
+        "source_urls": [
+          "https://www.fresnocountyca.gov/Departments/Social-Services/Adult-Services/Adult-Protective-Services"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "If immediate physical danger or medical emergency call 911."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-fresno",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Fresno County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "local_support",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    }
+  ]
+}

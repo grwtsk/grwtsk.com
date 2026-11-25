@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/ca-cdcr-ovsrs",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CDCR Office of Victim and Survivor Rights and Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "victimservices@cdcr.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "ca-cdcr-ovsrs",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "https://oag.ca.gov/pcju/victim-resources"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "phone": "877-256-6877"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "CDCR Office of Victim and Survivor Rights and Services",
+        "scope": "California",
+        "purpose": "Victim services relating to correctional system and resource navigation.",
+        "limits": "Case services generally involve convicted persons in CDCR jurisdiction; not an initial crime report.",
+        "source_urls": [
+          "https://www.cdcr.ca.gov/victim-services/resources-other/",
+          "https://oag.ca.gov/pcju/victim-resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

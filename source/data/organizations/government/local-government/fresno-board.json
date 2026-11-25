@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/fresno-board",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Fresno County Board of Supervisors / Clerk",
+  "aliases": [
+    "Board of supervisors clerk"
+  ],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "clerkbos@fresnocountyca.gov",
+  "scope": [
+    "Fresno County",
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "fresno-board",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
+        "https://www.fresnocountyca.gov/Departments/Board-of-Supervisors"
+      ],
+      "published_address": "ClerkBOS@FresnoCountyCA.gov",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
+        "phone": "559-600-3529"
+      },
+      "record": {
+        "level": "local_legislative",
+        "office": "Fresno County Board of Supervisors / Clerk",
+        "scope": "Fresno County",
+        "purpose": "Local social service and public health budget/policy oversight; constituent referral.",
+        "source_urls": [
+          "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
+          "https://www.fresnocountyca.gov/Departments/Board-of-Supervisors"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not prosecution authority; avoid protected health information in public comments."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-fresno-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Fresno County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "local_support",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/victim-services/fresno-dss",
+      "relation": "county_policy_budget_oversight",
+      "basis": [
+        "https://www.fresnocountyca.gov/Departments/Board-of-Supervisors",
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team"
+      ],
+      "limits": "Not prosecutorial direction.",
+      "source": "authority-oversight",
+      "original_from": "fresno-board",
+      "original_to": "fresno-dss"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/house-energy-commerce",
+  "addressee_type": "organizational_or_official_route",
+  "name": "House Energy and Commerce Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "house-energy-commerce",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://clerk.house.gov/Committees/IF00",
+        "https://energycommerce.house.gov/energy-and-commerce-jursidiction"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://clerk.house.gov/Committees/IF00",
+        "phone": "202-225-3641",
+        "mail": "2125 Rayburn House Office Building, Washington, DC 20515"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "House Energy and Commerce Committee",
+        "scope": "United States",
+        "purpose": "Legislative oversight of health care and federal health regulation.",
+        "source_urls": [
+          "https://clerk.house.gov/Committees/IF00",
+          "https://energycommerce.house.gov/energy-and-commerce-jursidiction"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Systemic policy oversight, not individual adjudication."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/public-administration/hhs-secretary",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://energycommerce.house.gov/energy-and-commerce-jursidiction"
+      ],
+      "limits": "Policy oversight.",
+      "source": "authority-oversight",
+      "original_from": "house-energy-commerce",
+      "original_to": "hhs-secretary"
+    },
+    {
+      "to": "addressee:government/legislative/house-energy-health",
+      "relation": "committee_subcommittee",
+      "basis": [
+        "https://clerk.house.gov/Committees/IF00"
+      ],
+      "limits": "Shared office channel.",
+      "source": "authority-oversight",
+      "original_from": "house-energy-commerce",
+      "original_to": "house-energy-health"
+    },
+    {
+      "to": "addressee:government/legislative/house-energy-oversight",
+      "relation": "committee_subcommittee",
+      "basis": [
+        "https://clerk.house.gov/Committees/IF00"
+      ],
+      "limits": "Shared office channel.",
+      "source": "authority-oversight",
+      "original_from": "house-energy-commerce",
+      "original_to": "house-energy-oversight"
+    }
+  ]
+}

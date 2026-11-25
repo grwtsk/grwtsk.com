@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/s-movement-referral",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Movement Disorders Center",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "s-movement-referral",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/medical-clinics/movement-disorders-center.html",
+        "https://med.stanford.edu/neurology/contact.html"
+      ],
+      "channel": {
+        "kind": "clinical_appointment_phone",
+        "url": "https://stanfordhealthcare.org/medical-clinics/movement-disorders-center.html",
+        "phone": "650-723-6469"
+      },
+      "record": {
+        "institution": "Stanford",
+        "name": "Movement Disorders Center",
+        "type": "clinical_referral",
+        "source_urls": [
+          "https://stanfordhealthcare.org/medical-clinics/movement-disorders-center.html",
+          "https://med.stanford.edu/neurology/contact.html"
+        ],
+        "purpose": "Movement disorders and ataxia care; use clinical referral as appropriate.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Directory navigation and appropriate care referral or designated leadership routing only; not a separate complaint recipient."
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/civil-rights/aclu-norcal",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ACLU of Northern California – legal intake",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "civil-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Northern California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "aclu-norcal",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aclunorcal.org/contact-us/"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.aclunorcal.org/contact-us/"
+      },
+      "record": {
+        "category": "civil_rights",
+        "organization": "ACLU of Northern California – legal intake",
+        "service_area": "Northern California",
+        "purpose": "Seek confidential screening of civil liberties concerns and referrals.",
+        "limitations": "Limited case acceptance; no guarantee of representation.",
+        "source_urls": [
+          "https://www.aclunorcal.org/contact-us/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "systemic-accountability"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

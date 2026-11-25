@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/cal-ag-vsu",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Attorney General Victims' Services Unit",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "cal-ag-vsu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oag.ca.gov/victimservices/contact"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://oag.ca.gov/victimservices/contact",
+        "phone": "877-433-9069"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "California Attorney General Victims' Services Unit",
+        "scope": "California",
+        "purpose": "Victim support and appropriate referral.",
+        "limits": "Not an initial crime-report or consumer-complaint form.",
+        "source_urls": [
+          "https://oag.ca.gov/victimservices/contact"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

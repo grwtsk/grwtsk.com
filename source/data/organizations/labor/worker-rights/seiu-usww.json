@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/seiu-usww",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "SEIU United Service Workers West",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "info@seiu-usww.org",
+  "scope": [
+    "Bay Area janitorial and service workers, including historical Stanford subcontractor workforce"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "seiu-usww",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.seiu-usww.org/contact-us/",
+        "https://www.seiu-usww.org/contact-us/find-your-organizer/",
+        "https://stanforddaily.com/2024/02/02/inside-ug2-at-stanford-surveillance-favoritism-intimidation/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.seiu-usww.org/contact-us/",
+        "phone": "408-280-7770"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "SEIU United Service Workers West",
+        "scope": "Bay Area janitorial and service workers, including historical Stanford subcontractor workforce",
+        "source_urls": [
+          "https://www.seiu-usww.org/contact-us/",
+          "https://www.seiu-usww.org/contact-us/find-your-organizer/",
+          "https://stanforddaily.com/2024/02/02/inside-ug2-at-stanford-surveillance-favoritism-intimidation/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Service and contracted workers; workplace rights and grievance assistance.",
+        "limits": "Workers' published criticisms include grievances about union representation; do not presume endorsement. San Jose office."
+      }
+    }
+  ]
+}

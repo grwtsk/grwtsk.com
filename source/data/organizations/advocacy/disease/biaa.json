@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/biaa",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Brain Injury Association of America",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "biaa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Brain Injury Association of America",
+        "service_area": "National",
+        "purpose": "Brain injury prevention, care coordination and policy.",
+        "source_urls": [
+          "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

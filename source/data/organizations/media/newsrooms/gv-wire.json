@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/gv-wire",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "GV Wire",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news@gvwire.com",
+  "scope": [
+    "Fresno and Central Valley"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "gv-wire",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://gvwire.com/contact/"
+      ],
+      "channel": {
+        "kind": "news_tip_email",
+        "url": "https://gvwire.com/contact/"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "GV Wire",
+        "coverage": "Fresno and Central Valley",
+        "source_urls": [
+          "https://gvwire.com/contact/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Regional policy, health and public-interest reporting.",
+        "limitations": "General newsroom tips inbox; not an encrypted service."
+      }
+    }
+  ]
+}

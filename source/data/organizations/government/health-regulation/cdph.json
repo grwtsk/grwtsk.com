@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cdph",
+  "addressee_type": "organizational_or_official_route",
+  "name": "CDPH Center for Health Care Quality – Licensing and Certification",
+  "aliases": [
+    "California Department of Public Health – facility complaints",
+    "California Department of Public Health, Licensing and Certification"
+  ],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "cdph",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/FileAComplaint.aspx",
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/FileAComplaint.aspx"
+      },
+      "record": {
+        "level": "state_regulatory",
+        "office": "CDPH Center for Health Care Quality – Licensing and Certification",
+        "scope": "California",
+        "purpose": "Facility complaint routed to responsible district; state and relevant federal survey requirements.",
+        "source_urls": [
+          "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/FileAComplaint.aspx",
+          "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Select exact facility and incident; not all physician offices are licensed facilities."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "cdph",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdph.ca.gov/i-am-looking-for/health-facilities/file-a-complaint"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.cdph.ca.gov/i-am-looking-for/health-facilities/file-a-complaint"
+      },
+      "record": {
+        "role": "California Department of Public Health – facility complaints",
+        "jurisdiction": "California",
+        "source": [
+          "https://www.cdph.ca.gov/i-am-looking-for/health-facilities/file-a-complaint"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Licensed health-facility investigation."
+      }
+    },
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "investigation_organizations",
+      "record_id": "cdph",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/CalHealthFind/Pages/Home.aspx"
+      ],
+      "channel": {
+        "kind": "facility_complaint",
+        "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/CalHealthFind/Pages/Home.aspx"
+      },
+      "record": {
+        "organization": "California Department of Public Health, Licensing and Certification",
+        "role": "regulatory_survey_and_enforcement",
+        "source_urls": [
+          "https://www.cdph.ca.gov/Programs/CHCQ/LCP/CalHealthFind/Pages/Home.aspx"
+        ],
+        "verified_on": "2026-11-24",
+        "relevance": "Patient safety, abuse reporting and facility compliance.",
+        "limits": "Use exact facility; CDPH also conducts federal surveys. No duplicate report to every district."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/cdph-district-sf",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-sf"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-sj",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-sj"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-santarosa",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-santarosa"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-stockton",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-stockton"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-ventura",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-ventura"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-bakersfield",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-bakersfield"
+    },
+    {
+      "to": "addressee:government/health-regulation/cdph-district-chico",
+      "relation": "district_facility_oversight",
+      "basis": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "limits": "Verify facility assignment, including city-specific splits.",
+      "source": "authority-oversight",
+      "original_from": "cdph",
+      "original_to": "cdph-district-chico"
+    }
+  ]
+}

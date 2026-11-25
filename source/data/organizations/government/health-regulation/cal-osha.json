@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cal-osha",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Cal/OSHA — Division of Occupational Safety and Health",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "investigation_organizations",
+      "record_id": "cal-osha",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dir.ca.gov/dosh/Complaint.htm"
+      ],
+      "channel": {
+        "kind": "workplace_safety_complaint",
+        "url": "https://www.dir.ca.gov/dosh/Complaint.htm"
+      },
+      "record": {
+        "organization": "Cal/OSHA — Division of Occupational Safety and Health",
+        "role": "workplace_regulator",
+        "source_urls": [
+          "https://www.dir.ca.gov/dosh/Complaint.htm"
+        ],
+        "verified_on": "2026-11-24",
+        "relevance": "Employee workplace safety investigations.",
+        "limits": "Not patient medical complaint jurisdiction. Use only if documented workplace hazard."
+      }
+    }
+  ]
+}

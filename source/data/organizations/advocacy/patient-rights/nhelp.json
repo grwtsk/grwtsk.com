@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/nhelp",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Health Law Program",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": null,
+  "scope": [
+    "California / National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "nhelp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://healthlaw.org/about/contact-us/",
+        "https://healthlaw.org/disability-advocacy/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://healthlaw.org/about/contact-us/",
+        "phone": "310-204-6010"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "National Health Law Program",
+        "service_area": "California / National",
+        "purpose": "Health rights for underserved and low-income people, civil rights and Medicaid policy; referrals via official contact page.",
+        "source_urls": [
+          "https://healthlaw.org/about/contact-us/",
+          "https://healthlaw.org/disability-advocacy/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/hhs-privacy",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "HHS OCR – health information privacy",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "ocrprivacy@hhs.gov",
+  "scope": [
+    "United States"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "hhs-privacy",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "published_address": "OCRPrivacy@hhs.gov",
+      "channel": {
+        "kind": "inquiry",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "HHS OCR – health information privacy",
+        "scope": "United States",
+        "purpose": "HIPAA or other OCR-covered health information concerns.",
+        "source_urls": [
+          "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Distinguish record accuracy disputes from a HIPAA violation."
+      }
+    }
+  ]
+}

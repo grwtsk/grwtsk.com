@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/dmrf",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Dystonia Medical Research Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "dmrf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dystonia-foundation.org/become-a-legislative-advocate/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://dystonia-foundation.org/become-a-legislative-advocate/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Dystonia Medical Research Foundation",
+        "service_area": "National",
+        "purpose": "Dystonia treatment and research access policy.",
+        "source_urls": [
+          "https://dystonia-foundation.org/become-a-legislative-advocate/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

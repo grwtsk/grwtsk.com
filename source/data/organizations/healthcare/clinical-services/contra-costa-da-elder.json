@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-services/contra-costa-da-elder",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Contra Costa DA – elder/dependent abuse and consumer protection directory",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-services"
+  ],
+  "email": null,
+  "scope": [
+    "California / Contra Costa County",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "contra-costa-da-elder",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.contracosta.ca.gov/Directory/Home/DepartmentListing?DID=36"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.contracosta.ca.gov/Directory/Home/DepartmentListing?DID=36"
+      },
+      "record": {
+        "role": "Contra Costa DA – elder/dependent abuse and consumer protection directory",
+        "jurisdiction": "California / Contra Costa County",
+        "source": [
+          "https://www.contracosta.ca.gov/Directory/Home/DepartmentListing?DID=36"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Ask appropriate unit to determine venue and statutory jurisdiction."
+      }
+    }
+  ]
+}

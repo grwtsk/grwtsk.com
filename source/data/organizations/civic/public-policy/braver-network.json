@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/braver-network",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Braver Angels / Braver Network",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": "braver-network@braverangels.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "braver-network",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://braverangels.org/braver-network/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://braverangels.org/braver-network/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Braver Angels / Braver Network",
+        "service_area": "National",
+        "purpose": "Cross-partisan civic dialogue and cooperation, not adjudication or advocacy for any specific allegation.",
+        "source_urls": [
+          "https://braverangels.org/braver-network/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

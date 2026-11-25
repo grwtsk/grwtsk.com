@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/stanford-orsl",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Office for Religious and Spiritual Life",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford University"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "stanford-orsl",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://orsl.stanford.edu/orsl-spiritual-care"
+      ],
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://orsl.stanford.edu/orsl-spiritual-care"
+      },
+      "record": {
+        "category": "spiritual_care",
+        "organization": "Stanford Office for Religious and Spiritual Life",
+        "service_area": "Stanford University",
+        "purpose": "Spiritual care, ethical reflection and referrals; office led by Dean for Religious and Spiritual Life.",
+        "limitations": "Eligibility generally Stanford students, faculty, staff and affiliates. Use hospital Spiritual Care for patients. Not investigator.",
+        "source_urls": [
+          "https://orsl.stanford.edu/orsl-spiritual-care"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "spiritual-care",
+          "caregiver-support"
+        ],
+        "contact_policy": {
+          "purpose": "pastoral_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_pastoral_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

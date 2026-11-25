@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/referrals/clsepa",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Community Legal Services in East Palo Alto",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "referrals"
+  ],
+  "email": null,
+  "scope": [
+    "East Palo Alto / Mountain View"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "clsepa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://clsepa.org/contact/",
+        "https://www.smcgov.org/north-fair-oaks-community/community-directory"
+      ],
+      "channel": {
+        "kind": "official_organization_page",
+        "url": "https://clsepa.org/contact/",
+        "phone": "650-326-6440"
+      },
+      "record": {
+        "category": "legal",
+        "name": "Community Legal Services in East Palo Alto",
+        "area": "East Palo Alto / Mountain View",
+        "source_urls": [
+          "https://www.smcgov.org/north-fair-oaks-community/community-directory",
+          "https://clsepa.org/contact/"
+        ],
+        "purpose": "Legal aid and referral screening.",
+        "verification": "official_organization_contact_page_and_directory_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

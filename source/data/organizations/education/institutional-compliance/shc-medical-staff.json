@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-compliance/shc-medical-staff",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Health Care Medical Staff Office",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-compliance"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "shc-medical-staff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://stanfordhealthcare.org/about-us/contact.html",
+        "phone": "650-725-6021"
+      },
+      "record": {
+        "level": "institutional_compliance",
+        "office": "Stanford Health Care Medical Staff Office",
+        "scope": "Stanford Health Care",
+        "purpose": "Ask Patient Relations for appropriate medical-staff leadership review and escalation.",
+        "source_urls": [
+          "https://stanfordhealthcare.org/about-us/contact.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Administrative office; not a substitute for Medical Board complaint."
+      }
+    }
+  ]
+}

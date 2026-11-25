@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/palo-alto-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Palo Alto Police Department",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "Palo Alto city limits"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "palo-alto-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloalto.gov/Departments/Police/Online-Reporting/File-a-Police-Report",
+        "https://www.paloalto.gov/Departments/Police/Contact-Directory"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.paloalto.gov/Departments/Police/Online-Reporting/File-a-Police-Report",
+        "phone": "650-329-2413"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "Palo Alto Police Department",
+        "scope": "Palo Alto city limits",
+        "purpose": "Report alleged crime in city; call for incidents not eligible for minor-crime online reporting.",
+        "source_urls": [
+          "https://www.paloalto.gov/Departments/Police/Online-Reporting/File-a-Police-Report",
+          "https://www.paloalto.gov/Departments/Police/Contact-Directory"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "General department email not for crime reports or emergencies."
+      }
+    }
+  ]
+}

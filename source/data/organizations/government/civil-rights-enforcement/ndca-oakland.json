@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ndca-oakland",
+  "addressee_type": "organizational_or_official_route",
+  "name": "U.S. Attorney NDCA – Oakland office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "Northern District of California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ndca-oakland",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.justice.gov/usao-ndca/contact-us",
+        "phone": "510-637-3680",
+        "mail": "1301 Clay St., Oakland, CA 94612"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "U.S. Attorney NDCA – Oakland office",
+        "scope": "Northern District of California",
+        "purpose": "Local federal office for jurisdictional guidance; same district as Civil Rights Coordinator.",
+        "source_urls": [
+          "https://www.justice.gov/usao-ndca/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a separate civil rights filing; follow coordinator instructions. Do not use media inbox."
+      }
+    }
+  ]
+}

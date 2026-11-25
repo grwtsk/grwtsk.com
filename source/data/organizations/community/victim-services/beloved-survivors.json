@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/beloved-survivors",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Beloved Survivors Trauma Recovery Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "info@belovedsurvivors.com",
+  "scope": [
+    "Fresno / Sanger"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "beloved-survivors",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.belovedsurvivors.com/contact-us",
+        "https://www.sos.ca.gov/registries/safe-home/where-find-an-enrolling-agency"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.belovedsurvivors.com/contact-us",
+        "phone": "559-710-2300"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "Beloved Survivors Trauma Recovery Center",
+        "scope": "Fresno / Sanger",
+        "purpose": "Trauma survivor services; Secretary of State directory includes elder/dependent-adult abuse.",
+        "limits": "Ask about confidential support and accommodations; not an investigator.",
+        "source_urls": [
+          "https://www.belovedsurvivors.com/contact-us",
+          "https://www.sos.ca.gov/registries/safe-home/where-find-an-enrolling-agency"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

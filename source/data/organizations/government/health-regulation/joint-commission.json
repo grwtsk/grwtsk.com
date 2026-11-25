@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/joint-commission",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Joint Commission – patient safety reporting",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "United States",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "joint-commission",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.jointcommission.org/resources/patient-safety-topics/report-a-patient-safety-concern-or-complaint/"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.jointcommission.org/resources/patient-safety-topics/report-a-patient-safety-concern-or-complaint/"
+      },
+      "record": {
+        "role": "The Joint Commission – patient safety reporting",
+        "jurisdiction": "United States",
+        "source": [
+          "https://www.jointcommission.org/resources/patient-safety-topics/report-a-patient-safety-concern-or-complaint/"
+        ],
+        "verification": "linked_by_stanford_patient_relations",
+        "scope": "purpose_specific",
+        "purpose": "Facility patient safety; confirm accreditation and report scope."
+      }
+    }
+  ]
+}

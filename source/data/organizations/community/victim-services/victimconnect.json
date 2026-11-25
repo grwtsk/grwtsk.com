@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/victimconnect",
+  "addressee_type": "organizational_or_official_route",
+  "name": "VictimConnect Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "victimconnect",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victimconnect.org/chat",
+        "https://ovc.ojp.gov/help-for-victims/toll-free-text-and-online-hotlines"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://victimconnect.org/chat",
+        "phone": "855-484-2846"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "VictimConnect Resource Center",
+        "scope": "United States",
+        "purpose": "Confidential victim referrals and support by call, text or chat.",
+        "limits": "Not a law enforcement reporting line; request accessible text/chat.",
+        "source_urls": [
+          "https://victimconnect.org/chat",
+          "https://ovc.ojp.gov/help-for-victims/toll-free-text-and-online-hotlines"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

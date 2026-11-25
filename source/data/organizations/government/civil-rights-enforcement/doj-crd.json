@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/doj-crd",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Department of Justice Civil Rights Division",
+  "aliases": [
+    "United States Department of Justice – Civil Rights Division"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "United States",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "doj-crd",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.civilrights.justice.gov/report/",
+        "https://www.civilrights.justice.gov/"
+      ],
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.civilrights.justice.gov/report/",
+        "phone": "1-855-856-1247"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "Department of Justice Civil Rights Division",
+        "scope": "United States",
+        "purpose": "Report possible federally actionable civil rights violations.",
+        "source_urls": [
+          "https://www.civilrights.justice.gov/report/",
+          "https://www.civilrights.justice.gov/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not personal counsel. A filed report does not establish a violation."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "doj-crd",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://civilrights.justice.gov/"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://civilrights.justice.gov/"
+      },
+      "record": {
+        "role": "United States Department of Justice – Civil Rights Division",
+        "jurisdiction": "United States",
+        "source": [
+          "https://civilrights.justice.gov/"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Federal civil-rights report and referral."
+      }
+    }
+  ]
+}

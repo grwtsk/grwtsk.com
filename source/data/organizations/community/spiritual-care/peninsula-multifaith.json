@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/peninsula-multifaith",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Peninsula Multifaith Coalition",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County / Peninsula"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "peninsula-multifaith",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://peninsulamultifaith.org/contact"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://peninsulamultifaith.org/contact"
+      },
+      "record": {
+        "category": "spiritual_community",
+        "organization": "Peninsula Multifaith Coalition",
+        "service_area": "San Mateo County / Peninsula",
+        "purpose": "Interfaith community dialogue and referral to willing faith communities.",
+        "limitations": "Approach for pastoral support or general inclusion and dignity; do not disseminate individual allegations to congregations.",
+        "source_urls": [
+          "https://peninsulamultifaith.org/contact"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "spiritual-care",
+          "community-support"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

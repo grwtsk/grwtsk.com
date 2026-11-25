@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/civil-rights/naacp-silicon-valley",
+  "addressee_type": "organizational_or_official_route",
+  "name": "NAACP San José/Silicon Valley",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "civil-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "naacp-silicon-valley",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sjsvnaacp.org/"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.sjsvnaacp.org/"
+      },
+      "record": {
+        "category": "civil_rights",
+        "organization": "NAACP San José/Silicon Valley",
+        "service_area": "Santa Clara County",
+        "purpose": "Seek guidance on racial discrimination advocacy and suitable legal or organizational referrals.",
+        "limitations": "No authority to adjudicate the complaint; ask about intake and suitability first.",
+        "source_urls": [
+          "https://www.sjsvnaacp.org/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "systemic-accountability"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

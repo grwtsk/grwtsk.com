@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/sen-bp-vice",
+  "addressee_type": "named_public_office",
+  "name": "Senate Business and Professions Vice Chair",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Steven S. Choi"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "sen-bp-vice",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sbp.senate.ca.gov/members"
+      ],
+      "shared_channel_id": "senbp",
+      "record": {
+        "group": "legislative_leadership",
+        "role": "Senate Business and Professions Vice Chair",
+        "person": "Steven S. Choi",
+        "source_keys": [
+          "senbpmembers"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Route oversight request through committee.",
+        "limits": "Committee roster lists a vacancy and no chair on research date; do not infer a chair."
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/legislative/ca-sen-bp"
+  ]
+}

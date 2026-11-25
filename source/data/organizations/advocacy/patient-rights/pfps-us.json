@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/pfps-us",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Patients For Patient Safety US",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "pfps-us",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pfps.us/",
+        "https://www.pfps.us/partners"
+      ],
+      "channel": {
+        "kind": "voluntary_advocacy",
+        "url": "https://www.pfps.us/"
+      },
+      "record": {
+        "category": "medical_harm",
+        "organization": "Patients For Patient Safety US",
+        "scope": "United States",
+        "purpose": "Patient-led nonprofit addressing preventable healthcare harm, diagnostic safety, and patient participation.",
+        "limits": "No authority to investigate individual allegations; use organization-level participation route.",
+        "source_urls": [
+          "https://www.pfps.us/",
+          "https://www.pfps.us/partners"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

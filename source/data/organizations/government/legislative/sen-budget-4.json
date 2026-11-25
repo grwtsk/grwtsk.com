@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/sen-budget-4",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Budget and Fiscal Review, Subcommittee 4: State Administration and General Government",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "sen-budget-4",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sbud.senate.ca.gov/hearingagendas",
+        "https://sbud.senate.ca.gov/committeehome/staff-assignments"
+      ],
+      "shared_channel_id": "senbudget",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Senate Budget and Fiscal Review, Subcommittee 4: State Administration and General Government",
+        "person": null,
+        "source_keys": [
+          "senbudget",
+          "senbudgetstaff"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Budget oversight of DCA and enforcement staffing resources.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "senbudget",
+      "channel": {
+        "url": "https://sbud.senate.ca.gov/hearingagendas",
+        "phone": "916-651-4103",
+        "kind": "budget_committee_office"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/u-leadership",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Interim Chair and Vice Chair for Clinical Affairs offices",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "u-leadership",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://neurology.ucsf.edu/leadership"
+      ],
+      "channel": {
+        "kind": "department_program_directory",
+        "url": "https://neurology.ucsf.edu/leadership"
+      },
+      "record": {
+        "institution": "UCSF",
+        "name": "Interim Chair and Vice Chair for Clinical Affairs offices",
+        "type": "department_governance",
+        "source_urls": [
+          "https://neurology.ucsf.edu/leadership"
+        ],
+        "purpose": "Request institutional clinical review through Patient Relations.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Internal review and clinical leadership are distinct from independent investigation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/mountain-view-resource-navigator",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Mountain View Community Resource Navigator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "Mountain View / neighboring cities"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "mountain-view-resource-navigator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources"
+      },
+      "record": {
+        "category": "municipal_referral",
+        "name": "Mountain View Community Resource Navigator",
+        "area": "Mountain View / neighboring cities",
+        "source_urls": [
+          "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources"
+        ],
+        "purpose": "Community services and healthcare directory.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

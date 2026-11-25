@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/supervisor-san-joaquin-4",
+  "addressee_type": "unresolved_public_office",
+  "name": "County supervisor district 4",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "California / San Joaquin County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "supervisor-san-joaquin-4",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County supervisor district 4",
+        "jurisdiction": "California / San Joaquin County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Verify the current district representative; constituent or policy oversight only, not an investigative agency."
+      }
+    }
+  ]
+}

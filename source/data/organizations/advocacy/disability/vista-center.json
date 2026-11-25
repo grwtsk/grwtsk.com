@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/vista-center",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Vista Center for the Blind and Visually Impaired",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "Palo Alto"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "vista-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources"
+      ],
+      "channel": {
+        "kind": "directory_listed_office_phone",
+        "url": "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources",
+        "phone": "650-858-0202"
+      },
+      "record": {
+        "category": "disability",
+        "name": "Vista Center for the Blind and Visually Impaired",
+        "area": "Palo Alto",
+        "source_urls": [
+          "https://www.mountainview.gov/our-city/departments/city-managers-office/community-resources"
+        ],
+        "purpose": "Independent living support for people with visual impairment.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

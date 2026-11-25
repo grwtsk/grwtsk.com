@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/health-access/law-foundation-sv",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Law Foundation of Silicon Valley – Health Program",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "health-access"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "law-foundation-sv",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.lawfoundation.org/healthresources"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.lawfoundation.org/healthresources"
+      },
+      "record": {
+        "category": "legal_support",
+        "organization": "Law Foundation of Silicon Valley – Health Program",
+        "service_area": "Santa Clara County",
+        "purpose": "Eligibility screening, health and disability-related legal referrals.",
+        "limitations": "Program eligibility includes specified populations; verify before submitting.",
+        "source_urls": [
+          "https://www.lawfoundation.org/healthresources"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "records-integrity"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

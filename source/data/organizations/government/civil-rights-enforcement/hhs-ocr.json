@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/hhs-ocr",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "HHS Office for Civil Rights",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "ocrcomplaint@hhs.gov",
+  "scope": [
+    "United States / California",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "hhs-ocr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "published_address": "OCRComplaint@hhs.gov",
+      "channel": {
+        "kind": "complaint_inquiry",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "HHS Office for Civil Rights",
+        "scope": "United States / California",
+        "purpose": "Health-care discrimination and civil rights enforcement.",
+        "source_urls": [
+          "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use prescribed complaint procedure; check time limits and good-cause extensions."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "hhs-ocr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html"
+      },
+      "record": {
+        "role": "HHS Office for Civil Rights",
+        "jurisdiction": "United States / California",
+        "source": [
+          "https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Health-care discrimination; 180-day filing rule with possible good-cause extension."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/civil-rights-enforcement/hhs-privacy",
+      "relation": "specialized_intake",
+      "basis": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "limits": "Separate privacy and civil rights claims as appropriate.",
+      "source": "authority-oversight",
+      "original_from": "hhs-ocr",
+      "original_to": "hhs-privacy"
+    }
+  ]
+}

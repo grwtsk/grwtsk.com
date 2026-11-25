@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/abilitypath",
+  "addressee_type": "organizational_or_official_route",
+  "name": "AbilityPath",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County / Peninsula"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "abilitypath",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://business.paloaltochamber.com/list/category/community-human-services-4"
+      ],
+      "channel": {
+        "kind": "directory_listed_office_phone",
+        "url": "https://business.paloaltochamber.com/list/category/community-human-services-4",
+        "phone": "650-259-8500"
+      },
+      "record": {
+        "category": "disability",
+        "name": "AbilityPath",
+        "area": "San Mateo County / Peninsula",
+        "source_urls": [
+          "https://business.paloaltochamber.com/list/category/community-human-services-4"
+        ],
+        "purpose": "Disability inclusion, developmental services and participation.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

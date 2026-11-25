@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/samaritan-worker-center",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Samaritan House Worker Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "samaritan-worker-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cityofsanmateo.org/3322/Worker-Resource-Center",
+        "https://samaritanhousesanmateo.org/service/worker-resource-center/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.cityofsanmateo.org/3322/Worker-Resource-Center"
+      },
+      "record": {
+        "type": "regional_worker_support",
+        "name": "Samaritan House Worker Resource Center",
+        "scope": "San Mateo County",
+        "source_urls": [
+          "https://www.cityofsanmateo.org/3322/Worker-Resource-Center",
+          "https://samaritanhousesanmateo.org/service/worker-resource-center/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Community worker services and legal resource referral.",
+        "limits": "Published hiring number is not a complaint line; no number replicated for other purposes."
+      }
+    }
+  ]
+}

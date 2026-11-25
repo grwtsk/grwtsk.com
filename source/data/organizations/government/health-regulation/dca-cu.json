@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/dca-cu",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Correspondence Unit",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "dca-cu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dca.ca.gov/consumers/complaints/ccru.html",
+        "https://www.dca.ca.gov/consumers/complaints/consumer.shtml"
+      ],
+      "shared_channel_id": "dca_services",
+      "record": {
+        "group": "dca",
+        "role": "Correspondence Unit",
+        "person": null,
+        "source_keys": [
+          "cu",
+          "dcaform"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Complaint regarding handling of Board or DCA services; request independent administrative review and written response.",
+        "limits": "Does not guarantee reopening or override Board disciplinary jurisdiction."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "dca_services",
+      "channel": {
+        "url": "https://www.dca.ca.gov/consumers/complaints/ccru.html",
+        "alternate_url": "https://www.dca.ca.gov/consumers/complaints/consumer.shtml",
+        "kind": "board_service_complaint",
+        "mail": "Follow instructions on complaint form",
+        "note": "Specifically for services received from a DCA board, bureau or division."
+      }
+    }
+  ]
+}

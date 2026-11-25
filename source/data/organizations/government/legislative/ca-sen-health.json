@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-sen-health",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Health Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-sen-health",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://shea.senate.ca.gov/committeehome"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://shea.senate.ca.gov/committeehome",
+        "phone": "916-651-4111"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "Senate Health Committee",
+        "scope": "California",
+        "purpose": "Health facilities, insurance, public health and healthcare workforce policy.",
+        "source_urls": [
+          "https://shea.senate.ca.gov/committeehome"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+      }
+    }
+  ]
+}

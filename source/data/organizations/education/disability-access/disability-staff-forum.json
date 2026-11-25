@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/disability-staff-forum",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Disability Staff Forum",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford employees"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "disability-staff-forum",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dsf.stanford.edu/disability-resources"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://dsf.stanford.edu/disability-resources"
+      },
+      "record": {
+        "type": "campus_disability_policy",
+        "name": "Stanford Disability Staff Forum",
+        "scope": "Stanford employees",
+        "source_urls": [
+          "https://dsf.stanford.edu/disability-resources"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Accessible workplace resource navigation and disability community support.",
+        "limits": "Resource page only; no membership contacts or internal communications."
+      }
+    }
+  ]
+}

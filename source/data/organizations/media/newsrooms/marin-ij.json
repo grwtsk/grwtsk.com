@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/marin-ij",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Marin Independent Journal",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "localnews@marinij.com",
+  "scope": [
+    "Marin County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "marin-ij",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "channel": {
+        "kind": "news_tip_email",
+        "url": "https://www.bayareanewsgroup.com/submit-news-tip",
+        "phone": "415-382-7290"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "Marin Independent Journal",
+        "coverage": "Marin County",
+        "source_urls": [
+          "https://www.bayareanewsgroup.com/submit-news-tip"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Marin community and institutional reporting when locally relevant.",
+        "limitations": "Ordinary newsroom email; confirm fit before sharing evidence.",
+        "shared_network": "bay-area-news-group"
+      }
+    }
+  ]
+}

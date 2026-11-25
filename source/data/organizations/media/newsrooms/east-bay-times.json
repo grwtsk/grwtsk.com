@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/east-bay-times",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "East Bay Times",
+  "aliases": [
+    "The Mercury News"
+  ],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "local@bayareanewsgroup.com",
+  "scope": [
+    "Alameda and Contra Costa counties",
+    "San Jose, Santa Clara County and Bay Area"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "east-bay-times",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "channel": {
+        "kind": "news_tip_email",
+        "url": "https://www.bayareanewsgroup.com/submit-news-tip",
+        "phone": "925-943-8241"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "East Bay Times",
+        "coverage": "Alameda and Contra Costa counties",
+        "source_urls": [
+          "https://www.bayareanewsgroup.com/submit-news-tip"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "East Bay healthcare and local government where geographically relevant.",
+        "limitations": "Alameda newsroom also lists 510-208-6450. Shared inbox with Mercury News.",
+        "shared_network": "bay-area-news-group"
+      }
+    },
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "mercury-news",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "channel": {
+        "kind": "news_tip_email",
+        "url": "https://www.bayareanewsgroup.com/submit-news-tip",
+        "phone": "408-920-5444"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "The Mercury News",
+        "coverage": "San Jose, Santa Clara County and Bay Area",
+        "source_urls": [
+          "https://www.bayareanewsgroup.com/submit-news-tip"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Regional healthcare, local institutions and government accountability.",
+        "limitations": "Shared Bay Area News Group tip inbox; do not submit redundant copies.",
+        "shared_network": "bay-area-news-group"
+      }
+    }
+  ]
+}

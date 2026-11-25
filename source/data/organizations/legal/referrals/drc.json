@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/referrals/drc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Disability Rights California – legal intake",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "referrals"
+  ],
+  "email": null,
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "drc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.disabilityrightsca.org/get-help"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.disabilityrightsca.org/get-help"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "Disability Rights California – legal intake",
+        "service_area": "California",
+        "purpose": "Seek legal screening for disability access and discrimination or referrals.",
+        "limitations": "Does not represent medical malpractice claims; online form listed temporarily unavailable as of review.",
+        "source_urls": [
+          "https://www.disabilityrightsca.org/get-help"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "disability-access",
+          "civil-rights",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "drc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.disabilityrightsca.org/get-help"
+      ],
+      "channel": {
+        "kind": "official_website",
+        "url": "https://www.disabilityrightsca.org/get-help"
+      },
+      "record": {
+        "role": "Disability Rights California – legal intake",
+        "jurisdiction": "California",
+        "source": [
+          "https://www.disabilityrightsca.org/get-help"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Disability rights legal assistance and referrals; excludes medical malpractice representation."
+      }
+    }
+  ]
+}

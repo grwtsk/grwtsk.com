@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/ms-society",
+  "addressee_type": "organizational_or_official_route",
+  "name": "National Multiple Sclerosis Society",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "ms-society",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "National Multiple Sclerosis Society",
+        "service_area": "National",
+        "purpose": "Multiple sclerosis care access and regional advocacy support.",
+        "source_urls": [
+          "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

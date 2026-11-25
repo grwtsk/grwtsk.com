@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/vcrc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Victims of Crime Resource Center — University of the Pacific, McGeorge School of Law",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "1800victims@pacific.edu",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "vcrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oag.ca.gov/pcju/victim-resources",
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "published_address": "1800VICTIMS@pacific.edu",
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://oag.ca.gov/pcju/victim-resources",
+        "phone": "800-842-8467"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "Victims of Crime Resource Center — University of the Pacific, McGeorge School of Law",
+        "scope": "California",
+        "purpose": "Victim rights information, referrals and support navigating the justice system.",
+        "limits": "Public institutional email verified by Attorney General resource directory; ask about confidential communication.",
+        "source_urls": [
+          "https://oag.ca.gov/pcju/victim-resources",
+          "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

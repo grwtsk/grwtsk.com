@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/mission-msa",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Mission MSA",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "mission-msa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://missionmsa.org/msa-advocacy-action-center/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://missionmsa.org/msa-advocacy-action-center/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Mission MSA",
+        "service_area": "National",
+        "purpose": "Multiple system atrophy education and advocacy.",
+        "source_urls": [
+          "https://missionmsa.org/msa-advocacy-action-center/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

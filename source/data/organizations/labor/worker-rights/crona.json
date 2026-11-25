@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/crona",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Committee for Recognition of Nursing Achievement (CRONA)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford Health Care and Lucile Packard Children's Hospital"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "crona",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://crona.org/",
+        "https://stanfordhousestaffunion.org/faq/whats-going-on-with-crona/",
+        "https://www.nlrb.gov/case/32-RC-359704",
+        "https://stanforddaily.com/2025/05/14/NURSES-UNION-SECURES-CONTRACT-IMPROVEMENTS-WITH-STANFORD-HOSPITALS/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://crona.org/"
+      },
+      "record": {
+        "type": "stanford_health_labor",
+        "name": "Committee for Recognition of Nursing Achievement (CRONA)",
+        "scope": "Stanford Health Care and Lucile Packard Children's Hospital",
+        "source_urls": [
+          "https://crona.org/",
+          "https://stanfordhousestaffunion.org/faq/whats-going-on-with-crona/",
+          "https://www.nlrb.gov/case/32-RC-359704",
+          "https://stanforddaily.com/2025/05/14/NURSES-UNION-SECURES-CONTRACT-IMPROVEMENTS-WITH-STANFORD-HOSPITALS/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "historical_document_or_public_reporting_reviewed",
+        "purpose": "Registered-nurse representation; safe staffing, patient safety, workplace violence and grievance protections.",
+        "limits": "Official homepage returned HTTP 406. Representation confirmed by public sources; no current email, telephone or officer identity verified."
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/dredf",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Disability Rights Education and Defense Fund",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@dredf.org",
+  "scope": [
+    "California / National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "dredf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dredf.org/contact-us/",
+        "https://dredf.org/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://dredf.org/contact-us/",
+        "phone": "510-644-2555"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "Disability Rights Education and Defense Fund",
+        "service_area": "California / National",
+        "purpose": "Disability nondiscrimination in healthcare, legal policy and resources.",
+        "source_urls": [
+          "https://dredf.org/contact-us/",
+          "https://dredf.org/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

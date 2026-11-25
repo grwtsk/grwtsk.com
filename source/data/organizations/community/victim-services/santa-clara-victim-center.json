@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/santa-clara-victim-center",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Santa Clara County Victim Witness Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "santa-clara-victim-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=santa-clara",
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=santa-clara",
+        "phone": "408-295-2656"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "Santa Clara County Victim Witness Center",
+        "scope": "Santa Clara County",
+        "purpose": "Local victim support and compensation application assistance.",
+        "limits": "Same county victim-service route as earlier registry; deduplicate.",
+        "source_urls": [
+          "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=santa-clara",
+          "https://www.cdcr.ca.gov/victim-services/resources-county/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/seiu-uhw",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "SEIU United Healthcare Workers–West",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "info@seiu-uhw.org",
+  "scope": [
+    "Stanford Health Care and regional healthcare workplaces"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "seiu-uhw",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.seiu-uhw.org/contact/",
+        "https://www.nlrb.gov/case/32-CA-387569",
+        "https://www.nlrb.gov/case/32-RC-392801"
+      ],
+      "channel": {
+        "kind": "general_organization_inquiry",
+        "url": "https://www.seiu-uhw.org/contact/",
+        "phone": "408-557-2835"
+      },
+      "record": {
+        "type": "stanford_health_labor",
+        "name": "SEIU United Healthcare Workers–West",
+        "scope": "Stanford Health Care and regional healthcare workplaces",
+        "source_urls": [
+          "https://www.seiu-uhw.org/contact/",
+          "https://www.nlrb.gov/case/32-CA-387569",
+          "https://www.nlrb.gov/case/32-RC-392801"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Healthcare technical and service workers; collective bargaining, worker safety and protected concerted activity.",
+        "limits": "Phone is San Jose office; employees should use their steward. General inquiries only; no assumption of a union's position on the medical complaint."
+      }
+    }
+  ]
+}

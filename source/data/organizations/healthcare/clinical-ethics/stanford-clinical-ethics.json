@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-ethics/stanford-clinical-ethics",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Stanford Health Care Clinical Ethics Consultation Service",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-ethics"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "stanford-clinical-ethics",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/bioethics/service/bedside.html"
+      ],
+      "channel": {
+        "type": "clinical_ethics_consult",
+        "url": "https://med.stanford.edu/bioethics/service/bedside.html"
+      },
+      "record": {
+        "category": "clinical_ethics",
+        "organization": "Stanford Health Care Clinical Ethics Consultation Service",
+        "service_area": "Stanford Health Care",
+        "purpose": "Patient or family may request ethical consultation concerning current patient care decisions.",
+        "limitations": "Internal consult, not disciplinary investigation or a substitute for Patient Relations or independent regulators.",
+        "source_urls": [
+          "https://med.stanford.edu/bioethics/service/bedside.html"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "professional-ethics",
+          "patient-safety",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "clinical_ethics_consult_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_clinical_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    }
+  ]
+}

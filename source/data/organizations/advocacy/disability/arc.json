@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/arc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Arc of the United States",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "arc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thearc.org/policy-advocacy/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.thearc.org/policy-advocacy/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "The Arc of the United States",
+        "service_area": "National",
+        "purpose": "Intellectual and developmental disability rights and family supports; disease-specific service eligibility applies.",
+        "source_urls": [
+          "https://www.thearc.org/policy-advocacy/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

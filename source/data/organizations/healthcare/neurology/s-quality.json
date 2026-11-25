@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/s-quality",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Vice Chair for Quality, Safety and Experience office",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "s-quality",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/neurology/quality",
+        "https://med.stanford.edu/neurology/faculty/aboutus"
+      ],
+      "channel": {
+        "kind": "department_program_directory",
+        "url": "https://med.stanford.edu/neurology/quality"
+      },
+      "record": {
+        "institution": "Stanford",
+        "name": "Vice Chair for Quality, Safety and Experience office",
+        "type": "department_governance",
+        "source_urls": [
+          "https://med.stanford.edu/neurology/quality",
+          "https://med.stanford.edu/neurology/faculty/aboutus"
+        ],
+        "purpose": "Request designated quality and safety leadership review through Patient Relations.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Department quality program, not an independent regulator; no direct individual complaint distribution."
+      }
+    }
+  ]
+}

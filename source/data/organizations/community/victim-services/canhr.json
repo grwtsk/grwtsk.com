@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/canhr",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Advocates for Nursing Home Reform — lawyer referral",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "canhr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://canhr.org/elder-abuse-resources/"
+      ],
+      "channel": {
+        "kind": "confidential_legal_referral",
+        "url": "https://canhr.org/elder-abuse-resources/",
+        "phone": "800-474-1116"
+      },
+      "record": {
+        "category": "dependent_adult",
+        "organization": "California Advocates for Nursing Home Reform — lawyer referral",
+        "scope": "California",
+        "purpose": "Elder abuse legal information and referrals for issues within scope.",
+        "limits": "Long-term care is a central focus; verify whether case falls within referral scope.",
+        "source_urls": [
+          "https://canhr.org/elder-abuse-resources/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

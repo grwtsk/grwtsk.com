@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-asm-budget-health",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Assembly Budget Subcommittee No. 1 on Health",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-asm-budget-health",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "Assembly Budget Subcommittee No. 1 on Health",
+        "scope": "California",
+        "purpose": "Fiscal oversight of CDPH, DHCS, DMHC and other health agencies.",
+        "source_urls": [
+          "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/cdph",
+      "relation": "budget_oversight",
+      "basis": [
+        "https://abgt.assembly.ca.gov/sub-committees/subcommittee-no-1-health"
+      ],
+      "limits": "Fiscal oversight.",
+      "source": "authority-oversight",
+      "original_from": "ca-asm-budget-health",
+      "original_to": "cdph"
+    }
+  ]
+}

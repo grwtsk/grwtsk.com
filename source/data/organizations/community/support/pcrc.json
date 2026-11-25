@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/pcrc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Peninsula Conflict Resolution Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "pcrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pcrcweb.org/contact"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.pcrcweb.org/contact"
+      },
+      "record": {
+        "category": "community_support",
+        "organization": "Peninsula Conflict Resolution Center",
+        "service_area": "San Mateo County",
+        "purpose": "Community dialogue and facilitation resources.",
+        "limitations": "Not a criminal investigator or disciplinary board; no mediation without appropriate voluntary participation.",
+        "source_urls": [
+          "https://www.pcrcweb.org/contact"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "community-support",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "pcrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "equity",
+        "name": "Peninsula Conflict Resolution Center",
+        "area": "San Mateo County",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Community dialogue and conflict-resolution resources.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}
