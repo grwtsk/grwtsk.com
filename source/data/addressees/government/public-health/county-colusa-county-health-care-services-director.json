@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Colusa County Health & Human Services",
+      "urls": [
+        "https://www.countyofcolusaca.gov/26/Health-Human-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-colusa-county-social-services-director",
+      "stated_purpose": "Official page identifies Elizabeth A. Kelly as director of the combined Health and Human Services agency; existing social-services director record names the same officeholder and lists a county email. Official page shows a different domain spelling for the same director (elizabeth.kelly@countyofcolusa.com); retain as source observation rather than count an independent recipient.",
+      "limitations": "Confirm which domain is current. No separate health-director mailbox established."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-colusa-county-social-services-director"
   ]
 }

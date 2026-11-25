@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Orange County Health Care Agency 2025–2026 Factbook, pages 2 and 5",
+      "urls": [
+        "https://www.ochealthinfo.com/sites/healthcare/files/2026-11/HCA-Factbook-2025-26-v01.pdf"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/public-health/county-orange-county-health-care-services-director",
+      "stated_purpose": "Factbook lists the agency director concurrently as interim Behavioral Health Services director, with the same professional mailbox.",
+      "limitations": "Concurrent role is temporary; verify current role. Not a reason to send duplicate correspondence."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/public-health/county-orange-county-health-care-services-director"
   ]
 }
