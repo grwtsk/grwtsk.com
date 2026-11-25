@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/guardian",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "The Guardian / Guardian US",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "betsy.reed@theguardian.com",
   "scope": [
     "National and international"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -41,6 +41,20 @@
         "relevance": "Human rights, healthcare and public-interest investigations.",
         "limitations": "Use official secure messaging or SecureDrop route; not a general letter or op-ed submission."
       }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://www.theguardian.com/info/2014/oct/22/the-guardian-us-team",
+        "https://www.theguardian.com/tips"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "betsy.reed@theguardian.com",
+      "published_contact_person": "Betsy Reed",
+      "role": "Betsy Reed, US editor",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive editorial correspondence addressed to the US editor when relevant.",
+      "limitations": "Official US senior management page updated May 19, 2026 explicitly publishes this professional email. Guardian tip guidance distinguishes ordinary email from SecureDrop or Secure Messaging. This is an editor's published work address, not a general tip inbox. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
     }
   ]
 }

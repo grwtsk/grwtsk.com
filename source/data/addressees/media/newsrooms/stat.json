@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/stat",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "STAT",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "first.opinion@statnews.com",
   "scope": [
     "National / medicine and health"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -41,6 +41,20 @@
         "relevance": "Medical institutions, patient safety, healthcare policy and research.",
         "limitations": "Ordinary form explicitly not encrypted; use official secure instructions for sensitive material."
       }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://www.statnews.com/contact/?how_can_we_help_=Questions+and+Comments",
+        "https://www.statnews.com/first-opinion-submitting-guidelines/",
+        "https://www.statnews.com/tips/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "first.opinion@statnews.com",
+      "role": "First Opinion editorial submissions",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Eligible original first-person health care essays and opinion submissions only.",
+      "limitations": "Not an investigative news-tip mailbox. November 23, 2026 submission guidance asks authors to defer non-time-sensitive submissions until January 2027 due to backlog. Preserve news-tip form and secure contact methods; follow authorship and submission requirements. Do not use for automatic distribution. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
     }
   ]
 }

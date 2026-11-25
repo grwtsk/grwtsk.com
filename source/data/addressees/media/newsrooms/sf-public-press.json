@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/sf-public-press",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "San Francisco Public Press",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "community@sfpublicpress.org",
   "scope": [
     "San Francisco"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -42,6 +42,19 @@
         "relevance": "Nonprofit local investigative reporting and systemic equity.",
         "limitations": "General contact page; ask for the appropriate editorial route before sharing sensitive information."
       }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://www.sfpublicpress.org/thank-you-for-joining-us/",
+        "https://www.sfpublicpress.org/contact-2/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "community@sfpublicpress.org",
+      "role": "Community feedback mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Community ideas, feedback and requests for routing to the appropriate editor.",
+      "limitations": "Publisher's member welcome page explicitly invites ideas and feedback at this mailbox. General community contact, not a confidential tip channel. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
     }
   ]
 }

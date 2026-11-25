@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/palo-alto-post",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Palo Alto Daily Post",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "news@padailypost.com",
   "scope": [
     "Palo Alto, Stanford and Peninsula"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -42,6 +42,20 @@
         "relevance": "Local public safety, institutions and government.",
         "limitations": "Official contact page also has newsroom email link; address was masked in retrieved text."
       }
+    },
+    {
+      "source_title": "California Board of Optometry August 2017 media list and current newsroom contact page",
+      "urls": [
+        "https://www.optometry.ca.gov/meetings/materials/20170803_04_15.pdf",
+        "https://padailypost.com/contact/",
+        "https://padailypost.com/about-us/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "news@padailypost.com",
+      "role": "Daily Post newsroom mailbox (historical publication)",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Relevant local news tips and press releases, subject to current address confirmation.",
+      "limitations": "August 2017 Board of Optometry agenda attachment 4, printed page 11, page image confirms the published address. The current newsroom contact page has a masked address; current literal mailbox not independently established. The Post explicitly does not investigate personal disputes, does not honor embargoes, and treats communications as on the record; assess public-interest scope and avoid sensitive disclosures. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
     }
   ]
 }
