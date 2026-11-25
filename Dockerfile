@@ -5,8 +5,8 @@ COPY source/parser source/parser
 RUN cmake -S source/parser -B /tmp/parser -DCMAKE_BUILD_TYPE=Release && cmake --build /tmp/parser --parallel
 COPY source/generator source/generator
 RUN cargo build --locked --release --manifest-path source/generator/Cargo.toml
-COPY source/data source/data
-RUN mkdir -p source/web && source/generator/target/release/site-generator /tmp/parser/markdown-parser source/data source/web/.generated
+COPY source/data/articles source/data/articles
+RUN mkdir -p source/web && source/generator/target/release/site-generator /tmp/parser/markdown-parser source/data/articles source/web/.generated
 
 FROM node:22-bookworm-slim AS vite
 WORKDIR /app/source/web

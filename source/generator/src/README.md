@@ -14,7 +14,7 @@ additional languages for ordinary generator logic.
 | Article, Response | Validated template-facing records |
 | parse, typed | Invoke the parser, decode JSON, report errors |
 | slug, timestamp, public_url | Input validation |
-| responses, load_article, load_articles | Assemble and sort correspondence |
+| responses, load_article, load_articles | Assemble and sort correspondence from the article root only |
 | article_schema, script_json | schema.org data and raw-text-safe JSON |
 | templates, render_site | Embedded templates and page generation |
 | generate, main | Validate, render, write and report result |

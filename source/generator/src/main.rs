@@ -7,7 +7,7 @@ use std::{collections::BTreeSet, env, fs, path::{Path, PathBuf}, process::Comman
 use url::Url;
 
 const ORIGIN: &str = "https://grwtsk.com";
-const REPO: &str = "https://github.com/grwtsk/grwtsk.com/blob/main/source/data";
+const REPO: &str = "https://github.com/grwtsk/grwtsk.com/blob/main/source/data/articles";
 
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -405,7 +405,7 @@ fn generate(parser: &Path, data: &Path, out: &Path) -> Result<()> {
 
 fn main() -> Result<()> {
     let args: Vec<_> = env::args_os().skip(1).collect();
-    ensure!(args.len() == 3, "usage: site-generator <markdown-parser> <data-dir> <new-output-dir>");
+    ensure!(args.len() == 3, "usage: site-generator <markdown-parser> <articles-dir> <new-output-dir>");
     generate(Path::new(&args[0]), Path::new(&args[1]), Path::new(&args[2]))
 }
 

@@ -67,7 +67,13 @@ function temporary(t) {
 }
 
 test('latest full article, deterministic archive, responses and stable canonical paths', t => {
-  const dir = temporary(t), data = join(dir, 'data'), out = join(dir, 'site');
+  const dir = temporary(t), data = join(dir, 'data', 'articles'), out = join(dir, 'site');
+  mkdirSync(join(dir, 'data', 'organizations'), { recursive: true });
+  writeFileSync(join(dir, 'data', 'organizations', 'example.json'), '{"organization":"Synthetic test resource"}\n');
+  mkdirSync(join(dir, 'data', 'evidence'), { recursive: true });
+  writeFileSync(join(dir, 'data', 'evidence', 'example.json'), '{"evidence":"Synthetic test evidence"}\n');
+  mkdirSync(data, { recursive: true });
+  writeFileSync(join(data, 'README.md'), '# Articles\n');
   fixture(data, 'older', '2026-11-24T00:00:00Z');
   fixture(data, 'newer', '2026-11-24T01:21:26-08:00', {
     title: 'Newest </script><script>alert(1)</script>',
@@ -77,6 +83,8 @@ test('latest full article, deterministic archive, responses and stable canonical
   const result = run(data, out);
   assert.equal(result.status, 0, result.stderr);
   const home = readFileSync(join(out, 'index.html'), 'utf8');
+  assert.deepEqual(readdirSync(join(out, 'articles')).sort(), ['newer', 'older']);
+  assert.doesNotMatch(home, /Synthetic test (resource|evidence)/);
   const page = readFileSync(join(out, 'articles/newer/index.html'), 'utf8');
   const homeDoc = parse(home), articleDoc = parse(page);
   const full = elements(homeDoc, 'article')[0];
@@ -87,7 +95,7 @@ test('latest full article, deterministic archive, responses and stable canonical
   const archive = elements(homeDoc, 'nav')[0];
   assert.ok(text(archive).includes('Past articles'));
   assert.deepEqual(hrefs(archive), ['/articles/older/']);
-  const repoResponse = 'https://github.com/grwtsk/grwtsk.com/blob/main/source/data/newer/responses/agency.md';
+  const repoResponse = 'https://github.com/grwtsk/grwtsk.com/blob/main/source/data/articles/newer/responses/agency.md';
   assert.ok(hrefs(full).includes(repoResponse));
   assert.ok(hrefs(articleDoc).includes(repoResponse));
   assert.ok(hrefs(articleDoc).includes('https://example.org/record'));
@@ -163,7 +171,7 @@ test('real Vite distribution preserves generated articles and serves only static
   t.after(() => new Promise(resolve => server.close(resolve)));
   const origin = 'http://127.0.0.1:' + server.address().port;
   const generated = fileURLToPath(new URL('../.generated/', import.meta.url));
-  const authoredSlugs = readdirSync(join(source, 'data'), { withFileTypes: true })
+  const authoredSlugs = readdirSync(join(source, 'data', 'articles'), { withFileTypes: true })
     .filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
 
   async function checkPage(path, generatedPath) {
@@ -221,6 +229,10 @@ test('real Vite distribution preserves generated articles and serves only static
   assert.equal((await fetch(origin + '/healthz')).status, 200);
   assert.equal((await fetch(origin + '/not-a-route/')).status, 404);
   assert.equal((await fetch(origin + '/source/data/README.md')).status, 404);
+  assert.equal((await fetch(origin + '/source/data/organizations/outreach-registry.json')).status, 404);
+  assert.equal((await fetch(origin + '/source/data/evidence/professional-evidence.json')).status, 404);
+  assert.equal((await fetch(origin + '/articles/organizations/')).status, 404);
+  assert.equal((await fetch(origin + '/articles/evidence/')).status, 404);
   assert.equal((await fetch(origin + '/', { method: 'POST' })).status, 405);
   const head = await fetch(origin + '/', { method: 'HEAD' });
   assert.equal(head.status, 200);

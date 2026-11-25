@@ -11,7 +11,7 @@ npm --prefix source/web run generate
 
 The script resolves paths from its own location, builds the C++ parser
 with CMake in parser/build, builds the Rust release generator using the
-Cargo lockfile, and calls the generator with the source/data directory.
+Cargo lockfile, and calls the generator with the source/data/articles directory; shared organization and evidence data are not passed to the site generator.
 It uses child processes with argument arrays rather than shell interpolation.
 
 The candidate site is rendered into a fresh temporary directory under

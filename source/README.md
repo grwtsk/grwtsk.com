@@ -16,12 +16,19 @@ source/
 ├── communications/  (headless service; see its README)
 ├── data/
 │   ├── README.md
-│   └── <article-slug>/
-│       ├── article.md
-│       ├── status.md
-│       └── responses/
-│           ├── .gitkeep
-│           └── <response-slug>.md  (only when a real response exists)
+│   ├── articles/
+│   │   ├── README.md
+│   │   └── <article-slug>/
+│   │       ├── article.md
+│   │       ├── status.md
+│   │       ├── article-specific research context (when needed)
+│   │       └── responses/
+│   │           ├── .gitkeep
+│   │           └── <response-slug>.md  (only when a real response exists)
+│   ├── organizations/  (nine shared JSON catalogs and README)
+│   ├── evidence/       (shared professional and historical JSON data and README)
+│   ├── writing-themes.json
+│   └── OFFLINE-WRITING.md  (proposal only)
 ├── parser/
 │   ├── README.md
 │   ├── CMakeLists.txt
@@ -59,9 +66,10 @@ source/
 ```
 
 The root retains the README, LICENSE, Dockerfile, ignore rules and GitHub
-Actions workflow. New article directories follow the same three-entry
-contract; do not add per-response README files, example responses or loose
-Markdown to the data root. Put data instructions in
+Actions workflow. New articles belong only under data/articles/ and follow
+the same article, status and responses contract; do not add per-response
+README files or example responses. Shared data is not a static-site input.
+The generator reads data/articles/ and preserves /articles/<slug>/ URLs. Put data instructions in
 [data/README.md](data/README.md). The two dependency lockfiles are intentional
 source-controlled inputs, not compiled output.
 
@@ -69,7 +77,7 @@ source-controlled inputs, not compiled output.
 
 ```mermaid
 flowchart TD
-    D["data: Markdown and YAML metadata"] --> P["C++: cmark-gfm and yaml-cpp"]
+    D["data/articles: Markdown and YAML metadata"] --> P["C++: cmark-gfm and yaml-cpp"]
     P --> J["Versioned JSON over stdout"]
     J --> R["Rust: typed validation and chronology"]
     R --> H["Embedded homepage and article templates"]
@@ -82,7 +90,7 @@ flowchart TD
 | Component | Owns | Does not own |
 | --- | --- | --- |
 | [communications](communications/README.md) | Headless intake, protected archive, general writing review and recovery | Static site or deferred healthcare tracking |
-| [data](data/README.md) | Authored text, actual dates, status, sends, responses | Layout or application logic |
+| [data](data/README.md) | Authored text, actual dates, status, sends, responses, shared organizations and evidence | Layout or application logic |
 | [parser](parser/README.md) | YAML conversion, Markdown AST, extraction and safe renderer output | Article ordering, publication state, templates |
 | [generator](generator/README.md) | Typed model, timestamp ordering, path validation, templates, JSON-LD | Reimplementing Markdown or serving HTTP |
 | [web](web/README.md) | Build orchestration, Vite, static delivery, HTTP checks | Editing correspondence or interpreting its meaning |

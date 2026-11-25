@@ -25,7 +25,7 @@ after building the C++ parser, use a new output directory:
 ```sh
 source/generator/target/release/site-generator \
   source/parser/build/markdown-parser \
-  source/data \
+  source/data/articles \
   /tmp/grwtsk-site-check
 ```
 
@@ -33,6 +33,8 @@ Choose a fresh output directory if that name exists. The generator refuses
 to overwrite an existing output directory. This command is a local
 generation check, not publication. Do not pass a directory containing
 authored data as the output.
+
+The second argument is the article root, `source/data/articles/`. The generator does not traverse shared organization or evidence data. Repository response links point into the article root; public article permalinks remain unchanged.
 
 ## What the generator guarantees
 

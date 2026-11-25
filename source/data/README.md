@@ -231,8 +231,8 @@ revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-The proposed shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, responses and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+The shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, responses and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
 
-**Proposal branch only:** the current site generator treats every directory under `source/data/` as an article and rejects loose files other than README.md. Supporting this shared-data layout requires a separate, approved article-discovery change to read `source/data/articles/` and preserve existing public permalinks. Repository links and build configuration outside the data directory also need to follow that change. This PR intentionally does not implement that change or any classifier, writing engine, CI or deployment changes. Do not merge or deploy this layout until the compatibility question is resolved.
+The static generator reads only `source/data/articles/`. Shared organizations, evidence and writing themes are not article or static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
 
 [Return to the operating guide](../../README.md).
