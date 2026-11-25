@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County Health Executives Association of California — Members",
+      "urls": [
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-shasta-county-social-services-director",
+      "listed_officeholder": "Christy Coleman",
+      "stated_purpose": "CHEAC identifies Christy Coleman as Health & Human Services Agency Director. The existing social-services record holds the same combined agency leader's published professional email. Public Health branch leadership is distinct.",
+      "limitations": "Alternative or shared leadership routing, not a separately established email. Confirm incumbent and appropriate institutional remit. Do not duplicate recipients."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-shasta-county-social-services-director"
   ]
 }

@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County Health Executives Association of California — Members",
+      "urls": [
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-sutter-county-social-services-director",
+      "listed_officeholder": "Sarah Eberhardt-Rios",
+      "stated_purpose": "CHEAC identifies Sarah Eberhardt-Rios as Director of Health & Human Services. Existing social-services record holds her published agency leadership contact. Public Health Branch Director is a separate role.",
+      "limitations": "Alternative or shared leadership routing, not a separately established email. Confirm incumbent and appropriate institutional remit. Do not duplicate recipients."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-sutter-county-social-services-director"
   ]
 }

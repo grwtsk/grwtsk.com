@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/public-health/county-mendocino-county-health-care-services-director",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County health care services director",
   "aliases": [],
   "taxonomy": [
     "government",
     "public-health"
   ],
-  "email": null,
+  "email": "Public_Health@mendocinocounty.gov",
   "scope": [
     "California / Mendocino County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County of Mendocino Public Health Department — RFP 047-23 Addendum No. 1, September 13, 2023, page 1",
+      "urls": [
+        "https://www.mendocinocounty.gov/home/showpublisheddocument/60488/638302344341200000",
+        "https://www.mendocinocounty.gov/All-Departments/Health-Services/Public-Health"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Public_Health@mendocinocounty.gov",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Department email in official Public Health letterhead; not a direct director address.",
+      "limitations": "Historical publication; extracted text confirms spelling but page image retrieval returned 404. Current department page confirms the agency and phone, not this address. Verify current mailbox before use. Confirm jurisdiction, current channel and appropriate remit. Do not send confidential records by ordinary email. Deliverability not tested."
     }
   ]
 }

@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/public-health/county-sonoma-county-health-care-services-director",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County health care services director",
   "aliases": [],
   "taxonomy": [
     "government",
     "public-health"
   ],
-  "email": null,
+  "email": "dhsdir@sonomacounty.gov",
   "scope": [
     "California / Sonoma County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "iCarol public resource directory — County of Sonoma Health Services",
+      "urls": [
+        "https://www.icarol.info/ResultDetails.aspx?agencynum=4717505&org=2225&sitenum=4717558",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "dhsdir@sonomacounty.gov",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Directory lists the main institutional email for the county Department of Health Services.",
+      "limitations": "Third-party directory observation; not independently confirmed by a current county publication. Not a direct individual director email. Verify institutional channel before use. Confirm jurisdiction, current channel and appropriate remit. Do not send confidential records by ordinary email. Deliverability not tested."
     }
   ]
 }

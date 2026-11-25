@@ -34,6 +34,21 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County Health Executives Association of California — Members",
+      "urls": [
+        "https://cheac.org/members/",
+        "https://www.cdph.ca.gov/Programs/CCLHO/Pages/CCLHO-Health-Officer-Directory.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/public-health/us-ca-santa-clara-county-health-officer",
+      "listed_officeholder": "Sarah L. Rudman",
+      "stated_purpose": "CHEAC identifies Sarah Rudman as both Health Officer and Public Health Director; the CDPH Health Officer directory corroborates existing professional email. Public health leadership is not the same as the overall county hospital system administration.",
+      "limitations": "Alternative or shared leadership routing, not a separately established email. Confirm incumbent and appropriate institutional remit. Do not duplicate recipients."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/public-health/us-ca-santa-clara-county-health-officer"
   ]
 }

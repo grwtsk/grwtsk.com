@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County Health Executives Association of California — Members",
+      "urls": [
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-trinity-county-social-services-director",
+      "listed_officeholder": "Elizabeth Hamilton",
+      "stated_purpose": "CHEAC identifies Elizabeth Hamilton as Director of Health & Human Services Agency; existing social-services record names the same combined agency leader. Separate public health division director contact not established.",
+      "limitations": "Alternative or shared leadership routing, not a separately established email. Confirm incumbent and appropriate institutional remit. Do not duplicate recipients."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-trinity-county-social-services-director"
   ]
 }
