@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cdph-district-fresno",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CDPH Licensing and Certification — Fresno District Office",
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": "CDPH-LNC-FRESNO@cdph.ca.gov",
+  "scope": [
+    "California / Fresno, Kings, Madera, Mariposa, Merced and Stanislaus counties"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_title": "CDPH Field Operations Branch — District Offices",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "CDPH-LNC-FRESNO@cdph.ca.gov",
+      "channel_kind": "published_official_mailbox",
+      "stated_purpose": "Oversight of licensed healthcare facilities in the district.",
+      "limitations": "Confirm exact facility jurisdiction and official filing instructions; a district office is not a recipient for unrelated incidents."
+    }
+  ]
+}

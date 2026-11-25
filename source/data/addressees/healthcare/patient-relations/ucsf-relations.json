@@ -8,15 +8,15 @@
     "healthcare",
     "patient-relations"
   ],
-  "email": null,
+  "email": "patient.relations@ucsf.edu",
   "scope": [
     "UCSF Health",
     "purpose_specific"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "authority-oversight",
@@ -67,6 +67,17 @@
         "scope": "purpose_specific",
         "purpose": "Formal grievance, care continuity, independent review and accommodation."
       }
+    },
+    {
+      "source_title": "UCSF Health — Accessibility Resources",
+      "urls": [
+        "https://www.ucsfhealth.org/patients-visitors/support-services/accessibility-resources"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "patient.relations@ucsf.edu",
+      "channel_kind": "published_official_mailbox",
+      "stated_purpose": "Patient relations and assistance with disability accommodations.",
+      "limitations": "Use the designated grievance process for formal complaints; verify secure submission instructions before sharing private records. Deliverability not tested."
     }
   ]
 }

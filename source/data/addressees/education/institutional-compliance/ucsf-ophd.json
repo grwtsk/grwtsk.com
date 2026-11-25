@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-compliance/ucsf-ophd",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "UCSF Office for the Prevention of Harassment and Discrimination",
+  "taxonomy": [
+    "education",
+    "institutional-compliance"
+  ],
+  "email": "OPHD@ucsf.edu",
+  "scope": [
+    "UCSF Health and UCSF"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_title": "UCSF Health — Nondiscrimination Notice",
+      "urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/terms-policies/sexual-harassment-reporting-and-nondiscrimination-notice"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "OPHD@ucsf.edu",
+      "channel_kind": "published_official_mailbox",
+      "stated_purpose": "Reports of discrimination, harassment or retaliation within the office's remit.",
+      "limitations": "Follow designated complaint procedures and avoid sending sensitive records before secure intake is confirmed."
+    }
+  ]
+}

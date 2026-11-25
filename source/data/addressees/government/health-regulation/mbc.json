@@ -65,6 +65,17 @@
         "scope": "purpose_specific",
         "purpose": "Physician professional conduct and care; submit separate provider complaints."
       }
+    },
+    {
+      "source_title": "Medical Board of California — File a Complaint",
+      "urls": [
+        "https://www.mbc.ca.gov/Consumers/file-a-complaint/",
+        "https://www.mbc.ca.gov/Contact/default.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "official_complaint_process",
+      "stated_purpose": "Current published formal filing methods are mail, fax or online; the email contact link leads to an agency contact form.",
+      "limitations": "Earlier Board publications listed a complaint inbox; current contact instructions do not establish the same literal address as a current approved complaint route. Leave email unresolved rather than infer."
     }
   ],
   "shared_channels": [

@@ -13,27 +13,27 @@ IDs have the form `addressee:<sector>/<function>/<stable-id>`. Resolve the ID to
 
 Each leaf includes `id`, `addressee_type`, `name`, `taxonomy`, `email` (published address or null), `scope`, `source_status`, `publication_status`, `deliverability` and `sources`. Where applicable, it includes aliases, original source observations and channel facts, officeholders, shared route references and oversight relationships. Acquired leaves retain their source-specific metadata. Unresolved roles are not confirmed current contacts and never count as acquired email addresses.
 
-## Coverage at consolidation
+## Coverage at last data update
 
 | State | Leaves |
 | --- | ---: |
-| Recorded published email (requires recheck) | 245 |
-| Non-email institutional route | 459 |
+| Recorded published email (requires recheck) | 249 |
+| Non-email institutional route | 458 |
 | Unresolved directory role or program | 916 |
-| Total taxonomy leaves | 1620 |
+| Total taxonomy leaves | 1623 |
 
 | Sector | Leaves |
 | --- | ---: |
 | advocacy | 76 |
 | civic | 16 |
 | community | 58 |
-| education | 18 |
-| government | 1284 |
+| education | 20 |
+| government | 1285 |
 | healthcare | 90 |
 | labor | 20 |
 | legal | 10 |
 | media | 48 |
 
-The earlier acquisition objective was at least 2,000 actual distinct email addresses. Only 245 are recorded; consolidation acquired none. Published contact claims are carried forward, not independently reverified; deliverability is untested. Source records were grouped by existing canonical email, stable source identifier, or explicit matching institutional role. Ambiguous or unresolved roles retain separate records pending evidence. This is not a verified census of unique people.
+The earlier acquisition objective was at least 2,000 actual distinct email addresses. 249 are recorded. The latest acquisition added the published UCSF Patient Relations, UCSF discrimination-reporting and ADA/504 offices, and CDPH Fresno district addresses. Other historical contact claims are carried forward and still require rechecking; deliverability is untested. Acquisition must prioritize the article's actual subject and competent institutional channels, not the ease of obtaining unrelated directory records. Source records were grouped by existing canonical email, stable source identifier, or explicit matching institutional role. Ambiguous or unresolved roles retain separate records pending evidence. This is not a verified census of unique people.
 
 The old aggregate catalogs are deleted from active source. Their 1717 contact and lookup observations were reconciled into leaves or nonrecipient references; 119 legislative placeholders were superseded by existing district-office leaves. All 163 typed oversight relationships are attached to source addressees with canonical target references. Shared medical-board routes are attached to appropriate role leaves and referenced rather than copied into registries. Separate evidence and outreach catalogs have been removed from active source. Their original research snapshots remain in Git history, not as generation inputs. Derive article-specific objectives from the [article](../articles/README.md) and relevant institutional facts from the individual addressee leaf. Any unavailable supporting fact is a research gap, not permission to infer it. No classifier, draft generation or delivery behavior is implemented by these files.
