@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-yuba",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "twilliams@yuba.gov",
   "scope": [
     "California / Yuba County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "CDSS county contacts for EFC, THP and ILP, Yuba entry confirmed April 6, 2026",
+      "urls": [
+        "https://cdss.ca.gov/inforesources/foster-care/county-contacts-for-efc-thp-and-ilp"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "twilliams@yuba.gov",
+      "published_contact_person": "Twyla Williams",
+      "role": "Program Manager, Child and Adult Protective Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Published program leadership contact, not statutory intake.",
+      "limitations": "Confirm current role, channel, jurisdiction and mailbox currency before use. Deliverability not tested. Retain existing reporting procedures; do not send sensitive material through ordinary outreach email. Published professional contact for combined child and adult protective services, in a youth-program directory. Not a designated abuse reporting address; confirm appropriate remit before use."
     }
   ]
 }
