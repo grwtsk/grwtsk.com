@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-trinity",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "hhs.adultservices@trinitycounty.org",
   "scope": [
     "California / Trinity County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,17 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "Trinity County Adult Services — Adult Services Unit",
+      "urls": [
+        "https://www.trinitycounty.ca.gov/229/Adult-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "hhs.adultservices@trinitycounty.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General Adult Services Unit contact, including APS; hotline is designated for abuse reports.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested."
     }
   ]
 }
