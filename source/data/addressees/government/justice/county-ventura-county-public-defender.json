@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-ventura-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "claudia.bautista@venturacounty.gov",
   "scope": [
     "California / Ventura County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published public defense office, contracted provider or professional contact",
+      "urls": [
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/210874",
+        "https://vcportal.venturacounty.gov/auditor/docs/financial-reports/Annual%20Comprehensive%20Financial%20Reports-2025/Listing%20of%20Principal%20Officials%202025.pdf"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "claudia.bautista@venturacounty.gov",
+      "published_contact_person": "Claudia Yolanda Bautista",
+      "role": "Public Defender — published professional contact",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive administrative or service-navigation inquiries within actual public defense remit and applicable eligibility.",
+      "limitations": "Current State Bar profile identifies the Ventura County Public Defender's Office and professional .gov email; June 30, 2025 county principal officials roster page image confirms the leadership role. The current departmental home page rejected direct retrieval, so reconfirm current title and mailbox before use. No employee benefits or recruitment mailbox substituted. These contacts do not establish authority to investigate a medical grievance. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Claudia Yolanda Bautista"
 }

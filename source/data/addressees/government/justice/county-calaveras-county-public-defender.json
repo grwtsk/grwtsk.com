@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Contracted law firm public office and staff directory",
+      "urls": [
+        "https://faclawoffices.com/about/",
+        "https://faclawoffices.com/contact-us/"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/county-madera-county-public-defender",
+      "role": "Contracted defense firm administrative routing",
+      "limitations": "Firm staff directory identifies a county-specific office; general firm mailbox is represented in the Madera record. This is an alternative administrative routing reference, not a separate county-specific mailbox or proof of continued contractual terms. Verify applicable county contract and eligibility. No duplicate address added."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/county-madera-county-public-defender"
   ]
 }
