@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-alameda",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "Rhonda.Giarretto@acgov.org",
   "scope": [
     "California / Alameda County",
     "documented_stanford_location"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,19 @@
         "scope": "documented_stanford_location",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "Published county, state or professional-association contact and role evidence",
+      "urls": [
+        "https://health.alamedacountyca.gov/adult-protective-services-aps-nursing-unit/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Rhonda.Giarretto@acgov.org",
+      "published_contact_person": "Rhonda Giarretto",
+      "role": "Public Health Nurse Supervisor, Adult Protective Services Nursing Unit",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Program or relevant agency leadership correspondence within the documented scope; not a statutory abuse-reporting channel.",
+      "limitations": "Official county health page explicitly publishes contact for APS Nursing Unit; limited to nursing-unit program inquiries and not the overall APS director or general APS intake. Reconfirm current role, address and applicable remit before use. Retain statutory reporting and confidential intake channels. Do not send sensitive records or abuse reports through ordinary email. Deliverability not tested."
     }
   ]
 }

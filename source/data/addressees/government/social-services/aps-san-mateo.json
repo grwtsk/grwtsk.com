@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-san-mateo",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "lpullen@smcgov.org",
   "scope": [
     "California / San Mateo County",
     "documented_stanford_location"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,21 @@
         "scope": "documented_stanford_location",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "Published county, state or professional-association contact and role evidence",
+      "urls": [
+        "https://smchealth.org/about-us/leadership/",
+        "https://smchealth.org/division/divisions/aging-and-disability-services/contact-us/",
+        "https://www.smcgov.org/hr/performance-development-program-contact-us"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "lpullen@smcgov.org",
+      "published_contact_person": "Lee Pullen",
+      "role": "Director, Aging and Disability Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Program or relevant agency leadership correspondence within the documented scope; not a statutory abuse-reporting channel.",
+      "limitations": "County Health leadership and contact pages identify director and protective-services remit. Official HR performance-development page publishes professional address in a different administrative context; not a dedicated APS program mailbox. Reconfirm current role, address and applicable remit before use. Retain statutory reporting and confidential intake channels. Do not send sensitive records or abuse reports through ordinary email. Deliverability not tested."
     }
   ]
 }

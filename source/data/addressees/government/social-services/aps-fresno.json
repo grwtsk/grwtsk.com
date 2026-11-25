@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-fresno",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Fresno County Adult Protective Services",
   "aliases": [
     "County Adult Protective Services"
@@ -10,16 +10,16 @@
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "aadebiyi@fresnocountyca.gov",
   "scope": [
     "Fresno County",
     "California / Fresno County",
     "local_support"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "authority-oversight",
@@ -70,6 +70,21 @@
         "scope": "local_support",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "Published county, state or professional-association contact and role evidence",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Social-Services/DSS-Administration/Our-Administration-Team",
+        "https://www.cicaihss.org/cica-advisory-committee-and-governing-board-members",
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "aadebiyi@fresnocountyca.gov",
+      "published_contact_person": "Alimat (Ali) Adebiyi",
+      "role": "Deputy Director, Adult Services, Fresno County Department of Social Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Program or relevant agency leadership correspondence within the documented scope; not a statutory abuse-reporting channel.",
+      "limitations": "County administration team identifies Ali Adebiyi as deputy director for Adult Services including APS. CICA publishes the professional address, and April 2026 CWDA directory lists the same address under the previous Eligibility Intake role. Use for administrative correspondence within current remit; not APS intake. CWDA PDF exceeded viewer limit; address independently published on CICA HTML page. Reconfirm current role, address and applicable remit before use. Retain statutory reporting and confidential intake channels. Do not send sensitive records or abuse reports through ordinary email. Deliverability not tested."
     }
   ]
 }
