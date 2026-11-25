@@ -8,15 +8,15 @@
     "government",
     "victim-services"
   ],
-  "email": null,
+  "email": "sdaniel@alpinecountyca.gov",
   "scope": [
     "California / Alpine County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Victim assistance and local referral; not a substitute for a police report."
       }
+    },
+    {
+      "source_title": "Alpine County Victim Witness Assistance Program",
+      "urls": [
+        "https://www.alpinecountyca.gov/190/Victim-Witness-Assistance-Program"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "sdaniel@alpinecountyca.gov",
+      "role": "County victim/witness assistance",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Victim Witness Coordinator; victim assistance, resource referrals and compensation navigation.",
+      "limitations": "Professional program contact, not police reporting. Statewide reference only; no case-specific connection established. Do not send confidential records through ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Sara Daniel"
     }
   ]
 }

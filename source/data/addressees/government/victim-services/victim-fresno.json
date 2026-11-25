@@ -41,6 +41,19 @@
         "scope": "local_support",
         "purpose": "Victim assistance and local referral; not a substitute for a police report."
       }
+    },
+    {
+      "source_title": "Fresno County Probation — Crime Victim Services",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Probation/Crime-Victim-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:community/victim-services/fresno-victim-center",
+      "stated_purpose": "Same James Rowland Crime Victim Assistance Center and telephone number as the canonical community/victim-services/fresno-victim-center record.",
+      "limitations": "Use canonical mailbox only; do not create duplicate recipient or count. Victim assistance, not initial criminal reporting."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:community/victim-services/fresno-victim-center"
   ]
 }

@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-alameda-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "andrea.weddle@acgov.org",
   "scope": [
     "California / Alameda County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Alameda County government organization chart; State Bar of California attorney profile #250297",
+      "urls": [
+        "https://www.acgov.org/government/orgcharts.htm",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/250297",
+        "https://www.acgov.org/counsel/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "andrea.weddle@acgov.org",
+      "role": "County counsel",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Professional address for the listed interim county counsel; civil legal affairs of county government.",
+      "limitations": "Organization chart lists interim appointment; counsel FAQ still mentions prior counsel. Confirm current role and email. State Bar professional address published amid obfuscation strings. County counsel represents county, not individual members of public. Do not send confidential records through ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Andrea L. Weddle"
     }
-  ]
+  ],
+  "listed_officeholder": "Andrea L. Weddle"
 }
