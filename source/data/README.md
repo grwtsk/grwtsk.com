@@ -13,7 +13,7 @@ commits even if a file is later deleted.
 
 ## 1. Add a letter
 
-Create a directory under `source/data/` using a permanent lowercase ASCII
+Create a directory under `source/data/articles/` using a permanent lowercase ASCII
 slug (letters, numbers and single hyphens, up to 120 characters). For example,
 `request-for-records`. Once published, do not rename it: it determines the
 permalink and response links.
@@ -225,14 +225,14 @@ status and response structures. Fix the indicated Markdown file rather
 than disabling validation.
 
 The existing first letter lives in
-[its article directory](formal-complaint-and-demand-for-independent-investigation/).
+[its article directory](articles/formal-complaint-and-demand-for-independent-investigation/).
 These instructions govern all article directories. Do not store alternate
 revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-The proposed shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. Article directories retain article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+The proposed shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, responses and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
 
-**Proposal branch only:** the current site generator treats every directory under `source/data/` as an article and rejects loose files other than README.md. Supporting this shared-data layout requires a separate, approved article-discovery change. This PR intentionally does not implement that change or any classifier, writing engine, CI or deployment changes. Do not merge or deploy this layout until the compatibility question is resolved.
+**Proposal branch only:** the current site generator treats every directory under `source/data/` as an article and rejects loose files other than README.md. Supporting this shared-data layout requires a separate, approved article-discovery change to read `source/data/articles/` and preserve existing public permalinks. Repository links and build configuration outside the data directory also need to follow that change. This PR intentionally does not implement that change or any classifier, writing engine, CI or deployment changes. Do not merge or deploy this layout until the compatibility question is resolved.
 
 [Return to the operating guide](../../README.md).
