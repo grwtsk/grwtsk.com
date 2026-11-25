@@ -76,6 +76,21 @@
         "scope": "purpose_specific",
         "purpose": "Disability rights legal assistance and referrals; excludes medical malpractice representation."
       }
+    },
+    {
+      "source_title": "ACL and NDRN protection and advocacy agency directories",
+      "urls": [
+        "https://acl.gov/programs/find-your-pa-agency",
+        "https://www.ndrn.org/about/ndrn-member-agencies/?agency_location=california",
+        "https://www.disabilityrightsca.org/get-help"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:advocacy/disability/dr-california",
+      "stated_purpose": "Same organization; directories publish its legal-help contact. The organization's confidential legal intake remains a separate process.",
+      "limitations": "Do not duplicate recipient. Do not treat directory email as confirmed confidential intake. Follow current designated intake and verify eligibility."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:advocacy/disability/dr-california"
   ]
 }

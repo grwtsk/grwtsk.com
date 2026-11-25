@@ -8,14 +8,14 @@
     "advocacy",
     "disability"
   ],
-  "email": null,
+  "email": "legalhelp@disabilityrightsca.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -42,6 +42,20 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "U.S. Administration for Community Living — Find Your P&A Agency; National Disability Rights Network — Member Agencies",
+      "urls": [
+        "https://acl.gov/programs/find-your-pa-agency",
+        "https://www.ndrn.org/about/ndrn-member-agencies/?agency_location=california",
+        "https://www.disabilityrightsca.org/get-help"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "legalhelp@disabilityrightsca.org",
+      "role": "Disability Rights California",
+      "channel_kind": "published_institutional_email",
+      "stated_purpose": "Published contact for California's designated protection and advocacy agency, for legal-help inquiries subject to its eligibility and scope.",
+      "limitations": "Federal and national network directories publish the address; the organization's designated intake procedure must be followed. Verify current intake availability and confidentiality before use. Do not transmit case records or assume malpractice representation. Confirm jurisdiction, current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }
