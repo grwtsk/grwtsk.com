@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/local-government/county-contra-costa-county-administrator",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County administrator",
   "aliases": [],
   "taxonomy": [
     "government",
     "local-government"
   ],
-  "email": null,
+  "email": "monica.nino@cao.cccounty.us",
   "scope": [
     "California / Contra Costa County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Contra Costa County approved draft integrated plan, revised January 8, 2026, printed pages 141 and 179; County Administrator's Office",
+      "urls": [
+        "https://www.cchealth.org/home/showpublisheddocument/32786/639046700965200000",
+        "https://www.contracosta.ca.gov/94/County-Administration"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "monica.nino@cao.cccounty.us",
+      "role": "County administrator",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Published professional county chief administrative officer contact; official county office page confirms role.",
+      "limitations": "Address is explicitly present in extracted text of the published plan, including certification dated November 3, 2025. PDF page image request failed HTTP 403; verify current mailbox before use. Deliverability not tested. Confirm remit before correspondence.",
+      "listed_officeholder": "Monica Nino"
     }
-  ]
+  ],
+  "listed_officeholder": "Monica Nino"
 }
