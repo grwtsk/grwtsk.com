@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-butte-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "bstephens@buttecounty.net",
   "scope": [
     "California / Butte County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or appointed counsel's professional contact",
+      "urls": [
+        "https://www.buttecounty.net/DocumentCenter/View/19107/Butte-County-Fiscal-Year-2026-27-Recommended-Budget?bidId=",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/212246",
+        "https://www.buttecounty.net/339/County-Counsel"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "bstephens@buttecounty.net",
+      "published_contact_person": "Bradley Justin Stephens",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administration inquiries within actual county jurisdiction and office remit.",
+      "limitations": "June 2026 recommended budget, printed p. 123, identifies Brad Stephens as County Counsel; State Bar professional profile publishes email. Budget page image could not be retrieved due to PDF size; extracted text reviewed. County requires claims and service of process through the Clerk of the Board unless specifically agreed otherwise. County counsel represents the county, not the complainant; address is not an independent complaint intake channel, legal filing or service-of-process route. Confirm role, currency and jurisdiction before use. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Bradley Justin Stephens"
 }

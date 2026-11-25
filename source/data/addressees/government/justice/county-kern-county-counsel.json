@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-kern-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "kgraham@kerncounty.com",
   "scope": [
     "California / Kern County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or appointed counsel's professional contact",
+      "urls": [
+        "https://www.kerncounty.com/government/departments/county-counsel/county-counsel-faqs",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/219760"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "kgraham@kerncounty.com",
+      "published_contact_person": "Kendra Layne Graham",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administration inquiries within actual county jurisdiction and office remit.",
+      "limitations": "Current county FAQ identifies Graham as County Counsel and State Bar profile publishes the professional address. Former County Counsel Margo Raison's address not substituted. County counsel represents the county, not the complainant; address is not an independent complaint intake channel, legal filing or service-of-process route. Confirm role, currency and jurisdiction before use. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Kendra Layne Graham"
 }

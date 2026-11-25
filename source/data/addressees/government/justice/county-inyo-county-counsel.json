@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-inyo-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "jcvallejo@inyocounty.us",
   "scope": [
     "California / Inyo County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or appointed counsel's professional contact",
+      "urls": [
+        "https://escog.ca.gov/contact",
+        "https://www.inyocounty.us/sites/default/files/2026-03/20260217Minutes.pdf",
+        "https://www.inyocounty.us/services/county-counsel"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "jcvallejo@inyocounty.us",
+      "published_contact_person": "John-Carl Vallejo",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administration inquiries within actual county jurisdiction and office remit.",
+      "limitations": "Eastern Sierra Council of Governments official contact page publishes professional email in legal-counsel role, with older deputy title. February 17, 2026 Inyo board minutes page 1 image confirms current County Counsel role. County counsel primarily advises the county, not private citizens. County counsel represents the county, not the complainant; address is not an independent complaint intake channel, legal filing or service-of-process route. Confirm role, currency and jurisdiction before use. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "John-Carl Vallejo"
 }
