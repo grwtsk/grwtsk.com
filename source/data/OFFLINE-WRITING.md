@@ -10,7 +10,7 @@ Write each letter to an appropriate institutional function, not to a list of peo
 
 Implement a pure Node.js module in a later PR, using the existing service language and a pinned repository snapshot. It accepts a letter slug, source manifest and policy; it never calls a model, network, provider, database mutation or GitHub write. An independent, explicit refresh step may recheck public sources and commit corrections; never perform hidden network lookups during classification.
 
-Normalize the nine canonical catalogs in [organizations/](organizations/README.md) using explicit adapters. Read case-specific fields from the selected article's outreach-context manifest under `source/data/outreach/<slug>/` and resolve the community/professional manifest separately. The [historical evidence data](evidence/historical-evidence.json) is never a recipient source; its referenced sections retain their original classification and limitations:
+Resolve canonical email inputs from [organizations/addressees/](organizations/addressees/README.md). Each leaf identifies one published mailbox; the nine supporting catalogs in [organizations/](organizations/README.md) reference leaves through `channel.addressee_ref` and provide supporting role and discovery metadata. Do not treat a directory lookup, profile or web form as an email addressee. Read case-specific fields from the selected article's outreach-context manifest under `source/data/outreach/<slug>/` and resolve the community/professional manifest separately. The [historical evidence data](evidence/historical-evidence.json) is never a recipient source; its referenced sections retain their original classification and limitations:
 
 | Input | Interpretation |
 | --- | --- |

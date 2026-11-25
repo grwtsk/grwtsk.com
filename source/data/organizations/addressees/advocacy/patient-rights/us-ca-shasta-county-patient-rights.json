@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/us-ca-shasta-county-patient-rights",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Shasta County Patients' Rights Program",
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "patientsrights@shastacounty.gov",
+  "scope": [
+    "California / Shasta County"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "urls": [
+        "https://www.disabilityrightsca.org/post/patients-rights-advocacy-directory"
+      ],
+      "source_title": "Disability Rights California — Patients' Rights Advocacy Directory",
+      "source_review_date": "2026-11-24",
+      "channel_kind": "published_program_intake_email",
+      "stated_purpose": "Patient-rights advocacy inquiries within the published behavioral-health or state-hospital program's eligibility and remit.",
+      "limitations": "Verify the program's current eligibility, county coverage and secure intake instructions. This is a program-specific assistance channel, not a general distribution list or authority over unrelated medical complaints."
+    }
+  ]
+}

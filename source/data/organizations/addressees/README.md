@@ -11,6 +11,11 @@ The 2026 California Roster Assembly and Senate pages were visually inspected. Li
 - 79 published Assembly office routes.
 - 40 published Senate office routes.
 - 96 unique existing mailbox routes normalized from the original catalogs.
-- 215 distinct canonical email leaves total. The request for thousands remains incomplete; no count of directory slots is represented as email coverage.
+- 22 published local public-health officer routes from the [CDPH CCLHO directory](https://www.cdph.ca.gov/Programs/CCLHO/Pages/CCLHO-Health-Officer-Directory.aspx) (directory excerpt; recheck current listing).
+- 7 shared patient-rights program routes from the [Disability Rights California directory](https://www.disabilityrightsca.org/post/patients-rights-advocacy-directory).
+- 1 state executive office route from the [California Roster landing page](https://www.sos.ca.gov/administration/california-roster).
+- 245 distinct canonical email leaves total. The request for thousands remains incomplete; no count of directory slots is represented as email coverage.
+
+Bulk Open States CSV and California Roster PDF downloads could not be retrieved in this session. No unacquired records are counted, and no addresses were generated from naming patterns. Additional data acquisition must use published official/professional routes and retain source, role and purpose.
 
 See [coverage.json](coverage.json) for the count by taxonomy. There is no classifier, writing engine, or sending behavior in this data directory.

@@ -1,13 +1,16 @@
 {
   "schema_version": 1,
   "as_of": "2026-11-24",
-  "unique_email_leaf_count": 215,
+  "unique_email_leaf_count": 245,
   "existing_migrated": 96,
   "acquired": {
     "assembly": 79,
-    "senate": 40
+    "senate": 40,
+    "public_health_offices": 22,
+    "patient_rights_programs": 7,
+    "state_executive_offices": 1
   },
-  "named_public_office_count": 119,
+  "named_public_office_count": 142,
   "by_taxonomy": {
     "government/justice": 2,
     "government/civil-rights-enforcement": 6,
@@ -21,13 +24,19 @@
     "government/victim-services": 3,
     "advocacy/disability": 23,
     "legal/health-access": 1,
-    "advocacy/patient-rights": 2,
+    "advocacy/patient-rights": 9,
     "civic/public-policy": 4,
     "civic/political-parties": 6,
     "media/newsrooms": 19,
     "community/support": 1,
     "community/victim-services": 2,
     "labor/worker-rights": 6,
-    "education/disability-access": 1
+    "education/disability-access": 1,
+    "government/public-health": 22,
+    "government/public-administration": 1
+  },
+  "acquisition_target": {
+    "minimum_unique_email_leaves": 2000,
+    "status": "incomplete"
   }
 }
