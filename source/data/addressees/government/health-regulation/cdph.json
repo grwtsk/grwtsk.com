@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "addressee:government/health-regulation/cdph",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "CDPH Center for Health Care Quality – Licensing and Certification",
   "aliases": [
     "California Department of Public Health – facility complaints",
@@ -11,15 +11,15 @@
     "government",
     "health-regulation"
   ],
-  "email": null,
+  "email": "StandardsInterpretationUnit@cdph.ca.gov",
   "scope": [
     "California",
     "purpose_specific"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "authority-oversight",
@@ -93,6 +93,19 @@
         "relevance": "Patient safety, abuse reporting and facility compliance.",
         "limits": "Use exact facility; CDPH also conducts federal surveys. No duplicate report to every district."
       }
+    },
+    {
+      "source_title": "Official institutional contact and program evidence",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/ContactUs.aspx",
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "StandardsInterpretationUnit@cdph.ca.gov",
+      "role": "CDPH Licensing and Certification — Standards Interpretation Unit",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Facility licensure/certification policy inquiries; not individual facility complaint submission.",
+      "limitations": "Published central program mailbox is expressly for policy questions about facility licensure or certification. It is not the general facility complaint intake address. Individual facility complaints must go to the responsible district or designated complaint portal. Confirm current mailbox and remit before use. Preserve designated secure intake and reporting routes. Deliverability not tested."
     }
   ],
   "relationships": [

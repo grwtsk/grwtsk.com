@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:legal/referrals/stanford-law-clinic",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Community Law Clinic",
   "aliases": [],
   "taxonomy": [
     "legal",
     "referrals"
   ],
-  "email": null,
+  "email": "jmbrodie@law.stanford.edu",
   "scope": [
     "East Palo Alto / Peninsula"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -42,6 +42,20 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "Official institutional contact and program evidence",
+      "urls": [
+        "https://law.stanford.edu/areas_of_interest/racial-justice/",
+        "https://law.stanford.edu/community-law-clinic/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "jmbrodie@law.stanford.edu",
+      "published_contact_person": "Juliet M. Brodie",
+      "role": "Juliet M. Brodie, Director, Stanford Community Law Clinic",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative or service-navigation inquiries only within documented clinic remit; no implication of representation or involvement.",
+      "limitations": "Official law school directory publishes the director's professional address and clinic page confirms current role and scope (housing, Social Security disability and post-conviction relief). This is a named professional contact, not a general clinic intake mailbox or medical-malpractice referral; retain existing intake route and verify eligibility. Confirm current mailbox and remit before use. Preserve designated secure intake and reporting routes. Deliverability not tested."
     }
   ]
 }
