@@ -2,9 +2,9 @@
   "schema_version": 2,
   "research_date": "2026-11-24",
   "extends": [
-    "../../knowledge/organizations/outreach-registry.json",
-    "../../knowledge/organizations/authority-oversight.json",
-    "../../knowledge/organizations/medical-board-oversight.json"
+    "../organizations/outreach-registry.json",
+    "../organizations/authority-oversight.json",
+    "../organizations/medical-board-oversight.json"
   ],
   "purpose": "Directory of relevant community support, confidential advocacy, clinical ethics and pastoral resources; separate narrowly relevant professional evidence for independent investigation. Not a distribution list or established coalition.",
   "scope_and_privacy": [
@@ -16,9 +16,9 @@
     "Professional facts are dated public institutional descriptions, not proof of the allegations. Individual license status and public disciplinary records have not been separately verified."
   ],
   "library": {
-    "resources": "../../knowledge/organizations/community-support.json",
-    "professional_evidence": "../../knowledge/professional-evidence.json",
-    "themes": "../../knowledge/writing-themes.json"
+    "resources": "../organizations/community-support.json",
+    "professional_evidence": "../evidence/professional-evidence.json",
+    "themes": "../writing-themes.json"
   },
   "resource_refs": [
     {
@@ -133,8 +133,8 @@
       "article_reference": "Dr. Steven Lee McIntire",
       "identity_status": "public institutional profile matches full name in article",
       "formal_review_routes": [
-        "../../knowledge/organizations/authority-oversight.json#shc-compliance",
-        "../../knowledge/organizations/medical-board-oversight.json#mbc-clu"
+        "../organizations/authority-oversight.json#shc-compliance",
+        "../organizations/medical-board-oversight.json#mbc-clu"
       ],
       "limits": "Current institutional profile alone does not establish employment or medical privileges on a particular historical date. Verify incident records, legal entity, supervision and disciplinary history with competent investigators."
     },
@@ -149,8 +149,8 @@
       "identity_status": "likely match based on specialty and historical clinic leadership; confirm against records",
       "profile_name": "Yuen So, MD, PhD",
       "formal_review_routes": [
-        "../../knowledge/organizations/authority-oversight.json#shc-compliance",
-        "../../knowledge/organizations/medical-board-oversight.json#mbc-clu"
+        "../organizations/authority-oversight.json#shc-compliance",
+        "../organizations/medical-board-oversight.json#mbc-clu"
       ],
       "limits": "Professional leadership dates do not establish knowledge of the specific case, personal supervision of another physician, or misconduct. Investigators should verify identity, authority and contemporaneous communications."
     },
@@ -166,9 +166,9 @@
       "identity_status": "likely match based on institution and movement-disorders specialty; confirm against medical records",
       "profile_name": "Ian O. Bledsoe, MD",
       "formal_review_routes": [
-        "../../knowledge/organizations/authority-oversight.json#ucsf-relations",
-        "../../knowledge/organizations/authority-oversight.json#ucsf-compliance",
-        "../../knowledge/organizations/medical-board-oversight.json#mbc-clu"
+        "../organizations/authority-oversight.json#ucsf-relations",
+        "../organizations/authority-oversight.json#ucsf-compliance",
+        "../organizations/medical-board-oversight.json#mbc-clu"
       ],
       "limits": "The listed training completion dates and Dr. So's residency directorship do not establish direct supervision, communication, conflict of interest or complicity. Verify actual records through independent review."
     }

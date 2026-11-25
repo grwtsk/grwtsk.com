@@ -624,7 +624,7 @@
     "total_records": 69
   },
   "historical_evidence": {
-    "path": "../historical-evidence.json",
+    "path": "../evidence/historical-evidence.json",
     "sections": [
       "reported_incidents_and_proceedings",
       "representation_records"

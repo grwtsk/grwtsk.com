@@ -22,14 +22,6 @@ source/
 │       └── responses/
 │           ├── .gitkeep
 │           └── <response-slug>.md  (only when a real response exists)
-├── knowledge/  (reusable public research; see its README)
-│   ├── README.md
-│   ├── organizations/  (nine canonical catalogs and README)
-│   ├── historical-evidence.json
-│   ├── professional-evidence.json
-│   ├── writing-themes.json
-│   ├── OFFLINE-WRITING.md
-│   └── validate.mjs
 ├── parser/
 │   ├── README.md
 │   ├── CMakeLists.txt
@@ -91,7 +83,6 @@ flowchart TD
 | --- | --- | --- |
 | [communications](communications/README.md) | Headless intake, protected archive, general writing review and recovery | Static site or deferred healthcare tracking |
 | [data](data/README.md) | Authored text, actual dates, status, sends, responses | Layout or application logic |
-| [knowledge](knowledge/README.md) | Reusable sourced resources, evidence and theme vocabulary | Article-specific allegations, private records, recipients or delivery |
 | [parser](parser/README.md) | YAML conversion, Markdown AST, extraction and safe renderer output | Article ordering, publication state, templates |
 | [generator](generator/README.md) | Typed model, timestamp ordering, path validation, templates, JSON-LD | Reimplementing Markdown or serving HTTP |
 | [web](web/README.md) | Build orchestration, Vite, static delivery, HTTP checks | Editing correspondence or interpreting its meaning |
@@ -113,7 +104,6 @@ HTML entry points, including every permanent article route.
 | --- | --- |
 | Manage the headless communication system | [Operations #6](https://github.com/grwtsk/grwtsk.com/issues/6) and [communications](communications/README.md) |
 | Write or record published correspondence | [data/README.md](data/README.md) |
-| Reuse public research for a new letter | [Knowledge library](knowledge/README.md) and [offline writing proposal](knowledge/OFFLINE-WRITING.md) |
 | Add a metadata field | [generator/src/README.md](generator/src/README.md) (typed model first, then template and tests) |
 | Change Markdown handling | [parser/src/README.md](parser/src/README.md) |
 | Change archive or chronology | [generator/src/main.rs](generator/src/main.rs) |

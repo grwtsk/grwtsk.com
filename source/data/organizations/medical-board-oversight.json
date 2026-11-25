@@ -1401,7 +1401,7 @@
     "distinct_shared_contact_routes": 19
   },
   "historical_evidence": {
-    "path": "../historical-evidence.json",
+    "path": "../evidence/historical-evidence.json",
     "sections": [
       "historical_context"
     ]

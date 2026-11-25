@@ -962,7 +962,7 @@
     "prior_proceedings": 21
   },
   "historical_evidence": {
-    "path": "../historical-evidence.json",
+    "path": "../evidence/historical-evidence.json",
     "sections": [
       "prior_proceedings"
     ]

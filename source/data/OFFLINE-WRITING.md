@@ -1,6 +1,6 @@
 # Proposed recipient-aware offline writing qualification
 
-Status: proposal only. The outbound lock remains authoritative. This design extends the generic communications writing-review program (#5, #11). Do not reintroduce deferred healthcare tracking (#7), provider writes, recipient enrollment or send automation. No live draft generation, routing changes or scheduling are part of the knowledge migration.
+Status: proposal only. The outbound lock remains authoritative. This design extends the generic communications writing-review program (#5, #11). Do not reintroduce deferred healthcare tracking (#7), provider writes, recipient enrollment or send automation. No live draft generation, routing changes or scheduling are part of the data migration.
 
 ## Outcome
 
@@ -10,7 +10,7 @@ Write each letter to an appropriate institutional function, not to a list of peo
 
 Implement a pure Node.js module in a later PR, using the existing service language and a pinned repository snapshot. It accepts a letter slug, source manifest and policy; it never calls a model, network, provider, database mutation or GitHub write. An independent, explicit refresh step may recheck public sources and commit corrections; never perform hidden network lookups during classification.
 
-Normalize the nine canonical catalogs in [organizations/](organizations/README.md) using explicit adapters. Read case-specific fields from the selected article's outreach-context manifest and resolve the community/professional manifest separately. The [historical evidence library](historical-evidence.json) is never a recipient source; its referenced sections retain their original classification and limitations:
+Normalize the nine canonical catalogs in [organizations/](organizations/README.md) using explicit adapters. Read case-specific fields from the selected article's outreach-context manifest and resolve the community/professional manifest separately. The [historical evidence data](evidence/historical-evidence.json) is never a recipient source; its referenced sections retain their original classification and limitations:
 
 | Input | Interpretation |
 | --- | --- |
@@ -30,7 +30,7 @@ Emit distinct dispositions: email_draft_candidate, official_form_draft_candidate
 
 ## 2. Context packages
 
-Build a small immutable package per eligible recipient/function, using the relevant section of the selected article and the reusable library. An article is a first-person report, not independent verification. Source statements must retain original epistemic status: owner-reported, public institutional statement, independently verified finding where actually supported, request, or unresolved. Never infer case-specific involvement from a profile or unrelated proceeding.
+Build a small immutable package per eligible recipient/function, using the relevant section of the selected article and the shared data. An article is a first-person report, not independent verification. Source statements must retain original epistemic status: owner-reported, public institutional statement, independently verified finding where actually supported, request, or unresolved. Never infer case-specific involvement from a profile or unrelated proceeding.
 
 Proposed package (illustrative fields, not a live draft):
 

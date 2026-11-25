@@ -957,7 +957,7 @@
     "verification_gaps": 5
   },
   "historical_evidence": {
-    "path": "../historical-evidence.json",
+    "path": "../evidence/historical-evidence.json",
     "sections": [
       "reporting_context"
     ]

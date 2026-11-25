@@ -231,6 +231,8 @@ revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-Use the [shared knowledge library](../knowledge/README.md) for the nine [organization catalogs](../knowledge/organizations/README.md), separate historical and professional evidence, and stable themes. Store case-specific routing priorities, review questions and research-state values in the article's own outreach context rather than the shared catalogs. Refer to shared IDs from article-specific manifests rather than copying facts or importing prior case assertions. Keep the article's own evidence limits, source context and actual participation status separate. See the [offline writing proposal](../knowledge/OFFLINE-WRITING.md) for the review-only design. No draft or research record is a send.
+The proposed shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. Article directories retain article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+
+**Proposal branch only:** the current site generator treats every directory under `source/data/` as an article and rejects loose files other than README.md. Supporting this shared-data layout requires a separate, approved article-discovery change. This PR intentionally does not implement that change or any classifier, writing engine, CI or deployment changes. Do not merge or deploy this layout until the compatibility question is resolved.
 
 [Return to the operating guide](../../README.md).

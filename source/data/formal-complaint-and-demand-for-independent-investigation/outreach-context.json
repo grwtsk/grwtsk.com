@@ -5,7 +5,7 @@
   "purpose": "Article-specific selection and context for the shared organization catalogs; these are research references, not recipient enrollment or dispatch records.",
   "catalogs": {
     "outreach-registry.json": {
-      "path": "../../knowledge/organizations/outreach-registry.json",
+      "path": "../organizations/outreach-registry.json",
       "context": {
         "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
         "workflow": {
@@ -39,7 +39,7 @@
       "historical_sections": []
     },
     "authority-oversight.json": {
-      "path": "../../knowledge/organizations/authority-oversight.json",
+      "path": "../organizations/authority-oversight.json",
       "context": {
         "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
         "priority_routes": {
@@ -109,7 +109,7 @@
       "historical_sections": []
     },
     "medical-board-oversight.json": {
-      "path": "../../knowledge/organizations/medical-board-oversight.json",
+      "path": "../organizations/medical-board-oversight.json",
       "context": {
         "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
         "scope": "Review of the user's allegation of deficient Medical Board investigation and executive and legislative oversight; not a determination of misconduct or individual responsibility.",
@@ -153,7 +153,7 @@
       ]
     },
     "disease-disability-and-civic-resources.json": {
-      "path": "../../knowledge/organizations/disease-disability-and-civic-resources.json",
+      "path": "../organizations/disease-disability-and-civic-resources.json",
       "context": {},
       "counts": {
         "dispatches": 0,
@@ -334,7 +334,7 @@
       "historical_sections": []
     },
     "news-media-resources.json": {
-      "path": "../../knowledge/organizations/news-media-resources.json",
+      "path": "../organizations/news-media-resources.json",
       "context": {},
       "counts": {
         "dispatches": 0
@@ -495,7 +495,7 @@
       ]
     },
     "peninsula-community-and-neurology-resources.json": {
-      "path": "../../knowledge/organizations/peninsula-community-and-neurology-resources.json",
+      "path": "../organizations/peninsula-community-and-neurology-resources.json",
       "context": {
         "formal_review_routes": {
           "stanford": "authority-oversight.json#shc-compliance",
@@ -511,7 +511,7 @@
       "historical_sections": []
     },
     "victim-support-and-stanford-investigations.json": {
-      "path": "../../knowledge/organizations/victim-support-and-stanford-investigations.json",
+      "path": "../organizations/victim-support-and-stanford-investigations.json",
       "context": {},
       "counts": {
         "dispatches": 0,
@@ -607,7 +607,7 @@
       ]
     },
     "worker-rights-and-related-incident-reports.json": {
-      "path": "../../knowledge/organizations/worker-rights-and-related-incident-reports.json",
+      "path": "../organizations/worker-rights-and-related-incident-reports.json",
       "context": {},
       "counts": {
         "dispatches": 0,
@@ -722,10 +722,10 @@
       ]
     },
     "community-support.json": {
-      "path": "../../knowledge/organizations/community-support.json",
+      "path": "../organizations/community-support.json",
       "case_manifest": "community-support-and-professional-evidence.json"
     }
   },
-  "historical_evidence": "../../knowledge/historical-evidence.json",
+  "historical_evidence": "../evidence/historical-evidence.json",
   "community_professional_manifest": "community-support-and-professional-evidence.json"
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "purpose": "Reusable, sourced public professional-profile statements; evidence only, never recipient selection.",
   "source_research_date": "2026-11-24",
-  "theme_catalog": "writing-themes.json",
+  "theme_catalog": "../writing-themes.json",
   "constraints": [
     "No professional-profile entry is an outreach target or finding of wrongdoing.",
     "Profile statements and training dates do not establish involvement in a specific case, supervision, communications, conflict or culpability.",
