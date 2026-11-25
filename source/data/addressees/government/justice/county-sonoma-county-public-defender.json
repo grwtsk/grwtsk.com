@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-sonoma-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "brian.morris@sonomacounty.gov",
   "scope": [
     "California / Sonoma County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published public defender office and professional contact evidence",
+      "urls": [
+        "https://sonoma-county.legistar.com/View.ashx?GUID=73D446EE-D1DD-438E-8BFD-9D1766175BDC&ID=15267753&M=F",
+        "https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=E722AA7C-27A0-4494-BD07-EF41D0D5D8E5&ID=6707804&Options=&Search=",
+        "https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=C6250AB3-74B8-4FE6-8581-921C78E26BE8&ID=8205289&Options=&Search="
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "brian.morris@sonomacounty.gov",
+      "published_contact_person": "Brian Morris",
+      "role": "Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive public defense administrative inquiries within actual office remit and jurisdiction.",
+      "limitations": "Indexed 2026 signed grant agreement identifies the professional email, but direct PDF retrieval returned HTTP 410; page image not available. County 2024 contract extension through November 30, 2027 and September 2026 agenda corroborate role. Reconfirm source and mailbox before use. Public defenders provide representation within statutory or contracted remit and eligibility; no medical-grievance investigation or general civil intake authority is established. Do not transmit confidential material through ordinary email. Confirm role, mailbox, jurisdiction and channel purpose. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Brian Morris"
 }

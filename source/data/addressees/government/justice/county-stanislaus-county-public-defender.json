@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-stanislaus-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "jennsnj@stancounty.com",
   "scope": [
     "California / Stanislaus County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published public defender office and professional contact evidence",
+      "urls": [
+        "https://www.stancounty.com/publicdefender/contact.shtm",
+        "https://www.stancounty.com/news-room/bios/public-defender.shtm",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/192141"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "jennsnj@stancounty.com",
+      "published_contact_person": "Jennifer Lyn Jennison",
+      "role": "Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive public defense administrative inquiries within actual office remit and jurisdiction.",
+      "limitations": "Current county contact page and biography identify officeholder; State Bar profile publishes corresponding work email. Public defenders provide representation within statutory or contracted remit and eligibility; no medical-grievance investigation or general civil intake authority is established. Do not transmit confidential material through ordinary email. Confirm role, mailbox, jurisdiction and channel purpose. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Jennifer Lyn Jennison"
 }

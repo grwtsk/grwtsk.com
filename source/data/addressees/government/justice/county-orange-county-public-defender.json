@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-orange-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "Sara.Nakada@ocpubdef.gov",
   "scope": [
     "California / Orange County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published public defender office and professional contact evidence",
+      "urls": [
+        "https://www.ocgov.com/about-county/info-oc/newsroom/public-information-officers",
+        "https://www.ocpubdef.gov/m/directory/department?did=18"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Sara.Nakada@ocpubdef.gov",
+      "published_contact_person": "Sara Nakada",
+      "role": "Public Defender / listed public information contact",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Public information and media inquiries within the office remit",
+      "limitations": "Official public information directory explicitly publishes the address; public defender directory confirms incumbent. Address is listed for media/public information inquiries, not client intake. General main-office email is masked in retrieved pages. Public defenders provide representation within statutory or contracted remit and eligibility; no medical-grievance investigation or general civil intake authority is established. Do not transmit confidential material through ordinary email. Confirm role, mailbox, jurisdiction and channel purpose. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Sara Nakada"
 }

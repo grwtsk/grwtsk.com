@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-san-joaquin-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "jvallado@sjgov.org",
   "scope": [
     "California / San Joaquin County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published public defender office and professional contact evidence",
+      "urls": [
+        "https://www.sanjoaquin.gov/department/pubdef",
+        "https://www.sjgov.org/department/bos/board-news/board-news-detail/2024/05/29/judyanne-vallado-new-sjc-public-defender",
+        "https://publicdefenseless.libsyn.com/443-will-san-joaquin-county-public-defenders-be-the-next-office-to-stop-taking-new-cases-wjudyanne-vallado"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "jvallado@sjgov.org",
+      "published_contact_person": "Judyanne Vallado",
+      "role": "Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive public defense administrative inquiries within actual office remit and jurisdiction.",
+      "limitations": "County department and appointment announcement establish role. February 11, 2026 Public Defenseless interview publishes the professional address as contact for the guest; not an official general office inbox. Public defenders provide representation within statutory or contracted remit and eligibility; no medical-grievance investigation or general civil intake authority is established. Do not transmit confidential material through ordinary email. Confirm role, mailbox, jurisdiction and channel purpose. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Judyanne Vallado"
 }
