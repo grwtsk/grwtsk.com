@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/victim-services/ican",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Crime Victims Assistance Network (iCAN) Foundation",
   "aliases": [],
   "taxonomy": [
     "community",
     "victim-services"
   ],
-  "email": null,
+  "email": "getinfo@ican-foundation.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "victim-support-and-stanford-investigations",
@@ -42,6 +42,18 @@
         "verified_on": "2026-11-24",
         "verification": "official_organization_or_government_directory_reviewed"
       }
+    },
+    {
+      "source_title": "Crime Victims Assistance Network (iCAN) Foundation — Contact and Victims and Survivors",
+      "urls": [
+        "https://ican-foundation.org/contact/",
+        "https://ican-foundation.org/services/victims-and-survivors/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "getinfo@ican-foundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Nonemergency victim assistance, resources and referrals.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested."
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/spiritual-care/stanford-orsl",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Office for Religious and Spiritual Life",
   "aliases": [],
   "taxonomy": [
     "community",
     "spiritual-care"
   ],
-  "email": null,
+  "email": "spiritualcare@stanford.edu",
   "scope": [
     "Stanford University"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -51,6 +51,17 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Stanford Office for Religious & Spiritual Life — Spiritual Care Team",
+      "urls": [
+        "https://orsl.stanford.edu/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "spiritualcare@stanford.edu",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Request spiritual care or guidance on connecting with a campus chaplain.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Published pastoral-care channel; not a complaint intake or healthcare investigative authority."
     }
   ]
 }

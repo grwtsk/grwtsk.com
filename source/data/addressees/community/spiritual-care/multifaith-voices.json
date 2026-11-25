@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/spiritual-care/multifaith-voices",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Multifaith Voices for Peace and Justice",
   "aliases": [],
   "taxonomy": [
     "community",
     "spiritual-care"
   ],
-  "email": null,
+  "email": "info@multifaithpeace.org",
   "scope": [
     "Palo Alto / Peninsula"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -51,6 +51,18 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Multifaith Voices for Peace and Justice — 2026 Peaceful Presence gatherings",
+      "urls": [
+        "https://multifaithpeace.org/peaceful-presence-gatherings-on-11th-of-every-month/",
+        "https://multifaithpeace.org/about-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@multifaithpeace.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published organizational contact for relevant peace and justice events, community involvement and hosting inquiries.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Not a complaint, clinical or investigative office."
     }
   ]
 }

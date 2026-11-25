@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:education/disability-access/disco",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Disability Community Space",
   "aliases": [],
   "taxonomy": [
     "education",
     "disability-access"
   ],
-  "email": null,
+  "email": "discospace@stanford.edu",
   "scope": [
     "Stanford University"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "worker-rights-and-related-incident-reports",
@@ -41,6 +41,17 @@
         "purpose": "Community support and resources",
         "limits": "Official directory reference only; no member identities, direct listservs, or private group access."
       }
+    },
+    {
+      "source_title": "Stanford Office of Inclusion, Community and Integrative Learning — The Space",
+      "urls": [
+        "https://icil.stanford.edu/disability-community-disco-space/space"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "discospace@stanford.edu",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Questions, comments and accommodation requests regarding the Disability Community Space.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Campus community-space contact; not a healthcare investigation office or a student distribution list."
     }
   ]
 }

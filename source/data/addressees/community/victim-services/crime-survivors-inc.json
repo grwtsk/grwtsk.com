@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/victim-services/crime-survivors-inc",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Crime Survivors, Inc. — Resource Center",
   "aliases": [],
   "taxonomy": [
     "community",
     "victim-services"
   ],
-  "email": null,
+  "email": "info@crimesurvivors.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "victim-support-and-stanford-investigations",
@@ -42,6 +42,18 @@
         "verified_on": "2026-11-24",
         "verification": "official_organization_or_government_directory_reviewed"
       }
+    },
+    {
+      "source_title": "OC Nonprofit Central — Crime Survivors Resource Center profile updated February 27, 2026; official Crime Survivors website",
+      "urls": [
+        "https://www.ocnonprofitcentral.org/organizations/crime-survivors-resource-center/more-details",
+        "https://crimesurvivors.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@crimesurvivors.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Resource and organizational inquiries relating to services for crime survivors.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. The organization website displays an extra space inside the address; the nonprofit directory explicitly publishes the contiguous address. Reconfirm currency and use designated confidential intake."
     }
   ]
 }

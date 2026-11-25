@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:education/institutional-compliance/shc-medical-staff",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Health Care Medical Staff Office",
   "aliases": [],
   "taxonomy": [
     "education",
     "institutional-compliance"
   ],
-  "email": null,
+  "email": "Medstaff@stanfordhealthcare.org",
   "scope": [
     "Stanford Health Care"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "authority-oversight",
@@ -42,6 +42,17 @@
         "verification": "official_published_page_reviewed",
         "limits": "Administrative office; not a substitute for Medical Board complaint."
       }
+    },
+    {
+      "source_title": "Stanford Health Care Medical Staff Services Department — Contact Us",
+      "urls": [
+        "https://stanfordhealthcare.org/health-care-professionals/medical-staff/contact-us.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Medstaff@stanfordhealthcare.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Medical staff and credentialing office inquiries, including applications, reappointment and privileges.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Not a designated patient complaint or clinical referral channel."
     }
   ]
 }

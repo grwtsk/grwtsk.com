@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/spiritual-care/ucsf-chaplaincy",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "UCSF Spiritual Care Services",
   "aliases": [],
   "taxonomy": [
     "community",
     "spiritual-care"
   ],
-  "email": null,
+  "email": "spiritualcareservices@ucsf.edu",
   "scope": [
     "UCSF Health"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -51,6 +51,18 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "UCSF Spiritual Care — Care for Patients and Families",
+      "urls": [
+        "https://spiritualcare.ucsf.edu/care-for-patients",
+        "https://spiritualcare.ucsf.edu/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "spiritualcareservices@ucsf.edu",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General spiritual-care requests and support group inquiries; immediate inpatient requests should be routed through the nurse.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested."
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:education/institutional-compliance/shc-compliance",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Health Care / Stanford Medicine Children's Health Office of Compliance and Privacy",
   "aliases": [],
   "taxonomy": [
     "education",
     "institutional-compliance"
   ],
-  "email": null,
+  "email": "ComplianceOfficer@stanfordhealthcare.org",
   "scope": [
     "Stanford Health Care / SMCH"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "authority-oversight",
@@ -41,6 +41,28 @@
         "verification": "official_published_page_reviewed",
         "limits": "Internal channel, not independent regulator."
       }
+    },
+    {
+      "source_title": "Stanford Research Compliance — Ancillary & Institutional Reviews, Hospital Compliance/Hospital Privacy",
+      "urls": [
+        "https://irb.stanford.edu/for-researchers/irb-application-submission-guide/ancillary-institutional-reviews",
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ComplianceOfficer@stanfordhealthcare.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General hospital compliance questions within the Office of Compliance and Privacy remit.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. The hospital's public compliance reporting form remains the designated report channel. The same official Stanford page separately lists PrivacyOfficer@stanfordhealthcare.org for privacy matters; that address is also confirmed in the MyHealth privacy policy."
+    },
+    {
+      "source_title": "Stanford Health Care — MyHealth privacy policy",
+      "urls": [
+        "https://stanfordhealthcare.org/for-patients-visitors/myhealth/privacy-policy.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "PrivacyOfficer@stanfordhealthcare.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Questions or concerns regarding the privacy policy; not general complaint intake."
     }
   ]
 }

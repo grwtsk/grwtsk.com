@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/spiritual-care/spiritcare",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "SpiritCare Ministry to Seniors",
   "aliases": [],
   "taxonomy": [
     "community",
     "spiritual-care"
   ],
-  "email": null,
+  "email": "president@spiritcareministry.org",
   "scope": [
     "Peninsula / San Mateo County"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,19 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "Senior Round Table of San Mateo County — Member directory; SpiritCare Ministry to Seniors official contact and mission",
+      "urls": [
+        "https://seniorroundtablesanmateo.com/members/",
+        "https://www.spiritcareministry.org/contact.html",
+        "https://www.spiritcareministry.org/our-ministry.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "president@spiritcareministry.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published organizational leadership contact for relevant long-term-care spiritual support program inquiries.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Third-party professional directory publishes the role mailbox; the official ministry contact page uses a form and phone. Reconfirm preferred address."
     }
   ]
 }
