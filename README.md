@@ -87,10 +87,13 @@ Stop it with Ctrl+C. The build output is `source/web/dist/`.
 source/
   communications/  Headless communication service, separate deployment
   data/       Markdown documents and correspondence history
+  knowledge/  Reusable public research and offline writing proposal
   parser/     C++20: YAML and CommonMark/GFM parsing
   generator/  Rust: validation, chronology, embedded HTML and CSS
   web/        Vite: multi-page build and static HTTP service
 ```
+
+For reusable correspondence research and the proposed recipient-aware writing workflow, see [the knowledge library](source/knowledge/README.md).
 
 Read [source/README.md](source/README.md) for the exact maintained layout,
 component responsibilities and links to detailed technical guides. The root

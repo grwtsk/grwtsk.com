@@ -229,4 +229,8 @@ The existing first letter lives in
 These instructions govern all article directories. Do not store alternate
 revisions in the data tree; use Git history.
 
+## Reuse research across letters
+
+Use the [shared knowledge library](../knowledge/README.md) for organizational resources, public professional-profile evidence and stable themes. Refer to shared IDs from article-specific manifests rather than copying facts or importing prior case assertions. Keep the article's own evidence limits, source context and actual participation status separate. See the [offline writing proposal](../knowledge/OFFLINE-WRITING.md) for the review-only design. No draft or research record is a send.
+
 [Return to the operating guide](../../README.md).
