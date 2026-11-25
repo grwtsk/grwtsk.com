@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/local-government/county-el-dorado-board-of-supervisors-clerk",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Board of supervisors clerk",
   "aliases": [],
   "taxonomy": [
     "government",
     "local-government"
   ],
-  "email": null,
+  "email": "edc.cob@edcgov.us",
   "scope": [
     "California / El Dorado County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,18 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "El Dorado County Clerk of the Board official page",
+      "urls": [
+        "https://www.eldoradocounty.ca.gov/County-Government/Board-of-Supervisors/Clerk-of-the-Board-of-Supervisors"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "edc.cob@edcgov.us",
+      "role": "Clerk of the Board of Supervisors",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Published agenda-item public comment, Board administration and accessibility inquiries.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a designated medical complaint or emergency intake. Public correspondence may enter the public record; do not send private records in ordinary outreach email. Deliverability not tested. Published office mailbox, not an individual's address. Public comments enter the public record; not a medical complaint channel."
     }
   ]
 }
