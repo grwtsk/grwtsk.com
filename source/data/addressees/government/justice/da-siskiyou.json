@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/da-siskiyou",
-  "addressee_type": "named_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County district attorney",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "da@siskiyouda.org",
   "scope": [
     "California / Siskiyou County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "listed_officeholders": [
     "J. Kirk Andrus"
   ],
@@ -45,6 +45,17 @@
         "scope": "statewide_reference_only",
         "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
       }
+    },
+    {
+      "source_title": "Siskiyou County District Attorney — contact information",
+      "urls": [
+        "https://www.siskiyoucounty.gov/district-attorney/custom-contact-page/district-attorney-contact-information"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "da@siskiyouda.org",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "General public inquiries; office warns that replies may take 48 hours.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
     }
   ]
 }

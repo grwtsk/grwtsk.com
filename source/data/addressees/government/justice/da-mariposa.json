@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/da-mariposa",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County district attorney",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "mcda@mariposacounty.org",
   "scope": [
     "California / Mariposa County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -43,6 +43,17 @@
         "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter.",
         "note": "CDAA directory lists an assistant district attorney, Gerard Egan; elected incumbent not established."
       }
+    },
+    {
+      "source_title": "Mariposa County District Attorney — Contact Us",
+      "urls": [
+        "https://mariposacounty.gov/74/District-Attorney"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "mcda@mariposacounty.org",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "General office correspondence.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
     }
   ]
 }
