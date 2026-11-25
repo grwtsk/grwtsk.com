@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/local-government/supervisor-humboldt-4",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County supervisor district 4",
   "aliases": [],
   "taxonomy": [
     "government",
     "local-government"
   ],
-  "email": null,
+  "email": "narroyo@co.humboldt.ca.us",
   "scope": [
     "California / Humboldt County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Verify the current district representative; constituent or policy oversight only, not an investigative agency."
       }
+    },
+    {
+      "source_title": "Southern Humboldt Chamber of Commerce community resources; current Humboldt County Board of Supervisors roster",
+      "urls": [
+        "https://garberville.org/community-resources/",
+        "https://humboldtgov.org/167/Board-of-Supervisors",
+        "https://humboldtgov.org/directory.aspx?did=85"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "narroyo@co.humboldt.ca.us",
+      "listed_officeholder": "Natalie Arroyo",
+      "role": "County supervisor, District 4",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public constituent correspondence within the county district office's jurisdiction.",
+      "limitations": "Verify current incumbent, mailbox and jurisdiction before use. Deliverability not tested. Do not send private records through ordinary outreach email. Address is printed in a non-government public directory; official county roster confirms the officeholder where applicable, but current direct address requires official recheck."
     }
-  ]
+  ],
+  "listed_officeholder": "Natalie Arroyo"
 }

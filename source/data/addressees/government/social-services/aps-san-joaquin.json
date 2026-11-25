@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-san-joaquin",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "aginginfo@sjgov.org",
   "scope": [
     "California / San Joaquin County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,19 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "211 San Joaquin, Adult Protective Services agency listing and Department of Aging listing",
+      "urls": [
+        "https://211sj.org/v2-detail/?idServiceAtLocation=24060659",
+        "https://211sj.org/v2-detail/?idServiceAtLocation=25226252"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "aginginfo@sjgov.org",
+      "role": "Human Services Agency — Aging and Community Services information mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General information and service navigation for the aging agency, listed on its APS service record. Not the designated abuse reporting channel.",
+      "limitations": "Verify current incumbent, mailbox and jurisdiction before use. Deliverability not tested. Do not send private records through ordinary outreach email. Address is printed in a non-government public directory; official county roster confirms the officeholder where applicable, but current direct address requires official recheck. The 211 resource directory explicitly directs abuse reports to the hotline. This is a shared agency information mailbox."
     }
   ]
 }

@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-san-diego",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "ADRC.HHSA@sdcounty.ca.gov",
   "scope": [
     "California / San Diego County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,18 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "County of San Diego Aging & Independence Services, Reporting Elder & Dependent Adult Abuse, p. 1 (visually checked)",
+      "urls": [
+        "https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/ais/aps/Overview-Reporting-Elder-Dependent-Adult-Abuse.pdf"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ADRC.HHSA@sdcounty.ca.gov",
+      "role": "Aging & Independence Services — APS written-report mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Submission of completed SOC 341 after calling the APS hotline, as specified in the county guidance. Not general outreach.",
+      "limitations": "Verify current incumbent, mailbox and jurisdiction before use. Deliverability not tested. Do not send private records through ordinary outreach email. Restricted to the documented reporting procedure; do not use for bulk outreach. Retain hotline and online reporting routes."
     }
   ]
 }
