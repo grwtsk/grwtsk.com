@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-imperial-county-public-defender",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County public defender",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "bensalorio@co.imperial.ca.us",
   "scope": [
     "California / Imperial County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Official county, court or professional office public contact evidence",
+      "urls": [
+        "https://imperialcounty.org/home/department-directory/public-defender/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "bensalorio@co.imperial.ca.us",
+      "published_contact_person": "Benjamin I. Salorio",
+      "role": "Chief Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Public defense administrative inquiries within the office remit.",
+      "limitations": "Official county department directory explicitly names the chief and publishes his county work email. Public defenders serve eligible clients in matters within their statutory or contracted remit; the address is not an independent medical-abuse investigation or general civil legal advice channel. Reconfirm role, mailbox, jurisdiction, eligibility and channel purpose before use. Do not send confidential information by ordinary email. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Benjamin I. Salorio"
 }
