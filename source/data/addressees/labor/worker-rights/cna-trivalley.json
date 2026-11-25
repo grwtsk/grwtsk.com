@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:labor/worker-rights/cna-trivalley",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "California Nurses Association / National Nurses United — Stanford Health Care Tri-Valley",
   "aliases": [],
   "taxonomy": [
     "labor",
     "worker-rights"
   ],
-  "email": null,
+  "email": "info@nationalnursesunited.org",
   "scope": [
     "Pleasanton / Tri-Valley"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "worker-rights-and-related-incident-reports",
@@ -41,6 +41,18 @@
         "purpose": "Nursing representation, staffing and workplace violence protections.",
         "limits": "This is an official union announcement, not an individual complaint form; no separate office email verified."
       }
+    },
+    {
+      "source_title": "National Nurses United — Contact CNA",
+      "urls": [
+        "https://www.nationalnursesunited.org/contact-cna",
+        "https://www.nationalnursesunited.org/press/stanford-health-care-tri-valley-nurses-ratify-new-contract"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@nationalnursesunited.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General California Nurses Association and national union inquiries; route to relevant local representative as appropriate.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Parent union general mailbox, not a dedicated Tri-Valley local address."
     }
   ]
 }

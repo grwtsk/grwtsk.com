@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:labor/worker-rights/cir-stanford",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Committee of Interns and Residents (CIR/SEIU) — Stanford Housestaff",
   "aliases": [],
   "taxonomy": [
     "labor",
     "worker-rights"
   ],
-  "email": null,
+  "email": "info@cirseiu.org",
   "scope": [
     "Stanford Health Care residents and fellows"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "worker-rights-and-related-incident-reports",
@@ -45,6 +45,18 @@
         "purpose": "Training conditions, due process and resident/fellow labor rights.",
         "limits": "Organizer form is intended for represented housestaff; use only within scope. Do not contact individual residents or delegates about allegations."
       }
+    },
+    {
+      "source_title": "Committee of Interns and Residents — COVID-19 ACGME & ABMS open letter; Stanford Housestaff Union",
+      "urls": [
+        "https://www.cirseiu.org/covid-19-acgme-abms-open-letter/",
+        "https://stanfordhousestaffunion.org/get-involved/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@cirseiu.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Parent union address for identifying or contacting the appropriate organizer; Stanford chapter publishes its own organizer contact route.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. This is a national union routing address, not a Stanford-specific inbox or patient complaint intake. Recheck the preferred current chapter route."
     }
   ]
 }

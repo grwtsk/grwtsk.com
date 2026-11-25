@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:labor/worker-rights/legal-aid-at-work",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Legal Aid at Work",
   "aliases": [],
   "taxonomy": [
     "labor",
     "worker-rights"
   ],
-  "email": null,
+  "email": "info@legalaidatwork.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "worker-rights-and-related-incident-reports",
@@ -42,6 +42,19 @@
         "purpose": "Confidential employment legal help for eligible workers.",
         "limits": "For employees with labor concerns, not individual patient medical complaints."
       }
+    },
+    {
+      "source_title": "Alameda County Law Library — Legal Aid Organizations; Legal Aid at Work Terms of Use and Contact",
+      "urls": [
+        "https://lawlibrary.alamedacountyca.gov/legal-aid-organizations/",
+        "https://legalaidatwork.org/terms-of-use/",
+        "https://legalaidatwork.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@legalaidatwork.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published organizational address; the organization's terms identify it for permission inquiries, and the county directory lists it as an organization contact.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Individual legal assistance is directed to the appropriate clinic or helpline. County directory also repeats this address for an unrelated organization; rely on the organization's own publication to establish ownership, not the unrelated listing."
     }
   ]
 }

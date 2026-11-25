@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:labor/worker-rights/wpusa",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Working Partnerships USA",
   "aliases": [],
   "taxonomy": [
     "labor",
     "worker-rights"
   ],
-  "email": null,
+  "email": "highroad@wpusa.org",
   "scope": [
     "San Jose / Silicon Valley"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "worker-rights-and-related-incident-reports",
@@ -44,6 +44,18 @@
         "purpose": "Job quality, institutional accountability, equitable technology governance and community policy.",
         "limits": "Regional policy work; no demonstrated specific investigation of the physician complaint."
       }
+    },
+    {
+      "source_title": "Working Partnerships USA — South Bay and Peninsula High Road Roundtable",
+      "urls": [
+        "https://wpusa.org/work/just-economy/highroadroundtable/",
+        "https://wpusa.org/resources/building-resilient-futures/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "highroad@wpusa.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published program mailbox for engagement with the High Road Roundtable, including caregiver resilience and in-home support service workforce initiatives.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Purpose-specific policy program mailbox, not a general complaint or clinical intake address."
     }
   ]
 }
