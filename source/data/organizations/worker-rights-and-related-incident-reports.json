@@ -43,8 +43,8 @@
       "channel": {
         "kind": "general_organization_inquiry",
         "url": "https://www.seiu-uhw.org/contact/",
-        "email": "info@seiu-uhw.org",
-        "phone": "408-557-2835"
+        "phone": "408-557-2835",
+        "addressee_ref": "addressees/labor/worker-rights/seiu-uhw.json"
       },
       "source_urls": [
         "https://www.seiu-uhw.org/contact/",
@@ -100,8 +100,8 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://teamsters853.org/our-team-officers-staff/",
-        "email": "connections@teamsters853.org",
-        "phone": "510-895-8853"
+        "phone": "510-895-8853",
+        "addressee_ref": "addressees/labor/worker-rights/teamsters-853.json"
       },
       "source_urls": [
         "https://teamsters853.org/our-team-officers-staff/",
@@ -139,8 +139,8 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://www.seiu-usww.org/contact-us/",
-        "email": "info@seiu-usww.org",
-        "phone": "408-280-7770"
+        "phone": "408-280-7770",
+        "addressee_ref": "addressees/labor/worker-rights/seiu-usww.json"
       },
       "source_urls": [
         "https://www.seiu-usww.org/contact-us/",
@@ -160,7 +160,7 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://sgwu.us/",
-        "email": "contact@sgwu.us"
+        "addressee_ref": "addressees/labor/worker-rights/sgwu.json"
       },
       "source_urls": [
         "https://sgwu.us/",
@@ -198,7 +198,7 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://cardinalservice.stanford.edu/opportunities/students-workers-rights",
-        "email": "stanfordworkersrights@gmail.com"
+        "addressee_ref": "addressees/labor/worker-rights/swr.json"
       },
       "source_urls": [
         "https://cardinalservice.stanford.edu/opportunities/students-workers-rights",
@@ -234,7 +234,7 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://med.stanford.edu/smadie/about.html",
-        "email": "stanfordmedadie@stanford.edu"
+        "addressee_ref": "addressees/education/disability-access/smadie.json"
       },
       "source_urls": [
         "https://med.stanford.edu/smadie/about.html",
@@ -427,8 +427,8 @@
       "channel": {
         "kind": "organization_or_program_directory",
         "url": "https://www.sanmateolaborcouncil.org/contact-us",
-        "email": "smclc@sanmateolabor.org",
-        "phone": "650-572-8848"
+        "phone": "650-572-8848",
+        "addressee_ref": "addressees/labor/worker-rights/san-mateo-labor.json"
       },
       "source_urls": [
         "https://www.sanmateolaborcouncil.org/contact-us",

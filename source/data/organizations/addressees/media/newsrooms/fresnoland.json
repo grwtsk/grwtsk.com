@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/fresnoland",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Fresnoland",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@fresnoland.org",
+  "scope": [
+    "Fresno and central San Joaquin Valley"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "fresnoland",
+      "urls": [
+        "https://fresnoland.org/home/about/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "Ordinary tip email; ask for private evidence route first."
+    }
+  ]
+}

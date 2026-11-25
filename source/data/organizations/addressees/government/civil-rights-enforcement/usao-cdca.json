@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/usao-cdca",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "U.S. Attorney Central District of California – Civil Rights Section",
+  "aliases": [
+    "U.S. Attorney – Central District civil-rights section"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "usacac.cv-civilrights@usdoj.gov",
+  "scope": [
+    "Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara, San Luis Obispo counties",
+    "Central District of California",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "usao-cdca",
+      "published_address": "USACAC.CV-CivilRights@usdoj.gov",
+      "urls": [
+        "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "complaint_form_or_email",
+      "stated_purpose": "Civil rights issues only when facts establish venue in the district.",
+      "limitations": null
+    },
+    {
+      "catalog": "outreach-registry.json",
+      "collection": "contact_records",
+      "record_id": "usao-cdca",
+      "published_address": "USACAC.CV-CivilRights@usdoj.gov",
+      "urls": [
+        "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "file_complaint",
+      "stated_purpose": "For conduct within the Central District only.",
+      "limitations": null
+    }
+  ]
+}

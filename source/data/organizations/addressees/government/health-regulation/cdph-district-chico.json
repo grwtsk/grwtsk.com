@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cdph-district-chico",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CDPH Licensing and Certification – Chico district",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": "cdph-lnc-chico@cdph.ca.gov",
+  "scope": [
+    "Butte, Colusa, Glenn, Lassen, Modoc, Plumas, Shasta, Siskiyou, Sutter, Tehama, Trinity, Yuba"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "cdph-district-chico",
+      "published_address": "CDPH-LNC-CHICO@cdph.ca.gov",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "official_office_email",
+      "stated_purpose": "Investigate complaints against facilities under district oversight.",
+      "limitations": null
+    }
+  ]
+}

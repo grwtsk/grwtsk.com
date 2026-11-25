@@ -25,8 +25,8 @@
       "channel": {
         "kind": "general_inquiry_and_advocacy",
         "url": "https://www.ataxia.org/advocacy/",
-        "email": "naf@ataxia.org",
-        "phone": "763-553-0020"
+        "phone": "763-553-0020",
+        "addressee_ref": "addressees/advocacy/disease/naf.json"
       },
       "purpose": "Ataxia support, specialist navigation and disease-specific public policy.",
       "source_urls": [
@@ -95,7 +95,7 @@
       "channel": {
         "kind": "policy_program",
         "url": "https://everylifefoundation.org/advocacy/how-to-get-started/rare-advocates-advisory-committee/",
-        "email": "advocacy@rareadvocates.org"
+        "addressee_ref": "addressees/advocacy/disease/rdla.json"
       },
       "purpose": "Rare disease advocacy education and policy participation.",
       "source_urls": [
@@ -112,8 +112,8 @@
       "channel": {
         "kind": "coalition_inquiry",
         "url": "https://www.americanbraincoalition.org/advocacy",
-        "email": "communications@americanbraincoalition.org",
-        "phone": "763-516-3583"
+        "phone": "763-516-3583",
+        "addressee_ref": "addressees/advocacy/disease/abc.json"
       },
       "purpose": "Umbrella coalition for neurological research, care and federal policy.",
       "source_urls": [
@@ -148,7 +148,7 @@
       "channel": {
         "kind": "policy_program",
         "url": "https://www.psp.org/advocacy",
-        "email": "info@curepsp.org"
+        "addressee_ref": "addressees/advocacy/disease/curepsp.json"
       },
       "purpose": "Atypical parkinsonism advocacy, diagnostics, access to care and caregiver needs.",
       "source_urls": [
@@ -342,8 +342,8 @@
       "channel": {
         "kind": "patient_support_and_policy",
         "url": "https://www.mda.org/get-involved/advocacy",
-        "email": "ResourceCenter@mdausa.org",
-        "phone": "833-275-6321"
+        "phone": "833-275-6321",
+        "addressee_ref": "addressees/advocacy/disease/mda.json"
       },
       "purpose": "Neuromuscular disease access, independence and resource navigation.",
       "source_urls": [
@@ -394,8 +394,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://dredf.org/contact-us/",
-        "email": "info@dredf.org",
-        "phone": "510-644-2555"
+        "phone": "510-644-2555",
+        "addressee_ref": "addressees/advocacy/disability/dredf.json"
       },
       "purpose": "Disability nondiscrimination in healthcare, legal policy and resources.",
       "source_urls": [
@@ -465,8 +465,8 @@
       "channel": {
         "kind": "local_support",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@ricv.org",
-        "phone": "559-221-2330"
+        "phone": "559-221-2330",
+        "addressee_ref": "addressees/advocacy/disability/ricv.json"
       },
       "purpose": "Local independent-living support, self-advocacy and community resources.",
       "source_urls": [
@@ -533,7 +533,7 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://communicationfirst.org/getinvolved/",
-        "email": "info@communicationfirst.org"
+        "addressee_ref": "addressees/advocacy/disability/communicationfirst.json"
       },
       "purpose": "Communication access and rights for people who cannot rely on speech alone; inquire before sharing sensitive stories.",
       "source_urls": [
@@ -566,8 +566,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://californiaalliance.org/contact-us",
-        "email": "info@californiaalliance.org",
-        "phone": "510-663-4086"
+        "phone": "510-663-4086",
+        "addressee_ref": "addressees/advocacy/disability/cara.json"
       },
       "purpose": "Older adult and disability community policy, healthcare and social insurance.",
       "source_urls": [
@@ -603,8 +603,8 @@
       "channel": {
         "kind": "confidential_legal_screening",
         "url": "https://healthconsumer.org/contact/",
-        "email": "ContactHCA@lassd.org",
-        "phone": "888-804-3536"
+        "phone": "888-804-3536",
+        "addressee_ref": "addressees/legal/health-access/hca.json"
       },
       "purpose": "Free healthcare-access legal assistance; do not include names, health or sensitive information in initial email.",
       "source_urls": [
@@ -654,8 +654,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://www.pulsecenterforpatientsafety.org/contact-8",
-        "email": "info@PulseCPSEA.org",
-        "phone": "516-579-4711"
+        "phone": "516-579-4711",
+        "addressee_ref": "addressees/advocacy/patient-rights/pulse.json"
       },
       "purpose": "Patient advocacy education and safer healthcare navigation.",
       "source_urls": [
@@ -689,8 +689,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://www.chcf.org/contact-us/",
-        "email": "info@chcf.org",
-        "phone": "510-238-1040"
+        "phone": "510-238-1040",
+        "addressee_ref": "addressees/advocacy/patient-rights/chcf.json"
       },
       "purpose": "Healthcare quality and access information and resources; not an individual adjudicator or guaranteed grant source.",
       "source_urls": [
@@ -723,8 +723,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://lwvc.org/contact/",
-        "email": "lwvc@lwvc.org",
-        "phone": "916-442-7215"
+        "phone": "916-442-7215",
+        "addressee_ref": "addressees/civic/public-policy/lwvc.json"
       },
       "purpose": "Nonpartisan civic participation and public policy education; local league locator.",
       "source_urls": [
@@ -742,8 +742,8 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://www.commoncause.org/california/priorities/",
-        "email": "CauseNet@commoncause.org",
-        "phone": "202-833-1200"
+        "phone": "202-833-1200",
+        "addressee_ref": "addressees/civic/public-policy/common-cause.json"
       },
       "purpose": "Nonpartisan government transparency, accountability and civil liberties policy; national general contact.",
       "source_urls": [
@@ -761,7 +761,7 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://braverangels.org/braver-network/",
-        "email": "braver-network@braverangels.org"
+        "addressee_ref": "addressees/civic/public-policy/braver-network.json"
       },
       "purpose": "Cross-partisan civic dialogue and cooperation, not adjudication or advocacy for any specific allegation.",
       "source_urls": [
@@ -813,7 +813,7 @@
       "channel": {
         "kind": "general_inquiry",
         "url": "https://www.cato.org/about/public-affairs/",
-        "email": "ExternalAffairs@cato.org"
+        "addressee_ref": "addressees/civic/public-policy/cato.json"
       },
       "purpose": "Liberty-oriented public policy and external affairs; general policy questions only.",
       "source_urls": [
@@ -879,8 +879,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://www.aipca.vote",
-        "email": "chairman@aipca.vote",
-        "phone": "831-684-6167"
+        "phone": "831-684-6167",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-american-independent.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [
@@ -897,8 +897,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://www.cadem.org",
-        "email": "info@cadem.org",
-        "phone": "916-442-5707"
+        "phone": "916-442-5707",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-democratic.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [
@@ -915,8 +915,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://www.cagreens.org",
-        "email": "liaison@cagreens.org",
-        "phone": "916-549-6788"
+        "phone": "916-549-6788",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-green.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [
@@ -933,8 +933,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://www.ca.lp.org",
-        "email": "office@ca.lp.org",
-        "phone": "916-446-1776"
+        "phone": "916-446-1776",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-libertarian.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [
@@ -951,8 +951,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://peaceandfreedom.us/",
-        "email": "peaceandfreedompartyca@gmail.com",
-        "phone": "415-312-1440"
+        "phone": "415-312-1440",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-peace-and-freedom.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [
@@ -969,8 +969,8 @@
       "channel": {
         "kind": "public_party_office",
         "url": "https://www.cagop.org",
-        "email": "info@cagop.org",
-        "phone": "916-448-9496"
+        "phone": "916-448-9496",
+        "addressee_ref": "addressees/civic/political-parties/ca-party-republican.json"
       },
       "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
       "source_urls": [

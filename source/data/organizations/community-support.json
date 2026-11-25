@@ -245,9 +245,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://svilc.org/contact-us/",
-        "email": "info@svilc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/svilc.json"
       },
       "purpose": "Disability advocacy, independent living and systems change resources.",
       "limitations": "Seek eligibility and assistance; not an investigator or automatic coalition member.",
@@ -284,9 +284,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://www.cidsanmateo.org/",
-        "email": "info@cidsanmateo.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/cid.json"
       },
       "purpose": "Independent living, equal community participation and systemic disability advocacy.",
       "limitations": "Request resource guidance; not individual misconduct adjudication.",
@@ -737,9 +737,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@accesscentralcoast.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/access-central-coast.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -775,9 +775,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "feedback@crs-il.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/crs-il.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -813,9 +813,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@thecil.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/thecil.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -851,9 +851,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@cccil.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/cccil.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -889,9 +889,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@calif-ilc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/calif-ilc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -927,9 +927,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@crilhayward.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/cril.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -965,9 +965,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "receptionist@daylemc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/dayle-mcintosh.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1003,9 +1003,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "wecare@actionctr.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/dac.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1041,9 +1041,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "dcrc@dcrc.co",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/dcrc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1079,9 +1079,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@drail.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/drail.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1117,9 +1117,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "Contact@mydslc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/dslc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1155,9 +1155,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@drcinc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/disabled-resources-center.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1193,9 +1193,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "contact@freed.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/freed.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1231,9 +1231,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@ilcofkerncounty.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/ilckc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1269,9 +1269,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "ilcsc@ilcsc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/ilcsc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1307,9 +1307,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@ilrcsf.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/ilrcsf.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1345,9 +1345,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@ilrscc.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/ilrscc.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
@@ -1383,9 +1383,9 @@
       "channel": {
         "type": "support_and_referral",
         "url": "https://calsilc.ca.gov/independent-locator/",
-        "email": "info@ricv.org",
         "email_source_url": "https://calsilc.ca.gov/independent-locator/",
-        "email_checked_on": "2026-11-24"
+        "email_checked_on": "2026-11-24",
+        "addressee_ref": "addressees/advocacy/disability/ricv.json"
       },
       "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
       "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/chcf",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Health Care Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "info@chcf.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "chcf",
+      "urls": [
+        "https://www.chcf.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "general_inquiry",
+      "stated_purpose": "Healthcare quality and access information and resources; not an individual adjudicator or guaranteed grant source.",
+      "limitations": null
+    }
+  ]
+}

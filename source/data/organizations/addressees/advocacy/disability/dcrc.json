@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/dcrc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Disability Community Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "dcrc@dcrc.co",
+  "scope": [
+    "Designated Los Angeles ZIP codes, Orange"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "community-support.json",
+      "collection": "resources",
+      "record_id": "dcrc",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "support_and_referral",
+      "stated_purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "listed_officeholder": "TJ Hill"
+    }
+  ]
+}

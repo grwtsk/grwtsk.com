@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/calvcb",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Victim Compensation Board",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "info@victims.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "victim-support-and-stanford-investigations.json",
+      "collection": "victim_resources",
+      "record_id": "calvcb",
+      "urls": [
+        "https://victims.ca.gov/contact-us/",
+        "https://victims.ca.gov/for-victims/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "benefits_intake",
+      "stated_purpose": "Eligibility screening and reimbursement of qualifying crime-related expenses.",
+      "limitations": null
+    }
+  ]
+}

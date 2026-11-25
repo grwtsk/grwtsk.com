@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/pulse",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Pulse Center for Patient Safety, Education & Advocacy",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "info@pulsecpsea.org",
+  "scope": [
+    "National",
+    "United States"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "pulse",
+      "published_address": "info@PulseCPSEA.org",
+      "urls": [
+        "https://www.pulsecenterforpatientsafety.org/contact-8",
+        "https://www.pulsecenterforpatientsafety.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "general_inquiry",
+      "stated_purpose": "Patient advocacy education and safer healthcare navigation.",
+      "limitations": null
+    },
+    {
+      "catalog": "victim-support-and-stanford-investigations.json",
+      "collection": "victim_resources",
+      "record_id": "pulse-cpsea",
+      "published_address": "Info@Pulsecpsea.org",
+      "urls": [
+        "https://www.pulsecenterforpatientsafety.org/before-calling-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "support_inquiry",
+      "stated_purpose": "Patient advocacy and safer care navigation.",
+      "limitations": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/hhs-ocr",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "HHS Office for Civil Rights",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "ocrcomplaint@hhs.gov",
+  "scope": [
+    "United States / California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "hhs-ocr",
+      "published_address": "OCRComplaint@hhs.gov",
+      "urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "complaint_inquiry",
+      "stated_purpose": "Health-care discrimination and civil rights enforcement.",
+      "limitations": null
+    }
+  ]
+}

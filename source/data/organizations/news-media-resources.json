@@ -115,7 +115,7 @@
       "channel": {
         "kind": "general_newsroom_inquiry",
         "url": "https://www.rwcpulse.com/about-us/",
-        "email": "info@rwcpulse.com"
+        "addressee_ref": "addressees/media/newsrooms/redwood-city-pulse.json"
       },
       "source_urls": [
         "https://www.rwcpulse.com/about-us/"
@@ -134,8 +134,8 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://www.smdailyjournal.com/site/contact.html",
-        "email": "news@smdailyjournal.com",
-        "phone": "650-344-5200"
+        "phone": "650-344-5200",
+        "addressee_ref": "addressees/media/newsrooms/san-mateo-daily-journal.json"
       },
       "source_urls": [
         "https://www.smdailyjournal.com/site/contact.html"
@@ -153,8 +153,8 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://www.bayareanewsgroup.com/submit-news-tip",
-        "email": "local@bayareanewsgroup.com",
-        "phone": "408-920-5444"
+        "phone": "408-920-5444",
+        "addressee_ref": "addressees/media/newsrooms/east-bay-times.json"
       },
       "source_urls": [
         "https://www.bayareanewsgroup.com/submit-news-tip"
@@ -173,8 +173,8 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://www.bayareanewsgroup.com/submit-news-tip",
-        "email": "local@bayareanewsgroup.com",
-        "phone": "925-943-8241"
+        "phone": "925-943-8241",
+        "addressee_ref": "addressees/media/newsrooms/east-bay-times.json"
       },
       "source_urls": [
         "https://www.bayareanewsgroup.com/submit-news-tip"
@@ -193,8 +193,8 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://www.bayareanewsgroup.com/submit-news-tip",
-        "email": "localnews@marinij.com",
-        "phone": "415-382-7290"
+        "phone": "415-382-7290",
+        "addressee_ref": "addressees/media/newsrooms/marin-ij.json"
       },
       "source_urls": [
         "https://www.bayareanewsgroup.com/submit-news-tip"
@@ -232,7 +232,7 @@
       "channel": {
         "kind": "metro_desk",
         "url": "https://www.sfchronicle.com/newsroom_contacts/",
-        "email": "metrodesk@sfchronicle.com"
+        "addressee_ref": "addressees/media/newsrooms/sf-chronicle.json"
       },
       "source_urls": [
         "https://www.sfchronicle.com/newsroom_contacts/"
@@ -268,7 +268,7 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://missionlocal.org/about/",
-        "email": "tips@missionlocal.com"
+        "addressee_ref": "addressees/media/newsrooms/mission-local.json"
       },
       "source_urls": [
         "https://missionlocal.org/about/"
@@ -304,8 +304,8 @@
       "channel": {
         "kind": "assignment_desk",
         "url": "https://www.kqed.org/pressroom",
-        "email": "assignmentdesk@kqed.org",
-        "phone": "415-553-2361"
+        "phone": "415-553-2361",
+        "addressee_ref": "addressees/media/newsrooms/kqed.json"
       },
       "source_urls": [
         "https://www.kqed.org/pressroom"
@@ -362,7 +362,7 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://www.cbsnews.com/sanfrancisco/about/",
-        "email": "newstips@kpix.com"
+        "addressee_ref": "addressees/media/newsrooms/kpix.json"
       },
       "source_urls": [
         "https://www.cbsnews.com/sanfrancisco/about/"
@@ -399,7 +399,7 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://fresnoland.org/home/about/",
-        "email": "tips@fresnoland.org"
+        "addressee_ref": "addressees/media/newsrooms/fresnoland.json"
       },
       "source_urls": [
         "https://fresnoland.org/home/about/"
@@ -417,7 +417,7 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://gvwire.com/contact/",
-        "email": "news@gvwire.com"
+        "addressee_ref": "addressees/media/newsrooms/gv-wire.json"
       },
       "source_urls": [
         "https://gvwire.com/contact/"
@@ -490,7 +490,7 @@
       "channel": {
         "kind": "submission_email",
         "url": "https://themercedfocus.org/submit-news-tip/",
-        "email": "comms@cvlocaljournalism.org"
+        "addressee_ref": "addressees/media/newsrooms/merced-focus.json"
       },
       "source_urls": [
         "https://themercedfocus.org/submit-news-tip/"
@@ -509,8 +509,8 @@
       "channel": {
         "kind": "general_organization_inquiry",
         "url": "https://cvlocaljournalism.org/contact/",
-        "email": "info@cvlocaljournalism.org",
-        "phone": "559-325-4076"
+        "phone": "559-325-4076",
+        "addressee_ref": "addressees/media/newsrooms/cvjc.json"
       },
       "source_urls": [
         "https://cvlocaljournalism.org/contact/"
@@ -529,7 +529,7 @@
       "channel": {
         "kind": "news_tip_email_and_confidential_options",
         "url": "https://calmatters.org/about/contact-us/",
-        "email": "tips@calmatters.org"
+        "addressee_ref": "addressees/media/newsrooms/calmatters.json"
       },
       "source_urls": [
         "https://calmatters.org/about/contact-us/"
@@ -547,7 +547,7 @@
       "channel": {
         "kind": "confidential_tip_options",
         "url": "https://www.latimes.com/tips/",
-        "email": "tips@latimes.com"
+        "addressee_ref": "addressees/media/newsrooms/la-times.json"
       },
       "source_urls": [
         "https://www.latimes.com/tips/"
@@ -686,7 +686,7 @@
       "channel": {
         "kind": "news_tip_email",
         "url": "https://mindsitenews.org/contact-us/",
-        "email": "info@mindsitenews.org"
+        "addressee_ref": "addressees/media/newsrooms/mindsite-news.json"
       },
       "source_urls": [
         "https://mindsitenews.org/contact-us/"
@@ -739,7 +739,7 @@
       "channel": {
         "kind": "investigations_email",
         "url": "https://help.npr.org/contact/s/article?name=how-do-i-submit-a-confidential-news-tip-to-npr",
-        "email": "Investigations@npr.org"
+        "addressee_ref": "addressees/media/newsrooms/npr.json"
       },
       "source_urls": [
         "https://help.npr.org/contact/s/article?name=how-do-i-submit-a-confidential-news-tip-to-npr"
@@ -757,7 +757,7 @@
       "channel": {
         "kind": "news_tip_email_and_secure_options",
         "url": "https://www.washingtonpost.com/anonymous-news-tips//",
-        "email": "lockbox@washpost.com"
+        "addressee_ref": "addressees/media/newsrooms/washington-post.json"
       },
       "source_urls": [
         "https://www.washingtonpost.com/anonymous-news-tips//"
@@ -810,8 +810,8 @@
       "channel": {
         "kind": "investigative_tip_email",
         "url": "https://abcnews.com/us/tip-share-abc-news/story?id=61304290",
-        "email": "news.tips@abc.com",
-        "phone": "212-456-2828"
+        "phone": "212-456-2828",
+        "addressee_ref": "addressees/media/newsrooms/abc-news.json"
       },
       "source_urls": [
         "https://abcnews.com/us/tip-share-abc-news/story?id=61304290"
@@ -830,7 +830,7 @@
       "channel": {
         "kind": "news_tip_email_and_secure_options",
         "url": "https://www.nbcnews.com/tips/",
-        "email": "tips@nbcuni.com"
+        "addressee_ref": "addressees/media/newsrooms/nbc-news.json"
       },
       "source_urls": [
         "https://www.nbcnews.com/tips/"

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ca-ag-disability",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California DOJ Disability Rights Bureau",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "disabilityrights@doj.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "ca-ag-disability",
+      "published_address": "DisabilityRights@doj.ca.gov",
+      "urls": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "official_office_email",
+      "stated_purpose": "Review evidence of systemic disability discrimination or pattern/practice.",
+      "limitations": null
+    }
+  ]
+}

@@ -2093,7 +2093,7 @@
       "channel": {
         "kind": "office_website",
         "url": "https://www.smcgov.org/da",
-        "email": "da_info@smcgov.org"
+        "addressee_ref": "addressees/government/justice/da-san-mateo.json"
       },
       "listed_officeholder": "Stephen M. Wagstaffe",
       "source": [
@@ -3021,7 +3021,7 @@
       "channel": {
         "kind": "file_complaint",
         "url": "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/",
-        "email": "contact.center@calcivilrights.ca.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/crd.json"
       },
       "source": [
         "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/"
@@ -3142,7 +3142,7 @@
       "channel": {
         "kind": "file_complaint",
         "url": "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section",
-        "email": "USACAC.CV-CivilRights@usdoj.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/usao-cdca.json"
       },
       "source": [
         "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
@@ -3203,7 +3203,7 @@
       "channel": {
         "kind": "file_complaint",
         "url": "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html",
-        "email": "GuestServices@stanfordhealthcare.org"
+        "addressee_ref": "addressees/healthcare/patient-relations/shc-relations.json"
       },
       "source": [
         "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
@@ -3294,7 +3294,7 @@
       "channel": {
         "kind": "coalition_intake",
         "url": "https://www.ataxia.org/contact/",
-        "email": "naf@ataxia.org"
+        "addressee_ref": "addressees/advocacy/disease/naf.json"
       },
       "source": [
         "https://www.ataxia.org/contact/"

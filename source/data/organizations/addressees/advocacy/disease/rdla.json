@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/rdla",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "RARE Advocates / Rare Disease Legislative Advocates",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "advocacy@rareadvocates.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "rdla",
+      "urls": [
+        "https://everylifefoundation.org/advocacy/how-to-get-started/rare-advocates-advisory-committee/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "policy_program",
+      "stated_purpose": "Rare disease advocacy education and policy participation.",
+      "limitations": null
+    }
+  ]
+}

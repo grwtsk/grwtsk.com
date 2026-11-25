@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/svilc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Silicon Valley Independent Living Center",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@svilc.org",
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "community-support.json",
+      "collection": "resources",
+      "record_id": "svilc",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/",
+        "https://svilc.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "support_and_referral",
+      "stated_purpose": "Disability advocacy, independent living and systems change resources.",
+      "limitations": "Seek eligibility and assistance; not an investigator or automatic coalition member.",
+      "listed_officeholder": "Sheri Burns"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/lwvc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "League of Women Voters of California",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": "lwvc@lwvc.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "lwvc",
+      "urls": [
+        "https://lwvc.org/contact/",
+        "https://lwvc.org/about-us/local-leagues/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "general_inquiry",
+      "stated_purpose": "Nonpartisan civic participation and public policy education; local league locator.",
+      "limitations": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/common-cause",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Common Cause California",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": "causenet@commoncause.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "common-cause",
+      "published_address": "CauseNet@commoncause.org",
+      "urls": [
+        "https://www.commoncause.org/california/priorities/",
+        "https://www.commoncause.org/about-us/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "general_inquiry",
+      "stated_purpose": "Nonpartisan government transparency, accountability and civil liberties policy; national general contact.",
+      "limitations": null
+    }
+  ]
+}

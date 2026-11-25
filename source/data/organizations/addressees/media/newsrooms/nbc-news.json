@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/nbc-news",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "NBC News",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@nbcuni.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "nbc-news",
+      "urls": [
+        "https://www.nbcnews.com/tips/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email_and_secure_options",
+      "stated_purpose": null,
+      "limitations": "General tip inbox; use published secure options for sensitive information."
+    }
+  ]
+}

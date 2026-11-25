@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/east-bay-times",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "East Bay Times",
+  "aliases": [
+    "The Mercury News"
+  ],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "local@bayareanewsgroup.com",
+  "scope": [
+    "Alameda and Contra Costa counties",
+    "San Jose, Santa Clara County and Bay Area"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "east-bay-times",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "Alameda newsroom also lists 510-208-6450. Shared inbox with Mercury News."
+    },
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "mercury-news",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "Shared Bay Area News Group tip inbox; do not submit redundant copies."
+    }
+  ]
+}

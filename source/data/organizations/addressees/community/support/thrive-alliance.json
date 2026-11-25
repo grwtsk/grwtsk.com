@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/thrive-alliance",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Thrive Alliance",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@thrivealliance.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "peninsula-community-and-neurology-resources.json",
+      "collection": "community_resources",
+      "record_id": "thrive-alliance",
+      "published_address": "info@ThriveAlliance.org",
+      "urls": [
+        "https://www.thrivealliance.org/current-members",
+        "https://www.thrivealliance.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "organization_office",
+      "stated_purpose": "Regional nonprofit network and community policy coordination.",
+      "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/ricv",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Resources for Independence, Central Valley",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@ricv.org",
+  "scope": [
+    "Fresno, Kings, Madera, Merced, Tulare"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "disease-disability-and-civic-resources.json",
+      "collection": "records",
+      "record_id": "ricv",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/",
+        "https://cfilc.org/about-cfilc/board-members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "local_support",
+      "stated_purpose": "Local independent-living support, self-advocacy and community resources.",
+      "limitations": null
+    },
+    {
+      "catalog": "community-support.json",
+      "collection": "resources",
+      "record_id": "ricv",
+      "urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "support_and_referral",
+      "stated_purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "listed_officeholder": "Suzanna Gámez"
+    }
+  ]
+}

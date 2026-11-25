@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/cvjc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Central Valley Journalism Collaborative / The Intersection",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "info@cvlocaljournalism.org",
+  "scope": [
+    "Central Valley / California health equity"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "cvjc",
+      "urls": [
+        "https://cvlocaljournalism.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "general_organization_inquiry",
+      "stated_purpose": null,
+      "limitations": "General office inquiry, not a verified dedicated tip address for The Intersection."
+    }
+  ]
+}

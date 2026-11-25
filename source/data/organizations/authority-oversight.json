@@ -221,7 +221,7 @@
         "kind": "complaint_form_or_email",
         "url": "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section",
         "phone": "213-894-2879",
-        "email": "USACAC.CV-CivilRights@usdoj.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/usao-cdca.json"
       },
       "purpose": "Civil rights issues only when facts establish venue in the district.",
       "source_urls": [
@@ -260,7 +260,7 @@
         "kind": "complaint_inquiry",
         "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
         "phone": "800-368-1019",
-        "email": "OCRComplaint@hhs.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/hhs-ocr.json"
       },
       "purpose": "Health-care discrimination and civil rights enforcement.",
       "source_urls": [
@@ -279,7 +279,7 @@
         "kind": "inquiry",
         "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
         "phone": "800-368-1019",
-        "email": "OCRPrivacy@hhs.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/hhs-privacy.json"
       },
       "purpose": "HIPAA or other OCR-covered health information concerns.",
       "source_urls": [
@@ -335,7 +335,7 @@
       "channel": {
         "kind": "casework",
         "url": "https://www.schiff.senate.gov/services/help-with-a-federal-agency/",
-        "email": "Constituent_Services@schiff.senate.gov"
+        "addressee_ref": "addressees/government/legislative/us-senate-schiff.json"
       },
       "purpose": "Request federal agency assistance using signed authorization.",
       "source_urls": [
@@ -560,7 +560,7 @@
       "channel": {
         "kind": "official_office_email",
         "url": "https://www.oag.ca.gov/civil/disability-rights",
-        "email": "DisabilityRights@doj.ca.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/ca-ag-disability.json"
       },
       "purpose": "Review evidence of systemic disability discrimination or pattern/practice.",
       "source_urls": [
@@ -672,7 +672,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "415-330-6353",
-        "email": "CDPH-LNC-DALYCITY@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-sf.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -691,7 +691,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "408-277-1784",
-        "email": "CDPH-LNC-SANJOSE@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-sj.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -710,7 +710,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "707-576-6775",
-        "email": "CDPH-LNC-SANTAROSA@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-santarosa.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -729,7 +729,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "209-957-6948",
-        "email": "CDPH-LNC-STOCKTON@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-stockton.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -748,7 +748,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "805-604-2926",
-        "email": "CDPH-LNC-VENTURA@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-ventura.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -767,7 +767,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "661-336-0543",
-        "email": "CDPH-LNC-BAKERSFIELD@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-bakersfield.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -786,7 +786,7 @@
         "kind": "official_office_email",
         "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx",
         "phone": "530-895-6711",
-        "email": "CDPH-LNC-CHICO@cdph.ca.gov"
+        "addressee_ref": "addressees/government/health-regulation/cdph-district-chico.json"
       },
       "purpose": "Investigate complaints against facilities under district oversight.",
       "source_urls": [
@@ -1181,7 +1181,7 @@
         "kind": "official_office_email",
         "url": "https://www.fresnocountyca.gov/Departments/Clerk-of-the-Board-of-Supervisors",
         "phone": "559-600-3529",
-        "email": "ClerkBOS@FresnoCountyCA.gov"
+        "addressee_ref": "addressees/government/local-government/fresno-board.json"
       },
       "purpose": "Local social service and public health budget/policy oversight; constituent referral.",
       "source_urls": [
@@ -1273,7 +1273,7 @@
         "kind": "official_office_email",
         "url": "https://president.stanford.edu/contact",
         "phone": "650-723-2481",
-        "email": "president@stanford.edu"
+        "addressee_ref": "addressees/education/institutional-governance/stanford-president.json"
       },
       "purpose": "University academic governance concerns; request appropriate institutional referral.",
       "source_urls": [
@@ -1294,7 +1294,7 @@
         "kind": "official_office_email",
         "url": "https://boardoftrustees.stanford.edu/contact",
         "phone": "650-721-2926",
-        "email": "boardoffice@stanford.edu"
+        "addressee_ref": "addressees/education/institutional-governance/stanford-trustees.json"
       },
       "purpose": "University governance concerns via board office.",
       "source_urls": [
@@ -1348,7 +1348,7 @@
         "kind": "hotline_or_webform",
         "url": "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation",
         "phone": "800-403-4744",
-        "email": "whistleblower@ucsf.edu"
+        "addressee_ref": "addressees/education/institutional-compliance/ucsf-compliance.json"
       },
       "purpose": "Improper activities within whistleblower program jurisdiction; triage for appropriate review.",
       "source_urls": [
@@ -1385,8 +1385,8 @@
       "channel": {
         "kind": "official_office_email",
         "url": "https://regents.universityofcalifornia.edu/contact/",
-        "email": "regentsoffice@ucop.edu",
-        "mail": "Office of the Secretary and Chief of Staff to the Regents, 1111 Franklin St., 12th floor, Oakland, CA 94607"
+        "mail": "Office of the Secretary and Chief of Staff to the Regents, 1111 Franklin St., 12th floor, Oakland, CA 94607",
+        "addressee_ref": "addressees/education/institutional-governance/uc-regents.json"
       },
       "purpose": "Board governance concerns regarding UC public institution and systemwide policy.",
       "source_urls": [
@@ -1442,7 +1442,7 @@
         "kind": "office_phone_email",
         "url": "https://www.smcgov.org/da/contact-us",
         "phone": "650-363-4636",
-        "email": "da_info@smcgov.org"
+        "addressee_ref": "addressees/government/justice/da-san-mateo.json"
       },
       "purpose": "Prosecutorial review or guidance where facts establish venue.",
       "source_urls": [
@@ -1462,7 +1462,7 @@
         "kind": "office_phone_email",
         "url": "https://sfdistrictattorney.org/contact/",
         "phone": "628-652-4000",
-        "email": "districtattorney@sfgov.org"
+        "addressee_ref": "addressees/government/justice/da-san-francisco.json"
       },
       "purpose": "Prosecutorial review or guidance where facts establish venue.",
       "source_urls": [
@@ -1481,7 +1481,7 @@
         "kind": "office_phone_email",
         "url": "https://sfdistrictattorney.org/victim-services/",
         "phone": "628-652-4100",
-        "email": "victimservices@sfgov.org"
+        "addressee_ref": "addressees/government/victim-services/victim-san-francisco.json"
       },
       "purpose": "Victim support and advocacy.",
       "source_urls": [
@@ -1518,7 +1518,7 @@
         "kind": "complaint_instructions",
         "url": "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/",
         "phone": "800-884-1684",
-        "email": "contact.center@calcivilrights.ca.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/crd.json"
       },
       "purpose": "Individual civil rights complaint intake and investigation if within statutory jurisdiction.",
       "source_urls": [
@@ -1537,7 +1537,7 @@
         "kind": "official_office_email",
         "url": "https://calcivilrights.ca.gov/contactus/",
         "phone": "844-541-2877",
-        "email": "accommodations@calcivilrights.ca.gov"
+        "addressee_ref": "addressees/government/civil-rights-enforcement/crd-accommodations.json"
       },
       "purpose": "Request accessible communication and assistance with complaint process.",
       "source_urls": [

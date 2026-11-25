@@ -68,8 +68,8 @@
       "channel": {
         "kind": "public_office",
         "url": "https://www.paloalto.gov/Departments/Community-Services/Human-Services",
-        "email": "human.services@paloalto.gov",
-        "phone": "650-463-4906"
+        "phone": "650-463-4906",
+        "addressee_ref": "addressees/government/local-government/palo-alto-human-services.json"
       },
       "purpose": "Public human services, resource referral and accessible community services.",
       "verification": "official_directory_listing_reviewed",
@@ -227,8 +227,8 @@
       "channel": {
         "kind": "organization_office",
         "url": "https://www.thrivealliance.org/current-members",
-        "email": "info@ThriveAlliance.org",
-        "phone": "650-622-4117"
+        "phone": "650-622-4117",
+        "addressee_ref": "addressees/community/support/thrive-alliance.json"
       },
       "purpose": "Regional nonprofit network and community policy coordination.",
       "verification": "official_directory_listing_reviewed",

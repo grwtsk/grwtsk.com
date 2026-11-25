@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/washington-post",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Washington Post",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "lockbox@washpost.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "washington-post",
+      "urls": [
+        "https://www.washingtonpost.com/anonymous-news-tips//"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email_and_secure_options",
+      "stated_purpose": null,
+      "limitations": "General tips inbox; use designated confidential options for sensitive material."
+    }
+  ]
+}

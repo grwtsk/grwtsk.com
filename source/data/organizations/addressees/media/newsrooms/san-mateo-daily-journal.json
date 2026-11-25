@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/san-mateo-daily-journal",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Mateo Daily Journal",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news@smdailyjournal.com",
+  "scope": [
+    "San Mateo County and northern Santa Clara County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "san-mateo-daily-journal",
+      "urls": [
+        "https://www.smdailyjournal.com/site/contact.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "Email and submission routes are public news channels, not confidential evidence repositories."
+    }
+  ]
+}

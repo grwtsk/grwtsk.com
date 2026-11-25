@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/smadie",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Medicine Alliance for Disability Inclusion and Equity (SMADIE)",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": "stanfordmedadie@stanford.edu",
+  "scope": [
+    "School of Medicine, Stanford Health Care, UHA, Lucile Packard Children's Hospital, PCHA and Stanford Children's Health"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "worker-rights-and-related-incident-reports.json",
+      "collection": "organizations",
+      "record_id": "smadie",
+      "urls": [
+        "https://med.stanford.edu/smadie/about.html",
+        "https://stanfordidd.stanford.edu/stanford-resources-opportunities-0",
+        "https://med.stanford.edu/community/advisory-cabinet/subcommittees.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "organization_or_program_directory",
+      "stated_purpose": "Disability inclusion, universal design, health equity and mentorship across Stanford Medicine.",
+      "limitations": null
+    }
+  ]
+}

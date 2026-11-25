@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/cdph-district-sf",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CDPH Licensing and Certification – San Francisco district",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": "cdph-lnc-dalycity@cdph.ca.gov",
+  "scope": [
+    "San Francisco, San Mateo, parts of Santa Clara including Palo Alto, Mountain View, Santa Clara, Cupertino, Los Altos, Saratoga, Sunnyvale"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "cdph-district-sf",
+      "published_address": "CDPH-LNC-DALYCITY@cdph.ca.gov",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/DistrictOffices.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "official_office_email",
+      "stated_purpose": "Investigate complaints against facilities under district oversight.",
+      "limitations": null
+    }
+  ]
+}

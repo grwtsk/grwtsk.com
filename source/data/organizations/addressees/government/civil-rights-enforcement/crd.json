@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/crd",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Civil Rights Department",
+  "aliases": [
+    "California Civil Rights Department – intake"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "contact.center@calcivilrights.ca.gov",
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "crd",
+      "urls": [
+        "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "complaint_instructions",
+      "stated_purpose": "Individual civil rights complaint intake and investigation if within statutory jurisdiction.",
+      "limitations": null
+    },
+    {
+      "catalog": "outreach-registry.json",
+      "collection": "contact_records",
+      "record_id": "crd",
+      "urls": [
+        "https://calcivilrights.ca.gov/complaintprocess/how-to-file-a-complaint/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "file_complaint",
+      "stated_purpose": "Individual civil-rights complaint; use prescribed intake form.",
+      "limitations": null
+    }
+  ]
+}

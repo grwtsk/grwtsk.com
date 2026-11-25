@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-san-francisco",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco District Attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "districtattorney@sfgov.org",
+  "scope": [
+    "San Francisco County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "da-san-francisco",
+      "urls": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "office_phone_email",
+      "stated_purpose": "Prosecutorial review or guidance where facts establish venue.",
+      "limitations": null
+    }
+  ]
+}

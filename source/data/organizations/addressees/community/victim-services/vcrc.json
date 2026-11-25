@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/vcrc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Victims of Crime Resource Center — University of the Pacific, McGeorge School of Law",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "1800victims@pacific.edu",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "victim-support-and-stanford-investigations.json",
+      "collection": "victim_resources",
+      "record_id": "vcrc",
+      "published_address": "1800VICTIMS@pacific.edu",
+      "urls": [
+        "https://oag.ca.gov/pcju/victim-resources",
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "support_inquiry",
+      "stated_purpose": "Victim rights information, referrals and support navigating the justice system.",
+      "limitations": null
+    }
+  ]
+}

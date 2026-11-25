@@ -81,8 +81,8 @@
       "channel": {
         "kind": "support_inquiry",
         "url": "https://www.pulsecenterforpatientsafety.org/before-calling-us",
-        "email": "Info@Pulsecpsea.org",
-        "phone": "516-579-4711"
+        "phone": "516-579-4711",
+        "addressee_ref": "addressees/advocacy/patient-rights/pulse.json"
       },
       "purpose": "Patient advocacy and safer care navigation.",
       "limits": "Volunteer support is limited and does not replace medical or legal advice.",
@@ -100,8 +100,8 @@
       "channel": {
         "kind": "benefits_intake",
         "url": "https://victims.ca.gov/contact-us/",
-        "email": "info@victims.ca.gov",
-        "phone": "800-777-9229"
+        "phone": "800-777-9229",
+        "addressee_ref": "addressees/government/victim-services/calvcb.json"
       },
       "purpose": "Eligibility screening and reimbursement of qualifying crime-related expenses.",
       "limits": "Medical negligence by itself does not establish a qualifying crime; ask about evidence and deadlines.",
@@ -138,8 +138,8 @@
       "channel": {
         "kind": "support_inquiry",
         "url": "https://oag.ca.gov/pcju/victim-resources",
-        "email": "1800VICTIMS@pacific.edu",
-        "phone": "800-842-8467"
+        "phone": "800-842-8467",
+        "addressee_ref": "addressees/community/victim-services/vcrc.json"
       },
       "purpose": "Victim rights information, referrals and support navigating the justice system.",
       "limits": "Public institutional email verified by Attorney General resource directory; ask about confidential communication.",
@@ -214,8 +214,8 @@
       "channel": {
         "kind": "support_inquiry",
         "url": "https://www.belovedsurvivors.com/contact-us",
-        "email": "info@belovedsurvivors.com",
-        "phone": "559-710-2300"
+        "phone": "559-710-2300",
+        "addressee_ref": "addressees/community/victim-services/beloved-survivors.json"
       },
       "purpose": "Trauma survivor services; Secretary of State directory includes elder/dependent-adult abuse.",
       "limits": "Ask about confidential support and accommodations; not an investigator.",
@@ -503,8 +503,8 @@
       "channel": {
         "kind": "support_inquiry",
         "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
-        "email": "victimservices@cdcr.ca.gov",
-        "phone": "877-256-6877"
+        "phone": "877-256-6877",
+        "addressee_ref": "addressees/government/victim-services/ca-cdcr-ovsrs.json"
       },
       "purpose": "Victim services relating to correctional system and resource navigation.",
       "limits": "Case services generally involve convicted persons in CDCR jurisdiction; not an initial crime report.",

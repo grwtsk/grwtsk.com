@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/marin-ij",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Marin Independent Journal",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "localnews@marinij.com",
+  "scope": [
+    "Marin County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "marin-ij",
+      "urls": [
+        "https://www.bayareanewsgroup.com/submit-news-tip"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "Ordinary newsroom email; confirm fit before sharing evidence."
+    }
+  ]
+}

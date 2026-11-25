@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/gv-wire",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "GV Wire",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news@gvwire.com",
+  "scope": [
+    "Fresno and Central Valley"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "gv-wire",
+      "urls": [
+        "https://gvwire.com/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "General newsroom tips inbox; not an encrypted service."
+    }
+  ]
+}

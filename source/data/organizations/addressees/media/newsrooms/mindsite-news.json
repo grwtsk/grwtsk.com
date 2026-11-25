@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/mindsite-news",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "MindSite News",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "info@mindsitenews.org",
+  "scope": [
+    "National / mental health"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "news-media-resources.json",
+      "collection": "records",
+      "record_id": "mindsite-news",
+      "urls": [
+        "https://mindsitenews.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "news_tip_email",
+      "stated_purpose": null,
+      "limitations": "General email not confidential by default; medical diagnosis not inferred from relevance."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-governance/stanford-president",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford University Office of President",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-governance"
+  ],
+  "email": "president@stanford.edu",
+  "scope": [
+    "Stanford University"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "catalog": "authority-oversight.json",
+      "collection": "authority_records",
+      "record_id": "stanford-president",
+      "urls": [
+        "https://president.stanford.edu/contact",
+        "https://www.stanford.edu/about/leadership-and-governance"
+      ],
+      "source_review_date": "2026-11-24",
+      "channel_kind": "official_office_email",
+      "stated_purpose": "University academic governance concerns; request appropriate institutional referral.",
+      "limitations": null,
+      "listed_officeholder": "Jonathan Levin"
+    }
+  ]
+}
