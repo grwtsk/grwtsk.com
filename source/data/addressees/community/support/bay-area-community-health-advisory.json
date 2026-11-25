@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/bay-area-community-health-advisory",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Bay Area Community Health Advisory Council",
   "aliases": [],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "info@bachac.org",
   "scope": [
     "Peninsula / Bay Area"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,17 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "Bay Area Community Health Advisory Council — Contact Us",
+      "urls": [
+        "https://www.bachac.org/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@bachac.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Information about community health education, engagement and the organization.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
     }
   ]
 }

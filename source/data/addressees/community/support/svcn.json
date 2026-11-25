@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/svcn",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Silicon Valley Council of Nonprofits",
   "aliases": [],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "admin@svcn.org",
   "scope": [
     "Silicon Valley"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,17 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "Silicon Valley Council of Nonprofits — Contact",
+      "urls": [
+        "https://www.svcn.org/contact-page"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "admin@svcn.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General questions and concerns concerning nonprofit membership, support and advocacy.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
     }
   ]
 }

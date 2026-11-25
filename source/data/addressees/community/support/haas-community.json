@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/haas-community",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Haas Center for Public Service — community volunteering",
   "aliases": [],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "haascenter@stanford.edu",
   "scope": [
     "Stanford and Peninsula"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,17 @@
         "checked_on": "2026-11-24",
         "limitations": "Student volunteering resource, not an intake for clinical complaints."
       }
+    },
+    {
+      "source_title": "Stanford Haas Center — Recruiting Students",
+      "urls": [
+        "https://haas.stanford.edu/resources/community-partners/recruiting-students"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "haascenter@stanford.edu",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General questions about recruiting Stanford student volunteers and community partnerships; not a university grievance or investigative office.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
     }
   ]
 }

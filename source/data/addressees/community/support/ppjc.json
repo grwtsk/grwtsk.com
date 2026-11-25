@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/ppjc",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Peninsula Peace and Justice Center",
   "aliases": [],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "ppjc@peaceandjustice.org",
   "scope": [
     "Peninsula"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,18 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Peninsula Peace and Justice Center — organization contact",
+      "urls": [
+        "https://peaceandjustice.org/organizer/peninsula-peace-justice-center/",
+        "https://peaceandjustice.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ppjc@peaceandjustice.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational correspondence concerning public education and advocacy.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
     }
   ]
 }
