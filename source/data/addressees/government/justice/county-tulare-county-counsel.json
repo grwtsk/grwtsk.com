@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-tulare-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "tularecountycounselO@tularecounty.ca.gov",
   "scope": [
     "California / Tulare County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office and professional contact evidence",
+      "urls": [
+        "https://tularecounty.ca.gov/county-counsel",
+        "https://tularecountycounsel.org/contact-us"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "tularecountycounselO@tularecounty.ca.gov",
+      "role": "County Counsel office mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive county legal administrative correspondence within documented jurisdiction and office remit.",
+      "limitations": "Indexed official county page explicitly shows this literal address, including the final letter O in the local part; directly retrieved page masks the address. Reconfirm the exact mailbox before use. Department states that it does not accept electronic service unless agreed to in writing. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm role, mailbox and remit before use. Deliverability not tested."
     }
   ]
 }
