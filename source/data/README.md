@@ -1,9 +1,10 @@
 # Manage correspondence (no programming required)
 
 This is the source of truth. Read this page when writing, sending or receiving
-a letter. The three records are deliberately independent: the original letter,
-its send history, and its responses. Publishing a letter on a website does
-not mean it has been sent to anyone.
+a letter. Four records are deliberately independent: the original letter,
+its actual send history, incoming responses (`in/`), and unsent outgoing email
+drafts (`out/`). Publishing a letter or preparing a draft does not mean it
+has been sent to anyone.
 
 **Before changing anything:** open the relevant article's directory. Confirm
 that the letter is the one intended. This is a public Git repository; do not
@@ -18,18 +19,21 @@ slug (letters, numbers and single hyphens, up to 120 characters). For example,
 `request-for-records`. Once published, do not rename it: it determines the
 permalink and response links.
 
-Inside the directory create all three entries:
+Inside the directory create these four entries:
 
 ```text
 request-for-records/
   article.md
   status.md
-  responses/
+  in/
+    .gitkeep
+  out/
     .gitkeep
 ```
 
-Git cannot track an empty directory. The zero-content or blank
-`responses/.gitkeep` file preserves that directory until responses exist.
+Git cannot track an empty directory. The blank `in/.gitkeep` and
+`out/.gitkeep` files preserve the directories until real responses or reviewed
+public-safe drafts exist.
 
 ### article.md
 
@@ -106,7 +110,7 @@ sends: []
 ---
 ```
 
-Leave `responses/` empty except for .gitkeep. The site automatically shows
+Leave `in/` and `out/` empty except for .gitkeep when creating an article. The site automatically shows
 Written, No sends recorded, and No responses recorded.
 
 ### What happens after a verified build?
@@ -149,7 +153,7 @@ letter or out of chronological order.
 
 ## 3. Record a response
 
-Create one Markdown file under that letter's `responses/` directory. Use
+Create one Markdown file under that letter's `in/` directory. Use
 a stable lowercase ASCII filename such as `2026-11-25-agency.md`. Keep
 the response text separate from the letter and the send history.
 
@@ -174,6 +178,17 @@ change status: record any send independently if it occurred.
 Do not put a README, PDF, private attachment or other non-Markdown file
 in the response directory; use a public-record link to an appropriate
 external record instead.
+
+### Store pre-generated outgoing emails
+
+Use the article's `out/` directory for public-safe, unsent email drafts. The
+directory is for preparation and review only. Drafts must be clearly marked
+unsent, and must not include confidential records, private addresses, private
+messages or sensitive recipient-specific material. This Git repository is
+public; excluding drafts from website generation does not make them private.
+Use protected storage for nonpublic drafts. The site ignores `out/` completely;
+no file there changes `status.md`, establishes delivery, or authorizes sending.
+The generation and review procedure remains a proposal in [OFFLINE-WRITING.md](OFFLINE-WRITING.md).
 
 ## 4. Attach a public record
 
@@ -231,7 +246,7 @@ revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-The shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, responses and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+The shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, incoming responses, outgoing drafts and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
 
 The static generator reads only `source/data/articles/`. Shared organizations, evidence and writing themes are not article or static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
 

@@ -22,9 +22,12 @@ source/
 │   │       ├── article.md
 │   │       ├── status.md
 │   │       ├── article-specific research context (when needed)
-│   │       └── responses/
+│   │       ├── in/
+│   │       │   ├── .gitkeep
+│   │       │   └── <response-slug>.md  (only when a real response exists)
+│   │       └── out/
 │   │           ├── .gitkeep
-│   │           └── <response-slug>.md  (only when a real response exists)
+│   │           └── <draft-slug>.md  (public-safe unsent email drafts)
 │   ├── organizations/  (nine shared JSON catalogs and README)
 │   ├── evidence/       (shared professional and historical JSON data and README)
 │   ├── writing-themes.json
@@ -67,8 +70,9 @@ source/
 
 The root retains the README, LICENSE, Dockerfile, ignore rules and GitHub
 Actions workflow. New articles belong only under data/articles/ and follow
-the same article, status and responses contract; do not add per-response
-README files or example responses. Shared data is not a static-site input.
+the same article, status, in/ and out/ contract; do not add per-response
+README files or example responses. Incoming responses alone feed the response
+index. Outgoing drafts and shared data are not static-site inputs.
 The generator reads data/articles/ and preserves /articles/<slug>/ URLs. Put data instructions in
 [data/README.md](data/README.md). The two dependency lockfiles are intentional
 source-controlled inputs, not compiled output.

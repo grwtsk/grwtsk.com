@@ -20,7 +20,8 @@ not have to remember how to program the site in order to maintain it.
 
 Current first letter: [Formal Complaint and Demand for Independent Investigation](source/data/articles/formal-complaint-and-demand-for-independent-investigation/article.md).
 Its [status and send history](source/data/articles/formal-complaint-and-demand-for-independent-investigation/status.md)
-and [responses](source/data/articles/formal-complaint-and-demand-for-independent-investigation/responses/) are separate from its authored text.
+[incoming responses](source/data/articles/formal-complaint-and-demand-for-independent-investigation/in/),
+and [unsent email drafts](source/data/articles/formal-complaint-and-demand-for-independent-investigation/out/) are separate from its authored text.
 
 ## The four rules to remember
 

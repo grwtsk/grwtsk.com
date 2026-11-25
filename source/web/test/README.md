@@ -22,7 +22,7 @@ rather than raw escape spellings.
 | Responses | Both full-article views link to the repository response, plus optional public record |
 | Invalid input | Raw HTML, dangerous destinations, duplicate metadata, invalid dates and inconsistent status fail before output |
 | JSON-LD | Valid JSON, linked WebSite/WebPage/Article identities, conditional ItemList, separate response Messages and safe escaping |
-| Shared data isolation | Organization and evidence catalogs are not generated as articles or served as source files; response source links use the relocated article path |
+| Shared data isolation | Organization and evidence catalogs are not generated as articles or served as source files; response source links use the relocated article `in/` path, and outgoing `out/` drafts are neither rendered nor counted as sends or responses |
 | Real site | Every authored article's permalink is present; Vite preserves generated document semantics; the static server delivers current content and stylesheet |
 | Visual layout | Original column, font sizes, stacked metadata, mobile and dark-mode rules checked in a real browser |
 | HTTP policy | GET/HEAD success, health endpoint, unknown path 404, unsupported method 405, security headers and no source-directory exposure |

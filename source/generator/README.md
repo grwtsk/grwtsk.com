@@ -34,7 +34,7 @@ to overwrite an existing output directory. This command is a local
 generation check, not publication. Do not pass a directory containing
 authored data as the output.
 
-The second argument is the article root, `source/data/articles/`. The generator does not traverse shared organization or evidence data. Repository response links point into the article root; public article permalinks remain unchanged.
+The second argument is the article root, `source/data/articles/`. The generator does not traverse shared organization or evidence data. Repository response links point into each article's `in/` directory; `out/` is never read by the generator. Public article permalinks remain unchanged.
 
 ## What the generator guarantees
 
