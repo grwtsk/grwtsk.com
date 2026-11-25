@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/local-government/county-san-francisco-county-administrator",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County administrator",
   "aliases": [],
   "taxonomy": [
     "government",
     "local-government"
   ],
-  "email": null,
+  "email": "city.administrator@sfgov.org",
   "scope": [
     "California / San Francisco County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "City and County of San Francisco — General Services Agency contact page",
+      "urls": [
+        "https://www.sfgov.org/ccsfgsa/contact-us-5",
+        "https://www.sfgov.org/ccsfgsa/centralmarketcac/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "city.administrator@sfgov.org",
+      "role": "County administrator",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Office of the City Administrator correspondence.",
+      "limitations": "Legacy city government pages publish the office address; current routing requires confirmation. No individual incumbent address inferred. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

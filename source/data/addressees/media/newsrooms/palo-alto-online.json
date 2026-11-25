@@ -8,14 +8,14 @@
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "editor@paweekly.com",
   "scope": [
     "Palo Alto and Stanford"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -42,6 +42,19 @@
         "limitations": "Submission may grant permission to publish unless otherwise stated; not a confidential channel.",
         "shared_network": "embarcadero"
       }
+    },
+    {
+      "source_title": "Palo Alto Weekly — January 31, 2025 edition, page 6, masthead (page image checked)",
+      "urls": [
+        "https://www.paloaltoonline.com/wp-content/uploads/2025/01/2025_01_31.paw_.section1.pdf",
+        "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "editor@paweekly.com",
+      "role": "Palo Alto Weekly / Palo Alto Online",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Editorial office contact published in the newspaper masthead.",
+      "limitations": "Historical publication evidence; current newsroom website provides a tip form. Recheck mailbox before use. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

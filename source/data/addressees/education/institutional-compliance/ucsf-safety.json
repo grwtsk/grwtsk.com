@@ -41,6 +41,19 @@
         "verified_on": "2026-11-24",
         "verification": "official_published_page_reviewed"
       }
+    },
+    {
+      "source_title": "Official institutional contact or alternate route",
+      "urls": [
+        "https://www.ucsfhealth.org/patients-visitors/your-hospital-stay/patient-safety"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:healthcare/patient-relations/ucsf-relations",
+      "stated_purpose": "Official patient safety page identifies Patient Relations as an alternative contact for unresolved safety concerns; the existing Patient Relations mailbox is a separate route, not a direct hotline email.",
+      "limitations": "Preserve dedicated program route and confirm applicability. Do not duplicate the canonical email or count it as a newly acquired address."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:healthcare/patient-relations/ucsf-relations"
   ]
 }

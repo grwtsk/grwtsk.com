@@ -8,14 +8,14 @@
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "editor@AlmanacNews.com",
   "scope": [
     "Menlo Park, Atherton, Portola Valley, Woodside"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -42,6 +42,19 @@
         "limitations": "Submission may grant publication permission; no guarantee of confidentiality.",
         "shared_network": "embarcadero"
       }
+    },
+    {
+      "source_title": "The Almanac — About Us",
+      "urls": [
+        "https://www.almanacnews.com/about-us/",
+        "https://www.almanacnews.com/send-us-a-news-tip/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "editor@AlmanacNews.com",
+      "role": "The Almanac",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Editorial ideas and local story suggestions.",
+      "limitations": "Ordinary editorial mailbox; use news-tip form or an agreed secure method for sensitive materials. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

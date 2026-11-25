@@ -8,14 +8,14 @@
     "advocacy",
     "civil-rights"
   ],
-  "email": null,
+  "email": "info@aclunc.org",
   "scope": [
     "Northern California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,19 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "ACLU national affiliate directory — Northern California; local affiliate contact page",
+      "urls": [
+        "https://www.aclu.org/affiliates/california-northern",
+        "https://www.aclunorcal.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@aclunc.org",
+      "role": "ACLU of Northern California – legal intake",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General affiliate information and routing inquiries.",
+      "limitations": "Not a designated legal intake mailbox. Legal-assistance requests must follow the affiliate's confidential form or telephone intake; preserve the original intake route. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

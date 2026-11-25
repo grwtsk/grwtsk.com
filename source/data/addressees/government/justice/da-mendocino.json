@@ -8,15 +8,15 @@
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "da@mendocinocounty.gov",
   "scope": [
     "California / Mendocino County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "listed_officeholders": [
     "C. David Eyster"
   ],
@@ -45,6 +45,18 @@
         "scope": "statewide_reference_only",
         "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
       }
+    },
+    {
+      "source_title": "Mendocino County — Contact Us, District Attorney",
+      "urls": [
+        "https://www.mendocinocounty.gov/Contact-Us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "da@mendocinocounty.gov",
+      "role": "County district attorney",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General District Attorney office correspondence and routing.",
+      "limitations": "County directory lists Ukiah, coast and victim witness office contacts together; no separate victim witness email established. Confirm jurisdiction and applicable reporting procedure. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

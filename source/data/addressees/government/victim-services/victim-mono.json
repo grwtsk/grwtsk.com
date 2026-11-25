@@ -41,6 +41,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Victim assistance and local referral; not a substitute for a police report."
       }
+    },
+    {
+      "source_title": "Official institutional contact or alternate route",
+      "urls": [
+        "https://monocounty.ca.gov/1886/VictimWitness-Program"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/justice/da-mono",
+      "stated_purpose": "The Victim/Witness Program page lists the existing District Attorney contact email; separate program email not established.",
+      "limitations": "Preserve dedicated program route and confirm applicability. Do not duplicate the canonical email or count it as a newly acquired address."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/da-mono"
   ]
 }

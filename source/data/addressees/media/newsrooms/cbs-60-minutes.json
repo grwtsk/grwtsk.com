@@ -8,14 +8,14 @@
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "60m@cbsnews.com",
   "scope": [
     "National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -43,6 +43,19 @@
         "limitations": "Dedicated Signal or mail routes; not for editorials, blogs or press releases.",
         "shared_network": "cbs"
       }
+    },
+    {
+      "source_title": "CBS News — About Us: 60 Minutes",
+      "urls": [
+        "https://www.cbsnews.com/news/about-us-60-minutes/",
+        "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "60m@cbsnews.com",
+      "role": "CBS News / 60 Minutes",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General program correspondence.",
+      "limitations": "The program specifies separate secure tip submission channels; do not treat ordinary email as a confidential tip system or send sensitive attachments. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

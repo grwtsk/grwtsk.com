@@ -8,14 +8,14 @@
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "kfsndesk@abc.com",
   "scope": [
     "Fresno, Visalia, Merced and Central Valley"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -42,6 +42,19 @@
         "limitations": "Linked tip form has broad usage terms for videos/photos; do not upload confidential evidence by default.",
         "shared_network": "abc-owned-stations"
       }
+    },
+    {
+      "source_title": "ABC30 Action News verified YouTube channel — Report a story; station contact page",
+      "urls": [
+        "https://www.youtube.com/channel/UCEs-K_xio8n6PKKbTCZpaSA",
+        "https://abc30.com/tag/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "kfsndesk@abc.com",
+      "role": "ABC30 / KFSN-TV",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Local newsroom story ideas and news tips.",
+      "limitations": "The verified station channel publishes this address; station website also provides a news-tip form. Not a confidential source channel. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

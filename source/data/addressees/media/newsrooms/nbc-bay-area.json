@@ -8,14 +8,14 @@
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "theunit@nbcbayarea.com",
   "scope": [
     "Bay Area"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -43,6 +43,20 @@
         "limitations": "Investigative hotline; ordinary telephone call is not a confidential submission guarantee.",
         "shared_network": "nbcuniversal"
       }
+    },
+    {
+      "source_title": "NBC Bay Area — Investigative Unit reporting, 2018–2020, and current station contact page",
+      "urls": [
+        "https://www.nbcbayarea.com/investigations/violence-against-healthcare-workers-continues-despite-hospital-safety-law/2238203/",
+        "https://www.nbcbayarea.com/investigations/officer-knee-to-neck-restraint-not-allowed-by-most-bay-area-agencies/2301361/",
+        "https://www.nbcbayarea.com/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "theunit@nbcbayarea.com",
+      "role": "NBC Bay Area Investigative Unit",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Historically published investigative newsroom tip mailbox.",
+      "limitations": "Current contact page confirms investigative telephone tipline, not the literal historical address. Recheck email before use; no secure intake guarantee. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }

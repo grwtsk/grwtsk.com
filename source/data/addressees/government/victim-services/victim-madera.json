@@ -41,6 +41,19 @@
         "scope": "documented_stanford_location",
         "purpose": "Victim assistance and local referral; not a substitute for a police report."
       }
+    },
+    {
+      "source_title": "Official institutional contact or alternate route",
+      "urls": [
+        "https://www.maderada.org/faq"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/justice/da-madera",
+      "stated_purpose": "Victim Services FAQ explicitly directs victim and witness correspondence to the District Attorney's existing email.",
+      "limitations": "Preserve dedicated program route and confirm applicability. Do not duplicate the canonical email or count it as a newly acquired address."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/da-madera"
   ]
 }

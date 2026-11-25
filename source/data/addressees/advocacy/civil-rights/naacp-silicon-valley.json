@@ -8,14 +8,14 @@
     "advocacy",
     "civil-rights"
   ],
-  "email": null,
+  "email": "info@sjsvnaacp.org",
   "scope": [
     "Santa Clara County"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,19 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "NAACP San José/Silicon Valley — Home and Contact",
+      "urls": [
+        "https://www.sjsvnaacp.org/",
+        "https://www.sjsvnaacp.org/blank-2"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@sjsvnaacp.org",
+      "role": "NAACP San José/Silicon Valley",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General chapter inquiries.",
+      "limitations": "Visible official contact text says info@sjsvnaacp.org while the hyperlink target is info@sanjosenaacp.org. Preserve the observed visible address, flag discrepancy and verify mailbox before use. Complaint form remains available. Deliverability not tested. Do not send confidential records through ordinary email."
     }
   ]
 }
