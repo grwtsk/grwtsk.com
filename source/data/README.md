@@ -246,8 +246,8 @@ revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-The shared data layout places the reusable [addressee data](addressees/README.md) (canonical individual JSON leaves under `addressees/<sector>/<function>/`), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing only its article, status, incoming responses and outgoing drafts. Article-specific outreach research, routing context and case research state belong in [outreach/](outreach/README.md), grouped by the same article slug. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+The two canonical correspondence inputs are [articles](articles/README.md) and [addressees](addressees/README.md). Each article directory contains only its article, status, incoming responses and outgoing drafts. Each addressee leaf contains its contact data, role, scope and public source observations. Derive writing objectives from the selected article and recipient context from the relevant addressee leaf. Do not maintain separate evidence or outreach catalogs, or persist derived context packages as source data. [Writing themes](writing-themes.json) provide a shared vocabulary; the [offline writing proposal](OFFLINE-WRITING.md) describes a future implementation. Missing support must remain unresolved rather than be invented. No draft is a send.
 
-The static generator reads only `source/data/articles/`. Shared addressee data, evidence, outreach research and writing themes are not article or static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
+The static generator reads only `source/data/articles/`. Addressee data and writing themes are not static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
 
 [Return to the operating guide](../../README.md).

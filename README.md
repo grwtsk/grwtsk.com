@@ -87,13 +87,13 @@ Stop it with Ctrl+C. The build output is `source/web/dist/`.
 ```
 source/
   communications/  Headless communication service, separate deployment
-  data/       Articles, organization data, evidence and correspondence history
+  data/       Articles, addressees and correspondence history
   parser/     C++20: YAML and CommonMark/GFM parsing
   generator/  Rust: validation, chronology, embedded HTML and CSS
   web/        Vite: multi-page build and static HTTP service
 ```
 
-The unified [addressee taxonomy](source/data/addressees/README.md), [evidence data](source/data/evidence/README.md) and [article-specific outreach research](source/data/outreach/README.md) are separate from the [article directories](source/data/articles/README.md). The [offline writing proposal](source/data/OFFLINE-WRITING.md) is not implemented.
+The two canonical correspondence inputs are the [article directories](source/data/articles/README.md) and the unified [addressee taxonomy](source/data/addressees/README.md). The [offline writing proposal](source/data/OFFLINE-WRITING.md) is not implemented.
 
 Read [source/README.md](source/README.md) for the exact maintained layout,
 component responsibilities and links to detailed technical guides. The root

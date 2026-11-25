@@ -27,9 +27,7 @@ source/
 │   │       └── out/
 │   │           ├── .gitkeep
 │   │           └── <draft-slug>.md  (public-safe unsent email drafts)
-│   ├── outreach/      (article-specific research data, grouped by slug)
 │   ├── addressees/  (sector/function/individual addressee JSON leaves)
-│   ├── evidence/       (shared professional and historical JSON data and README)
 │   ├── writing-themes.json
 │   └── OFFLINE-WRITING.md  (proposal only)
 ├── parser/
@@ -94,7 +92,7 @@ flowchart TD
 | Component | Owns | Does not own |
 | --- | --- | --- |
 | [communications](communications/README.md) | Headless intake, protected archive, general writing review and recovery | Static site or deferred healthcare tracking |
-| [data](data/README.md) | Authored text, actual dates, status, sends, responses, shared organizations and evidence | Layout or application logic |
+| [data](data/README.md) | Authored text, actual dates, status, sends, responses, addressee data | Layout or application logic |
 | [parser](parser/README.md) | YAML conversion, Markdown AST, extraction and safe renderer output | Article ordering, publication state, templates |
 | [generator](generator/README.md) | Typed model, timestamp ordering, path validation, templates, JSON-LD | Reimplementing Markdown or serving HTTP |
 | [web](web/README.md) | Build orchestration, Vite, static delivery, HTTP checks | Editing correspondence or interpreting its meaning |
