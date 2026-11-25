@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "research_date": "2026-11-24",
   "extends": [
-    "community-support-and-professional-evidence.json",
+    "community-support.json",
     "authority-oversight.json",
     "victim-support-and-stanford-investigations.json"
   ],
@@ -2309,12 +2309,6 @@
       "use": "Clinical specialist identification and professional credential verification; do not extract a distribution list."
     }
   ],
-  "formal_review_routes": {
-    "stanford": "authority-oversight.json#shc-compliance",
-    "ucsf": "authority-oversight.json#ucsf-relations",
-    "independent": "medical-board-oversight.json#mbc-clu",
-    "note": "Request investigation from the competent independent agency and ask institutional offices to nominate an appropriate conflict-screened clinical reviewer. Do not broadcast individualized allegations to unrelated clinicians, community organizations or patient groups."
-  },
   "verification_limits": [
     "Public listings reviewed, not tested for deliverability, current eligibility or completeness.",
     "Some organizations and program entries overlap earlier registries; all counts are records, not distinct contactable recipients.",
@@ -2330,7 +2324,6 @@
     "ucsf_clinic_index_entries": 16,
     "stanford_pediatric_services": 14,
     "faculty_directory_references": 2,
-    "total_records": 131,
-    "dispatches": 0
+    "total_records": 131
   }
 }

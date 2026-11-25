@@ -24,7 +24,8 @@ source/
 │           └── <response-slug>.md  (only when a real response exists)
 ├── knowledge/  (reusable public research; see its README)
 │   ├── README.md
-│   ├── community-support.json
+│   ├── organizations/  (nine canonical catalogs and README)
+│   ├── historical-evidence.json
 │   ├── professional-evidence.json
 │   ├── writing-themes.json
 │   ├── OFFLINE-WRITING.md

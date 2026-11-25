@@ -10,19 +10,19 @@ Write each letter to an appropriate institutional function, not to a list of peo
 
 Implement a pure Node.js module in a later PR, using the existing service language and a pinned repository snapshot. It accepts a letter slug, source manifest and policy; it never calls a model, network, provider, database mutation or GitHub write. An independent, explicit refresh step may recheck public sources and commit corrections; never perform hidden network lookups during classification.
 
-Normalize the nine registry schemas using explicit adapters:
+Normalize the nine canonical catalogs in [organizations/](organizations/README.md) using explicit adapters. Read case-specific fields from the selected article's outreach-context manifest and resolve the community/professional manifest separately. The [historical evidence library](historical-evidence.json) is never a recipient source; its referenced sections retain their original classification and limitations:
 
 | Input | Interpretation |
 | --- | --- |
 | outreach-registry | contact_records are potential institutional routes; directory_lookup_records require resolution. |
 | authority-oversight | authority_records, priority_routes and typed relationships establish candidate functions and jurisdiction, not a right to contact every linked node. |
 | medical-board-oversight | records join to channels by route; deduplicate shared channels and reject vacancies as recipients. |
-| community-support-and-professional-evidence | resolve shared resource IDs and evidence refs; profiles are nonrecipients. |
+| community-support + article-specific professional manifest | resolve shared resource IDs and evidence refs; profiles are nonrecipients. |
 | disease-disability-and-civic-resources | distinguish assistance, advocacy, and general de-identified policy. |
 | news-media-resources | one relevant editorial route per network; obey secure-tip and ordinary-tip distinctions. |
 | peninsula-community-and-neurology-resources | support, clinical referral or directory; faculty directory references are never mailing lists. |
-| victim-support-and-stanford-investigations | confidential support and competent investigation routes; prior proceedings are evidence, not recipient targets. |
-| worker-rights-and-related-incident-reports | organization-level role and scope; incident and representation records are evidence, not recipients. |
+| victim-support-and-stanford-investigations | confidential support and competent investigation routes; prior proceedings now resolve through the separate historical-evidence library and are never recipient targets. |
+| worker-rights-and-related-incident-reports | organization-level role and scope; incident and representation records now resolve through the separate historical-evidence library and are never recipients. |
 
 Normalize source ID as file + record ID; retain literal addresses and channel type, legal entity, jurisdiction, function, purposes, limits, verification date and source URLs. Resolve source-key references. Apply typed rule sets for route kind, purpose, jurisdiction, scope, confidentiality and evidence eligibility; preserve reasons for every acceptance or abstention. Use theme overlap to rank only already-eligible routes; no demographic, faith, political identity, personal affiliation, inferred email or inferred complicity signals. No route becomes eligible merely because its domain matches another route.
 

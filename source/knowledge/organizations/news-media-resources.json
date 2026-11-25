@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "research_date": "2026-11-24",
   "extends": [
     "outreach-registry.json",
     "authority-oversight.json",
     "medical-board-oversight.json",
-    "community-support-and-professional-evidence.json",
+    "community-support.json",
     "disease-disability-and-civic-resources.json"
   ],
   "purpose": "Directory of public newsroom pathways for independent, evidence-based public-interest reporting. Not a mailing list, allegation distribution mechanism or substitute for formal complaints.",
@@ -33,8 +33,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local institutional accountability and community reporting.",
       "limitations": "Submission may grant permission to publish unless otherwise stated; not a confidential channel.",
-      "shared_network": "embarcadero",
-      "contact_status": "not_contacted"
+      "shared_network": "embarcadero"
     },
     {
       "id": "palo-alto-post",
@@ -52,8 +51,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Local public safety, institutions and government.",
-      "limitations": "Official contact page also has newsroom email link; address was masked in retrieved text.",
-      "contact_status": "not_contacted"
+      "limitations": "Official contact page also has newsroom email link; address was masked in retrieved text."
     },
     {
       "id": "stanford-daily",
@@ -71,8 +69,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Campus governance, medicine and institutional accountability.",
-      "limitations": "Confidential tip instructions; ordinary email and web forms are not equivalent to encrypted messaging.",
-      "contact_status": "not_contacted"
+      "limitations": "Confidential tip instructions; ordinary email and web forms are not equivalent to encrypted messaging."
     },
     {
       "id": "mountain-view-voice",
@@ -90,8 +87,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local healthcare access and community policy.",
       "limitations": "Submission form requests residential address and permits publication unless otherwise noted; avoid sensitive attachments.",
-      "shared_network": "embarcadero",
-      "contact_status": "not_contacted"
+      "shared_network": "embarcadero"
     },
     {
       "id": "almanac",
@@ -109,8 +105,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local civic and community news.",
       "limitations": "Submission may grant publication permission; no guarantee of confidentiality.",
-      "shared_network": "embarcadero",
-      "contact_status": "not_contacted"
+      "shared_network": "embarcadero"
     },
     {
       "id": "redwood-city-pulse",
@@ -129,8 +124,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local clinical-site and community reporting if relevant to actual events.",
       "limitations": "General inquiries, not a dedicated confidential tip inbox.",
-      "shared_network": "embarcadero",
-      "contact_status": "not_contacted"
+      "shared_network": "embarcadero"
     },
     {
       "id": "san-mateo-daily-journal",
@@ -149,8 +143,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "County-level health and public safety reporting.",
-      "limitations": "Email and submission routes are public news channels, not confidential evidence repositories.",
-      "contact_status": "not_contacted"
+      "limitations": "Email and submission routes are public news channels, not confidential evidence repositories."
     },
     {
       "id": "mercury-news",
@@ -170,8 +163,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Regional healthcare, local institutions and government accountability.",
       "limitations": "Shared Bay Area News Group tip inbox; do not submit redundant copies.",
-      "shared_network": "bay-area-news-group",
-      "contact_status": "not_contacted"
+      "shared_network": "bay-area-news-group"
     },
     {
       "id": "east-bay-times",
@@ -191,8 +183,7 @@
       "checked_on": "2026-11-24",
       "relevance": "East Bay healthcare and local government where geographically relevant.",
       "limitations": "Alameda newsroom also lists 510-208-6450. Shared inbox with Mercury News.",
-      "shared_network": "bay-area-news-group",
-      "contact_status": "not_contacted"
+      "shared_network": "bay-area-news-group"
     },
     {
       "id": "marin-ij",
@@ -212,8 +203,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Marin community and institutional reporting when locally relevant.",
       "limitations": "Ordinary newsroom email; confirm fit before sharing evidence.",
-      "shared_network": "bay-area-news-group",
-      "contact_status": "not_contacted"
+      "shared_network": "bay-area-news-group"
     },
     {
       "id": "san-jose-spotlight",
@@ -232,8 +222,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Local policy, government accountability and systemic inequities.",
-      "limitations": "Follow secure tip instructions for confidential documents.",
-      "contact_status": "not_contacted"
+      "limitations": "Follow secure tip instructions for confidential documents."
     },
     {
       "id": "sf-chronicle",
@@ -251,8 +240,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Healthcare, race and equity, higher education and investigative coverage.",
-      "limitations": "Editorial directory identifies specialist beats; use one relevant desk rather than multiple staff contacts.",
-      "contact_status": "not_contacted"
+      "limitations": "Editorial directory identifies specialist beats; use one relevant desk rather than multiple staff contacts."
     },
     {
       "id": "sf-standard",
@@ -270,8 +258,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "San Francisco institutions and public policy.",
-      "limitations": "Also publishes tip SMS 415-408-6282; SMS is not encrypted by default.",
-      "contact_status": "not_contacted"
+      "limitations": "Also publishes tip SMS 415-408-6282; SMS is not encrypted by default."
     },
     {
       "id": "mission-local",
@@ -289,8 +276,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Local reporting including Mission Bay and city accountability.",
-      "limitations": "Ordinary email; no secure delivery assurance.",
-      "contact_status": "not_contacted"
+      "limitations": "Ordinary email; no secure delivery assurance."
     },
     {
       "id": "sf-public-press",
@@ -308,8 +294,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Nonprofit local investigative reporting and systemic equity.",
-      "limitations": "General contact page; ask for the appropriate editorial route before sharing sensitive information.",
-      "contact_status": "not_contacted"
+      "limitations": "General contact page; ask for the appropriate editorial route before sharing sensitive information."
     },
     {
       "id": "kqed",
@@ -329,8 +314,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Public radio reporting on healthcare and state institutions.",
       "limitations": "Newsroom assignment desk, not station media relations or member services.",
-      "shared_network": "kqed",
-      "contact_status": "not_contacted"
+      "shared_network": "kqed"
     },
     {
       "id": "nbc-bay-area",
@@ -349,8 +333,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local investigations, public safety and institutional accountability.",
       "limitations": "Investigative hotline; ordinary telephone call is not a confidential submission guarantee.",
-      "shared_network": "nbcuniversal",
-      "contact_status": "not_contacted"
+      "shared_network": "nbcuniversal"
     },
     {
       "id": "abc7-bay-area",
@@ -369,8 +352,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local investigations into community problems and government performance.",
       "limitations": "Confirm rights to any material submitted; review publication and privacy terms.",
-      "shared_network": "abc-owned-stations",
-      "contact_status": "not_contacted"
+      "shared_network": "abc-owned-stations"
     },
     {
       "id": "kpix",
@@ -389,8 +371,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Regional television reporting and consumer/public safety issues.",
       "limitations": "Shared organizational newsroom route; not confidential by default.",
-      "shared_network": "cbs",
-      "contact_status": "not_contacted"
+      "shared_network": "cbs"
     },
     {
       "id": "fresno-bee",
@@ -408,8 +389,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local accountability, healthcare access and public services.",
       "limitations": "Follow the confidential tip link on the official newsroom page; individual staff emails not collected.",
-      "shared_network": "mcclatchy",
-      "contact_status": "not_contacted"
+      "shared_network": "mcclatchy"
     },
     {
       "id": "fresnoland",
@@ -427,8 +407,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Public policy, government accountability and community disparities.",
-      "limitations": "Ordinary tip email; ask for private evidence route first.",
-      "contact_status": "not_contacted"
+      "limitations": "Ordinary tip email; ask for private evidence route first."
     },
     {
       "id": "gv-wire",
@@ -446,8 +425,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Regional policy, health and public-interest reporting.",
-      "limitations": "General newsroom tips inbox; not an encrypted service.",
-      "contact_status": "not_contacted"
+      "limitations": "General newsroom tips inbox; not an encrypted service."
     },
     {
       "id": "abc30",
@@ -465,8 +443,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local public safety and healthcare news.",
       "limitations": "Linked tip form has broad usage terms for videos/photos; do not upload confidential evidence by default.",
-      "shared_network": "abc-owned-stations",
-      "contact_status": "not_contacted"
+      "shared_network": "abc-owned-stations"
     },
     {
       "id": "kmph",
@@ -485,8 +462,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Local television news and public safety.",
       "limitations": "NewsDesk@kmph.com is explicitly a press-release route; newsroom phone listed for story ideas.",
-      "shared_network": "sinclair",
-      "contact_status": "not_contacted"
+      "shared_network": "sinclair"
     },
     {
       "id": "kvpr",
@@ -504,8 +480,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Regional public radio and accountability journalism.",
-      "limitations": "news@kvpr.org is explicitly for press releases; use news department phone for story inquiries.",
-      "contact_status": "not_contacted"
+      "limitations": "news@kvpr.org is explicitly for press releases; use news department phone for story inquiries."
     },
     {
       "id": "merced-focus",
@@ -524,8 +499,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Regional community accountability and policy news.",
       "limitations": "Submission terms grant editing/publication rights; not a secure route for sensitive records.",
-      "shared_network": "cvjc",
-      "contact_status": "not_contacted"
+      "shared_network": "cvjc"
     },
     {
       "id": "cvjc",
@@ -545,8 +519,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Health equity reporting network and local newsroom referral; The Intersection is a reporting lab.",
       "limitations": "General office inquiry, not a verified dedicated tip address for The Intersection.",
-      "shared_network": "cvjc",
-      "contact_status": "not_contacted"
+      "shared_network": "cvjc"
     },
     {
       "id": "calmatters",
@@ -564,8 +537,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "State regulatory oversight, legislative reforms, public health and government accountability.",
-      "limitations": "Email explicitly for non-sensitive tips. Use confidential tip instructions for documents.",
-      "contact_status": "not_contacted"
+      "limitations": "Email explicitly for non-sensitive tips. Use confidential tip instructions for documents."
     },
     {
       "id": "la-times",
@@ -583,8 +555,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Investigative reporting on physician licensing, patient safety and state governance.",
-      "limitations": "Published email supports encrypted messages; follow current PGP instructions and do not assume ordinary email is secure.",
-      "contact_status": "not_contacted"
+      "limitations": "Published email supports encrypted messages; follow current PGP instructions and do not assume ordinary email is secure."
     },
     {
       "id": "sacramento-bee",
@@ -602,8 +573,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Statehouse and political investigations, oversight and public policy.",
       "limitations": "Use the official editorial directory and linked appropriate submission route.",
-      "shared_network": "mcclatchy",
-      "contact_status": "not_contacted"
+      "shared_network": "mcclatchy"
     },
     {
       "id": "capradio",
@@ -620,8 +590,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Public radio, California state governance and regional health issues.",
-      "limitations": "Select Contact News; general office or audience feedback is not a confidential tip channel.",
-      "contact_status": "not_contacted"
+      "limitations": "Select Contact News; general office or audience feedback is not a confidential tip channel."
     },
     {
       "id": "california-health-report",
@@ -638,8 +607,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Health equity, disability and healthcare access.",
-      "limitations": "Official page identifies executive editor contact; ask about confidential handling before sharing records.",
-      "contact_status": "not_contacted"
+      "limitations": "Official page identifies executive editor contact; ask about confidential handling before sharing records."
     },
     {
       "id": "kff-health-news",
@@ -656,8 +624,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Healthcare systems, patient safety, medical regulation and civil rights.",
-      "limitations": "NewsTips@kff.org is listed only for secure mail; ordinary story ideas use https://kffhealthnews.org/contact-us/.",
-      "contact_status": "not_contacted"
+      "limitations": "NewsTips@kff.org is listed only for secure mail; ordinary story ideas use https://kffhealthnews.org/contact-us/."
     },
     {
       "id": "stat",
@@ -674,8 +641,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Medical institutions, patient safety, healthcare policy and research.",
-      "limitations": "Ordinary form explicitly not encrypted; use official secure instructions for sensitive material.",
-      "contact_status": "not_contacted"
+      "limitations": "Ordinary form explicitly not encrypted; use official secure instructions for sensitive material."
     },
     {
       "id": "undark",
@@ -693,8 +659,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Medicine, ethics and the intersection of science and society.",
-      "limitations": "Published Signal route; separate story proposals from tips.",
-      "contact_status": "not_contacted"
+      "limitations": "Published Signal route; separate story proposals from tips."
     },
     {
       "id": "new-mobility",
@@ -711,8 +676,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Disability inclusion, healthcare equity and wheelchair accessibility.",
-      "limitations": "Select content submission route; general support inbox is not editorial intake.",
-      "contact_status": "not_contacted"
+      "limitations": "Select content submission route; general support inbox is not editorial intake."
     },
     {
       "id": "mindsite-news",
@@ -730,8 +694,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Mental healthcare system accountability, trauma-related policy and access where within coverage.",
-      "limitations": "General email not confidential by default; medical diagnosis not inferred from relevance.",
-      "contact_status": "not_contacted"
+      "limitations": "General email not confidential by default; medical diagnosis not inferred from relevance."
     },
     {
       "id": "propublica",
@@ -748,8 +711,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Document-based investigations of institutional harm and abuses of power.",
-      "limitations": "Use official evidence-based tip route, not an ordinary press release; review confidentiality terms.",
-      "contact_status": "not_contacted"
+      "limitations": "Use official evidence-based tip route, not an ordinary press release; review confidentiality terms."
     },
     {
       "id": "ap",
@@ -767,8 +729,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Public-interest investigations with national significance.",
-      "limitations": "Use official instructions; no system guarantees complete anonymity.",
-      "contact_status": "not_contacted"
+      "limitations": "Use official instructions; no system guarantees complete anonymity."
     },
     {
       "id": "npr",
@@ -786,8 +747,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Public radio investigations into systemic public-interest issues.",
-      "limitations": "Ordinary email is not encrypted by default.",
-      "contact_status": "not_contacted"
+      "limitations": "Ordinary email is not encrypted by default."
     },
     {
       "id": "washington-post",
@@ -805,8 +765,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Government and institutional accountability and public-interest investigations.",
-      "limitations": "General tips inbox; use designated confidential options for sensitive material.",
-      "contact_status": "not_contacted"
+      "limitations": "General tips inbox; use designated confidential options for sensitive material."
     },
     {
       "id": "wsj",
@@ -824,8 +783,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Healthcare institutions, business accountability, public regulation and investigations.",
-      "limitations": "Published Signal and SecureDrop instructions; verify current details on official page.",
-      "contact_status": "not_contacted"
+      "limitations": "Published Signal and SecureDrop instructions; verify current details on official page."
     },
     {
       "id": "guardian",
@@ -842,8 +800,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Human rights, healthcare and public-interest investigations.",
-      "limitations": "Use official secure messaging or SecureDrop route; not a general letter or op-ed submission.",
-      "contact_status": "not_contacted"
+      "limitations": "Use official secure messaging or SecureDrop route; not a general letter or op-ed submission."
     },
     {
       "id": "abc-news",
@@ -863,8 +820,7 @@
       "checked_on": "2026-11-24",
       "relevance": "National investigative broadcasting, human rights and consumer issues.",
       "limitations": "Submission may be used in news coverage; ordinary email not confidential by default.",
-      "shared_network": "abc",
-      "contact_status": "not_contacted"
+      "shared_network": "abc"
     },
     {
       "id": "nbc-news",
@@ -883,8 +839,7 @@
       "checked_on": "2026-11-24",
       "relevance": "National reporting on medicine, civil rights and institutions.",
       "limitations": "General tip inbox; use published secure options for sensitive information.",
-      "shared_network": "nbcuniversal",
-      "contact_status": "not_contacted"
+      "shared_network": "nbcuniversal"
     },
     {
       "id": "cbs-60-minutes",
@@ -903,8 +858,7 @@
       "checked_on": "2026-11-24",
       "relevance": "Document-based national investigations including health care.",
       "limitations": "Dedicated Signal or mail routes; not for editorials, blogs or press releases.",
-      "shared_network": "cbs",
-      "contact_status": "not_contacted"
+      "shared_network": "cbs"
     },
     {
       "id": "usa-today-network",
@@ -922,8 +876,7 @@
       "checked_on": "2026-11-24",
       "relevance": "National and regional investigative journalism.",
       "limitations": "Official page includes legacy GateHouse branding; confirm that specific channels remain active before use.",
-      "shared_network": "gannett",
-      "contact_status": "not_contacted"
+      "shared_network": "gannett"
     },
     {
       "id": "reuters",
@@ -940,8 +893,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Editorial inquiries and possible routing to relevant reporting desk.",
-      "limitations": "Official page lists editorial contact for feedback, corrections and press releases; dedicated investigative tip intake not established here.",
-      "contact_status": "not_contacted"
+      "limitations": "Official page lists editorial contact for feedback, corrections and press releases; dedicated investigative tip intake not established here."
     },
     {
       "id": "marshall-project",
@@ -958,34 +910,7 @@
       "verification": "official_page_reviewed",
       "checked_on": "2026-11-24",
       "relevance": "Criminal justice oversight if documented law-enforcement or prosecution issues fit coverage.",
-      "limitations": "Not a general medical grievance outlet; use only for a relevant criminal justice story.",
-      "contact_status": "not_contacted"
-    }
-  ],
-  "reporting_context": [
-    {
-      "outlet": "Los Angeles Times",
-      "date": "2021-07-15",
-      "url": "https://www.latimes.com/california/newsletter/2021-07-15/california-medical-board-essential-california",
-      "relevance": "Summarizes the newspaper's investigation of physician discipline and patient harm."
-    },
-    {
-      "outlet": "Los Angeles Times",
-      "date": "2021-11-17",
-      "url": "https://www.latimes.com/california/story/2021-11-17/california-medical-board-member-calls-out-his-colleagues",
-      "relevance": "Examines Medical Board governance and reform debates."
-    },
-    {
-      "outlet": "CalMatters",
-      "date": "2024-12-19",
-      "url": "https://calmatters.org/health/2024/12/medical-board-addiction-recovery/",
-      "relevance": "Reports on state physician regulation and monitoring policy."
-    },
-    {
-      "outlet": "CalMatters",
-      "date": "2021-07-20",
-      "url": "https://calmatters.org/commentary/2021/07/california-medical-board-medical-malpractice-ballot-measure/",
-      "relevance": "Commentary about prior Medical Board reporting and legislative reform; distinguish opinion from news."
+      "limitations": "Not a general medical grievance outlet; use only for a relevant criminal justice story."
     }
   ],
   "verification_gaps": [
@@ -1029,7 +954,12 @@
     "published_email_routes": 20,
     "published_phone_routes": 15,
     "published_signal_routes": 6,
-    "verification_gaps": 5,
-    "dispatches": 0
+    "verification_gaps": 5
+  },
+  "historical_evidence": {
+    "path": "../historical-evidence.json",
+    "sections": [
+      "reporting_context"
+    ]
   }
 }

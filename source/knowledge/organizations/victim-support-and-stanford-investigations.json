@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "research_date": "2026-11-24",
   "extends": [
     "outreach-registry.json",
     "authority-oversight.json",
     "medical-board-oversight.json",
-    "community-support-and-professional-evidence.json",
+    "community-support.json",
     "disease-disability-and-civic-resources.json",
     "news-media-resources.json"
   ],
@@ -35,8 +35,7 @@
         "https://consumerwatchdog.org/contact/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "fairness-injured-patients",
@@ -54,8 +53,7 @@
         "https://consumerwatchdog.org/meet-the-advocates/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "pfps-us",
@@ -73,8 +71,7 @@
         "https://www.pfps.us/partners"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "pulse-cpsea",
@@ -93,8 +90,7 @@
         "https://www.pulsecenterforpatientsafety.org/before-calling-us"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "calvcb",
@@ -114,8 +110,7 @@
         "https://victims.ca.gov/for-victims/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "cal-ag-vsu",
@@ -133,8 +128,7 @@
         "https://oag.ca.gov/victimservices/contact"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "vcrc",
@@ -154,8 +148,7 @@
         "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "fresno-victim-center",
@@ -174,8 +167,7 @@
         "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "santa-clara-victim-center",
@@ -194,8 +186,7 @@
         "https://www.cdcr.ca.gov/victim-services/resources-county/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "san-mateo-keller",
@@ -213,8 +204,7 @@
         "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=san-mateo"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "beloved-survivors",
@@ -234,8 +224,7 @@
         "https://www.sos.ca.gov/registries/safe-home/where-find-an-enrolling-agency"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "community-solutions",
@@ -253,8 +242,7 @@
         "https://victims.ca.gov/board/trauma-recovery-centers/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "calvcb-trc",
@@ -271,8 +259,7 @@
         "https://victims.ca.gov/board/trauma-recovery-centers/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "victimconnect",
@@ -291,8 +278,7 @@
         "https://ovc.ojp.gov/help-for-victims/toll-free-text-and-online-hotlines"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "ovc-directory",
@@ -311,8 +297,7 @@
         "https://ovc.ojp.gov/directory-crime-victim-services/help"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "ncvli",
@@ -329,8 +314,7 @@
         "https://ncvli.org/victim-resources-database/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "crime-survivors-inc",
@@ -348,8 +332,7 @@
         "https://www.cdcr.ca.gov/victim-services/resources-other/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "ican",
@@ -367,8 +350,7 @@
         "https://www.cdcr.ca.gov/victim-services/resources-other/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "crime-victims-united",
@@ -386,8 +368,7 @@
         "https://www.cdcr.ca.gov/victim-services/resources-other/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "nova",
@@ -405,8 +386,7 @@
         "https://www.cdcr.ca.gov/victim-services/resources-other/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "canhr",
@@ -424,8 +404,7 @@
         "https://canhr.org/elder-abuse-resources/"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "aps-state",
@@ -443,8 +422,7 @@
         "https://cdss.ca.gov/adult-protective-services"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "elder-justice",
@@ -461,8 +439,7 @@
         "https://www.justice.gov/elderjustice/find-help-or-report-abuse"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "ca-courts",
@@ -479,8 +456,7 @@
         "https://selfhelp.courts.ca.gov/EA-restraining-order/resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "rainn",
@@ -499,8 +475,7 @@
         "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "fresno-rape-counseling",
@@ -518,8 +493,7 @@
         "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     },
     {
       "id": "ca-cdcr-ovsrs",
@@ -539,8 +513,7 @@
         "https://oag.ca.gov/pcju/victim-resources"
       ],
       "verified_on": "2026-11-24",
-      "verification": "official_organization_or_government_directory_reviewed",
-      "contact_status": "not_contacted"
+      "verification": "official_organization_or_government_directory_reviewed"
     }
   ],
   "investigation_organizations": [
@@ -965,375 +938,6 @@
       "limits": "Secondary clearinghouse link; no individual complaint jurisdiction."
     }
   ],
-  "prior_proceedings": [
-    {
-      "id": "cdph-2016-care",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "2016 incident; 2017 announcement",
-      "classification": "state_administrative_penalty",
-      "status": "penalty_announced",
-      "actor_ids": [
-        "cdph"
-      ],
-      "summary": "CDPH announced a $33,390 immediate-jeopardy administrative penalty related to noncompliance with treatment and care policies; the release calls it the second such penalty.",
-      "source_urls": [
-        "https://www.cdph.ca.gov/Programs/OPA/Pages/NR17-065.aspx",
-        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/Hospital-Administrative-Penalties-by-Year.aspx"
-      ],
-      "limits": "Specific penalty is unrelated to user's complaint; subsequent appeal/collection status not independently checked.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cdph-adult-privacy",
-      "subject": "Stanford Hospital",
-      "date_or_period": "2013–2015",
-      "classification": "state_privacy_survey",
-      "status": "survey_findings_listed",
-      "actor_ids": [
-        "cdph"
-      ],
-      "summary": "CDPH lists confidential medical-information breach survey findings issued August 14 and 22, 2013, and February 23, 2015.",
-      "source_urls": [
-        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/MedicalBreaches.aspx"
-      ],
-      "limits": "Index confirms dates and scope; individual survey documents not analyzed.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cdph-child-privacy",
-      "subject": "Lucile Salter Packard Children's Hospital Stanford",
-      "date_or_period": "2013–2014",
-      "classification": "state_privacy_survey",
-      "status": "survey_findings_listed",
-      "actor_ids": [
-        "cdph"
-      ],
-      "summary": "CDPH lists four confidential medical-information breach survey findings issued March 18 and 22, 2013, and February 6 and October 20, 2014.",
-      "source_urls": [
-        "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/MedicalBreaches.aspx"
-      ],
-      "limits": "Separate pediatric entity; underlying documents and dispositions not examined.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "ag-notifications",
-      "subject": "Stanford Hospital & Clinics / School of Medicine; Stanford School of Medicine / Lucile Packard Children's Hospital",
-      "date_or_period": "2012–2013",
-      "classification": "privacy_breach_notification",
-      "status": "notifications_listed",
-      "actor_ids": [
-        "ca-doj-privacy"
-      ],
-      "summary": "State DOJ public registry lists breach notices in August 2012 and January 2013.",
-      "source_urls": [
-        "https://oag.ca.gov/privacy/databreach/list?combine=&field_sb24_breach_date_value%5Bmax%5D=&field_sb24_breach_date_value%5Bmin%5D=&field_sb24_org_name_value=&order=field_sb24_org_name&page=89&sort=asc"
-      ],
-      "limits": "Notification is not proof of investigation or enforcement.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cms-5ESS11",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "February 2012",
-      "classification": "federal_hospital_survey",
-      "status": "deficiencies_reported",
-      "actor_ids": [
-        "cms",
-        "ahcj"
-      ],
-      "summary": "Survey report documents deficiencies in governance and nursing oversight involving transfusion procedures.",
-      "source_urls": [
-        "https://www.hospitalinspections.org/report-detail/5ESS11"
-      ],
-      "limits": "Archived report, not current compliance status. No patient's identity collected.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cms-JFWL11",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "September 2018 survey interviews",
-      "classification": "federal_hospital_survey",
-      "status": "deficiencies_reported",
-      "actor_ids": [
-        "cms",
-        "ahcj"
-      ],
-      "summary": "Survey report documents inadequate follow-up analysis of two sampled patient deaths, deficiencies in off-campus emergency policies, and issues with quality-assurance governance.",
-      "source_urls": [
-        "https://www.hospitalinspections.org/report-detail/JFWL11"
-      ],
-      "limits": "Predates January 2019 allegations; does not connect them. Obtain original survey and plan of correction.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cms-SVMM11",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "survey date not independently verified",
-      "classification": "federal_hospital_survey",
-      "status": "deficiencies_reported",
-      "actor_ids": [
-        "cms",
-        "ahcj"
-      ],
-      "summary": "Survey report documents failures in MRI safety policies, nursing supervision and communication of health information.",
-      "source_urls": [
-        "https://www.hospitalinspections.org/report-detail/SVMM11"
-      ],
-      "limits": "Date and correction status require primary record verification.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cms-9GKP11",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "survey date not independently verified",
-      "classification": "federal_hospital_survey",
-      "status": "deficiencies_reported",
-      "actor_ids": [
-        "cms",
-        "ahcj"
-      ],
-      "summary": "Survey documents deficiencies in surgical service procedures, site verification and surgical counts.",
-      "source_urls": [
-        "https://www.hospitalinspections.org/report-detail/9GKP11"
-      ],
-      "limits": "Date and correction status require primary record verification.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "cms-3D9X11",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "July 2025 survey interviews",
-      "classification": "federal_hospital_survey",
-      "status": "deficiencies_reported",
-      "actor_ids": [
-        "cms",
-        "ahcj"
-      ],
-      "summary": "Tag A0131: failure to inform a patient about a procedural error. Tag A0145: failure to promptly report an allegation of staff sexual abuse to APS, local law enforcement and CDPH as appropriate.",
-      "source_urls": [
-        "https://www.hospitalinspections.org/report-detail/3D9X11"
-      ],
-      "limits": "Survey finding concerns failure to disclose/report; does not independently establish underlying abuse or connection to the user's case. No patient details republished. Obtain original survey and plan of correction.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "osha-1536475",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "2020-11-06 to 2024-09-02",
-      "classification": "workplace_safety_inspection",
-      "status": "closed",
-      "actor_ids": [
-        "cal-osha",
-        "osha-archive"
-      ],
-      "summary": "Inspection 1536475.015: one serious citation remaining; current penalty $13,500; a separate original citation deleted.",
-      "source_urls": [
-        "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1536475.015"
-      ],
-      "limits": "Workplace safety matter, not patient complaint.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "osha-1494063",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "2020-09-23 to 2024-08-05",
-      "classification": "workplace_safety_inspection",
-      "status": "closed",
-      "actor_ids": [
-        "cal-osha",
-        "osha-archive"
-      ],
-      "summary": "Inspection 1494063.015: current penalty $3,000; cited work-related injury/fatality reporting rule.",
-      "source_urls": [
-        "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1494063.015",
-        "https://www.osha.gov/ords/imis/establishment.violation_detail?citation_id=01001&id=1494063.015"
-      ],
-      "limits": "Workplace safety matter, not patient complaint.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "osha-1881054",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "opened 2026-03-13",
-      "classification": "workplace_safety_inspection",
-      "status": "open_as_shown_in_public_record",
-      "actor_ids": [
-        "cal-osha",
-        "osha-archive"
-      ],
-      "summary": "Inspection 1881054.015 listed as open.",
-      "source_urls": [
-        "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1881054.015"
-      ],
-      "limits": "Recheck status; opening is not a finding.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "osha-1891618",
-      "subject": "Stanford Health Care (adult hospital)",
-      "date_or_period": "opened 2026-05-04",
-      "classification": "workplace_safety_inspection",
-      "status": "open_as_shown_in_public_record",
-      "actor_ids": [
-        "cal-osha",
-        "osha-archive"
-      ],
-      "summary": "Inspection 1891618.015 listed as open.",
-      "source_urls": [
-        "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1891618.015"
-      ],
-      "limits": "Recheck status; opening is not a finding.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "dra-2018-2019",
-      "subject": "Stanford University",
-      "date_or_period": "2018-05-17 to 2019-10-07",
-      "classification": "civil_rights_litigation",
-      "status": "settled",
-      "actor_ids": [
-        "dra",
-        "stanford-mhwc"
-      ],
-      "summary": "Mental Health & Wellness Coalition v. Stanford challenged disability-related involuntary student leave. Settlement revised policy, individualized assessment, accommodations, staffing and transparency.",
-      "source_urls": [
-        "https://dralegal.org/case/mental-health-wellness-coalition-v-stanford/",
-        "https://clearinghouse.net/case/43872/"
-      ],
-      "limits": "Education case, not clinical care; do not infer liability or seek personal contact with former plaintiffs.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "ed-ocr-2015-2018",
-      "subject": "Stanford University",
-      "date_or_period": "2015–2018; agreement April 6, 2018",
-      "classification": "education_civil_rights_investigation",
-      "status": "resolution_agreement",
-      "actor_ids": [
-        "ed-ocr",
-        "chronicle-higher-ed"
-      ],
-      "summary": "Consolidated cases 09-15-2070, 09-15-2405, 09-16-2213 examined Title IX compliance and grievance handling. Policy compliance concerns and changes resolved through agreement; Stanford states no finding of violation in individual cases.",
-      "source_urls": [
-        "https://clearinghouse.net/case/16932/",
-        "https://news.stanford.edu/stories/2018/04/stanfords-resolution-agreement-with-ocr"
-      ],
-      "limits": "Education jurisdiction; subsequent monitoring closure not verified.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "stanford-titleix-taskforce",
-      "subject": "Stanford University",
-      "date_or_period": "2014–2015",
-      "classification": "internal_policy_review",
-      "status": "report_issued",
-      "actor_ids": [
-        "stanford-task-force"
-      ],
-      "summary": "University-appointed task force reviewed sexual assault policies, support and disciplinary procedures; issued report in April 2015.",
-      "source_urls": [
-        "https://share.stanford.edu/policies-and-procedures/university-commitment/provosts-task-force"
-      ],
-      "limits": "Historical internal policy process distinct from independent investigation.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "ed-ocr-2026",
-      "subject": "Stanford University",
-      "date_or_period": "2026-04-29",
-      "classification": "education_civil_rights_investigation",
-      "status": "opening_announced_outcome_unverified",
-      "actor_ids": [
-        "ed-ocr",
-        "defending-education"
-      ],
-      "summary": "Education OCR announced Title VI investigation of the National Board Resource Center after a complaint concerning eligibility for a teacher certification program.",
-      "source_urls": [
-        "https://www.ed.gov/about/news/press-release/us-department-of-education-initiates-investigation-stanford-allegedly-discriminating-against-students-basis-of-race",
-        "https://defendinged.org/ocr-complaints/defending-ed-files-civil-rights-complaint-against-stanford-university-for-national-board-resource-center-bipoc-cohort/"
-      ],
-      "limits": "Allegations only; no subsequent disposition confirmed. Not a healthcare matter.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "doj-2023-grant",
-      "subject": "Stanford University",
-      "date_or_period": "2023-10-02",
-      "classification": "federal_civil_settlement",
-      "status": "settled_no_determination_of_liability",
-      "actor_ids": [
-        "doj-fraud",
-        "usao-md",
-        "army-cid",
-        "ncis",
-        "afosi",
-        "nsf-oig",
-        "nasa-oig",
-        "department-education-assist"
-      ],
-      "summary": "DOJ announced $1.9 million settlement resolving allegations of nondisclosure of foreign research support in grant proposals.",
-      "source_urls": [
-        "https://www.justice.gov/archives/opa/pr/stanford-university-agrees-pay-19-million-resolve-allegations-it-failed-disclose-foreign",
-        "https://www.justice.gov/usao-md/pr/stanford-university-agrees-pay-19-million-resolve-allegations-it-failed-disclose-foreign"
-      ],
-      "limits": "Distinct research grant matter; no determination of liability and no identified link to the user's case.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "scientific-review-2022-2023",
-      "subject": "Stanford University",
-      "date_or_period": "2022-11-29 to 2023-07-19",
-      "classification": "investigative_reporting_and_commissioned_review",
-      "status": "report_issued",
-      "actor_ids": [
-        "stanford-daily",
-        "stanford-special-committee",
-        "kirkland-ellis",
-        "scientific-panel"
-      ],
-      "summary": "Daily reporting prompted Board-commissioned scientific review. The panel found no evidence to conclude the president personally committed research misconduct or knew of others' misconduct before publication, but identified serious flaws and inappropriate research practices by others.",
-      "source_urls": [
-        "https://stanforddaily.com/2022/11/29/STANFORD-PRESIDENTS-RESEARCH-UNDER-INVESTIGATION-FOR-SCIENTIFIC-MISCONDUCT-UNIVERSITY-ADMITS-MISTAKES/",
-        "https://boardoftrustees.stanford.edu/news/board-trustees-statement-release-report-and-announcements"
-      ],
-      "limits": "Unrelated research matter; preserve exculpatory findings and limitations.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "employee-racial-harassment-2024",
-      "subject": "Stanford University and Stanford Health Care",
-      "date_or_period": "2024-06-21 reporting",
-      "classification": "civil_employment_litigation",
-      "status": "jury_verdict_reported_later_disposition_unverified",
-      "actor_ids": [
-        "stat",
-        "villarreal-hutner"
-      ],
-      "summary": "STAT reported a jury verdict in a racial harassment and discrimination lawsuit involving an employee; the trial court subsequently proposed reducing the $20 million award to $10 million.",
-      "source_urls": [
-        "https://www.statnews.com/2024/06/21/stanford-health-racial-harassment-jury-award/",
-        "https://www.prnewswire.com/news-releases/jury-awards-20-million-verdict-in-race-harassment-case-involving-ku-klux-klan-related-threats-at-stanford-medicine-cancer-center-302176270.html"
-      ],
-      "limits": "Employment case, not patient's case. Current judgment/appeal status not independently established; no survivor contact listed.",
-      "verified_on": "2026-11-24"
-    },
-    {
-      "id": "employee-retaliation-2025",
-      "subject": "Stanford University and Stanford Health Care",
-      "date_or_period": "2025-03-19 filing; 2025-03-26 announcement",
-      "classification": "civil_employment_litigation",
-      "status": "complaint_filed_outcome_unverified",
-      "actor_ids": [
-        "villarreal-hutner"
-      ],
-      "summary": "Plaintiff's counsel announced a subsequent lawsuit alleging racial discrimination, retaliation after patient-safety whistleblowing, and defamation.",
-      "source_urls": [
-        "https://www.prnewswire.com/news-releases/stanford-health-care-employee-files-new-lawsuit-alleging-medical-whistleblower-retaliation-and-race-discrimination-and-fraudulently-concealed-defamation-against-stanford-university-and-stanford-health-care-after-historic-2024-10--302412037.html"
-      ],
-      "limits": "Party-authored account of allegations; not adjudicated facts. Current docket not retrieved; no claimant contact details.",
-      "verified_on": "2026-11-24"
-    }
-  ],
   "discovery_sources": [
     {
       "url": "https://www.cdph.ca.gov/Programs/CHCQ/LCP/Pages/Facility-Compliance-and-Quality.aspx",
@@ -1355,8 +959,12 @@
   "counts": {
     "victim_resources": 27,
     "investigation_organizations": 28,
-    "prior_proceedings": 21,
-    "dispatches": 0,
-    "confirmed_coalition_members": 0
+    "prior_proceedings": 21
+  },
+  "historical_evidence": {
+    "path": "../historical-evidence.json",
+    "sections": [
+      "prior_proceedings"
+    ]
   }
 }

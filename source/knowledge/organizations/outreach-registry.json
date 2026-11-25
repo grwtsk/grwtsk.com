@@ -1,6 +1,5 @@
 {
-  "schema_version": 1,
-  "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+  "schema_version": 2,
   "research_date": "2026-11-24",
   "status": "initial_research_snapshot_not_a_mailing_list",
   "scope_notes": [
@@ -156,28 +155,6 @@
       "route_id": "ucsf-general"
     }
   ],
-  "workflow": {
-    "complaints": "File independently with competent agencies; keep actual receipt privately and record redacted dispatch only after it occurs.",
-    "coalition": "Invite organizations through their designated intake to nominate willing, conflict-screened representatives. Do not equate receipt or silence with agreement.",
-    "legislative": "Use constituent representatives and relevant committee offices for requests for oversight; consult official directories for the current term.",
-    "priority_ids": [
-      "mbc",
-      "cdph",
-      "crd",
-      "hhs-ocr",
-      "doj-crd",
-      "usao-ndca",
-      "shc-relations",
-      "ucsf-relations",
-      "da-santa-clara",
-      "da-san-francisco",
-      "da-san-mateo",
-      "aps-fresno",
-      "drc",
-      "calbar",
-      "naf"
-    ]
-  },
   "counts": {
     "county_da_offices": 58,
     "distinct_da_directory_names": 57,
@@ -185,9 +162,7 @@
     "contact_records": 203,
     "directory_lookup_records": 990,
     "total_records": 1193,
-    "named_public_officeholder_records": 59,
-    "confirmed_coalition_members": 0,
-    "dispatches": 0
+    "named_public_officeholder_records": 59
   },
   "contact_records": [
     {

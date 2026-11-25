@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+  "research_date": "2026-11-24",
+  "purpose": "Article-specific selection and context for the shared organization catalogs; these are research references, not recipient enrollment or dispatch records.",
+  "catalogs": {
+    "outreach-registry.json": {
+      "path": "../../knowledge/organizations/outreach-registry.json",
+      "context": {
+        "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+        "workflow": {
+          "complaints": "File independently with competent agencies; keep actual receipt privately and record redacted dispatch only after it occurs.",
+          "coalition": "Invite organizations through their designated intake to nominate willing, conflict-screened representatives. Do not equate receipt or silence with agreement.",
+          "legislative": "Use constituent representatives and relevant committee offices for requests for oversight; consult official directories for the current term.",
+          "priority_ids": [
+            "mbc",
+            "cdph",
+            "crd",
+            "hhs-ocr",
+            "doj-crd",
+            "usao-ndca",
+            "shc-relations",
+            "ucsf-relations",
+            "da-santa-clara",
+            "da-san-francisco",
+            "da-san-mateo",
+            "aps-fresno",
+            "drc",
+            "calbar",
+            "naf"
+          ]
+        }
+      },
+      "counts": {
+        "dispatches": 0,
+        "confirmed_coalition_members": 0
+      },
+      "record_state": {},
+      "historical_sections": []
+    },
+    "authority-oversight.json": {
+      "path": "../../knowledge/organizations/authority-oversight.json",
+      "context": {
+        "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+        "priority_routes": {
+          "ongoing_local_safety": [
+            "aps-fresno",
+            "ucsf-safety"
+          ],
+          "incident_venue": [
+            "stanford-police",
+            "palo-alto-police",
+            "ucsf-police",
+            "sf-police",
+            "da-santa-clara",
+            "da-san-francisco",
+            "da-san-mateo"
+          ],
+          "independent_regulatory": [
+            "dca-mbc",
+            "cdph",
+            "cdph-district-sf",
+            "crd",
+            "hhs-ocr",
+            "ca-ag-dmfea",
+            "doj-crd",
+            "usao-ndca"
+          ],
+          "systemic_review": [
+            "ca-attorney-general",
+            "ca-ag-disability",
+            "ca-governor",
+            "calhhs",
+            "federal-ag",
+            "hhs-secretary"
+          ],
+          "constituent_casework": [
+            "us-senate-padilla",
+            "us-senate-schiff",
+            "house-find-rep",
+            "ca-state-rep"
+          ],
+          "legislative_oversight": [
+            "house-energy-commerce",
+            "house-judiciary",
+            "senate-help",
+            "senate-judiciary-constitution",
+            "ca-sen-bp",
+            "ca-sen-health",
+            "ca-asm-bp",
+            "ca-asm-health",
+            "ca-jlac",
+            "ca-sen-public-safety"
+          ]
+        },
+        "safety_and_process": [
+          "Emergency or immediate risk: call 911. For current dependent-adult risk in Fresno call APS; ask for written communication accommodation.",
+          "Separate firsthand facts, allegations, records and requests for investigation. Do not presume guilt or infer public danger from affiliation alone.",
+          "File through authorized intake; do not copy every office, publish private evidence, or contact judges about a pending or prospective case. Courts adjudicate filings through proper procedures.",
+          "Committee or executive correspondence is for oversight and referral and does not toll legal deadlines. A formal agency complaint is independent of legislative outreach.",
+          "No communications sent; no status.md change. Personal authorization/consent, contact details and evidentiary materials must be submitted by the complainant through private channels.",
+          "Officeholder names are dated as shown; recheck after election transitions. Coverage of additional CDPH district offices, municipal law enforcement and exact Stanford affiliate locations remains incomplete."
+        ]
+      },
+      "counts": {
+        "dispatches": 0
+      },
+      "record_state": {},
+      "historical_sections": []
+    },
+    "medical-board-oversight.json": {
+      "path": "../../knowledge/organizations/medical-board-oversight.json",
+      "context": {
+        "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
+        "scope": "Review of the user's allegation of deficient Medical Board investigation and executive and legislative oversight; not a determination of misconduct or individual responsibility.",
+        "review_questions": [
+          "Obtain original case reference, date of submission, closure and disposition; determine whether closure occurred at CCU, CIO, HQIU, Board or HQE.",
+          "Determine what witness testimony and clinical evidence were requested, considered, omitted or unavailable; verify whether appropriate medical specialty expertise was used.",
+          "Ask whether conflicts were screened, the complaint was assessed against applicable contemporaneous standards and any subsequent evidence changes the disposition.",
+          "Ask for review under Business and Professions Code section 2024.5(a)(5), and determine applicability of section 2220.1 including section 2230.5 limitations. Request written determination and accessible communication.",
+          "Ask DCA Correspondence Unit to review service handling and refer evidence of state improper activity independently to State Auditor where applicable.",
+          "Ask legislators to review implementation and outcomes of enforcement monitor recommendations and SB 815, including documented interview and closure-review processes, without seeking predetermined case results.",
+          "Preserve records privately and request lawful disclosure; no confidential medical or investigative material in public comments or Git."
+        ],
+        "workflow": {
+          "closure_review": "mbc-clu",
+          "external_administrative_review": "dca-cu",
+          "executive_escalation": [
+            "gov-newsom",
+            "bcsa-secretary",
+            "dca-acting-director"
+          ],
+          "legislative_oversight": [
+            "sen-bp",
+            "asm-bp",
+            "sen-rules",
+            "asm-speaker",
+            "sen-budget-4",
+            "asm-budget",
+            "jlac"
+          ],
+          "independent_state_activity": "state-auditor",
+          "public_policy_comment": "mbc-board-public-comment",
+          "dispatches": 0
+        }
+      },
+      "counts": {
+        "dispatches": 0
+      },
+      "record_state": {},
+      "historical_sections": [
+        "historical_context"
+      ]
+    },
+    "disease-disability-and-civic-resources.json": {
+      "path": "../../knowledge/organizations/disease-disability-and-civic-resources.json",
+      "context": {},
+      "counts": {
+        "dispatches": 0,
+        "confirmed_coalition_members": 0
+      },
+      "record_state": {
+        "records": {
+          "naf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "fara": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "nord": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "global-genes": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "rdla": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "abc": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "american-brain-foundation": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "curepsp": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "mission-msa": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "parkinsons-foundation": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "mjff": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "apda": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "dmrf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ietf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "hdsa": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "als-association": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "alz-association": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ms-society": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "epilepsy-foundation": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "mda": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "biaa": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "cdla": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "dredf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "dra": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "dr-california": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "cfilc": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ricv": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "aapd": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ncil": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ndrn": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "communicationfirst": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "arc": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "cara": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "nhelp": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "hca": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "paf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "psmf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "pulse": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "public-citizen": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "chcf": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-rare-caucus": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "lwvc": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "common-cause": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "braver-network": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "bpc": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "cap": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "cato": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "heritage": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "rstreet": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "healthy-ca-now": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-american-independent": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-democratic": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-green": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-libertarian": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-peace-and-freedom": {
+            "participation_status": "not_contacted_or_confirmed"
+          },
+          "ca-party-republican": {
+            "participation_status": "not_contacted_or_confirmed"
+          }
+        }
+      },
+      "historical_sections": []
+    },
+    "news-media-resources.json": {
+      "path": "../../knowledge/organizations/news-media-resources.json",
+      "context": {},
+      "counts": {
+        "dispatches": 0
+      },
+      "record_state": {
+        "records": {
+          "palo-alto-online": {
+            "contact_status": "not_contacted"
+          },
+          "palo-alto-post": {
+            "contact_status": "not_contacted"
+          },
+          "stanford-daily": {
+            "contact_status": "not_contacted"
+          },
+          "mountain-view-voice": {
+            "contact_status": "not_contacted"
+          },
+          "almanac": {
+            "contact_status": "not_contacted"
+          },
+          "redwood-city-pulse": {
+            "contact_status": "not_contacted"
+          },
+          "san-mateo-daily-journal": {
+            "contact_status": "not_contacted"
+          },
+          "mercury-news": {
+            "contact_status": "not_contacted"
+          },
+          "east-bay-times": {
+            "contact_status": "not_contacted"
+          },
+          "marin-ij": {
+            "contact_status": "not_contacted"
+          },
+          "san-jose-spotlight": {
+            "contact_status": "not_contacted"
+          },
+          "sf-chronicle": {
+            "contact_status": "not_contacted"
+          },
+          "sf-standard": {
+            "contact_status": "not_contacted"
+          },
+          "mission-local": {
+            "contact_status": "not_contacted"
+          },
+          "sf-public-press": {
+            "contact_status": "not_contacted"
+          },
+          "kqed": {
+            "contact_status": "not_contacted"
+          },
+          "nbc-bay-area": {
+            "contact_status": "not_contacted"
+          },
+          "abc7-bay-area": {
+            "contact_status": "not_contacted"
+          },
+          "kpix": {
+            "contact_status": "not_contacted"
+          },
+          "fresno-bee": {
+            "contact_status": "not_contacted"
+          },
+          "fresnoland": {
+            "contact_status": "not_contacted"
+          },
+          "gv-wire": {
+            "contact_status": "not_contacted"
+          },
+          "abc30": {
+            "contact_status": "not_contacted"
+          },
+          "kmph": {
+            "contact_status": "not_contacted"
+          },
+          "kvpr": {
+            "contact_status": "not_contacted"
+          },
+          "merced-focus": {
+            "contact_status": "not_contacted"
+          },
+          "cvjc": {
+            "contact_status": "not_contacted"
+          },
+          "calmatters": {
+            "contact_status": "not_contacted"
+          },
+          "la-times": {
+            "contact_status": "not_contacted"
+          },
+          "sacramento-bee": {
+            "contact_status": "not_contacted"
+          },
+          "capradio": {
+            "contact_status": "not_contacted"
+          },
+          "california-health-report": {
+            "contact_status": "not_contacted"
+          },
+          "kff-health-news": {
+            "contact_status": "not_contacted"
+          },
+          "stat": {
+            "contact_status": "not_contacted"
+          },
+          "undark": {
+            "contact_status": "not_contacted"
+          },
+          "new-mobility": {
+            "contact_status": "not_contacted"
+          },
+          "mindsite-news": {
+            "contact_status": "not_contacted"
+          },
+          "propublica": {
+            "contact_status": "not_contacted"
+          },
+          "ap": {
+            "contact_status": "not_contacted"
+          },
+          "npr": {
+            "contact_status": "not_contacted"
+          },
+          "washington-post": {
+            "contact_status": "not_contacted"
+          },
+          "wsj": {
+            "contact_status": "not_contacted"
+          },
+          "guardian": {
+            "contact_status": "not_contacted"
+          },
+          "abc-news": {
+            "contact_status": "not_contacted"
+          },
+          "nbc-news": {
+            "contact_status": "not_contacted"
+          },
+          "cbs-60-minutes": {
+            "contact_status": "not_contacted"
+          },
+          "usa-today-network": {
+            "contact_status": "not_contacted"
+          },
+          "reuters": {
+            "contact_status": "not_contacted"
+          },
+          "marshall-project": {
+            "contact_status": "not_contacted"
+          }
+        }
+      },
+      "historical_sections": [
+        "reporting_context"
+      ]
+    },
+    "peninsula-community-and-neurology-resources.json": {
+      "path": "../../knowledge/organizations/peninsula-community-and-neurology-resources.json",
+      "context": {
+        "formal_review_routes": {
+          "stanford": "authority-oversight.json#shc-compliance",
+          "ucsf": "authority-oversight.json#ucsf-relations",
+          "independent": "medical-board-oversight.json#mbc-clu",
+          "note": "Request investigation from the competent independent agency and ask institutional offices to nominate an appropriate conflict-screened clinical reviewer. Do not broadcast individualized allegations to unrelated clinicians, community organizations or patient groups."
+        }
+      },
+      "counts": {
+        "dispatches": 0
+      },
+      "record_state": {},
+      "historical_sections": []
+    },
+    "victim-support-and-stanford-investigations.json": {
+      "path": "../../knowledge/organizations/victim-support-and-stanford-investigations.json",
+      "context": {},
+      "counts": {
+        "dispatches": 0,
+        "confirmed_coalition_members": 0
+      },
+      "record_state": {
+        "victim_resources": {
+          "consumer-watchdog": {
+            "contact_status": "not_contacted"
+          },
+          "fairness-injured-patients": {
+            "contact_status": "not_contacted"
+          },
+          "pfps-us": {
+            "contact_status": "not_contacted"
+          },
+          "pulse-cpsea": {
+            "contact_status": "not_contacted"
+          },
+          "calvcb": {
+            "contact_status": "not_contacted"
+          },
+          "cal-ag-vsu": {
+            "contact_status": "not_contacted"
+          },
+          "vcrc": {
+            "contact_status": "not_contacted"
+          },
+          "fresno-victim-center": {
+            "contact_status": "not_contacted"
+          },
+          "santa-clara-victim-center": {
+            "contact_status": "not_contacted"
+          },
+          "san-mateo-keller": {
+            "contact_status": "not_contacted"
+          },
+          "beloved-survivors": {
+            "contact_status": "not_contacted"
+          },
+          "community-solutions": {
+            "contact_status": "not_contacted"
+          },
+          "calvcb-trc": {
+            "contact_status": "not_contacted"
+          },
+          "victimconnect": {
+            "contact_status": "not_contacted"
+          },
+          "ovc-directory": {
+            "contact_status": "not_contacted"
+          },
+          "ncvli": {
+            "contact_status": "not_contacted"
+          },
+          "crime-survivors-inc": {
+            "contact_status": "not_contacted"
+          },
+          "ican": {
+            "contact_status": "not_contacted"
+          },
+          "crime-victims-united": {
+            "contact_status": "not_contacted"
+          },
+          "nova": {
+            "contact_status": "not_contacted"
+          },
+          "canhr": {
+            "contact_status": "not_contacted"
+          },
+          "aps-state": {
+            "contact_status": "not_contacted"
+          },
+          "elder-justice": {
+            "contact_status": "not_contacted"
+          },
+          "ca-courts": {
+            "contact_status": "not_contacted"
+          },
+          "rainn": {
+            "contact_status": "not_contacted"
+          },
+          "fresno-rape-counseling": {
+            "contact_status": "not_contacted"
+          },
+          "ca-cdcr-ovsrs": {
+            "contact_status": "not_contacted"
+          }
+        }
+      },
+      "historical_sections": [
+        "prior_proceedings"
+      ]
+    },
+    "worker-rights-and-related-incident-reports.json": {
+      "path": "../../knowledge/organizations/worker-rights-and-related-incident-reports.json",
+      "context": {},
+      "counts": {
+        "dispatches": 0,
+        "confirmed_coalition_members": 0
+      },
+      "record_state": {
+        "organizations": {
+          "crona": {
+            "contact_status": "not_contacted"
+          },
+          "seiu-uhw": {
+            "contact_status": "not_contacted"
+          },
+          "cir-stanford": {
+            "contact_status": "not_contacted"
+          },
+          "cna-trivalley": {
+            "contact_status": "not_contacted"
+          },
+          "teamsters-853": {
+            "contact_status": "not_contacted"
+          },
+          "seiu-2007": {
+            "contact_status": "not_contacted"
+          },
+          "seiu-usww": {
+            "contact_status": "not_contacted"
+          },
+          "sgwu": {
+            "contact_status": "not_contacted"
+          },
+          "ue": {
+            "contact_status": "not_contacted"
+          },
+          "swr": {
+            "contact_status": "not_contacted"
+          },
+          "gsc": {
+            "contact_status": "not_contacted"
+          },
+          "smadie": {
+            "contact_status": "not_contacted"
+          },
+          "sda": {
+            "contact_status": "not_contacted"
+          },
+          "damns": {
+            "contact_status": "not_contacted"
+          },
+          "gcdi": {
+            "contact_status": "not_contacted"
+          },
+          "senseconnect": {
+            "contact_status": "not_contacted"
+          },
+          "disability-initiative": {
+            "contact_status": "not_contacted"
+          },
+          "disco": {
+            "contact_status": "not_contacted"
+          },
+          "msdci": {
+            "contact_status": "not_contacted"
+          },
+          "disability-staff-forum": {
+            "contact_status": "not_contacted"
+          },
+          "housing-justice": {
+            "contact_status": "not_contacted"
+          },
+          "south-bay-labor": {
+            "contact_status": "not_contacted"
+          },
+          "san-mateo-labor": {
+            "contact_status": "not_contacted"
+          },
+          "ca-labor-fed": {
+            "contact_status": "not_contacted"
+          },
+          "wpusa": {
+            "contact_status": "not_contacted"
+          },
+          "bay-essential-workers": {
+            "contact_status": "not_contacted"
+          },
+          "twc-bay": {
+            "contact_status": "not_contacted"
+          },
+          "samaritan-worker-center": {
+            "contact_status": "not_contacted"
+          },
+          "legal-aid-at-work": {
+            "contact_status": "not_contacted"
+          },
+          "dir-partners": {
+            "contact_status": "not_contacted"
+          },
+          "nlrb-32": {
+            "contact_status": "not_contacted"
+          },
+          "dlse": {
+            "contact_status": "not_contacted"
+          },
+          "eeoc": {
+            "contact_status": "not_contacted"
+          }
+        }
+      },
+      "historical_sections": [
+        "reported_incidents_and_proceedings",
+        "representation_records"
+      ]
+    },
+    "community-support.json": {
+      "path": "../../knowledge/organizations/community-support.json",
+      "case_manifest": "community-support-and-professional-evidence.json"
+    }
+  },
+  "historical_evidence": "../../knowledge/historical-evidence.json",
+  "community_professional_manifest": "community-support-and-professional-evidence.json"
+}

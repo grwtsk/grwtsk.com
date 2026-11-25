@@ -2,7 +2,7 @@
   "schema_version": 1,
   "purpose": "Reusable organizational support and referral knowledge; no recipient enrollment, endorsement or case-specific participation status.",
   "source_research_date": "2026-11-24",
-  "theme_catalog": "writing-themes.json",
+  "theme_catalog": "../writing-themes.json",
   "constraints": [
     "A public organizational listing is not consent, verified deliverability, or authority to adjudicate a complaint.",
     "Use only the stated purpose and limitations. All listed channels in this catalog are URL references, not established email destinations.",

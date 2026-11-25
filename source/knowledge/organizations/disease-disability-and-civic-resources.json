@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "research_date": "2026-11-24",
   "extends": [
     "outreach-registry.json",
     "authority-oversight.json",
     "medical-board-oversight.json",
-    "community-support-and-professional-evidence.json"
+    "community-support.json"
   ],
   "purpose": "Public organizational resource directory for patient assistance, independent disability advocacy and general policy research/dialogue; separate from complaint dispatch.",
   "usage_constraints": [
@@ -34,8 +34,7 @@
         "https://www.ataxia.org/contact/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "fara",
@@ -51,8 +50,7 @@
         "https://www.curefa.org/get-involved/advocate/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "nord",
@@ -70,8 +68,7 @@
         "https://rarediseases.org/driving-policy/nord-policy-statements/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "global-genes",
@@ -88,8 +85,7 @@
         "https://globalgenes.org/contact-us/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "rdla",
@@ -106,8 +102,7 @@
         "https://everylifefoundation.org/advocacy/how-to-get-started/rare-advocates-advisory-committee/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "abc",
@@ -126,8 +121,7 @@
         "https://www.americanbraincoalition.org/advocacy-committee"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "american-brain-foundation",
@@ -144,8 +138,7 @@
         "https://www.americanbrainfoundation.org/contact/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "curepsp",
@@ -162,8 +155,7 @@
         "https://www.psp.org/advocacy"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "mission-msa",
@@ -179,8 +171,7 @@
         "https://missionmsa.org/msa-advocacy-action-center/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "parkinsons-foundation",
@@ -196,8 +187,7 @@
         "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "mjff",
@@ -213,8 +203,7 @@
         "https://www.michaeljfox.org/advocacy"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "apda",
@@ -230,8 +219,7 @@
         "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "dmrf",
@@ -247,8 +235,7 @@
         "https://dystonia-foundation.org/become-a-legislative-advocate/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ietf",
@@ -264,8 +251,7 @@
         "https://essentialtremor.org/about-us/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "hdsa",
@@ -281,8 +267,7 @@
         "https://hdsa.org/hddayofaction/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "als-association",
@@ -298,8 +283,7 @@
         "https://www.als.org/advocacy"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "alz-association",
@@ -315,8 +299,7 @@
         "https://www.alz.org/get-involved-now/advocate"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ms-society",
@@ -332,8 +315,7 @@
         "https://www.nationalmssociety.org/how-you-can-help/get-involved/advocate/take-action/public-officials"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "epilepsy-foundation",
@@ -350,8 +332,7 @@
         "https://www.epilepsy.com/advocacy"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "mda",
@@ -370,8 +351,7 @@
         "https://www.mda.org/about-mda/contact-us"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "biaa",
@@ -387,8 +367,7 @@
         "https://biausa.org/become-an-advocate/about-brain-injury-advocacy"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "cdla",
@@ -405,8 +384,7 @@
         "https://dredf.org/cdla-state-of-the-state-press-release-2026/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "dredf",
@@ -425,8 +403,7 @@
         "https://dredf.org/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "dra",
@@ -443,8 +420,7 @@
         "https://dralegal.org/contact-us/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "dr-california",
@@ -461,8 +437,7 @@
         "https://www.oag.ca.gov/civil/resources-ada-people"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "cfilc",
@@ -480,8 +455,7 @@
         "https://cfilc.org/member-ilcs/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ricv",
@@ -500,8 +474,7 @@
         "https://cfilc.org/about-cfilc/board-members/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "aapd",
@@ -517,8 +490,7 @@
         "https://www.aapd.com/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ncil",
@@ -535,8 +507,7 @@
         "https://ncil.org/about/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ndrn",
@@ -552,8 +523,7 @@
         "https://www.ndrn.org/about/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "communicationfirst",
@@ -570,8 +540,7 @@
         "https://communicationfirst.org/getinvolved/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "arc",
@@ -587,8 +556,7 @@
         "https://www.thearc.org/policy-advocacy/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "cara",
@@ -607,8 +575,7 @@
         "https://californiaalliance.org/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "nhelp",
@@ -626,8 +593,7 @@
         "https://healthlaw.org/disability-advocacy/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "hca",
@@ -645,8 +611,7 @@
         "https://healthconsumer.org/contact/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "paf",
@@ -663,8 +628,7 @@
         "https://www.patientadvocate.org/contact/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "psmf",
@@ -680,8 +644,7 @@
         "https://psmf.org/contact-us"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "pulse",
@@ -700,8 +663,7 @@
         "https://www.pulsecenterforpatientsafety.org/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "public-citizen",
@@ -717,8 +679,7 @@
         "https://www.citizen.org/article/physician-accountability/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "chcf",
@@ -736,8 +697,7 @@
         "https://www.chcf.org/contact-us/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-rare-caucus",
@@ -753,8 +713,7 @@
         "https://www.cararediseasecaucus.org/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "lwvc",
@@ -773,8 +732,7 @@
         "https://lwvc.org/about-us/local-leagues/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "common-cause",
@@ -793,8 +751,7 @@
         "https://www.commoncause.org/about-us/contact/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "braver-network",
@@ -811,8 +768,7 @@
         "https://braverangels.org/braver-network/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "bpc",
@@ -830,8 +786,7 @@
         "https://bipartisanpolicy.org/policy-area/health/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "cap",
@@ -848,8 +803,7 @@
         "https://www.americanprogress.org/topic/disability/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "cato",
@@ -866,8 +820,7 @@
         "https://www.cato.org/about/public-affairs/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "heritage",
@@ -883,8 +836,7 @@
         "https://solutions.heritage.org/entitlements/health-care/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "rstreet",
@@ -901,8 +853,7 @@
         "https://www.rstreet.org/home/our-issues/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "healthy-ca-now",
@@ -918,8 +869,7 @@
         "https://healthyca.org/about/affiliates/"
       ],
       "verification": "published_official_organization_or_government_directory_reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-american-independent",
@@ -937,8 +887,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-democratic",
@@ -956,8 +905,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-green",
@@ -975,8 +923,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-libertarian",
@@ -994,8 +941,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-peace-and-freedom",
@@ -1013,8 +959,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     },
     {
       "id": "ca-party-republican",
@@ -1032,8 +977,7 @@
         "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
       ],
       "verification": "California Secretary of State current qualified party directory reviewed",
-      "checked_on": "2026-11-24",
-      "participation_status": "not_contacted_or_confirmed"
+      "checked_on": "2026-11-24"
     }
   ],
   "related_directories": [
@@ -1073,8 +1017,6 @@
       "qualified_political_party": 6
     },
     "published_organizational_emails": 22,
-    "published_office_phones": 26,
-    "confirmed_coalition_members": 0,
-    "dispatches": 0
+    "published_office_phones": 26
   }
 }

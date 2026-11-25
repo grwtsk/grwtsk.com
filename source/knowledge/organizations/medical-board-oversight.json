@@ -1,12 +1,10 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "research_date": "2026-11-24",
-  "article_url": "https://grwtsk.com/articles/formal-complaint-and-demand-for-independent-investigation/",
   "extends": [
     "outreach-registry.json",
     "authority-oversight.json"
   ],
-  "scope": "Review of the user's allegation of deficient Medical Board investigation and executive and legislative oversight; not a determination of misconduct or individual responsibility.",
   "sources": {
     "roster": "https://www.mbc.ca.gov/About/Members/",
     "agenda": "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf",
@@ -1334,60 +1332,6 @@
       "agenda"
     ]
   },
-  "historical_context": [
-    {
-      "date": "2021",
-      "event": "SB 806 required independent enforcement monitor; reports published 2023.",
-      "sources": [
-        "sb806",
-        "monitor"
-      ]
-    },
-    {
-      "date": "2023-08-18",
-      "event": "Independent enforcement monitor final report documented staffing, collaboration, expert availability and resource problems. These general findings are not evidence that this particular case was mishandled.",
-      "sources": [
-        "monitor",
-        "monitorpdf"
-      ]
-    },
-    {
-      "date": "2024",
-      "event": "SB 815 reforms include CLU and quality-of-care interview requirement, contingent on funded positions; Board authorization sunset January 1, 2028.",
-      "sources": [
-        "sb815",
-        "stat2001",
-        "stat20245",
-        "stat22201"
-      ]
-    },
-    {
-      "date": "2025-01",
-      "event": "CLU established; current closure review route. Do not assume 2025 requirements applied to historical investigation.",
-      "sources": [
-        "clu",
-        "sb815"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "event": "BCSH split; DCA now sits under BCSA. Historical chain and present chain must not be conflated.",
-      "sources": [
-        "bcsa",
-        "transition",
-        "home"
-      ]
-    }
-  ],
-  "review_questions": [
-    "Obtain original case reference, date of submission, closure and disposition; determine whether closure occurred at CCU, CIO, HQIU, Board or HQE.",
-    "Determine what witness testimony and clinical evidence were requested, considered, omitted or unavailable; verify whether appropriate medical specialty expertise was used.",
-    "Ask whether conflicts were screened, the complaint was assessed against applicable contemporaneous standards and any subsequent evidence changes the disposition.",
-    "Ask for review under Business and Professions Code section 2024.5(a)(5), and determine applicability of section 2220.1 including section 2230.5 limitations. Request written determination and accessible communication.",
-    "Ask DCA Correspondence Unit to review service handling and refer evidence of state improper activity independently to State Auditor where applicable.",
-    "Ask legislators to review implementation and outcomes of enforcement monitor recommendations and SB 815, including documented interview and closure-review processes, without seeking predetermined case results.",
-    "Preserve records privately and request lawful disclosure; no confidential medical or investigative material in public comments or Git."
-  ],
   "related_authority_records": [
     {
       "id": "ca-sen-health",
@@ -1442,27 +1386,6 @@
       "source": "authority-oversight.json"
     }
   ],
-  "workflow": {
-    "closure_review": "mbc-clu",
-    "external_administrative_review": "dca-cu",
-    "executive_escalation": [
-      "gov-newsom",
-      "bcsa-secretary",
-      "dca-acting-director"
-    ],
-    "legislative_oversight": [
-      "sen-bp",
-      "asm-bp",
-      "sen-rules",
-      "asm-speaker",
-      "sen-budget-4",
-      "asm-budget",
-      "jlac"
-    ],
-    "independent_state_activity": "state-auditor",
-    "public_policy_comment": "mbc-board-public-comment",
-    "dispatches": 0
-  },
   "verification_notes": [
     "Official Board membership page updated October 28 and November 19 agenda inspected visually. Current appointees do not establish historical case involvement.",
     "Governor chart dated October 27 inspected visually; names not independently verified beyond chart on research date.",
@@ -1475,7 +1398,12 @@
     "named_roles": 44,
     "board_members": 13,
     "board_vacancies": 2,
-    "distinct_shared_contact_routes": 19,
-    "dispatches": 0
+    "distinct_shared_contact_routes": 19
+  },
+  "historical_evidence": {
+    "path": "../historical-evidence.json",
+    "sections": [
+      "historical_context"
+    ]
   }
 }
