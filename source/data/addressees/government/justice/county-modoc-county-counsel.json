@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Modoc County Counsel official department page",
+      "urls": [
+        "https://www.countyofmodoc.gov/699/County-Counsel"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/county-glenn-county-counsel",
+      "role": "Contracted County Counsel",
+      "limitations": "Official Modoc County page names Margaret Long and links her firm. Existing Glenn record contains the same counsel's published professional address. Verify Modoc-specific remit and use the canonical mailbox without duplicating the email field. Separate county office mailbox not established."
     }
-  ]
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/county-glenn-county-counsel"
+  ],
+  "listed_officeholder": "Margaret Long"
 }

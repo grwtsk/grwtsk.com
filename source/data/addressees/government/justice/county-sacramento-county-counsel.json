@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-sacramento-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "CountyCounsel@saccounty.gov",
   "scope": [
     "California / Sacramento County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,20 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Official county or state public contact publication",
+      "urls": [
+        "https://ohv.parks.ca.gov/pages/1140/files/OHMVR%20Commission%20Letter%20CCAR%20Letter%20Final%209-15-2025%20RS%20Signed.pdf",
+        "https://countycounsel.saccounty.gov/",
+        "https://countycounsel.saccounty.gov/us/en/contact-us.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "CountyCounsel@saccounty.gov",
+      "role": "County Counsel office",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive administrative inquiries within documented county legal remit and jurisdiction.",
+      "limitations": "State OHMVR Commission letter dated September 15, 2025, page 4 image confirms this office email; current county homepage corroborates the incumbent Lisa Travis. County contact page lists telephone rather than an email. Reconfirm address before correspondence. County counsel represents the county, not a private complainant. Do not infer legal filing, service-of-process or independent complaint intake authorization. Confirm current mailbox, role and remit before use. Deliverability not tested."
     }
   ]
 }

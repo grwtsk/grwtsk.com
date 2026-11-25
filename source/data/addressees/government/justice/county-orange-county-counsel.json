@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-orange-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "Leon.Page@coco.oc.gov",
   "scope": [
     "California / Orange County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Official county or state public contact publication",
+      "urls": [
+        "https://www.ocgov.com/about-county/info-oc/newsroom/public-information-officers",
+        "https://ocgov.com/people/leon-page"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Leon.Page@coco.oc.gov",
+      "published_contact_person": "Leon Page",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive administrative inquiries within documented county legal remit and jurisdiction.",
+      "limitations": "Current official county PIO directory publishes this professional address. The county profile also displays leon.page@coco.ocgov.com, an alternative domain spelling; use the PIO listing as the recorded address, reconfirm current mailbox. PIO listing is not a general complaint intake designation. County counsel represents the county, not a private complainant. Do not infer legal filing, service-of-process or independent complaint intake authorization. Confirm current mailbox, role and remit before use. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Leon Page"
 }
