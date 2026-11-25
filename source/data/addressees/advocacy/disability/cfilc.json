@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disability/cfilc",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "California Foundation for Independent Living Centers",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disability"
   ],
-  "email": null,
+  "email": "cfilc@cfilc.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_independent_living_directory_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -43,6 +43,17 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "Independent Living Research Utilization CIL Associations directory",
+      "urls": [
+        "https://www.ilru.org/cil-directory/associations"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cfilc@cfilc.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Independent living coalition inquiries. Directory address, recheck current preferred route.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
     }
   ]
 }

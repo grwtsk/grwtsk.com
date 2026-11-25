@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disability/dra",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Disability Rights Advocates",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disability"
   ],
-  "email": null,
+  "email": "info@dralegal.org",
   "scope": [
     "California / National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -64,6 +64,17 @@
         "relevance": "Prior Stanford University disability rights settlement; legal screening of widespread discrimination.",
         "limits": "DRA does not take isolated individual discrimination cases. Office 510-665-8644."
       }
+    },
+    {
+      "source_title": "Disability Rights Advocates contact page",
+      "urls": [
+        "https://dralegal.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@dralegal.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Questions regarding DRA cases and systemic disability rights matters. Not an isolated individual case intake.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
     }
   ]
 }
