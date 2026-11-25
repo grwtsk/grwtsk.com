@@ -246,8 +246,8 @@ revisions in the data tree; use Git history.
 
 ## Reuse research across letters
 
-The shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing its article, status, incoming responses, outgoing drafts and article-specific references, routing context and case state. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
+The shared data layout places the nine reusable [organization catalogs](organizations/README.md), [evidence data](evidence/README.md) and [writing themes](writing-themes.json) directly under `source/data/`. The `articles/` directory holds one subdirectory per article, containing only its article, status, incoming responses and outgoing drafts. Article-specific outreach research, routing context and case research state belong in [outreach/](outreach/README.md), grouped by the same article slug. See the [offline writing proposal](OFFLINE-WRITING.md). No draft or research record is a send.
 
-The static generator reads only `source/data/articles/`. Shared organizations, evidence and writing themes are not article or static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
+The static generator reads only `source/data/articles/`. Shared organizations, evidence, outreach research and writing themes are not article or static-site inputs. The public article URLs remain `https://grwtsk.com/articles/<slug>/`. The offline classifier, context packaging and writing engine are proposals only.
 
 [Return to the operating guide](../../README.md).

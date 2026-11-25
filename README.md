@@ -93,7 +93,7 @@ source/
   web/        Vite: multi-page build and static HTTP service
 ```
 
-Shared [organization data](source/data/organizations/README.md) and [evidence data](source/data/evidence/README.md) are separate from the [article directories](source/data/articles/README.md). The [offline writing proposal](source/data/OFFLINE-WRITING.md) is not implemented.
+Shared [organization data](source/data/organizations/README.md), [evidence data](source/data/evidence/README.md) and [article-specific outreach research](source/data/outreach/README.md) are separate from the [article directories](source/data/articles/README.md). The [offline writing proposal](source/data/OFFLINE-WRITING.md) is not implemented.
 
 Read [source/README.md](source/README.md) for the exact maintained layout,
 component responsibilities and links to detailed technical guides. The root

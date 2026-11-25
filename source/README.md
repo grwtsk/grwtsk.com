@@ -21,13 +21,13 @@ source/
 │   │   └── <article-slug>/
 │   │       ├── article.md
 │   │       ├── status.md
-│   │       ├── article-specific research context (when needed)
 │   │       ├── in/
 │   │       │   ├── .gitkeep
 │   │       │   └── <response-slug>.md  (only when a real response exists)
 │   │       └── out/
 │   │           ├── .gitkeep
 │   │           └── <draft-slug>.md  (public-safe unsent email drafts)
+│   ├── outreach/      (article-specific research data, grouped by slug)
 │   ├── organizations/  (nine shared JSON catalogs and README)
 │   ├── evidence/       (shared professional and historical JSON data and README)
 │   ├── writing-themes.json

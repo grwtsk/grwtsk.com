@@ -1,6 +1,6 @@
 # California medical accountability outreach registry
 
-This research index accompanies [the formal complaint](article.md). All nine organization catalogs now live in the [shared organization data](../../organizations/README.md); the [article context](outreach-context.json) holds case-specific routing, questions and historical research state. Public proceeding and reporting records are held separately in [historical evidence](../../evidence/historical-evidence.json), never as recipients. It is a directory for jurisdiction-specific reporting, constituent oversight and voluntary coalition formation, not a distribution list or a finding that any allegation is true. The Git repository is public.
+This research index accompanies [the formal complaint](../../articles/formal-complaint-and-demand-for-independent-investigation/article.md). All nine organization catalogs now live in the [shared organization data](../../organizations/README.md); the [article context](outreach-context.json) holds case-specific routing, questions and historical research state. Public proceeding and reporting records are held separately in [historical evidence](../../evidence/historical-evidence.json), never as recipients. It is a directory for jurisdiction-specific reporting, constituent oversight and voluntary coalition formation, not a distribution list or a finding that any allegation is true. The Git repository is public.
 
 ## How to use
 
@@ -106,7 +106,7 @@ Use worker resources for appropriate employment support or general systemic poli
 2. Ask a certified lawyer referral service to identify qualified counsel for individual civil-rights, disability-access and malpractice questions. The registry does not enumerate private attorneys.
 3. Ask the neurology departments and independent patient advocacy organizations to nominate willing, conflict-screened medical reviewers or coalition representatives. Use official departmental contact channels. For Dr. Bledsoe, the designated patient-care route is UCSF MyChart for individual nonurgent care matters; formal complaints belong with Patient Relations and competent regulators. Do not post individualized allegations in clinicians' professional forums or send them to unrelated clinicians.
 4. For ongoing matters, ask about filing deadlines, accommodations and continuity of care. Formal complaint submissions must follow each agency's requirements; posting the article or sending a link does not necessarily file a complaint or preserve a legal deadline.
-5. Record actual sends according to [the correspondence guide](../../README.md). Do not mark `status.md` sent unless a dispatch actually occurred. Do not commit private medical records, contact details, private messages or confidential receipts. Obtain consent before publishing coalition membership.
+5. Record actual sends according to [the correspondence guide](../../README.md). Do not mark the article's [status.md](../../articles/formal-complaint-and-demand-for-independent-investigation/status.md) sent unless a dispatch actually occurred. Do not commit private medical records, contact details, private messages or confidential receipts. Obtain consent before publishing coalition membership.
 
 ## Maintenance
 
