@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-plumas-county-sheriff",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County sheriff",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "sheriff@countyofplumas.com",
   "scope": [
     "California / Plumas County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://www.plumascounty.us/m/directory/department?did=38",
+        "https://plumascounty.us/587/SheriffCoroner"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "sheriff@countyofplumas.com",
+      "role": "Plumas County Sheriff/Coroner general office mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General office inquiries within county jurisdiction; not emergency or formal crime-report intake.",
+      "limitations": "Official department contact page and staff directory independently display the same general office email. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
     }
   ]
 }

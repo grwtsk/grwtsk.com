@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:healthcare/clinical-ethics/stanford-clinical-ethics",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Stanford Health Care Clinical Ethics Consultation Service",
   "aliases": [],
   "taxonomy": [
     "healthcare",
     "clinical-ethics"
   ],
-  "email": null,
+  "email": "Sbhandari@stanfordhealthcare.org",
   "scope": [
     "Stanford Health Care"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,20 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://stanfordhealthcare.org/health-care-professionals/medical-staff/leadership-and-medical-staff-committees/medical-staff-committees.html",
+        "https://med.stanford.edu/bioethics/service/bedside.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Sbhandari@stanfordhealthcare.org",
+      "published_contact_person": "Sheena Bhandari",
+      "role": "Administrative liaison, Stanford Health Care Ethics Committee",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative routing inquiries only; retain pager-based bedside consultation and secure patient-relations channels.",
+      "limitations": "Official medical staff committee page publishes this liaison address under Ethics. The bedside consultation page still designates the pager as the consultation request route. The liaison is not a clinician or an independent investigator; no claim that ordinary email initiates a clinical consultation. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
     }
   ]
 }

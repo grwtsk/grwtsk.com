@@ -41,6 +41,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Victim assistance and local referral; not a substitute for a police report."
       }
+    },
+    {
+      "source_title": "Siskiyou County Victim Services contact information",
+      "urls": [
+        "https://www.siskiyoucounty.gov/district-attorney/page/victim-services",
+        "https://www.siskiyoucounty.gov/district-attorney/custom-contact-page/district-attorney-contact-information"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/da-siskiyou",
+      "stated_purpose": "The official victim-services page publishes the same general DA mailbox as the canonical DA leaf; use for routing inquiries only.",
+      "limitations": "No separate victim services email established. Preserve dedicated telephone route. Do not duplicate the DA mailbox or count it as another address; replies may take 48 hours."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/da-siskiyou"
   ]
 }
