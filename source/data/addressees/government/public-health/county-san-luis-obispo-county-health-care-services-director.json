@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/public-health/county-san-luis-obispo-county-health-care-services-director",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County health care services director",
   "aliases": [],
   "taxonomy": [
     "government",
     "public-health"
   ],
-  "email": null,
+  "email": "PublicHealth.Contact@co.slo.ca.us",
   "scope": [
     "California / San Luis Obispo County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "San Luis Obispo County Public Health January 20, 2026 guidance, page 1; winter 2026 bulletin",
+      "urls": [
+        "https://www.slocounty.ca.gov/departments/health-agency/public-health/forms-documents/for-healthcare-providers/provider-notices/1-20-2026-slo-county-guidance-regarding-federal-changes-to-childhood-and-adolescent-vaccine-schedule",
+        "https://www.slocounty.ca.gov/departments/slo-health/public-health/forms-documents/communications/public-health-bulletin/2026-winter-public-health-bulletin"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "PublicHealth.Contact@co.slo.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Public Health department mailbox, published for questions and bulletin feedback.",
+      "limitations": "January 20 guidance PDF page image confirms address. This is an institutional public-health contact, not the health agency director's individual address or formal grievance intake. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Do not submit confidential records through ordinary email."
     }
   ]
 }
