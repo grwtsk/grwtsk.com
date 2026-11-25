@@ -44,6 +44,19 @@
         "verified_on": "2026-11-24",
         "verification": "official_organization_or_government_directory_reviewed"
       }
+    },
+    {
+      "source_title": "Canonical institutional routing reference",
+      "urls": [
+        "https://www.sjpd.org/community/community-services/victim-assistance",
+        "https://sccld.org/community-resources/"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/victim-services/victim-santa-clara",
+      "limitations": "Santa Clara Victim Witness Center is the county DA Victim Services Unit; the San Jose police page and county library directory publish the canonical mailbox and phone. No duplicate address added."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/victim-services/victim-santa-clara"
   ]
 }

@@ -47,6 +47,16 @@
         "listed_officeholder": "Amit Sinha (board chair, roster as of 2026-09-01)",
         "limits": "No individual director contact list; use institutional route."
       }
+    },
+    {
+      "source_title": "Canonical institutional routing reference",
+      "urls": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:healthcare/patient-relations/shc-relations",
+      "limitations": "Existing source record directs board-level governance requests via Patient Relations. This reference identifies the established institutional route, not a board-specific mailbox or guarantee of board review."
     }
   ],
   "relationships": [
@@ -62,5 +72,8 @@
       "original_from": "shc-board",
       "original_to": "shc-compliance"
     }
+  ],
+  "shared_route_refs": [
+    "addressee:healthcare/patient-relations/shc-relations"
   ]
 }

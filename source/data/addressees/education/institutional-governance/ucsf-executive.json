@@ -47,6 +47,16 @@
         "listed_officeholder": "Suresh Gunasekaran",
         "limits": "Do not distribute individual allegations to unrelated executives; use the official institutional route."
       }
+    },
+    {
+      "source_title": "Canonical institutional routing reference",
+      "urls": [
+        "https://www.ucsfhealth.org/about/leadership",
+        "https://www.ucsfhealth.org/contact-us"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:healthcare/patient-relations/ucsf-relations",
+      "limitations": "Existing source record directs clinical-governance escalation via Patient Relations. This reference identifies the established institutional route, not a CEO-specific mailbox or guarantee of executive review."
     }
   ],
   "relationships": [
@@ -61,5 +71,8 @@
       "original_from": "ucsf-executive",
       "original_to": "ucsf-relations"
     }
+  ],
+  "shared_route_refs": [
+    "addressee:healthcare/patient-relations/ucsf-relations"
   ]
 }

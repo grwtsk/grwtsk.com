@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/victim-services/victimconnect",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "VictimConnect Resource Center",
   "aliases": [],
   "taxonomy": [
     "community",
     "victim-services"
   ],
-  "email": null,
+  "email": "info@victimsofcrime.org",
   "scope": [
     "United States"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "victim-support-and-stanford-investigations",
@@ -44,6 +44,19 @@
         "verified_on": "2026-11-24",
         "verification": "official_organization_or_government_directory_reviewed"
       }
+    },
+    {
+      "source_title": "Published institutional or public-service directory contact",
+      "urls": [
+        "https://nhcareconnections.resources.uniteus.io/program/8fdcdafc-6466-4937-87b8-69549c2cd248?backToResults=true&locale=en",
+        "https://victimconnect.org/chat"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "info@victimsofcrime.org",
+      "role": "National Center for Victims of Crime general contact listed for VictimConnect",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive general program and resource-navigation inquiries to the parent organization.",
+      "limitations": "New Hampshire DHHS resource directory explicitly lists this parent-organization email for VictimConnect. Current direct program-specific email is not established. Preserve confidential call/text/chat as victim-service intake; no sensitive records by ordinary email. Reconfirm current mailbox and scope before use. Deliverability not tested."
     }
   ]
 }

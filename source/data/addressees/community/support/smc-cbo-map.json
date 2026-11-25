@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/smc-cbo-map",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "San Mateo County community-based organization capability map",
   "aliases": [],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "DEM_info@smcgov.org",
   "scope": [
     "San Mateo County"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +41,18 @@
         "checked_on": "2026-11-24",
         "limitations": "County states this is not a complete directory or a public service locator; use 211 for service referral. Reference only."
       }
+    },
+    {
+      "source_title": "Published institutional or public-service directory contact",
+      "urls": [
+        "https://www.smcgov.org/dem/2026-cbo-capabilities-map-readiness-resources"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "DEM_info@smcgov.org",
+      "role": "San Mateo County Emergency Management CBO capability-map contact",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Questions about the CBO emergency-readiness map and organization participation only.",
+      "limitations": "County explicitly publishes this address for information about the map. The map is reference-only, not a public service locator or complaint route; county directs people seeking services to 211. Do not use for unrelated article distribution. Reconfirm current mailbox and scope before use. Deliverability not tested."
     }
   ]
 }

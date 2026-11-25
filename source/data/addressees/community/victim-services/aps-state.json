@@ -42,6 +42,18 @@
         "verified_on": "2026-11-24",
         "verification": "official_organization_or_government_directory_reviewed"
       }
+    },
+    {
+      "source_title": "Canonical institutional routing reference",
+      "urls": [
+        "https://www.cdss.ca.gov/adult-protective-services"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/social-services/cdss-aps",
+      "limitations": "Same statewide county-routing program. Existing canonical state program email is for program/policy questions, not reporting abuse; retain ZIP-routed telephone intake."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/cdss-aps"
   ]
 }
