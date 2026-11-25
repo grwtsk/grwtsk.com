@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-kings",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "christopher.narez@co.kings.ca.us",
   "scope": [
     "California / Kings County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16 roster, kings section",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "christopher.narez@co.kings.ca.us",
+      "published_contact_person": "Christopher Narez",
+      "role": "Deputy Director, Adult Supportive Programs",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not designated abuse-report intake.",
+      "limitations": "Roster identifies adult supportive programs leadership; verify current APS-specific remit before use. Directory text reviewed; page image retrieval failed because the PDF exceeds viewer size limit. Reconfirm current incumbent, mailbox and remit. Preserve statutory reporting and confidential intake routes. Deliverability not tested."
     }
   ]
 }

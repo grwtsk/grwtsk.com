@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-placer",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "ASOCAdmin@placer.ca.gov",
   "scope": [
     "California / Placer County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "Official county staff directory and Adult System of Care page",
+      "urls": [
+        "https://www.placerair.org/m/directory/department?did=101",
+        "https://placerair.org/2497/Older-Dependent-Adults",
+        "https://www.placer.ca.gov/2158/Adult-System-of-Care"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "ASOCAdmin@placer.ca.gov",
+      "published_contact_person": "Amy Ellis",
+      "role": "Adult System of Care Division Director",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not a designated abuse-report intake channel.",
+      "limitations": "County directory publishes a shared division administration mailbox labeled for its director, not an individual direct mailbox. Reconfirm current incumbent, mailbox and remit before use. Preserve statutory reporting and confidential intake channels. Deliverability not tested."
     }
   ]
 }

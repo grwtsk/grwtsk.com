@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-sacramento",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "JacobsMe@SacCounty.gov",
   "scope": [
     "California / Sacramento County",
     "historical_affiliation_recheck"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,21 @@
         "scope": "historical_affiliation_recheck",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16 roster, sacramento section; other listed county evidence as applicable",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://dhs.saccounty.gov/content/dam/dhs/behavioral-health/boards-and-committees/bhc/apt/archive/04-13-2026%E2%80%8B/Sacramento-County-Behavioral-Health-Needs-of-Our-Aging-Population-Presentation.pdf",
+        "https://dcfas.saccounty.gov/us/en/senior-and-adult-services/adult-protective-services.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "JacobsMe@SacCounty.gov",
+      "published_contact_person": "Melissa Jacobs",
+      "role": "Deputy Director, Senior and Adult Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not a designated abuse-report intake channel.",
+      "limitations": "County presentation dated April 13, 2026 identifies APS in her division, and final page image independently confirms published email. CWDA text reviewed; page image retrieval failed because the PDF exceeds the viewer size limit. Reconfirm current incumbent, mailbox and remit before use. Preserve statutory reporting and confidential intake channels. Deliverability not tested."
     }
   ]
 }

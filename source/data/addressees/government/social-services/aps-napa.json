@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/social-services/aps-napa",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County Adult Protective Services",
   "aliases": [],
   "taxonomy": [
     "government",
     "social-services"
   ],
-  "email": null,
+  "email": "aaron.cadore@countyofnapa.org",
   "scope": [
     "California / Napa County",
     "statewide_reference_only"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -41,6 +41,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
       }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16 roster, napa section; other listed county evidence as applicable",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://www.napacounty.gov/563/Napa-Offices"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "aaron.cadore@countyofnapa.org",
+      "published_contact_person": "Aaron Cadore",
+      "role": "Deputy Director, Comprehensive Services for Older Adults",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not a designated abuse-report intake channel.",
+      "limitations": "County identifies APS as part of CSOA. CWDA text reviewed; page image retrieval failed because the PDF exceeds the viewer size limit. Reconfirm current incumbent, mailbox and remit before use. Preserve statutory reporting and confidential intake channels. Deliverability not tested."
     }
   ]
 }
