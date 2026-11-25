@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/patient-rights/psmf",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Patient Safety Movement Foundation",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "patient-rights"
   ],
-  "email": null,
+  "email": "info@psmf.org",
   "scope": [
     "California / National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -40,6 +40,17 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "Patient Safety Movement Foundation — Contact Us",
+      "urls": [
+        "https://psmf.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@psmf.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General patient-safety foundation inquiries.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
     }
   ]
 }

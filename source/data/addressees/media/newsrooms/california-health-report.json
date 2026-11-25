@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:media/newsrooms/california-health-report",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "California Health Report",
   "aliases": [],
   "taxonomy": [
     "media",
     "newsrooms"
   ],
-  "email": null,
+  "email": "hannah@calhealthreport.org",
   "scope": [
     "California"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "news-media-resources",
@@ -41,6 +41,19 @@
         "relevance": "Health equity, disability and healthcare access.",
         "limitations": "Official page identifies executive editor contact; ask about confidential handling before sharing records."
       }
+    },
+    {
+      "source_title": "California Health Report — Contact Us",
+      "urls": [
+        "https://www.calhealthreport.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "hannah@calhealthreport.org",
+      "published_contact_person": "Hannah Hough",
+      "role": "Executive Editor",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Editorial inquiries to the published executive editor.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
     }
   ]
 }

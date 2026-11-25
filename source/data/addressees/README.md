@@ -17,9 +17,9 @@ Each leaf includes `id`, `addressee_type`, `name`, `taxonomy`, `email` (publishe
 
 | State | Leaves |
 | --- | ---: |
-| Recorded published email (requires recheck) | 393 |
-| Non-email institutional route | 436 |
-| Unresolved directory role or program | 794 |
+| Recorded published email (requires recheck) | 409 |
+| Non-email institutional route | 424 |
+| Unresolved directory role or program | 790 |
 | Total taxonomy leaves | 1623 |
 
 | Sector | Leaves |
@@ -34,6 +34,6 @@ Each leaf includes `id`, `addressee_type`, `name`, `taxonomy`, `email` (publishe
 | legal | 10 |
 | media | 48 |
 
-The earlier acquisition objective was at least 2,000 actual distinct email addresses. 393 email-bearing leaves are recorded. The latest acquisition resolves 57 previously empty email fields: 38 existing public offices in the first batch, followed by 17 Tulare, Kings and San Diego public offices and two neurological-disease organizations (Parkinson’s Foundation and The ALS Association). The cumulative recent acquisition resolves 144 previously empty email fields (126 government offices and 18 advocacy, care-navigation or legal-support organizations). Contact purposes and source limitations are retained in each leaf. Some addresses are role-specific and are not general complaint intake channels. Other historical contact claims are carried forward and still require rechecking; deliverability is untested. Acquisition must prioritize the article's actual subject and competent institutional channels, not the ease of obtaining unrelated directory records. Source records were grouped by existing canonical email, stable source identifier, or explicit matching institutional role. Ambiguous or unresolved roles retain separate records pending evidence. This is not a verified census of unique people.
+The earlier acquisition objective was at least 2,000 actual distinct email addresses. 409 email-bearing leaves are recorded. The latest acquisition resolves 16 previously empty email fields (12 non-email routes and 4 unresolved office roles) in existing advocacy, media and government leaves. Source links and exact channel limitations are recorded in each updated leaf. The earlier acquisition resolved 144 previously empty email fields. Contact purposes and source limitations are retained in each leaf. Some addresses are role-specific and are not general complaint intake channels. Other historical contact claims are carried forward and still require rechecking; deliverability is untested. Acquisition must prioritize the article's actual subject and competent institutional channels, not the ease of obtaining unrelated directory records. Source records were grouped by existing canonical email, stable source identifier, or explicit matching institutional role. Ambiguous or unresolved roles retain separate records pending evidence. This is not a verified census of unique people.
 
 The old aggregate catalogs are deleted from active source. Their 1717 contact and lookup observations were reconciled into leaves or nonrecipient references; 119 legislative placeholders were superseded by existing district-office leaves. All 163 typed oversight relationships are attached to source addressees with canonical target references. Shared medical-board routes are attached to appropriate role leaves and referenced rather than copied into registries. Separate evidence and outreach catalogs have been removed from active source. Their original research snapshots remain in Git history, not as generation inputs. Derive article-specific objectives from the [article](../articles/README.md) and relevant institutional facts from the individual addressee leaf. Any unavailable supporting fact is a research gap, not permission to infer it. No classifier, draft generation or delivery behavior is implemented by these files.
