@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "California DHCS County Program Administrators Directory — Napa County",
+      "urls": [
+        "https://www.dhcs.ca.gov/services/mental-health-services-division-default/california-county-program-administrators-directory/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-napa-county-social-services-director",
+      "stated_purpose": "DHCS explicitly identifies Jennifer Yasumoto as Health and Human Services Agency Director and publishes the existing county professional address (alongside the new napacounty.gov domain).",
+      "limitations": "Combined agency leadership is an alternative route; separate public health division leadership contact is not established in this record. Recheck the currently preferred domain. Do not treat the parent office as an independently confirmed email for the separate division or send duplicate correspondence."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-napa-county-social-services-director"
   ]
 }

@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "CHEAC Members — Glenn County; Glenn County Public Health",
+      "urls": [
+        "https://cheac.org/members/",
+        "https://www.countyofglenn.net/government/departments/health-human-services/public-health"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-glenn-county-social-services-director",
+      "stated_purpose": "CHEAC identifies Laura Hawkins as Health and Human Services Agency Director; the existing social services director record identifies the same agency director. Public Health is a component of that agency.",
+      "limitations": "Parent agency leadership is an alternative route; the separate Public Health Manager mailbox is not established. Do not treat the parent office as an independently confirmed email for the separate division or send duplicate correspondence."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-glenn-county-social-services-director"
   ]
 }

@@ -34,6 +34,19 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "California DHCS County Program Administrators Directory — Inyo County",
+      "urls": [
+        "https://www.dhcs.ca.gov/services/mental-health-services-division-default/california-county-program-administrators-directory/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-inyo-county-social-services-director",
+      "stated_purpose": "DHCS identifies Anna Scott as HHS Director. The existing social services director record names the same HHS director and published professional address.",
+      "limitations": "This is combined HHS leadership routing, not an independently established public health division director mailbox. Do not treat the parent office as an independently confirmed email for the separate division or send duplicate correspondence."
     }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-inyo-county-social-services-director"
   ]
 }
