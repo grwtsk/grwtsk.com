@@ -5,7 +5,7 @@
   "theme_catalog": "../writing-themes.json",
   "constraints": [
     "A public organizational listing is not consent, verified deliverability, or authority to adjudicate a complaint.",
-    "Use only the stated purpose and limitations. All listed channels in this catalog are URL references, not established email destinations.",
+    "Use only the stated purpose and limitations. Use only email routes explicitly published for the organization; URL-only records are not email destinations.",
     "Community, spiritual and public policy channels receive only appropriate minimal or de-identified inquiries; never allegations about named people or private records.",
     "A confidential intake label does not establish the security of a particular route; verify the official confidential procedure first.",
     "Recheck jurisdiction, eligibility and current contact information before any real submission."
@@ -244,12 +244,16 @@
       "service_area": "Santa Clara County",
       "channel": {
         "type": "support_and_referral",
-        "url": "https://svilc.org/contact-us/"
+        "url": "https://svilc.org/contact-us/",
+        "email": "info@svilc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
       },
       "purpose": "Disability advocacy, independent living and systems change resources.",
       "limitations": "Seek eligibility and assistance; not an investigator or automatic coalition member.",
       "source_urls": [
-        "https://svilc.org/contact-us/"
+        "https://svilc.org/contact-us/",
+        "https://calsilc.ca.gov/independent-locator/"
       ],
       "verification": "official_organization_page_reviewed",
       "verified_on": "2026-11-24",
@@ -262,7 +266,14 @@
         "purpose": "support_or_referral",
         "disclosure": "minimal",
         "action": "verify_intake_route",
-        "email_status": "not_established"
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Sheri Burns",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
       }
     },
     {
@@ -272,12 +283,16 @@
       "service_area": "San Mateo County",
       "channel": {
         "type": "support_and_referral",
-        "url": "https://www.cidsanmateo.org/"
+        "url": "https://www.cidsanmateo.org/",
+        "email": "info@cidsanmateo.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
       },
       "purpose": "Independent living, equal community participation and systemic disability advocacy.",
       "limitations": "Request resource guidance; not individual misconduct adjudication.",
       "source_urls": [
-        "https://www.cidsanmateo.org/"
+        "https://www.cidsanmateo.org/",
+        "https://calsilc.ca.gov/independent-locator/"
       ],
       "verification": "official_organization_page_reviewed",
       "verified_on": "2026-11-24",
@@ -290,7 +305,14 @@
         "purpose": "support_or_referral",
         "disclosure": "minimal",
         "action": "verify_intake_route",
-        "email_status": "not_established"
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Ligia Andrade Zúñiga",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
       }
     },
     {
@@ -705,6 +727,690 @@
         "disclosure": "none",
         "action": "lookup_only",
         "email_status": "not_established"
+      }
+    },
+    {
+      "id": "access-central-coast",
+      "category": "disability_advocacy",
+      "organization": "Access Central Coast",
+      "service_area": "San Luis Obispo, Santa Barbara, Ventura",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@accesscentralcoast.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Jennifer Griffin",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "crs-il",
+      "category": "disability_advocacy",
+      "organization": "California Resource Services for Independent Living",
+      "service_area": "Designated Los Angeles ZIP codes, Orange, Riverside",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "feedback@crs-il.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Rudy Contreas",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "thecil",
+      "category": "disability_advocacy",
+      "organization": "Center for Independent Living",
+      "service_area": "Designated Alameda ZIP codes",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@thecil.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Victor Santiago Pineda",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "cccil",
+      "category": "disability_advocacy",
+      "organization": "Central Coast Center for Independent Living",
+      "service_area": "Monterey, San Benito, Santa Cruz",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@cccil.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Judy Cabrera",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "calif-ilc",
+      "category": "disability_advocacy",
+      "organization": "Communities Actively Living Independent & Free",
+      "service_area": "Designated Los Angeles ZIP codes",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@calif-ilc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Keith Miller",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "cril",
+      "category": "disability_advocacy",
+      "organization": "Community Resources for Independent Living",
+      "service_area": "Alameda",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@crilhayward.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Alejandra Hacker",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "dayle-mcintosh",
+      "category": "disability_advocacy",
+      "organization": "Dayle McIntosh Center",
+      "service_area": "Orange",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "receptionist@daylemc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Brittany Zazueta",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "dac",
+      "category": "disability_advocacy",
+      "organization": "Disability Action Center",
+      "service_area": "Butte, Glenn, Lassen, Modoc, Plumas, Shasta, Siskiyou, Tehama",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "wecare@actionctr.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Evan LeVang",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "dcrc",
+      "category": "disability_advocacy",
+      "organization": "Disability Community Resource Center",
+      "service_area": "Designated Los Angeles ZIP codes, Orange",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "dcrc@dcrc.co",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "TJ Hill",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "drail",
+      "category": "disability_advocacy",
+      "organization": "Disability Resource Agency for Independent Living",
+      "service_area": "Amador, Calaveras, Mariposa, San Joaquin, Stanislaus, Tuolumne",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@drail.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Heather Steagall",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "dslc",
+      "category": "disability_advocacy",
+      "organization": "Disability Services & Legal Center",
+      "service_area": "Lake, Mendocino, Napa, Sonoma",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "Contact@mydslc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Adam Brown",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "disabled-resources-center",
+      "category": "disability_advocacy",
+      "organization": "Disabled Resources Center",
+      "service_area": "Designated Los Angeles ZIP codes",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@drcinc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Dolores Nason",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "freed",
+      "category": "disability_advocacy",
+      "organization": "FREED Center for Independent Living",
+      "service_area": "Colusa, Nevada, Sierra, Sutter, Yuba",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "contact@freed.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Carly Pacheco",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "ilckc",
+      "category": "disability_advocacy",
+      "organization": "Independent Living Center of Kern County",
+      "service_area": "Kern",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@ilcofkerncounty.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Jimmie Soto",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "ilcsc",
+      "category": "disability_advocacy",
+      "organization": "Independent Living Center of Southern California",
+      "service_area": "Designated Los Angeles ZIP codes, Ventura",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "ilcsc@ilcsc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Gabby Gabinete",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "ilrcsf",
+      "category": "disability_advocacy",
+      "organization": "Independent Living Resource Center San Francisco",
+      "service_area": "San Francisco",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@ilrcsf.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Lana Nieves",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "ilrscc",
+      "category": "disability_advocacy",
+      "organization": "Independent Living Resources of Solano and Contra Costa Counties",
+      "service_area": "Contra Costa, Solano",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@ilrscc.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Susan Rotchy",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
+      }
+    },
+    {
+      "id": "ricv",
+      "category": "disability_advocacy",
+      "organization": "Resources for Independence, Central Valley",
+      "service_area": "Fresno, Kings, Madera, Merced, Tulare",
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://calsilc.ca.gov/independent-locator/",
+        "email": "info@ricv.org",
+        "email_source_url": "https://calsilc.ca.gov/independent-locator/",
+        "email_checked_on": "2026-11-24"
+      },
+      "purpose": "Independent living services and disability support or appropriate voluntary policy discussion.",
+      "limitations": "Confirm geographic eligibility and current contact purpose; directory listing is not authorization for case-allegation distribution or an investigative mandate.",
+      "source_urls": [
+        "https://calsilc.ca.gov/independent-locator/"
+      ],
+      "verification": "official_state_directory_reviewed",
+      "verified_on": "2026-11-24",
+      "theme_ids": [
+        "disability-access",
+        "community-support",
+        "accessible-communication"
+      ],
+      "contact_policy": {
+        "purpose": "support_or_referral",
+        "disclosure": "minimal",
+        "action": "verify_intake_route",
+        "email_status": "published_directory_route"
+      },
+      "listed_leadership": {
+        "name": "Suzanna Gámez",
+        "role": "Executive Director",
+        "source_url": "https://calsilc.ca.gov/independent-locator/",
+        "checked_on": "2026-11-24",
+        "email_is_shared_organization_channel": true
       }
     }
   ]
