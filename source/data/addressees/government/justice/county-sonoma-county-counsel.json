@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-sonoma-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "joshua.myers@sonomacounty.gov",
   "scope": [
     "California / Sonoma County",
     "documented_stanford_location"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "documented_stanford_location",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/250988",
+        "https://sonoma-county.legistar.com/View.ashx?GUID=3FE81C61-47D3-474C-AECF-0A67129BD849&ID=15056719&M=F"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "joshua.myers@sonomacounty.gov",
+      "published_contact_person": "Joshua Ashbrook Myers",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "Current State Bar professional profile identifies the county office and email. County board resolution text identifies the appointment beginning January 27, 2026; no former officeholder address substituted. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Joshua Ashbrook Myers"
 }

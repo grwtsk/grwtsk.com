@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Trinity County Counsel official office page and directory",
+      "urls": [
+        "https://www.trinitycounty.org/210/County-Counsel",
+        "https://www.trinitycounty.org/Directory.aspx?did=15"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/county-glenn-county-counsel",
+      "role": "Contracted County Counsel",
+      "limitations": "The county page and directory identify the same contracted counsel as the existing Glenn County record. Verify county-specific remit; use the canonical professional address without duplication. No separate Trinity office mailbox established; official county contact form remains available."
     }
-  ]
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/county-glenn-county-counsel"
+  ],
+  "listed_officeholder": "Margaret E. Long"
 }

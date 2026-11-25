@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-shasta-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "countycounsel@shastacounty.gov",
   "scope": [
     "California / Shasta County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://www.democracydocket.com/wp-content/uploads/2026/06/2026-06-12-Petition.pdf",
+        "https://comment.shastacounty.gov/QV3326",
+        "https://californiarecord.org/shastacounty/meetings/2026-10-27-board-of-supervisors-regular-meeting-oct-27-2026-72411e40-f74f-4bf7-a8b2-610c147b92b3"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "countycounsel@shastacounty.gov",
+      "role": "County Counsel office mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "June 12, 2026 electronically filed petition, declaration of electronic service p. 2 (PDF page 65), page image confirms office mailbox used in that proceeding. The October 27 county agenda and reported vote corroborate Joseph Larmour's continuing role. No general intake or service-of-process authorization inferred from the filing. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
     }
   ]
 }

@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-san-bernardino-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "laura.feingold@cc.sbcounty.gov",
   "scope": [
     "California / San Bernardino County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,21 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://sanbernardino.legistar.com/LegislationDetail.aspx?GUID=5F74B7FB-BDC2-4CF1-8CD6-4BBCDE2E64FB&ID=7691862&Options=&Search=",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/238246"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "laura.feingold@cc.sbcounty.gov",
+      "published_contact_person": "Laura Lynn Feingold",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "October 7, 2025 board action approved the four-year appointment effective October 4, 2025; State Bar professional profile publishes the county address. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Laura Lynn Feingold"
 }

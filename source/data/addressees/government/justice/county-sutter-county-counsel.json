@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/justice/county-sutter-county-counsel",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "County counsel",
   "aliases": [],
   "taxonomy": [
     "government",
     "justice"
   ],
-  "email": null,
+  "email": "wvanasek@co.sutter.ca.us",
   "scope": [
     "California / Sutter County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,22 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://www.sutter.gov/government/county-departments/county-counsel",
+        "https://www.sutter.gov/government/government-information/elected-and-appointed-officers-judges-and-department-heads",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/178243"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "wvanasek@co.sutter.ca.us",
+      "published_contact_person": "William Joseph Vanasek",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "County department biography and official roster identify the incumbent; State Bar professional profile lists county work email. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "William Joseph Vanasek"
 }
