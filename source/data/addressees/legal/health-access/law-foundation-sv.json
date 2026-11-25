@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:legal/health-access/law-foundation-sv",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Law Foundation of Silicon Valley – Health Program",
   "aliases": [],
   "taxonomy": [
     "legal",
     "health-access"
   ],
-  "email": null,
+  "email": "healthintake@lawfoundation.org",
   "scope": [
     "Santa Clara County"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,17 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Law Foundation of Silicon Valley — Health Resources",
+      "urls": [
+        "https://www.lawfoundation.org/healthresources"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "healthintake@lawfoundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Health Program legal screening, limited to its listed eligibility categories and jurisdiction. Confirm eligibility before sending case information.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
     }
   ]
 }

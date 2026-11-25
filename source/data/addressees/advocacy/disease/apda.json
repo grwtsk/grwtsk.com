@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disease/apda",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "American Parkinson Disease Association",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disease"
   ],
-  "email": null,
+  "email": "apda@apdaparkinson.org",
   "scope": [
     "National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -40,6 +40,17 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "American Parkinson Disease Association — National helpline contact",
+      "urls": [
+        "https://www.apdaparkinson.org/community/alabama-irc/resources-and-support/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "apda@apdaparkinson.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General Parkinson's information and resource navigation.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
     }
   ]
 }

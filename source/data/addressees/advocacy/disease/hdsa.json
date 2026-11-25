@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:advocacy/disease/hdsa",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Huntington's Disease Society of America",
   "aliases": [],
   "taxonomy": [
     "advocacy",
     "disease"
   ],
-  "email": null,
+  "email": "HDSAinfo@HDSA.org",
   "scope": [
     "National"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "disease-disability-and-civic-resources",
@@ -40,6 +40,17 @@
         "verification": "published_official_organization_or_government_directory_reviewed",
         "checked_on": "2026-11-24"
       }
+    },
+    {
+      "source_title": "Huntington's Disease Society of America — Contact Us",
+      "urls": [
+        "https://hdsa.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "HDSAinfo@HDSA.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "National office and Huntington's-related information.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
     }
   ]
 }
