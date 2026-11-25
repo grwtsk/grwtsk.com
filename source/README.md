@@ -28,7 +28,7 @@ source/
 │   │           ├── .gitkeep
 │   │           └── <draft-slug>.md  (public-safe unsent email drafts)
 │   ├── outreach/      (article-specific research data, grouped by slug)
-│   ├── organizations/  (sector/function/individual addressee JSON leaves)
+│   ├── addressees/  (sector/function/individual addressee JSON leaves)
 │   ├── evidence/       (shared professional and historical JSON data and README)
 │   ├── writing-themes.json
 │   └── OFFLINE-WRITING.md  (proposal only)

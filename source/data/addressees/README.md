@@ -1,15 +1,15 @@
 # Unified addressee taxonomy
 
-This directory is the canonical source of addressee data. Directories represent a stable sector and function; every JSON leaf represents an addressee or a specifically identified unresolved office role. No parallel research registries, aggregate recipient lists or duplicate address catalogs remain.
+This directory is the canonical source of addressee data for individuals, public officeholders, organizations, and institutional contact routes. Directories represent a stable sector and function; every JSON leaf represents an addressee or a specifically identified unresolved office role. No parallel research registries, aggregate recipient lists or duplicate address catalogs remain.
 
 ```text
-organizations/
+addressees/
   <sector>/
     <function>/
       <stable-addressee-id>.json
 ```
 
-IDs have the form `addressee:<sector>/<function>/<stable-id>`. Resolve the ID to its file under this directory, adding `.json`. Keep stable IDs when incumbents or channels change. A source observation is not a second addressee. Shared email inboxes are represented once; distinct functions with shared non-email routes may reference a role leaf. Do not infer addresses, private details, authority or involvement from affiliation. Named officeholders identify public professional roles only.
+IDs have the form `addressee:<sector>/<function>/<stable-id>`. Resolve the ID to its file under this directory, adding `.json`. Keep stable IDs when incumbents or channels change. A source observation is not a second addressee. Shared email inboxes are represented once; distinct functions with shared non-email routes may reference a role leaf. Do not infer addresses, private details, authority or involvement from affiliation. Individuals may be represented by their published professional contact address; named officeholders may instead be represented by the stable office and its official channel. Do not conflate an office mailbox with an individual's address.
 
 Each leaf includes `id`, `addressee_type`, `name`, `taxonomy`, `email` (published address or null), `scope`, `source_status`, `publication_status`, `deliverability` and `sources`. Where applicable, it includes aliases, original source observations and channel facts, officeholders, shared route references and oversight relationships. Acquired leaves retain their source-specific metadata. Unresolved roles are not confirmed current contacts and never count as acquired email addresses.
 

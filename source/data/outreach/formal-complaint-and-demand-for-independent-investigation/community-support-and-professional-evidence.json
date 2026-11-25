@@ -174,5 +174,5 @@
     "confirmed_coalition_members": 0,
     "dispatches": 0
   },
-  "addressee_root": "../../organizations/"
+  "addressee_root": "../../addressees/"
 }
