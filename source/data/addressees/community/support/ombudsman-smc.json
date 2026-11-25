@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
   "id": "addressee:community/support/ombudsman-smc",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Ombudsman Services of San Mateo County",
-  "aliases": [],
+  "aliases": [
+    "AgeUp"
+  ],
   "taxonomy": [
     "community",
     "support"
   ],
-  "email": null,
+  "email": "info@age-up.org",
   "scope": [
     "San Mateo County"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "peninsula-community-and-neurology-resources",
@@ -41,6 +43,19 @@
         "checked_on": "2026-11-24",
         "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
       }
+    },
+    {
+      "source_title": "AgeUp — 2025 Resource Directory for San Mateo County, page 2, visually inspected; California Department of Aging county listing",
+      "urls": [
+        "https://age-up.org/wp-content/uploads/2025/08/Resource-Directory-2025.pdf",
+        "https://aging.ca.gov/Find_Services_In_My_County/My_County/?cc=sm",
+        "https://www.age-up.org/ombudsman/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@age-up.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General information and navigation of long-term-care resident rights advocacy in San Mateo County.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested. AgeUp is the current organization name in the state directory; retain the stable identifier. Use the confidential concern form or designated reporting line for case-specific concerns."
     }
   ]
 }

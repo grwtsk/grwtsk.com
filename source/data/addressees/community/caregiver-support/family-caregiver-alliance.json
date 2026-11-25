@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "id": "addressee:community/caregiver-support/family-caregiver-alliance",
-  "addressee_type": "organizational_or_official_route",
+  "addressee_type": "organizational_or_official_mailbox",
   "name": "Family Caregiver Alliance – Bay Area Caregiver Resource Center",
   "aliases": [],
   "taxonomy": [
     "community",
     "caregiver-support"
   ],
-  "email": null,
+  "email": "info@caregiver.org",
   "scope": [
     "Bay Area"
   ],
-  "source_status": "published_non_email_route_requires_recheck",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "non_email_route",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "community-support",
@@ -52,6 +52,17 @@
           "email_status": "not_established"
         }
       }
+    },
+    {
+      "source_title": "Family Caregiver Alliance — California's Caregiver Resource Centers, Bay Area entry",
+      "urls": [
+        "https://www.caregiver.org/resource/californias-caregiver-resource-centers/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@caregiver.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General caregiver information, referral and support inquiries for eligible families in the Bay Area.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested."
     }
   ]
 }
