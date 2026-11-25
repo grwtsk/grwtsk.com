@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
   "id": "addressee:government/public-health/county-sierra-county-health-care-services-director",
-  "addressee_type": "unresolved_public_office",
+  "addressee_type": "named_public_office",
   "name": "County health care services director",
   "aliases": [],
   "taxonomy": [
     "government",
     "public-health"
   ],
-  "email": null,
+  "email": "mgrandi@sierracounty.ca.gov",
   "scope": [
     "California / Sierra County",
     "statewide_reference_only"
   ],
-  "source_status": "directory_lookup_required",
-  "publication_status": "email_not_established",
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
   "deliverability": "not_tested",
-  "resolution_status": "directory_lookup_only",
+  "resolution_status": "published_email",
   "sources": [
     {
       "source_set": "outreach-registry",
@@ -34,6 +34,20 @@
         "scope": "statewide_reference_only",
         "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
       }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16, 2026 roster, printed page 94",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "mgrandi@sierracounty.ca.gov",
+      "listed_officeholder": "Rhonda Grandi",
+      "role": "Director of Public Health",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County agency administration and oversight correspondence within its actual remit.",
+      "limitations": "April 2026 directory text checked; page image request failed because PDF exceeds viewer size limit. Reconfirm incumbent, mailbox and remit before correspondence. Retain statutory reporting channels. Do not submit confidential records or abuse reports through ordinary email. Combined agencies may share an incumbent; do not duplicate recipients. Deliverability not tested."
     }
-  ]
+  ],
+  "listed_officeholder": "Rhonda Grandi"
 }
