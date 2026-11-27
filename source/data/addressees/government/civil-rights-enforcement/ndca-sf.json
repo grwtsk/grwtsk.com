@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ndca-sf",
+  "addressee_type": "organizational_or_official_route",
+  "name": "U.S. Attorney NDCA – San Francisco office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "Northern District of California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ndca-sf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-ndca/contact-us"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.justice.gov/usao-ndca/contact-us",
+        "phone": "415-436-7200",
+        "mail": "450 Golden Gate Ave., P.O. Box 36055, San Francisco, CA 94102"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "U.S. Attorney NDCA – San Francisco office",
+        "scope": "Northern District of California",
+        "purpose": "Local federal office for jurisdictional guidance; same district as Civil Rights Coordinator.",
+        "source_urls": [
+          "https://www.justice.gov/usao-ndca/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a separate civil rights filing; follow coordinator instructions. Do not use media inbox."
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-jlac",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Joint Legislative Audit Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-jlac",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://legaudit.legislature.ca.gov/overview",
+        "https://legaudit.legislature.ca.gov/"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://legaudit.legislature.ca.gov/overview",
+        "phone": "916-319-3300"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "Joint Legislative Audit Committee",
+        "scope": "California",
+        "purpose": "Oversees public entities; legislators submit audit requests.",
+        "source_urls": [
+          "https://legaudit.legislature.ca.gov/overview",
+          "https://legaudit.legislature.ca.gov/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Ask a legislator to consider an audit of applicable public agencies; public testimony may become public record."
+      }
+    },
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "jlac",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://legaudit.legislature.ca.gov/overview"
+      ],
+      "shared_channel_id": "audit",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Joint Legislative Audit Committee",
+        "person": null,
+        "source_keys": [
+          "audit"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Ask a legislator to consider an independent audit of Board/DCA enforcement and closure procedures.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "audit",
+      "channel": {
+        "url": "https://legaudit.legislature.ca.gov/overview",
+        "kind": "committee_office"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/independent-oversight/ca-auditor",
+      "relation": "legislative_audit_process",
+      "basis": [
+        "https://legaudit.legislature.ca.gov/overview"
+      ],
+      "limits": "Audit requests come from legislators; not direct citizen order.",
+      "source": "authority-oversight",
+      "original_from": "ca-jlac",
+      "original_to": "ca-auditor"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-san-diego-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "SanDiego.PublicDefender@sdcounty.ca.gov",
+  "scope": [
+    "California / San Diego County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-diego-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / San Diego County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Diego County Public Defender Contact Information",
+      "urls": [
+        "https://www.sandiegocounty.gov/content/sdc/public_defender/pdcontact.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "SanDiego.PublicDefender@sdcounty.ca.gov",
+      "role": "Primary Public Defender office",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public defender office inquiries within criminal defense and representation eligibility.",
+      "limitations": "Verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ]
+}

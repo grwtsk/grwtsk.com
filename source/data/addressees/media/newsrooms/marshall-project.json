@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/marshall-project",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Marshall Project",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National / criminal justice"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "marshall-project",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.themarshallproject.org/contact-us"
+      ],
+      "channel": {
+        "kind": "confidential_tip_instructions",
+        "url": "https://www.themarshallproject.org/contact-us"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "The Marshall Project",
+        "coverage": "National / criminal justice",
+        "source_urls": [
+          "https://www.themarshallproject.org/contact-us"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Criminal justice oversight if documented law-enforcement or prosecution issues fit coverage.",
+        "limitations": "Not a general medical grievance outlet; use only for a relevant criminal justice story."
+      }
+    }
+  ]
+}

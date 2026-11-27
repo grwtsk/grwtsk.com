@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-yuba-board-of-supervisors-clerk",
+  "addressee_type": "named_public_office",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "MPasillas@yuba.gov",
+  "scope": [
+    "California / Yuba County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-yuba-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Yuba County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Yuba County Clerk of the Board official contact page",
+      "urls": [
+        "https://www.yuba.gov/departments/clerk_of_the_board_of_supervisors/index.php"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "MPasillas@yuba.gov",
+      "listed_officeholder": "Mary Pasillas",
+      "role": "Clerk of the Board of Supervisors",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official public agency correspondence within the role's remit.",
+      "limitations": "Confirm current role, channel, jurisdiction and mailbox currency before use. Deliverability not tested. Retain existing reporting procedures; do not send sensitive material through ordinary outreach email."
+    }
+  ],
+  "listed_officeholder": "Mary Pasillas"
+}

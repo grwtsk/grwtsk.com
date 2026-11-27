@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-colusa",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "donna.dennis@countyofcolusa.com",
+  "scope": [
+    "California / Colusa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-colusa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Colusa County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "Official county publication and directory",
+      "urls": [
+        "https://www.countyofcolusaca.gov/m/directory/department?did=13",
+        "https://www.countyofcolusaca.gov/DocumentCenter/View/18579"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "donna.dennis@countyofcolusa.com",
+      "published_contact_person": "Donna Dennis",
+      "role": "Program Manager II, Social Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit.",
+      "limitations": "Current official staff directory publishes this address and title. August 2024 hazard mitigation plan, p. A-40, identifies the APS/CPS/Public Guardian remit and repeats the address; page image reviewed. Confirm current APS-specific responsibility. Retain official reporting procedures; this is not a designated abuse-report intake address. Do not transmit confidential records through ordinary email. Reconfirm current remit, publication and deliverability before use; deliverability not tested."
+    }
+  ]
+}

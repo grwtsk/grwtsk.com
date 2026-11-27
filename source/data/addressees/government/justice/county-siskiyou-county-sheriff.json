@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-siskiyou-county-sheriff",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "Jeremiah.LaRue@siskiyousheriff.org",
+  "scope": [
+    "California / Siskiyou County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-siskiyou-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Siskiyou County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://www.siskiyoucounty.gov/police/custom-contact-page/police-contact-information",
+        "https://www.siskiyoucounty.gov/enforcementdivision/custom-contact-page/enforcement-division-contact-information"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Jeremiah.LaRue@siskiyousheriff.org",
+      "published_contact_person": "Jeremiah LaRue",
+      "role": "Office of Sheriff LaRue",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Nonurgent official correspondence within jurisdiction; not emergency reporting.",
+      "limitations": "Official county contact pages publish this officeholder's professional address, with capitalization variation only. Search index exposes the contact; direct domain access restricted by robots.txt. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

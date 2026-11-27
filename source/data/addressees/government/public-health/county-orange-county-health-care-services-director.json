@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-orange-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "vkelley@ochca.com",
+  "scope": [
+    "California / Orange County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-orange-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Orange County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Orange County Health Care Agency 2025–2026 Factbook, page 2",
+      "urls": [
+        "https://www.ochealthinfo.com/sites/healthcare/files/2026-11/HCA-Factbook-2025-26-v01.pdf",
+        "https://www.ochealthinfo.com/contact-us-0"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "vkelley@ochca.com",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Agency director's published professional contact in the official factbook.",
+      "limitations": "Page image confirms address and role. General complaints are directed to ACCESSOC by the agency contact page; use that process for formal complaints. No separate behavioral-health email inferred from the concurrent interim role. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Use designated secure or formal complaint channels.",
+      "listed_officeholder": "Veronica Kelley"
+    }
+  ],
+  "listed_officeholder": "Veronica Kelley"
+}

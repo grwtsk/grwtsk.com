@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/cap",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Center for American Progress — Disability Justice Initiative",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "cap",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.americanprogress.org/team/disability-justice-initiative/",
+        "https://www.americanprogress.org/topic/disability/"
+      ],
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://www.americanprogress.org/team/disability-justice-initiative/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Center for American Progress — Disability Justice Initiative",
+        "service_area": "National",
+        "purpose": "Policy research on disability inclusion, access and social programs.",
+        "source_urls": [
+          "https://www.americanprogress.org/team/disability-justice-initiative/",
+          "https://www.americanprogress.org/topic/disability/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

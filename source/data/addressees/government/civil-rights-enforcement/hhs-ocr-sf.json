@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/hhs-ocr-sf",
+  "addressee_type": "organizational_or_official_route",
+  "name": "HHS OCR San Francisco field office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "Regional field office"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "hhs-ocr-sf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+      ],
+      "channel": {
+        "kind": "postal_correspondence",
+        "url": "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html",
+        "phone": "800-368-1019",
+        "mail": "90 7th Street, Suite 8-100, San Francisco, CA 94103"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "HHS OCR San Francisco field office",
+        "scope": "Regional field office",
+        "purpose": "Regional contact; use national OCR intake for routing.",
+        "source_urls": [
+          "https://www.hhs.gov/ocr/about-ocr/contact-ocr/index.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed"
+      }
+    }
+  ]
+}

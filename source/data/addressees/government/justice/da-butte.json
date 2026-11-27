@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-butte",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "da@buttecounty.net",
+  "scope": [
+    "California / Butte County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Michael L. Ramsey"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-butte",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.buttecounty.net/340/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.buttecounty.net/340/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Butte County",
+        "listed_officeholder": "Michael L. Ramsey",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Butte County District Attorney Portal — Office Location",
+      "urls": [
+        "https://daportal.buttecounty.net/public-portal/?q=node%2F370"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "da@buttecounty.net",
+      "role": "County district attorney",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "General District Attorney office contact and routing.",
+      "limitations": "The portal separately designates a discovery-request address; use the appropriate designated process for discovery or crime reports. Statewide reference only. Deliverability not tested. Confirm appropriate remit and avoid transmitting confidential records through ordinary email."
+    }
+  ]
+}

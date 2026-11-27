@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/parkinsons-foundation",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Parkinson's Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "Helpline@Parkinson.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "parkinsons-foundation",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Parkinson's Foundation",
+        "service_area": "National",
+        "purpose": "Neurological care quality, diagnosis and treatment access policy.",
+        "source_urls": [
+          "https://www.parkinson.org/how-to-help/policy-advocacy-priorities"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Parkinson's Foundation — Contact Us",
+      "urls": [
+        "https://www.parkinson.org/about-us/contact"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Helpline@Parkinson.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Parkinson's information, support and care navigation through the Foundation helpline.",
+      "limitations": "Contact must be relevant to the organization's stated disease-specific remit. No private medical records through ordinary email; verify designated intake and deliverability."
+    }
+  ]
+}

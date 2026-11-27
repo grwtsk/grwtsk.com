@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/calmatters",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CalMatters",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@calmatters.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "calmatters",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calmatters.org/about/contact-us/"
+      ],
+      "channel": {
+        "kind": "news_tip_email_and_confidential_options",
+        "url": "https://calmatters.org/about/contact-us/"
+      },
+      "record": {
+        "category": "california",
+        "outlet": "CalMatters",
+        "coverage": "California",
+        "source_urls": [
+          "https://calmatters.org/about/contact-us/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "State regulatory oversight, legislative reforms, public health and government accountability.",
+        "limitations": "Email explicitly for non-sensitive tips. Use confidential tip instructions for documents."
+      }
+    }
+  ]
+}

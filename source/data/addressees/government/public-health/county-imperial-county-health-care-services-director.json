@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-imperial-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "ICPHD-Information@co.imperial.ca.us",
+  "scope": [
+    "California / Imperial County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-imperial-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Imperial County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Imperial County Public Health Department Programs and Services brochure, revised November 1, 2024, PDF page 1; current department website",
+      "urls": [
+        "https://www.icphd.org/assets/About-draft-items/ICPHD-Programs-and-Services-Brochure-Eng.pdf",
+        "https://www.icphd.org/environmental-health/waterways"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ICPHD-Information@co.imperial.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Published department inquiry mailbox.",
+      "limitations": "Page image confirms ICPHD-Information; extracted English text omits the D. Current official webpage independently confirms the full spelling. Not an individual director mailbox. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Use designated secure or formal complaint channels."
+    }
+  ]
+}

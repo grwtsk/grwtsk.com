@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/multifaith-voices",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Multifaith Voices for Peace and Justice",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": "info@multifaithpeace.org",
+  "scope": [
+    "Palo Alto / Peninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "multifaith-voices",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://multifaithpeace.org/about-us/"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://multifaithpeace.org/about-us/"
+      },
+      "record": {
+        "category": "spiritual_community",
+        "organization": "Multifaith Voices for Peace and Justice",
+        "service_area": "Palo Alto / Peninsula",
+        "purpose": "Interfaith networks focused on compassion, justice and peace.",
+        "limitations": "No membership or endorsement inferred; seek general support or dialogue through the organization.",
+        "source_urls": [
+          "https://multifaithpeace.org/about-us/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "spiritual-care",
+          "community-support"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Multifaith Voices for Peace and Justice — 2026 Peaceful Presence gatherings",
+      "urls": [
+        "https://multifaithpeace.org/peaceful-presence-gatherings-on-11th-of-every-month/",
+        "https://multifaithpeace.org/about-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@multifaithpeace.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published organizational contact for relevant peace and justice events, community involvement and hosting inquiries.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Not a complaint, clinical or investigative office."
+    }
+  ]
+}

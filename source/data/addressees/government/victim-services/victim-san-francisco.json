@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-san-francisco",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco DA Victim Services Division",
+  "aliases": [
+    "County victim/witness assistance"
+  ],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "victimservices@sfgov.org",
+  "scope": [
+    "San Francisco County",
+    "California / San Francisco County",
+    "documented_stanford_location"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "victim-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfdistrictattorney.org/victim-services/"
+      ],
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://sfdistrictattorney.org/victim-services/",
+        "phone": "628-652-4100"
+      },
+      "record": {
+        "level": "local_protective_services",
+        "office": "San Francisco DA Victim Services Division",
+        "scope": "San Francisco County",
+        "purpose": "Victim support and advocacy.",
+        "source_urls": [
+          "https://sfdistrictattorney.org/victim-services/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Separate from prosecution and not a substitute for reporting."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "415-553-9044",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / San Francisco County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "documented_stanford_location",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    }
+  ]
+}

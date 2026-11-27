@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-compliance/shc-medical-staff",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Health Care Medical Staff Office",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-compliance"
+  ],
+  "email": "Medstaff@stanfordhealthcare.org",
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "shc-medical-staff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://stanfordhealthcare.org/about-us/contact.html",
+        "phone": "650-725-6021"
+      },
+      "record": {
+        "level": "institutional_compliance",
+        "office": "Stanford Health Care Medical Staff Office",
+        "scope": "Stanford Health Care",
+        "purpose": "Ask Patient Relations for appropriate medical-staff leadership review and escalation.",
+        "source_urls": [
+          "https://stanfordhealthcare.org/about-us/contact.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Administrative office; not a substitute for Medical Board complaint."
+      }
+    },
+    {
+      "source_title": "Stanford Health Care Medical Staff Services Department — Contact Us",
+      "urls": [
+        "https://stanfordhealthcare.org/health-care-professionals/medical-staff/contact-us.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Medstaff@stanfordhealthcare.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Medical staff and credentialing office inquiries, including applications, reappointment and privileges.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Not a designated patient complaint or clinical referral channel."
+    }
+  ]
+}

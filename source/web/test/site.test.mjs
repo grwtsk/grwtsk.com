@@ -46,7 +46,8 @@ function articleSchema(node) {
 
 function fixture(root, slug, writtenAt, options = {}) {
   const dir = join(root, slug);
-  mkdirSync(join(dir, 'responses'), { recursive: true });
+  mkdirSync(join(dir, 'in'), { recursive: true });
+  mkdirSync(join(dir, 'out'), { recursive: true });
   writeFileSync(join(dir, 'article.md'), [
     '---', 'title: ' + JSON.stringify(options.title ?? slug), 'slug: ' + slug,
     'description: "A test article"', 'author: Test Author', 'language: en',
@@ -55,7 +56,7 @@ function fixture(root, slug, writtenAt, options = {}) {
   ].join('\n'));
   writeFileSync(join(dir, 'status.md'), options.status ?? '---\nstatus: written\nsends: []\n---\n');
   if (options.response) {
-    writeFileSync(join(dir, 'responses/agency.md'), '---\ntitle: Agency response\nfrom: Agency\nreceived_at: "2026-11-25T10:00:00Z"\npublic_record: https://example.org/record\n---\n\nResponse.\n');
+    writeFileSync(join(dir, 'in/agency.md'), '---\ntitle: Agency response\nfrom: Agency\nreceived_at: "2026-11-25T10:00:00Z"\npublic_record: https://example.org/record\n---\n\nResponse.\n');
   }
   return dir;
 }
@@ -67,7 +68,13 @@ function temporary(t) {
 }
 
 test('latest full article, deterministic archive, responses and stable canonical paths', t => {
-  const dir = temporary(t), data = join(dir, 'data'), out = join(dir, 'site');
+  const dir = temporary(t), data = join(dir, 'data', 'articles'), out = join(dir, 'site');
+  mkdirSync(join(dir, 'data', 'organizations'), { recursive: true });
+  writeFileSync(join(dir, 'data', 'organizations', 'example.json'), '{"organization":"Synthetic test resource"}\n');
+  mkdirSync(join(dir, 'data', 'evidence'), { recursive: true });
+  writeFileSync(join(dir, 'data', 'evidence', 'example.json'), '{"evidence":"Synthetic test evidence"}\n');
+  mkdirSync(data, { recursive: true });
+  writeFileSync(join(data, 'README.md'), '# Articles\n');
   fixture(data, 'older', '2026-11-24T00:00:00Z');
   fixture(data, 'newer', '2026-11-24T01:21:26-08:00', {
     title: 'Newest </script><script>alert(1)</script>',
@@ -77,6 +84,8 @@ test('latest full article, deterministic archive, responses and stable canonical
   const result = run(data, out);
   assert.equal(result.status, 0, result.stderr);
   const home = readFileSync(join(out, 'index.html'), 'utf8');
+  assert.deepEqual(readdirSync(join(out, 'articles')).sort(), ['newer', 'older']);
+  assert.doesNotMatch(home, /Synthetic test (resource|evidence)/);
   const page = readFileSync(join(out, 'articles/newer/index.html'), 'utf8');
   const homeDoc = parse(home), articleDoc = parse(page);
   const full = elements(homeDoc, 'article')[0];
@@ -87,7 +96,7 @@ test('latest full article, deterministic archive, responses and stable canonical
   const archive = elements(homeDoc, 'nav')[0];
   assert.ok(text(archive).includes('Past articles'));
   assert.deepEqual(hrefs(archive), ['/articles/older/']);
-  const repoResponse = 'https://github.com/grwtsk/grwtsk.com/blob/main/source/data/newer/responses/agency.md';
+  const repoResponse = 'https://github.com/grwtsk/grwtsk.com/blob/main/source/data/articles/newer/in/agency.md';
   assert.ok(hrefs(full).includes(repoResponse));
   assert.ok(hrefs(articleDoc).includes(repoResponse));
   assert.ok(hrefs(articleDoc).includes('https://example.org/record'));
@@ -123,13 +132,20 @@ test('latest full article, deterministic archive, responses and stable canonical
   assert.equal(attr(elements(articleDoc, 'link').find(link => attr(link, 'rel') === 'canonical'), 'href'), schema.url);
 });
 
-test('single article omits archive and keeps empty correspondence fields', t => {
+test('unsent outgoing drafts are ignored and do not alter empty correspondence fields', t => {
   const dir = temporary(t), data = join(dir, 'data'), out = join(dir, 'site');
-  fixture(data, 'only', '2026-11-24T00:00:00Z');
+  const article = fixture(data, 'only', '2026-11-24T00:00:00Z');
+  writeFileSync(join(article, 'in/.gitkeep'), '\n');
+  writeFileSync(join(article, 'out/.gitkeep'), '\n');
+  writeFileSync(join(article, 'out/draft.md'), '# UNSENT\n\nSynthetic unsent draft.\n');
+  writeFileSync(join(article, 'out/response-shaped.md'), '---\ntitle: Synthetic response-shaped draft\nfrom: Synthetic\nreceived_at: "2026-11-25T10:00:00Z"\n---\n\nStill unsent.\n');
   const result = run(data, out);
   assert.equal(result.status, 0, result.stderr);
   const home = readFileSync(join(out, 'index.html'), 'utf8');
-  assert.doesNotMatch(home, /Past articles/);
+  assert.doesNotMatch(home, /Past articles|Synthetic unsent draft|Synthetic response-shaped draft|Still unsent/);
+  const page = readFileSync(join(out, 'articles/only/index.html'), 'utf8');
+  assert.doesNotMatch(page, /Synthetic unsent draft|Synthetic response-shaped draft|Still unsent/);
+  assert.deepEqual(readdirSync(join(out, 'articles/only')), ['index.html']);
   const doc = parse(home);
   const full = elements(doc, 'article')[0];
   assert.equal(attr(full, 'data-status'), 'written');
@@ -163,7 +179,7 @@ test('real Vite distribution preserves generated articles and serves only static
   t.after(() => new Promise(resolve => server.close(resolve)));
   const origin = 'http://127.0.0.1:' + server.address().port;
   const generated = fileURLToPath(new URL('../.generated/', import.meta.url));
-  const authoredSlugs = readdirSync(join(source, 'data'), { withFileTypes: true })
+  const authoredSlugs = readdirSync(join(source, 'data', 'articles'), { withFileTypes: true })
     .filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
 
   async function checkPage(path, generatedPath) {
@@ -221,6 +237,10 @@ test('real Vite distribution preserves generated articles and serves only static
   assert.equal((await fetch(origin + '/healthz')).status, 200);
   assert.equal((await fetch(origin + '/not-a-route/')).status, 404);
   assert.equal((await fetch(origin + '/source/data/README.md')).status, 404);
+  assert.equal((await fetch(origin + '/source/data/organizations/outreach-registry.json')).status, 404);
+  assert.equal((await fetch(origin + '/source/data/evidence/professional-evidence.json')).status, 404);
+  assert.equal((await fetch(origin + '/articles/organizations/')).status, 404);
+  assert.equal((await fetch(origin + '/articles/evidence/')).status, 404);
   assert.equal((await fetch(origin + '/', { method: 'POST' })).status, 405);
   const head = await fetch(origin + '/', { method: 'HEAD' });
   assert.equal(head.status, 200);

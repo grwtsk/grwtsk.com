@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/kqed",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "KQED News / The California Report",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "assignmentdesk@kqed.org",
+  "scope": [
+    "Bay Area and California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "kqed",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.kqed.org/pressroom"
+      ],
+      "channel": {
+        "kind": "assignment_desk",
+        "url": "https://www.kqed.org/pressroom",
+        "phone": "415-553-2361"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "KQED News / The California Report",
+        "coverage": "Bay Area and California",
+        "source_urls": [
+          "https://www.kqed.org/pressroom"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Public radio reporting on healthcare and state institutions.",
+        "limitations": "Newsroom assignment desk, not station media relations or member services.",
+        "shared_network": "kqed"
+      }
+    }
+  ]
+}

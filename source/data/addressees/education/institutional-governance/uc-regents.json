@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-governance/uc-regents",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "University of California Board of Regents office",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-governance"
+  ],
+  "email": "regentsoffice@ucop.edu",
+  "scope": [
+    "University of California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "uc-regents",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://regents.universityofcalifornia.edu/contact/"
+      ],
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://regents.universityofcalifornia.edu/contact/",
+        "mail": "Office of the Secretary and Chief of Staff to the Regents, 1111 Franklin St., 12th floor, Oakland, CA 94607"
+      },
+      "record": {
+        "level": "institutional_governance",
+        "office": "University of California Board of Regents office",
+        "scope": "University of California",
+        "purpose": "Board governance concerns regarding UC public institution and systemwide policy.",
+        "source_urls": [
+          "https://regents.universityofcalifornia.edu/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Correspondence may be public record; no confidential records. Not an adjudicator."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:education/institutional-governance/ucsf-executive",
+      "relation": "system_governance",
+      "basis": [
+        "https://regents.universityofcalifornia.edu/contact/",
+        "https://www.ucsfhealth.org/about/leadership"
+      ],
+      "limits": "Governance relationship, not direct clinical case decision.",
+      "source": "authority-oversight",
+      "original_from": "uc-regents",
+      "original_to": "ucsf-executive"
+    }
+  ]
+}

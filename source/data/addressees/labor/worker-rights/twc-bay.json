@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/twc-bay",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Tech Workers Coalition — Bay Area",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "twcbayarea@proton.me",
+  "scope": [
+    "Silicon Valley / Bay Area"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "twc-bay",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://techworkerscoalition.org/bay-area/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://techworkerscoalition.org/bay-area/"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "Tech Workers Coalition — Bay Area",
+        "scope": "Silicon Valley / Bay Area",
+        "source_urls": [
+          "https://techworkerscoalition.org/bay-area/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Technology workforce education and workplace rights.",
+        "limits": "General public policy resource only; no evidence of involvement with Stanford medical allegations, no private group access or member contacts."
+      }
+    },
+    {
+      "source_title": "Tech Workers Coalition — Join a Chapter, SF Bay Area",
+      "urls": [
+        "https://techworkerscoalition.org/chapters/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "twcbayarea@proton.me",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Public SF Bay Area chapter contact for relevant tech-worker organizing and inquiries.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

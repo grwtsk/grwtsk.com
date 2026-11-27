@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-madera-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "admin@faclawoffices.com",
+  "scope": [
+    "California / Madera County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-madera-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Madera County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published public defense office, contracted provider or professional contact",
+      "urls": [
+        "https://capcentral.org/resources/phoneweb/",
+        "https://faclawoffices.com/contact-us/",
+        "https://faclawoffices.com/about/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "admin@faclawoffices.com",
+      "role": "Fitzgerald, Alvarez & Ciummo — contracted public defense firm's administration mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive administrative or service-navigation inquiries within actual public defense remit and applicable eligibility.",
+      "limitations": "Central California Appellate Program's court and county directory identifies the firm for Madera public defense; its own contact page publishes the administrative mailbox. The firm's Madera, Amador and Calaveras offices are identified in its staff page. Shared firm administration, not a county-run or separate client intake mailbox; verify the county-specific contract and route. These contacts do not establish authority to investigate a medical grievance. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

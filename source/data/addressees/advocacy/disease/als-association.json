@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/als-association",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "ALS Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "alsinfo@als.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "als-association",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.als.org/advocacy"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.als.org/advocacy"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "ALS Association",
+        "service_area": "National",
+        "purpose": "ALS research, care access and nonpartisan legislative advocacy.",
+        "source_urls": [
+          "https://www.als.org/advocacy"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "The ALS Association — Contact Us",
+      "urls": [
+        "https://www.als.org/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "alsinfo@als.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "ALS information and assistance connecting with appropriate services and resources.",
+      "limitations": "Contact must be relevant to the organization's stated disease-specific remit. No private medical records through ordinary email; verify designated intake and deliverability."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/dca-doi",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Division of Investigation headquarters",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "dca-doi",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dca.ca.gov/enforcement/index",
+        "https://www.mbc.ca.gov/FAQs/default.aspx?cat=Complaint&topic=Complaint%3A+Investigations"
+      ],
+      "shared_channel_id": "doi",
+      "record": {
+        "group": "dca",
+        "role": "Division of Investigation headquarters",
+        "person": null,
+        "source_keys": [
+          "doi",
+          "investigation"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Review investigative handling if HQIU received original referral.",
+        "limits": "Confirm case stage, field office and supervising investigator from case record."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "doi",
+      "channel": {
+        "url": "https://www.dca.ca.gov/enforcement/index",
+        "phone": "916-515-5100",
+        "mail": "1747 N. Market Blvd, Sacramento, CA 95834",
+        "kind": "investigative_division_office"
+      }
+    }
+  ]
+}

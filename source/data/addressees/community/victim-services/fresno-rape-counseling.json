@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/fresno-rape-counseling",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Rape Counseling Services of Fresno (directory-listed)",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "rcsfresno@rcsfresno.org",
+  "scope": [
+    "Fresno County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "fresno-rape-counseling",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources",
+        "phone": "559-222-7273"
+      },
+      "record": {
+        "category": "survivor_support",
+        "organization": "Rape Counseling Services of Fresno (directory-listed)",
+        "scope": "Fresno County",
+        "purpose": "Local survivor support and counseling referrals.",
+        "limits": "Name and number as listed by county DA; confirm current program name and eligibility.",
+        "source_urls": [
+          "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    },
+    {
+      "source_title": "California Victim Compensation Board — Fresno County resource directory, Rape Counseling Service of Fresno",
+      "urls": [
+        "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+        "https://rcsfresno.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "rcsfresno@rcsfresno.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Nonemergency program inquiries for eligible survivors of sexual violence and resource referrals.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. Official state resource listing supplies the address. Use designated crisis line for urgent needs and do not disclose private information in routine email."
+    }
+  ]
+}

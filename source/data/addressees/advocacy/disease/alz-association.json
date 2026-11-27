@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/alz-association",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Alzheimer's Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "advocacy@alz.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "alz-association",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.alz.org/get-involved-now/advocate"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.alz.org/get-involved-now/advocate"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Alzheimer's Association",
+        "service_area": "National",
+        "purpose": "Dementia care, diagnostic access and research advocacy.",
+        "source_urls": [
+          "https://www.alz.org/get-involved-now/advocate"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Alzheimer’s Association — 2026 AIM Advocacy Forum",
+      "urls": [
+        "https://www.alz.org/forum"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "advocacy@alz.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Advocacy forum general information; national Alzheimer’s advocacy inquiries, not individual clinical care.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

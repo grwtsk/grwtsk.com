@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-glenn-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "gcboard@countyofglenn.net",
+  "scope": [
+    "California / Glenn County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-glenn-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Glenn County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Glenn County Clerk of the Board Contact Info",
+      "urls": [
+        "https://www.countyofglenn.net/node/26081"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "gcboard@countyofglenn.net",
+      "role": "Clerk of the Board",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County board procedural, governance and public-record correspondence within the published office remit.",
+      "limitations": "Verify current mailbox and jurisdiction before use. Deliverability not tested. Public correspondence may become a public record; do not transmit private records through ordinary outreach email."
+    }
+  ]
+}

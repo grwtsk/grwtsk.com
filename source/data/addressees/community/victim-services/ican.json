@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/ican",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Crime Victims Assistance Network (iCAN) Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "getinfo@ican-foundation.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "ican",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-other/"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "phone": "916-273-3603"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "Crime Victims Assistance Network (iCAN) Foundation",
+        "scope": "California",
+        "purpose": "Victim advocacy and referrals.",
+        "limits": "State directory listing; current intake eligibility not separately checked.",
+        "source_urls": [
+          "https://www.cdcr.ca.gov/victim-services/resources-other/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    },
+    {
+      "source_title": "Crime Victims Assistance Network (iCAN) Foundation — Contact and Victims and Survivors",
+      "urls": [
+        "https://ican-foundation.org/contact/",
+        "https://ican-foundation.org/services/victims-and-survivors/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "getinfo@ican-foundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Nonemergency victim assistance, resources and referrals.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

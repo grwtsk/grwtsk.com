@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-modoc-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "tanyaschulz@co.modoc.ca.us",
+  "scope": [
+    "California / Modoc County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-modoc-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Modoc County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Modoc County Health Services staff directory; CDPH CD Controllers directory",
+      "urls": [
+        "https://www.countyofmodoc.gov/m/directory/department?did=19",
+        "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/CD-Controllers.aspx",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "tanyaschulz@co.modoc.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Public Health Director, named by the county; state directory publishes her professional address in its communicable-disease coordination context.",
+      "limitations": "State directory search extract provides the address; direct page re-open failed HTTP 502. County staff directory confirms the director role. Do not use disease-reporting channels as general complaint intake; confirm appropriate routing before correspondence. Confirm jurisdiction and remit. Deliverability not tested. Do not send confidential records through ordinary email.",
+      "listed_officeholder": "Tanya Schulz"
+    }
+  ],
+  "listed_officeholder": "Tanya Schulz"
+}

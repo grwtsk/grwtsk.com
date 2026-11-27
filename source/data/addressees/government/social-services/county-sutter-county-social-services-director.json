@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/county-sutter-county-social-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County social services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "Seberhardt-rios@co.sutter.ca.us",
+  "scope": [
+    "California / Sutter County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-sutter-county-social-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County social services director",
+        "jurisdiction": "California / Sutter County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Sutter County October 8, 2024 provider meeting, slide 26; current management team",
+      "urls": [
+        "https://www.sutter.gov/home/showpublisheddocument/8658/638870491100370000",
+        "https://www.sutter.gov/government/county-departments/health-and-human-services/management-team"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Seberhardt-rios@co.sutter.ca.us",
+      "listed_officeholder": "Sarah Eberhardt-Rios",
+      "role": "Director of Health and Human Services",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official public agency correspondence within the role's remit.",
+      "limitations": "Confirm current role, channel, jurisdiction and mailbox currency before use. Deliverability not tested. Retain existing reporting procedures; do not send sensitive material through ordinary outreach email. Presentation text confirms address; page screenshot returned HTTP 403. Historical professional address; recheck currency."
+    }
+  ],
+  "listed_officeholder": "Sarah Eberhardt-Rios"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-san-mateo-county-sheriff",
+  "addressee_type": "named_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "OfficeOfTheSheriff@smcgov.org",
+  "scope": [
+    "California / San Mateo County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-mateo-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / San Mateo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Mateo County Sheriff's Office — Contact Us",
+      "urls": [
+        "https://www.smcsheriff.com/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "OfficeOfTheSheriff@smcgov.org",
+      "role": "County sheriff",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Office of the Sheriff listed in official directory; official office correspondence and routing.",
+      "limitations": "Not monitored for emergency dispatch or a substitute for official reporting; confirm jurisdiction and purpose. Confirm current mailbox and jurisdiction before correspondence; do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

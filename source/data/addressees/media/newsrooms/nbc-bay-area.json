@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/nbc-bay-area",
+  "addressee_type": "organizational_or_official_route",
+  "name": "NBC Bay Area Investigative Unit",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "theunit@nbcbayarea.com",
+  "scope": [
+    "Bay Area"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "nbc-bay-area",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.nbcbayarea.com/investigations/"
+      ],
+      "channel": {
+        "kind": "investigative_tip_hotline",
+        "url": "https://www.nbcbayarea.com/investigations/",
+        "phone": "1-888-996-8477"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "NBC Bay Area Investigative Unit",
+        "coverage": "Bay Area",
+        "source_urls": [
+          "https://www.nbcbayarea.com/investigations/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local investigations, public safety and institutional accountability.",
+        "limitations": "Investigative hotline; ordinary telephone call is not a confidential submission guarantee.",
+        "shared_network": "nbcuniversal"
+      }
+    },
+    {
+      "source_title": "NBC Bay Area — Investigative Unit reporting, 2018–2020, and current station contact page",
+      "urls": [
+        "https://www.nbcbayarea.com/investigations/violence-against-healthcare-workers-continues-despite-hospital-safety-law/2238203/",
+        "https://www.nbcbayarea.com/investigations/officer-knee-to-neck-restraint-not-allowed-by-most-bay-area-agencies/2301361/",
+        "https://www.nbcbayarea.com/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "theunit@nbcbayarea.com",
+      "role": "NBC Bay Area Investigative Unit",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Historically published investigative newsroom tip mailbox.",
+      "limitations": "Current contact page confirms investigative telephone tipline, not the literal historical address. Recheck email before use; no secure intake guarantee. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

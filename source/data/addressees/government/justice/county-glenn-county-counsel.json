@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-glenn-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "margaret@prenticelongpc.com",
+  "scope": [
+    "California / Glenn County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-glenn-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Glenn County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published county office, State Bar or appointed counsel's professional contact",
+      "urls": [
+        "https://glenncounty.granicus.com/MinutesViewer.php?clip_id=2485&view_id=9",
+        "https://glenncounty.granicus.com/MinutesViewer.php?clip_id=2610&view_id=9",
+        "https://www.prenticelongpc.com/attorneys/margaret-e-long",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/227176"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "margaret@prenticelongpc.com",
+      "published_contact_person": "Margaret E. Long",
+      "role": "Contracted County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administration inquiries within actual county jurisdiction and office remit.",
+      "limitations": "County June 17, 2025 appointment and July 14, 2026 minutes identify Long as County Counsel; firm and State Bar publish professional email. Attorney serves multiple public clients; verify county-specific remit, avoid duplicate recipients, and do not infer other county appointments from this record. County counsel represents the county, not the complainant; address is not an independent complaint intake channel, legal filing or service-of-process route. Confirm role, currency and jurisdiction before use. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Margaret E. Long"
+}

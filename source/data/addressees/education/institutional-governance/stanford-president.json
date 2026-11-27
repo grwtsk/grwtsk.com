@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-governance/stanford-president",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford University Office of President",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-governance"
+  ],
+  "email": "president@stanford.edu",
+  "scope": [
+    "Stanford University"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Jonathan Levin"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "stanford-president",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://president.stanford.edu/contact",
+        "https://www.stanford.edu/about/leadership-and-governance"
+      ],
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://president.stanford.edu/contact",
+        "phone": "650-723-2481"
+      },
+      "record": {
+        "level": "institutional_governance",
+        "office": "Stanford University Office of President",
+        "scope": "Stanford University",
+        "purpose": "University academic governance concerns; request appropriate institutional referral.",
+        "source_urls": [
+          "https://president.stanford.edu/contact",
+          "https://www.stanford.edu/about/leadership-and-governance"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Jonathan Levin",
+        "limits": "University and hospital legal entities differ; not independent clinical regulator."
+      }
+    }
+  ]
+}

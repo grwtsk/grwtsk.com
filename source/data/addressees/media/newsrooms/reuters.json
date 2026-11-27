@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/reuters",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Reuters",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National and international"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "reuters",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://reutersagency.com/contact-us/"
+      ],
+      "channel": {
+        "kind": "editorial_inquiry_directory",
+        "url": "https://reutersagency.com/contact-us/"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "Reuters",
+        "coverage": "National and international",
+        "source_urls": [
+          "https://reutersagency.com/contact-us/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Editorial inquiries and possible routing to relevant reporting desk.",
+        "limitations": "Official page lists editorial contact for feedback, corrections and press releases; dedicated investigative tip intake not established here."
+      }
+    }
+  ]
+}

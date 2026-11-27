@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-san-francisco",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco Adult Protective Services",
+  "aliases": [
+    "County Adult Protective Services"
+  ],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "akiles.ceron@sfgov.org",
+  "scope": [
+    "San Francisco County",
+    "California / San Francisco County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "aps-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sfhsa.org/services/protection-safety/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "24h_hotline",
+        "url": "https://www.sfhsa.org/services/protection-safety/adult-protective-services",
+        "phone": "415-355-6700"
+      },
+      "record": {
+        "level": "local_protective_services",
+        "office": "San Francisco Adult Protective Services",
+        "scope": "San Francisco County",
+        "purpose": "Assess suspected abuse/neglect within county jurisdiction.",
+        "source_urls": [
+          "https://www.sfhsa.org/services/protection-safety/adult-protective-services"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Online reports only for nonurgent cases without physical abuse."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-san-francisco",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / San Francisco County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "documented_stanford_location",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "Published county, state or professional-association contact and role evidence",
+      "urls": [
+        "https://www.courts.ca.gov/documents/County_APD_Contacts.pdf",
+        "https://www.napsa-now.org/leadership/",
+        "https://www.sfhsa.org/contact-us"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "akiles.ceron@sfgov.org",
+      "published_contact_person": "Akiles Ceron",
+      "role": "APS Program Director",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Program or relevant agency leadership correspondence within the documented scope; not a statutory abuse-reporting channel.",
+      "limitations": "The Judicial Council-hosted Winter 2020 county directory publishes the professional address; NAPSA leadership page currently identifies the same person as San Francisco APS Program Director. PDF page image returned HTTP 403; current mailbox not independently confirmed. This is program leadership correspondence, not confidential reporting. Reconfirm current role, address and applicable remit before use. Retain statutory reporting and confidential intake channels. Do not send sensitive records or abuse reports through ordinary email. Deliverability not tested."
+    }
+  ]
+}

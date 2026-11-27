@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-nevada-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "county.counsel@co.nevada.ca.us",
+  "scope": [
+    "California / Nevada County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-nevada-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Nevada County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Official county or state public contact publication",
+      "urls": [
+        "https://www.nevadacountyca.gov/354/About-County-Counsel",
+        "https://www.nevadacountyca.gov/m/directory/department?did=57"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "county.counsel@co.nevada.ca.us",
+      "role": "County Counsel Department mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive administrative inquiries within documented county legal remit and jurisdiction.",
+      "limitations": "Official department page and staff directory publish this general department address; the same directory also publishes county.counsel@nevadacountyca.gov as the County Counsel role address. Retain only one canonical email; confirm which channel is appropriate. County counsel represents the county, not a private complainant. Do not infer legal filing, service-of-process or independent complaint intake authorization. Confirm current mailbox, role and remit before use. Deliverability not tested."
+    }
+  ]
+}

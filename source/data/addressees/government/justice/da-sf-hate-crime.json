@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-sf-hate-crime",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Francisco DA Hate Crime Hotline",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "San Francisco County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "da-sf-hate-crime",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfdistrictattorney.org/contact/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://sfdistrictattorney.org/contact/",
+        "phone": "628-652-4311"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "San Francisco DA Hate Crime Hotline",
+        "scope": "San Francisco County",
+        "purpose": "Referral for possible bias-motivated crimes with local venue.",
+        "source_urls": [
+          "https://sfdistrictattorney.org/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Discrimination alone does not establish criminal hate crime."
+      }
+    }
+  ]
+}

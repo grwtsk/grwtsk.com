@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/guardian",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Guardian / Guardian US",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "betsy.reed@theguardian.com",
+  "scope": [
+    "National and international"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "guardian",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.theguardian.com/tips"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.theguardian.com/tips"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "The Guardian / Guardian US",
+        "coverage": "National and international",
+        "source_urls": [
+          "https://www.theguardian.com/tips"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Human rights, healthcare and public-interest investigations.",
+        "limitations": "Use official secure messaging or SecureDrop route; not a general letter or op-ed submission."
+      }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://www.theguardian.com/info/2014/oct/22/the-guardian-us-team",
+        "https://www.theguardian.com/tips"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "betsy.reed@theguardian.com",
+      "published_contact_person": "Betsy Reed",
+      "role": "Betsy Reed, US editor",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive editorial correspondence addressed to the US editor when relevant.",
+      "limitations": "Official US senior management page updated May 19, 2026 explicitly publishes this professional email. Guardian tip guidance distinguishes ordinary email from SecureDrop or Secure Messaging. This is an editor's published work address, not a general tip inbox. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
+    }
+  ]
+}

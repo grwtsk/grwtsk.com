@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/county-tuolumne-county-social-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County social services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "socialservices@tuolumnecounty.ca.gov",
+  "scope": [
+    "California / Tuolumne County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-tuolumne-county-social-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County social services director",
+        "jurisdiction": "California / Tuolumne County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Tuolumne County Adult Protective Services — Contact Us",
+      "urls": [
+        "https://tuolumnecounty.ca.gov/279/Adult-Protective-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "socialservices@tuolumnecounty.ca.gov",
+      "listed_officeholder": "Annie Hockett",
+      "role": "Health and Human Services Agency Director",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Published social services agency contact for director's office; shared agency mailbox, not a personal address.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Use designated APS hotline and confidential fax for statutory abuse reports."
+    }
+  ],
+  "listed_officeholder": "Annie Hockett"
+}

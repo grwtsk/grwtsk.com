@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-san-joaquin-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "phs-info@sjcphs.org",
+  "scope": [
+    "California / San Joaquin County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-joaquin-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / San Joaquin County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Joaquin County Public Health Services — Contact Us",
+      "urls": [
+        "https://www.sjcphs.org/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "phs-info@sjcphs.org",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Additional help and general public health inquiries as explicitly listed on the official contact page.",
+      "limitations": "The same address is also labeled Email Webmaster in the site footer, but the main contact page explicitly offers it for additional help. Not a direct director email. Confirm jurisdiction and remit. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

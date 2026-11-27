@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/dmhc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Department of Managed Health Care – health plan grievances",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": "Helpline@dmhc.ca.gov",
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "dmhc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.dmhc.ca.gov/File-a-Complaint/Contact-Your-Health-Plan.aspx"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.dmhc.ca.gov/File-a-Complaint/Contact-Your-Health-Plan.aspx"
+      },
+      "record": {
+        "role": "California Department of Managed Health Care – health plan grievances",
+        "jurisdiction": "California",
+        "source": [
+          "https://www.dmhc.ca.gov/File-a-Complaint/Contact-Your-Health-Plan.aspx"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Insurance and care access if covered by DMHC jurisdiction."
+      }
+    },
+    {
+      "source_title": "Official institutional contact and program evidence",
+      "urls": [
+        "https://www.dmhc.ca.gov/AbouttheDMHC/ContactUs/default.aspx",
+        "https://www.dmhc.ca.gov/Fileacomplaint/ProtectedMessages.aspx"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Helpline@dmhc.ca.gov",
+      "role": "DMHC Help Center",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Health-plan complaint-process questions and case-related inquiries within DMHC jurisdiction.",
+      "limitations": "Official DMHC contact page explicitly publishes email for questions about the complaint process and further information; include case number for an open case. Formal complaints and IMR applications use designated form; protected correspondence is separate. Confirm current mailbox and remit before use. Preserve designated secure intake and reporting routes. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-lassen-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "lcclerk@co.lassen.ca.us",
+  "scope": [
+    "California / Lassen County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-lassen-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Lassen County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Lassen County 2025 proposed Board meeting dates, p. 1; current Board directory and state county clerk list",
+      "urls": [
+        "https://www.lassencounty.org/sites/default/files/departments/clerk_of_the_board_of_supervisors/2024%20PROPOSED%20MEETINGS%202.pdf",
+        "https://www.lassencounty.gov/m/directory/department?did=10",
+        "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices?os=wtmb"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "lcclerk@co.lassen.ca.us",
+      "role": "Clerk of the Board / County Clerk",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County board procedural, governance and public-record correspondence within the published office remit.",
+      "limitations": "Verify current mailbox and jurisdiction before use. Deliverability not tested. Public correspondence may become a public record; do not transmit private records through ordinary outreach email. Shared county clerk address printed on 2025 board letterhead and confirmed for the county clerk by the Secretary of State. PDF screenshot failed with HTTP 502; recheck current board-specific remit."
+    }
+  ]
+}

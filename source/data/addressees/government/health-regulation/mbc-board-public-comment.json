@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-board-public-comment",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Board public participation and accessibility",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-board-public-comment",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/About/Meetings/Public-Participation.aspx",
+        "https://www.mbc.ca.gov/About/Meetings/",
+        "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf"
+      ],
+      "shared_channel_id": "mbc_public",
+      "record": {
+        "group": "medical_board_units",
+        "role": "Board public participation and accessibility",
+        "person": null,
+        "source_keys": [
+          "public",
+          "meetings",
+          "agenda"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Request agenda consideration of systemic process issues and accessibility accommodation.",
+        "limits": "Not forum to decide individual case. Latest meeting notice provides accommodation route; verify next meeting deadline."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "mbc_public",
+      "channel": {
+        "url": "https://www.mbc.ca.gov/About/Meetings/Public-Participation.aspx",
+        "phone": "916-263-2389",
+        "kind": "public_comment",
+        "meeting_schedule": "https://www.mbc.ca.gov/About/Meetings/",
+        "note": "Discuss general policy in public comment; do not disclose private evidence or seek private contact with adjudicators."
+      }
+    }
+  ]
+}

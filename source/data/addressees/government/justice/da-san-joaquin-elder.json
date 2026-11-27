@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-san-joaquin-elder",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Joaquin County DA Elder and Dependent Adult Abuse Unit",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "San Joaquin County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "da-san-joaquin-elder",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sjcda.org/office/divisions/specialized/elder-unit"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://www.sjcda.org/office/divisions/specialized/elder-unit",
+        "phone": "209-468-2488"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "San Joaquin County DA Elder and Dependent Adult Abuse Unit",
+        "scope": "San Joaquin County",
+        "purpose": "Dependent adult abuse referral if facts establish venue.",
+        "source_urls": [
+          "https://www.sjcda.org/office/divisions/specialized/elder-unit"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Stanford affiliate status for this county requires recheck; do not send unrelated matters."
+      }
+    }
+  ]
+}

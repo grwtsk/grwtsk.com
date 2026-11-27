@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-services/ucsf-general",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF General Neurology",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-services"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF Health",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "ucsf-general",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://neurology.ucsf.edu/general-neurology"
+      ],
+      "channel": {
+        "kind": "department_contact",
+        "url": "https://neurology.ucsf.edu/general-neurology"
+      },
+      "record": {
+        "role": "UCSF General Neurology",
+        "jurisdiction": "UCSF Health",
+        "source": [
+          "https://neurology.ucsf.edu/general-neurology"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Independent clinical referral or appropriate department liaison; no unsolicited allegations to individual clinicians."
+      }
+    }
+  ]
+}

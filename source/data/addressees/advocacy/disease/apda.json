@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/apda",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "American Parkinson Disease Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "apda@apdaparkinson.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "apda",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "American Parkinson Disease Association",
+        "service_area": "National",
+        "purpose": "Care, coverage, support, evidence and access policy.",
+        "source_urls": [
+          "https://www.apdaparkinson.org/advocacy/public-policy-priorities/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "American Parkinson Disease Association — National helpline contact",
+      "urls": [
+        "https://www.apdaparkinson.org/community/alabama-irc/resources-and-support/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "apda@apdaparkinson.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General Parkinson's information and resource navigation.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
+    }
+  ]
+}

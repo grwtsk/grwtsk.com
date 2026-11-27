@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/patient-relations/ucsf-relations",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF Health Patient Relations",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "patient-relations"
+  ],
+  "email": "patient.relations@ucsf.edu",
+  "scope": [
+    "UCSF Health",
+    "purpose_specific"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ucsf-relations",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "https://www.ucsfhealth.org/contact-us"
+      ],
+      "channel": {
+        "kind": "complaint_form",
+        "url": "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+        "phone": "415-353-1936"
+      },
+      "record": {
+        "level": "institutional_compliance",
+        "office": "UCSF Health Patient Relations",
+        "scope": "UCSF Health",
+        "purpose": "Request independent grievance review, accessible communication and continuity of care.",
+        "source_urls": [
+          "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations",
+          "https://www.ucsfhealth.org/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed"
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "ucsf-relations",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+      ],
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+      },
+      "record": {
+        "role": "UCSF Health Patient Relations",
+        "jurisdiction": "UCSF Health",
+        "source": [
+          "https://www.ucsfhealth.org/_site_ucsf/patients-visitors/support-services/patient-relations"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Formal grievance, care continuity, independent review and accommodation."
+      }
+    },
+    {
+      "source_title": "UCSF Health — Accessibility Resources",
+      "urls": [
+        "https://www.ucsfhealth.org/patients-visitors/support-services/accessibility-resources"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "patient.relations@ucsf.edu",
+      "channel_kind": "published_official_mailbox",
+      "stated_purpose": "Patient relations and assistance with disability accommodations.",
+      "limitations": "Use the designated grievance process for formal complaints; verify secure submission instructions before sharing private records. Deliverability not tested."
+    }
+  ]
+}

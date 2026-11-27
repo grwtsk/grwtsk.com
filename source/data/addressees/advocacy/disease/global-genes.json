@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/global-genes",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Global Genes",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "advocacy@globalgenes.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "global-genes",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://globalgenes.org/contact-us/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://globalgenes.org/contact-us/",
+        "phone": "949-248-7273"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Global Genes",
+        "service_area": "National",
+        "purpose": "Rare disease information and community connections.",
+        "source_urls": [
+          "https://globalgenes.org/contact-us/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Global Genes Speak Easy: A Guide to Public Speaking, May 2018, printed page 24",
+      "urls": [
+        "https://www.globalgenes.org/wp-content/uploads/2022/09/Public-Speaking_ToolKit_spread_FINAL.pdf",
+        "https://globalgenes.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "advocacy@globalgenes.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published advocacy mailbox for proposing or contributing to rare-disease educational toolkit topics.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Historical, purpose-specific address from 2018 material; current contact page does not independently confirm address. Recheck before use."
+    }
+  ]
+}

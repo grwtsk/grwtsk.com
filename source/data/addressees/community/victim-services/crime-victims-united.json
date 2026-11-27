@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/crime-victims-united",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Crime Victims United of California",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "crime-victims-united",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-other/"
+      ],
+      "channel": {
+        "kind": "voluntary_advocacy",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-other/",
+        "phone": "530-885-9544"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "Crime Victims United of California",
+        "scope": "California",
+        "purpose": "Crime victims' rights and public policy advocacy.",
+        "limits": "State directory-listed number; use for general policy questions, not named allegations.",
+        "source_urls": [
+          "https://www.cdcr.ca.gov/victim-services/resources-other/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

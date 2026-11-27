@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/cara",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Alliance for Retired Americans",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@californiaalliance.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "cara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://californiaalliance.org/contact-us",
+        "https://californiaalliance.org/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://californiaalliance.org/contact-us",
+        "phone": "510-663-4086"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "California Alliance for Retired Americans",
+        "service_area": "California",
+        "purpose": "Older adult and disability community policy, healthcare and social insurance.",
+        "source_urls": [
+          "https://californiaalliance.org/contact-us",
+          "https://californiaalliance.org/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

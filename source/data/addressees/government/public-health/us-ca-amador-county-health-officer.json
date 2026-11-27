@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/us-ca-amador-county-health-officer",
+  "addressee_type": "named_public_office",
+  "name": "Amador County Health Officer",
+  "listed_officeholder": "Rita Huspen Kerr",
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "hofficer@amadorgov.org",
+  "scope": [
+    "United States / California / Amador County"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CCLHO/Pages/CCLHO-Health-Officer-Directory.aspx"
+      ],
+      "source_title": "California Department of Public Health — CCLHO Health Officer Directory",
+      "source_review_date": "2026-11-24",
+      "channel_kind": "published_local_public_health_officer_email",
+      "stated_purpose": "Official local public-health office contact within its statutory public-health remit.",
+      "limitations": "Directory excerpt reviewed; direct page retrieval timed out. Confirm current official listing, incumbent, local jurisdiction and appropriate public-health procedure before use. Not a personal address or an invitation to submit unrelated individual case material."
+    }
+  ]
+}

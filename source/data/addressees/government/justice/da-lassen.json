@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-lassen",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "California / Lassen County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "S. Melyssah Rios"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-lassen",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.lassencounty.org/dept/district-attorney/welcome",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.lassencounty.org/dept/district-attorney/welcome"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Lassen County",
+        "listed_officeholder": "S. Melyssah Rios",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    }
+  ]
+}

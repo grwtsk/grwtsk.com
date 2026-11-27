@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-governance/shc-board",
+  "addressee_type": "named_public_office",
+  "name": "Stanford Health Care Board of Directors",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-governance"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Amit Sinha (board chair, roster as of 2026-09-01)"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "shc-board",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "channel": {
+        "kind": "governance_directory",
+        "url": "https://stanfordhealthcare.org/about-us/leadership.html"
+      },
+      "record": {
+        "level": "institutional_governance",
+        "office": "Stanford Health Care Board of Directors",
+        "scope": "Stanford Health Care",
+        "purpose": "Request board-level patient safety and governance review through Patient Relations/compliance.",
+        "source_urls": [
+          "https://stanfordhealthcare.org/about-us/leadership.html",
+          "https://stanfordhealthcare.org/about-us/contact.html"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Amit Sinha (board chair, roster as of 2026-09-01)",
+        "limits": "No individual director contact list; use institutional route."
+      }
+    },
+    {
+      "source_title": "Canonical institutional routing reference",
+      "urls": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/for-patients-visitors/patient-relations.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:healthcare/patient-relations/shc-relations",
+      "limitations": "Existing source record directs board-level governance requests via Patient Relations. This reference identifies the established institutional route, not a board-specific mailbox or guarantee of board review."
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:education/institutional-compliance/shc-compliance",
+      "relation": "institutional_governance_routing",
+      "basis": [
+        "https://stanfordhealthcare.org/about-us/leadership.html",
+        "https://stanfordhealthcare.org/about-us/contact.html"
+      ],
+      "limits": "Request routing through designated office; not a claim of exact internal reporting line.",
+      "source": "authority-oversight",
+      "original_from": "shc-board",
+      "original_to": "shc-compliance"
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:healthcare/patient-relations/shc-relations"
+  ]
+}

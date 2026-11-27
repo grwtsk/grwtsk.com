@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-fresno-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "pnerland@fresnocountyca.gov",
+  "scope": [
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-fresno-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Fresno County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "local_support",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Fresno County Americans With Disabilities Act grievance procedure",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/County-Administrative-Office/Americans-With-Disabilities-Act"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "pnerland@fresnocountyca.gov",
+      "listed_officeholder": "Paul Nerland",
+      "role": "County Administrative Officer",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County Administrative Officer; published contact for appeal of county ADA grievance resolution.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Paul Nerland"
+}

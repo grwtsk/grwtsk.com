@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/sacramento-bee",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Sacramento Bee",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "gwyler@sacbee.com",
+  "scope": [
+    "Sacramento and California state government"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "sacramento-bee",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sacbee.com/trust-transparency/article314409508.html"
+      ],
+      "channel": {
+        "kind": "newsroom_directory",
+        "url": "https://www.sacbee.com/trust-transparency/article314409508.html"
+      },
+      "record": {
+        "category": "california",
+        "outlet": "The Sacramento Bee",
+        "coverage": "Sacramento and California state government",
+        "source_urls": [
+          "https://www.sacbee.com/trust-transparency/article314409508.html"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Statehouse and political investigations, oversight and public policy.",
+        "limitations": "Use the official editorial directory and linked appropriate submission route.",
+        "shared_network": "mcclatchy"
+      }
+    },
+    {
+      "source_title": "Sacramento Bee — Contact The Sacramento Bee Newsroom",
+      "urls": [
+        "https://www.sacbee.com/trust-transparency/article314409508.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "gwyler@sacbee.com",
+      "published_contact_person": "Grace Wyler",
+      "role": "Assistant Managing Editor for Politics & Investigations",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Public newsroom contact for politics and investigations; newsroom invites tips and direct editor contact.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Editorial evaluation, not an official complaint intake."
+    }
+  ]
+}

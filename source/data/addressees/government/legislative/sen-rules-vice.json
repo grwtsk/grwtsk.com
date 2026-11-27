@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/sen-rules-vice",
+  "addressee_type": "named_public_office",
+  "name": "Senate Rules Vice Chair",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Shannon Grove"
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "sen-rules-vice",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://srul.senate.ca.gov/members"
+      ],
+      "shared_channel_id": "rules",
+      "record": {
+        "group": "legislative_leadership",
+        "role": "Senate Rules Vice Chair",
+        "person": "Shannon Grove",
+        "source_keys": [
+          "rulesmembers"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Policy and appointment oversight through official office.",
+        "limits": "Current 2025–26 session snapshot; recheck after transition."
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/legislative/sen-rules"
+  ]
+}

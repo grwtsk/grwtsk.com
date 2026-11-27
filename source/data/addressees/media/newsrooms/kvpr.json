@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/kvpr",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "KVPR / Valley Public Radio",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news@kvpr.org",
+  "scope": [
+    "San Joaquin Valley"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "kvpr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.kvpr.org/contact"
+      ],
+      "channel": {
+        "kind": "news_department_phone",
+        "url": "https://www.kvpr.org/contact",
+        "phone": "559-862-2566"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "KVPR / Valley Public Radio",
+        "coverage": "San Joaquin Valley",
+        "source_urls": [
+          "https://www.kvpr.org/contact"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Regional public radio and accountability journalism.",
+        "limitations": "news@kvpr.org is explicitly for press releases; use news department phone for story inquiries."
+      }
+    },
+    {
+      "source_title": "KVPR — newsroom tip invitation",
+      "urls": [
+        "https://www.kvpr.org/live-updates/presidential-election-2024-live-updates-from-central-california"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "news@kvpr.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "News tips; explicitly published in a 2024 newsroom article.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

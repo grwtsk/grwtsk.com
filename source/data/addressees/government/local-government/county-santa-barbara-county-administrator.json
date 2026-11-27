@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-santa-barbara-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "caoemail@co.santa-barbara.ca.us",
+  "scope": [
+    "California / Santa Barbara County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-santa-barbara-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Santa Barbara County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Santa Barbara County Executive Office official contact page",
+      "urls": [
+        "https://www.countyofsb.org/ceo-county-executive-office?contentId=ecd8d205-3a5f-462d-8e3e-9d5d7f82f0e5"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "caoemail@co.santa-barbara.ca.us",
+      "listed_officeholder": "Jana Petersen",
+      "role": "County Executive Office",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "General County Executive Office administrative inquiries; shared official office mailbox.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a designated medical complaint or emergency intake. Public correspondence may enter the public record; do not send private records in ordinary outreach email. Deliverability not tested. Published office mailbox, not an individual's address. Current county page lists Jana Petersen as County Executive Officer. This is not her personal address."
+    }
+  ],
+  "listed_officeholder": "Jana Petersen"
+}

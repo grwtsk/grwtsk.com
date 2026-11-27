@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "purpose": "Reusable theme vocabulary for correspondence; themes grant no authority, evidence status or contact eligibility.",
+  "themes": [
+    {
+      "id": "patient-safety",
+      "description": "Safe, accountable healthcare processes and prevention of harm."
+    },
+    {
+      "id": "independent-review",
+      "description": "Competent, impartial review with conflicts screened and findings distinguished from allegations."
+    },
+    {
+      "id": "disability-access",
+      "description": "Equal access, reasonable accommodations and accessible services."
+    },
+    {
+      "id": "civil-rights",
+      "description": "Nondiscrimination, equitable treatment and civil-rights processes."
+    },
+    {
+      "id": "continuity-of-care",
+      "description": "Access to appropriate coordinated care and continuity during transitions."
+    },
+    {
+      "id": "records-integrity",
+      "description": "Accurate records, preservation, accessible correction and provenance."
+    },
+    {
+      "id": "caregiver-support",
+      "description": "Practical assistance, confidential caregiver navigation and family support."
+    },
+    {
+      "id": "community-support",
+      "description": "Appropriate community services, voluntary support and referral."
+    },
+    {
+      "id": "professional-ethics",
+      "description": "Clinical ethics, professional responsibility and boundaries of authority."
+    },
+    {
+      "id": "systemic-accountability",
+      "description": "Documented oversight, responsible process improvement and public accountability."
+    },
+    {
+      "id": "accessible-communication",
+      "description": "Accessible written communication, acknowledgment and clear next steps."
+    },
+    {
+      "id": "spiritual-care",
+      "description": "Voluntary pastoral care and spiritual support, independent of complaint adjudication."
+    }
+  ]
+}

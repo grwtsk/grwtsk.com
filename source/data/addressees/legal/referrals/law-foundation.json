@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/referrals/law-foundation",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Law Foundation of Silicon Valley",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "referrals"
+  ],
+  "email": "info@lawfoundation.org",
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "law-foundation",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+      },
+      "record": {
+        "category": "legal",
+        "name": "Law Foundation of Silicon Valley",
+        "area": "Santa Clara County",
+        "source_urls": [
+          "https://www.paloalto.gov/Departments/City-Manager/City-Policy-Initiatives/Human-Services/Information-and-Referral/Legal-Services"
+        ],
+        "purpose": "Legal aid referral including health access; confirm case eligibility.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Law Foundation of Silicon Valley — Privacy Policy contact section",
+      "urls": [
+        "https://www.lawfoundation.org/privacypolicy",
+        "https://www.lawfoundation.org/contactus"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@lawfoundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Organization contact published in privacy policy; legal-service intake is by program phone or online form.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Do not treat as a legal-service intake mailbox."
+    }
+  ]
+}

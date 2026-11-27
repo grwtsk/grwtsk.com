@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/bay-area-friendship-circle",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Bay Area Friendship Circle",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "judyt@bayareafc.org",
+  "scope": [
+    "Palo Alto / Peninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "bay-area-friendship-circle",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/2026-impact-report/"
+      },
+      "record": {
+        "category": "disability",
+        "name": "Bay Area Friendship Circle",
+        "area": "Palo Alto / Peninsula",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/"
+        ],
+        "purpose": "Community inclusion and social support for eligible families.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Friendship Circle official chapter locator — Bay Area Friendship Circle, Palo Alto",
+      "urls": [
+        "https://www.friendshipcircle.com/locations/",
+        "https://www.bayareafc.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "judyt@bayareafc.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published chapter contact for disability inclusion programming for children and teens.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Program scope is children and teens; not an adult healthcare complaint or investigation channel."
+    }
+  ]
+}

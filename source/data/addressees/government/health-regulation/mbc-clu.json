@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-clu",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Complainant Liaison Unit",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-clu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/News/Newsletter/2025-Vol170.aspx",
+        "https://www.mbc.ca.gov/About/Laws/SB815.aspx",
+        "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-1/section-2024-5/"
+      ],
+      "shared_channel_id": "mbc_clu",
+      "record": {
+        "group": "medical_board_units",
+        "role": "Complainant Liaison Unit",
+        "person": null,
+        "source_keys": [
+          "clu",
+          "sb815",
+          "stat20245"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Evaluate request to review complaint closure believed to be erroneous.",
+        "limits": "Internal review, not a guaranteed formal appeal or reopening."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "mbc_clu",
+      "channel": {
+        "url": "https://www.mbc.ca.gov/News/Newsletter/2025-Vol170.aspx",
+        "phone": "916-263-2383",
+        "alternate_phone": "800-633-2322",
+        "kind": "closure_review",
+        "note": "Ask for a written accommodation and private method to submit prior complaint reference and new evidence."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/seiu-2007",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "SEIU Higher Education Workers Local 2007 (United Stanford Workers)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "president@seiu2007.org",
+  "scope": [
+    "Stanford University, Santa Clara University and SLAC National Accelerator Laboratory"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "seiu-2007",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm",
+        "https://www.seiu2007.org/?zone=%2Funionactive%2Fofficers.cfm",
+        "https://www.nlrb.gov/case/32-CA-386112"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "SEIU Higher Education Workers Local 2007 (United Stanford Workers)",
+        "scope": "Stanford University, Santa Clara University and SLAC National Accelerator Laboratory",
+        "source_urls": [
+          "https://www.seiu2007.org/?page=About20Us&zone=%2Funionactive%2Fview_page.cfm",
+          "https://www.seiu2007.org/?zone=%2Funionactive%2Fofficers.cfm",
+          "https://www.nlrb.gov/case/32-CA-386112"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Higher education and research service workers; workplace protections and bargaining.",
+        "limits": "Official website and office directory; use organizational office, not individual member contacts."
+      }
+    },
+    {
+      "source_title": "SEIU Local 2007 — Officers",
+      "urls": [
+        "https://www.seiu2007.org/?zone=%2Funionactive%2Fofficers.cfm"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "president@seiu2007.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published union president role mailbox for union leadership correspondence within its remit.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Role-based address; not an individual member or medical investigation office."
+    }
+  ]
+}

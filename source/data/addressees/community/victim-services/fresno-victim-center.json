@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/fresno-victim-center",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "James Rowland Crime Victim Assistance Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "ProbationVictimServices@fresnocountyca.gov",
+  "scope": [
+    "Fresno County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "fresno-victim-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+        "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+        "phone": "559-600-2822"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "James Rowland Crime Victim Assistance Center",
+        "scope": "Fresno County",
+        "purpose": "Local victim advocate, assistance with compensation and justice-system navigation.",
+        "limits": "Not a substitute for filing an initial police report in the correct jurisdiction.",
+        "source_urls": [
+          "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=fresno",
+          "https://www.fresnoda.org/Victim-Witness-Resources/Victim-Organizations-Providing-Resources"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    },
+    {
+      "source_title": "Fresno County Probation Department — Crime Victim Services, James Rowland Crime Victim Assistance Center",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Probation/Crime-Victim-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ProbationVictimServices@fresnocountyca.gov",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Direct services, referrals and victim assistance inquiries.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. The existing government/victim-services/victim-fresno record lists the same center phone number. Treat as a shared route; do not duplicate the mailbox. Not a substitute for a police report."
+    }
+  ]
+}

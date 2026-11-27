@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-solano",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "solanoda@solanocounty.gov",
+  "scope": [
+    "California / Solano County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Krishna A. Abrams"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-solano",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.solanocounty.com/depts/da/",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.solanocounty.com/depts/da/"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Solano County",
+        "listed_officeholder": "Krishna A. Abrams",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Solano County Directory of Contacts",
+      "urls": [
+        "https://www.solanocounty.gov/county-directory-contacts"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "solanoda@solanocounty.gov",
+      "role": "District Attorney office",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official prosecutorial office inquiries; verify venue and reporting procedure.",
+      "limitations": "Verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ]
+}

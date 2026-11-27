@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/dca-mbc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Department of Consumer Affairs – Medical Board complaint route",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "dca-mbc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dca.ca.gov/consumers/complaints/medbd",
+        "https://www.mbc.ca.gov/Enforcement/"
+      ],
+      "channel": {
+        "kind": "complaint_instructions",
+        "url": "https://dca.ca.gov/consumers/complaints/medbd",
+        "phone": "800-633-2322"
+      },
+      "record": {
+        "level": "state_regulatory",
+        "office": "Department of Consumer Affairs – Medical Board complaint route",
+        "scope": "California",
+        "purpose": "Professional licensing and discipline; route to Medical Board.",
+        "source_urls": [
+          "https://dca.ca.gov/consumers/complaints/medbd",
+          "https://www.mbc.ca.gov/Enforcement/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a separate prosecution; submit facts and evidence to Board."
+      }
+    }
+  ]
+}

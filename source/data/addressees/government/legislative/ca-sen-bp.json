@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-sen-bp",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Business, Professions and Economic Development Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-sen-bp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+        "phone": "916-651-4104"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "Senate Business, Professions and Economic Development Committee",
+        "scope": "California",
+        "purpose": "Professional licensing board oversight, including DCA regulatory boards.",
+        "source_urls": [
+          "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+      }
+    },
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "sen-bp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+        "https://sbp.senate.ca.gov/members",
+        "https://abp.assembly.ca.gov/hearings/joint-sunset-review-oversight-hearings"
+      ],
+      "shared_channel_id": "senbp",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Senate Business, Professions and Economic Development Committee",
+        "person": null,
+        "source_keys": [
+          "senbp",
+          "senbpmembers",
+          "sunset"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Direct legislative oversight and joint sunset review of the Medical Board; review implementation of SB 806 and SB 815.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "senbp",
+      "channel": {
+        "url": "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee",
+        "phone": "916-651-4104",
+        "mail": "1021 O Street, Suite 3320, Sacramento, CA 95814",
+        "kind": "committee_office"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/dca-mbc",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://sbp.senate.ca.gov/committeehome/description-and-jurisdiction-committee"
+      ],
+      "limits": "Not authority to decide licensing cases.",
+      "source": "authority-oversight",
+      "original_from": "ca-sen-bp",
+      "original_to": "dca-mbc"
+    }
+  ]
+}

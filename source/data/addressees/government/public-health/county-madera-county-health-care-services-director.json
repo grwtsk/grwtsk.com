@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-madera-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "Public.Health@maderacounty.com",
+  "scope": [
+    "California / Madera County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-madera-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Madera County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Madera County Department of Public Health — Contact Us and Executive Team",
+      "urls": [
+        "https://www.maderacounty.com/government/public-health",
+        "https://www.maderacounty.com/government/public-health/execteam"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Public.Health@maderacounty.com",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "General departmental contact for routing to Public Health administration. Executive Team lists Sara Bosse as Director.",
+      "limitations": "The email is an institutional department address, not a direct or individual address for the director. Confirm routing and jurisdiction before correspondence. Deliverability not tested. Confirm appropriate remit and avoid transmitting confidential records through ordinary email.",
+      "listed_officeholder": "Sara Bosse"
+    }
+  ],
+  "listed_officeholder": "Sara Bosse"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/crona",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Committee for Recognition of Nursing Achievement (CRONA)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "crona@crona.org",
+  "scope": [
+    "Stanford Health Care and Lucile Packard Children's Hospital"
+  ],
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "crona",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://crona.org/",
+        "https://stanfordhousestaffunion.org/faq/whats-going-on-with-crona/",
+        "https://www.nlrb.gov/case/32-RC-359704",
+        "https://stanforddaily.com/2025/05/14/NURSES-UNION-SECURES-CONTRACT-IMPROVEMENTS-WITH-STANFORD-HOSPITALS/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://crona.org/"
+      },
+      "record": {
+        "type": "stanford_health_labor",
+        "name": "Committee for Recognition of Nursing Achievement (CRONA)",
+        "scope": "Stanford Health Care and Lucile Packard Children's Hospital",
+        "source_urls": [
+          "https://crona.org/",
+          "https://stanfordhousestaffunion.org/faq/whats-going-on-with-crona/",
+          "https://www.nlrb.gov/case/32-RC-359704",
+          "https://stanforddaily.com/2025/05/14/NURSES-UNION-SECURES-CONTRACT-IMPROVEMENTS-WITH-STANFORD-HOSPITALS/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "historical_document_or_public_reporting_reviewed",
+        "purpose": "Registered-nurse representation; safe staffing, patient safety, workplace violence and grievance protections.",
+        "limits": "Official homepage returned HTTP 406. Representation confirmed by public sources; no current email, telephone or officer identity verified."
+      }
+    },
+    {
+      "source_title": "CRONA 2024 Bylaws, cover page; published Stanford Health Care collective bargaining agreement",
+      "urls": [
+        "https://www.crona.org/wp-content/uploads/2024/08/Bylaws-2024_final.pdf",
+        "https://www.crona.org/wp-content/uploads/2022/12/SHC-CRONA-CBA-final-11-22-22.pdf"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "crona@crona.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Union office correspondence regarding nursing representation, working conditions and matters within its remit.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Address is explicit in published PDF text; bylaws screenshot request returned HTTP 404. Confirm current publication and mailbox before use."
+    }
+  ]
+}

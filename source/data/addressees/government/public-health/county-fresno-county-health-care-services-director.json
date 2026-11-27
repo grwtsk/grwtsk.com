@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-fresno-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "dph@fresnocountyca.gov",
+  "scope": [
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-fresno-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Fresno County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "local_support",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "County of Fresno Department of Public Health — News and Media (general Contact Us); CHEAC Members",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Public-Health/News-and-Media",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "dph@fresnocountyca.gov",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Public Health Department general contact mailbox for routing to its administration. CHEAC lists Joe Prado as Director.",
+      "limitations": "This is the department's mailbox, not the director's personal or direct mailbox. It is not the separately listed media address. Confirm whether the matter is within the department's remit. Deliverability not tested. Confirm appropriate remit and avoid transmitting confidential records through ordinary email.",
+      "listed_officeholder": "Joe Prado"
+    }
+  ],
+  "listed_officeholder": "Joe Prado"
+}

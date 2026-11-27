@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/county-marin-county-social-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County social services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "kari.beuerman@marincounty.gov",
+  "scope": [
+    "California / Marin County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-marin-county-social-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County social services director",
+        "jurisdiction": "California / Marin County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, roster dated April 16, 2026, printed page 47",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/?layout=list"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "kari.beuerman@marincounty.gov",
+      "listed_officeholder": "Kari Beuerman",
+      "role": "Human Services Director",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County agency administration and oversight correspondence within its remit.",
+      "limitations": "Source is the publicly posted 2026 CWDA directory; extracted text reviewed, but PDF screenshot unavailable due to file size. Reconfirm current incumbent, mailbox, and remit before use. Retain existing official intake routes; do not submit confidential records or abuse reports through ordinary email. Combined agency roles may share an incumbent; do not duplicate recipients. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Kari Beuerman"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/npr",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "NPR Investigations",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "investigations@npr.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "npr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://help.npr.org/contact/s/article?name=how-do-i-submit-a-confidential-news-tip-to-npr"
+      ],
+      "published_address": "Investigations@npr.org",
+      "channel": {
+        "kind": "investigations_email",
+        "url": "https://help.npr.org/contact/s/article?name=how-do-i-submit-a-confidential-news-tip-to-npr"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "NPR Investigations",
+        "coverage": "National",
+        "source_urls": [
+          "https://help.npr.org/contact/s/article?name=how-do-i-submit-a-confidential-news-tip-to-npr"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Public radio investigations into systemic public-interest issues.",
+        "limitations": "Ordinary email is not encrypted by default."
+      }
+    }
+  ]
+}

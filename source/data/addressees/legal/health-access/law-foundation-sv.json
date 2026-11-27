@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/health-access/law-foundation-sv",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Law Foundation of Silicon Valley – Health Program",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "health-access"
+  ],
+  "email": "healthintake@lawfoundation.org",
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "law-foundation-sv",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.lawfoundation.org/healthresources"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.lawfoundation.org/healthresources"
+      },
+      "record": {
+        "category": "legal_support",
+        "organization": "Law Foundation of Silicon Valley – Health Program",
+        "service_area": "Santa Clara County",
+        "purpose": "Eligibility screening, health and disability-related legal referrals.",
+        "limitations": "Program eligibility includes specified populations; verify before submitting.",
+        "source_urls": [
+          "https://www.lawfoundation.org/healthresources"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "records-integrity"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Law Foundation of Silicon Valley — Health Resources",
+      "urls": [
+        "https://www.lawfoundation.org/healthresources"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "healthintake@lawfoundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Health Program legal screening, limited to its listed eligibility categories and jurisdiction. Confirm eligibility before sending case information.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
+    }
+  ]
+}

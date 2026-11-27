@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-napa-county-health-care-services-director",
+  "addressee_type": "unresolved_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": null,
+  "scope": [
+    "California / Napa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-napa-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Napa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "California DHCS County Program Administrators Directory — Napa County",
+      "urls": [
+        "https://www.dhcs.ca.gov/services/mental-health-services-division-default/california-county-program-administrators-directory/"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-napa-county-social-services-director",
+      "stated_purpose": "DHCS explicitly identifies Jennifer Yasumoto as Health and Human Services Agency Director and publishes the existing county professional address (alongside the new napacounty.gov domain).",
+      "limitations": "Combined agency leadership is an alternative route; separate public health division leadership contact is not established in this record. Recheck the currently preferred domain. Do not treat the parent office as an independently confirmed email for the separate division or send duplicate correspondence."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-napa-county-social-services-director"
+  ]
+}

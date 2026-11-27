@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/east-palo-alto-senior",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "East Palo Alto Senior Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "admin@eastpaloaltoseniorcenter.org",
+  "scope": [
+    "East Palo Alto"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "east-palo-alto-senior",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/2026-impact-report/"
+      },
+      "record": {
+        "category": "aging",
+        "name": "East Palo Alto Senior Center",
+        "area": "East Palo Alto",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/"
+        ],
+        "purpose": "Senior support and community services.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "East Palo Alto Senior Center — About Us and homepage",
+      "urls": [
+        "https://www.eastpaloaltoseniorcenter.org/about",
+        "https://www.eastpaloaltoseniorcenter.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "admin@eastpaloaltoseniorcenter.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published administration mailbox for senior center resource and program inquiries.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested. The page displays the recorded address but its mailto link still points to admin@epaseniorcenter.org. Confirm current mailbox before use."
+    }
+  ]
+}

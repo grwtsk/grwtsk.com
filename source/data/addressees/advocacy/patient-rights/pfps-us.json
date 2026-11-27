@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/pfps-us",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Patients For Patient Safety US",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "info@pfps.us",
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "pfps-us",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pfps.us/",
+        "https://www.pfps.us/partners"
+      ],
+      "channel": {
+        "kind": "voluntary_advocacy",
+        "url": "https://www.pfps.us/"
+      },
+      "record": {
+        "category": "medical_harm",
+        "organization": "Patients For Patient Safety US",
+        "scope": "United States",
+        "purpose": "Patient-led nonprofit addressing preventable healthcare harm, diagnostic safety, and patient participation.",
+        "limits": "No authority to investigate individual allegations; use organization-level participation route.",
+        "source_urls": [
+          "https://www.pfps.us/",
+          "https://www.pfps.us/partners"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    },
+    {
+      "source_title": "Patients For Patient Safety US — Contact Us",
+      "urls": [
+        "https://www.pfps.us/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@pfps.us",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational and patient safety advocacy inquiries.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

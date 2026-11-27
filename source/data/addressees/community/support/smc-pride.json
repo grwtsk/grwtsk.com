@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/smc-pride",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Mateo County Pride Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@sanmateopride.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "smc-pride",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "equity",
+        "name": "San Mateo County Pride Center",
+        "area": "San Mateo County",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "LGBTQ+ community support; only for relevant needs.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "San Mateo County Pride Center — Contact Us",
+      "urls": [
+        "https://sanmateopride.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@sanmateopride.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational inquiries and information. Use only for needs relevant to the center's services.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

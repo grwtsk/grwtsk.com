@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-ethics/stanford-clinical-ethics",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Health Care Clinical Ethics Consultation Service",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-ethics"
+  ],
+  "email": "Sbhandari@stanfordhealthcare.org",
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "stanford-clinical-ethics",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/bioethics/service/bedside.html"
+      ],
+      "channel": {
+        "type": "clinical_ethics_consult",
+        "url": "https://med.stanford.edu/bioethics/service/bedside.html"
+      },
+      "record": {
+        "category": "clinical_ethics",
+        "organization": "Stanford Health Care Clinical Ethics Consultation Service",
+        "service_area": "Stanford Health Care",
+        "purpose": "Patient or family may request ethical consultation concerning current patient care decisions.",
+        "limitations": "Internal consult, not disciplinary investigation or a substitute for Patient Relations or independent regulators.",
+        "source_urls": [
+          "https://med.stanford.edu/bioethics/service/bedside.html"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "professional-ethics",
+          "patient-safety",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "clinical_ethics_consult_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_clinical_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://stanfordhealthcare.org/health-care-professionals/medical-staff/leadership-and-medical-staff-committees/medical-staff-committees.html",
+        "https://med.stanford.edu/bioethics/service/bedside.html"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "Sbhandari@stanfordhealthcare.org",
+      "published_contact_person": "Sheena Bhandari",
+      "role": "Administrative liaison, Stanford Health Care Ethics Committee",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative routing inquiries only; retain pager-based bedside consultation and secure patient-relations channels.",
+      "limitations": "Official medical staff committee page publishes this liaison address under Ethics. The bedside consultation page still designates the pager as the consultation request route. The liaison is not a clinician or an independent investigator; no claim that ordinary email initiates a clinical consultation. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

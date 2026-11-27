@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-tuolumne-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cao@tuolumnecounty.ca.gov",
+  "scope": [
+    "California / Tuolumne County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-tuolumne-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Tuolumne County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Tuolumne County staff directory",
+      "urls": [
+        "https://tuolumnecounty.ca.gov/m/directory"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cao@tuolumnecounty.ca.gov",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County administration office inquiries.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

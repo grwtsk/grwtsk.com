@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-calaveras-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "crodriguez@calaverascounty.gov",
+  "scope": [
+    "California / Calaveras County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-calaveras-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Calaveras County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "California Department of Public Health — CD Controllers; Calaveras County Public Health",
+      "urls": [
+        "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/CD-Controllers.aspx",
+        "https://publichealth.calaverasgov.us/Public-Health/edgpid/537/edgmid/8683",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "crodriguez@calaverascounty.gov",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Professional email published by the state in communicable-disease coordination directory for the person identified by the county as its Public Health Director.",
+      "limitations": "The publication context is disease coordination, not general complaint intake. Use county-designated public contact channels for unrelated matters. Confirm jurisdiction, current channel and appropriate remit. Do not send confidential records by ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Colleen H. Rodriguez"
+    }
+  ],
+  "listed_officeholder": "Colleen H. Rodriguez"
+}

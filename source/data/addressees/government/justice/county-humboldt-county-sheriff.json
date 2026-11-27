@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-humboldt-county-sheriff",
+  "addressee_type": "unresolved_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "California / Humboldt County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-humboldt-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Humboldt County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    }
+  ]
+}

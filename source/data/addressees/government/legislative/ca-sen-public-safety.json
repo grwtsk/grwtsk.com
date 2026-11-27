@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-sen-public-safety",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California Senate Public Safety Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-sen-public-safety",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://spsf.senate.ca.gov/committeehome"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://spsf.senate.ca.gov/committeehome",
+        "phone": "916-651-4118"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "California Senate Public Safety Committee",
+        "scope": "California",
+        "purpose": "Legislative policy concerning Penal Code and criminal procedure.",
+        "source_urls": [
+          "https://spsf.senate.ca.gov/committeehome"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use designated committee channel, not staff inboxes; policy oversight only."
+      }
+    }
+  ]
+}

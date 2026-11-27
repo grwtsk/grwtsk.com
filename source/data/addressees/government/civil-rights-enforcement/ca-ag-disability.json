@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/ca-ag-disability",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California DOJ Disability Rights Bureau",
+  "aliases": [
+    "California Attorney General – Disability Rights Bureau"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "disabilityrights@doj.ca.gov",
+  "scope": [
+    "California",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-ag-disability",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "published_address": "DisabilityRights@doj.ca.gov",
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://www.oag.ca.gov/civil/disability-rights"
+      },
+      "record": {
+        "level": "state_enforcement",
+        "office": "California DOJ Disability Rights Bureau",
+        "scope": "California",
+        "purpose": "Review evidence of systemic disability discrimination or pattern/practice.",
+        "source_urls": [
+          "https://www.oag.ca.gov/civil/disability-rights"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Individual complaints go to CRD; bureau does not handle isolated violations or matters against state-level public entities."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "ca-ag-disability",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "channel": {
+        "kind": "official_website",
+        "url": "https://www.oag.ca.gov/civil/disability-rights"
+      },
+      "record": {
+        "role": "California Attorney General – Disability Rights Bureau",
+        "jurisdiction": "California",
+        "source": [
+          "https://www.oag.ca.gov/civil/disability-rights"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Systemic or pattern-and-practice issues; individual complaints go to CRD."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/civil-rights-enforcement/crd",
+      "relation": "individual_complaint_referral",
+      "basis": [
+        "https://www.oag.ca.gov/civil/disability-rights"
+      ],
+      "limits": "Not supervisory relationship",
+      "source": "authority-oversight",
+      "original_from": "ca-ag-disability",
+      "original_to": "crd"
+    }
+  ]
+}

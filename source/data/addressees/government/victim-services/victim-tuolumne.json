@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-tuolumne",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "da-victimwitness@tuolumnecounty.ca.gov",
+  "scope": [
+    "California / Tuolumne County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-tuolumne",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "209-588-5440",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Tuolumne County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "statewide_reference_only",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Tuolumne County District Attorney — Victim Witness Assistance Center",
+      "urls": [
+        "https://tuolumnecounty.ca.gov/166/District-Attorney"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "da-victimwitness@tuolumnecounty.ca.gov",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Victim and witness support and relevant service inquiries.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

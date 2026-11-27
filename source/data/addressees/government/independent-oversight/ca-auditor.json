@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/independent-oversight/ca-auditor",
+  "addressee_type": "organizational_or_official_route",
+  "name": "California State Auditor",
+  "aliases": [
+    "California State Auditor – improper governmental activity intake"
+  ],
+  "taxonomy": [
+    "government",
+    "independent-oversight"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-auditor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.auditor.ca.gov/contact-us/"
+      ],
+      "channel": {
+        "kind": "hotline_or_office",
+        "url": "https://www.auditor.ca.gov/contact-us/",
+        "phone": "800-952-5665"
+      },
+      "record": {
+        "level": "state_independent_oversight",
+        "office": "California State Auditor",
+        "scope": "California",
+        "purpose": "Possible improper governmental activity or legislatively authorized audit.",
+        "source_urls": [
+          "https://www.auditor.ca.gov/contact-us/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Verify whistleblower jurisdiction; not a general private hospital grievance."
+      }
+    },
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "state-auditor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.auditor.ca.gov/whistleblower/",
+        "https://www.auditor.ca.gov/reports/i2026-1/"
+      ],
+      "shared_channel_id": "auditor",
+      "record": {
+        "group": "independent_oversight",
+        "role": "California State Auditor – improper governmental activity intake",
+        "person": null,
+        "source_keys": [
+          "auditor",
+          "auditorreport"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Report evidence of improper state agency activity including gross incompetence, inefficiency or unlawful conduct.",
+        "limits": "Confidential review; no enforcement power, no guarantee of investigation or case reopening."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "auditor",
+      "channel": {
+        "url": "https://www.auditor.ca.gov/whistleblower/",
+        "phone": "800-952-5665",
+        "kind": "improper_government_activity_tip"
+      }
+    }
+  ]
+}

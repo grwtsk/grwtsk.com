@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/abc30",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ABC30 / KFSN-TV",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "kfsndesk@abc.com",
+  "scope": [
+    "Fresno, Visalia, Merced and Central Valley"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "abc30",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abc30.com/tag/contact/"
+      ],
+      "channel": {
+        "kind": "tip_form_directory",
+        "url": "https://abc30.com/tag/contact/"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "ABC30 / KFSN-TV",
+        "coverage": "Fresno, Visalia, Merced and Central Valley",
+        "source_urls": [
+          "https://abc30.com/tag/contact/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local public safety and healthcare news.",
+        "limitations": "Linked tip form has broad usage terms for videos/photos; do not upload confidential evidence by default.",
+        "shared_network": "abc-owned-stations"
+      }
+    },
+    {
+      "source_title": "ABC30 Action News verified YouTube channel — Report a story; station contact page",
+      "urls": [
+        "https://www.youtube.com/channel/UCEs-K_xio8n6PKKbTCZpaSA",
+        "https://abc30.com/tag/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "kfsndesk@abc.com",
+      "role": "ABC30 / KFSN-TV",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Local newsroom story ideas and news tips.",
+      "limitations": "The verified station channel publishes this address; station website also provides a news-tip form. Not a confidential source channel. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

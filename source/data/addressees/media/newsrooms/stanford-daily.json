@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/stanford-daily",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Stanford Daily",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news@stanforddaily.com",
+  "scope": [
+    "Stanford community"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "stanford-daily",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanforddaily.com/TIPS/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://stanforddaily.com/TIPS/",
+        "signal": "917-863-0019"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "The Stanford Daily",
+        "coverage": "Stanford community",
+        "source_urls": [
+          "https://stanforddaily.com/TIPS/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Campus governance, medicine and institutional accountability.",
+        "limitations": "Confidential tip instructions; ordinary email and web forms are not equivalent to encrypted messaging."
+      }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://stanforddaily.com/submitting-to-the-daily/",
+        "https://stanforddaily.com/tips/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "news@stanforddaily.com",
+      "role": "News section mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Non-sensitive Stanford-related news inquiries and submissions to the News section.",
+      "limitations": "Official submission guide explicitly lists the news-section mailbox; current tips page separately describes confidential tip routes and does not expose its literal email in retrieved text. Reconfirm current publication. Use the dedicated secure channel for sensitive material. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
+    }
+  ]
+}

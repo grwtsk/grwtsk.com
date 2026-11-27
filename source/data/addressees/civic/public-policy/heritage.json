@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/heritage",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Heritage Foundation — health policy",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "heritage",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://solutions.heritage.org/entitlements/health-care/"
+      ],
+      "channel": {
+        "kind": "policy_information",
+        "url": "https://solutions.heritage.org/entitlements/health-care/"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "The Heritage Foundation — health policy",
+        "service_area": "National",
+        "purpose": "Conservative public policy perspectives on healthcare; information page, not individual complaint intake.",
+        "source_urls": [
+          "https://solutions.heritage.org/entitlements/health-care/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

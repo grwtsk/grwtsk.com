@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-san-mateo-county-counsel",
+  "addressee_type": "named_public_office",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "jnibbelin@smcgov.org",
+  "scope": [
+    "California / San Mateo County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-mateo-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / San Mateo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Mateo County Attorney — Contact, County Counsel/County Attorney",
+      "urls": [
+        "https://www.smcgov.org/countyattorney/contact"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "jnibbelin@smcgov.org",
+      "listed_officeholder": "John D. Nibbelin",
+      "role": "County Counsel/County Attorney",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County government legal affairs within the office's remit; county counsel represents the county, not individual members of the public.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a substitute for designated complaint, crime-reporting, legal filing or client intake procedures. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "John D. Nibbelin"
+}

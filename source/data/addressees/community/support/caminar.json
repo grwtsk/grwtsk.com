@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/caminar",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Caminar",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@caminar.org",
+  "scope": [
+    "San Mateo County and Bay Area"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "caminar",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "community_support",
+        "name": "Caminar",
+        "area": "San Mateo County and Bay Area",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Behavioral health and community support; program-specific eligibility.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Caminar — Contact and general questions",
+      "urls": [
+        "https://www.caminar.org/contact",
+        "https://www.caminar.org/donate"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@caminar.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational inquiries; services require designated appointments or intake, not an emergency channel.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

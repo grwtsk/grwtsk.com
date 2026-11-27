@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-yolo",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "yolo.aps@yolocounty.org",
+  "scope": [
+    "California / Yolo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-yolo",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Yolo County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "Yolo County Adult Protective Services service directory",
+      "urls": [
+        "https://www.yolocounty.gov/Home/Components/ServiceDirectory/ServiceDirectory/94/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "yolo.aps@yolocounty.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published APS service contact; use the designated reporting procedure for abuse reports, not ordinary email for confidential details.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

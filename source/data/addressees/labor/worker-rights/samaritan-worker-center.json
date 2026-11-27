@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/samaritan-worker-center",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Samaritan House Worker Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "info@samaritanhousesanmateo.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "samaritan-worker-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cityofsanmateo.org/3322/Worker-Resource-Center",
+        "https://samaritanhousesanmateo.org/service/worker-resource-center/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.cityofsanmateo.org/3322/Worker-Resource-Center"
+      },
+      "record": {
+        "type": "regional_worker_support",
+        "name": "Samaritan House Worker Resource Center",
+        "scope": "San Mateo County",
+        "source_urls": [
+          "https://www.cityofsanmateo.org/3322/Worker-Resource-Center",
+          "https://samaritanhousesanmateo.org/service/worker-resource-center/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Community worker services and legal resource referral.",
+        "limits": "Published hiring number is not a complaint line; no number replicated for other purposes."
+      }
+    },
+    {
+      "source_title": "Samaritan House — Need Help? and Worker Resource Center",
+      "urls": [
+        "https://samaritanhousesanmateo.org/find-help/",
+        "https://samaritanhousesanmateo.org/service/worker-resource-center/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@samaritanhousesanmateo.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Parent organization general help and resource-navigation mailbox, including the Worker Resource Center among its services.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. Worker Resource Center itself directs hiring inquiries to its phone line; this is not a dedicated center address."
+    }
+  ]
+}

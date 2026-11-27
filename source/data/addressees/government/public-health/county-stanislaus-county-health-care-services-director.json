@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-stanislaus-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "hduvall@schsa.org",
+  "scope": [
+    "California / Stanislaus County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-stanislaus-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Stanislaus County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Stanislaus County September 12, 2023 board agenda item 5.B.4, grant agreement page 2; current county biography",
+      "urls": [
+        "https://www.stancounty.com/bos/agenda/2023/20230912/B04.pdf",
+        "https://www.stancounty.com/news-room/bios/hsa.shtm"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "hduvall@schsa.org",
+      "listed_officeholder": "Heather Duvall",
+      "role": "Managing Director, Health Services Agency",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official public agency correspondence within the role's remit.",
+      "limitations": "Confirm current role, channel, jurisdiction and mailbox currency before use. Deliverability not tested. Retain existing reporting procedures; do not send sensitive material through ordinary outreach email. Email published in prior role and grant contact; recheck after transition."
+    }
+  ],
+  "listed_officeholder": "Heather Duvall"
+}

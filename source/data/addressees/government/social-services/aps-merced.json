@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-merced",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "feliza.gray@countyofmerced.com",
+  "scope": [
+    "California / Merced County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-merced",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Merced County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "CWDA 2026 Directory, April 16, 2026 roster, printed page 53; relevant county source",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://www.countyofmerced.com/1480/Adult-Protective-Services"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "feliza.gray@countyofmerced.com",
+      "published_contact_person": "Feliza Gray",
+      "role": "Deputy Director, Adult Services and Area Agency on Aging",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit.",
+      "limitations": "2026 roster identifies the adult-services deputy director; official APS page retains separate reporting routes. April 16, 2026 CWDA directory text reviewed; page-image retrieval failed (file-size limit or HTTP 403). Reconfirm current incumbent and mailbox before use. Retain official reporting procedures; this is not a designated abuse-report intake address. Do not transmit confidential records through ordinary email. Reconfirm current remit, publication and deliverability before use; deliverability not tested."
+    }
+  ]
+}

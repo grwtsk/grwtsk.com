@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-ventura-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "tiffany.north@venturacounty.gov",
+  "scope": [
+    "California / Ventura County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-ventura-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Ventura County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published county office and professional contact evidence",
+      "urls": [
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/228068",
+        "https://www.vencolawlib.org/about-us/board-and-meeting-minutes/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "tiffany.north@venturacounty.gov",
+      "published_contact_person": "Tiffany Nicole North",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administrative correspondence within documented jurisdiction and office remit.",
+      "limitations": "State Bar profile publishes professional county-domain address; current Ventura County Law Library Board roster identifies North as County Counsel. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm role, mailbox and remit before use. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Tiffany Nicole North"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-plumas",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "koribouma@countyofplumas.com",
+  "scope": [
+    "California / Plumas County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-plumas",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "530-283-6285",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Plumas County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "statewide_reference_only",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Plumas County Staff Directory — Victim / Witness Advocates",
+      "urls": [
+        "https://www.plumascounty.us/m/directory/department?did=43"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "koribouma@countyofplumas.com",
+      "role": "County victim/witness assistance",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Victim/Witness Advocates program director; program inquiries and victim support.",
+      "limitations": "Statewide reference only; no case-specific jurisdiction established. Not a police report channel. Do not send confidential records through ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Kori Bouma"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-contra-costa-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "info@cchealth.org",
+  "scope": [
+    "California / Contra Costa County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-contra-costa-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Contra Costa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Contra Costa Health — About Contra Costa Health",
+      "urls": [
+        "https://www.cchealth.org/about-contra-costa-health",
+        "https://www.cchealth.org/about-contra-costa-health/contact-cch"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@cchealth.org",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Official general questions and comments mailbox for the health department.",
+      "limitations": "Department mailbox, not a direct director address. Do not use for urgent medical matters or private medical records. Deliverability not tested. Confirm remit before correspondence."
+    }
+  ]
+}

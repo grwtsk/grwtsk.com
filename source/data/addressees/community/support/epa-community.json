@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/epa-community",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "City of East Palo Alto – Community Programs",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "commservices@cityofepa.org",
+  "scope": [
+    "East Palo Alto"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "epa-community",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      ],
+      "channel": {
+        "type": "community_resource_referral",
+        "url": "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      },
+      "record": {
+        "category": "community_services",
+        "organization": "City of East Palo Alto – Community Programs",
+        "service_area": "East Palo Alto",
+        "purpose": "Local community services and referrals.",
+        "limitations": "Directory does not imply city endorsement of listed organizations; not an investigative body.",
+        "source_urls": [
+          "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "community-support",
+          "disability-access"
+        ],
+        "contact_policy": {
+          "purpose": "service_navigation",
+          "disclosure": "minimal",
+          "action": "verify_service_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Published institutional or public-service directory contact",
+      "urls": [
+        "https://www.cityofepa.org/communityprograms",
+        "https://www.cityofepa.org/parksrec/page/2026-summer-park-activation",
+        "https://www.cityofepa.org/communityprograms/page/services-seniors-0"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "commservices@cityofepa.org",
+      "role": "City of East Palo Alto Community Services and Recreation Division",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Public community program, senior services and recreation inquiries.",
+      "limitations": "Official city search-indexed pages explicitly publish the address; direct retrieval was blocked by robots.txt. This is a community-service contact, not an investigative authority. Reconfirm current mailbox and scope before use. Deliverability not tested."
+    }
+  ]
+}

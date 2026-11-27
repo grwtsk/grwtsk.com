@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/crd-accommodations",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Civil Rights Department accessibility assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "accommodations@calcivilrights.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "crd-accommodations",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calcivilrights.ca.gov/contactus/"
+      ],
+      "channel": {
+        "kind": "official_office_email",
+        "url": "https://calcivilrights.ca.gov/contactus/",
+        "phone": "844-541-2877"
+      },
+      "record": {
+        "level": "state_enforcement",
+        "office": "California Civil Rights Department accessibility assistance",
+        "scope": "California",
+        "purpose": "Request accessible communication and assistance with complaint process.",
+        "source_urls": [
+          "https://calcivilrights.ca.gov/contactus/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not an independent complaint or duplicate case."
+      }
+    }
+  ]
+}

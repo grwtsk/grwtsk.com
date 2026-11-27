@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/senate-help",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Health, Education, Labor and Pensions Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "senate-help",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.help.senate.gov/about/",
+        "https://www.help.senate.gov/about/issues",
+        "https://www.help.senate.gov/"
+      ],
+      "channel": {
+        "kind": "committee_directory",
+        "url": "https://www.help.senate.gov/about/"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "Senate Health, Education, Labor and Pensions Committee",
+        "scope": "United States",
+        "purpose": "Health, public welfare, disability and HHS oversight; chair and ranking member listed on source.",
+        "source_urls": [
+          "https://www.help.senate.gov/about/",
+          "https://www.help.senate.gov/about/issues",
+          "https://www.help.senate.gov/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Committee policy inquiry, not a casework or medical complaint office."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/public-administration/hhs-secretary",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://www.help.senate.gov/about/issues"
+      ],
+      "limits": "Policy and oversight, not individual case direction.",
+      "source": "authority-oversight",
+      "original_from": "senate-help",
+      "original_to": "hhs-secretary"
+    }
+  ]
+}

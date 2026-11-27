@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-mono",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California / Mono County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-mono",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "760-924-1710",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Mono County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "statewide_reference_only",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Official institutional contact or alternate route",
+      "urls": [
+        "https://monocounty.ca.gov/1886/VictimWitness-Program"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/justice/da-mono",
+      "stated_purpose": "The Victim/Witness Program page lists the existing District Attorney contact email; separate program email not established.",
+      "limitations": "Preserve dedicated program route and confirm applicability. Do not duplicate the canonical email or count it as a newly acquired address."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/da-mono"
+  ]
+}

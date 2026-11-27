@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-santa-clara",
+  "addressee_type": "named_public_office",
+  "name": "Santa Clara County District Attorney",
+  "aliases": [
+    "County district attorney"
+  ],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County",
+    "California / Santa Clara County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Jeffrey F. Rosen",
+    "Jeffrey Rosen"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "da-santa-clara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://da.santaclaracounty.gov/faq/attorney-directory"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "url": "https://da.santaclaracounty.gov/faq/attorney-directory",
+        "phone": "408-299-3099"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "Santa Clara County District Attorney",
+        "scope": "Santa Clara County",
+        "purpose": "Prosecutorial review or guidance after report to law enforcement; confirm venue.",
+        "source_urls": [
+          "https://da.santaclaracounty.gov/faq/attorney-directory"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Jeffrey F. Rosen",
+        "limits": "Official directory distinguishes DA and victim services; 408-295-2656 is victim services, not DA main number."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-santa-clara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://da.santaclaracounty.gov/home",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://da.santaclaracounty.gov/home"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Santa Clara County",
+        "listed_officeholder": "Jeffrey Rosen",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "documented_stanford_location",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/victim-services/victim-santa-clara",
+      "relation": "victim_services_unit",
+      "basis": [
+        "https://da.santaclaracounty.gov/victim-services"
+      ],
+      "limits": "Local support",
+      "source": "authority-oversight",
+      "original_from": "da-santa-clara",
+      "original_to": "victim-santa-clara"
+    }
+  ]
+}

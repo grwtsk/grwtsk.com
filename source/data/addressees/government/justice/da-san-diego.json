@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-san-diego",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "SanDiegoDA@sdcda.org",
+  "scope": [
+    "California / San Diego County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Summer Stephan"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-san-diego",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sdcda.org/",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.sdcda.org/"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / San Diego County",
+        "listed_officeholder": "Summer Stephan",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "San Diego Registrar of Voters — Directory of Public Officials, page 9",
+      "urls": [
+        "https://www.sdvote.com/content/dam/rov/en/election/directory-of-public-officials.pdf#page=9"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "SanDiegoDA@sdcda.org",
+      "listed_officeholder": "Summer Stephan",
+      "role": "District Attorney office",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official prosecutorial office inquiries; verify venue and designated reporting procedure.",
+      "limitations": "Verify current officeholder, jurisdiction, and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Summer Stephan"
+}

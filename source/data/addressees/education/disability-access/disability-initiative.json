@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/disability-initiative",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Disability Initiative",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": "disability.access@stanford.edu",
+  "scope": [
+    "Stanford University"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "disability-initiative",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oae.stanford.edu/stanford-disability-organizations"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://oae.stanford.edu/stanford-disability-organizations"
+      },
+      "record": {
+        "type": "campus_disability_policy",
+        "name": "Stanford Disability Initiative",
+        "scope": "Stanford University",
+        "source_urls": [
+          "https://oae.stanford.edu/stanford-disability-organizations"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Campus accessibility and inclusion",
+        "limits": "Official directory reference only; no member identities, direct listservs, or private group access."
+      }
+    },
+    {
+      "source_title": "Intellectual and Developmental Disability at Stanford — Stanford Resources & Opportunities, Stanford Disability Initiative",
+      "urls": [
+        "https://stanfordidd.stanford.edu/stanford-resources-opportunities-0",
+        "https://oae.stanford.edu/stanford-disability-organizations"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "disability.access@stanford.edu",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Published contact for the Stanford Disability Initiative, focused on disability inclusion and education.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. This is the program contact printed by Stanford; not an independent complaint or medical oversight mailbox."
+    }
+  ]
+}

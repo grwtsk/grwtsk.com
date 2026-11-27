@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/u-adult-contact",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Neurology clinic and physician referral service",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "u-adult-contact",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://neurology.ucsf.edu/clinics"
+      ],
+      "channel": {
+        "kind": "clinical_appointment_phone",
+        "url": "https://neurology.ucsf.edu/clinics",
+        "phone": "415-353-2273"
+      },
+      "record": {
+        "institution": "UCSF",
+        "name": "Neurology clinic and physician referral service",
+        "type": "clinical_referral",
+        "source_urls": [
+          "https://neurology.ucsf.edu/clinics"
+        ],
+        "purpose": "General clinic appointment and clinical referral navigation.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Directory navigation and appropriate care referral or designated leadership routing only; not a separate complaint recipient."
+      }
+    }
+  ]
+}

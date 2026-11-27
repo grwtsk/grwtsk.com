@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-del-norte",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "victimwitness@co.del-norte.ca.us",
+  "scope": [
+    "California / Del Norte County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-del-norte",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "707-464-7273",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Del Norte County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "County of Del Norte — Departments, Victim Witness",
+      "urls": [
+        "https://www.co.del-norte.ca.us/departments/emergency-services"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "victimwitness@co.del-norte.ca.us",
+      "role": "County victim/witness assistance",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Victim/Witness Assistance Center, operated by the district attorney; support for victims and witnesses.",
+      "limitations": "Department listing identifies program and contact. Historical affiliation requires recheck; no present jurisdiction established. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

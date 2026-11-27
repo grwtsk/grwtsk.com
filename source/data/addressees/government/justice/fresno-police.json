@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/fresno-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Fresno Police Department",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "City of Fresno"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "fresno-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.fresno.gov/police/police-online-reporting-system/"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.fresno.gov/police/police-online-reporting-system/",
+        "phone": "559-621-7000"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "Fresno Police Department",
+        "scope": "City of Fresno",
+        "purpose": "Report local criminal conduct only; seek jurisdictional guidance if uncertain.",
+        "source_urls": [
+          "https://www.fresno.gov/police/police-online-reporting-system/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Fresno residency alone does not establish venue for Bay Area conduct."
+      }
+    }
+  ]
+}

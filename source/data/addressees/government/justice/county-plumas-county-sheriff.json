@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-plumas-county-sheriff",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "sheriff@countyofplumas.com",
+  "scope": [
+    "California / Plumas County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-plumas-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Plumas County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://www.plumascounty.us/m/directory/department?did=38",
+        "https://plumascounty.us/587/SheriffCoroner"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "sheriff@countyofplumas.com",
+      "role": "Plumas County Sheriff/Coroner general office mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General office inquiries within county jurisdiction; not emergency or formal crime-report intake.",
+      "limitations": "Official department contact page and staff directory independently display the same general office email. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Articles
+
+Each published letter has a stable slug directory containing `article.md`, `status.md`, `in/` (actual received responses) and `out/` (public-safe unsent email drafts). The static site reads `in/` but never `out/`; a draft is not a send. Keep only these four entries in each article directory. Derive writing objectives from `article.md`; recipient-specific context is generated from the article and the relevant [addressee leaf](../addressees/README.md). Do not maintain separate research manifests or context packages in the article directory. See the [data guide](../README.md) for the article format and data layout.

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-lassen-county-sheriff",
+  "addressee_type": "named_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "sheriff@co.lassen.ca.us",
+  "scope": [
+    "California / Lassen County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-lassen-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Lassen County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Superior Court of California, County of Lassen — Domestic Violence Restraining Orders, community resources; Lassen County Chamber of Commerce law enforcement directory",
+      "urls": [
+        "https://www.lassen.courts.ca.gov/self-help/restraining-orders/domestic-violence",
+        "https://www.lassencountychamber.org/newpage2693e7cb"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "sheriff@co.lassen.ca.us",
+      "role": "County sheriff",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Sheriff's Office general contact as published in official court directory.",
+      "limitations": "Not dispatch, emergency response, or a substitute for filing a crime report. No case-specific jurisdiction inferred from this record. Verify current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

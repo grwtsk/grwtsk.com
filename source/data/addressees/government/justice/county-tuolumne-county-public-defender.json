@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-tuolumne-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "sgross@co.tuolumne.ca.us",
+  "scope": [
+    "California / Tuolumne County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-tuolumne-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Tuolumne County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published public defender office and professional contact evidence",
+      "urls": [
+        "https://www.tuolumnecounty.ca.gov/432/Public-Defender",
+        "https://www.tuolumnecounty.ca.gov/433/Meet-the-Attorneys",
+        "https://www.tuolumnecounty.ca.gov/bids.aspx?bidID=514"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "sgross@co.tuolumne.ca.us",
+      "published_contact_person": "Scott Gross",
+      "role": "Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Historical professional contact; confirm current administrative routing before use",
+      "limitations": "Current county department and attorney biography identify incumbent. Closed July 2021 procurement posting publishes professional email; not a current general intake designation. Reconfirm mailbox and suitable administrative contact purpose before any use. Public defenders provide representation within statutory or contracted remit and eligibility; no medical-grievance investigation or general civil intake authority is established. Do not transmit confidential material through ordinary email. Confirm role, mailbox, jurisdiction and channel purpose. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Scott Gross"
+}

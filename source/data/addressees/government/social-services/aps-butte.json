@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-butte",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "eupton@buttecounty.net",
+  "scope": [
+    "California / Butte County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-butte",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Butte County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, roster dated April 16, 2026, printed page 9",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/?layout=list"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "eupton@buttecounty.net",
+      "published_contact_person": "Emily Upton",
+      "role": "Program Manager, IHSS and Adult Protective Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Program-level Adult Protective Services contact listed in the professional directory; not a substitute for the statutory abuse-reporting channel.",
+      "limitations": "Source is the publicly posted 2026 CWDA directory; extracted text reviewed, but PDF screenshot unavailable due to file size. Reconfirm current incumbent, mailbox, and remit before use. Retain existing official intake routes; do not submit confidential records or abuse reports through ordinary email. Combined agency roles may share an incumbent; do not duplicate recipients. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-modoc-county-counsel",
+  "addressee_type": "unresolved_public_office",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "California / Modoc County",
+    "statewide_reference_only"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-modoc-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Modoc County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Modoc County Counsel official department page",
+      "urls": [
+        "https://www.countyofmodoc.gov/699/County-Counsel"
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/county-glenn-county-counsel",
+      "role": "Contracted County Counsel",
+      "limitations": "Official Modoc County page names Margaret Long and links her firm. Existing Glenn record contains the same counsel's published professional address. Verify Modoc-specific remit and use the canonical mailbox without duplicating the email field. Separate county office mailbox not established."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/county-glenn-county-counsel"
+  ],
+  "listed_officeholder": "Margaret Long"
+}

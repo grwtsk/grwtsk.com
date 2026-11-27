@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-tehama-county-counsel",
+  "addressee_type": "unresolved_public_office",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "California / Tehama County",
+    "statewide_reference_only"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-tehama-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Tehama County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Tehama County Board of Supervisors contract history",
+      "urls": [
+        "https://tehamacounty.legistar.com/LegislationDetail.aspx?FullText=1&GUID=B244BCC7-07B1-4509-A931-E5DB58D4C49D&ID=7036772&Options=&Search="
+      ],
+      "source_review_date": "2026-11-25",
+      "shared_route_ref": "addressee:government/justice/county-glenn-county-counsel",
+      "role": "Contracted County Counsel",
+      "limitations": "County board record documents appointment under the four-year contract approved June 27, 2023. Confirm continued appointment and county-specific remit. Use existing canonical published professional mailbox without duplication; separate Tehama office email not established."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/county-glenn-county-counsel"
+  ],
+  "listed_officeholder": "Margaret E. Long"
+}

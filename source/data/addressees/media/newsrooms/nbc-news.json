@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/nbc-news",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "NBC News",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@nbcuni.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "nbc-news",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.nbcnews.com/tips/"
+      ],
+      "channel": {
+        "kind": "news_tip_email_and_secure_options",
+        "url": "https://www.nbcnews.com/tips/"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "NBC News",
+        "coverage": "National",
+        "source_urls": [
+          "https://www.nbcnews.com/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "National reporting on medicine, civil rights and institutions.",
+        "limitations": "General tip inbox; use published secure options for sensitive information.",
+        "shared_network": "nbcuniversal"
+      }
+    }
+  ]
+}

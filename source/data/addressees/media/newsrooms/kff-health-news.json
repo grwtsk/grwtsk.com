@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/kff-health-news",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "KFF Health News",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "newstips@kff.org",
+  "scope": [
+    "National / California"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "kff-health-news",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://kffhealthnews.org/tips/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://kffhealthnews.org/tips/"
+      },
+      "record": {
+        "category": "specialist",
+        "outlet": "KFF Health News",
+        "coverage": "National / California",
+        "source_urls": [
+          "https://kffhealthnews.org/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Healthcare systems, patient safety, medical regulation and civil rights.",
+        "limitations": "NewsTips@kff.org is listed only for secure mail; ordinary story ideas use https://kffhealthnews.org/contact-us/."
+      }
+    },
+    {
+      "source_title": "KFF Health News — Send a Tip",
+      "urls": [
+        "https://kffhealthnews.org/tips/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "newstips@kff.org",
+      "channel_kind": "published_secure_tip_email",
+      "stated_purpose": "Confidential news tips via encrypted email only; general story ideas and reader comments must use the contact form.",
+      "limitations": "Encrypted email only; do not use ordinary email or automated ordinary-email delivery. Use the designated form for general story ideas. Deliverability not tested."
+    }
+  ]
+}

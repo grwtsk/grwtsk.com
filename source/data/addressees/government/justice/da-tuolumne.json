@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-tuolumne",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "da@tuolumnecounty.ca.gov",
+  "scope": [
+    "California / Tuolumne County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Cassandra Jenecke"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-tuolumne",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.tuolumnecounty.ca.gov/166/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.tuolumnecounty.ca.gov/166/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Tuolumne County",
+        "listed_officeholder": "Cassandra Jenecke",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Tuolumne County District Attorney — Criminal Division",
+      "urls": [
+        "https://tuolumnecounty.ca.gov/166/District-Attorney"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "da@tuolumnecounty.ca.gov",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "District Attorney criminal division public office contact.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

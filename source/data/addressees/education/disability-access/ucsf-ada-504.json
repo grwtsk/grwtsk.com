@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/ucsf-ada-504",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "UCSF ADA/504 Compliance Office",
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": "ADA@ucsf.edu",
+  "scope": [
+    "UCSF and UCSF Health"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_title": "UCSF Office of Ethics and Compliance — Reporting Other Complaints",
+      "urls": [
+        "https://compliance.ucsf.edu/reporting-other-complaints"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ADA@ucsf.edu",
+      "channel_kind": "published_official_mailbox",
+      "stated_purpose": "Accessibility and disability accommodation information or consultation.",
+      "limitations": "Consultation is not formal complaint filing; use the appropriate Patient Relations or OPHD route for formal review."
+    }
+  ]
+}

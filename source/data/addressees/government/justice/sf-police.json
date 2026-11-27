@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/sf-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Francisco Police Department",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "San Francisco city/county"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "sf-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sanfranciscopolice.org/get-service/police-reports"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://www.sanfranciscopolice.org/get-service/police-reports",
+        "phone": "415-553-0123"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "San Francisco Police Department",
+        "scope": "San Francisco city/county",
+        "purpose": "Report alleged crime in jurisdiction; contact nonemergency dispatch if not online eligible.",
+        "source_urls": [
+          "https://www.sanfranciscopolice.org/get-service/police-reports"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/consumer-watchdog",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Consumer Watchdog — Healthcare Advocates",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "consumer-watchdog",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://consumerwatchdog.org/meet-the-advocates/",
+        "https://consumerwatchdog.org/contact/"
+      ],
+      "channel": {
+        "kind": "voluntary_advocacy",
+        "url": "https://consumerwatchdog.org/meet-the-advocates/",
+        "phone": "310-392-0522"
+      },
+      "record": {
+        "category": "medical_harm",
+        "organization": "Consumer Watchdog — Healthcare Advocates",
+        "scope": "California",
+        "purpose": "Patient and family volunteer advocacy, Medical Board testimony, and legislative sunset review.",
+        "limits": "Not legal representation; contact the organization rather than individual survivors.",
+        "source_urls": [
+          "https://consumerwatchdog.org/meet-the-advocates/",
+          "https://consumerwatchdog.org/contact/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

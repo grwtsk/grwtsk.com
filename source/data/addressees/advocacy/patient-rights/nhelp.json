@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/nhelp",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "National Health Law Program",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "info@healthlaw.org",
+  "scope": [
+    "California / National"
+  ],
+  "source_status": "published_directory_email_observed_requires_official_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "nhelp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://healthlaw.org/about/contact-us/",
+        "https://healthlaw.org/disability-advocacy/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://healthlaw.org/about/contact-us/",
+        "phone": "310-204-6010"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "National Health Law Program",
+        "service_area": "California / National",
+        "purpose": "Health rights for underserved and low-income people, civil rights and Medicaid policy; referrals via official contact page.",
+        "source_urls": [
+          "https://healthlaw.org/about/contact-us/",
+          "https://healthlaw.org/disability-advocacy/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "National Health Law Program — 2021 resource publication, back cover (PDF page 10, visually inspected); current Contact Us page",
+      "urls": [
+        "https://healthlaw.org/wp-content/uploads/2021/10/NHeLP-EPSDT-Behavioral-Health-Flipbook-for-healthlaworg.pdf",
+        "https://healthlaw.org/about/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@healthlaw.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational inquiries about healthcare rights, legal and policy advocacy; not individual legal case intake.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested. Historical publication establishes address; current site masks its email in retrieved text and directs legal assistance inquiries to other resources. Current address requires recheck."
+    }
+  ]
+}

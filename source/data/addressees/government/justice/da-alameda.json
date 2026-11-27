@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-alameda",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "alcoda@acgov.org",
+  "scope": [
+    "California / Alameda County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Ursula Jones Dickson"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-alameda",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://da.alamedacountyca.gov/",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://da.alamedacountyca.gov/"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Alameda County",
+        "listed_officeholder": "Ursula Jones Dickson",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "documented_stanford_location",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Office of the Alameda County District Attorney — Find Us and Home",
+      "urls": [
+        "https://da.alamedacountyca.gov/find-us/",
+        "https://da.alamedacountyca.gov/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "alcoda@acgov.org",
+      "role": "County district attorney",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official general office mailbox for district attorney correspondence and routing.",
+      "limitations": "Jurisdiction and appropriate procedure must be confirmed; not a substitute for a police report, legal filing, or urgent reporting. Confirm current mailbox and jurisdiction before correspondence; do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

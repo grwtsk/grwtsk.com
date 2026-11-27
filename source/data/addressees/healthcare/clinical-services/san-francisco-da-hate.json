@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/clinical-services/san-francisco-da-hate",
+  "addressee_type": "organizational_or_official_route",
+  "name": "San Francisco DA – bias-related crime victim services",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "clinical-services"
+  ],
+  "email": null,
+  "scope": [
+    "California / San Francisco County",
+    "purpose_specific"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "san-francisco-da-hate",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sfdistrictattorney.org/victim-services/hate-crime/"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://sfdistrictattorney.org/victim-services/hate-crime/"
+      },
+      "record": {
+        "role": "San Francisco DA – bias-related crime victim services",
+        "jurisdiction": "California / San Francisco County",
+        "source": [
+          "https://sfdistrictattorney.org/victim-services/hate-crime/"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "If facts establish local criminal venue; follow official reporting guidance."
+      }
+    }
+  ]
+}

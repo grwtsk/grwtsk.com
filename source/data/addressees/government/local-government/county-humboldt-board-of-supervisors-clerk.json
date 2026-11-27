@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-humboldt-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cob@co.humboldt.ca.us",
+  "scope": [
+    "California / Humboldt County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-humboldt-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Humboldt County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Humboldt County official Board and Commission notices",
+      "urls": [
+        "https://humboldtgov.org/m/NewsFlash?cat=8",
+        "https://www.humboldtgov.org/455/Clerk-of-the-Board"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cob@co.humboldt.ca.us",
+      "role": "Clerk of the Board",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County board procedural, governance and public-record correspondence within the published office remit.",
+      "limitations": "Verify current mailbox and jurisdiction before use. Deliverability not tested. Public correspondence may become a public record; do not transmit private records through ordinary outreach email. Shared clerk address published in 2026 appointment notices; verify remit for other correspondence."
+    }
+  ]
+}

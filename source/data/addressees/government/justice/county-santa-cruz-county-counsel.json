@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-santa-cruz-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "CountyCounsel@santacruzcountyca.gov",
+  "scope": [
+    "California / Santa Cruz County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-santa-cruz-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Santa Cruz County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Santa Cruz County — County Counsel, About Us and contact",
+      "urls": [
+        "https://www.santacruzcountyca.gov/Departments/CountyCounsel.aspx"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "CountyCounsel@santacruzcountyca.gov",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County government legal affairs within the office's remit; county counsel represents the county, not individual members of the public.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a substitute for designated complaint, crime-reporting, legal filing or client intake procedures. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

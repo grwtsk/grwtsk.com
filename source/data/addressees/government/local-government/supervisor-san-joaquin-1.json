@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/supervisor-san-joaquin-1",
+  "addressee_type": "named_public_office",
+  "name": "County supervisor district 1",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "mgardea@sjgov.org",
+  "scope": [
+    "California / San Joaquin County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "supervisor-san-joaquin-1",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County supervisor district 1",
+        "jurisdiction": "California / San Joaquin County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Verify the current district representative; constituent or policy oversight only, not an investigative agency."
+      }
+    },
+    {
+      "source_title": "San Joaquin County Board of Supervisors Office contact page",
+      "urls": [
+        "https://www.sjgov.org/department/bos/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "mgardea@sjgov.org",
+      "listed_officeholder": "Mario Gardea",
+      "role": "County Supervisor, District 1",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Constituent services and local government policy or oversight within the district office's remit.",
+      "limitations": "Verify constituency, current officeholder and issue jurisdiction before use; no private records in ordinary correspondence. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Mario Gardea"
+}

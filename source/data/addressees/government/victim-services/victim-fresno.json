@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-fresno",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-fresno",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "559-600-2822",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Fresno County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "local_support",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Fresno County Probation — Crime Victim Services",
+      "urls": [
+        "https://www.fresnocountyca.gov/Departments/Probation/Crime-Victim-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:community/victim-services/fresno-victim-center",
+      "stated_purpose": "Same James Rowland Crime Victim Assistance Center and telephone number as the canonical community/victim-services/fresno-victim-center record.",
+      "limitations": "Use canonical mailbox only; do not create duplicate recipient or count. Victim assistance, not initial criminal reporting."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:community/victim-services/fresno-victim-center"
+  ]
+}

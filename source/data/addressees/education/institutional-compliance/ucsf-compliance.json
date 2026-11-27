@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/institutional-compliance/ucsf-compliance",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "UCSF Office of Ethics and Compliance – Whistleblower Program",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "institutional-compliance"
+  ],
+  "email": "whistleblower@ucsf.edu",
+  "scope": [
+    "UCSF"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ucsf-compliance",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation"
+      ],
+      "channel": {
+        "kind": "hotline_or_webform",
+        "url": "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation",
+        "phone": "800-403-4744"
+      },
+      "record": {
+        "level": "institutional_compliance",
+        "office": "UCSF Office of Ethics and Compliance – Whistleblower Program",
+        "scope": "UCSF",
+        "purpose": "Improper activities within whistleblower program jurisdiction; triage for appropriate review.",
+        "source_urls": [
+          "https://compliance.ucsf.edu/reporting-whistleblower-whistleblower-retaliation"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Email for questions; use designated hotline/form for complaint. Not ordinary clinical feedback."
+      }
+    }
+  ]
+}

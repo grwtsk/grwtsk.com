@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/cdss-aps",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Department of Social Services – APS statewide routing",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "APS@dss.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "cdss-aps",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "zip_routed_phone",
+        "url": "https://cdss.ca.gov/adult-protective-services",
+        "phone": "833-401-0832"
+      },
+      "record": {
+        "level": "state_social_services",
+        "office": "California Department of Social Services – APS statewide routing",
+        "scope": "California",
+        "purpose": "Route report of suspected current dependent-adult abuse or neglect to competent county.",
+        "source_urls": [
+          "https://cdss.ca.gov/adult-protective-services"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a separate complaint for all counties; use relevant ZIP."
+      }
+    },
+    {
+      "source_title": "Official institutional contact and program evidence",
+      "urls": [
+        "https://www.cdss.ca.gov/portals/9/acl/2020/ACL18-146E%20SOC242%20FINAL%2006-30-20.pdf",
+        "https://www.nevadacountyca.gov/CivicAlerts.aspx?AID=8229",
+        "https://www.cdss.ca.gov/adult-protective-services"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "APS@dss.ca.gov",
+      "role": "CDSS Adult Programs Division — APS program mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "State APS program/policy inquiries, subject to current channel confirmation; not abuse report submission.",
+      "limitations": "All County Letter 18-146E dated June 30, 2020, page four, explicitly publishes address for APS program/policy questions; PDF page image confirmed. Nevada County's May 28, 2025 World Elder Abuse Awareness notice independently publishes same address for event registration, supporting more recent publication but not a new general intake designation. Current statewide APS page continues to route abuse reports by ZIP to the applicable county. Confirm current mailbox and remit before use. Preserve designated secure intake and reporting routes. Deliverability not tested."
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/social-services/aps-fresno",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts.",
+      "source": "authority-oversight",
+      "original_from": "cdss-aps",
+      "original_to": "aps-fresno"
+    },
+    {
+      "to": "addressee:government/social-services/aps-san-francisco",
+      "relation": "statewide_intake_routing",
+      "basis": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "limits": "Route by relevant ZIP and actual facts.",
+      "source": "authority-oversight",
+      "original_from": "cdss-aps",
+      "original_to": "aps-san-francisco"
+    }
+  ]
+}

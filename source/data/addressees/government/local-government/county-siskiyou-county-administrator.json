@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-siskiyou-county-administrator",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "countyadmin@co.siskiyou.ca.us",
+  "scope": [
+    "California / Siskiyou County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-siskiyou-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Siskiyou County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://www.siskiyoucounty.gov/administration/custom-contact-page/county-administration-contact-information",
+        "https://www.siskiyoucounty.gov/administration"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "countyadmin@co.siskiyou.ca.us",
+      "role": "Siskiyou County Administration office mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General county administration inquiries; not an individual CAO direct mailbox.",
+      "limitations": "Official county directory and administration page explicitly list department mailbox and functions. Search index exposes contact; direct domain access restricted by robots.txt. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

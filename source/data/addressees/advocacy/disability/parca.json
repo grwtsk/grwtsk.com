@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/parca",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Partners & Advocates for Remarkable Children & Adults (PARCA)",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "parca@parca.org",
+  "scope": [
+    "Peninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "parca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/2026-impact-report/"
+      },
+      "record": {
+        "category": "disability",
+        "name": "Partners & Advocates for Remarkable Children & Adults (PARCA)",
+        "area": "Peninsula",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/"
+        ],
+        "purpose": "Developmental disability community resources.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "PARCA contact page",
+      "urls": [
+        "https://www.parca.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "parca@parca.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational and developmental disability service inquiries; confirm eligibility.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

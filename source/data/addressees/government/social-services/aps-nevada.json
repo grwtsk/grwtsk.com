@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-nevada",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "Kelly.Carpenter@nevadacountyca.gov",
+  "scope": [
+    "California / Nevada County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-nevada",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Nevada County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16, 2026 roster, printed page 61",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Kelly.Carpenter@nevadacountyca.gov",
+      "published_contact_person": "Kelly Carpenter",
+      "role": "Program Manager, Adult Services, IHSS, APS and Public Guardian",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Published professional contact for the APS program or its supervising Adult Services division; not a designated abuse-reporting mailbox.",
+      "limitations": "April 2026 directory text checked; page image request failed because PDF exceeds viewer size limit. Reconfirm incumbent, mailbox and remit before correspondence. Retain statutory reporting channels. Do not submit confidential records or abuse reports through ordinary email. Combined agencies may share an incumbent; do not duplicate recipients. Deliverability not tested."
+    }
+  ]
+}

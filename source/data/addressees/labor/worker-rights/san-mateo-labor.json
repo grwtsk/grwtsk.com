@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/san-mateo-labor",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Mateo County Central Labor Council",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "smclc@sanmateolabor.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "san-mateo-labor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sanmateolaborcouncil.org/contact-us",
+        "https://calaborfed.org/central-labor-councils/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.sanmateolaborcouncil.org/contact-us",
+        "phone": "650-572-8848"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "San Mateo County Central Labor Council",
+        "scope": "San Mateo County",
+        "source_urls": [
+          "https://www.sanmateolaborcouncil.org/contact-us",
+          "https://calaborfed.org/central-labor-councils/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Regional labor federation and worker policy coordination.",
+        "limits": "For the organization's stated services or voluntary general policy inquiry; not an investigator of the individual medical complaint."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-monterey-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cob@co.monterey.ca.us",
+  "scope": [
+    "California / Monterey County",
+    "documented_stanford_location"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-monterey-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Monterey County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Monterey County Board of Supervisors general contact information",
+      "urls": [
+        "https://www.countyofmonterey.gov/government/board-of-supervisors/general-contact-information"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cob@co.monterey.ca.us",
+      "role": "Clerk of the Board / full Board of Supervisors",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Constituent services and local government policy or oversight within the office's remit.",
+      "limitations": "Verify current officeholder, constituency and issue jurisdiction before use. No private records in ordinary correspondence; deliverability not tested."
+    }
+  ]
+}

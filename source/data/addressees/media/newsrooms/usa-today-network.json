@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/usa-today-network",
+  "addressee_type": "organizational_or_official_route",
+  "name": "USA TODAY NETWORK / Gannett Investigations",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "usa-today-network",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stories.usatodaynetwork.com/contact-us/"
+      ],
+      "channel": {
+        "kind": "public_tip_instructions",
+        "url": "https://stories.usatodaynetwork.com/contact-us/"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "USA TODAY NETWORK / Gannett Investigations",
+        "coverage": "National",
+        "source_urls": [
+          "https://stories.usatodaynetwork.com/contact-us/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "National and regional investigative journalism.",
+        "limitations": "Official page includes legacy GateHouse branding; confirm that specific channels remain active before use.",
+        "shared_network": "gannett"
+      }
+    }
+  ]
+}

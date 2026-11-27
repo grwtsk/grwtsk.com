@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/american-brain-foundation",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "American Brain Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "info@americanbrainfoundation.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "american-brain-foundation",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.americanbrainfoundation.org/contact/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.americanbrainfoundation.org/contact/",
+        "phone": "866-770-7570"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "American Brain Foundation",
+        "service_area": "National",
+        "purpose": "Brain disease research foundation; general resource questions, not medical or legal advice.",
+        "source_urls": [
+          "https://www.americanbrainfoundation.org/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "American Brain Foundation Summer–Fall 2025 Impact Report, back cover (PDF page 8)",
+      "urls": [
+        "https://www.americanbrainfoundation.org/wp-content/uploads/2025/09/ABF_ImpactReport_SummerFall2025.pdf",
+        "https://www.americanbrainfoundation.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@americanbrainfoundation.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General foundation information and research advocacy inquiries; not a clinical or legal advice service.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Address printed in 2025 report; current contact page offers form and telephone. Recheck mailbox currency."
+    }
+  ]
+}

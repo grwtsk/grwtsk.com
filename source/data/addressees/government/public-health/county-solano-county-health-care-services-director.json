@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-solano-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "HSSinfo@solanocounty.gov",
+  "scope": [
+    "California / Solano County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-solano-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Solano County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Solano County Health and Social Services — Administration contact",
+      "urls": [
+        "https://www.solanocounty.gov/government/health-social-services-hss"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "HSSinfo@solanocounty.gov",
+      "listed_officeholder": "Emery Cowan",
+      "role": "Director, Health and Social Services",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public administration and information inquiries to the combined HSS agency; not a personal or complaint-specific mailbox.",
+      "limitations": "Not a medical complaint or emergency reporting mailbox. Confirm jurisdiction and current incumbent before use. Do not transmit private records by ordinary email. Deliverability not tested. This is the published office mailbox, not the individual's email."
+    }
+  ],
+  "listed_officeholder": "Emery Cowan"
+}

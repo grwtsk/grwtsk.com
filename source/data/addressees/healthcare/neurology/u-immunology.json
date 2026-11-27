@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/u-immunology",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Neuroimmunology and Glial Biology",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "u-immunology",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://neurology.ucsf.edu/divisions"
+      ],
+      "channel": {
+        "kind": "department_program_directory",
+        "url": "https://neurology.ucsf.edu/divisions"
+      },
+      "record": {
+        "institution": "UCSF",
+        "name": "Neuroimmunology and Glial Biology",
+        "type": "published_division_or_site",
+        "source_urls": [
+          "https://neurology.ucsf.edu/divisions"
+        ],
+        "purpose": "Locate the appropriate division, administrative office or clinical site; research units are not necessarily clinical services.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Directory navigation and appropriate care referral or designated leadership routing only; not a separate complaint recipient."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/aapd",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "American Association of People with Disabilities",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@aapd.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "aapd",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aapd.com/"
+      ],
+      "channel": {
+        "kind": "organization_information",
+        "url": "https://www.aapd.com/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "American Association of People with Disabilities",
+        "service_area": "National",
+        "purpose": "Cross-disability civil rights, independent living and civic participation.",
+        "source_urls": [
+          "https://www.aapd.com/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "AAPD contact page",
+      "urls": [
+        "https://www.aapd.com/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@aapd.com",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Program, information and referral inquiries.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

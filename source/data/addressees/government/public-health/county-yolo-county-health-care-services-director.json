@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-yolo-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "Brian.Vaughn@yolocounty.org",
+  "scope": [
+    "California / Yolo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-yolo-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Yolo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Yolo County Health Council — published HHSA staff liaison contact",
+      "urls": [
+        "https://www.yolocounty.gov/government/general-government-departments/health-human-services/boards-committees/health-council/-sortn-EName/-toggle-all/-curm-1/-cury-2025/-sortd-desc"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Brian.Vaughn@yolocounty.org",
+      "role": "Public Health Director / Health Council staff liaison",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Public Health Director contact listed for Health Council liaison inquiries.",
+      "limitations": "Publication is in the Health Council liaison context, not general patient complaint intake; Public Health branch leadership is distinct from whole-agency administration. Reconfirm current role and applicable channel. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Do not submit confidential records through ordinary email.",
+      "listed_officeholder": "Brian Vaughn"
+    }
+  ]
+}

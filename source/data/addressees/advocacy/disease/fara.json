@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/fara",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Friedreich's Ataxia Research Alliance",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "info@curefa.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "fara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.curefa.org/get-involved/advocate/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.curefa.org/get-involved/advocate/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Friedreich's Ataxia Research Alliance",
+        "service_area": "National",
+        "purpose": "Friedreich's ataxia research and access to treatments; broader ataxia policy partnerships.",
+        "source_urls": [
+          "https://www.curefa.org/get-involved/advocate/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Friedreich's Ataxia Research Alliance — Contact Us",
+      "urls": [
+        "https://www.curefa.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@curefa.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General inquiries, including treatment access questions. Do not disclose medically sensitive information.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
+    }
+  ]
+}

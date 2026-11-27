@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/supervisor-colusa-3",
+  "addressee_type": "named_public_office",
+  "name": "County supervisor district 3",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "kboes@countyofcolusaca.gov",
+  "scope": [
+    "California / Colusa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "supervisor-colusa-3",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County supervisor district 3",
+        "jurisdiction": "California / Colusa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Verify the current district representative; constituent or policy oversight only, not an investigative agency."
+      }
+    },
+    {
+      "source_title": "colusa County Board of Supervisors — official directory",
+      "urls": [
+        "https://countyofcolusaca.gov/m/directory/department?did=23"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "kboes@countyofcolusaca.gov",
+      "listed_officeholder": "Kent S. Boes",
+      "role": "County Supervisor, District 3",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public office correspondence within the stated county office's jurisdiction.",
+      "limitations": "Published official contact, not a medical complaint intake channel. Confirm current incumbent and jurisdiction; do not include private records in ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Kent S. Boes"
+}

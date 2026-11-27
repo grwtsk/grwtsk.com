@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/ucsf-police",
+  "addressee_type": "organizational_or_official_route",
+  "name": "UCSF Police Department",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": null,
+  "scope": [
+    "UCSF campus jurisdiction"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ucsf-police",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://police.ucsf.edu/report-crime"
+      ],
+      "channel": {
+        "kind": "dispatch_phone",
+        "url": "https://police.ucsf.edu/report-crime",
+        "phone": "415-476-1414"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "UCSF Police Department",
+        "scope": "UCSF campus jurisdiction",
+        "purpose": "Report alleged crime at UCSF site; request accessibility accommodation.",
+        "source_urls": [
+          "https://police.ucsf.edu/report-crime"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "For medical negligence or professional misconduct without facts suggesting crime, use licensing and grievance routes."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/justice/da-san-francisco",
+      "relation": "possible_prosecutorial_referral",
+      "basis": [
+        "https://police.ucsf.edu/report-crime"
+      ],
+      "limits": "Confirm exact UCSF location and venue.",
+      "source": "authority-oversight",
+      "original_from": "ucsf-police",
+      "original_to": "registry:da-san-francisco"
+    }
+  ]
+}

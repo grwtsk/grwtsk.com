@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/county-mariposa-county-social-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County social services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "sforga@mariposacounty.gov",
+  "scope": [
+    "California / Mariposa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-mariposa-county-social-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County social services director",
+        "jurisdiction": "California / Mariposa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Mariposa County Human Services Division",
+      "urls": [
+        "https://www.mariposacounty.gov/78/Human-Services-Division"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "sforga@mariposacounty.gov",
+      "listed_officeholder": "Sydney Forga",
+      "role": "Director of Human Services",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official correspondence within the stated county office's jurisdiction.",
+      "limitations": "Not an independently designated medical complaint or emergency reporting mailbox. Confirm jurisdiction and current incumbent before use. Do not transmit private records by ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Sydney Forga"
+}

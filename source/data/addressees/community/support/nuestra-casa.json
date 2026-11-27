@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/nuestra-casa",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Nuestra Casa de East Palo Alto",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@nuestracasa.org",
+  "scope": [
+    "East Palo Alto"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "nuestra-casa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/2026-impact-report/"
+      },
+      "record": {
+        "category": "equity",
+        "name": "Nuestra Casa de East Palo Alto",
+        "area": "East Palo Alto",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/"
+        ],
+        "purpose": "Community services and equity-focused support.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Nuestra Casa — Contact",
+      "urls": [
+        "https://nuestracasa.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@nuestracasa.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General community organization and resource-navigation inquiries.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

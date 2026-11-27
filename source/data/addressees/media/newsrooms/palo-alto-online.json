@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/palo-alto-online",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Palo Alto Weekly / Palo Alto Online",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "editor@paweekly.com",
+  "scope": [
+    "Palo Alto and Stanford"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "palo-alto-online",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      ],
+      "channel": {
+        "kind": "tip_form",
+        "url": "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "Palo Alto Weekly / Palo Alto Online",
+        "coverage": "Palo Alto and Stanford",
+        "source_urls": [
+          "https://www.paloaltoonline.com/send-us-a-news-tip/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local institutional accountability and community reporting.",
+        "limitations": "Submission may grant permission to publish unless otherwise stated; not a confidential channel.",
+        "shared_network": "embarcadero"
+      }
+    },
+    {
+      "source_title": "Palo Alto Weekly — January 31, 2025 edition, page 6, masthead (page image checked)",
+      "urls": [
+        "https://www.paloaltoonline.com/wp-content/uploads/2025/01/2025_01_31.paw_.section1.pdf",
+        "https://www.paloaltoonline.com/send-us-a-news-tip/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "editor@paweekly.com",
+      "role": "Palo Alto Weekly / Palo Alto Online",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Editorial office contact published in the newspaper masthead.",
+      "limitations": "Historical publication evidence; current newsroom website provides a tip form. Recheck mailbox before use. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

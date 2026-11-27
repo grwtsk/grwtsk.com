@@ -18,9 +18,10 @@ not have to remember how to program the site in order to maintain it.
 | Change the design | [Templates](source/generator/templates/README.md) and [stylesheet](source/generator/assets/README.md) |
 | Understand how it works | [Architecture](source/README.md) |
 
-Current first letter: [Formal Complaint and Demand for Independent Investigation](source/data/formal-complaint-and-demand-for-independent-investigation/article.md).
-Its [status and send history](source/data/formal-complaint-and-demand-for-independent-investigation/status.md)
-and [responses](source/data/formal-complaint-and-demand-for-independent-investigation/responses/) are separate from its authored text.
+Current first letter: [Formal Complaint and Demand for Independent Investigation](source/data/articles/formal-complaint-and-demand-for-independent-investigation/article.md).
+Its [status and send history](source/data/articles/formal-complaint-and-demand-for-independent-investigation/status.md)
+[incoming responses](source/data/articles/formal-complaint-and-demand-for-independent-investigation/in/),
+and [unsent email drafts](source/data/articles/formal-complaint-and-demand-for-independent-investigation/out/) are separate from its authored text.
 
 ## The four rules to remember
 
@@ -34,7 +35,7 @@ and [responses](source/data/formal-complaint-and-demand-for-independent-investig
 
 ## Make an ordinary content change
 
-On GitHub, open [source/data](https://github.com/grwtsk/grwtsk.com/tree/main/source/data).
+On GitHub, open [source/data/articles](https://github.com/grwtsk/grwtsk.com/tree/main/source/data/articles).
 Find the article by its directory name. Use the pencil to edit a file, or
 **Add file → Create new file** to create one. A filename containing slashes
 creates the required nested path. Follow the [data instructions](source/data/README.md)
@@ -86,11 +87,13 @@ Stop it with Ctrl+C. The build output is `source/web/dist/`.
 ```
 source/
   communications/  Headless communication service, separate deployment
-  data/       Markdown documents and correspondence history
+  data/       Articles, addressees and correspondence history
   parser/     C++20: YAML and CommonMark/GFM parsing
   generator/  Rust: validation, chronology, embedded HTML and CSS
   web/        Vite: multi-page build and static HTTP service
 ```
+
+The two canonical correspondence inputs are the [article directories](source/data/articles/README.md) and the unified [addressee taxonomy](source/data/addressees/README.md). The [offline writing proposal](source/data/OFFLINE-WRITING.md) is not implemented.
 
 Read [source/README.md](source/README.md) for the exact maintained layout,
 component responsibilities and links to detailed technical guides. The root

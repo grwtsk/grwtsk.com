@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/pulse",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Pulse Center for Patient Safety, Education & Advocacy",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "info@pulsecpsea.org",
+  "scope": [
+    "National",
+    "United States"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "pulse",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pulsecenterforpatientsafety.org/contact-8",
+        "https://www.pulsecenterforpatientsafety.org/"
+      ],
+      "published_address": "info@PulseCPSEA.org",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.pulsecenterforpatientsafety.org/contact-8",
+        "phone": "516-579-4711"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "Pulse Center for Patient Safety, Education & Advocacy",
+        "service_area": "National",
+        "purpose": "Patient advocacy education and safer healthcare navigation.",
+        "source_urls": [
+          "https://www.pulsecenterforpatientsafety.org/contact-8",
+          "https://www.pulsecenterforpatientsafety.org/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "pulse-cpsea",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pulsecenterforpatientsafety.org/before-calling-us"
+      ],
+      "published_address": "Info@Pulsecpsea.org",
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.pulsecenterforpatientsafety.org/before-calling-us",
+        "phone": "516-579-4711"
+      },
+      "record": {
+        "category": "medical_harm",
+        "organization": "Pulse Center for Patient Safety, Education & Advocacy",
+        "scope": "United States",
+        "purpose": "Patient advocacy and safer care navigation.",
+        "limits": "Volunteer support is limited and does not replace medical or legal advice.",
+        "source_urls": [
+          "https://www.pulsecenterforpatientsafety.org/before-calling-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

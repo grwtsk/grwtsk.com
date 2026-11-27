@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/mda",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Muscular Dystrophy Association",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "resourcecenter@mdausa.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "mda",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mda.org/get-involved/advocacy",
+        "https://www.mda.org/about-mda/contact-us"
+      ],
+      "published_address": "ResourceCenter@mdausa.org",
+      "channel": {
+        "kind": "patient_support_and_policy",
+        "url": "https://www.mda.org/get-involved/advocacy",
+        "phone": "833-275-6321"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Muscular Dystrophy Association",
+        "service_area": "National",
+        "purpose": "Neuromuscular disease access, independence and resource navigation.",
+        "source_urls": [
+          "https://www.mda.org/get-involved/advocacy",
+          "https://www.mda.org/about-mda/contact-us"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

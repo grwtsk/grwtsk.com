@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-humboldt-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "lbrownfield@co.humboldt.ca.us",
+  "scope": [
+    "California / Humboldt County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-humboldt-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Humboldt County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Official county, court or professional office public contact evidence",
+      "urls": [
+        "https://humboldtgov.org/Directory/Home/DepartmentListing?DID=22",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/261218",
+        "https://humboldtgov.org/m/newsflash/Archive/Item/4162?arcId=6872"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "lbrownfield@co.humboldt.ca.us",
+      "published_contact_person": "Luke Brownfield",
+      "role": "Public Defender",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Public defense administrative inquiries within the documented office remit.",
+      "limitations": "The current county directory confirms the role, the State Bar profile lists the county-domain professional address, and the official appointment announcement explicitly publishes the same address. The separate client-document submission mailbox was not substituted. Public defenders serve eligible clients in matters within their statutory or contracted remit; the address is not an independent medical-abuse investigation or general civil legal advice channel. Reconfirm role, mailbox, jurisdiction, eligibility and channel purpose before use. Do not send confidential information by ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Luke Brownfield"
+}

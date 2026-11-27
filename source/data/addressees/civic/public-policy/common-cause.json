@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/public-policy/common-cause",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Common Cause California",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "public-policy"
+  ],
+  "email": "causenet@commoncause.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "common-cause",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.commoncause.org/california/priorities/",
+        "https://www.commoncause.org/about-us/contact/"
+      ],
+      "published_address": "CauseNet@commoncause.org",
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://www.commoncause.org/california/priorities/",
+        "phone": "202-833-1200"
+      },
+      "record": {
+        "category": "civic_policy",
+        "organization": "Common Cause California",
+        "service_area": "California",
+        "purpose": "Nonpartisan government transparency, accountability and civil liberties policy; national general contact.",
+        "source_urls": [
+          "https://www.commoncause.org/california/priorities/",
+          "https://www.commoncause.org/about-us/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

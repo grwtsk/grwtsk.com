@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-orange-county-behavioral-health-director",
+  "addressee_type": "unresolved_public_office",
+  "name": "County behavioral health director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": null,
+  "scope": [
+    "California / Orange County",
+    "statewide_reference_only"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-orange-county-behavioral-health-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County behavioral health director",
+        "jurisdiction": "California / Orange County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Orange County Health Care Agency 2025–2026 Factbook, pages 2 and 5",
+      "urls": [
+        "https://www.ochealthinfo.com/sites/healthcare/files/2026-11/HCA-Factbook-2025-26-v01.pdf"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/public-health/county-orange-county-health-care-services-director",
+      "stated_purpose": "Factbook lists the agency director concurrently as interim Behavioral Health Services director, with the same professional mailbox.",
+      "limitations": "Concurrent role is temporary; verify current role. Not a reason to send duplicate correspondence."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/public-health/county-orange-county-health-care-services-director"
+  ]
+}

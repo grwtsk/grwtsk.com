@@ -17,6 +17,7 @@ test('only a real accepted send can generate a receipt; no private source metada
  acceptSend(s,c.id,m.id,randomUUID());const source=sourceForCase(s,offices,input);
  const r=preparePublicRecord(s,source,approved);
  for(const v of ['PRIVATE ORIGINAL','Private subject','Private title',c.office.email,m.id,m.providerId,c.id])assert.ok(!r.markdown.includes(v));
+ assert.equal(r.path,'source/data/articles/formal-complaint-and-demand-for-independent-investigation/public-correspondence/'+source.day+'-'+r.id+'.md');
  assert.ok(r.markdown.includes('delivery not established'));assert.equal(r.status,'prepared-not-published');
  assert.equal(preparePublicRecord(s,source,approved).id,r.id);
  assert.equal(casePublicCoverage(s,c.id).prepared,1);

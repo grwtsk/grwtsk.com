@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/abc-news",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "ABC News Investigative Unit",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "news.tips@abc.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "abc-news",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abcnews.com/us/tip-share-abc-news/story?id=61304290"
+      ],
+      "channel": {
+        "kind": "investigative_tip_email",
+        "url": "https://abcnews.com/us/tip-share-abc-news/story?id=61304290",
+        "phone": "212-456-2828"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "ABC News Investigative Unit",
+        "coverage": "National",
+        "source_urls": [
+          "https://abcnews.com/us/tip-share-abc-news/story?id=61304290"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "National investigative broadcasting, human rights and consumer issues.",
+        "limitations": "Submission may be used in news coverage; ordinary email not confidential by default.",
+        "shared_network": "abc"
+      }
+    }
+  ]
+}

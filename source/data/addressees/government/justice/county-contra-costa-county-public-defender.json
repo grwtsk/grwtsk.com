@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-contra-costa-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "info@pd.cccounty.us",
+  "scope": [
+    "California / Contra Costa County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-contra-costa-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Contra Costa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Contra Costa Public Defenders — Contact Us",
+      "urls": [
+        "https://www.cocopublicdefenders.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@pd.cccounty.us",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public defender office inquiries within its mandate, including representation of eligible clients; not general civil legal assistance.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a substitute for designated complaint, crime-reporting, legal filing or client intake procedures. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

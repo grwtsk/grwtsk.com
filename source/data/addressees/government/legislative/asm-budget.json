@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/asm-budget",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Assembly Budget Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "asm-budget",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abgt.assembly.ca.gov/"
+      ],
+      "shared_channel_id": "asmbudget",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Assembly Budget Committee",
+        "person": null,
+        "source_keys": [
+          "asmbudget"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Request routing to the subcommittee covering DCA appropriations and enforcement staffing; verify current allocation.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "asmbudget",
+      "channel": {
+        "url": "https://abgt.assembly.ca.gov/",
+        "kind": "budget_committee_directory"
+      }
+    }
+  ]
+}

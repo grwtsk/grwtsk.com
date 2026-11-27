@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-lassen-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "PHPrograms@co.lassen.ca.us",
+  "scope": [
+    "California / Lassen County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-lassen-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Lassen County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "CDC National Prevention Information Network — Lassen County Public Health",
+      "urls": [
+        "https://npin.cdc.gov/organization/lassen-county-public-health"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "PHPrograms@co.lassen.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Main department address listed by CDC's prevention service directory.",
+      "limitations": "Directory is oriented toward prevention and clinical services; direct director email and acceptance of other correspondence are not established. Recheck county publication and mailbox. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Use designated secure or formal complaint channels."
+    }
+  ]
+}

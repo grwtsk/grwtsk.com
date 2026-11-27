@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-merced-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "mark.hendrickson@countyofmerced.com",
+  "scope": [
+    "California / Merced County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-merced-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Merced County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Merced County Association of Governments, Directory of Governments 2026, printed page 8",
+      "urls": [
+        "https://www.mcagov.org/DocumentCenter/View/4002/Directory-of-Governments-2026#page=10"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "mark.hendrickson@countyofmerced.com",
+      "listed_officeholder": "Mark Hendrickson",
+      "role": "County Executive Officer",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County executive administration and oversight.",
+      "limitations": "Directory snapshot; verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Mark Hendrickson"
+}

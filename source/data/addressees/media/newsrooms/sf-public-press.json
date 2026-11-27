@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/sf-public-press",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco Public Press",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "community@sfpublicpress.org",
+  "scope": [
+    "San Francisco"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "sf-public-press",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sfpublicpress.org/contact-2/"
+      ],
+      "channel": {
+        "kind": "general_contact_form",
+        "url": "https://www.sfpublicpress.org/contact-2/",
+        "phone": "415-495-7377"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "San Francisco Public Press",
+        "coverage": "San Francisco",
+        "source_urls": [
+          "https://www.sfpublicpress.org/contact-2/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Nonprofit local investigative reporting and systemic equity.",
+        "limitations": "General contact page; ask for the appropriate editorial route before sharing sensitive information."
+      }
+    },
+    {
+      "source_title": "Official newsroom contact, editorial leadership or submission instructions",
+      "urls": [
+        "https://www.sfpublicpress.org/thank-you-for-joining-us/",
+        "https://www.sfpublicpress.org/contact-2/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "community@sfpublicpress.org",
+      "role": "Community feedback mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Community ideas, feedback and requests for routing to the appropriate editor.",
+      "limitations": "Publisher's member welcome page explicitly invites ideas and feedback at this mailbox. General community contact, not a confidential tip channel. Confirm current mailbox and remit before use; retain existing secure tip routes. Deliverability not tested."
+    }
+  ]
+}

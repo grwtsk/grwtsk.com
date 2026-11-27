@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/us-senate-schiff",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "U.S. Senator Adam Schiff – constituent assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": "constituent_services@schiff.senate.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Adam Schiff"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "us-senate-schiff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.schiff.senate.gov/services/help-with-a-federal-agency/"
+      ],
+      "published_address": "Constituent_Services@schiff.senate.gov",
+      "channel": {
+        "kind": "casework",
+        "url": "https://www.schiff.senate.gov/services/help-with-a-federal-agency/"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "U.S. Senator Adam Schiff – constituent assistance",
+        "scope": "California",
+        "purpose": "Request federal agency assistance using signed authorization.",
+        "source_urls": [
+          "https://www.schiff.senate.gov/services/help-with-a-federal-agency/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Adam Schiff",
+        "limits": "Published email is for completed casework release forms; follow secure instructions; not a generic mass-mail address."
+      }
+    }
+  ]
+}

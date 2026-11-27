@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/palo-alto-community-fund",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Palo Alto Community Fund",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": null,
+  "scope": [
+    "Palo Alto, East Palo Alto, Menlo Park"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "palo-alto-community-fund",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/pacf-grantees/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/pacf-grantees/"
+      },
+      "record": {
+        "category": "nonprofit_network",
+        "name": "Palo Alto Community Fund",
+        "area": "Palo Alto, East Palo Alto, Menlo Park",
+        "source_urls": [
+          "https://paloaltocommfund.org/pacf-grantees/"
+        ],
+        "purpose": "Local nonprofit grantee directory and philanthropy resource.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "71 local organizations reported on the 2026 grantee page; directory also includes historical entries. Use to locate suitable services, not as a distribution list."
+      }
+    }
+  ]
+}

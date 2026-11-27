@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/usao-cdca",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "U.S. Attorney Central District of California – Civil Rights Section",
+  "aliases": [
+    "U.S. Attorney – Central District civil-rights section"
+  ],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": "usacac.cv-civilrights@usdoj.gov",
+  "scope": [
+    "Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara, San Luis Obispo counties",
+    "Central District of California",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "usao-cdca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      ],
+      "published_address": "USACAC.CV-CivilRights@usdoj.gov",
+      "channel": {
+        "kind": "complaint_form_or_email",
+        "url": "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section",
+        "phone": "213-894-2879"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "U.S. Attorney Central District of California – Civil Rights Section",
+        "scope": "Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara, San Luis Obispo counties",
+        "purpose": "Civil rights issues only when facts establish venue in the district.",
+        "source_urls": [
+          "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Civil section does not handle criminal matters or other districts."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "usao-cdca",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      ],
+      "published_address": "USACAC.CV-CivilRights@usdoj.gov",
+      "channel": {
+        "kind": "file_complaint",
+        "url": "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+      },
+      "record": {
+        "role": "U.S. Attorney – Central District civil-rights section",
+        "jurisdiction": "Central District of California",
+        "source": [
+          "https://www.justice.gov/usao-cdca/civil-division/civil-rights-section"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "For conduct within the Central District only."
+      }
+    }
+  ]
+}

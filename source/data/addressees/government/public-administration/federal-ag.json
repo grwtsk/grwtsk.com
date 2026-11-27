@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/federal-ag",
+  "addressee_type": "organizational_or_official_route",
+  "name": "United States Attorney General / Department of Justice",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "federal-ag",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "channel": {
+        "kind": "official_webform",
+        "url": "https://www.justice.gov/contact-us",
+        "phone": "202-353-1555",
+        "mail": "U.S. Department of Justice, 950 Pennsylvania Avenue NW, Washington, DC 20530-0001"
+      },
+      "record": {
+        "level": "federal_executive",
+        "office": "United States Attorney General / Department of Justice",
+        "scope": "United States",
+        "purpose": "Request routing to responsible DOJ component.",
+        "source_urls": [
+          "https://www.justice.gov/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use civil rights intake for a formal civil rights report; general correspondence is not formal service."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/civil-rights-enforcement/doj-crd",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us",
+        "https://www.civilrights.justice.gov/"
+      ],
+      "limits": "Use designated division intake.",
+      "source": "authority-oversight",
+      "original_from": "federal-ag",
+      "original_to": "doj-crd"
+    },
+    {
+      "to": "addressee:government/civil-rights-enforcement/usao-ndca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority.",
+      "source": "authority-oversight",
+      "original_from": "federal-ag",
+      "original_to": "usao-ndca"
+    },
+    {
+      "to": "addressee:government/civil-rights-enforcement/usao-edca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority.",
+      "source": "authority-oversight",
+      "original_from": "federal-ag",
+      "original_to": "usao-edca"
+    },
+    {
+      "to": "addressee:government/civil-rights-enforcement/usao-cdca",
+      "relation": "departmental_authority",
+      "basis": [
+        "https://www.justice.gov/contact-us"
+      ],
+      "limits": "Federal jurisdiction distinct from county DA authority.",
+      "source": "authority-oversight",
+      "original_from": "federal-ag",
+      "original_to": "usao-cdca"
+    }
+  ]
+}

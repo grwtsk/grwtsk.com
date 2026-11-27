@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/taulama",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Taulama For Tongans",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "taulamafortongans@gmail.com",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "taulama",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "equity",
+        "name": "Taulama For Tongans",
+        "area": "San Mateo County",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Community-serving nonprofit; check specific program fit.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Taulama for Tongans — Contact Us and organizational mission",
+      "urls": [
+        "https://www.taulama.org/contact",
+        "https://www.taulama.org/about_us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "taulamafortongans@gmail.com",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational inquiries about culturally responsive health education and advocacy. Published organizational mailbox using a public email provider.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

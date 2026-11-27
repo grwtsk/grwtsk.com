@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/sf-chronicle",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Francisco Chronicle",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "metrodesk@sfchronicle.com",
+  "scope": [
+    "San Francisco and Bay Area"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "sf-chronicle",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sfchronicle.com/newsroom_contacts/"
+      ],
+      "channel": {
+        "kind": "metro_desk",
+        "url": "https://www.sfchronicle.com/newsroom_contacts/"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "San Francisco Chronicle",
+        "coverage": "San Francisco and Bay Area",
+        "source_urls": [
+          "https://www.sfchronicle.com/newsroom_contacts/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Healthcare, race and equity, higher education and investigative coverage.",
+        "limitations": "Editorial directory identifies specialist beats; use one relevant desk rather than multiple staff contacts."
+      }
+    }
+  ]
+}

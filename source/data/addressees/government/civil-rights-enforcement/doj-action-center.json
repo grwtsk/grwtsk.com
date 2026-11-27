@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/doj-action-center",
+  "addressee_type": "organizational_or_official_route",
+  "name": "DOJ crime and complaint routing",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "doj-action-center",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/actioncenter/report-crime"
+      ],
+      "channel": {
+        "kind": "official_directory",
+        "url": "https://www.justice.gov/actioncenter/report-crime"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "DOJ crime and complaint routing",
+        "scope": "United States",
+        "purpose": "Select competent federal investigative channel if facts implicate federal law.",
+        "source_urls": [
+          "https://www.justice.gov/actioncenter/report-crime"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Emergency: 911; state/local crimes ordinarily go to local law enforcement."
+      }
+    }
+  ]
+}

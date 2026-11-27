@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-san-mateo",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "San Mateo County District Attorney",
+  "aliases": [
+    "County district attorney"
+  ],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "da_info@smcgov.org",
+  "scope": [
+    "San Mateo County",
+    "California / San Mateo County",
+    "documented_stanford_location"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Stephen M. Wagstaffe"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "da-san-mateo",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.smcgov.org/da/contact-us"
+      ],
+      "channel": {
+        "kind": "office_phone_email",
+        "url": "https://www.smcgov.org/da/contact-us",
+        "phone": "650-363-4636"
+      },
+      "record": {
+        "level": "local_enforcement",
+        "office": "San Mateo County District Attorney",
+        "scope": "San Mateo County",
+        "purpose": "Prosecutorial review or guidance where facts establish venue.",
+        "source_urls": [
+          "https://www.smcgov.org/da/contact-us"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Stephen M. Wagstaffe",
+        "limits": "Confirm local police report and appropriate unit."
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-san-mateo",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.smcgov.org/da",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.smcgov.org/da"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / San Mateo County",
+        "listed_officeholder": "Stephen M. Wagstaffe",
+        "source": [
+          "cdaa",
+          "https://www.smcgov.org/da"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "documented_stanford_location",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    }
+  ]
+}

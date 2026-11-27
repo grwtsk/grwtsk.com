@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-san-diego-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cao_mail@sdcounty.ca.gov",
+  "scope": [
+    "California / San Diego County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-diego-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / San Diego County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Diego Registrar of Voters — Directory of Public Officials, page 8",
+      "urls": [
+        "https://www.sdvote.com/content/dam/rov/en/election/directory-of-public-officials.pdf#page=8"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cao_mail@sdcounty.ca.gov",
+      "listed_officeholder": "Ebony N. Shelton",
+      "role": "Chief Administrative Officer",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County executive administration and oversight.",
+      "limitations": "Verify current officeholder, jurisdiction, and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Ebony N. Shelton"
+}

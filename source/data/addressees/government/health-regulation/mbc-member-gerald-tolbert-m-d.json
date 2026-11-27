@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/mbc-member-gerald-tolbert-m-d",
+  "addressee_type": "named_public_office",
+  "name": "Member",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "listed_officeholders": [
+    "Gerald Tolbert, M.D."
+  ],
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "mbc-member-gerald-tolbert-m-d",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mbc.ca.gov/About/Members/",
+        "https://www.mbc.ca.gov/About/Meetings/Agenda/31659/brd-Agenda-20261119.pdf"
+      ],
+      "shared_channel_id": "mbc_exec",
+      "record": {
+        "group": "medical_board_governance",
+        "role": "Member",
+        "person": "Gerald Tolbert, M.D.",
+        "source_keys": [
+          "roster",
+          "agenda"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Governance and public protection; share policy review request through Executive Office or public comment.",
+        "limits": "No evidence of participation in user's case. Avoid ex parte communications on adjudicative matters.",
+        "classification": "Physician",
+        "appointing_authority": "Governor",
+        "appointed": "2025-07-29",
+        "reappointed": null,
+        "term_expiration": "2029-06-01",
+        "roster_as_of": "2026-10-28",
+        "officer_confirmation": "2026-11-19"
+      }
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/health-regulation/mbc-staff-executive-director"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-fresno-county-sheriff",
+  "addressee_type": "named_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "fresnosheriffdispatch@fresnosheriff.org",
+  "scope": [
+    "California / Fresno County",
+    "local_support"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-fresno-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Fresno County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "local_support",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Fresno County Sheriff — Communications",
+      "urls": [
+        "https://www.fresnosheriff.org/units/enforcement/communications.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "fresnosheriffdispatch@fresnosheriff.org",
+      "role": "County sheriff",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Published Communications Unit email; administrative communications inquiries.",
+      "limitations": "No evidence that this mailbox accepts police reports, formal complaints, urgent dispatch or general outreach. Use designated reporting channels; confirm the address's scope before correspondence. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

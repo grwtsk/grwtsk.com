@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/mountain-view-voice",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Mountain View Voice",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "zmorgan@mv-voice.com",
+  "scope": [
+    "Mountain View / Midpeninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "mountain-view-voice",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.mv-voice.com/send-us-a-news-tip/"
+      ],
+      "channel": {
+        "kind": "tip_form",
+        "url": "https://www.mv-voice.com/send-us-a-news-tip/"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "Mountain View Voice",
+        "coverage": "Mountain View / Midpeninsula",
+        "source_urls": [
+          "https://www.mv-voice.com/send-us-a-news-tip/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local healthcare access and community policy.",
+        "limitations": "Submission form requests residential address and permits publication unless otherwise noted; avoid sensitive attachments.",
+        "shared_network": "embarcadero"
+      }
+    },
+    {
+      "source_title": "Mountain View Voice — Leading my hometown news outlet (July 7, 2025)",
+      "urls": [
+        "https://www.mv-voice.com/editorial/2025/07/07/leading-my-hometown-news-outlet-reflections-from-the-voices-next-editor/",
+        "https://www.mv-voice.com/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "zmorgan@mv-voice.com",
+      "published_contact_person": "Zoe Morgan",
+      "role": "Editor",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Editor’s published invitation for reader feedback and local reporting ideas.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Reconfirm current editor; current editorial contact page also provides a form."
+    }
+  ]
+}

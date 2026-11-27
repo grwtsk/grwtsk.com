@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/mission-local",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Mission Local",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "tips@missionlocal.com",
+  "scope": [
+    "San Francisco"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "mission-local",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://missionlocal.org/about/"
+      ],
+      "channel": {
+        "kind": "news_tip_email",
+        "url": "https://missionlocal.org/about/"
+      },
+      "record": {
+        "category": "bay_area",
+        "outlet": "Mission Local",
+        "coverage": "San Francisco",
+        "source_urls": [
+          "https://missionlocal.org/about/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local reporting including Mission Bay and city accountability.",
+        "limitations": "Ordinary email; no secure delivery assurance."
+      }
+    }
+  ]
+}

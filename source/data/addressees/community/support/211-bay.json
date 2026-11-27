@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/211-bay",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "211 Bay Area / United Way",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "211@uwba.org",
+  "scope": [
+    "San Mateo, Santa Clara and other participating Bay Area counties"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "211-bay",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://uwba.org/what-we-do/211-bay-area/",
+        "https://211bayarea.org/counties/san-mateo/"
+      ],
+      "channel": {
+        "kind": "confidential_referral",
+        "url": "https://uwba.org/what-we-do/211-bay-area/",
+        "phone": "211"
+      },
+      "record": {
+        "category": "regional_referral",
+        "name": "211 Bay Area / United Way",
+        "area": "San Mateo, Santa Clara and other participating Bay Area counties",
+        "source_urls": [
+          "https://uwba.org/what-we-do/211-bay-area/",
+          "https://211bayarea.org/counties/san-mateo/"
+        ],
+        "purpose": "Free, confidential referral to health, disability, legal, transportation and social services.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Published institutional or public-service directory contact",
+      "urls": [
+        "https://www.mountainview.gov/our-city/departments/city-managers-office/human-services/childcare-services",
+        "https://211la.org/agencies/HxG3LoL8KI6OL2xBSNm9wJ2fQye4BK/-bay-area",
+        "https://211la.org/agencies/HxGdVEP5gcgQ649Du2azkr0fky3rqB/211-santa-clara-county",
+        "https://uwba.org/what-we-do/211-bay-area/"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "211@uwba.org",
+      "role": "United Way Bay Area 211 public resource-navigation email",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Service-navigation and resource-referral inquiries.",
+      "limitations": "Official City of Mountain View resource page and 211 LA service directory identify the same address; this is not a confirmed confidential intake mailbox. Keep telephone/text referral routes. Reconfirm current mailbox and scope before use. Deliverability not tested."
+    }
+  ]
+}

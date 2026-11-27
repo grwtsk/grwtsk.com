@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/senate-judiciary-constitution",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Judiciary – Constitution Subcommittee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "senate-judiciary-constitution",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.judiciary.senate.gov/about/subcommittees"
+      ],
+      "channel": {
+        "kind": "committee_directory",
+        "url": "https://www.judiciary.senate.gov/about/subcommittees"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "Senate Judiciary – Constitution Subcommittee",
+        "scope": "United States",
+        "purpose": "DOJ Civil Rights Division oversight and constitutional/statutory rights.",
+        "source_urls": [
+          "https://www.judiciary.senate.gov/about/subcommittees"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Policy oversight only, not court or prosecutor."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/civil-rights-enforcement/doj-crd",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://www.judiciary.senate.gov/about/subcommittees"
+      ],
+      "limits": "Not individual case direction.",
+      "source": "authority-oversight",
+      "original_from": "senate-judiciary-constitution",
+      "original_to": "doj-crd"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/referrals/clsepa",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Community Legal Services in East Palo Alto",
+  "aliases": [],
+  "taxonomy": [
+    "legal",
+    "referrals"
+  ],
+  "email": "info@clsepa.org",
+  "scope": [
+    "East Palo Alto / Mountain View"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "clsepa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://clsepa.org/contact/",
+        "https://www.smcgov.org/north-fair-oaks-community/community-directory"
+      ],
+      "channel": {
+        "kind": "official_organization_page",
+        "url": "https://clsepa.org/contact/",
+        "phone": "650-326-6440"
+      },
+      "record": {
+        "category": "legal",
+        "name": "Community Legal Services in East Palo Alto",
+        "area": "East Palo Alto / Mountain View",
+        "source_urls": [
+          "https://www.smcgov.org/north-fair-oaks-community/community-directory",
+          "https://clsepa.org/contact/"
+        ],
+        "purpose": "Legal aid and referral screening.",
+        "verification": "official_organization_contact_page_and_directory_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Community Legal Services in East Palo Alto — English services brochure, p. 1",
+      "urls": [
+        "https://clsepa.org/wp-content/uploads/2023/11/2023_CLSEPA_Brochure_-_English_Version.pdf",
+        "https://clsepa.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@clsepa.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational inquiries, not legal case intake. Current contact page specifies phone/walk-in appointments.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. The email source is a 2023 brochure; recheck before use."
+    }
+  ]
+}

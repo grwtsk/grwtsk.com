@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-kings-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "lfavini@lozanosmith.com",
+  "scope": [
+    "California / Kings County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-kings-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Kings County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published county office, State Bar or appointed counsel's professional contact",
+      "urls": [
+        "https://www.lozanosmith.com/attorney_bio.php?id=260",
+        "https://www.countyofkingsca.gov/departments/administration/county-counsel"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "lfavini@lozanosmith.com",
+      "published_contact_person": "Laurie Avedisian-Favini",
+      "role": "Contracted County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Non-sensitive county legal administration inquiries within actual county jurisdiction and office remit.",
+      "limitations": "Appointed firm's current professional biography explicitly identifies her as Kings County Counsel and publishes the firm email. Not a general county mailbox; verify county-specific routing. County counsel represents the county, not the complainant; address is not an independent complaint intake channel, legal filing or service-of-process route. Confirm role, currency and jurisdiction before use. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Laurie Avedisian-Favini"
+}

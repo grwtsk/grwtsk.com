@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-trinity-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "ttuthill@trinitycounty.org",
+  "scope": [
+    "California / Trinity County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-trinity-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Trinity County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Trinity County — Administration staff directory",
+      "urls": [
+        "https://www.trinitycounty.ca.gov/m/directory/department?did=6",
+        "https://www.trinitycounty.org/162/County-Administrative-Office"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ttuthill@trinitycounty.org",
+      "role": "County administrator",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official directory expressly labels address Contact CAO for the County Administrative Officer.",
+      "limitations": "County administration correspondence only; use relevant formal procedures where required. Confirm jurisdiction, current channel and appropriate remit. Do not send confidential records by ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Trent Tuthill"
+    }
+  ],
+  "listed_officeholder": "Trent Tuthill"
+}

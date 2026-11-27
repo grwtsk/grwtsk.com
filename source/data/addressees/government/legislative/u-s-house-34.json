@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/u-s-house-34",
+  "addressee_type": "unresolved_public_office",
+  "name": "U.S. House district 34",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California",
+    "statewide_representation"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "u-s-house-34",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.house.gov/representatives"
+      ],
+      "record": {
+        "role": "U.S. House district 34",
+        "jurisdiction": "California",
+        "source": "house",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_representation",
+        "purpose": "Identify serving officeholder and relevant district; use official constituent or committee channels. Seats may be vacant or changing after elections."
+      }
+    }
+  ]
+}

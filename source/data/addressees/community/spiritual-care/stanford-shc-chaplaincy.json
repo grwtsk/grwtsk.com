@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/spiritual-care/stanford-shc-chaplaincy",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Health Care Spiritual Care Services",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "spiritual-care"
+  ],
+  "email": "spiritualcare@stanfordhealthcare.org",
+  "scope": [
+    "Stanford Health Care"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "stanford-shc-chaplaincy",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+      ],
+      "channel": {
+        "type": "pastoral_support",
+        "url": "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+      },
+      "record": {
+        "category": "spiritual_care",
+        "organization": "Stanford Health Care Spiritual Care Services",
+        "service_area": "Stanford Health Care",
+        "purpose": "Inclusive chaplaincy for patients, families and friends.",
+        "limitations": "Confidential spiritual support; not complaint investigation. Triage chaplain available 24 hours.",
+        "source_urls": [
+          "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "spiritual-care",
+          "caregiver-support"
+        ],
+        "contact_policy": {
+          "purpose": "pastoral_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_pastoral_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Stanford Health Care — Spiritual Care Services",
+      "urls": [
+        "https://stanfordhealthcare.org/for-patients-visitors/spiritual-care-service.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "spiritualcare@stanfordhealthcare.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Patient, family and staff spiritual support inquiries; use the stated telephone route for urgent chaplain requests.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

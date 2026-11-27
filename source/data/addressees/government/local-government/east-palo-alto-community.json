@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/east-palo-alto-community",
+  "addressee_type": "organizational_or_official_route",
+  "name": "East Palo Alto Community Programs",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": null,
+  "scope": [
+    "East Palo Alto"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "east-palo-alto-community",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto",
+        "phone": "650-853-5905"
+      },
+      "record": {
+        "category": "municipal_referral",
+        "name": "East Palo Alto Community Programs",
+        "area": "East Palo Alto",
+        "source_urls": [
+          "https://www.cityofepa.org/communityprograms/page/community-resources-organizations-serving-east-palo-alto"
+        ],
+        "purpose": "Local community services and organizations.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Search-indexed official directory; direct website retrieval was blocked. City explicitly does not endorse every listed group."
+      }
+    }
+  ]
+}

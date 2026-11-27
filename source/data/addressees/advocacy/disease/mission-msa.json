@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/mission-msa",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Mission MSA",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "info@missionmsa.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "mission-msa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://missionmsa.org/msa-advocacy-action-center/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://missionmsa.org/msa-advocacy-action-center/"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "Mission MSA",
+        "service_area": "National",
+        "purpose": "Multiple system atrophy education and advocacy.",
+        "source_urls": [
+          "https://missionmsa.org/msa-advocacy-action-center/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Mission MSA — Questions and assistance contact",
+      "urls": [
+        "https://missionmsa.org/subscribe/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@missionmsa.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Multiple system atrophy information and assistance.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
+    }
+  ]
+}

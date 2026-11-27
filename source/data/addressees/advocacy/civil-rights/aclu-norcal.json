@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/civil-rights/aclu-norcal",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ACLU of Northern California – legal intake",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "civil-rights"
+  ],
+  "email": "info@aclunc.org",
+  "scope": [
+    "Northern California"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "aclu-norcal",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aclunorcal.org/contact-us/"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.aclunorcal.org/contact-us/"
+      },
+      "record": {
+        "category": "civil_rights",
+        "organization": "ACLU of Northern California – legal intake",
+        "service_area": "Northern California",
+        "purpose": "Seek confidential screening of civil liberties concerns and referrals.",
+        "limitations": "Limited case acceptance; no guarantee of representation.",
+        "source_urls": [
+          "https://www.aclunorcal.org/contact-us/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "systemic-accountability"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "ACLU national affiliate directory — Northern California; local affiliate contact page",
+      "urls": [
+        "https://www.aclu.org/affiliates/california-northern",
+        "https://www.aclunorcal.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@aclunc.org",
+      "role": "ACLU of Northern California – legal intake",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General affiliate information and routing inquiries.",
+      "limitations": "Not a designated legal intake mailbox. Legal-assistance requests must follow the affiliate's confidential form or telephone intake; preserve the original intake route. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

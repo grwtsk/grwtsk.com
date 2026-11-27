@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-yolo-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "clerkoftheboard@yolocounty.gov",
+  "scope": [
+    "California / Yolo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-yolo-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Yolo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Yolo County Clerk of the Board",
+      "urls": [
+        "https://www.yolocounty.gov/government/board-of-supervisors/clerk-of-the-board"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "clerkoftheboard@yolocounty.gov",
+      "role": "Clerk of the Board",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Board records, public correspondence and public comment.",
+      "limitations": "Not a medical complaint or emergency reporting mailbox. Confirm jurisdiction and current incumbent before use. Do not transmit private records by ordinary email. Deliverability not tested."
+    }
+  ]
+}

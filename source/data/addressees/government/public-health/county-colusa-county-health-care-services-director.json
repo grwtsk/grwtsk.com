@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-colusa-county-health-care-services-director",
+  "addressee_type": "unresolved_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": null,
+  "scope": [
+    "California / Colusa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "directory_lookup_required",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "directory_lookup_only",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-colusa-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Colusa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Colusa County Health & Human Services",
+      "urls": [
+        "https://www.countyofcolusaca.gov/26/Health-Human-Services"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/social-services/county-colusa-county-social-services-director",
+      "stated_purpose": "Official page identifies Elizabeth A. Kelly as director of the combined Health and Human Services agency; existing social-services director record names the same officeholder and lists a county email. Official page shows a different domain spelling for the same director (elizabeth.kelly@countyofcolusa.com); retain as source observation rather than count an independent recipient.",
+      "limitations": "Confirm which domain is current. No separate health-director mailbox established."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/social-services/county-colusa-county-social-services-director"
+  ]
+}

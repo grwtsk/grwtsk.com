@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:healthcare/neurology/s-adult-contact",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Department of Neurology and Neurological Sciences",
+  "aliases": [],
+  "taxonomy": [
+    "healthcare",
+    "neurology"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "neurology_programs",
+      "record_id": "s-adult-contact",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/neurology/contact.html"
+      ],
+      "channel": {
+        "kind": "clinical_appointment_phone",
+        "url": "https://med.stanford.edu/neurology/contact.html",
+        "phone": "650-723-6469"
+      },
+      "record": {
+        "institution": "Stanford",
+        "name": "Department of Neurology and Neurological Sciences",
+        "type": "department_contact",
+        "source_urls": [
+          "https://med.stanford.edu/neurology/contact.html"
+        ],
+        "purpose": "Shared administrative office and clinical referral routes.",
+        "verification": "official_institutional_page_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "This number is for appointments, not formal complaints. Use Patient Relations for grievance and leadership referral."
+      }
+    }
+  ]
+}

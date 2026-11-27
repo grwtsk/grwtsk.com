@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/fair-oaks-community",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Fair Oaks Community Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "asmith@redwoodcity.org",
+  "scope": [
+    "Redwood City / North Fair Oaks"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "fair-oaks-community",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.smcgov.org/north-fair-oaks-community/community-directory"
+      ],
+      "channel": {
+        "kind": "directory_listed_office_phone",
+        "url": "https://www.smcgov.org/north-fair-oaks-community/community-directory",
+        "phone": "650-780-7500"
+      },
+      "record": {
+        "category": "basic_needs",
+        "name": "Fair Oaks Community Center",
+        "area": "Redwood City / North Fair Oaks",
+        "source_urls": [
+          "https://www.smcgov.org/north-fair-oaks-community/community-directory"
+        ],
+        "purpose": "Community services and resource referral.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "City of Redwood City Parks, Recreation and Community Services — Staff Contact Us directory",
+      "urls": [
+        "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/about-us/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "asmith@redwoodcity.org",
+      "published_contact_person": "Adilah Haqq",
+      "role": "Human Services Manager, Human Services and Fair Oaks Community Center",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Published professional manager contact for community services and resource referrals.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested. The listed email differs from the manager's displayed surname; the address is transcribed from the official directory, not inferred. Verify currency before use."
+    }
+  ]
+}

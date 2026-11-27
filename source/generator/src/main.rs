@@ -7,7 +7,7 @@ use std::{collections::BTreeSet, env, fs, path::{Path, PathBuf}, process::Comman
 use url::Url;
 
 const ORIGIN: &str = "https://grwtsk.com";
-const REPO: &str = "https://github.com/grwtsk/grwtsk.com/blob/main/source/data";
+const REPO: &str = "https://github.com/grwtsk/grwtsk.com/blob/main/source/data/articles";
 
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -175,7 +175,7 @@ fn entries(dir: &Path) -> Result<Vec<fs::DirEntry>> {
 
 fn responses(parser: &Path, dir: &Path, id: &str, created: &DateTime<FixedOffset>) -> Result<Vec<Response>> {
     let mut result = Vec::new();
-    ensure!(dir.symlink_metadata()?.file_type().is_dir(), "responses must be a directory");
+    ensure!(dir.symlink_metadata()?.file_type().is_dir(), "in must be a directory");
     for entry in entries(dir)? {
         let name = entry.file_name().into_string().map_err(|_| anyhow::anyhow!("non-UTF8 response filename"))?;
         if name == ".gitkeep" { ensure!(entry.file_type()?.is_file(), "invalid .gitkeep"); continue; }
@@ -190,7 +190,7 @@ fn responses(parser: &Path, dir: &Path, id: &str, created: &DateTime<FixedOffset
         ensure!(&received >= created, "response precedes article");
         result.push(Response {
             display_date: display_date(&received),
-            repository_url: format!("{REPO}/{id}/responses/{name}"),
+            repository_url: format!("{REPO}/{id}/in/{name}"),
             meta, received,
         });
     }
@@ -234,7 +234,7 @@ fn load_article(parser: &Path, dir: &Path) -> Result<Article> {
         if let Some(reference) = &send.reference { nonempty(reference, "send reference")?; }
         validate_optional_url(&send.public_record)?;
     }
-    let responses = responses(parser, &dir.join("responses"), id, &created)?;
+    let responses = responses(parser, &dir.join("in"), id, &created)?;
     let permalink = format!("/articles/{id}/");
     let canonical = format!("{ORIGIN}{permalink}");
     Ok(Article {
@@ -405,7 +405,7 @@ fn generate(parser: &Path, data: &Path, out: &Path) -> Result<()> {
 
 fn main() -> Result<()> {
     let args: Vec<_> = env::args_os().skip(1).collect();
-    ensure!(args.len() == 3, "usage: site-generator <markdown-parser> <data-dir> <new-output-dir>");
+    ensure!(args.len() == 3, "usage: site-generator <markdown-parser> <articles-dir> <new-output-dir>");
     generate(Path::new(&args[0]), Path::new(&args[1]), Path::new(&args[2]))
 }
 

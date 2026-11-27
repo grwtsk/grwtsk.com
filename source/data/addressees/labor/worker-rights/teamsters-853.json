@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/teamsters-853",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Teamsters Local 853",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "connections@teamsters853.org",
+  "scope": [
+    "Bay Area; historical Stanford Health Care security organizing"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "teamsters-853",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://teamsters853.org/our-team-officers-staff/",
+        "https://www.nlrb.gov/case/32-CA-305366"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://teamsters853.org/our-team-officers-staff/",
+        "phone": "510-895-8853"
+      },
+      "record": {
+        "type": "stanford_health_labor",
+        "name": "Teamsters Local 853",
+        "scope": "Bay Area; historical Stanford Health Care security organizing",
+        "source_urls": [
+          "https://teamsters853.org/our-team-officers-staff/",
+          "https://www.nlrb.gov/case/32-CA-305366"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Workplace rights and historical Stanford security-worker labor charges.",
+        "limits": "Historical organizing does not establish current representation of Stanford security staff."
+      }
+    }
+  ]
+}

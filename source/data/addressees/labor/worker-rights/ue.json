@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/ue",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "United Electrical, Radio and Machine Workers of America (UE)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "ue@ueunion.org",
+  "scope": [
+    "National; parent union of SGWU"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "ue",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+      ],
+      "channel": {
+        "kind": "public_policy_reference",
+        "url": "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "United Electrical, Radio and Machine Workers of America (UE)",
+        "scope": "National; parent union of SGWU",
+        "source_urls": [
+          "https://www.ueunion.org/ue-news/2025/in-the-heart-of-silicon-valley-stanford-graduate-workers-secure-historic-first-contract"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Published account of Stanford graduate worker first contract and limitations on grievance arbitration.",
+        "limits": "Source is union reporting, not intake."
+      }
+    },
+    {
+      "source_title": "United Electrical, Radio and Machine Workers of America — Connect with UE",
+      "urls": [
+        "https://www.ueunion.org/ueform.html"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ue@ueunion.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "National union general inquiries; organization distinguishes organizing, political action and newsroom mailboxes.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

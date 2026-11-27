@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/cal-ag-vsu",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Attorney General Victims' Services Unit",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": "VictimServices@doj.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "cal-ag-vsu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://oag.ca.gov/victimservices/contact"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://oag.ca.gov/victimservices/contact",
+        "phone": "877-433-9069"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "California Attorney General Victims' Services Unit",
+        "scope": "California",
+        "purpose": "Victim support and appropriate referral.",
+        "limits": "Not an initial crime-report or consumer-complaint form.",
+        "source_urls": [
+          "https://oag.ca.gov/victimservices/contact"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    },
+    {
+      "source_title": "California Department of Justice — Victims' Services Unit and published survivor resources",
+      "urls": [
+        "https://oag.ca.gov/news/press-releases/national-human-trafficking-awareness-day-attorney-general-bonta-highlights",
+        "https://oag.ca.gov/victimservices/contact"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "VictimServices@doj.ca.gov",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Victim services, resource navigation and eligible criminal proceeding or case-status inquiries.",
+      "limitations": "Confirm current mailbox and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Do not include private records in ordinary email. Deliverability not tested. The Unit prefers its web form. Not an initial crime-reporting mailbox or an individual legal representation service."
+    }
+  ]
+}

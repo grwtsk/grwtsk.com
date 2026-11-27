@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-santa-clara-county-counsel",
+  "addressee_type": "named_public_office",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "tony.lopresti@cco.sccgov.org",
+  "scope": [
+    "California / Santa Clara County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-santa-clara-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Santa Clara County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Santa Clara County Counsel — public court filing dated 2025-05-02, pp. 53–54; State Bar profile #289269; County Counsel homepage",
+      "urls": [
+        "https://www.sfcityattorney.org/wp-content/uploads/2025/05/King-County-v.-Turner-Complaint.pdf",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/289269",
+        "https://counsel.santaclaracounty.gov/home"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "tony.lopresti@cco.sccgov.org",
+      "role": "County counsel",
+      "channel_kind": "published_official_officeholder_email",
+      "stated_purpose": "County counsel professional contact for county government legal affairs; county counsel represents the county.",
+      "limitations": "Page images confirm role and address in 2025; State Bar profile corroborates professional address. Current incumbent and channel require recheck. Not public legal advice or complaint intake. Confirm current mailbox and jurisdiction before correspondence; do not send confidential records through ordinary email. Deliverability not tested.",
+      "listed_officeholder": "Tony LoPresti"
+    }
+  ],
+  "listed_officeholder": "Tony LoPresti"
+}

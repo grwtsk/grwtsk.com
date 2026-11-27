@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/house-judiciary",
+  "addressee_type": "organizational_or_official_route",
+  "name": "House Judiciary Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "house-judiciary",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://clerk.house.gov/Committees/JU00"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://clerk.house.gov/Committees/JU00",
+        "phone": "202-225-6906",
+        "mail": "2138 Rayburn House Office Building, Washington, DC 20515"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "House Judiciary Committee",
+        "scope": "United States",
+        "purpose": "Federal justice and civil rights policy oversight.",
+        "source_urls": [
+          "https://clerk.house.gov/Committees/JU00"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Not a complaint intake for individual prosecution or a judicial appeal."
+      }
+    }
+  ]
+}

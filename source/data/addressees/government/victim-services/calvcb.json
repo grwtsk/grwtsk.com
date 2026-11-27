@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/calvcb",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Victim Compensation Board",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "info@victims.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "calvcb",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victims.ca.gov/contact-us/",
+        "https://victims.ca.gov/for-victims/"
+      ],
+      "channel": {
+        "kind": "benefits_intake",
+        "url": "https://victims.ca.gov/contact-us/",
+        "phone": "800-777-9229"
+      },
+      "record": {
+        "category": "victim_services",
+        "organization": "California Victim Compensation Board",
+        "scope": "California",
+        "purpose": "Eligibility screening and reimbursement of qualifying crime-related expenses.",
+        "limits": "Medical negligence by itself does not establish a qualifying crime; ask about evidence and deadlines.",
+        "source_urls": [
+          "https://victims.ca.gov/contact-us/",
+          "https://victims.ca.gov/for-victims/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

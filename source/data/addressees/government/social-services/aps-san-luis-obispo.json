@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-san-luis-obispo",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "lbelch@co.slo.ca.us",
+  "scope": [
+    "California / San Luis Obispo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-san-luis-obispo",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / San Luis Obispo County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16 roster, san-luis-obispo section; other listed county evidence as applicable",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://www.slocounty.ca.gov/departments/social-services/adult-services/services/adult-protective-services-program-%28aps%29"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "lbelch@co.slo.ca.us",
+      "published_contact_person": "Linda Belch",
+      "role": "Deputy Director, Adult and Homeless Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not a designated abuse-report intake channel.",
+      "limitations": "Published division leadership contact; APS program separately specifies reporting channels. CWDA text reviewed; page image retrieval failed because the PDF exceeds the viewer size limit. Reconfirm current incumbent, mailbox and remit before use. Preserve statutory reporting and confidential intake channels. Deliverability not tested."
+    }
+  ]
+}

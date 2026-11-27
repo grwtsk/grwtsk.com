@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-shasta-county-public-defender",
+  "addressee_type": "named_public_office",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "public_defender@co.shasta.ca.us",
+  "scope": [
+    "California / Shasta County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-shasta-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Shasta County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "State Bar of California attorney professional profile #355295; How to Justice office directory",
+      "urls": [
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/355295",
+        "https://howtojustice.org/directory/shasta-county-ca-california-public-defenders-office/",
+        "https://www.shastacounty.gov/public-defender"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "public_defender@co.shasta.ca.us",
+      "role": "County public defender",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public Defender office mailbox identified in a public service directory and corroborated by the professional profile of a listed office attorney.",
+      "limitations": "Third-party directory and State Bar self-reported profile evidence; the profile contains email obfuscation strings. Current county publication of the literal address is not confirmed. Verify before use. Public defense services only, not general civil complaints. No case-specific jurisdiction inferred from this record. Verify current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

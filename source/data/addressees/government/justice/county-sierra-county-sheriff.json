@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-sierra-county-sheriff",
+  "addressee_type": "named_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "complaint@sierracounty.ca.gov",
+  "scope": [
+    "California / Sierra County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-sierra-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Sierra County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Sierra County Sheriff's Office — Submit a Complaint or Complement",
+      "urls": [
+        "https://sierracounty.ca.gov/840/Submit-a-Complaint-or-Complement"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "complaint@sierracounty.ca.gov",
+      "role": "County sheriff",
+      "channel_kind": "published_purpose_specific_office_email",
+      "stated_purpose": "Designated channel for complaints or compliments regarding Sierra County Sheriff's Office employees; follow the published form procedure.",
+      "limitations": "Not a general correspondence address, not for complaints about unrelated institutions, and not emergency dispatch. Only use for matters within stated jurisdiction and subject remit. No case-specific jurisdiction inferred from this record. Verify current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

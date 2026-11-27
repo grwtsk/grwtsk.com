@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/ndrn",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "National Disability Rights Network",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@ndrn.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "ndrn",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ndrn.org/about/"
+      ],
+      "channel": {
+        "kind": "network_information",
+        "url": "https://www.ndrn.org/about/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "National Disability Rights Network",
+        "service_area": "National",
+        "purpose": "National protection and advocacy network; use California's designated affiliate for individual help.",
+        "source_urls": [
+          "https://www.ndrn.org/about/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "National Disability Rights Network accessibility statement",
+      "urls": [
+        "https://www.ndrn.org/accessibility-statement/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@ndrn.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Website accessibility, alternative formats and related information or concerns; not direct individual legal representation.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/ecumenical-hunger",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Ecumenical Hunger Program",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@ehpcares.org",
+  "scope": [
+    "East Palo Alto / Peninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "ecumenical-hunger",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "basic_needs",
+        "name": "Ecumenical Hunger Program",
+        "area": "East Palo Alto / Peninsula",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Basic needs and community support; eligibility varies.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "Ecumenical Hunger Program — Contact",
+      "urls": [
+        "https://www.ehpcares.org/contact-10"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@ehpcares.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General inquiries and service or program information.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

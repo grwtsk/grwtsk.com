@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/labor-regulation/eeoc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "EEOC San Francisco District Office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "labor-regulation"
+  ],
+  "email": null,
+  "scope": [
+    "Federal employment discrimination jurisdiction"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "eeoc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.eeoc.gov/field-office/sanfrancisco/location"
+      ],
+      "channel": {
+        "kind": "official_employment_intake",
+        "url": "https://www.eeoc.gov/field-office/sanfrancisco/location",
+        "phone": "800-669-4000"
+      },
+      "record": {
+        "type": "labor_regulator",
+        "name": "EEOC San Francisco District Office",
+        "scope": "Federal employment discrimination jurisdiction",
+        "source_urls": [
+          "https://www.eeoc.gov/field-office/sanfrancisco/location"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Employment discrimination, accommodation and retaliation enforcement.",
+        "limits": "Employee claims, not patient discrimination intake."
+      }
+    }
+  ]
+}

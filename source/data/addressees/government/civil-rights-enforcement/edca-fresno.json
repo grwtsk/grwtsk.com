@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/civil-rights-enforcement/edca-fresno",
+  "addressee_type": "organizational_or_official_route",
+  "name": "U.S. Attorney EDCA – Fresno office",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "civil-rights-enforcement"
+  ],
+  "email": null,
+  "scope": [
+    "Fresno, Inyo, Kern, Kings, Madera, Mariposa, Merced, Tulare, Tuolumne"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "edca-fresno",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.justice.gov/usao-edca/fresno-office"
+      ],
+      "channel": {
+        "kind": "office_phone_mail",
+        "url": "https://www.justice.gov/usao-edca/fresno-office",
+        "phone": "559-497-4000",
+        "mail": "2500 Tulare Street, Suite 4401, Fresno, CA 93721"
+      },
+      "record": {
+        "level": "federal_enforcement",
+        "office": "U.S. Attorney EDCA – Fresno office",
+        "scope": "Fresno, Inyo, Kern, Kings, Madera, Mariposa, Merced, Tulare, Tuolumne",
+        "purpose": "Federal matters with local venue; contact for routing.",
+        "source_urls": [
+          "https://www.justice.gov/usao-edca/fresno-office"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed"
+      }
+    }
+  ]
+}

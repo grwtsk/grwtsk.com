@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-san-luis-obispo-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "jansolabehere@co.slo.ca.us",
+  "scope": [
+    "California / San Luis Obispo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-luis-obispo-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / San Luis Obispo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://www.slocounty.ca.gov/departments/county-counsel",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/278174"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "jansolabehere@co.slo.ca.us",
+      "published_contact_person": "Jon Michael Ansolabehere",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "County department page identifies the director; State Bar profile publishes the county work email. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Jon Michael Ansolabehere"
+}

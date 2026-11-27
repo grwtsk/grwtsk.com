@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import { requireThat, uuid, field, digest, now, findCase, currentOffice } from './core.mjs';
 
-const BASE='source/data/formal-complaint-and-demand-for-independent-investigation/public-correspondence/';
+const BASE='source/data/articles/formal-complaint-and-demand-for-independent-investigation/public-correspondence/';
 const REVIEW_NOTICE='The public record is a reviewed summary or receipt, not a verbatim email or a determination of the allegations.';
 const noContact=/[^\s<>]+@[^\s<>]+\.[^\s<>]+|(?:https?:\/\/|mailto:|www\.)|(?:\+?\d[\s().-]*){10,}|(?:sk-(?:proj-)?|ghp_|github_pat_|re_[A-Za-z0-9_]{12,})[A-Za-z0-9_-]+/iu;
 function ledger(state){const l=state.publicRecords||{version:1,entries:[]};requireThat(l.version===1&&Array.isArray(l.entries),503,'Invalid public record ledger');return l;}

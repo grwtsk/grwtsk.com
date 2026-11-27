@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-santa-barbara",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "akrueg@countyofsb.org",
+  "scope": [
+    "California / Santa Barbara County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-santa-barbara",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Santa Barbara County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "County Welfare Directors Association of California, 2026 Directory, April 16 roster, santa-barbara section; other listed county evidence as applicable",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://www.countyofsb.org/dss-adult-services",
+        "https://oycr.ca.gov/wp-content/uploads/sites/346/2026/01/Santa-Barbara-JJCPA-YOBG-May-Plan-2025.pdf"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "akrueg@countyofsb.org",
+      "published_contact_person": "Amy Krueger",
+      "role": "Assistant Director, Adult and Children Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit; not a designated abuse-report intake channel.",
+      "limitations": "Roster prints surname Kreuger; address matches published state juvenile-justice plan listing Amy Krueger. County Adult Services includes APS. CWDA text reviewed; page image retrieval failed because the PDF exceeds the viewer size limit. Reconfirm current incumbent, mailbox and remit before use. Preserve statutory reporting and confidential intake channels. Deliverability not tested."
+    }
+  ]
+}

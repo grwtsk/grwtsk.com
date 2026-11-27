@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-san-diego",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "ADRC.HHSA@sdcounty.ca.gov",
+  "scope": [
+    "California / San Diego County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-san-diego",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / San Diego County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "County of San Diego Aging & Independence Services, Reporting Elder & Dependent Adult Abuse, p. 1 (visually checked)",
+      "urls": [
+        "https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/ais/aps/Overview-Reporting-Elder-Dependent-Adult-Abuse.pdf"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ADRC.HHSA@sdcounty.ca.gov",
+      "role": "Aging & Independence Services — APS written-report mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Submission of completed SOC 341 after calling the APS hotline, as specified in the county guidance. Not general outreach.",
+      "limitations": "Verify current incumbent, mailbox and jurisdiction before use. Deliverability not tested. Do not send private records through ordinary outreach email. Restricted to the documented reporting procedure; do not use for bulk outreach. Retain hotline and online reporting routes."
+    }
+  ]
+}

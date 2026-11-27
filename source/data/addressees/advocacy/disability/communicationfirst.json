@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/communicationfirst",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "CommunicationFIRST",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@communicationfirst.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "communicationfirst",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://communicationfirst.org/getinvolved/"
+      ],
+      "channel": {
+        "kind": "general_inquiry",
+        "url": "https://communicationfirst.org/getinvolved/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "CommunicationFIRST",
+        "service_area": "National",
+        "purpose": "Communication access and rights for people who cannot rely on speech alone; inquire before sharing sensitive stories.",
+        "source_urls": [
+          "https://communicationfirst.org/getinvolved/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

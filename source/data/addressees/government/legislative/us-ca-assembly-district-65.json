@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/us-ca-assembly-district-65",
+  "addressee_type": "named_public_office",
+  "name": "California State Assembly, District 65",
+  "listed_officeholder": "Mike A. Gipson",
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": "assemblymember.gipson@asm.ca.gov",
+  "scope": [
+    "United States / California / State Assembly District 65"
+  ],
+  "source_status": "official_roster_snapshot_visual_review_recheck_current_officeholder",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "sources": [
+    {
+      "url": "https://admin.cdn.sos.ca.gov/ca-roster/2026/state-assembly.pdf#page=4",
+      "source_title": "California Secretary of State, California Roster 2026",
+      "source_review_date": "2026-11-24",
+      "channel_kind": "published_legislative_office_email",
+      "stated_purpose": "Official legislative office contact; constituent services or legislative policy within remit",
+      "limitations": "Roster snapshot; confirm current incumbent, address, district and office contact procedure before use. Not evidence of willingness to receive unrelated case material."
+    }
+  ]
+}

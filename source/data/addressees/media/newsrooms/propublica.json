@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/propublica",
+  "addressee_type": "organizational_or_official_route",
+  "name": "ProPublica",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "propublica",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.propublica.org/tips/"
+      ],
+      "channel": {
+        "kind": "encrypted_tip_form_and_secure_options",
+        "url": "https://www.propublica.org/tips/"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "ProPublica",
+        "coverage": "National",
+        "source_urls": [
+          "https://www.propublica.org/tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Document-based investigations of institutional harm and abuses of power.",
+        "limitations": "Use official evidence-based tip route, not an ordinary press release; review confidentiality terms."
+      }
+    }
+  ]
+}

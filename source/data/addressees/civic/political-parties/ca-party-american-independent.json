@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:civic/political-parties/ca-party-american-independent",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "American Independent Party",
+  "aliases": [],
+  "taxonomy": [
+    "civic",
+    "political-parties"
+  ],
+  "email": "chairman@aipca.vote",
+  "scope": [
+    "California"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "ca-party-american-independent",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.aipca.vote",
+        "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+      ],
+      "channel": {
+        "kind": "public_party_office",
+        "url": "https://www.aipca.vote",
+        "phone": "831-684-6167"
+      },
+      "record": {
+        "category": "qualified_political_party",
+        "organization": "American Independent Party",
+        "service_area": "California",
+        "purpose": "Official party office directory for general policy inquiries; no presumption of policy agreement or participation.",
+        "source_urls": [
+          "https://www.sos.ca.gov/elections/political-parties/qualified-political-parties"
+        ],
+        "verification": "California Secretary of State current qualified party directory reviewed",
+        "checked_on": "2026-11-24"
+      }
+    }
+  ]
+}

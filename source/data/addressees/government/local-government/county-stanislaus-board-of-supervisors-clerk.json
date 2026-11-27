@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-stanislaus-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cobsupport@stancounty.com",
+  "scope": [
+    "California / Stanislaus County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-stanislaus-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Stanislaus County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Stanislaus County Clerk of the Board",
+      "urls": [
+        "https://www.stancounty.com/board/cob/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cobsupport@stancounty.com",
+      "role": "Clerk of the Board",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Board administrative services, written public comments and records; public comments may become public records.",
+      "limitations": "Verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ]
+}

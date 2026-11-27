@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/ca-labor-fed",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Federation of Labor Unions",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "info@calaborfed.org",
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "ca-labor-fed",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://calaborfed.org/central-labor-councils/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://calaborfed.org/central-labor-councils/"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "California Federation of Labor Unions",
+        "scope": "California",
+        "source_urls": [
+          "https://calaborfed.org/central-labor-councils/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Directory of local labor councils; regional service navigation.",
+        "limits": "Directory, not proof of participation or invitation to contact all councils."
+      }
+    },
+    {
+      "source_title": "California Federation of Labor Unions — Our Staff",
+      "urls": [
+        "https://calaborfed.org/about-us/our-staff/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@calaborfed.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General federation inquiries; worker rights complaints are directed to the Labor Commissioner or relevant union.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-sierra",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": "smarshall@sierracounty.ca.gov",
+  "scope": [
+    "California / Sierra County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-sierra",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "530-993-4617",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Sierra County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "statewide_reference_only",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Sierra County — Victim & Witness Services; District Attorney staff directory",
+      "urls": [
+        "https://www.sierracounty.ca.gov/222/Victim-Witness-Services",
+        "https://www.sierracounty.ca.gov/m/directory/department?did=7"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "smarshall@sierracounty.ca.gov",
+      "role": "County victim/witness assistance",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Officially published victim witness coordinator contact for assistance within the program's remit.",
+      "limitations": "Not a substitute for initial crime reporting or emergency response. Confirm program jurisdiction. No case-specific jurisdiction inferred from this record. Verify current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email.",
+      "listed_officeholder": "Sandy Marshall"
+    }
+  ],
+  "listed_officeholder": "Sandy Marshall"
+}

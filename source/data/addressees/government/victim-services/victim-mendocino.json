@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/victim-services/victim-mendocino",
+  "addressee_type": "organizational_or_official_route",
+  "name": "County victim/witness assistance",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "California / Mendocino County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "victim-mendocino",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      ],
+      "channel": {
+        "kind": "office_phone",
+        "phone": "707-463-4218",
+        "url": "https://www.cdcr.ca.gov/victim-services/resources-county/"
+      },
+      "record": {
+        "role": "County victim/witness assistance",
+        "jurisdiction": "California / Mendocino County",
+        "source": [
+          "victim"
+        ],
+        "verification": "official_directory_listing",
+        "scope": "statewide_reference_only",
+        "purpose": "Victim assistance and local referral; not a substitute for a police report."
+      }
+    },
+    {
+      "source_title": "Official institutional contact or alternate route",
+      "urls": [
+        "https://www.mendocinocounty.gov/Contact-Us"
+      ],
+      "source_review_date": "2026-11-24",
+      "shared_route_ref": "addressee:government/justice/da-mendocino",
+      "stated_purpose": "County directory lists victim witness alongside the district attorney offices and publishes a general DA email; no dedicated victim program email established.",
+      "limitations": "Preserve dedicated program route and confirm applicability. Do not duplicate the canonical email or count it as a newly acquired address."
+    }
+  ],
+  "shared_route_refs": [
+    "addressee:government/justice/da-mendocino"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/ppjc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Peninsula Peace and Justice Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "ppjc@peaceandjustice.org",
+  "scope": [
+    "Peninsula"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "ppjc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://peaceandjustice.org/contact/"
+      ],
+      "channel": {
+        "type": "opt_in_policy_dialogue",
+        "url": "https://peaceandjustice.org/contact/"
+      },
+      "record": {
+        "category": "community_education",
+        "organization": "Peninsula Peace and Justice Center",
+        "service_area": "Peninsula",
+        "purpose": "Public education on human rights and community resources.",
+        "limitations": "General policy and resources only, not a channel for circulating allegations about named individuals.",
+        "source_urls": [
+          "https://peaceandjustice.org/contact/"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "community-support",
+          "civil-rights",
+          "systemic-accountability"
+        ],
+        "contact_policy": {
+          "purpose": "voluntary_policy_dialogue",
+          "disclosure": "deidentified",
+          "action": "verify_opt_in_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Peninsula Peace and Justice Center — organization contact",
+      "urls": [
+        "https://peaceandjustice.org/organizer/peninsula-peace-justice-center/",
+        "https://peaceandjustice.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "ppjc@peaceandjustice.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General organizational correspondence concerning public education and advocacy.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

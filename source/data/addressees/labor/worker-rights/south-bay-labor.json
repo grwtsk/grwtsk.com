@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/south-bay-labor",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "South Bay AFL-CIO Labor Council",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "info@southbaylabor.org",
+  "scope": [
+    "Santa Clara and San Benito counties / Silicon Valley"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "south-bay-labor",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.southbaylabor.org/board_and_staff",
+        "https://calaborfed.org/central-labor-councils/",
+        "https://www.southbaylabor.org/sgwu_first_contract"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://www.southbaylabor.org/board_and_staff",
+        "phone": "408-606-2060"
+      },
+      "record": {
+        "type": "regional_labor",
+        "name": "South Bay AFL-CIO Labor Council",
+        "scope": "Santa Clara and San Benito counties / Silicon Valley",
+        "source_urls": [
+          "https://www.southbaylabor.org/board_and_staff",
+          "https://calaborfed.org/central-labor-councils/",
+          "https://www.southbaylabor.org/sgwu_first_contract"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Federation of over 100 affiliated unions; regional worker rights and policy.",
+        "limits": "Council's organizational scope, not evidence every affiliate has investigated Stanford."
+      }
+    },
+    {
+      "source_title": "City of Palo Alto — Local Hiring Resources; South Bay Labor Council official site",
+      "urls": [
+        "https://www.paloalto.gov/Departments/Planning-Development-Services/Current-Planning/Local-Hiring-Resources",
+        "https://www.southbaylabor.org/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@southbaylabor.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General council inquiries about workforce and labor matters.",
+      "limitations": "Confirm the current mailbox, remit and eligibility before correspondence. Preserve designated intake routes. Publication alone does not establish permission to send bulk messages. Do not include confidential records in ordinary outreach email. Deliverability not tested. City directory explicitly lists the address; the council site masks the email in retrieved text."
+    }
+  ]
+}

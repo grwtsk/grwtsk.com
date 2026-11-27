@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-siskiyou-county-counsel",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "fdmorgan@co.siskiyou.ca.us",
+  "scope": [
+    "California / Siskiyou County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-siskiyou-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Siskiyou County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Published county office, State Bar or public legal record contact",
+      "urls": [
+        "https://www.siskiyoucounty.gov/county-counsel",
+        "https://bosagenda.co.siskiyou.ca.us/529614/Agenda.html",
+        "https://apps.calbar.ca.gov/attorney/Licensee/Detail/337437"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "fdmorgan@co.siskiyou.ca.us",
+      "published_contact_person": "Forest Dean Morgan",
+      "role": "County Counsel",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "County legal administrative correspondence only where relevant to the actual office remit and jurisdiction.",
+      "limitations": "Official county department indexed page names F. Dean Morgan and describes the office as not public-facing; direct retrieval restricted by robots.txt. County agenda describes appointment effective January 4, 2026, and current State Bar profile publishes the professional address. County counsel represents the county, not a private complainant. Do not infer independent complaint intake, legal filing or service-of-process authorization. Confirm address and remit before use; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Forest Dean Morgan"
+}

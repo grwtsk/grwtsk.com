@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/san-mateo-keller",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Keller Center for Family Violence Intervention",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "san-mateo-keller",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=san-mateo"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=san-mateo",
+        "phone": "650-573-2623"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "Keller Center for Family Violence Intervention",
+        "scope": "San Mateo County",
+        "purpose": "Specialized victim support and referral.",
+        "limits": "Confirm type of victimization and service eligibility; not a general medical grievance office.",
+        "source_urls": [
+          "https://victims.ca.gov/for-victims/get-help/?vcb_resource_location=san-mateo"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

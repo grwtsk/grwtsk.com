@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/kmph",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "FOX26 KMPH / KFRE",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "newsdesk@kmph.com",
+  "scope": [
+    "Fresno and Central Valley"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "kmph",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://kmph.com/station/contact"
+      ],
+      "channel": {
+        "kind": "newsroom_phone",
+        "url": "https://kmph.com/station/contact",
+        "phone": "559-453-8850"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "FOX26 KMPH / KFRE",
+        "coverage": "Fresno and Central Valley",
+        "source_urls": [
+          "https://kmph.com/station/contact"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local television news and public safety.",
+        "limitations": "NewsDesk@kmph.com is explicitly a press-release route; newsroom phone listed for story ideas.",
+        "shared_network": "sinclair"
+      }
+    },
+    {
+      "source_title": "FOX26 KMPH — station contact",
+      "urls": [
+        "https://kmph.com/station/contact"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "newsdesk@kmph.com",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "News desk and editorial inquiries.",
+      "limitations": "Verify current role, scope and intended intake channel before correspondence. Do not include private records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

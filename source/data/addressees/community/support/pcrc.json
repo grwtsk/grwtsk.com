@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/support/pcrc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Peninsula Conflict Resolution Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "support"
+  ],
+  "email": "info@pcrcweb.org",
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "pcrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.pcrcweb.org/contact"
+      ],
+      "channel": {
+        "type": "support_and_referral",
+        "url": "https://www.pcrcweb.org/contact"
+      },
+      "record": {
+        "category": "community_support",
+        "organization": "Peninsula Conflict Resolution Center",
+        "service_area": "San Mateo County",
+        "purpose": "Community dialogue and facilitation resources.",
+        "limitations": "Not a criminal investigator or disciplinary board; no mediation without appropriate voluntary participation.",
+        "source_urls": [
+          "https://www.pcrcweb.org/contact"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "community-support",
+          "accessible-communication"
+        ],
+        "contact_policy": {
+          "purpose": "support_or_referral",
+          "disclosure": "minimal",
+          "action": "verify_intake_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "pcrc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thrivealliance.org/current-members"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://www.thrivealliance.org/current-members"
+      },
+      "record": {
+        "category": "equity",
+        "name": "Peninsula Conflict Resolution Center",
+        "area": "San Mateo County",
+        "source_urls": [
+          "https://www.thrivealliance.org/current-members"
+        ],
+        "purpose": "Community dialogue and conflict-resolution resources.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    },
+    {
+      "source_title": "City of Half Moon Bay — Community/Social Services resources; PCRC published organizational contact",
+      "urls": [
+        "https://www.halfmoonbay.gov/478/CommunitySocial-Services-Resources",
+        "https://www.pcrcweb.org/privacy-disclaimer",
+        "https://www.pcrcweb.org/request-a-service"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@pcrcweb.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Public mediation and conflict-resolution information; use the organization's designated service request procedure for formal requests.",
+      "limitations": "Confirm current mailbox and relevant remit before use. Retain designated service-intake or complaint procedures. Publication does not establish consent to automated or bulk messages. Do not send private records through ordinary outreach email. Deliverability not tested."
+    }
+  ]
+}

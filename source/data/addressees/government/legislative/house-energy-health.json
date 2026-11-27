@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/house-energy-health",
+  "addressee_type": "organizational_or_official_route",
+  "name": "House Energy and Commerce – Health Subcommittee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "United States"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "house-energy-health",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://energycommerce.house.gov/committees/subcommittee/health"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://energycommerce.house.gov/committees/subcommittee/health",
+        "phone": "202-225-3641"
+      },
+      "record": {
+        "level": "federal_legislative",
+        "office": "House Energy and Commerce – Health Subcommittee",
+        "scope": "United States",
+        "purpose": "Health policy, HHS, Medicare/Medicaid, malpractice and health information policy.",
+        "source_urls": [
+          "https://energycommerce.house.gov/committees/subcommittee/health"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Use committee route; do not individually contact every member."
+      }
+    }
+  ]
+}

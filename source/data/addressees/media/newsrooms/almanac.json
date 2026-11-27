@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/almanac",
+  "addressee_type": "organizational_or_official_route",
+  "name": "The Almanac",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "editor@AlmanacNews.com",
+  "scope": [
+    "Menlo Park, Atherton, Portola Valley, Woodside"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "almanac",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.almanacnews.com/send-us-a-news-tip/"
+      ],
+      "channel": {
+        "kind": "tip_form",
+        "url": "https://www.almanacnews.com/send-us-a-news-tip/"
+      },
+      "record": {
+        "category": "peninsula",
+        "outlet": "The Almanac",
+        "coverage": "Menlo Park, Atherton, Portola Valley, Woodside",
+        "source_urls": [
+          "https://www.almanacnews.com/send-us-a-news-tip/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Local civic and community news.",
+        "limitations": "Submission may grant publication permission; no guarantee of confidentiality.",
+        "shared_network": "embarcadero"
+      }
+    },
+    {
+      "source_title": "The Almanac — About Us",
+      "urls": [
+        "https://www.almanacnews.com/about-us/",
+        "https://www.almanacnews.com/send-us-a-news-tip/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "editor@AlmanacNews.com",
+      "role": "The Almanac",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Editorial ideas and local story suggestions.",
+      "limitations": "Ordinary editorial mailbox; use news-tip form or an agreed secure method for sensitive materials. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

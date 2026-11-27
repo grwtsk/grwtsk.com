@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "addressee:legal/health-access/legal-aid-smc",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Legal Aid Society of San Mateo County – Health Consumer Center",
+  "aliases": [
+    "Legal Aid Society of San Mateo County"
+  ],
+  "taxonomy": [
+    "legal",
+    "health-access"
+  ],
+  "email": null,
+  "scope": [
+    "San Mateo County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "legal-aid-smc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.legalaidsmc.org/health-consumer-center"
+      ],
+      "channel": {
+        "type": "confidential_legal_intake",
+        "url": "https://www.legalaidsmc.org/health-consumer-center"
+      },
+      "record": {
+        "category": "legal_support",
+        "organization": "Legal Aid Society of San Mateo County – Health Consumer Center",
+        "service_area": "San Mateo County",
+        "purpose": "Eligible residents' healthcare access, insurance, service delays and denials.",
+        "limitations": "Eligibility and scope apply; no promise of malpractice representation.",
+        "source_urls": [
+          "https://www.legalaidsmc.org/health-consumer-center"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "civil-rights",
+          "independent-review",
+          "records-integrity"
+        ],
+        "contact_policy": {
+          "purpose": "legal_intake_inquiry",
+          "disclosure": "confidential_channel_required",
+          "action": "verify_confidential_intake",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_set": "peninsula-community-and-neurology-resources",
+      "collection": "community_resources",
+      "record_id": "legal-aid-smc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://paloaltocommfund.org/2026-impact-report/"
+      ],
+      "channel": {
+        "kind": "directory_lookup",
+        "url": "https://paloaltocommfund.org/2026-impact-report/"
+      },
+      "record": {
+        "category": "legal",
+        "name": "Legal Aid Society of San Mateo County",
+        "area": "San Mateo County",
+        "source_urls": [
+          "https://paloaltocommfund.org/2026-impact-report/"
+        ],
+        "purpose": "Civil legal aid and healthcare access resources.",
+        "verification": "official_directory_listing_reviewed",
+        "checked_on": "2026-11-24",
+        "limitations": "Use only for appropriate resource navigation or eligible services; directory inclusion does not establish participation or authority over the complaint."
+      }
+    }
+  ]
+}

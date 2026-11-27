@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/undark",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Undark Magazine",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National / science and society"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "undark",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://undark.org/contact/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://undark.org/contact/",
+        "signal": "1-406-209-8729"
+      },
+      "record": {
+        "category": "specialist",
+        "outlet": "Undark Magazine",
+        "coverage": "National / science and society",
+        "source_urls": [
+          "https://undark.org/contact/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Medicine, ethics and the intersection of science and society.",
+        "limitations": "Published Signal route; separate story proposals from tips."
+      }
+    }
+  ]
+}

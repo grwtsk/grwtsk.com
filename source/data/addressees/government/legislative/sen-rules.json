@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/sen-rules",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Senate Rules Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "sen-rules",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://srul.senate.ca.gov/committeehome",
+        "https://srul.senate.ca.gov/members",
+        "https://law.justia.com/codes/california/code-bpc/division-2/chapter-5/article-1/section-2001/"
+      ],
+      "shared_channel_id": "rules",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Senate Rules Committee",
+        "person": null,
+        "source_keys": [
+          "rules",
+          "rulesmembers",
+          "stat2001"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Governor appointment confirmation and direct appointment of one public member.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "rules",
+      "channel": {
+        "url": "https://srul.senate.ca.gov/committeehome",
+        "phone": "916-651-4120",
+        "kind": "committee_office",
+        "note": "Appointments testimony may be public; do not provide case records."
+      }
+    }
+  ]
+}

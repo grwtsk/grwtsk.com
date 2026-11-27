@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/smadie",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Medicine Alliance for Disability Inclusion and Equity (SMADIE)",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": "stanfordmedadie@stanford.edu",
+  "scope": [
+    "School of Medicine, Stanford Health Care, UHA, Lucile Packard Children's Hospital, PCHA and Stanford Children's Health"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "smadie",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/smadie/about.html",
+        "https://stanfordidd.stanford.edu/stanford-resources-opportunities-0",
+        "https://med.stanford.edu/community/advisory-cabinet/subcommittees.html"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://med.stanford.edu/smadie/about.html"
+      },
+      "record": {
+        "type": "campus_disability_policy",
+        "name": "Stanford Medicine Alliance for Disability Inclusion and Equity (SMADIE)",
+        "scope": "School of Medicine, Stanford Health Care, UHA, Lucile Packard Children's Hospital, PCHA and Stanford Children's Health",
+        "source_urls": [
+          "https://med.stanford.edu/smadie/about.html",
+          "https://stanfordidd.stanford.edu/stanford-resources-opportunities-0",
+          "https://med.stanford.edu/community/advisory-cabinet/subcommittees.html"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Disability inclusion, universal design, health equity and mentorship across Stanford Medicine.",
+        "limits": "Internal employee and community advocacy network; not an independent complaint investigator. Do not contact members based on disability."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-napa",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "darecords@countyofnapa.org",
+  "scope": [
+    "California / Napa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Allison Haley"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-napa",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.countyofnapa.org/2086/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.countyofnapa.org/2086/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Napa County",
+        "listed_officeholder": "Allison Haley",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Napa County District Attorney Administration — Contact Us",
+      "urls": [
+        "https://www.napacounty.gov/658/Administration"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "darecords@countyofnapa.org",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Published general District Attorney office contact on the administration page; confirm appropriate routing for the inquiry.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

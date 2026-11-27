@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-tehama-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "publichealth@tchsa.net",
+  "scope": [
+    "California / Tehama County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-tehama-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Tehama County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Tehama County Health Services Agency Public Health — Strategic Plan 2025–2028, final page",
+      "urls": [
+        "https://www.tehamacohealthservices.net/wp-content/uploads/2025/07/Tehama-Public-Health-StrategicPlan_2025-2028.pdf",
+        "https://www.tehamacohealthservices.net/get-in-touch/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "publichealth@tchsa.net",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Public Health contact published on the final page of the agency strategic plan.",
+      "limitations": "Page image verified. Not a direct director address; designated grievance, compliance and crisis channels remain separate. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Do not submit confidential records through ordinary email."
+    }
+  ]
+}

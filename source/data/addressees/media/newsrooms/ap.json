@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/ap",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Associated Press",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": null,
+  "scope": [
+    "National and international"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "ap",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ap.org/contact-us/news-tips/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.ap.org/contact-us/news-tips/",
+        "signal": "1-202-281-8604"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "Associated Press",
+        "coverage": "National and international",
+        "source_urls": [
+          "https://www.ap.org/contact-us/news-tips/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Public-interest investigations with national significance.",
+        "limitations": "Use official instructions; no system guarantees complete anonymity."
+      }
+    }
+  ]
+}

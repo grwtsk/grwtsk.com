@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-sacramento",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "daoffice@sacda.org",
+  "scope": [
+    "California / Sacramento County",
+    "historical_affiliation_recheck"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Thien Ho"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-sacramento",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.sacda.org/",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.sacda.org/"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Sacramento County",
+        "listed_officeholder": "Thien Ho",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "historical_affiliation_recheck",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Sacramento County Elected Officials contact page",
+      "urls": [
+        "https://www.saccounty.gov/ContactUs"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "daoffice@sacda.org",
+      "listed_officeholder": "Thien Ho",
+      "role": "District Attorney office",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Public official or institutional inquiries within the published office's remit.",
+      "limitations": "Verify current officeholder, jurisdiction and channel purpose before use; do not use ordinary email for sensitive records. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Thien Ho"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-lake",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "susan.krones@lakecountyca.gov",
+  "scope": [
+    "California / Lake County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Susan Krones"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-lake",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.lakecountyca.gov/203/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.lakecountyca.gov/203/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Lake County",
+        "listed_officeholder": "Susan Krones",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Lake County staff directory — District Attorney",
+      "urls": [
+        "https://www.lakecountyca.gov/m/directory"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "susan.krones@lakecountyca.gov",
+      "listed_officeholder": "Susan J. Krones",
+      "role": "District Attorney",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "District attorney public office correspondence within county jurisdiction.",
+      "limitations": "Confirm current mailbox, jurisdiction and appropriate remit before correspondence. Not a substitute for designated complaint, crime-reporting, legal filing or client intake procedures. Do not send confidential records through ordinary email. Deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Susan J. Krones"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/dra",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Disability Rights Advocates",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@dralegal.org",
+  "scope": [
+    "California / National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "dra",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dralegal.org/contact-us/"
+      ],
+      "channel": {
+        "kind": "systemic_legal_inquiry",
+        "url": "https://dralegal.org/contact-us/",
+        "phone": "510-665-8644"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "Disability Rights Advocates",
+        "service_area": "California / National",
+        "purpose": "Systemic disability civil rights litigation; organization does not take isolated individual discrimination cases.",
+        "source_urls": [
+          "https://dralegal.org/contact-us/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "investigation_organizations",
+      "record_id": "dra",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://dralegal.org/contact-us/"
+      ],
+      "channel": {
+        "kind": "systemic_legal_intake",
+        "url": "https://dralegal.org/contact-us/"
+      },
+      "record": {
+        "organization": "Disability Rights Advocates",
+        "role": "civil_rights_litigation_counsel",
+        "source_urls": [
+          "https://dralegal.org/contact-us/"
+        ],
+        "verified_on": "2026-11-24",
+        "relevance": "Prior Stanford University disability rights settlement; legal screening of widespread discrimination.",
+        "limits": "DRA does not take isolated individual discrimination cases. Office 510-665-8644."
+      }
+    },
+    {
+      "source_title": "Disability Rights Advocates contact page",
+      "urls": [
+        "https://dralegal.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@dralegal.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Questions regarding DRA cases and systemic disability rights matters. Not an isolated individual case intake.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/cvjc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Central Valley Journalism Collaborative / The Intersection",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "info@cvlocaljournalism.org",
+  "scope": [
+    "Central Valley / California health equity"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "cvjc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cvlocaljournalism.org/contact/"
+      ],
+      "channel": {
+        "kind": "general_organization_inquiry",
+        "url": "https://cvlocaljournalism.org/contact/",
+        "phone": "559-325-4076"
+      },
+      "record": {
+        "category": "central_valley",
+        "outlet": "Central Valley Journalism Collaborative / The Intersection",
+        "coverage": "Central Valley / California health equity",
+        "source_urls": [
+          "https://cvlocaljournalism.org/contact/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Health equity reporting network and local newsroom referral; The Intersection is a reporting lab.",
+        "limitations": "General office inquiry, not a verified dedicated tip address for The Intersection.",
+        "shared_network": "cvjc"
+      }
+    }
+  ]
+}

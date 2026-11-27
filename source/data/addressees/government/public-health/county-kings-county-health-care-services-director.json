@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-kings-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "rosemary.rahn@co.kings.ca.us",
+  "scope": [
+    "California / Kings County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-kings-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Kings County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "CHEAC 2023 directory (published November 2022), PDF page 25; current CHEAC membership directory",
+      "urls": [
+        "https://cheac.org/wp-content/uploads/2022/11/2023-CHEAC-Directory-FINAL.pdf",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "rosemary.rahn@co.kings.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Published professional public health director email.",
+      "limitations": "Directory page image confirms historical email; current CHEAC membership directory lists same director but does not republish email. Recheck current mailbox. Statewide reference only. Deliverability not tested. Confirm remit before correspondence.",
+      "listed_officeholder": "Rose Mary Rahn"
+    }
+  ],
+  "listed_officeholder": "Rose Mary Rahn"
+}

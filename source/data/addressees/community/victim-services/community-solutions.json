@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/victim-services/community-solutions",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Community Solutions — Mariposas Resiliency Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "victim-services"
+  ],
+  "email": null,
+  "scope": [
+    "Santa Clara County"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "victim_resources",
+      "record_id": "community-solutions",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.communitysolutions.org/survivors-of-violence/",
+        "https://victims.ca.gov/board/trauma-recovery-centers/"
+      ],
+      "channel": {
+        "kind": "support_inquiry",
+        "url": "https://www.communitysolutions.org/survivors-of-violence/"
+      },
+      "record": {
+        "category": "local_victim_services",
+        "organization": "Community Solutions — Mariposas Resiliency Center",
+        "scope": "Santa Clara County",
+        "purpose": "Trauma recovery, counseling and justice navigation for qualifying victims of violent crime.",
+        "limits": "Use published program intake instructions; no separate number inferred from other programs.",
+        "source_urls": [
+          "https://www.communitysolutions.org/survivors-of-violence/",
+          "https://victims.ca.gov/board/trauma-recovery-centers/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_organization_or_government_directory_reviewed"
+      }
+    }
+  ]
+}

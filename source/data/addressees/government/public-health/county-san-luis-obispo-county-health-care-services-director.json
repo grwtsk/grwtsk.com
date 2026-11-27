@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-san-luis-obispo-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "PublicHealth.Contact@co.slo.ca.us",
+  "scope": [
+    "California / San Luis Obispo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-luis-obispo-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / San Luis Obispo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Luis Obispo County Public Health January 20, 2026 guidance, page 1; winter 2026 bulletin",
+      "urls": [
+        "https://www.slocounty.ca.gov/departments/health-agency/public-health/forms-documents/for-healthcare-providers/provider-notices/1-20-2026-slo-county-guidance-regarding-federal-changes-to-childhood-and-adolescent-vaccine-schedule",
+        "https://www.slocounty.ca.gov/departments/slo-health/public-health/forms-documents/communications/public-health-bulletin/2026-winter-public-health-bulletin"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "PublicHealth.Contact@co.slo.ca.us",
+      "role": "County health care services director",
+      "channel_kind": "published_department_email",
+      "stated_purpose": "Public Health department mailbox, published for questions and bulletin feedback.",
+      "limitations": "January 20 guidance PDF page image confirms address. This is an institutional public-health contact, not the health agency director's individual address or formal grievance intake. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Do not submit confidential records through ordinary email."
+    }
+  ]
+}

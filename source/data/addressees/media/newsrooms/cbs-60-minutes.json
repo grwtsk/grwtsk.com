@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:media/newsrooms/cbs-60-minutes",
+  "addressee_type": "organizational_or_official_route",
+  "name": "CBS News / 60 Minutes",
+  "aliases": [],
+  "taxonomy": [
+    "media",
+    "newsrooms"
+  ],
+  "email": "60m@cbsnews.com",
+  "scope": [
+    "National"
+  ],
+  "source_status": "official_institutional_page_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "news-media-resources",
+      "collection": "records",
+      "record_id": "cbs-60-minutes",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+      ],
+      "channel": {
+        "kind": "confidential_tip_options",
+        "url": "https://www.cbsnews.com/news/60-minutes-secure-tip-system/",
+        "signal": "1-917-682-0143"
+      },
+      "record": {
+        "category": "national",
+        "outlet": "CBS News / 60 Minutes",
+        "coverage": "National",
+        "source_urls": [
+          "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+        ],
+        "verification": "official_page_reviewed",
+        "checked_on": "2026-11-24",
+        "relevance": "Document-based national investigations including health care.",
+        "limitations": "Dedicated Signal or mail routes; not for editorials, blogs or press releases.",
+        "shared_network": "cbs"
+      }
+    },
+    {
+      "source_title": "CBS News — About Us: 60 Minutes",
+      "urls": [
+        "https://www.cbsnews.com/news/about-us-60-minutes/",
+        "https://www.cbsnews.com/news/60-minutes-secure-tip-system/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "60m@cbsnews.com",
+      "role": "CBS News / 60 Minutes",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General program correspondence.",
+      "limitations": "The program specifies separate secure tip submission channels; do not treat ordinary email as a confidential tip system or send sensitive attachments. Deliverability not tested. Do not send confidential records through ordinary email."
+    }
+  ]
+}

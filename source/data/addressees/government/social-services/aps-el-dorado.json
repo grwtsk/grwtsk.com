@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-el-dorado",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "laura.walny@edcgov.us",
+  "scope": [
+    "California / El Dorado County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-el-dorado",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / El Dorado County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "CWDA 2026 Directory, April 16, 2026 roster, printed page 19; relevant county source",
+      "urls": [
+        "https://www.ccwro.org/~documents/cwda-county-welfare-offices-cwda-directory/2026-cwda-roster-04-16-26/?layout=file",
+        "https://www.eldoradocounty.ca.gov/Public-Safety-Justice/Child-Adult-Protective-Services/Adult-Protective-Services"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "laura.walny@edcgov.us",
+      "published_contact_person": "Laura Walny",
+      "role": "Program Manager, Adult and In-Home Supportive Services",
+      "channel_kind": "published_professional_program_contact",
+      "stated_purpose": "Administrative correspondence within the documented adult-services remit.",
+      "limitations": "Roster's adult services fax matches the official APS reporting fax; email is program administration, not statutory intake. April 16, 2026 CWDA directory text reviewed; page-image retrieval failed (file-size limit or HTTP 403). Reconfirm current incumbent and mailbox before use. Retain official reporting procedures; this is not a designated abuse-report intake address. Do not transmit confidential records through ordinary email. Reconfirm current remit, publication and deliverability before use; deliverability not tested."
+    }
+  ]
+}

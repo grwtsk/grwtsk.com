@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-alpine",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "daoffice@alpinecountyca.gov",
+  "scope": [
+    "California / Alpine County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Robert Priscaro"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-alpine",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "http://www.alpinecountyca.gov/189/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "http://www.alpinecountyca.gov/189/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Alpine County",
+        "listed_officeholder": "Robert Priscaro",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Alpine County District Attorney — Contact Us",
+      "urls": [
+        "https://alpinecountyca.gov/189/District-Attorney"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "daoffice@alpinecountyca.gov",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "District attorney office correspondence; role-based address.",
+      "limitations": "Confirm current mailbox, remit and county jurisdiction before correspondence. Not an emergency reporting channel or a substitute for any designated crime-reporting, victim-services or legal filing procedure. Do not send private records through ordinary email. Deliverability not tested."
+    }
+  ]
+}

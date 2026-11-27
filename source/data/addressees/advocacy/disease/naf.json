@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disease/naf",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "National Ataxia Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disease"
+  ],
+  "email": "naf@ataxia.org",
+  "scope": [
+    "National",
+    "United States",
+    "purpose_specific"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "naf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ataxia.org/advocacy/",
+        "https://www.ataxia.org/contact/"
+      ],
+      "channel": {
+        "kind": "general_inquiry_and_advocacy",
+        "url": "https://www.ataxia.org/advocacy/",
+        "phone": "763-553-0020"
+      },
+      "record": {
+        "category": "neurological",
+        "organization": "National Ataxia Foundation",
+        "service_area": "National",
+        "purpose": "Ataxia support, specialist navigation and disease-specific public policy.",
+        "source_urls": [
+          "https://www.ataxia.org/advocacy/",
+          "https://www.ataxia.org/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "naf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ataxia.org/contact/"
+      ],
+      "channel": {
+        "kind": "coalition_intake",
+        "url": "https://www.ataxia.org/contact/"
+      },
+      "record": {
+        "role": "National Ataxia Foundation",
+        "jurisdiction": "United States",
+        "source": [
+          "https://www.ataxia.org/contact/"
+        ],
+        "verification": "official_page_reviewed",
+        "scope": "purpose_specific",
+        "purpose": "Invite patient advocacy and independent review referrals without disseminating personal medical information."
+      }
+    }
+  ]
+}

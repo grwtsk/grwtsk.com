@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-solano-board-of-supervisors-clerk",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Board of supervisors clerk",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "Clerk@solanocounty.gov",
+  "scope": [
+    "California / Solano County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-solano-board-of-supervisors-clerk",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "Board of supervisors clerk",
+        "jurisdiction": "California / Solano County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Solano County Board of Supervisors",
+      "urls": [
+        "https://www.solanocounty.gov/government/board-supervisors"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Clerk@solanocounty.gov",
+      "role": "Clerk of the Board",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Board records and public meeting administration.",
+      "limitations": "Verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ]
+}

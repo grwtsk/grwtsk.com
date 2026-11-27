@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-colusa-county-counsel",
+  "addressee_type": "named_public_office",
+  "name": "County counsel",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "rstout@countyofcolusa.com",
+  "scope": [
+    "California / Colusa County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-colusa-county-counsel",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County counsel",
+        "jurisdiction": "California / Colusa County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Colusa County staff directory — County Counsel",
+      "urls": [
+        "https://www.countyofcolusaca.gov/m/directory"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "rstout@countyofcolusa.com",
+      "role": "County counsel",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Professional contact for the listed County Counsel.",
+      "limitations": "County counsel represents the county; not legal representation of members of the public. Statewide reference only. Deliverability not tested. Confirm appropriate remit and avoid transmitting confidential records through ordinary email.",
+      "listed_officeholder": "Richard Stout"
+    }
+  ],
+  "listed_officeholder": "Richard Stout"
+}

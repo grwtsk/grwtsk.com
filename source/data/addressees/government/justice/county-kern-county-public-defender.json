@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-kern-county-public-defender",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County public defender",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "publicdefender@kerncounty.com",
+  "scope": [
+    "California / Kern County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-kern-county-public-defender",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County public defender",
+        "jurisdiction": "California / Kern County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Official county, court or professional office public contact evidence",
+      "urls": [
+        "https://www.kerncounty.com/government/departments/public-defender/contact-public-defender"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "publicdefender@kerncounty.com",
+      "role": "Public Defender main office",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General public defender office inquiries within the office remit.",
+      "limitations": "Official county contact page explicitly publishes the main office mailbox. Public defenders serve eligible clients in matters within their statutory or contracted remit; the address is not an independent medical-abuse investigation or general civil legal advice channel. Reconfirm role, mailbox, jurisdiction, eligibility and channel purpose before use. Do not send confidential information by ordinary email. Deliverability not tested."
+    }
+  ]
+}

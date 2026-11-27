@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/legislative/ca-asm-bp",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Assembly Business and Professions Committee",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "legislative"
+  ],
+  "email": null,
+  "scope": [
+    "California"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "ca-asm-bp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abp.assembly.ca.gov/"
+      ],
+      "channel": {
+        "kind": "committee_office",
+        "url": "https://abp.assembly.ca.gov/",
+        "phone": "916-319-3301"
+      },
+      "record": {
+        "level": "state_legislative",
+        "office": "Assembly Business and Professions Committee",
+        "scope": "California",
+        "purpose": "Physician licensing and oversight policy.",
+        "source_urls": [
+          "https://abp.assembly.ca.gov/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "limits": "Request policy oversight through committee or constituent member; do not submit sensitive records as public testimony."
+      }
+    },
+    {
+      "source_set": "medical-board-oversight",
+      "collection": "records",
+      "record_id": "asm-bp",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://abp.assembly.ca.gov/",
+        "https://abp.assembly.ca.gov/members",
+        "https://abp.assembly.ca.gov/hearings/joint-sunset-review-oversight-hearings"
+      ],
+      "shared_channel_id": "asmbp",
+      "record": {
+        "group": "legislative_oversight",
+        "role": "Assembly Business and Professions Committee",
+        "person": null,
+        "source_keys": [
+          "asmbp",
+          "asmbpmembers",
+          "sunset"
+        ],
+        "checked_on": "2026-11-24",
+        "purpose": "Joint sunset oversight and licensing/enforcement legislation.",
+        "limits": "Legislative policy, budget or appointments oversight, not disciplinary adjudication or guaranteed audit."
+      }
+    }
+  ],
+  "shared_channels": [
+    {
+      "id": "asmbp",
+      "channel": {
+        "url": "https://abp.assembly.ca.gov/",
+        "phone": "916-319-3301",
+        "kind": "committee_office"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/dca-mbc",
+      "relation": "legislative_oversight",
+      "basis": [
+        "https://abp.assembly.ca.gov/"
+      ],
+      "limits": "Licensing policy, not individual case disposition.",
+      "source": "authority-oversight",
+      "original_from": "ca-asm-bp",
+      "original_to": "dca-mbc"
+    }
+  ]
+}

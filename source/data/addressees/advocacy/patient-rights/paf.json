@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/patient-rights/paf",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Patient Advocate Foundation",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "patient-rights"
+  ],
+  "email": "education@patientadvocate.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "paf",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.patientadvocate.org/contact/"
+      ],
+      "channel": {
+        "kind": "patient_support",
+        "url": "https://www.patientadvocate.org/contact/",
+        "phone": "800-532-5274"
+      },
+      "record": {
+        "category": "patient_rights",
+        "organization": "Patient Advocate Foundation",
+        "service_area": "National",
+        "purpose": "Case management for qualifying chronic and debilitating illness and coverage/access barriers.",
+        "source_urls": [
+          "https://www.patientadvocate.org/contact/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "Patient Advocate Foundation — Contact Us",
+      "urls": [
+        "https://www.patientadvocate.org/contact/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "education@patientadvocate.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Patient Education and Empowerment Department inquiries; not a case management or financial aid application inbox.",
+      "limitations": "Confirm the stated program remit and preferred intake route before use. No private records in ordinary correspondence. Deliverability not tested."
+    }
+  ]
+}

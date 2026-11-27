@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/county-inyo-county-sheriff",
+  "addressee_type": "named_public_office",
+  "name": "County sheriff",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "sjrennie@inyocounty.us",
+  "scope": [
+    "California / Inyo County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-inyo-county-sheriff",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County sheriff",
+        "jurisdiction": "California / Inyo County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "statewide_reference_only",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Inyo County Elections — Your Elected Officials",
+      "urls": [
+        "https://elections.inyocounty.us/campaign-resources/your-elected-officials/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "sjrennie@inyocounty.us",
+      "role": "County sheriff",
+      "channel_kind": "published_official_officeholder_email",
+      "stated_purpose": "Publicly listed county sheriff officeholder contact in official elected-official directory.",
+      "limitations": "Directory is maintained on an older page; verify current role and address. Not emergency dispatch or a crime report. Statewide reference only. Confirm jurisdiction, current mailbox and appropriate remit. Deliverability not tested. Do not send confidential records through ordinary email.",
+      "listed_officeholder": "Stephanie Rennie"
+    }
+  ],
+  "listed_officeholder": "Stephanie Rennie"
+}

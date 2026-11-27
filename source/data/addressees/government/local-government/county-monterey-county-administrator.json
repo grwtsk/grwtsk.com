@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-monterey-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "cao-admin@countyofmonterey.gov",
+  "scope": [
+    "California / Monterey County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-monterey-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Monterey County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "County of Monterey Administrative Office — official contact page",
+      "urls": [
+        "https://www.countyofmonterey.gov/government/departments-a-h/administrative-office/intergovernmental-and-legislative-affairs/county-communications/contact-us"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "cao-admin@countyofmonterey.gov",
+      "role": "County administrator",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "County Administrative Office institutional mailbox.",
+      "limitations": "Institutional mailbox, not a direct personal address for the director. Statewide reference only; no case-specific jurisdiction established. Confirm appropriate remit and current mailbox before correspondence. Deliverability not tested. Use designated secure or formal complaint channels."
+    }
+  ]
+}

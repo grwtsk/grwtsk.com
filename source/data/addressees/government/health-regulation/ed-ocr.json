@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/health-regulation/ed-ocr",
+  "addressee_type": "organizational_or_official_route",
+  "name": "U.S. Department of Education Office for Civil Rights",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "health-regulation"
+  ],
+  "email": null,
+  "scope": [],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "victim-support-and-stanford-investigations",
+      "collection": "investigation_organizations",
+      "record_id": "ed-ocr",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint"
+      ],
+      "channel": {
+        "kind": "education_discrimination_intake",
+        "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint"
+      },
+      "record": {
+        "organization": "U.S. Department of Education Office for Civil Rights",
+        "role": "education_civil_rights_regulator",
+        "source_urls": [
+          "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint"
+        ],
+        "verified_on": "2026-11-24",
+        "relevance": "Prior Stanford University Title IX and Title VI investigations.",
+        "limits": "Education jurisdiction distinct from HHS OCR healthcare complaints. Use only when educational program facts fit."
+      }
+    }
+  ]
+}

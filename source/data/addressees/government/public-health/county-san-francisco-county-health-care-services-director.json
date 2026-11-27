@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-san-francisco-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "daniel.tsai@sfdph.org",
+  "scope": [
+    "California / San Francisco County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-san-francisco-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / San Francisco County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "San Francisco Board of Supervisors public program funding agreement, signed January 2026, attachment L-3; Board correspondence November 5, 2025; CHEAC directory",
+      "urls": [
+        "https://sfgov.legistar.com/View.ashx?GUID=00A63975-821A-4A02-BDB1-8A6F75FCC0ED&ID=15150535&M=F",
+        "https://sfgov.legistar.com/View.ashx?GUID=301BA475-9788-4F03-83AF-AE12C30B7376&ID=15028260&M=F",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "daniel.tsai@sfdph.org",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Professional email for the Director of Health, explicitly used in official board correspondence and funding agreement.",
+      "limitations": "Two public document text extracts establish the professional address; board packet screenshot request failed HTTP 410. Current role separately corroborated; mailbox and appropriate complaint route require recheck. Deliverability not tested. Confirm remit before correspondence.",
+      "listed_officeholder": "Daniel Tsai"
+    }
+  ],
+  "listed_officeholder": "Daniel Tsai"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "addressee:labor/worker-rights/sgwu",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Stanford Graduate Workers Union (UE Local 1043)",
+  "aliases": [],
+  "taxonomy": [
+    "labor",
+    "worker-rights"
+  ],
+  "email": "contact@sgwu.us",
+  "scope": [
+    "Stanford graduate employees"
+  ],
+  "source_status": "imported_existing_research_requires_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "sgwu",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://sgwu.us/",
+        "https://sgwu.us/contract/",
+        "https://sgwu.us/emails/",
+        "https://sgwu.us/emails/archive-2025-07-2025-08/"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://sgwu.us/"
+      },
+      "record": {
+        "type": "stanford_university_labor",
+        "name": "Stanford Graduate Workers Union (UE Local 1043)",
+        "scope": "Stanford graduate employees",
+        "source_urls": [
+          "https://sgwu.us/",
+          "https://sgwu.us/contract/",
+          "https://sgwu.us/emails/",
+          "https://sgwu.us/emails/archive-2025-07-2025-08/"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Graduate worker contract protections, discrimination, grievance procedures and health coverage continuity.",
+        "limits": "Use organizational contact for appropriate policy inquiries; member-only grievance and listserv channels are not public complaint distribution."
+      }
+    }
+  ]
+}

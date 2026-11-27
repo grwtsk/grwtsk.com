@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "addressee:education/disability-access/msdci",
+  "addressee_type": "organizational_or_official_route",
+  "name": "Medical Students with Disability & Chronic Illness — Stanford chapter",
+  "aliases": [],
+  "taxonomy": [
+    "education",
+    "disability-access"
+  ],
+  "email": null,
+  "scope": [
+    "Stanford medical students"
+  ],
+  "source_status": "published_non_email_route_requires_recheck",
+  "publication_status": "email_not_established",
+  "deliverability": "not_tested",
+  "resolution_status": "non_email_route",
+  "sources": [
+    {
+      "source_set": "worker-rights-and-related-incident-reports",
+      "collection": "organizations",
+      "record_id": "msdci",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://med.stanford.edu/smsa/student-life/student-orgs/msdci.html"
+      ],
+      "channel": {
+        "kind": "organization_or_program_directory",
+        "url": "https://med.stanford.edu/smsa/student-life/student-orgs/msdci.html"
+      },
+      "record": {
+        "type": "campus_disability_policy",
+        "name": "Medical Students with Disability & Chronic Illness — Stanford chapter",
+        "scope": "Stanford medical students",
+        "source_urls": [
+          "https://med.stanford.edu/smsa/student-life/student-orgs/msdci.html"
+        ],
+        "checked_on": "2026-11-24",
+        "verification": "official_organization_or_government_page_reviewed",
+        "purpose": "Medical trainee disability access, education and peer support.",
+        "limits": "Voluntary student support group, not an intake for named complaints."
+      }
+    }
+  ]
+}

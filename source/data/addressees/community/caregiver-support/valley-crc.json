@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "addressee:community/caregiver-support/valley-crc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "Valley Caregiver Resource Center",
+  "aliases": [],
+  "taxonomy": [
+    "community",
+    "caregiver-support"
+  ],
+  "email": "info@valleycrc.org",
+  "scope": [
+    "Fresno / Central Valley"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "community-support",
+      "collection": "resources",
+      "record_id": "valley-crc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.valleycrc.org/contact-us"
+      ],
+      "channel": {
+        "type": "caregiver_support",
+        "url": "https://www.valleycrc.org/contact-us"
+      },
+      "record": {
+        "category": "family_support",
+        "organization": "Valley Caregiver Resource Center",
+        "service_area": "Fresno / Central Valley",
+        "purpose": "Local family caregiver assessment, assistance, and referral.",
+        "limitations": "Do not submit personal medical information via general webform; ask for confidential communication.",
+        "source_urls": [
+          "https://www.valleycrc.org/contact-us"
+        ],
+        "verification": "official_organization_page_reviewed",
+        "verified_on": "2026-11-24",
+        "theme_ids": [
+          "caregiver-support",
+          "community-support",
+          "continuity-of-care"
+        ],
+        "contact_policy": {
+          "purpose": "caregiver_support_inquiry",
+          "disclosure": "minimal",
+          "action": "verify_service_eligibility_and_route",
+          "email_status": "not_established"
+        }
+      }
+    },
+    {
+      "source_title": "Valley Caregiver Resource Center — Contact Us, General Inquiries",
+      "urls": [
+        "https://www.valleycrc.org/contact-us",
+        "https://www.caregiver.org/resource/californias-caregiver-resource-centers/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@valleycrc.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "General inquiries concerning caregiver support and resource navigation in Fresno and the listed Central Valley counties.",
+      "limitations": "Confirm current address and appropriate remit before correspondence. Retain designated intake and confidential reporting procedures. Publication does not establish consent to bulk outreach. No private records through ordinary email. Deliverability not tested. Do not include personal medical information in initial correspondence; arrange confidential communication through the organization."
+    }
+  ]
+}

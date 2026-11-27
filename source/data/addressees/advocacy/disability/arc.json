@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "addressee:advocacy/disability/arc",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "The Arc of the United States",
+  "aliases": [],
+  "taxonomy": [
+    "advocacy",
+    "disability"
+  ],
+  "email": "info@thearc.org",
+  "scope": [
+    "National"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "disease-disability-and-civic-resources",
+      "collection": "records",
+      "record_id": "arc",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.thearc.org/policy-advocacy/"
+      ],
+      "channel": {
+        "kind": "policy_program",
+        "url": "https://www.thearc.org/policy-advocacy/"
+      },
+      "record": {
+        "category": "disability_rights",
+        "organization": "The Arc of the United States",
+        "service_area": "National",
+        "purpose": "Intellectual and developmental disability rights and family supports; disease-specific service eligibility applies.",
+        "source_urls": [
+          "https://www.thearc.org/policy-advocacy/"
+        ],
+        "verification": "published_official_organization_or_government_directory_reviewed",
+        "checked_on": "2026-11-24"
+      }
+    },
+    {
+      "source_title": "The Arc accessibility statement",
+      "urls": [
+        "https://www.thearc.org/accessibility-statement/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "info@thearc.org",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Website accessibility suggestions; confirm broader advocacy contact before use.",
+      "limitations": "Use only for the published role or channel purpose. Verify current scope and appropriateness. No sensitive records in ordinary email. Deliverability not tested."
+    }
+  ]
+}

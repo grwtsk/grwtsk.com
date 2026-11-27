@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/local-government/county-alameda-county-administrator",
+  "addressee_type": "named_public_office",
+  "name": "County administrator",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "local-government"
+  ],
+  "email": "countyadministrator@acgov.org",
+  "scope": [
+    "California / Alameda County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_directory_snapshot_requires_current_role_and_channel_recheck",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-alameda-county-administrator",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County administrator",
+        "jurisdiction": "California / Alameda County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "International City/County Management Association active member profile; Alameda County Administrator's Office",
+      "urls": [
+        "https://members.icma.org/eweb/DynamicPage.aspx?indkey=f29ae5ba-f44f-42e3-bbe8-a15fed699d9e&site=icmares&webcode=nacaindprofileview",
+        "https://cao.acgov.org/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "countyadministrator@acgov.org",
+      "role": "County administrator",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Office mailbox published in professional association directory; current county contact page confirms the officeholder.",
+      "limitations": "Office address, not personal address. Association directory is not the county's own email publication; verify current mailbox. Deliverability not tested. Confirm remit before correspondence.",
+      "listed_officeholder": "Susan S. Muranishi"
+    }
+  ],
+  "listed_officeholder": "Susan S. Muranishi"
+}

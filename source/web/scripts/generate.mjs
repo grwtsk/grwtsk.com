@@ -23,7 +23,7 @@ const candidate = join(stage, 'site');
 const old = join(stage, 'previous');
 const live = join(web, '.generated');
 try {
-  run(generator, [parser, join(source, 'data'), candidate]);
+  run(generator, [parser, join(source, 'data', 'articles'), candidate]);
   if (existsSync(live)) renameSync(live, old);
   try { renameSync(candidate, live); }
   catch (error) {

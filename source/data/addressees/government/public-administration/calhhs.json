@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-administration/calhhs",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "California Health and Human Services Agency",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-administration"
+  ],
+  "email": "chhsmail@chhs.ca.gov",
+  "scope": [
+    "California"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Kim Johnson"
+  ],
+  "sources": [
+    {
+      "source_set": "authority-oversight",
+      "collection": "authority_records",
+      "record_id": "calhhs",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.chhs.ca.gov/about/contact-us/",
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "channel": {
+        "kind": "office_phone_mail",
+        "url": "https://www.chhs.ca.gov/about/contact-us/",
+        "phone": "916-654-3454",
+        "mail": "1215 O Street, Sacramento, CA 95814"
+      },
+      "record": {
+        "level": "state_executive",
+        "office": "California Health and Human Services Agency",
+        "scope": "California",
+        "purpose": "Request executive coordination of health facility oversight, social services and access.",
+        "source_urls": [
+          "https://www.chhs.ca.gov/about/contact-us/",
+          "https://www.chhs.ca.gov/about/"
+        ],
+        "verified_on": "2026-11-24",
+        "verification": "official_published_page_reviewed",
+        "listed_officeholder": "Kim Johnson",
+        "limits": "Use formal agency-specific intake for complaints; email shown for records requests is not a complaint intake."
+      }
+    },
+    {
+      "source_title": "California Health and Human Services — Contact Us",
+      "urls": [
+        "https://www.chhs.ca.gov/about/contact-us/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "chhsmail@chhs.ca.gov",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Official mailbox designated for scheduling and speaker requests and Public Records Act requests.",
+      "limitations": "Confirm current address and intended remit before correspondence; no private records by ordinary email. Deliverability not tested. Not designated as individual complaint or emergency intake; use for the stated purposes only."
+    }
+  ],
+  "relationships": [
+    {
+      "to": "addressee:government/health-regulation/cdph",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction.",
+      "source": "authority-oversight",
+      "original_from": "calhhs",
+      "original_to": "cdph"
+    },
+    {
+      "to": "addressee:government/social-services/cdss-aps",
+      "relation": "agency_oversight",
+      "basis": [
+        "https://www.chhs.ca.gov/about/"
+      ],
+      "limits": "Facility and social services matters have distinct jurisdiction.",
+      "source": "authority-oversight",
+      "original_from": "calhhs",
+      "original_to": "cdss-aps"
+    }
+  ]
+}

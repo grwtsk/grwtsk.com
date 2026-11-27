@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/justice/da-merced",
+  "addressee_type": "named_public_office",
+  "name": "County district attorney",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "justice"
+  ],
+  "email": "nicole.silveira@countyofmerced.com",
+  "scope": [
+    "California / Merced County",
+    "statewide_reference_only"
+  ],
+  "source_status": "official_public_office_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "listed_officeholders": [
+    "Nicole Silviera"
+  ],
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "da-merced",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://www.countyofmerced.com/3886/District-Attorney",
+        "https://www.cdaa.org/CDAAweb/CDAAweb/About-Us/California-District-Attorney-Offices.aspx"
+      ],
+      "channel": {
+        "kind": "office_website",
+        "url": "https://www.countyofmerced.com/3886/District-Attorney"
+      },
+      "record": {
+        "role": "County district attorney",
+        "jurisdiction": "California / Merced County",
+        "listed_officeholder": "Nicole Silviera",
+        "source": [
+          "cdaa"
+        ],
+        "verification": "directory_snapshot_recheck_incumbent",
+        "scope": "statewide_reference_only",
+        "purpose": "Criminal referral only if facts establish venue and jurisdiction. Ask intake to route any applicable bias, abuse or victim services matter."
+      }
+    },
+    {
+      "source_title": "Merced County Association of Governments, Directory of Governments 2026, printed page 9",
+      "urls": [
+        "https://www.mcagov.org/DocumentCenter/View/4002/Directory-of-Governments-2026#page=11"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "nicole.silveira@countyofmerced.com",
+      "listed_officeholder": "Nicole Silveira",
+      "role": "District Attorney",
+      "channel_kind": "published_official_office_email",
+      "stated_purpose": "Official prosecutorial office inquiries; verify venue and reporting procedure.",
+      "limitations": "Directory snapshot; verify current officeholder, jurisdiction and designated channel before use. No sensitive records through ordinary email; deliverability not tested."
+    }
+  ],
+  "listed_officeholder": "Nicole Silveira"
+}

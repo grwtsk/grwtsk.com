@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/public-health/county-alameda-county-health-care-services-director",
+  "addressee_type": "named_public_office",
+  "name": "County health care services director",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "public-health"
+  ],
+  "email": "Aneeka.Chaudhry@acgov.org",
+  "scope": [
+    "California / Alameda County",
+    "documented_stanford_location"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "directory_lookup_records",
+      "record_id": "county-alameda-county-health-care-services-director",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://admin.cdn.sos.ca.gov/ca-roster/2026/counties.pdf"
+      ],
+      "record": {
+        "role": "County health care services director",
+        "jurisdiction": "California / Alameda County",
+        "source": "county_roster",
+        "verification": "directory_lookup_required",
+        "scope": "documented_stanford_location",
+        "purpose": "Find the relevant county office and verify incumbent and jurisdiction before any correspondence. This is not a confirmed separate recipient."
+      }
+    },
+    {
+      "source_title": "Alameda County Board of Supervisors January 27, 2026 agenda, HCSA_399327, PDF page 8; CHEAC membership directory",
+      "urls": [
+        "https://www.alamedacountyca.gov/board/bos_calendar/documents/DocsAgendaReg_01_27_26/HEALTH%20CARE%20SERVICES/Regular%20Calendar/HCSA_399327.pdf",
+        "https://cheac.org/members/"
+      ],
+      "source_review_date": "2026-11-24",
+      "published_address": "Aneeka.Chaudhry@acgov.org",
+      "role": "County health care services director",
+      "channel_kind": "published_professional_contact",
+      "stated_purpose": "Professional agency director address; agenda agreement lists interim director as signatory, and CHEAC current membership directory lists agency director.",
+      "limitations": "PDF page image and text confirm the address in the January 2026 agreement. Contract signatory address is not established as general complaint intake. Deliverability not tested. Confirm remit before correspondence.",
+      "listed_officeholder": "Aneeka Chaudhry"
+    }
+  ],
+  "listed_officeholder": "Aneeka Chaudhry"
+}

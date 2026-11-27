@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "addressee:government/social-services/aps-sierra",
+  "addressee_type": "organizational_or_official_mailbox",
+  "name": "County Adult Protective Services",
+  "aliases": [],
+  "taxonomy": [
+    "government",
+    "social-services"
+  ],
+  "email": "humanservices@sierracounty.ca.gov",
+  "scope": [
+    "California / Sierra County",
+    "statewide_reference_only"
+  ],
+  "source_status": "published_official_source_email_observed",
+  "publication_status": "published_professional_or_official_contact",
+  "deliverability": "not_tested",
+  "resolution_status": "published_email",
+  "sources": [
+    {
+      "source_set": "outreach-registry",
+      "collection": "contact_records",
+      "record_id": "aps-sierra",
+      "source_review_date": "2026-11-24",
+      "urls": [
+        "https://cdss.ca.gov/adult-protective-services"
+      ],
+      "channel": {
+        "kind": "statewide_zip_routed_phone",
+        "phone": "833-401-0832",
+        "url": "https://cdss.ca.gov/adult-protective-services"
+      },
+      "record": {
+        "role": "County Adult Protective Services",
+        "jurisdiction": "California / Sierra County",
+        "source": [
+          "aps"
+        ],
+        "verification": "official_shared_routing_channel",
+        "scope": "statewide_reference_only",
+        "purpose": "Dependent-adult abuse or neglect in county of residence or applicable location; route by ZIP code; not 58 separate numbers."
+      }
+    },
+    {
+      "source_title": "Published official institutional contact and role evidence",
+      "urls": [
+        "https://sierracounty.ca.gov/m/directory",
+        "https://www.sierracounty.ca.gov/427/Adult-Protective-Services-APS"
+      ],
+      "source_review_date": "2026-11-25",
+      "published_address": "humanservices@sierracounty.ca.gov",
+      "role": "Sierra County Social Services public mailbox",
+      "channel_kind": "published_organizational_email",
+      "stated_purpose": "Administrative inquiries; retain telephone and confidential reporting procedures.",
+      "limitations": "Official county staff directory lists email for Social Services and Health and Human Services; APS page identifies Social Services as the relevant office. Parent-department mailbox, not a separate APS-only inbox. Confirm current role, address and applicable remit before use. Preserve designated intake routes; do not transmit confidential records through ordinary email. Deliverability not tested."
+    }
+  ]
+}
